@@ -74,6 +74,8 @@ def svg_map(data, geo, aud, cities, featured, width=800, inset=False):
     out = [f'<svg viewBox="0 0 {W:.0f} {H:.0f}" xmlns="http://www.w3.org/2000/svg" role="img" '
            f'aria-label="Map of where the occultation is visible" class="occ-svg{" occ-inset" if inset else ""}">']
     out.append(f'<rect width="{W:.0f}" height="{H:.0f}" class="sea"/>')
+    if not inset:
+        out[0] = out[0].replace('class="occ-svg', 'id="main-map" class="occ-svg')
     out.append(f'<path class="land" d="{p.path_lonlat(geo["land"])}"/>')
     if geo.get("borders"):
         out.append(f'<path class="border" d="{p.path_lonlat(geo["borders"], close=False)}"/>')
@@ -103,6 +105,8 @@ def svg_map(data, geo, aud, cities, featured, width=800, inset=False):
             if not (0 <= x <= W and 0 <= y <= H):
                 continue
             out.append(f'<text class="city-label" x="{x + r*1.6:.1f}" y="{y + r*0.9:.1f}">{esc(c["name"])}</text>')
+    if not inset:
+        out.append('<g id="pin" hidden><circle r="9" class="pin-ring"/><circle r="2.5" class="pin-dot"/></g>')
     out.append("</svg>")
     return "\n".join(out)
 
@@ -193,6 +197,10 @@ BASE_CSS = """
     .lead { font-size: 1.1rem; margin-top: 1rem; }
     .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.6rem; margin: 1.2rem 0; }
     .fact { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 0.9rem; }
+    .facts-main { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 1.1rem; }
+    .facts-main .fact { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+    .facts-main .fact-value { font-size: 1.45rem; white-space: nowrap; }
+    .meta { color: var(--muted); font-size: 0.88rem; }
     .fact-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
     .fact-value { font-size: 1.3rem; font-weight: 700; margin-top: 0.15rem; letter-spacing: -0.01em; }
     .fact-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
@@ -252,6 +260,16 @@ BASE_CSS = """
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
+    .loc-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .loc-row { display: flex; flex-wrap: wrap; gap: 0.5rem 0.8rem; align-items: center; font-size: 0.9rem; }
+    .loc-row input { font: inherit; width: 7.5rem; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+    .loc-row select { font: inherit; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 45vw; }
+    .loc-result { margin-top: 0.8rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
+    .loc-result .fact-value { font-size: 1.15rem; }
+    .loc-result .verdict { grid-column: 1 / -1; font-weight: 600; }
+    .loc-result .verdict.miss { color: var(--c-miss); } .loc-result .verdict.visible { color: var(--c-visible); } .loc-result .verdict.moon_down { color: var(--c-down); }
+    #main-map { cursor: crosshair; }
+    .pin-ring { fill: none; stroke: var(--c-limit); stroke-width: 2; } .pin-dot { fill: var(--c-limit); }
     .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
     .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
     .event-card:hover { border-color: var(--accent); text-decoration: none; }
@@ -385,28 +403,28 @@ def build(seed, slug):
         "isAccessibleForFree": True,
     }
 
+    p_main = Proj(geo["bbox"], aud["lat0"], 800)
     limb = {
         "tz": aud["tz"], "tzl": tzl, "target": tname, "kind": kind,
-        "target_sd": round(g["target_sd_arcsec"] / 60, 3),
         "illum": g["illum_pct"] / 100, "bright_pa": g["bright_limb_pa"],
-        "cities": {c["name"]: {**c["track"], "contacts": c.get("contacts", {}), "verdict": c["verdict"]}
-                   for c in cities if c.get("track")},
+        "elements": data["elements"],
+        "proj": {"lon0": p_main.lon0, "lat1": p_main.lat1, "k": p_main.k, "s": p_main.s, "W": p_main.W, "H": p_main.H},
+        "cities": {c["name"]: [c["lat"], c["lon"]] for c in cities},
     }
-    limb_order = [c["name"] for c in feat_rows if c.get("track")] + \
-                 [c["name"] for c in rest_rows if c.get("track")]
+    limb_order = [c["name"] for c in feat_rows] + [c["name"] for c in rest_rows]
     limb_options = "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in limb_order)
 
     def fact(label, value, sub=""):
         return (f'<div class="fact"><div class="fact-label">{label}</div><div class="fact-value">{value}</div>'
                 f'{f"<div class=fact-sub>{sub}</div>" if sub else ""}</div>')
 
-    facts = [
-        fact("Closest approach", f"{t_min_local.strftime('%H:%M')} {tzl}", f"geocentric, {g['min_sep_deg']:.2f}° centre to centre"),
-        fact("Moon", f"{g['moon_age_days']:.1f} days old", f"{g['illum_pct']:.0f}% lit · {g['elongation_deg']:.0f}° from the Sun"),
-        fact(f"{tname} hidden for", f"up to {max_hidden:.0f} min", f"{esc(longest['name'])}, {longest['hidden_min']:.0f} min" if longest else ""),
-        fact("Watch from", f"{first_d.astimezone(tz).strftime('%H:%M')}–{last_r.astimezone(tz).strftime('%H:%M')} {tzl}" if first_d else "—",
+    facts_main = "".join([
+        fact(f"Watch from ({tzl})", f"{first_d.astimezone(tz).strftime('%H:%M')} – {last_r.astimezone(tz).strftime('%H:%M')}" if first_d else "—",
              f"{len(vis)} of {len(cities)} listed cities see it"),
-    ]
+        fact(f"{tname} hidden for", f"up to {max_hidden:.0f} min", f"{esc(longest['name'])}, {longest['hidden_min']:.0f} min" if longest else ""),
+    ])
+    facts_meta = (f"Closest approach {t_min_local.strftime('%H:%M')} {tzl} (geocentric, {g['min_sep_deg']:.2f}° centre to centre) · "
+                  f"Moon {g['moon_age_days']:.1f} days old, {g['illum_pct']:.0f}% lit, {g['elongation_deg']:.0f}° from the Sun")
 
     thead = (f'<tr><th>City</th><th>{tname} disappears <small>({tzl})</small></th>'
              f'<th>reappears <small>({tzl})</small></th><th>hidden</th><th>Moon alt.</th><th>Sky</th></tr>')
@@ -417,9 +435,9 @@ def build(seed, slug):
   <h1>{esc(title)}</h1>
   <p class="sub">{esc(h1)} · {esc(day)} · {esc(aud['label'])}</p>
 
+  <div class="facts facts-main">{facts_main}</div>
   <p class="lead">{esc(entry.get('note', ''))}</p>
-
-  <div class="facts">{''.join(facts)}</div>
+  <p class="meta">{esc(facts_meta)}</p>
 
   <h2>Where it can be seen</h2>
   <div class="map-card">
@@ -436,14 +454,25 @@ def build(seed, slug):
   {limit_para}
   {night_para}
 
-  <h2>At the Moon's edge</h2>
-  <p>Pick a city — or tap one on the map — to see {esc(tname)}'s path across the Moon from there, north up
-  and east to the left as in binoculars. Drag the slider to move it along its track.</p>
-  <div class="limb-card">
-    <div class="limb-controls">
-      <label>City <select id="limb-city">{limb_options}</select></label>
-      <span class="limb-readout" id="limb-readout"></span>
+  <h2>Your location</h2>
+  <p>Type a latitude and longitude, use your phone's location, tap anywhere on the map, or pick a city. The times
+  are computed here in your browser from the same ephemeris the table uses, to the same ±2 s.</p>
+  <div class="loc-card">
+    <div class="loc-row">
+      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="19.076"></label>
+      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="72.878"></label>
+      <button class="btn" id="loc-go" type="button">Compute</button>
+      <button class="btn" id="loc-geo" type="button">Use my location</button>
+      <label>City <select id="limb-city"><option value="">—</option>{limb_options}</select></label>
     </div>
+    <div class="loc-result" id="loc-result" hidden></div>
+  </div>
+
+  <h2>At the Moon's edge</h2>
+  <p>{esc(tname)}'s path across the Moon from the location above — north up, east to the left as in binoculars.
+  Drag the slider to move it along its track.</p>
+  <div class="limb-card">
+    <div class="limb-controls"><span id="limb-where" class="limb-readout"></span><span class="limb-readout" id="limb-readout"></span></div>
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
@@ -453,7 +482,6 @@ def build(seed, slug):
   <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
   couple of seconds. <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns.</p>
-  <p><button class="btn" id="nearest-btn" type="button">Highlight my nearest city</button></p>
   <div class="table-wrap">
     <table id="city-table">
       <thead>{thead}</thead>
@@ -482,89 +510,167 @@ def build(seed, slug):
 
 {FOOTER}
 <script>
+
 (function () {{
-  var D = JSON.parse(document.getElementById('limb-data').textContent);
-  var svg = document.getElementById('limb-svg'), sel = document.getElementById('limb-city'),
-      slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
-  var NS = 'http://www.w3.org/2000/svg', R = 150, cur = null;
-  function el(n, a, txt) {{ var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); if (txt) e.textContent = txt; return e; }}
-  function localTime(ms) {{ return new Date(ms).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: '2-digit' }}); }}
-  function pos(c, minutes) {{  // interpolate the track (east, north in arcmin) at t0 + minutes
-    var i = minutes / c.step_min, i0 = Math.max(0, Math.min(c.xy.length / 2 - 2, Math.floor(i))), f = i - i0;
-    var e = (c.xy[2*i0] * (1-f) + c.xy[2*i0+2] * f) / 100, n = (c.xy[2*i0+1] * (1-f) + c.xy[2*i0+3] * f) / 100;
-    return {{ x: -e / c.sd_arcmin * R, y: -n / c.sd_arcmin * R }};
+  var D = JSON.parse(document.getElementById('limb-data').textContent), E = D.elements;
+  var C = 299792.458, T0 = Date.parse(E.t0), HALF = E.half_hours * 60, R0 = E.R0, VE = E.v_earth_km_s;
+  var OMEGA = E.era_rate_deg_per_min * Math.PI / 180 / 60, RAD = Math.PI / 180;
+  function poly(c, t) {{ var v = 0; for (var i = c.length - 1; i >= 0; i--) v = v * t + c[i]; return v; }}
+  function dpoly(c, t) {{ var v = 0; for (var i = c.length - 1; i >= 1; i--) v = v * t + i * c[i]; return v; }}
+  function norm(v) {{ return Math.hypot(v[0], v[1], v[2]); }}
+  function dot(a, b) {{ return a[0]*b[0] + a[1]*b[1] + a[2]*b[2]; }}
+  function unit(v) {{ var n = norm(v); return [v[0]/n, v[1]/n, v[2]/n]; }}
+  // geometry for one observer, as a closure: mirrors element_geometry() in the generator
+  function observer(lat, lon) {{
+    var a = E.earth_a_km, f = E.earth_f, e2 = f * (2 - f), la = lat * RAD, lo = lon * RAD;
+    var N = a / Math.sqrt(1 - e2 * Math.sin(la) * Math.sin(la));
+    var r = [N * Math.cos(la) * Math.cos(lo), N * Math.cos(la) * Math.sin(lo), N * (1 - e2) * Math.sin(la)];
+    var up = [Math.cos(la) * Math.cos(lo), Math.cos(la) * Math.sin(lo), Math.sin(la)];
+    var wxr = [-OMEGA * r[1], OMEGA * r[0], 0];                  // omega x r, ITRS
+    return function geom(m) {{
+      var tau = m / HALF, th = E.era_rate_deg_per_min * m * RAD, c = Math.cos(th), s = Math.sin(th);
+      // R(t) = Rz(th).R0 (GCRS->ITRS); we need its transpose applied to ITRS vectors
+      var R = [c*R0[0] + s*R0[3], c*R0[1] + s*R0[4], c*R0[2] + s*R0[5],
+               -s*R0[0] + c*R0[3], -s*R0[1] + c*R0[4], -s*R0[2] + c*R0[5], R0[6], R0[7], R0[8]];
+      function toG(v) {{ return [R[0]*v[0] + R[3]*v[1] + R[6]*v[2], R[1]*v[0] + R[4]*v[1] + R[7]*v[2], R[2]*v[0] + R[5]*v[1] + R[8]*v[2]]; }}
+      var obs = toG(r), upg = toG(up), vrot = toG(wxr);
+      var vobs = [VE[0] + vrot[0], VE[1] + vrot[1], VE[2] + vrot[2]];
+      function topo(coef) {{
+        var P = [poly(coef[0], tau), poly(coef[1], tau), poly(coef[2], tau)];
+        var v = [dpoly(coef[0], tau) / (HALF * 60) + VE[0], dpoly(coef[1], tau) / (HALF * 60) + VE[1], dpoly(coef[2], tau) / (HALF * 60) + VE[2]];
+        var d = [P[0] - obs[0], P[1] - obs[1], P[2] - obs[2]], dist = norm(d), lt = dot(obs, d) / dist / C;
+        d = [d[0] + v[0] * lt, d[1] + v[1] * lt, d[2] + v[2] * lt];
+        var u = unit(d); u = unit([u[0] + vobs[0] / C, u[1] + vobs[1] / C, u[2] + vobs[2] / C]);
+        return {{ u: u, dist: dist }};
+      }}
+      var M = topo(E.moon), S = topo(E.target), sun = [poly(E.sun[0], tau) - obs[0], poly(E.sun[1], tau) - obs[1], poly(E.sun[2], tau) - obs[2]];
+      var sep = Math.acos(Math.max(-1, Math.min(1, dot(M.u, S.u)))) / RAD;
+      var sdm = Math.asin(E.moon_radius_km / M.dist) / RAD, sdt = E.target_radius_km ? Math.asin(E.target_radius_km / S.dist) / RAD : 0;
+      var ram = Math.atan2(M.u[1], M.u[0]), decm = Math.asin(M.u[2]), ras = Math.atan2(S.u[1], S.u[0]), decs = Math.asin(S.u[2]);
+      var dra = ((ras - ram + 3 * Math.PI) % (2 * Math.PI)) - Math.PI;
+      return {{ sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, alts: Math.asin(dot(unit(sun), upg)) / RAD,
+               east: dra * Math.cos(decm) / RAD * 60, north: (decs - decm) / RAD * 60 }};
+    }};
   }}
-  function draw(name) {{
-    var c = D.cities[name]; if (!c) return; cur = c;
+  function state(g) {{ return g.sep < g.sdm - g.sdt ? 2 : (g.sep < g.sdm + g.sdt ? 1 : 0); }}
+  function solve(lat, lon) {{
+    var geom = observer(lat, lon), contacts = {{}}, prev = state(geom(-HALF)), best = null, m;
+    for (m = -HALF + 0.5; m <= HALF; m += 0.5) {{
+      var g = geom(m), cur = state(g);
+      if (!best || g.sep < best.sep) {{ best = g; best.m = m; }}
+      if (cur !== prev) {{
+        var lo = m - 0.5, hi = m;
+        for (var i = 0; i < 40; i++) {{ var mid = (lo + hi) / 2; if (state(geom(mid)) === prev) lo = mid; else hi = mid; }}
+        var mc = (lo + hi) / 2;
+        if (prev === 0 && cur >= 1) contacts.D1 = mc;
+        if (prev <= 1 && cur === 2) contacts.D2 = mc;
+        if (prev === 2 && cur <= 1) contacts.R1 = mc;
+        if (prev >= 1 && cur === 0) contacts.R2 = mc;
+        prev = cur;
+      }}
+    }}
+    var keys = Object.keys(contacts), verdict;
+    if (keys.length) {{ verdict = keys.some(function (k) {{ return geom(contacts[k]).altm > 0; }}) ? 'visible' : 'moon_down'; }}
+    else verdict = best.altm > 0 ? 'miss' : 'moon_down';
+    var ref = contacts.D2 !== undefined ? contacts.D2 : (contacts.D1 !== undefined ? contacts.D1 : best.m);
+    return {{ geom: geom, contacts: contacts, closest: best, verdict: verdict, at: geom(ref), ref: ref,
+             hidden: (contacts.D2 !== undefined && contacts.R1 !== undefined) ? contacts.R1 - contacts.D2 : null }};
+  }}
+  function localTime(m, secs) {{ return new Date(T0 + m * 60000).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: secs ? '2-digit' : undefined }}); }}
+  function skyText(a) {{ return a > 0 ? 'daylight, Sun ' + (a > 0 ? '+' : '') + a.toFixed(0) + '°' : a > -6 ? 'sunset twilight' : a > -12 ? 'dusk' : 'dark sky'; }}
+
+  // ---- UI: location card ----
+  var latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), res = document.getElementById('loc-result');
+  var sel = document.getElementById('limb-city'), where = document.getElementById('limb-where'), pin = document.getElementById('pin');
+  var P = D.proj, cur = null;
+  function fact(l, v, s) {{ return '<div class="fact"><div class="fact-label">' + l + '</div><div class="fact-value">' + v + '</div>' + (s ? '<div class="fact-sub">' + s + '</div>' : '') + '</div>'; }}
+  function show(lat, lon, label) {{
+    lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
+    latI.value = lat.toFixed(4); lonI.value = lon.toFixed(4);
+    var r = solve(lat, lon), c = r.contacts, h = '';
+    if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
+      h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
+      h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
+      h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
+      h += fact('Moon altitude', (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°', skyText(r.at.alts));
+      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
+    }} else {{
+      var gap = r.closest.sep - r.closest.sdm;
+      h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
+      h += fact('Moon altitude', (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°', skyText(r.closest.alts));
+      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? D.target + ' passes ' + (gap * 60).toFixed(1) + '′ from the limb — a near miss from here.' : 'The Moon is below the horizon here.') + '</div>';
+    }}
+    res.innerHTML = h; res.hidden = false;
+    var x = (lon - P.lon0) * P.k * P.s, y = (P.lat1 - lat) * P.s;
+    if (x >= 0 && x <= P.W && y >= 0 && y <= P.H) {{ pin.setAttribute('transform', 'translate(' + x.toFixed(1) + ',' + y.toFixed(1) + ')'); pin.hidden = false; }} else pin.hidden = true;
+    where.textContent = (label || (lat.toFixed(3) + ', ' + lon.toFixed(3)));
+    drawLimb(r);
+    if (!label) sel.value = '';
+  }}
+  document.getElementById('loc-go').addEventListener('click', function () {{ show(latI.value, lonI.value); }});
+  [latI, lonI].forEach(function (i) {{ i.addEventListener('keydown', function (e) {{ if (e.key === 'Enter') show(latI.value, lonI.value); }}); }});
+  var geoBtn = document.getElementById('loc-geo');
+  if (!navigator.geolocation) geoBtn.hidden = true;
+  geoBtn.addEventListener('click', function () {{
+    geoBtn.disabled = true; geoBtn.textContent = 'Locating…';
+    navigator.geolocation.getCurrentPosition(function (p) {{ geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); }},
+      function () {{ geoBtn.textContent = 'Location unavailable'; }});
+  }});
+  sel.addEventListener('change', function () {{ var c = D.cities[sel.value]; if (c) show(c[0], c[1], sel.value); }});
+  var map = document.getElementById('main-map');
+  map.addEventListener('click', function (ev) {{
+    var pt = map.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+    var q = pt.matrixTransform(map.getScreenCTM().inverse());
+    var t = ev.target.closest && ev.target.closest('circle[data-city]');
+    if (t) {{ var c = D.cities[t.dataset.city]; show(c[0], c[1], t.dataset.city); }}
+    else show(P.lat1 - q.y / P.s, P.lon0 + q.x / (P.k * P.s));
+    document.querySelector('.loc-card').scrollIntoView({{ block: 'nearest', behavior: 'smooth' }});
+  }});
+
+  // ---- limb diagram ----
+  var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
+  var NS = 'http://www.w3.org/2000/svg', RM = 150, track = null;
+  function el(n, a, txt) {{ var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); if (txt) e.textContent = txt; return e; }}
+  function xy(g) {{ return {{ x: -g.east / g.sdm / 60 * RM, y: -g.north / g.sdm / 60 * RM }}; }}
+  function drawLimb(r) {{
     while (svg.firstChild) svg.removeChild(svg.firstChild);
-    var t0 = Date.parse(c.t0), span = (c.xy.length / 2 - 1) * c.step_min;
-    slider.max = span;
-    // phase: bright limb toward PA bright_pa; local frame has the bright limb at -y, rotated by -PA
-    var k = D.illum, b = R * Math.abs(2 * k - 1), sweep = k > 0.5 ? 1 : 0;
-    svg.appendChild(el('circle', {{ class: 'disc-dark', r: R }}));
+    var mid = (r.contacts.D2 !== undefined && r.contacts.R1 !== undefined) ? (r.contacts.D2 + r.contacts.R1) / 2 : r.ref;
+    track = {{ geom: r.geom, m0: mid - 80, span: 160, r: r }};
+    slider.max = track.span; slider.value = 80;
+    var k = D.illum, b = RM * Math.abs(2 * k - 1), sweep = k > 0.5 ? 1 : 0;
+    svg.appendChild(el('circle', {{ class: 'disc-dark', r: RM }}));
     svg.appendChild(el('path', {{ class: 'disc-bright', transform: 'rotate(' + (-D.bright_pa) + ')',
-      d: 'M ' + (-R) + ' 0 A ' + R + ' ' + R + ' 0 0 1 ' + R + ' 0 A ' + R + ' ' + b + ' 0 0 ' + sweep + ' ' + (-R) + ' 0 Z' }}));
-    svg.appendChild(el('circle', {{ class: 'disc-edge', r: R }}));
-    svg.appendChild(el('text', {{ class: 'lbl', x: 0, y: -R - 8, 'text-anchor': 'middle' }}, 'N'));
-    svg.appendChild(el('text', {{ class: 'lbl', x: -R - 8, y: 4, 'text-anchor': 'end' }}, 'E'));
-    // track, with the hidden stretch drawn faint
-    var pts = [], m;
-    for (m = 0; m <= span; m += 2) pts.push(pos(c, m));
-    svg.appendChild(el('polyline', {{ class: 'track', points: pts.map(function (p) {{ return p.x.toFixed(1) + ',' + p.y.toFixed(1); }}).join(' ') }}));
-    var marks = [['D1','D'],['D2','D'],['R1','R'],['R2','R']];
-    marks.forEach(function (mk) {{
-      var iso = c.contacts[mk[0]]; if (!iso) return;
-      var p = pos(c, (Date.parse(iso) - t0) / 60000);
+      d: 'M ' + (-RM) + ' 0 A ' + RM + ' ' + RM + ' 0 0 1 ' + RM + ' 0 A ' + RM + ' ' + b + ' 0 0 ' + sweep + ' ' + (-RM) + ' 0 Z' }}));
+    svg.appendChild(el('circle', {{ class: 'disc-edge', r: RM }}));
+    svg.appendChild(el('text', {{ class: 'lbl', x: 0, y: -RM - 8, 'text-anchor': 'middle' }}, 'N'));
+    svg.appendChild(el('text', {{ class: 'lbl', x: -RM - 8, y: 4, 'text-anchor': 'end' }}, 'E'));
+    var pts = [];
+    for (var m = 0; m <= track.span; m += 2) {{ var p = xy(r.geom(track.m0 + m)); pts.push(p.x.toFixed(1) + ',' + p.y.toFixed(1)); }}
+    svg.appendChild(el('polyline', {{ class: 'track', points: pts.join(' ') }}));
+    ['D1', 'D2', 'R1', 'R2'].forEach(function (kk) {{
+      if (r.contacts[kk] === undefined) return;
+      var p = xy(r.geom(r.contacts[kk]));
       svg.appendChild(el('circle', {{ class: 'contact', cx: p.x, cy: p.y, r: 3 }}));
-      if (mk[0] === 'D2' || mk[0] === 'R1' || (mk[0] === 'D1' && !c.contacts.D2) || (mk[0] === 'R2' && !c.contacts.R1))
-        svg.appendChild(el('text', {{ class: 'lbl', x: p.x + (mk[1] === 'D' ? 6 : -6), y: p.y - 6, 'text-anchor': mk[1] === 'D' ? 'start' : 'end' }},
-          mk[1] + ' ' + localTime(Date.parse(iso))));
+      if (kk === 'D2' || kk === 'R1')
+        svg.appendChild(el('text', {{ class: 'lbl', x: p.x + (kk[0] === 'D' ? 6 : -6), y: p.y - 6, 'text-anchor': kk[0] === 'D' ? 'start' : 'end' }}, kk[0] + ' ' + localTime(r.contacts[kk], true)));
     }});
-    if (c.verdict !== 'visible') svg.appendChild(el('text', {{ class: 'miss-note', x: 0, y: R + 28, 'text-anchor': 'middle' }},
-      c.verdict === 'miss' ? D.target + ' passes outside the limb from here' : 'Moon below the horizon here'));
-    svg.appendChild(el('circle', {{ id: 'limb-target', class: 'target', r: Math.max(2.5, D.target_sd / c.sd_arcmin * R) }}));
-    if (sel.value !== name) sel.value = name;
+    if (r.verdict !== 'visible') svg.appendChild(el('text', {{ class: 'miss-note', x: 0, y: RM + 28, 'text-anchor': 'middle' }},
+      r.verdict === 'miss' ? D.target + ' passes outside the limb from here' : 'Moon below the horizon here'));
+    var sdt = r.at.sdt, sdm = r.at.sdm;
+    svg.appendChild(el('circle', {{ id: 'limb-target', class: 'target', r: Math.max(2.5, sdt / sdm * RM) }}));
     update();
   }}
   function update() {{
-    if (!cur) return;
-    var m = +slider.value, p = pos(cur, m), t = document.getElementById('limb-target');
+    if (!track) return;
+    var m = track.m0 + (+slider.value), g = track.geom(m), p = xy(g), t = document.getElementById('limb-target');
     t.setAttribute('cx', p.x); t.setAttribute('cy', p.y);
-    var r = Math.hypot(p.x, p.y) / R;
-    t.style.opacity = r < 1 - D.target_sd / cur.sd_arcmin ? 0.25 : 1;
-    readout.textContent = localTime(Date.parse(cur.t0) + m * 60000) + ' ' + D.tzl;
+    t.style.opacity = g.sep < g.sdm - g.sdt ? 0.25 : 1;
+    readout.textContent = localTime(m, true) + ' ' + D.tzl;
   }}
-  sel.addEventListener('change', function () {{ draw(sel.value); }});
   slider.addEventListener('input', update);
-  document.querySelectorAll('circle[data-city]').forEach(function (ci) {{
-    ci.style.cursor = 'pointer';
-    ci.addEventListener('click', function () {{ draw(ci.dataset.city); document.querySelector('.limb-card').scrollIntoView({{ block: 'nearest', behavior: 'smooth' }}); }});
-  }});
-  window.limbDraw = draw;
-  draw(sel.value);
+  var first = sel.options[1]; if (first) {{ var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value); }}
 }})();
-(function () {{
-  var btn = document.getElementById('nearest-btn');
-  if (!btn || !navigator.geolocation) {{ if (btn) btn.hidden = true; return; }}
-  btn.addEventListener('click', function () {{
-    btn.disabled = true; btn.textContent = 'Locating…';
-    navigator.geolocation.getCurrentPosition(function (pos) {{
-      var la = pos.coords.latitude, lo = pos.coords.longitude, best = null, bd = 1e9;
-      document.querySelectorAll('tr[data-lat]').forEach(function (tr) {{
-        var d = Math.hypot(la - +tr.dataset.lat, (lo - +tr.dataset.lon) * Math.cos(la * Math.PI / 180));
-        if (d < bd) {{ bd = d; best = tr; }}
-        tr.classList.remove('nearest');
-      }});
-      if (best) {{
-        best.classList.add('nearest');
-        if (window.limbDraw) window.limbDraw(best.cells[0].textContent);
-        var det = best.closest('details'); if (det) det.open = true;
-        best.scrollIntoView({{ block: 'center', behavior: 'smooth' }});
-        btn.textContent = 'Nearest: ' + best.cells[0].textContent + ' (' + Math.round(bd * 111) + ' km)';
-      }}
-    }}, function () {{ btn.textContent = 'Location unavailable'; }});
-  }});
-}})();
+
 </script>
 </body>
 </html>
