@@ -359,7 +359,11 @@ def build(seed, slug):
     tname = tgt["common"]
 
     cities = data["cities"]
+    if aud["cities"] == "world":   # 400 big cities worldwide: only the ones with the Moon up are worth a row
+        cities = [c for c in cities if c["verdict"] != "moon_down"]
     featured = [n for n in aud["featured"] if any(c["name"] == n for c in cities)]
+    if not featured:   # world audience: the biggest cities that see it, then the biggest near misses
+        featured = [c["name"] for c in cities if c["verdict"] == "visible"][:14] + [c["name"] for c in cities if c["verdict"] == "miss"][:4]
     vis = [c for c in cities if c["verdict"] == "visible" and c.get("contacts")]
     misses = [c for c in cities if c["verdict"] == "miss"]
     by_name = {c["name"]: c for c in cities}
@@ -377,6 +381,15 @@ def build(seed, slug):
     near_miss = min(misses, key=lambda c: c["sep_arcmin"] - c["moon_sd_arcmin"]) if misses else None
 
     title = f"The Moon occults {tname} — {t_min_local.strftime('%-d %B %Y')}"
+    n_day = sum(1 for c in vis if c["sun_alt"] > -6)
+    if vis:
+        sky = ("in daylight" if n_day == len(vis) else "in a dark sky" if n_day == 0 else "in daylight for some, after sunset for others")
+        auto_note = (f"The Moon hides {tname} for up to {max_hidden:.0f} minutes, {sky}. "
+                     + (f"{len(vis)} of the {len(cities)} listed Indian cities see it" if aud["cities"] != "world" else
+                      f"{len(vis)} of the world's big cities see it")
+                     + (f"; {esc(near_miss['name'])} misses by {near_miss['sep_arcmin'] - near_miss['moon_sd_arcmin']:.1f}′." if near_miss else "."))
+    else:
+        auto_note = f"The Moon hides {tname}, but from no large city — the map shows where." 
     kind = "planet" if data["target"]["kind"] == "graha" else "star"
     h1 = f"Lunar occultation of the {kind} {tname}"
     desc = (f"Where and when the Moon hides {tname} on {t_min_local.strftime('%-d %B %Y')}: "
@@ -443,7 +456,7 @@ def build(seed, slug):
 
     facts_main = "".join([
         fact(f"Watch from ({tzl})", f"{first_d.astimezone(tz).strftime('%H:%M')} – {last_r.astimezone(tz).strftime('%H:%M')}" if first_d else "—",
-             f"{len(vis)} of {len(cities)} listed cities see it"),
+             f"{len(vis)} of {len(cities)} listed cities see it" if cities else "no large city sees it"),
         fact(f"{tname} hidden for", f"up to {max_hidden:.0f} min", f"{esc(longest['name'])}, {longest['hidden_min']:.0f} min" if longest else ""),
     ])
     facts_meta = (f"Closest approach {t_min_local.strftime('%H:%M')} {tzl} (geocentric, {g['min_sep_deg']:.2f}° centre to centre) · "
@@ -483,7 +496,7 @@ def build(seed, slug):
   <h1>{esc(title)}</h1>
   <p class="sub">{esc(h1)} · {esc(day)} · {esc(aud['label'])}</p>
   <div class="facts facts-main">{facts_main}</div>
-  <p class="lead">{esc(entry.get('note', ''))}</p>
+  <p class="lead">{esc(entry.get('note') or auto_note)}</p>
   <p class="meta">{esc(facts_meta)}</p>
 
   <h2 id="map">Where it can be seen</h2>
@@ -746,7 +759,7 @@ def build(seed, slug):
     (OUT / "data" / f"{slug}.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     print(f"wrote site/{slug}.html ({out.stat().st_size // 1024} KB): {len(vis)} visible / {len(misses)} miss / "
           f"{len(cities) - len(vis) - len(misses)} moon-down cities")
-    return {"slug": slug, "title": title, "day": day, "note": entry.get("note", ""),
+    return {"slug": slug, "title": title, "day": day, "note": entry.get("note") or auto_note,
             "audience": aud["label"], "when": t_min_local, "generated": data["generated"][:10]}
 
 

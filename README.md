@@ -4,7 +4,10 @@ Lunar occultations of planets and bright stars — where on Earth they can be se
 city by city. Every number is computed from the JPL DE431 ephemeris; the pages are static.
 
 ```
-seed.json          the curated event list: (target, date, audience, note) — nothing else
+seed.json          the curated event list: (target, date, audience, note) — nothing else.
+                   Planet events = those Fred Espenak's Sky Event Almanac flags 'Occn.'; our DE431
+                   scan finds the same set (+ a few within ~12° of the Sun, unobservable, left out).
+                   Bright-star events: included when India sees them in a dark sky.
 data/<slug>.json   generated per event by the kaalshodh repo:
                      cd ~/dev/kaalshodh/api && python lookup/generate/occultation_event.py <slug>
 geo/<audience>.json map outlines (Natural Earth + India-compliant borders): scripts/build_geo.py

@@ -1,19 +1,48 @@
 {
-  "_comment": "Curated seed for the occultation pages. Each entry is (object, date, audience) and nothing else — every number on a page is computed from DE431 by api/lookup/generate/occultation_event.py. Candidates come from a DE431 scan (see that script's --scan), never from a published table. `audience` picks the city list, the map framing and the display timezone.",
+  "_comment": "Curated seed for the occultation pages. Each entry is (object, date, audience) and nothing else — every number on a page is computed from DE431 by api/lookup/generate/occultation_event.py. Candidates come from a DE431 scan (see that script's --scan), never from a published table. `audience` picks the city list, the map framing and the display timezone. Planet events are the ones Fred Espenak's Sky Event Almanac (astropixels.com) flags 'Occn.' — our DE431 scan finds the same set plus a few within ~12° of the Sun, which are unobservable and left out. Bright-star events are included when India sees them in a dark sky.",
   "audiences": {
     "india": {
       "label": "India",
-      "bbox": [66.0, 4.0, 98.0, 38.0],
+      "bbox": [
+        66.0,
+        4.0,
+        98.0,
+        38.0
+      ],
       "lat0": 22.0,
       "grid_deg": 0.125,
       "tz": "Asia/Kolkata",
       "tz_label": "IST",
       "cities": "api/cities.json",
-      "featured": ["Delhi", "Mumbai", "Kolkata", "Chennai", "Bengaluru", "Hyderabad", "Ahmedabad", "Ujjain", "Pune", "Jaipur", "Lucknow", "Srinagar", "Guwahati", "Thiruvananthapuram", "Kochi", "Bhopal", "Nagpur", "Varanasi"]
+      "featured": [
+        "Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai",
+        "Bengaluru",
+        "Hyderabad",
+        "Ahmedabad",
+        "Ujjain",
+        "Pune",
+        "Jaipur",
+        "Lucknow",
+        "Srinagar",
+        "Guwahati",
+        "Thiruvananthapuram",
+        "Kochi",
+        "Bhopal",
+        "Nagpur",
+        "Varanasi"
+      ]
     },
     "world": {
       "label": "World",
-      "bbox": [-180.0, -80.0, 180.0, 80.0],
+      "bbox": [
+        -180.0,
+        -80.0,
+        180.0,
+        80.0
+      ],
       "lat0": 0.0,
       "grid_deg": 1.0,
       "tz": "UTC",
@@ -29,6 +58,174 @@
       "date": "2026-09-14",
       "audience": "india",
       "note": "Daylight occultation of Venus by a three-day crescent Moon; the north limit runs across north India — Delhi misses, Mumbai gets an hour."
+    },
+    {
+      "slug": "mars-2026-10-05",
+      "target": "mars",
+      "date": "2026-10-05",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2026-10-06",
+      "target": "jupiter",
+      "date": "2026-10-06",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mars-2026-11-02",
+      "target": "mars",
+      "date": "2026-11-02",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2026-11-02",
+      "target": "jupiter",
+      "date": "2026-11-02",
+      "audience": "india",
+      "note": ""
+    },
+    {
+      "slug": "venus-2026-11-07",
+      "target": "venus",
+      "date": "2026-11-07",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2026-11-30",
+      "target": "jupiter",
+      "date": "2026-11-30",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mercury-2027-02-08",
+      "target": "mercury",
+      "date": "2027-02-08",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2027-02-20",
+      "target": "jupiter",
+      "date": "2027-02-20",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2027-03-19",
+      "target": "jupiter",
+      "date": "2027-03-19",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "jupiter-2027-04-15",
+      "target": "jupiter",
+      "date": "2027-04-15",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "venus-2027-11-30",
+      "target": "venus",
+      "date": "2027-11-30",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mars-2027-12-29",
+      "target": "mars",
+      "date": "2027-12-29",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "antares-2028-01-22",
+      "target": "antares",
+      "date": "2028-01-22",
+      "audience": "india",
+      "note": ""
+    },
+    {
+      "slug": "mercury-2028-02-23",
+      "target": "mercury",
+      "date": "2028-02-23",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "venus-2028-03-30",
+      "target": "venus",
+      "date": "2028-03-30",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "alcyone-2028-03-30",
+      "target": "alcyone",
+      "date": "2028-03-30",
+      "audience": "india",
+      "note": ""
+    },
+    {
+      "slug": "antares-2028-04-12",
+      "target": "antares",
+      "date": "2028-04-12",
+      "audience": "india",
+      "note": ""
+    },
+    {
+      "slug": "mars-2028-08-17",
+      "target": "mars",
+      "date": "2028-08-17",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "venus-2028-09-15",
+      "target": "venus",
+      "date": "2028-09-15",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mercury-2028-09-20",
+      "target": "mercury",
+      "date": "2028-09-20",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "venus-2029-01-13",
+      "target": "venus",
+      "date": "2029-01-13",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mercury-2029-02-11",
+      "target": "mercury",
+      "date": "2029-02-11",
+      "audience": "india",
+      "note": ""
+    },
+    {
+      "slug": "venus-2029-10-11",
+      "target": "venus",
+      "date": "2029-10-11",
+      "audience": "world",
+      "note": ""
+    },
+    {
+      "slug": "mars-2029-10-11",
+      "target": "mars",
+      "date": "2029-10-11",
+      "audience": "world",
+      "note": ""
     }
   ]
 }
