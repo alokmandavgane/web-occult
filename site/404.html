@@ -96,6 +96,21 @@
     .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
     .btn:hover { border-color: var(--accent); color: var(--accent); }
     .method { font-size: 0.85rem; color: var(--muted); }
+    .limb-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; max-width: 480px; margin: 0.6rem auto; }
+    .limb-controls { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.9rem; }
+    .limb-controls select { font: inherit; padding: 0.3rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 60vw; }
+    .limb-readout { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+    .limb-svg { width: 100%; height: auto; display: block; margin: 0.5rem 0; }
+    .limb-svg .disc-dark { fill: #2a2f3a; }
+    .limb-svg .disc-bright { fill: #f2e9c9; }
+    .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; }
+    .limb-svg .track { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .limb-svg .track-hidden { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.35; }
+    .limb-svg .contact { fill: var(--c-limit); }
+    .limb-svg .target { fill: #fff; stroke: var(--accent); stroke-width: 1.2; }
+    .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
+    input[type=range] { width: 100%; accent-color: var(--accent); }
     .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
     .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
     .event-card:hover { border-color: var(--accent); text-decoration: none; }

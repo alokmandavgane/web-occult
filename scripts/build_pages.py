@@ -94,7 +94,7 @@ def svg_map(data, geo, aud, cities, featured, width=800, inset=False):
             x, y = p.xy(c["lat"], c["lon"])
             if not (0 <= x <= W and 0 <= y <= H):
                 continue
-            out.append(f'<circle class="city city-{c["verdict"]}" cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}">'
+            out.append(f'<circle class="city city-{c["verdict"]}" data-city="{esc(c["name"])}" cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}">'
                        f'<title>{esc(c["name"])}: {esc(verdict_text(c, data))}</title></circle>')
         for c in cities:
             if c["name"] not in featured:
@@ -237,6 +237,21 @@ BASE_CSS = """
     .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
     .btn:hover { border-color: var(--accent); color: var(--accent); }
     .method { font-size: 0.85rem; color: var(--muted); }
+    .limb-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; max-width: 480px; margin: 0.6rem auto; }
+    .limb-controls { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.9rem; }
+    .limb-controls select { font: inherit; padding: 0.3rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 60vw; }
+    .limb-readout { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+    .limb-svg { width: 100%; height: auto; display: block; margin: 0.5rem 0; }
+    .limb-svg .disc-dark { fill: #2a2f3a; }
+    .limb-svg .disc-bright { fill: #f2e9c9; }
+    .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; }
+    .limb-svg .track { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .limb-svg .track-hidden { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.35; }
+    .limb-svg .contact { fill: var(--c-limit); }
+    .limb-svg .target { fill: #fff; stroke: var(--accent); stroke-width: 1.2; }
+    .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
+    input[type=range] { width: 100%; accent-color: var(--accent); }
     .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
     .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
     .event-card:hover { border-color: var(--accent); text-decoration: none; }
@@ -298,7 +313,7 @@ def build(seed, slug):
     geo_world = json.loads((ROOT / "geo" / "world.json").read_text())
     tz = zoneinfo.ZoneInfo(aud["tz"])
     tzl = aud["tz_label"]
-    tgt, moon = data["target"]["names"], data["moon"]["names"]
+    tgt = data["target"]["names"]
     g = data["geocentric"]
     tname = tgt["common"]
 
@@ -370,6 +385,17 @@ def build(seed, slug):
         "isAccessibleForFree": True,
     }
 
+    limb = {
+        "tz": aud["tz"], "tzl": tzl, "target": tname, "kind": kind,
+        "target_sd": round(g["target_sd_arcsec"] / 60, 3),
+        "illum": g["illum_pct"] / 100, "bright_pa": g["bright_limb_pa"],
+        "cities": {c["name"]: {**c["track"], "contacts": c.get("contacts", {}), "verdict": c["verdict"]}
+                   for c in cities if c.get("track")},
+    }
+    limb_order = [c["name"] for c in feat_rows if c.get("track")] + \
+                 [c["name"] for c in rest_rows if c.get("track")]
+    limb_options = "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in limb_order)
+
     def fact(label, value, sub=""):
         return (f'<div class="fact"><div class="fact-label">{label}</div><div class="fact-value">{value}</div>'
                 f'{f"<div class=fact-sub>{sub}</div>" if sub else ""}</div>')
@@ -410,6 +436,19 @@ def build(seed, slug):
   {limit_para}
   {night_para}
 
+  <h2>At the Moon's edge</h2>
+  <p>Pick a city — or tap one on the map — to see {esc(tname)}'s path across the Moon from there, north up
+  and east to the left as in binoculars. Drag the slider to move it along its track.</p>
+  <div class="limb-card">
+    <div class="limb-controls">
+      <label>City <select id="limb-city">{limb_options}</select></label>
+      <span class="limb-readout" id="limb-readout"></span>
+    </div>
+    <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
+    <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
+  </div>
+  <script type="application/json" id="limb-data">{json.dumps(limb, ensure_ascii=False, separators=(",", ":"))}</script>
+
   <h2>City by city</h2>
   <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
   couple of seconds. <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
@@ -444,6 +483,67 @@ def build(seed, slug):
 {FOOTER}
 <script>
 (function () {{
+  var D = JSON.parse(document.getElementById('limb-data').textContent);
+  var svg = document.getElementById('limb-svg'), sel = document.getElementById('limb-city'),
+      slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
+  var NS = 'http://www.w3.org/2000/svg', R = 150, cur = null;
+  function el(n, a, txt) {{ var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); if (txt) e.textContent = txt; return e; }}
+  function localTime(ms) {{ return new Date(ms).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: '2-digit' }}); }}
+  function pos(c, minutes) {{  // interpolate the track (east, north in arcmin) at t0 + minutes
+    var i = minutes / c.step_min, i0 = Math.max(0, Math.min(c.xy.length / 2 - 2, Math.floor(i))), f = i - i0;
+    var e = (c.xy[2*i0] * (1-f) + c.xy[2*i0+2] * f) / 100, n = (c.xy[2*i0+1] * (1-f) + c.xy[2*i0+3] * f) / 100;
+    return {{ x: -e / c.sd_arcmin * R, y: -n / c.sd_arcmin * R }};
+  }}
+  function draw(name) {{
+    var c = D.cities[name]; if (!c) return; cur = c;
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    var t0 = Date.parse(c.t0), span = (c.xy.length / 2 - 1) * c.step_min;
+    slider.max = span;
+    // phase: bright limb toward PA bright_pa; local frame has the bright limb at -y, rotated by -PA
+    var k = D.illum, b = R * Math.abs(2 * k - 1), sweep = k > 0.5 ? 1 : 0;
+    svg.appendChild(el('circle', {{ class: 'disc-dark', r: R }}));
+    svg.appendChild(el('path', {{ class: 'disc-bright', transform: 'rotate(' + (-D.bright_pa) + ')',
+      d: 'M ' + (-R) + ' 0 A ' + R + ' ' + R + ' 0 0 1 ' + R + ' 0 A ' + R + ' ' + b + ' 0 0 ' + sweep + ' ' + (-R) + ' 0 Z' }}));
+    svg.appendChild(el('circle', {{ class: 'disc-edge', r: R }}));
+    svg.appendChild(el('text', {{ class: 'lbl', x: 0, y: -R - 8, 'text-anchor': 'middle' }}, 'N'));
+    svg.appendChild(el('text', {{ class: 'lbl', x: -R - 8, y: 4, 'text-anchor': 'end' }}, 'E'));
+    // track, with the hidden stretch drawn faint
+    var pts = [], m;
+    for (m = 0; m <= span; m += 2) pts.push(pos(c, m));
+    svg.appendChild(el('polyline', {{ class: 'track', points: pts.map(function (p) {{ return p.x.toFixed(1) + ',' + p.y.toFixed(1); }}).join(' ') }}));
+    var marks = [['D1','D'],['D2','D'],['R1','R'],['R2','R']];
+    marks.forEach(function (mk) {{
+      var iso = c.contacts[mk[0]]; if (!iso) return;
+      var p = pos(c, (Date.parse(iso) - t0) / 60000);
+      svg.appendChild(el('circle', {{ class: 'contact', cx: p.x, cy: p.y, r: 3 }}));
+      if (mk[0] === 'D2' || mk[0] === 'R1' || (mk[0] === 'D1' && !c.contacts.D2) || (mk[0] === 'R2' && !c.contacts.R1))
+        svg.appendChild(el('text', {{ class: 'lbl', x: p.x + (mk[1] === 'D' ? 6 : -6), y: p.y - 6, 'text-anchor': mk[1] === 'D' ? 'start' : 'end' }},
+          mk[1] + ' ' + localTime(Date.parse(iso))));
+    }});
+    if (c.verdict !== 'visible') svg.appendChild(el('text', {{ class: 'miss-note', x: 0, y: R + 28, 'text-anchor': 'middle' }},
+      c.verdict === 'miss' ? D.target + ' passes outside the limb from here' : 'Moon below the horizon here'));
+    svg.appendChild(el('circle', {{ id: 'limb-target', class: 'target', r: Math.max(2.5, D.target_sd / c.sd_arcmin * R) }}));
+    if (sel.value !== name) sel.value = name;
+    update();
+  }}
+  function update() {{
+    if (!cur) return;
+    var m = +slider.value, p = pos(cur, m), t = document.getElementById('limb-target');
+    t.setAttribute('cx', p.x); t.setAttribute('cy', p.y);
+    var r = Math.hypot(p.x, p.y) / R;
+    t.style.opacity = r < 1 - D.target_sd / cur.sd_arcmin ? 0.25 : 1;
+    readout.textContent = localTime(Date.parse(cur.t0) + m * 60000) + ' ' + D.tzl;
+  }}
+  sel.addEventListener('change', function () {{ draw(sel.value); }});
+  slider.addEventListener('input', update);
+  document.querySelectorAll('circle[data-city]').forEach(function (ci) {{
+    ci.style.cursor = 'pointer';
+    ci.addEventListener('click', function () {{ draw(ci.dataset.city); document.querySelector('.limb-card').scrollIntoView({{ block: 'nearest', behavior: 'smooth' }}); }});
+  }});
+  window.limbDraw = draw;
+  draw(sel.value);
+}})();
+(function () {{
   var btn = document.getElementById('nearest-btn');
   if (!btn || !navigator.geolocation) {{ if (btn) btn.hidden = true; return; }}
   btn.addEventListener('click', function () {{
@@ -457,6 +557,7 @@ def build(seed, slug):
       }});
       if (best) {{
         best.classList.add('nearest');
+        if (window.limbDraw) window.limbDraw(best.cells[0].textContent);
         var det = best.closest('details'); if (det) det.open = true;
         best.scrollIntoView({{ block: 'center', behavior: 'smooth' }});
         btn.textContent = 'Nearest: ' + best.cells[0].textContent + ' (' + Math.round(bd * 111) + ' km)';
