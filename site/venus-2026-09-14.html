@@ -115,11 +115,34 @@
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
-    .loc-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+    .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+    .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
+    .subnav-links::-webkit-scrollbar { display: none; }
+    .subnav-links a { color: var(--muted); font-size: 0.85rem; padding: 0.3rem 0.55rem; border-radius: 999px; white-space: nowrap; }
+    .subnav-links a:hover { text-decoration: none; color: var(--text); }
+    .subnav-links a.active { color: var(--text); background: var(--card-2); }
+    .chip { display: inline-flex; align-items: center; gap: 0.4rem; max-width: 55vw; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem 0.3rem 0.5rem; font: inherit; font-size: 0.85rem; color: var(--text); cursor: pointer; white-space: nowrap; overflow: hidden; }
+    .chip:hover { border-color: var(--accent); }
+    .chip-pin { font-size: 0.9em; }
+    .chip-sub { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; }
+    .chip-sub:empty { display: none; }
+    .sheet { border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); padding: 0; max-width: 420px; width: calc(100% - 2rem); }
+    .sheet::backdrop { background: rgba(0,0,0,0.45); }
+    .sheet-body { padding: 1rem 1.1rem 1.1rem; display: grid; gap: 0.7rem; }
+    .sheet-title { font-weight: 700; font-size: 1.05rem; }
+    .sheet-hint { color: var(--muted); font-size: 0.82rem; margin: 0; }
+    .sheet label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; }
+    .sheet select { flex: 1; }
+    .btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    @media (max-width: 600px) { .sheet { margin: auto 0 0; width: 100%; max-width: none; border-radius: 16px 16px 0 0; } }
+    .hint { color: var(--muted); font-size: 0.85rem; }
+    tr.yours td { background: color-mix(in srgb, var(--c-limit) 14%, transparent); }
+    tr.yours td:first-child { color: var(--c-limit); font-weight: 600; }
     .loc-row { display: flex; flex-wrap: wrap; gap: 0.5rem 0.8rem; align-items: center; font-size: 0.9rem; }
     .loc-row input { font: inherit; width: 7.5rem; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
     .loc-row select { font: inherit; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 45vw; }
-    .loc-result { margin-top: 0.8rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
+    .loc-result { margin: 0.4rem 0 0.6rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
     .loc-result .fact-value { font-size: 1.15rem; }
     .loc-result .verdict { grid-column: 1 / -1; font-weight: 600; }
     .loc-result .verdict.miss { color: var(--c-miss); } .loc-result .verdict.visible { color: var(--c-visible); } .loc-result .verdict.moon_down { color: var(--c-down); }
@@ -143,15 +166,39 @@
   </div>
 </header>
 
+<nav class="subnav" id="subnav">
+  <div class="subnav-row">
+    <div class="subnav-links">
+      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">How to watch</a>
+    </div>
+    <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">Choose location</span><span class="chip-sub" id="chip-sub"></span></button>
+  </div>
+</nav>
+<dialog id="loc-sheet" class="sheet" aria-label="Location">
+  <form method="dialog" class="sheet-body">
+    <div class="sheet-title">Location</div>
+    <label>City <select id="limb-city"><option value="">—</option><option value="Mumbai">Mumbai</option><option value="Pune">Pune</option><option value="Ahmedabad">Ahmedabad</option><option value="Thiruvananthapuram">Thiruvananthapuram</option><option value="Hyderabad">Hyderabad</option><option value="Ujjain">Ujjain</option><option value="Chennai">Chennai</option><option value="Nagpur">Nagpur</option><option value="Bhopal">Bhopal</option><option value="Kolkata">Kolkata</option><option value="Delhi">Delhi</option><option value="Guwahati">Guwahati</option><option value="Jaipur">Jaipur</option><option value="Lucknow">Lucknow</option><option value="Srinagar">Srinagar</option><option value="Varanasi">Varanasi</option><option value="Agartala">Agartala</option><option value="Agra">Agra</option><option value="Aizawl">Aizawl</option><option value="Ajmer">Ajmer</option><option value="Akola">Akola</option><option value="Allahabad">Allahabad</option><option value="Almora">Almora</option><option value="Ambala">Ambala</option><option value="Amritsar">Amritsar</option><option value="Anand">Anand</option><option value="Asansol">Asansol</option><option value="Aurangabad">Aurangabad</option><option value="Ayodhya">Ayodhya</option><option value="Balasore">Balasore</option><option value="Bangalore">Bangalore</option><option value="Bankura">Bankura</option><option value="Bareilly">Bareilly</option><option value="Bauxar">Bauxar</option><option value="Belgaon">Belgaon</option><option value="Berhampur">Berhampur</option><option value="Bhagalpur">Bhagalpur</option><option value="Bharatpur">Bharatpur</option><option value="Bhavnagar">Bhavnagar</option><option value="Bhubaneswar">Bhubaneswar</option><option value="Bhuj">Bhuj</option><option value="Bijapur">Bijapur</option><option value="Bikaner">Bikaner</option><option value="Bilaspur">Bilaspur</option><option value="Bokaro">Bokaro</option><option value="Cannanore">Cannanore</option><option value="Champa">Champa</option><option value="Chandigarh">Chandigarh</option><option value="Chittoor (A.P.)">Chittoor (A.P.)</option><option value="Chittorgarh">Chittorgarh</option><option value="Cochin">Cochin</option><option value="Coimbatore">Coimbatore</option><option value="Cooch Bihar">Cooch Bihar</option><option value="Cuddalore">Cuddalore</option><option value="Cuttack">Cuttack</option><option value="Darjeeling">Darjeeling</option><option value="Dehradun">Dehradun</option><option value="Dhanbad">Dhanbad</option><option value="Diamond Harbour">Diamond Harbour</option><option value="Dibrugarh">Dibrugarh</option><option value="Dimapur">Dimapur</option><option value="Diu">Diu</option><option value="Durg">Durg</option><option value="Dwarka">Dwarka</option><option value="Etawah">Etawah</option><option value="Faizabad">Faizabad</option><option value="Ferozpur">Ferozpur</option><option value="Gandhinagar">Gandhinagar</option><option value="Gangtok">Gangtok</option><option value="Gaya">Gaya</option><option value="Gopalpur">Gopalpur</option><option value="Gorakhpur">Gorakhpur</option><option value="Gulmarg">Gulmarg</option><option value="Gurgaon">Gurgaon</option><option value="Gwalior">Gwalior</option><option value="Haridwar">Haridwar</option><option value="Hassan">Hassan</option><option value="Hubli">Hubli</option><option value="Imphal">Imphal</option><option value="Indore">Indore</option><option value="Itanagar">Itanagar</option><option value="Jabalpur">Jabalpur</option><option value="Jaisalmer">Jaisalmer</option><option value="Jalandhar">Jalandhar</option><option value="Jalpaiguri">Jalpaiguri</option><option value="Jammu">Jammu</option><option value="Jamshedpur">Jamshedpur</option><option value="Jhansi">Jhansi</option><option value="Jodhpur">Jodhpur</option><option value="Jorhat">Jorhat</option><option value="Kanpur">Kanpur</option><option value="Kanyakumari">Kanyakumari</option><option value="Kavalur">Kavalur</option><option value="Kharagpur">Kharagpur</option><option value="Kohima">Kohima</option><option value="Kolhapur">Kolhapur</option><option value="Koraput">Koraput</option><option value="Kota">Kota</option><option value="Kozhikode">Kozhikode</option><option value="Kurnool">Kurnool</option><option value="Ludhiana">Ludhiana</option><option value="Machilipatnam">Machilipatnam</option><option value="Madurai">Madurai</option><option value="Mangalore">Mangalore</option><option value="Mathura">Mathura</option><option value="Meerut">Meerut</option><option value="Midnapore">Midnapore</option><option value="Mount Abu">Mount Abu</option><option value="Murshidabad">Murshidabad</option><option value="Mussoorie">Mussoorie</option><option value="Muzaffarpur">Muzaffarpur</option><option value="Mysore">Mysore</option><option value="Nainital">Nainital</option><option value="Nalgonda">Nalgonda</option><option value="Nashik">Nashik</option><option value="Nellore">Nellore</option><option value="Nowgong">Nowgong</option><option value="Panaji">Panaji</option><option value="Pantnagar">Pantnagar</option><option value="Paradeep">Paradeep</option><option value="Pathankot">Pathankot</option><option value="Patna">Patna</option><option value="Pondicherry">Pondicherry</option><option value="Port Blair">Port Blair</option><option value="Puri">Puri</option><option value="Raipur">Raipur</option><option value="Rajkot">Rajkot</option><option value="Rameswaram">Rameswaram</option><option value="Ranchi">Ranchi</option><option value="Roorkee">Roorkee</option><option value="Rourkela">Rourkela</option><option value="Salem">Salem</option><option value="Shillong">Shillong</option><option value="Shimla">Shimla</option><option value="Silchar">Silchar</option><option value="Sriharikota">Sriharikota</option><option value="Surat">Surat</option><option value="Tezpur">Tezpur</option><option value="Thanjavur">Thanjavur</option><option value="Tiruchirappalli">Tiruchirappalli</option><option value="Tirupati">Tirupati</option><option value="Udaipur">Udaipur</option><option value="Vadodara">Vadodara</option><option value="Vellore">Vellore</option><option value="Vijayawada">Vijayawada</option><option value="Visakhapatnam">Visakhapatnam</option></select></label>
+    <div class="loc-row">
+      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="19.076"></label>
+      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="72.878"></label>
+    </div>
+    <div class="loc-row">
+      <button class="btn btn-primary" id="loc-go" type="button">Compute</button>
+      <button class="btn" id="loc-geo" type="button">Use my location</button>
+      <button class="btn" value="cancel">Close</button>
+    </div>
+    <p class="sheet-hint">You can also tap anywhere on the map, or a city dot.</p>
+  </form>
+</dialog>
+
 <main class="wrap">
   <h1>The Moon occults Venus — 14 September 2026</h1>
   <p class="sub">Lunar occultation of the planet Venus · Monday 14 September 2026 · India</p>
-
   <div class="facts facts-main"><div class="fact"><div class="fact-label">Watch from (IST)</div><div class="fact-value">16:58 – 19:03</div><div class=fact-sub>95 of 146 listed cities see it</div></div><div class="fact"><div class="fact-label">Venus hidden for</div><div class="fact-value">up to 84 min</div><div class=fact-sub>Thiruvananthapuram, 84 min</div></div></div>
   <p class="lead">Daylight occultation of Venus by a three-day crescent Moon; the north limit runs across north India — Delhi misses, Mumbai gets an hour.</p>
   <p class="meta">Closest approach 17:04 IST (geocentric, 0.48° centre to centre) · Moon 3.3 days old, 12% lit, 41° from the Sun</p>
 
-  <h2>Where it can be seen</h2>
+  <h2 id="map">Where it can be seen</h2>
   <div class="map-card">
     <svg viewBox="0 0 800 917" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of where the occultation is visible" id="main-map" class="occ-svg">
 <rect width="800" height="917" class="sea"/>
@@ -346,32 +393,20 @@
   </div>
   <p>The gold line is the <strong>north limit</strong>: along it Venus grazes the Moon's northern edge. North of the line it is a near miss — from Jhansi Venus passes just 0.3′ outside the limb — and a graze seen from right on the line, Venus blinking in and out behind lunar mountains, is the finest view of all.</p>
   <p>The violet shading is where the Sun has set by the time of the event, so the reappearance happens in a darkening sky.</p>
+  <p class="hint">Tap the map to set your location.</p>
 
-  <h2>Your location</h2>
-  <p>Type a latitude and longitude, use your phone's location, tap anywhere on the map, or pick a city. The times
-  are computed here in your browser from the same ephemeris the table uses, to the same ±2 s.</p>
-  <div class="loc-card">
-    <div class="loc-row">
-      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="19.076"></label>
-      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="72.878"></label>
-      <button class="btn" id="loc-go" type="button">Compute</button>
-      <button class="btn" id="loc-geo" type="button">Use my location</button>
-      <label>City <select id="limb-city"><option value="">—</option><option value="Mumbai">Mumbai</option><option value="Pune">Pune</option><option value="Ahmedabad">Ahmedabad</option><option value="Thiruvananthapuram">Thiruvananthapuram</option><option value="Hyderabad">Hyderabad</option><option value="Ujjain">Ujjain</option><option value="Chennai">Chennai</option><option value="Nagpur">Nagpur</option><option value="Bhopal">Bhopal</option><option value="Kolkata">Kolkata</option><option value="Delhi">Delhi</option><option value="Guwahati">Guwahati</option><option value="Jaipur">Jaipur</option><option value="Lucknow">Lucknow</option><option value="Srinagar">Srinagar</option><option value="Varanasi">Varanasi</option><option value="Agartala">Agartala</option><option value="Agra">Agra</option><option value="Aizawl">Aizawl</option><option value="Ajmer">Ajmer</option><option value="Akola">Akola</option><option value="Allahabad">Allahabad</option><option value="Almora">Almora</option><option value="Ambala">Ambala</option><option value="Amritsar">Amritsar</option><option value="Anand">Anand</option><option value="Asansol">Asansol</option><option value="Aurangabad">Aurangabad</option><option value="Ayodhya">Ayodhya</option><option value="Balasore">Balasore</option><option value="Bangalore">Bangalore</option><option value="Bankura">Bankura</option><option value="Bareilly">Bareilly</option><option value="Bauxar">Bauxar</option><option value="Belgaon">Belgaon</option><option value="Berhampur">Berhampur</option><option value="Bhagalpur">Bhagalpur</option><option value="Bharatpur">Bharatpur</option><option value="Bhavnagar">Bhavnagar</option><option value="Bhubaneswar">Bhubaneswar</option><option value="Bhuj">Bhuj</option><option value="Bijapur">Bijapur</option><option value="Bikaner">Bikaner</option><option value="Bilaspur">Bilaspur</option><option value="Bokaro">Bokaro</option><option value="Cannanore">Cannanore</option><option value="Champa">Champa</option><option value="Chandigarh">Chandigarh</option><option value="Chittoor (A.P.)">Chittoor (A.P.)</option><option value="Chittorgarh">Chittorgarh</option><option value="Cochin">Cochin</option><option value="Coimbatore">Coimbatore</option><option value="Cooch Bihar">Cooch Bihar</option><option value="Cuddalore">Cuddalore</option><option value="Cuttack">Cuttack</option><option value="Darjeeling">Darjeeling</option><option value="Dehradun">Dehradun</option><option value="Dhanbad">Dhanbad</option><option value="Diamond Harbour">Diamond Harbour</option><option value="Dibrugarh">Dibrugarh</option><option value="Dimapur">Dimapur</option><option value="Diu">Diu</option><option value="Durg">Durg</option><option value="Dwarka">Dwarka</option><option value="Etawah">Etawah</option><option value="Faizabad">Faizabad</option><option value="Ferozpur">Ferozpur</option><option value="Gandhinagar">Gandhinagar</option><option value="Gangtok">Gangtok</option><option value="Gaya">Gaya</option><option value="Gopalpur">Gopalpur</option><option value="Gorakhpur">Gorakhpur</option><option value="Gulmarg">Gulmarg</option><option value="Gurgaon">Gurgaon</option><option value="Gwalior">Gwalior</option><option value="Haridwar">Haridwar</option><option value="Hassan">Hassan</option><option value="Hubli">Hubli</option><option value="Imphal">Imphal</option><option value="Indore">Indore</option><option value="Itanagar">Itanagar</option><option value="Jabalpur">Jabalpur</option><option value="Jaisalmer">Jaisalmer</option><option value="Jalandhar">Jalandhar</option><option value="Jalpaiguri">Jalpaiguri</option><option value="Jammu">Jammu</option><option value="Jamshedpur">Jamshedpur</option><option value="Jhansi">Jhansi</option><option value="Jodhpur">Jodhpur</option><option value="Jorhat">Jorhat</option><option value="Kanpur">Kanpur</option><option value="Kanyakumari">Kanyakumari</option><option value="Kavalur">Kavalur</option><option value="Kharagpur">Kharagpur</option><option value="Kohima">Kohima</option><option value="Kolhapur">Kolhapur</option><option value="Koraput">Koraput</option><option value="Kota">Kota</option><option value="Kozhikode">Kozhikode</option><option value="Kurnool">Kurnool</option><option value="Ludhiana">Ludhiana</option><option value="Machilipatnam">Machilipatnam</option><option value="Madurai">Madurai</option><option value="Mangalore">Mangalore</option><option value="Mathura">Mathura</option><option value="Meerut">Meerut</option><option value="Midnapore">Midnapore</option><option value="Mount Abu">Mount Abu</option><option value="Murshidabad">Murshidabad</option><option value="Mussoorie">Mussoorie</option><option value="Muzaffarpur">Muzaffarpur</option><option value="Mysore">Mysore</option><option value="Nainital">Nainital</option><option value="Nalgonda">Nalgonda</option><option value="Nashik">Nashik</option><option value="Nellore">Nellore</option><option value="Nowgong">Nowgong</option><option value="Panaji">Panaji</option><option value="Pantnagar">Pantnagar</option><option value="Paradeep">Paradeep</option><option value="Pathankot">Pathankot</option><option value="Patna">Patna</option><option value="Pondicherry">Pondicherry</option><option value="Port Blair">Port Blair</option><option value="Puri">Puri</option><option value="Raipur">Raipur</option><option value="Rajkot">Rajkot</option><option value="Rameswaram">Rameswaram</option><option value="Ranchi">Ranchi</option><option value="Roorkee">Roorkee</option><option value="Rourkela">Rourkela</option><option value="Salem">Salem</option><option value="Shillong">Shillong</option><option value="Shimla">Shimla</option><option value="Silchar">Silchar</option><option value="Sriharikota">Sriharikota</option><option value="Surat">Surat</option><option value="Tezpur">Tezpur</option><option value="Thanjavur">Thanjavur</option><option value="Tiruchirappalli">Tiruchirappalli</option><option value="Tirupati">Tirupati</option><option value="Udaipur">Udaipur</option><option value="Vadodara">Vadodara</option><option value="Vellore">Vellore</option><option value="Vijayawada">Vijayawada</option><option value="Visakhapatnam">Visakhapatnam</option></select></label>
-    </div>
-    <div class="loc-result" id="loc-result" hidden></div>
-  </div>
-
-  <h2>At the Moon's edge</h2>
-  <p>Venus's path across the Moon from the location above — north up, east to the left as in binoculars.
-  Drag the slider to move it along its track.</p>
+  <h2 id="moon">At the Moon's edge</h2>
   <div class="limb-card">
     <div class="limb-controls"><span id="limb-where" class="limb-readout"></span><span class="limb-readout" id="limb-readout"></span></div>
+    <div class="loc-result" id="loc-result" hidden></div>
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
+  <p class="hint">Venus's path across the Moon from your location — north up, east to the left as in binoculars.
+  Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{"tz":"Asia/Kolkata","tzl":"IST","target":"Venus","kind":"planet","illum":0.124,"bright_pa":295.9,"elements":{"t0":"2026-09-14T11:34:33.125Z","half_hours":3.0,"deg":6,"v_earth_km_s":[4.021985434,26.928540208,11.673359574],"era_rate_deg_per_min":0.2506844773377014,"R0":[-0.973409006548,0.229059995623,0.002534635323,-0.229059131266,-0.973412305927,0.000630121731,0.002611580896,3.2784803e-05,0.999996589279],"moon_radius_km":1737.4,"target_radius_km":6051.8,"earth_a_km":6378.137,"earth_f":0.0033528106647474805,"moon":[[-330514.2691655552,5312.452185073999,128.02059269987106,-0.8722902154888635,-0.00599579382094272,4.5317486742522054e-05,-1.0554204772388206e-07],[-178288.24362636876,-8466.82077580648,70.40113181218356,1.0048620443642535,-0.006631097451341092,9.508962330158304e-06,4.511319830684102e-07],[-112003.5212651652,-4210.03196763931,44.175322584394955,0.486484540477419,-0.0038442916105354084,7.471023009868484e-06,2.1519990581021613e-07]],"target":[[-57267707.45182348,158805.01584473797,-208.73741975546596,-0.37347430572148765,0.0003380645650241622,-0.00037258779982784503,-7.980320402186268e-07],[-30644754.52172862,2696.074646221002,262.0355115892883,-0.3534344276172254,-0.0003610713415493636,-6.149714874645593e-06,2.654284200602998e-07],[-19920997.132599693,-6785.296780254722,153.51977225599242,-0.13647467553239476,-0.00020716415408301002,1.6124308012476547e-05,6.099802886720758e-08]],"sun":[[-148760874.8820696,-43323.04070269698,339.4176329058659,0.03335221989761492,-0.00019709203282812463,0.00010307186492629073,-5.228700193378916e-07],[20856869.35908233,-290786.3231746441,-46.51654704925233,0.2302429876004036,-5.197834106662375e-05,0.000684075539693073,4.659002717805461e-08],[9041623.727227993,-126056.73727472703,-19.999963866902565,0.10042499338529962,-3.4294403723324154e-05,0.00029657438316505396,1.1921259466831238e-08]],"fit_residual_km":0.0005},"proj":{"lon0":66.0,"lat1":38.0,"k":0.9271838545667874,"s":26.963368566939586,"W":800,"H":916.754531275946},"cities":{"Agartala":[23.8315,91.2868],"Agra":[27.1767,78.0081],"Ahmedabad":[23.0225,72.5714],"Aizawl":[23.7271,92.7176],"Ajmer":[26.4499,74.6399],"Akola":[20.7002,77.0082],"Allahabad":[25.4358,81.8463],"Almora":[29.5971,79.6591],"Ambala":[30.3782,76.7767],"Amritsar":[31.634,74.8723],"Anand":[22.5645,72.9289],"Asansol":[23.6889,86.9661],"Aurangabad":[19.8762,75.3433],"Ayodhya":[26.7922,82.1998],"Balasore":[21.4934,86.9135],"Bangalore":[12.9716,77.5946],"Bankura":[23.2324,87.0649],"Bareilly":[28.367,79.4304],"Bauxar":[25.5647,83.9777],"Belgaon":[15.8497,74.4977],"Berhampur":[19.315,84.7941],"Bhagalpur":[25.2425,86.9842],"Bharatpur":[27.2152,77.503],"Bhavnagar":[21.7645,72.1519],"Bhopal":[23.2599,77.4126],"Bhubaneswar":[20.2961,85.8245],"Bhuj":[23.242,69.6669],"Bijapur":[16.8302,75.71],"Bikaner":[28.0229,73.3119],"Bilaspur":[22.0797,82.1409],"Bokaro":[23.6693,86.1511],"Cannanore":[11.8745,75.3704],"Champa":[22.0354,82.6576],"Chandigarh":[30.7333,76.7794],"Chennai":[13.0827,80.2707],"Chittoor (A.P.)":[13.2172,79.1003],"Chittorgarh":[24.8887,74.6269],"Cochin":[9.9312,76.2673],"Coimbatore":[11.0168,76.9558],"Cooch Bihar":[26.3452,89.4482],"Cuddalore":[11.748,79.7714],"Cuttack":[20.4625,85.883],"Darjeeling":[27.041,88.2663],"Dehradun":[30.3165,78.0322],"Delhi":[28.6139,77.209],"Dhanbad":[23.7957,86.4304],"Diamond Harbour":[22.191,88.1868],"Dibrugarh":[27.4728,94.912],"Dimapur":[25.9065,93.7272],"Diu":[20.7144,70.9874],"Durg":[21.1904,81.2849],"Dwarka":[22.2394,68.9678],"Etawah":[26.7856,79.0152],"Faizabad":[26.7735,82.1446],"Ferozpur":[30.9332,74.6136],"Gandhinagar":[23.2156,72.6369],"Gangtok":[27.3389,88.6065],"Gaya":[24.7955,84.9994],"Gopalpur":[19.2594,84.9052],"Gorakhpur":[26.7606,83.3732],"Gulmarg":[34.0484,74.3805],"Gurgaon":[28.4595,77.0266],"Guwahati":[26.1445,91.7362],"Gwalior":[26.2183,78.1828],"Haridwar":[29.9457,78.1642],"Hassan":[13.0072,76.1004],"Hubli":[15.3647,75.124],"Hyderabad":[17.385,78.4867],"Imphal":[24.817,93.9368],"Indore":[22.7196,75.8577],"Itanagar":[27.0844,93.6053],"Jabalpur":[23.1815,79.9864],"Jaipur":[26.9124,75.7873],"Jaisalmer":[26.9157,70.9083],"Jalandhar":[31.326,75.5762],"Jalpaiguri":[26.5167,88.7333],"Jammu":[32.7266,74.857],"Jamshedpur":[22.8046,86.2029],"Jhansi":[25.4484,78.5685],"Jodhpur":[26.2389,73.0243],"Jorhat":[26.7509,94.2037],"Kanpur":[26.4499,80.3319],"Kanyakumari":[8.0883,77.5385],"Kavalur":[12.5766,78.8308],"Kharagpur":[22.346,87.232],"Kohima":[25.6751,94.1086],"Kolhapur":[16.705,74.2433],"Kolkata":[22.5726,88.3639],"Koraput":[18.8135,82.7123],"Kota":[25.2138,75.8648],"Kozhikode":[11.2588,75.7804],"Kurnool":[15.8281,78.0373],"Lucknow":[26.8467,80.9462],"Ludhiana":[30.901,75.8573],"Machilipatnam":[16.1875,81.1389],"Madurai":[9.9252,78.1198],"Mangalore":[12.9141,74.856],"Mathura":[27.4924,77.6737],"Meerut":[28.9845,77.7064],"Midnapore":[22.426,87.3199],"Mount Abu":[24.5926,72.7156],"Mumbai":[19.076,72.8777],"Murshidabad":[24.1745,88.27],"Mussoorie":[30.4598,78.0644],"Muzaffarpur":[26.1209,85.3647],"Mysore":[12.2958,76.6394],"Nagpur":[21.1458,79.0882],"Nainital":[29.3919,79.4542],"Nalgonda":[17.0575,79.269],"Nashik":[19.9975,73.7898],"Nellore":[14.4426,79.9865],"Nowgong":[26.349,92.684],"Panaji":[15.4909,73.8278],"Pantnagar":[29.021,79.4737],"Paradeep":[20.3165,86.6114],"Pathankot":[32.2747,75.6522],"Patna":[25.6093,85.1376],"Pondicherry":[11.9416,79.8083],"Port Blair":[11.6234,92.7265],"Pune":[18.5204,73.8567],"Puri":[19.8135,85.8312],"Raipur":[21.2514,81.6296],"Rajkot":[22.3039,70.8022],"Rameswaram":[9.2876,79.3129],"Ranchi":[23.3441,85.3096],"Roorkee":[29.8543,77.888],"Rourkela":[22.2604,84.8536],"Salem":[11.6643,78.146],"Shillong":[25.5788,91.8933],"Shimla":[31.1048,77.1734],"Silchar":[24.8333,92.7789],"Sriharikota":[13.7199,80.2304],"Srinagar":[34.0837,74.7973],"Surat":[21.1702,72.8311],"Thanjavur":[10.787,79.1378],"Tezpur":[26.6338,92.8006],"Thiruvananthapuram":[8.5241,76.9366],"Tiruchirappalli":[10.7905,78.7047],"Tirupati":[13.6288,79.4192],"Udaipur":[24.5854,73.7125],"Ujjain":[23.1765,75.7885],"Vadodara":[22.3072,73.1812],"Varanasi":[25.3176,82.9739],"Vellore":[12.9165,79.1325],"Vijayawada":[16.5062,80.648],"Visakhapatnam":[17.6868,83.2185]}}</script>
 
-  <h2>City by city</h2>
+  <h2 id="cities">City by city</h2>
   <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
   couple of seconds. <em>Disappears</em> is the moment Venus is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns.</p>
@@ -389,7 +424,7 @@
     </details>
   </div>
 
-  <h2>How to watch</h2>
+  <h2 id="watch">How to watch</h2>
       <p>This one happens in <strong>daylight</strong>. Venus is bright enough to see against a blue sky
       if you know exactly where to look — and today the Moon is the finder: a thin crescent,
       three days old, about 40° east of the Sun. Find the crescent first (shade the Sun with a
@@ -487,44 +522,65 @@
   function localTime(m, secs) { return new Date(T0 + m * 60000).toLocaleTimeString('en-GB', { timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: secs ? '2-digit' : undefined }); }
   function skyText(a) { return a > 0 ? 'daylight, Sun ' + (a > 0 ? '+' : '') + a.toFixed(0) + '°' : a > -6 ? 'sunset twilight' : a > -12 ? 'dusk' : 'dark sky'; }
 
-  // ---- UI: location card ----
+  // ---- UI: one page-level location; chip + sheet, map, moon view and table all follow it ----
   var latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), res = document.getElementById('loc-result');
   var sel = document.getElementById('limb-city'), where = document.getElementById('limb-where'), pin = document.getElementById('pin');
-  var P = D.proj, cur = null;
+  var chip = document.getElementById('loc-chip'), chipName = document.getElementById('chip-name'), chipSub = document.getElementById('chip-sub');
+  var sheet = document.getElementById('loc-sheet'), P = D.proj, LOC = null;
   function fact(l, v, s) { return '<div class="fact"><div class="fact-label">' + l + '</div><div class="fact-value">' + v + '</div>' + (s ? '<div class="fact-sub">' + s + '</div>' : '') + '</div>'; }
-  function show(lat, lon, label) {
+  function tableRow(r, label) {
+    var c = r.contacts;
+    if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {
+      return '<tr class="yours"><td>' + label + '</td><td>' + (c.D2 !== undefined ? localTime(c.D2, true) : '—') + (c.D1 !== undefined ? '<small>from ' + localTime(c.D1, true) + '</small>' : '') +
+        '</td><td>' + (c.R1 !== undefined ? localTime(c.R1, true) : '—') + (c.R2 !== undefined ? '<small>to ' + localTime(c.R2, true) + '</small>' : '') +
+        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°</td><td>' + skyText(r.at.alts) + '</td></tr>';
+    }
+    var gap = (r.closest.sep - r.closest.sdm) * 60;
+    return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses — ' + D.target + ' passes ' + gap.toFixed(1) + '′ from the limb at ' + localTime(r.closest.m, false) : 'Moon below the horizon') +
+      '</td><td>' + (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°</td><td>' + skyText(r.closest.alts) + '</td></tr>';
+  }
+  function show(lat, lon, label, fromUrl) {
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
+    LOC = { lat: lat, lon: lon, label: label || '' };
     latI.value = lat.toFixed(4); lonI.value = lon.toFixed(4);
-    var r = solve(lat, lon), c = r.contacts, h = '';
+    var r = solve(lat, lon), c = r.contacts, h = '', summary;
     if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {
       h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
       h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
       h += fact('Moon altitude', (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°', skyText(r.at.alts));
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
+      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
     } else {
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
       h += fact('Moon altitude', (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°', skyText(r.closest.alts));
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? D.target + ' passes ' + (gap * 60).toFixed(1) + '′ from the limb — a near miss from here.' : 'The Moon is below the horizon here.') + '</div>';
+      summary = r.verdict === 'miss' ? 'near miss, ' + (gap * 60).toFixed(1) + '′' : 'Moon below horizon';
     }
     res.innerHTML = h; res.hidden = false;
+    var name = label || (lat.toFixed(3) + ', ' + lon.toFixed(3));
+    chipName.textContent = name; chipSub.textContent = summary; where.textContent = name;
     var x = (lon - P.lon0) * P.k * P.s, y = (P.lat1 - lat) * P.s;
     if (x >= 0 && x <= P.W && y >= 0 && y <= P.H) { pin.setAttribute('transform', 'translate(' + x.toFixed(1) + ',' + y.toFixed(1) + ')'); pin.hidden = false; } else pin.hidden = true;
-    where.textContent = (label || (lat.toFixed(3) + ', ' + lon.toFixed(3)));
-    drawLimb(r);
+    var old = document.querySelector('tr.yours'); if (old) old.remove();
+    var tb = document.querySelector('#city-table tbody'); if (tb) tb.insertAdjacentHTML('afterbegin', tableRow(r, 'Your location · ' + name));
     if (!label) sel.value = '';
+    if (!fromUrl) { var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }
+    drawLimb(r);
   }
-  document.getElementById('loc-go').addEventListener('click', function () { show(latI.value, lonI.value); });
-  [latI, lonI].forEach(function (i) { i.addEventListener('keydown', function (e) { if (e.key === 'Enter') show(latI.value, lonI.value); }); });
+  chip.addEventListener('click', function () { sheet.showModal(); });
+  sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
+  document.getElementById('loc-go').addEventListener('click', function () { show(latI.value, lonI.value); sheet.close(); });
+  [latI, lonI].forEach(function (i) { i.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); show(latI.value, lonI.value); sheet.close(); } }); });
   var geoBtn = document.getElementById('loc-geo');
   if (!navigator.geolocation) geoBtn.hidden = true;
   geoBtn.addEventListener('click', function () {
     geoBtn.disabled = true; geoBtn.textContent = 'Locating…';
-    navigator.geolocation.getCurrentPosition(function (p) { geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); },
-      function () { geoBtn.textContent = 'Location unavailable'; });
+    navigator.geolocation.getCurrentPosition(function (p) { geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); sheet.close(); },
+      function () { geoBtn.disabled = false; geoBtn.textContent = 'Location unavailable'; });
   });
-  sel.addEventListener('change', function () { var c = D.cities[sel.value]; if (c) show(c[0], c[1], sel.value); });
+  sel.addEventListener('change', function () { var c = D.cities[sel.value]; if (c) { show(c[0], c[1], sel.value); sheet.close(); } });
   var map = document.getElementById('main-map');
   map.addEventListener('click', function (ev) {
     var pt = map.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
@@ -532,8 +588,14 @@
     var t = ev.target.closest && ev.target.closest('circle[data-city]');
     if (t) { var c = D.cities[t.dataset.city]; show(c[0], c[1], t.dataset.city); }
     else show(P.lat1 - q.y / P.s, P.lon0 + q.x / (P.k * P.s));
-    document.querySelector('.loc-card').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   });
+  var links = document.querySelectorAll('.subnav-links a'), secs = [].map.call(links, function (a) { return document.getElementById(a.dataset.sec); });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) links.forEach(function (a) { a.classList.toggle('active', a.dataset.sec === e.target.id); }); });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    secs.forEach(function (sc) { if (sc) io.observe(sc); });
+  }
 
   // ---- limb diagram ----
   var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
@@ -576,7 +638,10 @@
     readout.textContent = localTime(m, true) + ' ' + D.tzl;
   }
   slider.addEventListener('input', update);
-  var first = sel.options[1]; if (first) { var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value); }
+  var qs = new URLSearchParams(location.search), qc = qs.get('city');
+  if (qc && D.cities[qc]) show(D.cities[qc][0], D.cities[qc][1], qc, true);
+  else if (qs.get('lat') && qs.get('lon')) show(qs.get('lat'), qs.get('lon'), '', true);
+  else { var first = sel.options[1]; if (first) { var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value, true); } }
 })();
 
 </script>

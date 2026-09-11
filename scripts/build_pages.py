@@ -260,11 +260,34 @@ BASE_CSS = """
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
-    .loc-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+    .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+    .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
+    .subnav-links::-webkit-scrollbar { display: none; }
+    .subnav-links a { color: var(--muted); font-size: 0.85rem; padding: 0.3rem 0.55rem; border-radius: 999px; white-space: nowrap; }
+    .subnav-links a:hover { text-decoration: none; color: var(--text); }
+    .subnav-links a.active { color: var(--text); background: var(--card-2); }
+    .chip { display: inline-flex; align-items: center; gap: 0.4rem; max-width: 55vw; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem 0.3rem 0.5rem; font: inherit; font-size: 0.85rem; color: var(--text); cursor: pointer; white-space: nowrap; overflow: hidden; }
+    .chip:hover { border-color: var(--accent); }
+    .chip-pin { font-size: 0.9em; }
+    .chip-sub { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; }
+    .chip-sub:empty { display: none; }
+    .sheet { border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); padding: 0; max-width: 420px; width: calc(100% - 2rem); }
+    .sheet::backdrop { background: rgba(0,0,0,0.45); }
+    .sheet-body { padding: 1rem 1.1rem 1.1rem; display: grid; gap: 0.7rem; }
+    .sheet-title { font-weight: 700; font-size: 1.05rem; }
+    .sheet-hint { color: var(--muted); font-size: 0.82rem; margin: 0; }
+    .sheet label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; }
+    .sheet select { flex: 1; }
+    .btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    @media (max-width: 600px) { .sheet { margin: auto 0 0; width: 100%; max-width: none; border-radius: 16px 16px 0 0; } }
+    .hint { color: var(--muted); font-size: 0.85rem; }
+    tr.yours td { background: color-mix(in srgb, var(--c-limit) 14%, transparent); }
+    tr.yours td:first-child { color: var(--c-limit); font-weight: 600; }
     .loc-row { display: flex; flex-wrap: wrap; gap: 0.5rem 0.8rem; align-items: center; font-size: 0.9rem; }
     .loc-row input { font: inherit; width: 7.5rem; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
     .loc-row select { font: inherit; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 45vw; }
-    .loc-result { margin-top: 0.8rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
+    .loc-result { margin: 0.4rem 0 0.6rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
     .loc-result .fact-value { font-size: 1.15rem; }
     .loc-result .verdict { grid-column: 1 / -1; font-weight: 600; }
     .loc-result .verdict.miss { color: var(--c-miss); } .loc-result .verdict.visible { color: var(--c-visible); } .loc-result .verdict.moon_down { color: var(--c-down); }
@@ -431,15 +454,39 @@ def build(seed, slug):
 
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}",
                 f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>') + f"""
+<nav class="subnav" id="subnav">
+  <div class="subnav-row">
+    <div class="subnav-links">
+      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">How to watch</a>
+    </div>
+    <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">Choose location</span><span class="chip-sub" id="chip-sub"></span></button>
+  </div>
+</nav>
+<dialog id="loc-sheet" class="sheet" aria-label="Location">
+  <form method="dialog" class="sheet-body">
+    <div class="sheet-title">Location</div>
+    <label>City <select id="limb-city"><option value="">—</option>{limb_options}</select></label>
+    <div class="loc-row">
+      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="19.076"></label>
+      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="72.878"></label>
+    </div>
+    <div class="loc-row">
+      <button class="btn btn-primary" id="loc-go" type="button">Compute</button>
+      <button class="btn" id="loc-geo" type="button">Use my location</button>
+      <button class="btn" value="cancel">Close</button>
+    </div>
+    <p class="sheet-hint">You can also tap anywhere on the map, or a city dot.</p>
+  </form>
+</dialog>
+
 <main class="wrap">
   <h1>{esc(title)}</h1>
   <p class="sub">{esc(h1)} · {esc(day)} · {esc(aud['label'])}</p>
-
   <div class="facts facts-main">{facts_main}</div>
   <p class="lead">{esc(entry.get('note', ''))}</p>
   <p class="meta">{esc(facts_meta)}</p>
 
-  <h2>Where it can be seen</h2>
+  <h2 id="map">Where it can be seen</h2>
   <div class="map-card">
     {svg_map(data, geo, aud, cities, featured)}
     <div class="legend">
@@ -453,32 +500,20 @@ def build(seed, slug):
   </div>
   {limit_para}
   {night_para}
+  <p class="hint">Tap the map to set your location.</p>
 
-  <h2>Your location</h2>
-  <p>Type a latitude and longitude, use your phone's location, tap anywhere on the map, or pick a city. The times
-  are computed here in your browser from the same ephemeris the table uses, to the same ±2 s.</p>
-  <div class="loc-card">
-    <div class="loc-row">
-      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="19.076"></label>
-      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="72.878"></label>
-      <button class="btn" id="loc-go" type="button">Compute</button>
-      <button class="btn" id="loc-geo" type="button">Use my location</button>
-      <label>City <select id="limb-city"><option value="">—</option>{limb_options}</select></label>
-    </div>
-    <div class="loc-result" id="loc-result" hidden></div>
-  </div>
-
-  <h2>At the Moon's edge</h2>
-  <p>{esc(tname)}'s path across the Moon from the location above — north up, east to the left as in binoculars.
-  Drag the slider to move it along its track.</p>
+  <h2 id="moon">At the Moon's edge</h2>
   <div class="limb-card">
     <div class="limb-controls"><span id="limb-where" class="limb-readout"></span><span class="limb-readout" id="limb-readout"></span></div>
+    <div class="loc-result" id="loc-result" hidden></div>
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
+  <p class="hint">{esc(tname)}'s path across the Moon from your location — north up, east to the left as in binoculars.
+  Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{json.dumps(limb, ensure_ascii=False, separators=(",", ":"))}</script>
 
-  <h2>City by city</h2>
+  <h2 id="cities">City by city</h2>
   <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
   couple of seconds. <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns.</p>
@@ -496,7 +531,7 @@ def build(seed, slug):
     </details>
   </div>
 
-  <h2>How to watch</h2>{tips}
+  <h2 id="watch">How to watch</h2>{tips}
 
   <h2>Method &amp; accuracy</h2>
   <p class="method">Positions from the JPL <strong>DE431</strong> ephemeris (Skyfield), ΔT = {data['engine']['delta_t_s']} s,
@@ -579,44 +614,65 @@ def build(seed, slug):
   function localTime(m, secs) {{ return new Date(T0 + m * 60000).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: secs ? '2-digit' : undefined }}); }}
   function skyText(a) {{ return a > 0 ? 'daylight, Sun ' + (a > 0 ? '+' : '') + a.toFixed(0) + '°' : a > -6 ? 'sunset twilight' : a > -12 ? 'dusk' : 'dark sky'; }}
 
-  // ---- UI: location card ----
+  // ---- UI: one page-level location; chip + sheet, map, moon view and table all follow it ----
   var latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), res = document.getElementById('loc-result');
   var sel = document.getElementById('limb-city'), where = document.getElementById('limb-where'), pin = document.getElementById('pin');
-  var P = D.proj, cur = null;
+  var chip = document.getElementById('loc-chip'), chipName = document.getElementById('chip-name'), chipSub = document.getElementById('chip-sub');
+  var sheet = document.getElementById('loc-sheet'), P = D.proj, LOC = null;
   function fact(l, v, s) {{ return '<div class="fact"><div class="fact-label">' + l + '</div><div class="fact-value">' + v + '</div>' + (s ? '<div class="fact-sub">' + s + '</div>' : '') + '</div>'; }}
-  function show(lat, lon, label) {{
+  function tableRow(r, label) {{
+    var c = r.contacts;
+    if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
+      return '<tr class="yours"><td>' + label + '</td><td>' + (c.D2 !== undefined ? localTime(c.D2, true) : '—') + (c.D1 !== undefined ? '<small>from ' + localTime(c.D1, true) + '</small>' : '') +
+        '</td><td>' + (c.R1 !== undefined ? localTime(c.R1, true) : '—') + (c.R2 !== undefined ? '<small>to ' + localTime(c.R2, true) + '</small>' : '') +
+        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°</td><td>' + skyText(r.at.alts) + '</td></tr>';
+    }}
+    var gap = (r.closest.sep - r.closest.sdm) * 60;
+    return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses — ' + D.target + ' passes ' + gap.toFixed(1) + '′ from the limb at ' + localTime(r.closest.m, false) : 'Moon below the horizon') +
+      '</td><td>' + (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°</td><td>' + skyText(r.closest.alts) + '</td></tr>';
+  }}
+  function show(lat, lon, label, fromUrl) {{
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
+    LOC = {{ lat: lat, lon: lon, label: label || '' }};
     latI.value = lat.toFixed(4); lonI.value = lon.toFixed(4);
-    var r = solve(lat, lon), c = r.contacts, h = '';
+    var r = solve(lat, lon), c = r.contacts, h = '', summary;
     if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
       h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
       h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
       h += fact('Moon altitude', (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°', skyText(r.at.alts));
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
+      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
     }} else {{
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
       h += fact('Moon altitude', (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°', skyText(r.closest.alts));
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? D.target + ' passes ' + (gap * 60).toFixed(1) + '′ from the limb — a near miss from here.' : 'The Moon is below the horizon here.') + '</div>';
+      summary = r.verdict === 'miss' ? 'near miss, ' + (gap * 60).toFixed(1) + '′' : 'Moon below horizon';
     }}
     res.innerHTML = h; res.hidden = false;
+    var name = label || (lat.toFixed(3) + ', ' + lon.toFixed(3));
+    chipName.textContent = name; chipSub.textContent = summary; where.textContent = name;
     var x = (lon - P.lon0) * P.k * P.s, y = (P.lat1 - lat) * P.s;
     if (x >= 0 && x <= P.W && y >= 0 && y <= P.H) {{ pin.setAttribute('transform', 'translate(' + x.toFixed(1) + ',' + y.toFixed(1) + ')'); pin.hidden = false; }} else pin.hidden = true;
-    where.textContent = (label || (lat.toFixed(3) + ', ' + lon.toFixed(3)));
-    drawLimb(r);
+    var old = document.querySelector('tr.yours'); if (old) old.remove();
+    var tb = document.querySelector('#city-table tbody'); if (tb) tb.insertAdjacentHTML('afterbegin', tableRow(r, 'Your location · ' + name));
     if (!label) sel.value = '';
+    if (!fromUrl) {{ var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }}
+    drawLimb(r);
   }}
-  document.getElementById('loc-go').addEventListener('click', function () {{ show(latI.value, lonI.value); }});
-  [latI, lonI].forEach(function (i) {{ i.addEventListener('keydown', function (e) {{ if (e.key === 'Enter') show(latI.value, lonI.value); }}); }});
+  chip.addEventListener('click', function () {{ sheet.showModal(); }});
+  sheet.addEventListener('click', function (e) {{ if (e.target === sheet) sheet.close(); }});
+  document.getElementById('loc-go').addEventListener('click', function () {{ show(latI.value, lonI.value); sheet.close(); }});
+  [latI, lonI].forEach(function (i) {{ i.addEventListener('keydown', function (e) {{ if (e.key === 'Enter') {{ e.preventDefault(); show(latI.value, lonI.value); sheet.close(); }} }}); }});
   var geoBtn = document.getElementById('loc-geo');
   if (!navigator.geolocation) geoBtn.hidden = true;
   geoBtn.addEventListener('click', function () {{
     geoBtn.disabled = true; geoBtn.textContent = 'Locating…';
-    navigator.geolocation.getCurrentPosition(function (p) {{ geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); }},
-      function () {{ geoBtn.textContent = 'Location unavailable'; }});
+    navigator.geolocation.getCurrentPosition(function (p) {{ geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); sheet.close(); }},
+      function () {{ geoBtn.disabled = false; geoBtn.textContent = 'Location unavailable'; }});
   }});
-  sel.addEventListener('change', function () {{ var c = D.cities[sel.value]; if (c) show(c[0], c[1], sel.value); }});
+  sel.addEventListener('change', function () {{ var c = D.cities[sel.value]; if (c) {{ show(c[0], c[1], sel.value); sheet.close(); }} }});
   var map = document.getElementById('main-map');
   map.addEventListener('click', function (ev) {{
     var pt = map.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
@@ -624,8 +680,14 @@ def build(seed, slug):
     var t = ev.target.closest && ev.target.closest('circle[data-city]');
     if (t) {{ var c = D.cities[t.dataset.city]; show(c[0], c[1], t.dataset.city); }}
     else show(P.lat1 - q.y / P.s, P.lon0 + q.x / (P.k * P.s));
-    document.querySelector('.loc-card').scrollIntoView({{ block: 'nearest', behavior: 'smooth' }});
   }});
+  var links = document.querySelectorAll('.subnav-links a'), secs = [].map.call(links, function (a) {{ return document.getElementById(a.dataset.sec); }});
+  if ('IntersectionObserver' in window) {{
+    var io = new IntersectionObserver(function (es) {{
+      es.forEach(function (e) {{ if (e.isIntersecting) links.forEach(function (a) {{ a.classList.toggle('active', a.dataset.sec === e.target.id); }}); }});
+    }}, {{ rootMargin: '-40% 0px -55% 0px' }});
+    secs.forEach(function (sc) {{ if (sc) io.observe(sc); }});
+  }}
 
   // ---- limb diagram ----
   var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
@@ -668,7 +730,10 @@ def build(seed, slug):
     readout.textContent = localTime(m, true) + ' ' + D.tzl;
   }}
   slider.addEventListener('input', update);
-  var first = sel.options[1]; if (first) {{ var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value); }}
+  var qs = new URLSearchParams(location.search), qc = qs.get('city');
+  if (qc && D.cities[qc]) show(D.cities[qc][0], D.cities[qc][1], qc, true);
+  else if (qs.get('lat') && qs.get('lon')) show(qs.get('lat'), qs.get('lon'), '', true);
+  else {{ var first = sel.options[1]; if (first) {{ var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value, true); }} }}
 }})();
 
 </script>
