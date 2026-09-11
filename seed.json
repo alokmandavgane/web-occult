@@ -1,0 +1,34 @@
+{
+  "_comment": "Curated seed for the occultation pages. Each entry is (object, date, audience) and nothing else — every number on a page is computed from DE431 by api/lookup/generate/occultation_event.py. Candidates come from a DE431 scan (see that script's --scan), never from a published table. `audience` picks the city list, the map framing and the display timezone.",
+  "audiences": {
+    "india": {
+      "label": "India",
+      "bbox": [66.0, 4.0, 98.0, 38.0],
+      "lat0": 22.0,
+      "grid_deg": 0.125,
+      "tz": "Asia/Kolkata",
+      "tz_label": "IST",
+      "cities": "api/cities.json",
+      "featured": ["Delhi", "Mumbai", "Kolkata", "Chennai", "Bengaluru", "Hyderabad", "Ahmedabad", "Ujjain", "Pune", "Jaipur", "Lucknow", "Srinagar", "Guwahati", "Thiruvananthapuram", "Kochi", "Bhopal", "Nagpur", "Varanasi"]
+    },
+    "world": {
+      "label": "World",
+      "bbox": [-180.0, -80.0, 180.0, 80.0],
+      "lat0": 0.0,
+      "grid_deg": 1.0,
+      "tz": "UTC",
+      "tz_label": "UTC",
+      "cities": "world",
+      "featured": []
+    }
+  },
+  "events": [
+    {
+      "slug": "venus-2026-09-14",
+      "target": "venus",
+      "date": "2026-09-14",
+      "audience": "india",
+      "note": "Daylight occultation of Śukra by a three-day crescent; the north limit runs across north India — Delhi misses, Mumbai gets an hour."
+    }
+  ]
+}
