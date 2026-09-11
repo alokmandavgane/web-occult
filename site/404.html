@@ -15,87 +15,101 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://occult.alokm.com/404">
   <meta property="og:site_name" content="Occult">
-  <meta name="theme-color" content="#0b1220">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23fbbf24'/%3E%3Ccircle cx='21' cy='14' r='11' fill='%230b1220'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23111'/%3E%3Ccircle cx='21' cy='14' r='11' fill='%23fbfbfa'/%3E%3C/svg%3E">
   <style>
-    :root { --bg: #0b1220; --card: #141c2e; --card-2: #1b2438; --border: rgba(255,255,255,0.08);
-            --text: #eef2f7; --muted: #8b97ab; --accent: #7dd3fc;
-            --c-visible: #4ade80; --c-miss: #f87171; --c-down: #64748b; --c-limit: #fbbf24; --c-night: #c084fc; }
+    :root { color-scheme: light dark;
+            --bg: #fbfbfa; --card: #ffffff; --card-2: #f3f4f2; --border: #e6e7e3; --line: #d5d7d2;
+            --text: #16181d; --muted: #6b7280; --accent: #0e7490;
+            --sea: #eef2f5; --land: #dfe3e8; --land-line: #c8ced6;
+            --c-visible: #15803d; --c-miss: #dc2626; --c-down: #9ca3af; --c-limit: #d97706; --c-night: #7c3aed;
+            --region: rgba(14,116,144,0.22); --region-line: rgba(14,116,144,0.6); --night: rgba(124,58,237,0.22); }
+    @media (prefers-color-scheme: dark) { :root {
+            --bg: #0f1115; --card: #171a21; --card-2: #1f232c; --border: #262a33; --line: #343945;
+            --text: #e8eaee; --muted: #9aa3b2; --accent: #67c9e6;
+            --sea: #0b0e14; --land: #232833; --land-line: #3a4150;
+            --c-visible: #4ade80; --c-miss: #f87171; --c-down: #6b7280; --c-limit: #fbbf24; --c-night: #c4b5fd;
+            --region: rgba(103,201,230,0.22); --region-line: rgba(103,201,230,0.6); --night: rgba(196,181,253,0.25); } }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: 'Outfit', system-ui, sans-serif; line-height: 1.5; padding-bottom: 4rem; }
-    a { color: var(--accent); }
-    header.site { border-bottom: 1px solid var(--border); padding: 0.9rem 1rem; }
-    .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { background: var(--bg); color: var(--text); line-height: 1.55; padding-bottom: 4rem;
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+           font-feature-settings: "tnum"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header.site { padding: 1.1rem 1rem; }
     .site-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; max-width: 860px; margin: 0 auto; }
-    .brand { font-weight: 600; font-size: 1.05rem; color: var(--text); text-decoration: none; letter-spacing: 0.02em; }
-    .brand span { color: var(--accent); }
+    .brand { font-weight: 700; font-size: 1.1rem; color: var(--text); letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 0.45rem; }
+    .brand:hover { text-decoration: none; }
+    .brand svg { width: 1.1em; height: 1.1em; }
     .tagline { color: var(--muted); font-size: 0.85rem; }
-    h1 { font-size: 1.6rem; font-weight: 600; line-height: 1.2; margin: 1.4rem 0 0.2rem; }
-    h1 + .sub { color: var(--muted); }
-    h2 { font-size: 1.05rem; font-weight: 600; margin: 1.6rem 0 0.6rem; color: var(--accent); }
-    p { margin: 0.5rem 0; }
-    .lead { font-size: 1.05rem; }
-    .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.6rem; margin: 1rem 0; }
-    .fact { background: var(--card); border-radius: 10px; padding: 0.7rem 0.85rem; }
-    .fact-label { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
-    .fact-value { font-size: 1.25rem; font-weight: 600; margin-top: 0.15rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; margin: 1.6rem 0 0.35rem; }
+    .sub { color: var(--muted); }
+    h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; }
+    p { margin: 0.55rem 0; }
+    .lead { font-size: 1.1rem; margin-top: 1rem; }
+    .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.6rem; margin: 1.2rem 0; }
+    .fact { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 0.9rem; }
+    .fact-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+    .fact-value { font-size: 1.3rem; font-weight: 700; margin-top: 0.15rem; letter-spacing: -0.01em; }
     .fact-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
-    .map-card { background: var(--card); border-radius: 12px; padding: 0.6rem; }
+    .map-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem; }
     .occ-svg { width: 100%; height: auto; display: block; border-radius: 8px; }
     .occ-inset { max-width: 420px; margin: 0.6rem auto 0; }
-    .sea { fill: #070d1a; }
-    .land { fill: #232f45; stroke: rgba(255,255,255,0.18); stroke-width: 0.8; }
-    .border { fill: none; stroke: rgba(255,255,255,0.22); stroke-width: 0.7; }
-    .region { fill: rgba(125,211,252,0.28); stroke: rgba(125,211,252,0.7); stroke-width: 1; }
-    .night { fill: rgba(192,132,252,0.32); stroke: none; }
+    .sea { fill: var(--sea); }
+    .land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.8; }
+    .border { fill: none; stroke: var(--land-line); stroke-width: 0.7; }
+    .region { fill: var(--region); stroke: var(--region-line); stroke-width: 1; }
+    .night { fill: var(--night); stroke: none; }
     .limit { fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
     .limit-north, .limit-south { stroke: var(--c-limit); }
     .limit-horizon { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; }
     .frame { fill: none; stroke: var(--c-limit); stroke-width: 1.2; }
-    .city { stroke: #070d1a; stroke-width: 1; }
+    .city { stroke: var(--card); stroke-width: 1; }
     .city-visible { fill: var(--c-visible); }
     .city-miss { fill: var(--c-miss); }
     .city-moon_down { fill: var(--c-down); }
-    .city-label { font: 500 11px 'Outfit', system-ui, sans-serif; fill: #eef2f7; paint-order: stroke; stroke: #070d1a; stroke-width: 3px; stroke-linejoin: round; }
-    .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; font-size: 0.82rem; color: var(--muted); margin: 0.6rem 0.2rem 0; }
+    .city-label { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); paint-order: stroke; stroke: var(--card); stroke-width: 3px; stroke-linejoin: round; }
+    .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; font-size: 0.82rem; color: var(--muted); margin: 0.7rem 0.2rem 0.1rem; }
     .legend span::before { content: ''; display: inline-block; width: 0.8em; height: 0.8em; border-radius: 50%; margin-right: 0.4em; vertical-align: -0.05em; }
-    .lg-region::before { background: rgba(125,211,252,0.6); border-radius: 2px !important; }
-    .lg-night::before { background: rgba(192,132,252,0.7); border-radius: 2px !important; }
+    .lg-region::before { background: var(--region-line); border-radius: 2px !important; }
+    .lg-night::before { background: var(--c-night); opacity: 0.6; border-radius: 2px !important; }
     .lg-limit::before { background: var(--c-limit); height: 0.25em !important; vertical-align: 0.25em !important; }
     .lg-visible::before { background: var(--c-visible); }
     .lg-miss::before { background: var(--c-miss); }
-    .table-wrap { overflow-x: auto; background: var(--card); border-radius: 12px; }
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--border); border-radius: 14px; }
     table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
-    th, td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border); white-space: nowrap; vertical-align: top; }
-    th { color: var(--muted); font-weight: 500; font-size: 0.78rem; letter-spacing: 0.03em; }
-    th small { font-weight: 400; }
+    th, td { text-align: left; padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); white-space: nowrap; vertical-align: top; }
+    tbody tr:last-child td { border-bottom: 0; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
+    th small { font-weight: 400; text-transform: none; letter-spacing: 0; }
     td small { display: block; color: var(--muted); font-size: 0.75rem; }
     tr.v-miss td { color: var(--muted); }
     tr.v-miss td:first-child { color: var(--c-miss); }
-    tr.v-visible td:first-child { color: var(--c-visible); font-weight: 500; }
+    tr.v-visible td:first-child { color: var(--c-visible); font-weight: 600; }
     tr.v-down td { color: var(--c-down); }
-    tr.nearest td { background: rgba(251,191,36,0.12); }
-    details { margin-top: 0.6rem; }
-    summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; padding: 0.4rem 0.2rem; }
-    .btn { background: var(--card-2); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 0.4rem 0.8rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
-    .btn:hover { border-color: var(--accent); }
+    tr.nearest td { background: rgba(217,119,6,0.12); }
+    details { border-top: 1px solid var(--border); }
+    summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; padding: 0.6rem 0.75rem; }
+    .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
     .method { font-size: 0.85rem; color: var(--muted); }
-    .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 1rem 0; }
-    .event-card { display: block; background: var(--card); border-radius: 12px; padding: 0.9rem 1rem; text-decoration: none; color: var(--text); border: 1px solid transparent; }
-    .event-card:hover { border-color: var(--accent); }
+    .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
+    .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
+    .event-card:hover { border-color: var(--accent); text-decoration: none; }
     .event-card .when { color: var(--muted); font-size: 0.85rem; }
-    .event-card .what { font-size: 1.15rem; font-weight: 600; margin: 0.15rem 0; }
-    .event-card .note { color: var(--muted); font-size: 0.9rem; }
-    footer { max-width: 860px; margin: 2.5rem auto 0; padding: 0 1rem; font-size: 0.85rem; color: var(--muted); }
+    .event-card .what { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; margin: 0.15rem 0; }
+    .event-card .note { color: var(--muted); font-size: 0.92rem; }
+    footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
 </style>
   
 </head>
 <body>
 <header class="site">
   <div class="site-row">
-    <a class="brand" href="/">Occult <span>·</span> occult.alokm.com</a>
+    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="currentColor"/><circle cx="21" cy="14" r="11" fill="var(--bg)"/></svg>Occult</a>
     <span class="tagline">lunar occultations, computed</span>
   </div>
 </header>
@@ -103,8 +117,7 @@
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
 <p><a href="/">All events</a></p></main>
 <footer>
-  <p>Every number on this site is computed from the JPL DE431 ephemeris by the
-  <a href="https://kaalshodh.com/">Kaalshodh</a> engine; the pages are static. Predictions are for
-  the Moon's mean limb. Built by Alok Mandavgane.</p>
+  <p>Computed from the JPL DE431 ephemeris, for the Moon's mean limb. Static pages; no tracking beyond
+  basic analytics. <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 </body></html>
