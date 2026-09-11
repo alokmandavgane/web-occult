@@ -117,6 +117,20 @@ def t_local(iso, tz, fmt="%H:%M:%S"):
     return parse(iso).astimezone(tz).strftime(fmt)
 
 
+def compass(az):
+    return ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"][int((az + 11.25) // 22.5) % 16]
+
+
+def look_text(c):
+    """Where the Moon is at that moment, in words: '41° up in the WSW · daylight'."""
+    alt, az = c.get("moon_alt", 0), c.get("moon_az")
+    if alt <= 0:
+        return "Moon below the horizon"
+    height = "low" if alt < 15 else "high" if alt > 60 else ""
+    where = f"{alt:.0f}° up{' (' + height + ')' if height else ''}" + (f" in the {compass(az)}" if az is not None else "")
+    return f"{where} · {sky_text(c['sun_alt'])}"
+
+
 def sky_text(sun_alt):
     if sun_alt > 0:
         return f"daylight, Sun {sun_alt:+.0f}°"
@@ -149,16 +163,15 @@ def city_row(c, data, tz):
         r2 = f'<small>to {t_local(con["R2"], tz, "%H:%M:%S")}</small>' if "R2" in con and "R1" in con else ""
         hid = f'{c["hidden_min"]:.0f} min' if c.get("hidden_min") else "—"
         return (f'<tr class="v-visible" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
-                f'<td>{d}{d1}</td><td>{r}{r2}</td><td>{hid}</td>'
-                f'<td>{c["moon_alt"]:+.0f}°</td><td>{esc(sky_text(c["sun_alt"]))}</td></tr>')
+                f'<td>{d}{d1}</td><td>{r}{r2}</td><td>{hid}</td><td>{esc(look_text(c))}</td></tr>')
     if c["verdict"] == "miss":
         gap = c["sep_arcmin"] - c["moon_sd_arcmin"]
         when = t_local(c["closest"], tz, "%H:%M") if c.get("closest") else ""
         return (f'<tr class="v-miss" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
                 f'<td colspan="3">misses — {esc(tname)} passes {gap:.1f}′ from the limb at {when}</td>'
-                f'<td>{c["moon_alt"]:+.0f}°</td><td>{esc(sky_text(c["sun_alt"]))}</td></tr>')
+                f'<td>{esc(look_text(c))}</td></tr>')
     return (f'<tr class="v-down" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
-            f'<td colspan="5">Moon below the horizon</td></tr>')
+            f'<td colspan="4">Moon below the horizon</td></tr>')
 
 
 # ── page ───────────────────────────────────────────────────────────────────
@@ -463,7 +476,8 @@ def build(seed, slug):
                   f"Moon {g['moon_age_days']:.1f} days old, {g['illum_pct']:.0f}% lit, {g['elongation_deg']:.0f}° from the Sun")
 
     thead = (f'<tr><th>City</th><th>{tname} disappears <small>({tzl})</small></th>'
-             f'<th>reappears <small>({tzl})</small></th><th>hidden</th><th>Moon alt.</th><th>Sky</th></tr>')
+             f'<th>reappears <small>({tzl})</small></th><th>hidden</th>'
+             f'<th title="How high the Moon stands above the horizon when {esc(tname)} disappears (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look at disappearance</th></tr>')
 
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}",
                 f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>') + f"""
@@ -529,7 +543,9 @@ def build(seed, slug):
   <h2 id="cities">City by city</h2>
   <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
   couple of seconds. <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
-  earlier time to slide in); <em>reappears</em> is when the first sliver returns.</p>
+  earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
+  Moon's height above the horizon (0° is the horizon, 90° straight up) and compass direction at that moment,
+  and whether the Sun is still up.</p>
   <div class="table-wrap">
     <table id="city-table">
       <thead>{thead}</thead>
@@ -582,6 +598,7 @@ def build(seed, slug):
                -s*R0[0] + c*R0[3], -s*R0[1] + c*R0[4], -s*R0[2] + c*R0[5], R0[6], R0[7], R0[8]];
       function toG(v) {{ return [R[0]*v[0] + R[3]*v[1] + R[6]*v[2], R[1]*v[0] + R[4]*v[1] + R[7]*v[2], R[2]*v[0] + R[5]*v[1] + R[8]*v[2]]; }}
       var obs = toG(r), upg = toG(up), vrot = toG(wxr);
+      var eg = toG([-Math.sin(lo), Math.cos(lo), 0]), ng = toG([-Math.sin(la) * Math.cos(lo), -Math.sin(la) * Math.sin(lo), Math.cos(la)]);
       var vobs = [VE[0] + vrot[0], VE[1] + vrot[1], VE[2] + vrot[2]];
       function topo(coef) {{
         var P = [poly(coef[0], tau), poly(coef[1], tau), poly(coef[2], tau)];
@@ -596,7 +613,8 @@ def build(seed, slug):
       var sdm = Math.asin(E.moon_radius_km / M.dist) / RAD, sdt = E.target_radius_km ? Math.asin(E.target_radius_km / S.dist) / RAD : 0;
       var ram = Math.atan2(M.u[1], M.u[0]), decm = Math.asin(M.u[2]), ras = Math.atan2(S.u[1], S.u[0]), decs = Math.asin(S.u[2]);
       var dra = ((ras - ram + 3 * Math.PI) % (2 * Math.PI)) - Math.PI;
-      return {{ sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, alts: Math.asin(dot(unit(sun), upg)) / RAD,
+      var azm = Math.atan2(dot(M.u, eg), dot(M.u, ng)) / RAD; if (azm < 0) azm += 360;
+      return {{ sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
                east: dra * Math.cos(decm) / RAD * 60, north: (decs - decm) / RAD * 60 }};
     }};
   }}
@@ -625,6 +643,8 @@ def build(seed, slug):
              hidden: (contacts.D2 !== undefined && contacts.R1 !== undefined) ? contacts.R1 - contacts.D2 : null }};
   }}
   function localTime(m, secs) {{ return new Date(T0 + m * 60000).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: secs ? '2-digit' : undefined }}); }}
+  function compass(az) {{ return ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'][Math.floor(((az + 11.25) % 360) / 22.5) % 16]; }}
+  function lookText(g) {{ if (g.altm <= 0) return 'Moon below the horizon'; var h = g.altm < 15 ? ' (low)' : g.altm > 60 ? ' (high)' : ''; return g.altm.toFixed(0) + '° up' + h + ' in the ' + compass(g.azm) + ' · ' + skyText(g.alts); }}
   function skyText(a) {{ return a > 0 ? 'daylight, Sun ' + (a > 0 ? '+' : '') + a.toFixed(0) + '°' : a > -6 ? 'sunset twilight' : a > -12 ? 'dusk' : 'dark sky'; }}
 
   // ---- UI: one page-level location; chip + sheet, map, moon view and table all follow it ----
@@ -638,11 +658,11 @@ def build(seed, slug):
     if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
       return '<tr class="yours"><td>' + label + '</td><td>' + (c.D2 !== undefined ? localTime(c.D2, true) : '—') + (c.D1 !== undefined ? '<small>from ' + localTime(c.D1, true) + '</small>' : '') +
         '</td><td>' + (c.R1 !== undefined ? localTime(c.R1, true) : '—') + (c.R2 !== undefined ? '<small>to ' + localTime(c.R2, true) + '</small>' : '') +
-        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°</td><td>' + skyText(r.at.alts) + '</td></tr>';
+        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + lookText(r.at) + '</td></tr>';
     }}
     var gap = (r.closest.sep - r.closest.sdm) * 60;
     return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses — ' + D.target + ' passes ' + gap.toFixed(1) + '′ from the limb at ' + localTime(r.closest.m, false) : 'Moon below the horizon') +
-      '</td><td>' + (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°</td><td>' + skyText(r.closest.alts) + '</td></tr>';
+      '</td><td>' + lookText(r.closest) + '</td></tr>';
   }}
   function show(lat, lon, label, fromUrl) {{
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
@@ -653,13 +673,13 @@ def build(seed, slug):
       h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
       h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
-      h += fact('Moon altitude', (r.at.altm > 0 ? '+' : '') + r.at.altm.toFixed(0) + '°', skyText(r.at.alts));
+      h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + ' · at disappearance' : '');
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
       summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
     }} else {{
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
-      h += fact('Moon altitude', (r.closest.altm > 0 ? '+' : '') + r.closest.altm.toFixed(0) + '°', skyText(r.closest.alts));
+      h += fact('Where to look', r.closest.altm > 0 ? r.closest.altm.toFixed(0) + '° up in the ' + compass(r.closest.azm) : 'below the horizon', r.closest.altm > 0 ? skyText(r.closest.alts) : '');
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? D.target + ' passes ' + (gap * 60).toFixed(1) + '′ from the limb — a near miss from here.' : 'The Moon is below the horizon here.') + '</div>';
       summary = r.verdict === 'miss' ? 'near miss, ' + (gap * 60).toFixed(1) + '′' : 'Moon below horizon';
     }}
@@ -740,7 +760,7 @@ def build(seed, slug):
     var m = track.m0 + (+slider.value), g = track.geom(m), p = xy(g), t = document.getElementById('limb-target');
     t.setAttribute('cx', p.x); t.setAttribute('cy', p.y);
     t.style.opacity = g.sep < g.sdm - g.sdt ? 0.25 : 1;
-    readout.textContent = localTime(m, true) + ' ' + D.tzl;
+    readout.textContent = localTime(m, true) + ' ' + D.tzl + ' · Moon ' + (g.altm > 0 ? g.altm.toFixed(0) + '° up, ' + compass(g.azm) : 'below horizon');
   }}
   slider.addEventListener('input', update);
   var qs = new URLSearchParams(location.search), qc = qs.get('city');
