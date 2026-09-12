@@ -312,6 +312,8 @@ BASE_CSS = """
     .event-card .when { color: var(--muted); font-size: 0.85rem; }
     .event-card .what { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; margin: 0.15rem 0; }
     .event-card .note { color: var(--muted); font-size: 0.92rem; }
+    .event-list-months { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+    .event-list-months .event-card .what { font-size: 1rem; }
     footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
 """
 
@@ -783,8 +785,16 @@ def build(seed, slug):
             "audience": aud["label"], "when": t_min_local, "generated": data["generated"][:10]}
 
 
-def build_index(seed, built):
+def build_index(seed, built, jup=()):
     built = sorted(built, key=lambda b: b["when"])
+    jup_items = "".join(
+        f'<li><a class="event-card" href="/{j["slug"]}"><div class="when">{j["n"]} events{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</div>'
+        f'<div class="what">{esc(j["label"])}</div></a></li>' for j in jup)
+    jup_section = f"""
+  <h2 id="jupiter">Jupiter's moons</h2>
+  <p>Eclipses, occultations, transits and shadow transits of the four Galilean moons, month by month —
+  and the 2026–27 season of mutual events, when the moons eclipse and occult each other.</p>
+  <ul class="event-list event-list-months">{jup_items}</ul>""" if jup else ""
     items = "".join(
         f'<li><a class="event-card" href="/{b["slug"]}"><div class="when">{esc(b["day"])} · {esc(b["audience"])}</div>'
         f'<div class="what">{esc(b["title"])}</div><div class="note">{esc(b["note"])}</div></a></li>'
@@ -799,8 +809,9 @@ def build_index(seed, built):
   only from a band of the Earth, and the timing changes from city to city. Each page here maps that
   band, draws the graze limit where the object skims the lunar edge, and lists the contact times
   for the cities that see it.</p>
-  <h2>Events</h2>
+  <h2>Lunar occultations</h2>
   <ul class="event-list">{items}</ul>
+  {jup_section}
   <h2>How these are made</h2>
   <p class="method">The event list is chosen by hand; every time and line is then computed from the JPL DE431
   ephemeris for the Moon's mean limb (±2 s against the real, mountainous limb). Each page links the JSON
@@ -811,7 +822,7 @@ def build_index(seed, built):
 </html>
 """
     (OUT / "index.html").write_text(page)
-    urls = [("/", "weekly", "1.0")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built]
+    urls = [("/", "weekly", "1.0")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
@@ -828,7 +839,14 @@ def build_index(seed, built):
 
 
 if __name__ == "__main__":
+    import build_jupiter
     seed = json.loads((ROOT / "seed.json").read_text())
     OUT.mkdir(exist_ok=True)
     built = [build(seed, e["slug"]) for e in seed["events"]]
-    build_index(seed, built)
+    # every city any event page knows, for the diary pages' location sheet
+    all_cities = {}
+    for e in seed["events"]:
+        for c in json.loads((ROOT / "data" / f"{e['slug']}.json").read_text())["cities"]:
+            all_cities.setdefault(c["name"], [c["lat"], c["lon"]])
+    jup = build_jupiter.build_all(dict(sorted(all_cities.items())))
+    build_index(seed, built, jup)

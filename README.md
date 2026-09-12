@@ -11,7 +11,9 @@ seed.json          the curated event list: (target, date, audience, note) — no
 data/<slug>.json   generated per event by the kaalshodh repo:
                      cd ~/dev/kaalshodh/api && python lookup/generate/occultation_event.py <slug>
 geo/<audience>.json map outlines (Natural Earth + India-compliant borders): scripts/build_geo.py
-scripts/build_pages.py   data + geo + seed  ->  site/
+data/jupiter-moons-<year>.json   Galilean-moon phenomena (kaalshodh: api/lookup/generate/satellite_events.py,
+                   DE431 + JPL jup365.bsp): eclipses, occultations, transits, shadows, mutual events
+scripts/build_pages.py   data + geo + seed  ->  site/   (also runs scripts/build_jupiter.py: one diary page per month)
 site/              what Cloudflare Pages serves (committed; pushed by scripts/deploy.sh)
 ```
 
