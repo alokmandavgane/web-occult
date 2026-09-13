@@ -159,6 +159,12 @@
     footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
 </style>
   <style>
+    .config-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem 0.8rem; }
+    .config-svg { width: 100%; height: auto; display: block; background: var(--sea); border-radius: 8px; margin: 0.4rem 0; }
+    .cfg-line { stroke: var(--line); stroke-width: 0.6; }
+    .cfg-jup { fill: #d9b98a; stroke: #b08a55; stroke-width: 0.8; }
+    .cfg-moon.dim { opacity: 0.25; }
+    .cfg-lbl { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .filters { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; margin: 0.8rem 0 0.3rem; font-size: 0.9rem; }
     .toggle { display: inline-flex; gap: 0.4rem; align-items: center; }
     .chips { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; }
@@ -212,6 +218,18 @@
   shadow, cross its face, and drag their shadows across the cloud tops. Any telescope shows it.
   This is a mutual-event season — every six years the moons' orbits turn edge-on to the Sun and they eclipse and occult <em>each other</em>. 
   Times are for the whole Earth; pick a location and the list keeps only what your sky shows.</p>
+  <h2 id="config">Where the moons are</h2>
+  <div class="config-card">
+    <div class="limb-controls"><span class="limb-readout" id="config-time"></span>
+      <span><button class="btn" id="config-play" type="button">Play</button> <button class="btn" id="config-zoom" type="button">Zoom in</button></span></div>
+    <svg id="config-svg" viewBox="0 0 800 170" class="config-svg" role="img" aria-label="Jupiter and its four moons" data-t0="1796083200" data-t1="1798761600"></svg>
+    <input type="range" id="config-slider" min="0" max="100" value="0" step="1" aria-label="Time">
+  </div>
+  <p class="hint">Jupiter's equator horizontal, east to the left as in binoculars. Drag through the month, or tap any
+  line in the list below to jump there. Moons behind the planet fade. Positions ±0.1 Jupiter radii — for the
+  picture; the times come from JPL.</p>
+
+  <h2>Events</h2>
   <div class="filters">
     <label class="toggle"><input type="checkbox" id="only-visible" checked> Only what I can see from <span id="only-where">here</span></label>
     <span class="chips" id="moon-chips">
@@ -242,6 +260,76 @@
 </footer>
 
 <script>
+(function () {
+  // ---- Galilean configuration: Meeus, Astronomical Algorithms ch. 44 (low-accuracy method).
+  // Checked against JPL jup365: 0.02 R_J rms along the orbit line, 0.08 across — a picture, not a timing.
+  var RAD = Math.PI / 180, sin = Math.sin, cos = Math.cos;
+  function galilean(ms) {
+    var d = ms / 86400000 + 2440587.5 - 2451545.0;
+    var V = 172.74 + 0.00111588 * d, M = 357.529 + 0.9856003 * d;
+    var N = 20.020 + 0.0830853 * d + 0.329 * sin(V * RAD), J = 66.115 + 0.9025179 * d - 0.329 * sin(V * RAD);
+    var A = 1.915 * sin(M * RAD) + 0.020 * sin(2 * M * RAD), B = 5.555 * sin(N * RAD) + 0.168 * sin(2 * N * RAD);
+    var K = J + A - B, R = 1.00014 - 0.01671 * cos(M * RAD) - 0.00014 * cos(2 * M * RAD);
+    var r = 5.20872 - 0.25208 * cos(N * RAD) - 0.00611 * cos(2 * N * RAD);
+    var D = Math.sqrt(r * r + R * R - 2 * r * R * cos(K * RAD)), psi = Math.asin(R / D * sin(K * RAD)) / RAD;
+    var lam = 34.35 + 0.083091 * d + 0.329 * sin(V * RAD) + B;
+    var DS = 3.12 * sin((lam + 42.8) * RAD);
+    var DE = DS - 2.22 * sin(psi * RAD) * cos((lam + 22) * RAD) - 1.30 * (r - D) / D * sin((lam - 100.5) * RAD);
+    var dd = d - D / 173;
+    var u = [163.8069 + 203.4058646 * dd + psi - B, 358.4140 + 101.2916335 * dd + psi - B, 5.7176 + 50.2345180 * dd + psi - B, 224.8092 + 21.4879800 * dd + psi - B];
+    var G = 331.18 + 50.310482 * dd, H = 87.45 + 21.569231 * dd;
+    u[0] += 0.473 * sin(2 * (u[0] - u[1]) * RAD); u[1] += 1.065 * sin(2 * (u[1] - u[2]) * RAD); u[2] += 0.165 * sin(G * RAD); u[3] += 0.843 * sin(H * RAD);
+    var rr = [5.9057 - 0.0244 * cos(2 * (u[0] - u[1]) * RAD), 9.3966 - 0.0882 * cos(2 * (u[1] - u[2]) * RAD), 14.9883 - 0.0216 * cos(G * RAD), 26.3613 - 0.1935 * cos(H * RAD)];
+    var out = [];
+    for (var i = 0; i < 4; i++) out.push({ x: rr[i] * sin(u[i] * RAD), y: -rr[i] * cos(u[i] * RAD) * sin(DE * RAD), front: cos(u[i] * RAD) > 0 });
+    return out;   // x in Jupiter radii, positive WEST; y positive north; front = nearer to Earth than Jupiter
+  }
+  var NS = 'http://www.w3.org/2000/svg', svg = document.getElementById('config-svg'), sl = document.getElementById('config-slider');
+  var out = document.getElementById('config-time'), zoomBtn = document.getElementById('config-zoom'), playBtn = document.getElementById('config-play');
+  var T0 = +svg.dataset.t0 * 1000, T1 = +svg.dataset.t1 * 1000, STEP = 5 * 60000;
+  var NAMES = ['Io', 'Europa', 'Ganymede', 'Callisto'], COL = ['#f59e0b', '#60a5fa', '#a78bfa', '#34d399'], RAD_RJ = [0.0255, 0.0218, 0.0368, 0.0337];
+  var half = 30, W = 800, Hh = 170, cx = W / 2, cy = Hh / 2, timer = null;
+  function el(n, a) { var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); return e; }
+  function draw() {
+    var ms = T0 + (+sl.value) * STEP, pos = galilean(ms), s = (W / 2 - 20) / half;
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    svg.appendChild(el('line', { x1: 0, y1: cy, x2: W, y2: cy, class: 'cfg-line' }));
+    var behind = pos.filter(function (p) { return !p.front; }), front = pos.filter(function (p) { return p.front; });
+    function moon(p, i, dim) {
+      var g = el('g', { class: 'cfg-moon' + (dim ? ' dim' : '') });
+      var r = Math.max(4, RAD_RJ[i] * s);
+      g.appendChild(el('circle', { cx: cx + p.x * s, cy: cy - p.y * s, r: r, fill: COL[i] }));
+      var t = el('text', { x: cx + p.x * s, y: cy - p.y * s - r - 4, 'text-anchor': 'middle', class: 'cfg-lbl' }); t.textContent = NAMES[i][0]; g.appendChild(t);
+      svg.appendChild(g);
+    }
+    pos.forEach(function (p, i) { if (!p.front) moon(p, i, Math.abs(p.x) < 1 && Math.abs(p.y) < 1); });
+    svg.appendChild(el('ellipse', { cx: cx, cy: cy, rx: s, ry: s * 0.935, class: 'cfg-jup' }));
+    pos.forEach(function (p, i) { if (p.front) moon(p, i, false); });
+    var e = el('text', { x: 8, y: 14, class: 'cfg-lbl' }); e.textContent = 'E'; svg.appendChild(e);
+    var w = el('text', { x: W - 8, y: 14, 'text-anchor': 'end', class: 'cfg-lbl' }); w.textContent = 'W'; svg.appendChild(w);
+    var d = new Date(ms);
+    out.textContent = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) + ' ' + d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' })
+      + (half === 30 ? '' : ' · zoomed');
+  }
+  sl.max = Math.round((T1 - T0) / STEP); sl.value = Math.round(Math.min(Math.max(Date.now(), T0), T1) - T0) / STEP | 0;
+  sl.addEventListener('input', draw);
+  zoomBtn.addEventListener('click', function () { half = half === 30 ? 8 : 30; zoomBtn.textContent = half === 30 ? 'Zoom in' : 'Zoom out'; draw(); });
+  playBtn.addEventListener('click', function () {
+    if (timer) { clearInterval(timer); timer = null; playBtn.textContent = 'Play'; return; }
+    playBtn.textContent = 'Pause';
+    timer = setInterval(function () { var v = +sl.value + 3; if (v > +sl.max) v = 0; sl.value = v; draw(); }, 80);
+  });
+  // a diary row sets the diagram to that moment
+  document.querySelectorAll('#diary tbody tr').forEach(function (tr) {
+    tr.style.cursor = 'pointer';
+    tr.addEventListener('click', function () {
+      sl.value = Math.round((+tr.dataset.utc * 1000 - T0) / STEP); draw();
+      document.getElementById('config').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  });
+  draw();
+})();
+
 (function () {
   var D = JSON.parse(document.getElementById('diary-data').textContent), RAD = Math.PI / 180;
   var rows = [].slice.call(document.querySelectorAll('#diary tbody tr')), LOC = null;
