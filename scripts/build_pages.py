@@ -782,35 +782,83 @@ def build(seed, slug):
     print(f"wrote site/{slug}.html ({out.stat().st_size // 1024} KB): {len(vis)} visible / {len(misses)} miss / "
           f"{len(cities) - len(vis) - len(misses)} moon-down cities")
     return {"slug": slug, "title": title, "day": day, "note": entry.get("note") or auto_note,
+            "kind": kind, "target": tname, "end_utc": (last_r or parse(g["t_min"])).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "audience": aud["label"], "when": t_min_local, "generated": data["generated"][:10]}
 
 
+INDEX_CSS = """
+    .hero { display: block; background: var(--card); border: 1px solid var(--accent); border-radius: 16px; padding: 1.1rem 1.25rem; margin: 1.2rem 0 1.6rem; color: var(--text); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+    .hero:hover { text-decoration: none; border-color: var(--accent); }
+    .hero-kicker { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+    .hero-title { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin: 0.2rem 0 0.3rem; }
+    .hero-note { color: var(--muted); }
+    .evlist { list-style: none; margin: 0.4rem 0 0; border: 1px solid var(--border); border-radius: 14px; background: var(--card); overflow: hidden; }
+    .evlist li + li { border-top: 1px solid var(--border); }
+    .evlist .ev a { display: grid; grid-template-columns: 7.5rem 1fr auto; grid-template-areas: "date what tags" "date note note"; gap: 0.15rem 0.8rem; align-items: baseline; padding: 0.65rem 0.9rem; color: var(--text); }
+    .evlist .ev a:hover { background: var(--card-2); text-decoration: none; }
+    .ev-date { grid-area: date; color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+    .ev-what { grid-area: what; font-weight: 600; }
+    .ev-note { grid-area: note; color: var(--muted); font-size: 0.85rem; }
+    .tag { grid-area: tags; display: inline-block; font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.5rem; color: var(--muted); margin-left: 0.3rem; }
+    .tag-planet { border-color: var(--c-limit); color: var(--c-limit); }
+    .tag-star { border-color: var(--accent); color: var(--accent); }
+    .tags { grid-area: tags; }
+    .ev.past a { opacity: 0.45; }
+    .ev.past a:hover { opacity: 0.8; }
+    .evlist .divider { padding: 0.4rem 0.9rem; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); background: var(--card-2); }
+    @media (max-width: 560px) { .evlist .ev a { grid-template-columns: 1fr auto; grid-template-areas: "date tags" "what what" "note note"; } }
+    .months { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.5rem; margin: 0.6rem 0; }
+    .months a { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.6rem 0.8rem; color: var(--text); }
+    .months a:hover { border-color: var(--accent); text-decoration: none; }
+    .mo-name { display: block; font-weight: 600; font-size: 0.95rem; }
+    .mo-n { display: block; color: var(--muted); font-size: 0.78rem; }
+    .mo.current a { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+    .mo.past a { opacity: 0.5; }
+"""
+
+
 def build_index(seed, built, jup=()):
+    """One list, newest-upcoming first: the next event as a hero, then the rest as compact rows with
+    tags (planet/star, audience) — past events greyed at the bottom. The build stamps each row
+    with its UTC end so the browser re-sorts 'past' vs 'upcoming' on the day, not the deploy."""
     built = sorted(built, key=lambda b: b["when"])
-    jup_items = "".join(
-        f'<li><a class="event-card" href="/{j["slug"]}"><div class="when">{j["n"]} events{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</div>'
-        f'<div class="what">{esc(j["label"])}</div></a></li>' for j in jup)
+    now = datetime.now(timezone.utc)
+
+    def row(b, past):
+        tags = (f'<span class="tags"><span class="tag tag-{b["kind"]}">{b["kind"]}</span>'
+                f'<span class="tag tag-aud">{esc(b["audience"])}</span></span>')
+        return (f'<li class="ev{" past" if past else ""}" data-end="{b["end_utc"]}">'
+                f'<a href="/{b["slug"]}"><span class="ev-date">{esc(b["day"])}</span>'
+                f'<span class="ev-what">The Moon occults {esc(b["target"])}</span>{tags}'
+                f'<span class="ev-note">{esc(b["note"])}</span></a></li>')
+
+    rows = "".join(row(b, parse(b["end_utc"]) < now) for b in built)
+    upcoming = [b for b in built if parse(b["end_utc"]) >= now]
+    hero = upcoming[0] if upcoming else built[-1]
+    hero_html = (f'<a class="hero" id="hero" href="/{hero["slug"]}"><div class="hero-kicker">Next up · {esc(hero["day"])}</div>'
+                 f'<div class="hero-title">The Moon occults {esc(hero["target"])}</div>'
+                 f'<div class="hero-note">{esc(hero["note"])}</div></a>')
+
+    # Jupiter's moons: the month in progress first, then the rest as a compact strip
+    jup_rows = "".join(
+        f'<li class="mo" data-ym="{j["year"]}-{j["month"]:02d}"><a href="/{j["slug"]}">'
+        f'<span class="mo-name">{esc(j["label"])}</span><span class="mo-n">{j["n"]} events'
+        f'{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</span></a></li>' for j in jup)
     jup_section = f"""
   <h2 id="jupiter">Jupiter's moons</h2>
-  <p>Eclipses, occultations, transits and shadow transits of the four Galilean moons, month by month —
-  and the 2026–27 season of mutual events, when the moons eclipse and occult each other.</p>
-  <ul class="event-list event-list-months">{jup_items}</ul>""" if jup else ""
-    items = "".join(
-        f'<li><a class="event-card" href="/{b["slug"]}"><div class="when">{esc(b["day"])} · {esc(b["audience"])}</div>'
-        f'<div class="what">{esc(b["title"])}</div><div class="note">{esc(b["note"])}</div></a></li>'
-        for b in built)
+  <p class="hint">Eclipses, occultations, transits and shadows of Io, Europa, Ganymede and Callisto — plus the
+  2026–27 mutual events, when they eclipse and occult each other. One page per month.</p>
+  <ul class="months">{jup_rows}</ul>""" if jup else ""
+
     desc = ("Lunar occultations of planets and bright stars: where on Earth each one can be seen, the graze-limit "
             "map, and city-by-city contact times — computed from the JPL DE431 ephemeris.")
-    page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/") + f"""
+    page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
 <main class="wrap">
   <h1>When the Moon hides a planet or a star</h1>
-  <p class="sub">{TAGLINE}</p>
-  <p class="lead">A lunar occultation is the Moon passing in front of a planet or a star. It is visible
-  only from a band of the Earth, and the timing changes from city to city. Each page here maps that
-  band, draws the graze limit where the object skims the lunar edge, and lists the contact times
-  for the cities that see it.</p>
+  <p class="sub">{TAGLINE} — where on Earth, and when, city by city</p>
+  {hero_html}
   <h2>Lunar occultations</h2>
-  <ul class="event-list">{items}</ul>
+  <ul class="evlist" id="evlist">{rows}</ul>
   {jup_section}
   <h2>How these are made</h2>
   <p class="method">The event list is chosen by hand; every time and line is then computed from the JPL DE431
@@ -818,6 +866,26 @@ def build_index(seed, built, jup=()):
   it was built from. Nothing here is copied from another prediction service.</p>
 </main>
 {FOOTER}
+<script>
+(function () {{
+  // 'past' is decided by the reader's clock, not the build's: re-sort so upcoming come first, past last
+  var now = Date.now(), list = document.getElementById('evlist'), items = [].slice.call(list.children);
+  var up = [], past = [];
+  items.forEach(function (li) {{ (Date.parse(li.dataset.end) < now ? past : up).push(li); li.classList.toggle('past', Date.parse(li.dataset.end) < now); }});
+  up.concat(past.reverse()).forEach(function (li) {{ list.appendChild(li); }});
+  if (past.length) {{ var h = document.createElement('li'); h.className = 'divider'; h.textContent = 'Past'; list.insertBefore(h, past[0]); }}
+  var hero = document.getElementById('hero'), first = up[0];
+  if (hero && first && hero.getAttribute('href') !== first.querySelector('a').getAttribute('href')) {{
+    hero.setAttribute('href', first.querySelector('a').getAttribute('href'));
+    hero.querySelector('.hero-kicker').textContent = 'Next up · ' + first.querySelector('.ev-date').textContent;
+    hero.querySelector('.hero-title').textContent = first.querySelector('.ev-what').textContent;
+    hero.querySelector('.hero-note').textContent = first.querySelector('.ev-note').textContent;
+  }}
+  var ym = new Date().toISOString().slice(0, 7), cur = document.querySelector('.mo[data-ym="' + ym + '"]');
+  if (cur) {{ cur.classList.add('current'); cur.parentNode.insertBefore(cur, cur.parentNode.firstChild); }}
+  document.querySelectorAll('.mo').forEach(function (li) {{ if (li.dataset.ym < ym) li.classList.add('past'); }});
+}})();
+</script>
 </body>
 </html>
 """
