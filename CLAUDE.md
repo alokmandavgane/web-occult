@@ -13,7 +13,7 @@ Rules that are easy to break:
   lat/lon from them — light-time and aberration included — and the generator asserts the element
   geometry sits on the limb to <0.05″ at every Skyfield contact for all cities. Change the JS solver
   and `element_geometry()` in the generator TOGETHER; they mirror each other line for line.
-- Jupiter's-moons diary pages (`site/jupiter-moons-<year>-<month>.html`, from `scripts/build_jupiter.py`)
+- Planet-moon diary pages — Jupiter AND Saturn (`site/<planet>-moons-<year>-<month>.html`, from `scripts/build_jupiter.py`, which is planet-parametrised despite its name)
   are GEOCENTRIC — one UTC instant per event for the whole Earth — so they carry no solver: the browser
   only turns UTC into local time and computes Jupiter's altitude from the RA/Dec stored per event and
   sidereal time. Halves of events hidden behind the disc or inside the shadow are omitted from the
@@ -21,6 +21,10 @@ Rules that are easy to break:
   Io/Europa/Ganymede event in Oct 1–3 to the minute) and the IMCCE/BAA mutual events (Io occults Europa
   2026-09-23 04:29 UT; Io eclipses Ganymede 2027-01-18 04:56 UT). Mutual-event magnitude drops are
   uniform-disc estimates and say so. The chosen location is remembered in localStorage (`occult-loc`).
+  The configuration diagram uses Meeus's Galilean model in JS for Jupiter (no data) and the hourly
+  JPL samples stored in `data/saturn-moons-<year>.json` (`config`, generator `--config`) for Saturn.
+  Saturn's rings are NOT modelled — "behind Saturn" means behind the globe; near the 2025 equinox the
+  rings are edge-on so it barely matters, but say so on the page (it does).
 - Mean limb (R = 1737.4 km): contacts are ±2 s; limit lines ≈ grid resolution. Say so on pages, don't imply IOTA precision.
 - Scope now: lunar occultations of grahas and bright stars. Asteroid occultations and grazes at IOTA precision are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

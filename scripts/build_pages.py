@@ -839,16 +839,25 @@ def build_index(seed, built, jup=()):
                  f'<div class="hero-title">The Moon occults {esc(hero["target"])}</div>'
                  f'<div class="hero-note">{esc(hero["note"])}</div></a>')
 
-    # Jupiter's moons: the month in progress first, then the rest as a compact strip
-    jup_rows = "".join(
-        f'<li class="mo" data-ym="{j["year"]}-{j["month"]:02d}"><a href="/{j["slug"]}">'
-        f'<span class="mo-name">{esc(j["label"])}</span><span class="mo-n">{j["n"]} events'
-        f'{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</span></a></li>' for j in jup)
-    jup_section = f"""
-  <h2 id="jupiter">Jupiter's moons</h2>
-  <p class="hint">Eclipses, occultations, transits and shadows of Io, Europa, Ganymede and Callisto — plus the
-  2026–27 mutual events, when they eclipse and occult each other. One page per month.</p>
-  <ul class="months">{jup_rows}</ul>""" if jup else ""
+    # planet moons: one strip per planet, the month in progress first (the browser does that)
+    def strip(planet, heading, blurb):
+        rows_ = [j for j in jup if j.get("planet", "jupiter") == planet]
+        if not rows_:
+            return ""
+        items_ = "".join(
+            f'<li class="mo" data-ym="{j["year"]}-{j["month"]:02d}"><a href="/{j["slug"]}">'
+            f'<span class="mo-name">{esc(j["label"])}</span><span class="mo-n">{j["n"]} events'
+            f'{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</span></a></li>' for j in rows_)
+        return f"""
+  <h2 id="{planet}">{heading}</h2>
+  <p class="hint">{blurb}</p>
+  <ul class="months">{items_}</ul>"""
+    jup_section = strip("jupiter", "Jupiter's moons",
+                        "Eclipses, occultations, transits and shadows of Io, Europa, Ganymede and Callisto — plus the "
+                        "2026–27 mutual events, when they eclipse and occult each other. One page per month.") + \
+                  strip("saturn", "Saturn's moons",
+                        "Titan, Rhea, Dione, Tethys, Enceladus, Mimas and Iapetus behind, in front of and in the shadow of "
+                        "Saturn — possible only in the years around the 2025 ring-plane crossing. One page per month.")
 
     desc = ("Lunar occultations of planets and bright stars: where on Earth each one can be seen, the graze-limit "
             "map, and city-by-city contact times — computed from the JPL DE431 ephemeris.")
@@ -916,5 +925,6 @@ if __name__ == "__main__":
     for e in seed["events"]:
         for c in json.loads((ROOT / "data" / f"{e['slug']}.json").read_text())["cities"]:
             all_cities.setdefault(c["name"], [c["lat"], c["lon"]])
-    jup = build_jupiter.build_all(dict(sorted(all_cities.items())))
+    cities_sorted = dict(sorted(all_cities.items()))
+    jup = build_jupiter.build_all(cities_sorted, "jupiter") + build_jupiter.build_all(cities_sorted, "saturn")
     build_index(seed, built, jup)
