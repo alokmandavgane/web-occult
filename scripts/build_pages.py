@@ -791,6 +791,9 @@ INDEX_CSS = """
     .hero-row .hero { margin: 0; }
     .hero-saturn { border-color: var(--c-limit); background: color-mix(in srgb, var(--c-limit) 8%, var(--card)); }
     .hero-saturn .hero-kicker { color: var(--c-limit); }
+    .hero-jupiter { border-color: var(--c-night); background: color-mix(in srgb, var(--c-night) 8%, var(--card)); }
+    .hero-jupiter .hero-kicker { color: var(--c-night); }
+    @media (min-width: 900px) { .hero-row { grid-template-columns: 1.2fr 1fr 1fr; } }
     .hero { display: block; background: var(--card); border: 1px solid var(--accent); border-radius: 16px; padding: 1.1rem 1.25rem; margin: 1.2rem 0 1.6rem; color: var(--text); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
     .hero:hover { text-decoration: none; border-color: var(--accent); }
     .hero-kicker { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
@@ -840,16 +843,26 @@ def build_index(seed, built, jup=()):
     upcoming = [b for b in built if parse(b["end_utc"]) >= now]
     hero = upcoming[0] if upcoming else built[-1]
     ym_now = now.strftime("%Y-%m")
-    sat = [j for j in jup if j.get("planet") == "saturn"]
-    sat_cur = next((j for j in sat if f"{j['year']}-{j['month']:02d}" >= ym_now), sat[-1] if sat else None)
-    sat_hero = ""
-    if sat_cur:
-        sat_hero = (f'<a class="hero hero-saturn" id="hero-saturn" href="/{sat_cur["slug"]}" data-ym="{sat_cur["year"]}-{sat_cur["month"]:02d}">'
-                    f'<div class="hero-kicker">Saturn this month · ring-plane season</div>'
-                    f'<div class="hero-title">Saturn\'s moons in {esc(sat_cur["label"])}</div>'
-                    f'<div class="hero-note">{sat_cur["n"]} times a moon slips behind Saturn, crosses its face or falls into its shadow'
-                    f'{(" — and " + str(sat_cur["n_mutual"]) + " mutual events") if sat_cur["n_mutual"] else ""}. '
-                    f'Possible only in the years around the 2025 equinox, when the moons\' orbits turn edge-on to us.</div></a>')
+    SEASON = {
+        "jupiter": ("Jupiter this month · mutual-event season", "Jupiter",
+                    "Every six years the Galilean moons' orbits turn edge-on to the Sun and they eclipse and occult each other — the 2026–27 season peaks this winter."),
+        "saturn": ("Saturn this month · ring-plane season", "Saturn",
+                   "Possible only in the years around the 2025 equinox, when the moons' orbits turn edge-on to us."),
+    }
+
+    def planet_hero(planet):
+        months_ = [j for j in jup if j.get("planet") == planet]
+        cur = next((j for j in months_ if f"{j['year']}-{j['month']:02d}" >= ym_now), months_[-1] if months_ else None)
+        if not cur:
+            return ""
+        kicker, pname, why = SEASON[planet]
+        return (f'<a class="hero hero-{planet}" id="hero-{planet}" href="/{cur["slug"]}" data-ym="{cur["year"]}-{cur["month"]:02d}" data-why="{esc(why)}">'
+                f'<div class="hero-kicker">{kicker}</div>'
+                f'<div class="hero-title">{pname}\'s moons in {esc(cur["label"])}</div>'
+                f'<div class="hero-note">{cur["n"]} times a moon slips behind {pname}, crosses its face or falls into its shadow'
+                f'{(" — and " + str(cur["n_mutual"]) + " mutual events") if cur["n_mutual"] else ""}. {esc(why)}</div></a>')
+
+    sat_hero = planet_hero("jupiter") + planet_hero("saturn")
     hero_html = (f'<div class="hero-row"><a class="hero" id="hero" href="/{hero["slug"]}"><div class="hero-kicker">Next up · {esc(hero["day"])}</div>'
                  f'<div class="hero-title">The Moon occults {esc(hero["target"])}</div>'
                  f'<div class="hero-note">{esc(hero["note"])}</div></a>{sat_hero}</div>')
@@ -906,13 +919,15 @@ def build_index(seed, built, jup=()):
     hero.querySelector('.hero-note').textContent = first.querySelector('.ev-note').textContent;
   }}
   var ym = new Date().toISOString().slice(0, 7), cur = document.querySelector('.mo[data-ym="' + ym + '"]');
-  var sh = document.getElementById('hero-saturn');
-  if (sh && sh.dataset.ym !== ym) {{
-    var m = document.querySelector('#saturn ~ .months .mo[data-ym="' + ym + '"] a');
-    if (m) {{ sh.setAttribute('href', m.getAttribute('href')); sh.querySelector('.hero-title').textContent = "Saturn's moons in " + m.querySelector('.mo-name').textContent; sh.querySelector('.hero-note').textContent = m.querySelector('.mo-n').textContent + ' this month — possible only in the years around the 2025 equinox, when the moons’ orbits turn edge-on to us.'; }}
-  }}
-  if (cur) {{ cur.classList.add('current'); cur.parentNode.insertBefore(cur, cur.parentNode.firstChild); }}
-  document.querySelectorAll('.mo').forEach(function (li) {{ if (li.dataset.ym < ym) li.classList.add('past'); }});
+  ['jupiter', 'saturn'].forEach(function (pl) {{
+    var sh = document.getElementById('hero-' + pl);
+    if (!sh || sh.dataset.ym === ym) return;
+    var m = document.querySelector('#' + pl + ' ~ .months .mo[data-ym="' + ym + '"] a');
+    if (!m) return;
+    sh.setAttribute('href', m.getAttribute('href'));
+    sh.querySelector('.hero-title').textContent = pl.charAt(0).toUpperCase() + pl.slice(1) + "'s moons in " + m.querySelector('.mo-name').textContent;
+    sh.querySelector('.hero-note').textContent = m.querySelector('.mo-n').textContent + ' this month. ' + sh.dataset.why;
+  }});
 }})();
 </script>
 </body>
