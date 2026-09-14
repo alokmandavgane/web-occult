@@ -271,6 +271,9 @@ BASE_CSS = """
     .limb-svg .disc-dark { fill: #2a2f3a; }
     .limb-svg .disc-bright { fill: #f2e9c9; }
     .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; }
+    .limb-svg .crater { fill: none; stroke-width: 0.8; stroke-linejoin: round; }
+    .limb-svg .crater-night { stroke: #aab3c5; opacity: 0.16; }
+    .limb-svg .crater-day { stroke: #7d6e4c; opacity: 0.4; }
     .limb-svg .track { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 4 3; }
     .limb-svg .track-hidden { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.35; }
     .limb-svg .contact { fill: var(--c-limit); }
@@ -381,55 +384,32 @@ FOOTER = f"""
 
 
 def write_geo_files(slug, data, tz, tzl):
-    """KML (Google Earth / Maps) and GPX (phone GPS apps) with the graze limits, the visibility
-    region and the listed cities' times — what a graze chaser plans a station from."""
+    """KML (Google Earth / Maps) and GPX (phone GPS apps) with the graze limit lines and nothing else —
+    the line a graze chaser picks a station along. Real lunar limb where traced, mean sphere otherwise.
+    City times live on the page, and the browser solves any spot exactly."""
     m = data["maps"][data["audience"]]
     tname = data["target"]["names"]["common"]
     title = f"The Moon occults {tname} — {data['geocentric']['t_min'][:10]}"
+    exact = m.get("limits_exact") or []
+    lines = exact or [l for l in m["limits"] if l["kind"] in ("north", "south")]
+    basis = "real lunar limb (LRO LOLA)" if exact else "mean lunar sphere"
 
     def coords(points):   # KML wants lon,lat
         return " ".join(f"{lon},{lat},0" for lat, lon in points)
 
     k = [f'<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>{esc(title)}</name>',
-         f'<description>Graze limits and visibility from {SITE}/{slug}. Solid limits are traced against the real lunar limb (LRO LOLA); '
-         f'the dotted line is the mean-sphere limit. Times in the city placemarks are {esc(tzl)}, real limb.</description>',
-         '<Style id="exact"><LineStyle><color>ff06b6d9</color><width>4</width></LineStyle></Style>',
-         '<Style id="mean"><LineStyle><color>8006b6d9</color><width>2</width></LineStyle></Style>',
-         '<Style id="region"><LineStyle><color>80e6c07d</color><width>1</width></LineStyle><PolyStyle><color>3fe6c07d</color></PolyStyle></Style>',
-         '<Style id="night"><LineStyle><width>0</width></LineStyle><PolyStyle><color>3fed3ac4</color></PolyStyle></Style>',
-         '<Style id="city"><IconStyle><scale>0.8</scale></IconStyle></Style>']
-    k.append('<Folder><name>Graze limits (real lunar limb)</name>')
-    for lim in m.get("limits_exact") or []:
-        k.append(f'<Placemark><name>{lim["kind"]} limit — real limb</name><styleUrl>#exact</styleUrl>'
+         f'<description>Graze limits from {SITE}/{slug}, traced against the {basis}.</description>',
+         '<Style id="graze"><LineStyle><color>ff06b6d9</color><width>4</width></LineStyle></Style>']
+    for lim in lines:
+        k.append(f'<Placemark><name>{lim["kind"]} graze limit</name><styleUrl>#graze</styleUrl>'
                  f'<LineString><tessellate>1</tessellate><coordinates>{coords(lim["points"])}</coordinates></LineString></Placemark>')
-    k.append('</Folder><Folder><name>Mean-sphere limits</name>')
-    for lim in m["limits"]:
-        if lim["kind"] in ("north", "south"):
-            k.append(f'<Placemark><name>{lim["kind"]} limit — mean sphere</name><styleUrl>#mean</styleUrl>'
-                     f'<LineString><tessellate>1</tessellate><coordinates>{coords(lim["points"])}</coordinates></LineString></Placemark>')
-    k.append('</Folder><Folder><name>Visibility</name>')
-    for name, rings, style in (("sees the occultation", m["region"], "region"), ("after sunset", m["region_night"], "night")):
-        for ring in rings:
-            k.append(f'<Placemark><name>{name}</name><styleUrl>#{style}</styleUrl><Polygon><outerBoundaryIs><LinearRing>'
-                     f'<coordinates>{coords(ring)}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>')
-    k.append('</Folder><Folder><name>Cities</name>')
-    for c in data["cities"]:
-        if c["verdict"] == "moon_down":
-            continue
-        con = c.get("contacts", {})
-        if con:
-            d = " · ".join(f"{kk} {t_local(v, tz)}" for kk, v in con.items())
-        else:
-            d = f"near miss: {tname} passes {c['sep_arcmin'] - c['moon_sd_arcmin']:.1f}′ from the limb"
-        k.append(f'<Placemark><name>{esc(c["name"])}</name><styleUrl>#city</styleUrl><description>{esc(d)} ({esc(tzl)})</description>'
-                 f'<Point><coordinates>{c["lon"]},{c["lat"]},0</coordinates></Point></Placemark>')
-    k.append('</Folder></Document></kml>\n')
+    k.append('</Document></kml>\n')
     (OUT / "kml").mkdir(exist_ok=True)
     (OUT / "kml" / f"{slug}.kml").write_text("\n".join(k))
 
     g = ['<?xml version="1.0" encoding="UTF-8"?>', f'<gpx version="1.1" creator="{SITE}" xmlns="http://www.topografix.com/GPX/1/1">',
          f'<metadata><name>{esc(title)} — graze limits</name></metadata>']
-    for lim in (m.get("limits_exact") or [l for l in m["limits"] if l["kind"] in ("north", "south")]):
+    for lim in lines:
         g.append(f'<trk><name>{lim["kind"]} graze limit</name><trkseg>' +
                  "".join(f'<trkpt lat="{lat}" lon="{lon}"/>' for lat, lon in lim["points"]) + '</trkseg></trk>')
     g.append('</gpx>\n')
@@ -553,8 +533,9 @@ def build(seed, slug):
 
 """
 
+    craters = json.loads((ROOT / "catalog" / "moon-craters.json").read_text())["craters"]
     limb = {
-        "tz": aud["tz"], "tzl": tzl, "target": tname, "kind": kind,
+        "tz": aud["tz"], "tzl": tzl, "target": tname, "kind": kind, "lib": data.get("lib"), "craters": craters,
         "illum": g["illum_pct"] / 100, "bright_pa": g["bright_limb_pa"],
         "elements": data["elements"],
         "proj": {"lon0": p_main.lon0, "lat1": p_main.lat1, "k": p_main.k, "s": p_main.s, "W": p_main.W, "H": p_main.H},
@@ -902,15 +883,45 @@ def build(seed, slug):
   var NS = 'http://www.w3.org/2000/svg', RM = 150, track = null;
   function el(n, a, txt) {{ var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); if (txt) e.textContent = txt; return e; }}
   function xy(g) {{ return {{ x: -g.east / g.sdm / 60 * RM, y: -g.north / g.sdm / 60 * RM }}; }}
+  function craterPath(m) {{   // IAU crater rims projected with the event's libration + pole angle; north up, east left
+    if (!D.lib || !D.craters) return '';
+    var L = D.lib, x = (m - L.t0_offset_min) / L.step_min, n = L.samples.length, DG = Math.PI / 180;
+    var k0 = Math.max(0, Math.min(n - 2, Math.floor(x))), f = Math.max(0, Math.min(1, x - k0));
+    function lerp(a, b, wrap) {{ var dd = b - a; if (wrap) dd = ((dd + 540) % 360) - 180; return a + dd * f; }}
+    var A = L.samples[k0], B = L.samples[k0 + 1];
+    var la0 = lerp(A[0], B[0]) * DG, lo0 = lerp(A[1], B[1], true) * DG, P = lerp(A[2], B[2], true) * DG, cP = Math.cos(P), sP = Math.sin(P);
+    var E0 = [-Math.sin(lo0), Math.cos(lo0), 0], N0 = [-Math.sin(la0) * Math.cos(lo0), -Math.sin(la0) * Math.sin(lo0), Math.cos(la0)];
+    var U0 = [Math.cos(la0) * Math.cos(lo0), Math.cos(la0) * Math.sin(lo0), Math.sin(la0)], d = [];
+    D.craters.forEach(function (c) {{
+      var la = c[0] * DG, lo = c[1] * DG, a = c[2] / 2 / 1737.4, ca = Math.cos(a), sa = Math.sin(a);
+      var C = [Math.cos(la) * Math.cos(lo), Math.cos(la) * Math.sin(lo), Math.sin(la)];
+      if (dot(C, U0) < -sa) return;
+      var U = [-Math.sin(lo), Math.cos(lo), 0], W = [-Math.sin(la) * Math.cos(lo), -Math.sin(la) * Math.sin(lo), Math.cos(la)], pen = false;
+      for (var k = 0; k <= 28; k++) {{
+        var t = k / 28 * 2 * Math.PI, ct = Math.cos(t) * sa, st = Math.sin(t) * sa;
+        var v = [C[0] * ca + U[0] * ct + W[0] * st, C[1] * ca + U[1] * ct + W[1] * st, C[2] * ca + U[2] * ct + W[2] * st];
+        if (dot(v, U0) <= 0) {{ pen = false; continue; }}
+        var xi = dot(v, E0), eta = dot(v, N0), no = eta * cP + xi * sP, ea = eta * sP - xi * cP;
+        d.push((pen ? 'L' : 'M') + (-ea * RM).toFixed(1) + ' ' + (-no * RM).toFixed(1)); pen = true;
+      }}
+    }});
+    return d.join('');
+  }}
   function drawLimb(r) {{
     while (svg.firstChild) svg.removeChild(svg.firstChild);
     var mid = (r.contacts.D2 !== undefined && r.contacts.R1 !== undefined) ? (r.contacts.D2 + r.contacts.R1) / 2 : r.ref;
     track = {{ geom: r.geom, m0: mid - 80, span: 160, r: r }};
     slider.max = track.span; slider.value = 80;
-    var k = D.illum, b = RM * Math.abs(2 * k - 1), sweep = k > 0.5 ? 1 : 0;
+    var k = D.illum, b = RM * Math.abs(2 * k - 1), sweep = k > 0.5 ? 1 : 0, cd = craterPath(mid);
+    var litT = 'rotate(' + (-D.bright_pa) + ')', litD = 'M ' + (-RM) + ' 0 A ' + RM + ' ' + RM + ' 0 0 1 ' + RM + ' 0 A ' + RM + ' ' + b + ' 0 0 ' + sweep + ' ' + (-RM) + ' 0 Z';
     svg.appendChild(el('circle', {{ class: 'disc-dark', r: RM }}));
-    svg.appendChild(el('path', {{ class: 'disc-bright', transform: 'rotate(' + (-D.bright_pa) + ')',
-      d: 'M ' + (-RM) + ' 0 A ' + RM + ' ' + RM + ' 0 0 1 ' + RM + ' 0 A ' + RM + ' ' + b + ' 0 0 ' + sweep + ' ' + (-RM) + ' 0 Z' }}));
+    if (cd) svg.appendChild(el('path', {{ class: 'crater crater-night', d: cd }}));
+    svg.appendChild(el('path', {{ class: 'disc-bright', transform: litT, d: litD }}));
+    if (cd) {{
+      var defs = el('defs', {{}}), clip = el('clipPath', {{ id: 'lit-clip' }});
+      clip.appendChild(el('path', {{ transform: litT, d: litD }})); defs.appendChild(clip); svg.appendChild(defs);
+      svg.appendChild(el('path', {{ class: 'crater crater-day', d: cd, 'clip-path': 'url(#lit-clip)' }}));
+    }}
     svg.appendChild(el('circle', {{ class: 'disc-edge', r: RM }}));
     svg.appendChild(el('text', {{ class: 'lbl', x: 0, y: -RM - 8, 'text-anchor': 'middle' }}, 'N'));
     svg.appendChild(el('text', {{ class: 'lbl', x: -RM - 8, y: 4, 'text-anchor': 'end' }}, 'E'));

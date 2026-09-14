@@ -42,7 +42,7 @@ from skyfield.api import Star, load, load_file, wgs84
 from skyfield.framelib import itrs
 from skyfield.searchlib import find_discrete, find_minima
 
-from lunar_limb import Limb, position_angle as pa_of_vectors  # noqa: E402  (LRO LOLA silhouette; see lunar_limb.py)
+from lunar_limb import Limb, face_samples, position_angle as pa_of_vectors  # noqa: E402  (LRO LOLA silhouette; see lunar_limb.py)
 
 _LIMB = None
 
@@ -725,6 +725,7 @@ def build_event(seed, entry, scan_only=False):
         },
         "window": {"start": iso(ts.tt_jd(t_min.tt - WINDOW_H / 24)), "end": iso(ts.tt_jd(t_min.tt + WINDOW_H / 24))},
         "elements": elements,
+        "lib": face_samples(ts, earth, moon, t_min),
         "maps": maps,
         "cities": cities,
     }

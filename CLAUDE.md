@@ -60,6 +60,20 @@ Rules that are easy to break:
   URLs carry a content hash (`?v=`): `/data` is cached a day and `/img` 30 days, and a stale month file without
   `lib` once broke the page — never drop the hash. The row HTML exists twice (`li_html` / JS `li`), and the page
   check compares them text for text.
+- **The shaded LOLA renderer is for the Moon-and-stars nights only** (`scripts/moon_render.py` → `site/js/moon.js`).
+  The event pages' "At the Moon's edge" diagram was tried with it and reverted by choice: it stays a flat SVG
+  crescent with a *hint* of the face — faint rim outlines of IAU-named craters ≥ 85 km
+  (`catalog/moon-craters.json`, from `engine/moon_craters.py` over the USGS gazetteer point file), projected in
+  the page with `lib` from the event's data file (libration and pole angle every 30 min over ±3 h, written by
+  `engine/lunar_limb.py` `face_samples`). Rims are light on the dark part, dark on the lit part (clipped to the
+  crescent). Don't turn it back into a realistic render.
+- **Jupiter's and Saturn's moon pages** (`scripts/build_jupiter.py`): the configuration diagram (Jupiter with cloud
+  bands; Saturn with its rings opened by the real sub-Earth latitude from the IAU pole and the planet's RA/Dec), a
+  month calendar (counts and the moons involved), and one card per observing night headed by when the planet is well
+  placed. Each event is ONE row, start → end at the moon's centre crossing the edge (the almanac convention), with a
+  type icon; halves behind the planet or in its shadow say "unseen". `item_li` (Python prerender, New Delhi) and
+  `li()` in `RENDER_JS` are twins with identical rounding (`floor(x + 0.5)`) — keep them so; tapping a row moves the
+  diagram (`window.JDiagram.at`).
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
   `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section

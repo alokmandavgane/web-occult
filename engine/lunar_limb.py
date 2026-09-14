@@ -115,6 +115,25 @@ class Limb:
         return R_MOON_KM + float(self.profile(t, moon_vec_from_observer_km, [pa_deg])[0])
 
 
+def face_samples(ts, earth, moon, t_center, half_min=180, step_min=30, orientation=None):
+    """For drawing the Moon: geocentric sub-Earth selenographic lat / lon (MOON_ME, east-positive) and the
+    sky position angle of the lunar north pole (ICRS north, through east), every step_min around t_center."""
+    import math
+    orient = orientation or MoonOrientation()
+    out = []
+    for k in range(-half_min // step_min, half_min // step_min + 1):
+        t = ts.tt_jd(t_center.tt + k * step_min / 1440.0)
+        R = orient.rotation(t)
+        mh = _unit(earth.at(t).observe(moon).apparent().position.km)
+        o = R @ (-mh)
+        pole = R.T @ np.array([0.0, 0.0, 1.0])
+        east = _unit(np.cross([0.0, 0.0, 1.0], mh))
+        north = np.cross(mh, east)
+        out.append([round(math.degrees(math.asin(o[2])), 3), round((math.degrees(math.atan2(o[1], o[0])) + 180) % 360 - 180, 3),
+                    round(math.degrees(math.atan2(pole @ east, pole @ north)), 3)])
+    return {"t0_offset_min": -half_min, "step_min": step_min, "samples": out}
+
+
 if __name__ == "__main__":
     import sys
     from skyfield.api import load_file, wgs84

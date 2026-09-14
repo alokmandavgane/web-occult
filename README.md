@@ -14,6 +14,7 @@ engine/            the computation (Python, Skyfield):
   lunar_limb.py          the Moon's real limb from the LRO LOLA DEM
   star_occultations.py   catalogue merge + one month of star occultations -> data/moon-stars-<YYYY-MM>.json
   moon_texture.py        LOLA relief image for the Moon renderer -> site/img/moon-relief-360.png (40 KB)
+  moon_craters.py        IAU crater rims (USGS gazetteer) for the event diagram -> catalog/moon-craters.json
   ephem_paths.py         where the binary inputs live (below)
 tests/             pins contact times against an independent published prediction
 cities/india.json  the India audience's city list

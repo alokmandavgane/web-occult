@@ -1,4 +1,27 @@
-/* Moon renderer for occult.alokm.com: shades the LRO LOLA relief map (img/moon-relief-360.png, 8-bit heights
+"""The Moon renderer shared by every page that draws the Moon (event pages, Moon-and-stars months).
+
+MOON_JS is written to site/js/moon.js; pages load it as /js/moon.js?v=<hash> and the relief map as
+/img/moon-relief-360.png?v=<hash> (engine/moon_texture.py) — /img is cached 30 days, so never drop the hash.
+"""
+
+import hashlib
+
+TEXTURE = "/img/moon-relief-360.png"
+
+
+def version(content):
+    return hashlib.sha1(content if isinstance(content, bytes) else content.encode()).hexdigest()[:10]
+
+
+def write_assets(out):
+    """Write site/js/moon.js; return (moon.js URL, texture URL), both versioned."""
+    (out / "js").mkdir(exist_ok=True)
+    (out / "js" / "moon.js").write_text(MOON_JS)
+    tex = (out / TEXTURE.lstrip("/")).read_bytes()
+    return f"/js/moon.js?v={version(MOON_JS)}", f"{TEXTURE}?v={version(tex)}"
+
+
+MOON_JS = r"""/* Moon renderer for occult.alokm.com: shades the LRO LOLA relief map (img/moon-relief-360.png, 8-bit heights
    -9..+11 km, equirectangular, east-positive) for a libration, lunar-pole position angle and Sun direction.
    Sky view: north up, east to the left. f = {lat0, lon0, pa, sun:[e, n, toward-observer]}. */
 window.MoonRender = (function () {
@@ -61,3 +84,4 @@ window.MoonRender = (function () {
   }
   return { load: load, draw: draw };
 })();
+"""
