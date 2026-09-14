@@ -57,17 +57,38 @@ def test_ics_is_folded_and_escaped():
     assert unfolded.count("BEGIN:VEVENT") == 1 and "TRIGGER:-PT30M" in unfolded
 
 
-def test_one_calendar_entry_per_occultation():
-    """November 2026's star list carries HR 6909 twice under one name; Adelaide's feed must list it once."""
-    if not os.path.exists(os.path.join(HERE, "..", "data", "moon-stars-2026-11.json")):
-        pytest.skip("no November 2026 data")
+def _star(key, short, vmag, start_min, end_min):
+    t0 = datetime(2026, 11, 13, tzinfo=timezone.utc)
+    rec = {"uid": f"star-{short}", "start": t0 + timedelta(minutes=start_min), "end": t0 + timedelta(minutes=end_min),
+           "summary": f"The Moon hides {short} · mag {vmag:.1f}", "description": f"{short} disappears.\nMoon up.\nurl"}
+    return {"key": key, "vmag": vmag, "short": short, "rec": rec, "line": f"Its companion {short} (magnitude {vmag:.1f})."}
+
+
+def test_one_calendar_entry_per_double():
+    items = [_star("ADS 10417", "36 Oph B", 5.1, 10.2, 70), _star("ADS 10417", "36 Oph A", 5.07, 10, 69),
+             _star("ADS 10417", "36 Oph A", 5.07, 27 * 1440, 27 * 1440 + 60),          # next pass: its own entry
+             _star("HR 1470", "HR 1470", 7.2, 500, 560)]
+    got = sorted(build_feeds.merge_doubles(items), key=lambda r: r["start"])
+    assert [r["uid"] for r in got] == ["star-36 Oph A", "star-HR 1470", "star-36 Oph A"]
+    first = got[0]
+    assert first["summary"] == "The Moon hides 36 Oph A and its companion · mag 5.1"
+    assert first["start"] == items[1]["rec"]["start"] and first["end"] == items[0]["rec"]["end"]
+    assert first["description"] == "36 Oph A disappears.\nIts companion 36 Oph B (magnitude 5.1).\nMoon up.\nurl"
+    assert got[1] == items[3]["rec"]
+
+
+FEED_CITY = "Adelaide, AU"      # 36 Oph A and B, 1 s apart, on 2027-07-15
+
+
+def test_feed_lists_each_double_once():
+    """A real feed: a double's components make one entry, and no UID repeats."""
     build_feeds._init(datetime(2026, 9, 14, tzinfo=timezone.utc).timestamp())
     seed = json.load(open(os.path.join(HERE, "..", "seed.json")))
-    lat, lon, tz = build_feeds.collect_cities(seed)["Adelaide, AU"]
-    _, _, evs = build_feeds._city_events(("Adelaide, AU", lat, lon, tz, "adelaide-au", []))
+    lat, lon, tz = build_feeds.collect_cities(seed)[FEED_CITY]
+    _, _, evs = build_feeds._city_events((FEED_CITY, lat, lon, tz, "x", []))
     uids = [e["uid"] for e in evs]
     assert len(uids) == len(set(uids))
-    assert sum("HR 6909" in e["summary"] and e["start"].strftime("%Y%m%d") == "20261113" for e in evs) == 1
+    assert sum(" and its companion" in e["summary"] for e in evs) >= 1, "pick a city whose feed has a double"
 
 
 def test_same_place_is_one_feed():

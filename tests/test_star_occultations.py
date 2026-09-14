@@ -5,11 +5,18 @@
     times for Jaipur / New Delhi / Silchar (±5 s; they publish whole seconds, mean limb).
   * October 2026: the solver against direct Skyfield topocentric searches at random places (±0.5 s), and the
     renderer's libration / lunar-pole position angle against JPL Horizons (0.02° / 0.3°).
+  * Every star once: catalogue ids and labels are unique, and no month file lists two stars under one label
+    within an hour (a repeated Gaia source, or two components of a double sharing a name, showed one
+    occultation twice on the page).
 
-Needs DE431 (OCCULT_DE431, default ../kaalshodh/api/de431t.bsp) — skipped without it.
+The pipeline tests need DE431 (OCCULT_DE431, default ../kaalshodh/api/de431t.bsp) and skip without it;
+the uniqueness tests read the committed catalogue and month files only.
 """
 
+import csv
+import glob
 import importlib.util
+import json
 import os
 
 import pytest
@@ -18,7 +25,29 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.join(HERE, "..")
 DE431 = os.environ.get("OCCULT_DE431") or os.path.join(REPO, "..", "kaalshodh", "api", "de431t.bsp")
 
-pytestmark = pytest.mark.skipif(not os.path.exists(DE431), reason="DE431 not found (set OCCULT_DE431)")
+needs_de431 = pytest.mark.skipif(not os.path.exists(DE431), reason="DE431 not found (set OCCULT_DE431)")
+
+
+def test_catalogue_ids_and_labels_are_unique():
+    rows = list(csv.DictReader(open(os.path.join(REPO, "catalog", "moonband.csv"))))
+    for key in ("id", "label"):
+        seen, repeats = set(), set()
+        for r in rows:
+            (repeats if r[key] in seen else seen).add(r[key])
+        assert not repeats, (key, sorted(repeats)[:10])
+
+
+def test_month_files_list_each_star_once():
+    paths = sorted(glob.glob(os.path.join(REPO, "data", "moon-stars-*.json")))
+    assert paths
+    for path in paths:
+        st = json.load(open(path))["stars"]
+        times = {}
+        for label, t in zip(st["label"], st["t"]):
+            times.setdefault(label, []).append(t / 10.0)          # minutes from the month's start
+        close = {label: ts for label, ts in times.items()
+                 if any(b - a < 60 for a, b in zip(sorted(ts), sorted(ts)[1:]))}
+        assert not close, (os.path.basename(path), close)
 
 
 @pytest.fixture(scope="module")
@@ -30,6 +59,7 @@ def env():
     return so, load.timescale(), load_file(so.DE431), so.load_catalog()
 
 
+@needs_de431
 def test_aldebaran_2017_through_the_monthly_pipeline(env):
     so, ts, eph, rows = env
     assert so.validate_aldebaran(rows, ts, eph) <= 5.0
@@ -41,6 +71,7 @@ def october(env):
     return so.build_month("2026-10", rows, ts, eph, log=lambda s: None)
 
 
+@needs_de431
 def test_monthly_solver_matches_skyfield(env, october):
     so, ts, eph, rows = env
     d, ids = october
@@ -55,6 +86,7 @@ HORIZONS_2026_10 = {1: (359.378110, -6.534864, 351.3116), 8: (4.770658, 2.322054
                     29: (0.834256, -5.972094, 355.5112)}
 
 
+@needs_de431
 def test_libration_matches_horizons(october):
     d, _ = october
     for day, (lon, lat, pa) in HORIZONS_2026_10.items():

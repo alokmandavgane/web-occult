@@ -18,6 +18,7 @@ not the clock, so a rebuild rewrites a feed only when its events change.
     .venv/bin/python scripts/build_feeds.py      (also run by build_pages.py)
 """
 
+import csv
 import hashlib
 import json
 import math
@@ -210,7 +211,39 @@ def _init(now_s):
             d = json.loads(f.read_text())
             months.append((ym, datetime.strptime(d["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc), MonthModel(d),
                            [s for s in MonthModel.star_list(d) if s[1] <= lim]))
-    _W.update(now=now, events=events, months=months)
+    with open(ROOT / "catalog" / "moonband.csv", newline="") as f:          # labels are unique in the catalogue
+        double = {r["label"]: r["double"] for r in csv.DictReader(f) if r["double"]}
+    _W.update(now=now, events=events, months=months, double=double)
+
+
+def merge_doubles(items, window=timedelta(hours=1)):
+    """One calendar entry per double star. `items` are star records with `key` (the catalogue's BSC double — ADS
+    number, else HR — or the label), `vmag`, `short` (display label), `line` (the sentence for a companion) and
+    `rec`. Records of one key within `window` of the first become the brightest's entry (its uid), spanning them
+    all and naming the others; the same key further apart is a second pass and stays separate."""
+    out, cluster = [], []
+
+    def flush():
+        best = min(cluster, key=lambda i: (i["vmag"], i["short"]))
+        rec = dict(best["rec"])
+        others = sorted((i for i in cluster if i is not best), key=lambda i: i["rec"]["start"])
+        if others:
+            rec["start"] = min(i["rec"]["start"] for i in cluster)
+            rec["end"] = max(i["rec"]["end"] for i in cluster)
+            rec["summary"] = (f"The Moon hides {best['short']} and its companion{'s' if len(others) > 1 else ''}"
+                              f" · mag {best['vmag']:.1f}")
+            first, rest = rec["description"].split("\n", 1)
+            rec["description"] = "\n".join([first, *(i["line"] for i in others), rest])
+        out.append(rec)
+
+    for it in sorted(items, key=lambda i: (i["key"], i["rec"]["start"])):
+        if cluster and (it["key"] != cluster[0]["key"] or it["rec"]["start"] - cluster[0]["rec"]["start"] > window):
+            flush()
+            cluster = []
+        cluster.append(it)
+    if cluster:
+        flush()
+    return out
 
 
 def _near_region(rings, lat, lon, buf=4.0):
@@ -277,7 +310,7 @@ def _city_events(args):
                     "summary": f"The Moon occults {e['target']}", "description": desc, "url": url, "alarm": True})
 
     verb = {"D": "disappears", "R": "reappears"}
-    seen_star = {}   # uid -> (vmag, index): the month star lists can carry one star twice under one name
+    items = []
     for ym, t0, model, stars in _W["months"]:
         cands = screen(model, stars, lat, lon, INSTRUMENT)
         if not cands:
@@ -304,13 +337,9 @@ def _city_events(args):
             uid = hashlib.sha1(f"{ym}|{ev['label']}|{int(start.timestamp() // 60)}".encode()).hexdigest()[:12]
             rec = {"uid": f"star-{uid}-{slug}@{HOST}", "stamp": t0, "start": start, "end": end,
                    "summary": f"The Moon hides {label} · mag {ev['vmag']:.1f}", "description": desc, "url": url}
-            if rec["uid"] in seen_star:                      # same name, same minute: one calendar entry, the brighter
-                v0, i0 = seen_star[rec["uid"]]
-                if ev["vmag"] < v0:
-                    out[i0], seen_star[rec["uid"]] = rec, (ev["vmag"], i0)
-                continue
-            seen_star[rec["uid"]] = (ev["vmag"], len(out))
-            out.append(rec)
+            items.append({"key": _W["double"].get(ev["label"], ev["label"]), "vmag": ev["vmag"], "short": label, "rec": rec,
+                          "line": f"Its companion {label} (magnitude {ev['vmag']:.1f}) {what}."})
+    out += merge_doubles(items)
     out.sort(key=lambda x: (x["start"], x["uid"]))
     return name, slug, out
 

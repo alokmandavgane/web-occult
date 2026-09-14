@@ -99,14 +99,46 @@ def read_bsc5():
                 label = f"{flam} {con}"
             else:
                 label = f"HR {hr}"
-            if hr in COMMON:
-                label = f"{COMMON[hr]} ({label})"
-            stars.append((hr, ra, dec, vmag, label))
-    return stars
+            stars.append([hr, ra, dec, vmag, label, line[49:51].strip(), line[44:49].strip()])
+    # components the BSC catalogues separately under one name (77 Psc = HR 313 + HR 314) get their ADS letters
+    shared = {}
+    for s in stars:
+        shared[s[4]] = shared.get(s[4], 0) + 1
+    for s in stars:
+        if shared[s[4]] > 1 and s[5]:
+            s[4] = f"{s[4]} {s[5]}"
+        if s[0] in COMMON:
+            s[4] = f"{COMMON[s[0]]} ({s[4]})"
+    return [(s[0], s[1], s[2], s[3], s[4], s[6]) for s in stars]         # hr, ra, dec, vmag, label, ADS number
+
+
+def _near(cells, ra, dec):
+    """Everything filed in the 3x3 one-degree cells around (ra, dec)."""
+    for dra in (-1, 0, 1):
+        for dde in (-1, 0, 1):
+            yield from cells.get(((int(ra) + dra) % 360, int(dec + 90) + dde), [])
+
+
+def _hip_2016(r):
+    return (float(r["ra"]) + _f(r["pm_ra"], 0.0) * 24.75 / 3.6e6 / math.cos(math.radians(float(r["dec"]))),
+            float(r["dec"]) + _f(r["pm_de"], 0.0) * 24.75 / 3.6e6)
+
+
+def _component(label, letter):
+    """'HR 1470' -> 'HR 1470 B'; 'Antares (α Sco)' -> 'Antares B (α Sco B)'."""
+    if label.endswith(")") and " (" in label:
+        name, inner = label[:-1].split(" (", 1)
+        return f"{name} {letter} ({inner} {letter})"
+    return f"{label} {letter}"
 
 
 def build_catalog():
-    gaia = list(csv.DictReader(open(os.path.join(RAW, "gaia_dr3_moonband_g9.5.csv"))))
+    # the archive query's Tycho-2 join repeats a source matched to two TYC entries (TYC 1230-912-1 and -2): keep it once
+    gaia = {}
+    for r in csv.DictReader(open(os.path.join(RAW, "gaia_dr3_moonband_g9.5.csv"))):
+        if r["source_id"] not in gaia or r["tyc"] < gaia[r["source_id"]]["tyc"]:
+            gaia[r["source_id"]] = r
+    gaia = list(gaia.values())
     hip_rows = list(csv.DictReader(open(os.path.join(RAW, "hipparcos2_dec31_hp9.8.csv"))))
     hip = {}
     for r in hip_rows:
@@ -121,10 +153,39 @@ def build_catalog():
                     epoch=1991.25, pmra=_f(r["pm_ra"], 0.0), pmdec=_f(r["pm_de"], 0.0), plx=_f(r["plx"], 0.0), rv=0.0,
                     hip=r["hip"], tyc="")
 
+    astro = {}                                     # 5-parameter Gaia sources G >= 4, by one-degree cell
+    for r in gaia:
+        if r["parallax"] != "" and float(r["phot_g_mean_mag"]) >= 4.0:
+            astro.setdefault((int(float(r["ra"])), int(float(r["dec"]) + 90)), []).append(r)
+
+    def sep_arcsec(ra1, de1, ra2, de2):
+        return math.hypot((ra1 - ra2) * math.cos(math.radians(de1)), de1 - de2) * 3600
+
+    def gaia_twin(hr_, r):
+        """The 5-parameter Gaia source on top of this Hipparcos-2 star, if one sits nearer than the row whose
+        cross-match named it: Gaia has the star itself with astrometry, and the named row is a resolved companion
+        (HIP 23695 = HR 1642 sits 0.04" from Gaia ...920768, 0.95" from the 2-parameter row tagged 23695)."""
+        ra16, de16 = _hip_2016(hr_)
+        best, lim = None, min(1.0, sep_arcsec(ra16, de16, float(r["ra"]), float(r["dec"])))
+        for x in _near(astro, ra16, de16):
+            sep = sep_arcsec(ra16, de16, float(x["ra"]), float(x["dec"]))
+            if x["source_id"] != r["source_id"] and sep < lim and abs(float(x["phot_g_mean_mag"]) - float(hr_["hp_mag"])) < 1.5:
+                best, lim = x, sep
+        return best
+
+    # the Hipparcos-2 star is then that twin, a Gaia star like any other: move the HIP tag onto it, off the companion
+    retag = {}
+    for r in gaia:
+        h = r["hip"]
+        if h and h in hip and (r["parallax"] == "" or float(r["phot_g_mean_mag"]) < 4.0):
+            twin = gaia_twin(hip[h], r)
+            if twin and twin["hip"] in ("", h):
+                retag[r["source_id"]], retag[twin["source_id"]] = "", h
+
     for r in gaia:
         g = float(r["phot_g_mean_mag"])
         has_ast = r["parallax"] != ""
-        h = r["hip"]
+        h = retag.get(r["source_id"], r["hip"])
         if h and h in hip and (not has_ast or g < 4.0):
             out.append(from_hip(hip[h])); used_hip.add(h); continue
         if not has_ast and g < 6.0:
@@ -145,16 +206,9 @@ def build_catalog():
     for h, r in hip.items():
         if h in used_hip:
             continue
-        ra16 = float(r["ra"]) + _f(r["pm_ra"], 0.0) * 24.75 / 3.6e6 / math.cos(math.radians(float(r["dec"])))
-        de16 = float(r["dec"]) + _f(r["pm_de"], 0.0) * 24.75 / 3.6e6
-        dup = False
-        for dra in (-1, 0, 1):
-            for dde in (-1, 0, 1):
-                for i in cell.get(((int(ra16) + dra) % 360, int(de16 + 90) + dde), []):
-                    s = out[i]
-                    if (abs(s["ra"] - ra16) * math.cos(math.radians(de16)) * 3600 < 3 and abs(s["dec"] - de16) * 3600 < 3
-                            and abs(s["vmag"] - float(r["hp_mag"])) < 1.5):
-                        dup = True
+        ra16, de16 = _hip_2016(r)
+        dup = any(abs(out[i]["ra"] - ra16) * math.cos(math.radians(de16)) * 3600 < 3 and abs(out[i]["dec"] - de16) * 3600 < 3
+                  and abs(out[i]["vmag"] - float(r["hp_mag"])) < 1.5 for i in _near(cell, ra16, de16))
         if not dup:
             out.append(from_hip(r)); added += 1
 
@@ -168,23 +222,39 @@ def build_catalog():
         yrs = 2000.0 - s["epoch"]
         ra0 = s["ra"] + s["pmra"] * yrs / 3.6e6 / math.cos(math.radians(s["dec"]))
         de0 = s["dec"] + s["pmdec"] * yrs / 3.6e6
-        best = None
-        for dra in (-1, 0, 1):
-            for dde in (-1, 0, 1):
-                for b in bcell.get(((int(ra0) + dra) % 360, int(de0 + 90) + dde), []):
-                    if b[3] is None:
-                        continue
-                    sep = math.hypot((b[1] - ra0) * math.cos(math.radians(de0)), b[2] - de0) * 3600
-                    if sep < 30 and abs(b[3] - s["vmag"]) < 1.2 and (best is None or sep < best[0]):
-                        best = (sep, b)
-        if best:
-            s["hr"], s["label"] = best[1][0], best[1][4]; named += 1
+        # nearest first; a tie (components the BSC gives one position, ε Ari A/B) goes to the earlier letter
+        s["cands"] = sorted((sep_arcsec(ra0, de0, b[1], b[2]), b[4], b) for b in _near(bcell, ra0, de0)
+                            if b[3] is not None and abs(b[3] - s["vmag"]) < 1.2 and sep_arcsec(ra0, de0, b[1], b[2]) < 30)
+        if s["cands"]:
+            b = s["cands"][0][2]
+            s["hr"], s["label"] = b[0], b[4]; named += 1
+            s["double"] = f"ADS {b[5]}" if b[5] else f"HR {b[0]}"     # one key for every component: the feeds merge on it
         else:
-            s["hr"] = ""
+            s["hr"], s["double"] = "", ""
             s["label"] = f"HIP {s['hip']}" if s["hip"] else (f"TYC {s['tyc']}" if s["tyc"] else s["id"])
 
+    # two stars on one name are two components of a double Gaia resolves (distinct sources 0.8-41" apart, most with a
+    # common parallax): both real. The brighter keeps the name; a fainter one takes an unclaimed BSC entry of the same
+    # ADS double (53 Aqr B, whose catalogued position is nearer A's), else the next letter (HR 1470 B, 7 Tau B)
+    by_label, used = {}, {s["label"] for s in out}
+    for s in out:
+        by_label.setdefault(s["label"], []).append(s)
+    split = 0
+    for label, group in by_label.items():
+        letters = iter("BCDEFGH")
+        for s in sorted(group, key=lambda s: (s["vmag"], s["id"]))[1:]:
+            ads = s["cands"][0][2][5] if s["cands"] else ""
+            alt = next((b for _, _, b in s["cands"] if ads and b[5] == ads and b[4] not in used), None)
+            if alt:
+                s["hr"], s["label"] = alt[0], alt[4]
+            else:
+                s["label"] = _component(label, next(letters))
+            used.add(s["label"]); split += 1
+    assert len({s["id"] for s in out}) == len(out), "catalogue ids repeat"
+    assert len({s["label"] for s in out}) == len(out), "catalogue labels repeat"
+
     out.sort(key=lambda s: (s["ra"], s["dec"]))
-    fields = ["id", "label", "vmag", "src", "ra", "dec", "epoch", "pmra", "pmdec", "plx", "rv", "hip", "tyc", "hr"]
+    fields = ["id", "label", "vmag", "src", "ra", "dec", "epoch", "pmra", "pmdec", "plx", "rv", "hip", "tyc", "hr", "double"]
     os.makedirs(os.path.dirname(CATALOG), exist_ok=True)
     with open(CATALOG, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
@@ -193,7 +263,8 @@ def build_catalog():
             w.writerow({k: (round(s[k], 9) if k in ("ra", "dec") else s[k]) for k in fields})
     print(f"catalog: {len(out)} stars ({sum(1 for s in out if s['src']=='G')} Gaia, {sum(1 for s in out if s['src']=='G2')} Gaia 2-param, "
           f"{sum(1 for s in out if s['src']=='H')} Hipparcos-2, {added} of them with no Gaia row); dropped {dropped} bright 2-param; "
-          f"{named} named from BSC5 -> {os.path.relpath(CATALOG, REPO)} ({os.path.getsize(CATALOG)//1024} KB)")
+          f"{len(retag) // 2} Hipparcos-2 cross-matches moved off a resolved companion onto its Gaia twin; {named} named "
+          f"from BSC5, {split} fainter components of a shared name renamed ->{os.path.relpath(CATALOG, REPO)} ({os.path.getsize(CATALOG)//1024} KB)")
     for s in sorted(out, key=lambda s: s["vmag"])[:12]:
         print(f"   V {s['vmag']:5.2f}  {s['src']:2s}  {s['label']:28s} beta {float(ecliptic_lat(s['ra'], s['dec'])):+.2f}")
 

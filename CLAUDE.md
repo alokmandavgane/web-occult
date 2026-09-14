@@ -48,7 +48,11 @@ Rules that are easy to break:
   reproduces in-the-sky.org's 2017-01-09 Aldebaran times (±1.4 s), the solver matches direct Skyfield searches to
   <0.2 s (`tests/test_star_occultations.py`). Catalogue merge: Gaia wherever it has a 5/6-parameter solution and
   G ≥ 4; Hipparcos-2 otherwise (Gaia DR3 lacks Aldebaran, Regulus, Spica, Antares, Pollux); bright Gaia 2-parameter
-  sources dropped as likely artefacts. Visibility is a documented rule of thumb (instrument V limits at the dark /
+  sources dropped as likely artefacts. Every star once — `build_catalog` asserts unique ids and labels, the tests check
+  every month file: a Gaia source the archive's Tycho-2 join repeats is kept once; a Hipparcos-2 star whose Gaia
+  cross-match points at a resolved companion goes to the 5-parameter Gaia source on top of it (HR 1642); the two
+  components of a double Gaia resolves both stay, the fainter named from the BSC's other ADS entry or given B, C, ….
+  Visibility is a documented rule of thumb (instrument V limits at the dark /
   bright limb, moonglare and twilight penalties, Moon ≥ 5°, no daylight except V ≤ 1.5), shown on the page. Mean limb.
   Pages prerender New Delhi with an 80 mm telescope, so builds need the venv and take ~2.5 min.
   Layout: a month calendar (a phase Moon and the count of visible events per night) above one card per
@@ -90,7 +94,9 @@ Rules that are easy to break:
   star occultations visible in BINOCULARS for the next 12 months. The star path screens on the solver's 2-minute
   grid and then runs `MonthModel.events` on the survivors; `tests/test_feeds.py` fails if the screen ever drops an
   event the full solve keeps. Prefilter stars by the chosen instrument's dark-limb limit — using the faintest
-  instrument's limit once made the build 6x slower. Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come
+  instrument's limit once made the build 6x slower. One entry per double star: the catalogue's `double` column (ADS
+  number, else HR) groups components, and `merge_doubles` folds those within an hour into the brightest's entry
+  (its UID, spanning both, naming the companion). Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come
   from the data, so unchanged events rebuild byte-identical; feed slugs are public subscription URLs — never rename.
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
