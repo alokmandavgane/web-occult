@@ -9,5 +9,6 @@
 # CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID for a non-interactive run.
 set -eu
 cd "$(dirname "$0")/.."
-[ "${1:-}" = "--no-build" ] || python3 scripts/build_pages.py
+PY=python3; [ -x .venv/bin/python ] && PY=.venv/bin/python
+[ "${1:-}" = "--no-build" ] || $PY scripts/build_pages.py
 npx --yes wrangler@latest pages deploy site --project-name=occult --branch=main --commit-dirty=true

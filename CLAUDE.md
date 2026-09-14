@@ -40,6 +40,17 @@ Rules that are easy to break:
   interpolates it to the observer's own topocentric libration (ICRF→MOON_ME rotation + spin rate are
   in the file) to draw the target's track against the terrain around each contact, with D1/D2/R1/R2
   from the real limb and the "1 km north shifts the track by…" sensitivity.
-- Scope now: lunar occultations of planets and bright stars, and Jupiter's and Saturn's moons. Asteroid
+- **The Moon and the stars** (`site/moon-stars-<YYYY-MM>.html`, `scripts/build_moonstars.py`): every lunar
+  occultation of a star to G 9.5 for the READER's location. `data/moon-stars-<YYYY-MM>.json` (~140 KB gz) holds per UTC
+  day the Moon's (degree 8) and Sun's (degree 4) astrometric geocentric vectors, the GCRS→ITRS rotation and Earth's
+  velocity, plus the ~5,500 stars the Moon can cover somewhere that month. The page's JS (`SOLVER_JS`) is the twin of
+  `MonthModel` + `visible()` in `engine/star_occultations.py` — change them TOGETHER. Validated: the whole pipeline
+  reproduces in-the-sky.org's 2017-01-09 Aldebaran times (±1.4 s), the solver matches direct Skyfield searches to
+  <0.2 s (`tests/test_star_occultations.py`). Catalogue merge: Gaia wherever it has a 5/6-parameter solution and
+  G ≥ 4; Hipparcos-2 otherwise (Gaia DR3 lacks Aldebaran, Regulus, Spica, Antares, Pollux); bright Gaia 2-parameter
+  sources dropped as likely artefacts. Visibility is a documented rule of thumb (instrument V limits at the dark /
+  bright limb, moonglare and twilight penalties, Moon ≥ 5°, no daylight except V ≤ 1.5), shown on the page. Mean limb.
+  Pages prerender New Delhi with an 80 mm telescope, so builds need the venv and take ~2.5 min.
+- Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, and Jupiter's and Saturn's moons. Asteroid
   occultations and ISS transits are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

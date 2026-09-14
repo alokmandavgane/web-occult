@@ -12,12 +12,16 @@ engine/            the computation (Python, Skyfield):
   occultation_event.py   seed entry -> data/<slug>.json + data/<slug>-limb.json
   satellite_events.py    Jupiter / Saturn moon phenomena -> data/<planet>-moons-<year>.json
   lunar_limb.py          the Moon's real limb from the LRO LOLA DEM
+  star_occultations.py   catalogue merge + one month of star occultations -> data/moon-stars-<YYYY-MM>.json
   ephem_paths.py         where the binary inputs live (below)
 tests/             pins contact times against an independent published prediction
 cities/india.json  the India audience's city list
+catalog/moonband.csv  30k stars the Moon can cover: Gaia DR3 to G 9.5 in |ecliptic lat| < 7°, Hipparcos-2 for the
+                   brightest and for stars Gaia can't solve, Bayer/Flamsteed names from the Yale Bright Star
+                   Catalogue (committed; rebuilt by `engine/star_occultations.py catalog` from ephemeris/catalog/)
 ephemeris/         gitignored binary inputs: jup365.bsp, sat441.bsp, lola/ (see engine/ephem_paths.py)
 geo/<audience>.json map outlines (Natural Earth + India-compliant borders): scripts/build_geo.py
-scripts/build_pages.py   data + geo + seed  ->  site/   (also runs scripts/build_jupiter.py: one diary page per month)
+scripts/build_pages.py   data + geo + seed  ->  site/   (also runs build_jupiter.py and build_moonstars.py: one page per month)
 site/              what Cloudflare Pages serves (committed)
 ```
 
@@ -34,6 +38,8 @@ kaalshodh checkout. Keep kaalshodh beside this repo (`../kaalshodh/api/de431t.bs
 - `jup365.bsp`, `sat441.bsp` — naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/
 - `lola/ldem_64.img` (+ `.lbl`), `lola/ldem_16.img` — pds-geosciences.wustl.edu, LRO LOLA GDR cylindrical
 - `lola/moon_pa_de421_1900-2050.bpc`, `lola/pck00010.tpc`, `lola/moon_080317.tf` — naif.jpl.nasa.gov generic_kernels
+- `catalog/gaia_dr3_moonband_g9.5.csv` (ESA Gaia archive query), `catalog/hipparcos2_dec31_hp9.8.csv` (Gaia archive
+  `public.hipparcos_newreduction`), `catalog/bsc5_catalog.gz` (CDS V/50) — only needed to rebuild `catalog/moonband.csv`
 
 ## Regenerate
 
@@ -42,8 +48,9 @@ kaalshodh checkout. Keep kaalshodh beside this repo (`../kaalshodh/api/de431t.bs
 .venv/bin/python engine/occultation_event.py venus-2026-09-14   # one
 .venv/bin/python engine/occultation_event.py --scan 2026-09-11 2030-01-01 --seed   # candidates
 .venv/bin/python engine/satellite_events.py 2027 --planet saturn --config
+.venv/bin/python engine/star_occultations.py range 2026-09 2028-12        # ~4 s a month
 .venv/bin/python -m pytest tests
-python3 scripts/build_pages.py
+.venv/bin/python scripts/build_pages.py      # the venv: the Moon-and-stars pages prerender with numpy (~2.5 min)
 ```
 
 Hosting: Cloudflare Pages Direct Upload project `occult`, custom domain `occult.alokm.com`.

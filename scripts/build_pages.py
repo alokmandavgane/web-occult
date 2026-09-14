@@ -1001,7 +1001,7 @@ INDEX_CSS = """
 """
 
 
-def build_index(seed, built, jup=()):
+def build_index(seed, built, jup=(), ms=()):
     """One list, newest-upcoming first: the next event as a hero, then the rest as compact rows with
     tags (planet/star, audience) — past events greyed at the bottom. The build stamps each row
     with its UTC end so the browser re-sorts 'past' vs 'upcoming' on the day, not the deploy."""
@@ -1064,6 +1064,14 @@ def build_index(seed, built, jup=()):
                         "Titan, Rhea, Dione, Tethys, Enceladus, Mimas and Iapetus behind, in front of and in the shadow of "
                         "Saturn — possible only in the years around the 2025 ring-plane crossing. One page per month.")
 
+    ms_items = "".join(
+        f'<li class="mo" data-ym="{m["year"]}-{m["month"]:02d}"><a href="/{m["slug"]}">'
+        f'<span class="mo-name">{esc(m["label"])}</span><span class="mo-n">{m["n"]} from New Delhi · 80 mm</span></a></li>' for m in ms)
+    ms_section = f"""
+  <h2 id="moon-stars">The Moon and the stars</h2>
+  <p class="hint">Every star to magnitude 9.5 the Moon hides, computed for your own location and instrument — about one
+  a night with a small telescope. One page per month.</p>
+  <ul class="months">{ms_items}</ul>""" if ms else ""
     desc = ("Lunar occultations of planets and bright stars: where on Earth each one can be seen, the graze-limit "
             "map, and city-by-city contact times — computed from the JPL DE431 ephemeris.")
     page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
@@ -1073,6 +1081,7 @@ def build_index(seed, built, jup=()):
   {hero_html}
   <h2>Lunar occultations</h2>
   <ul class="evlist" id="evlist">{rows}</ul>
+  {ms_section}
   {jup_section}
   <h2>How these are made</h2>
   <p class="method">The event list is chosen by hand; every time and line is then computed from the JPL DE431
@@ -1096,6 +1105,9 @@ def build_index(seed, built, jup=()):
     hero.querySelector('.hero-note').textContent = first.querySelector('.ev-note').textContent;
   }}
   var ym = new Date().toISOString().slice(0, 7), cur = document.querySelector('.mo[data-ym="' + ym + '"]');
+  // current month first and highlighted in every month strip; earlier months dimmed
+  document.querySelectorAll('.mo[data-ym="' + ym + '"]').forEach(function (c) {{ c.classList.add('current'); c.parentNode.insertBefore(c, c.parentNode.firstChild); }});
+  document.querySelectorAll('.mo').forEach(function (li) {{ if (li.dataset.ym < ym) li.classList.add('past'); }});
   ['jupiter', 'saturn'].forEach(function (pl) {{
     var sh = document.getElementById('hero-' + pl);
     if (!sh || sh.dataset.ym === ym) return;
@@ -1111,7 +1123,7 @@ def build_index(seed, built, jup=()):
 </html>
 """
     (OUT / "index.html").write_text(page)
-    urls = [("/", "weekly", "1.0")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup]
+    urls = [("/", "weekly", "1.0")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
@@ -1129,6 +1141,7 @@ def build_index(seed, built, jup=()):
 
 if __name__ == "__main__":
     import build_jupiter
+    import build_moonstars
     seed = json.loads((ROOT / "seed.json").read_text())
     OUT.mkdir(exist_ok=True)
     built = [build(seed, e["slug"]) for e in seed["events"]]
@@ -1136,7 +1149,8 @@ if __name__ == "__main__":
     all_cities = {}
     for e in seed["events"]:
         for c in json.loads((ROOT / "data" / f"{e['slug']}.json").read_text())["cities"]:
-            all_cities.setdefault(c["name"], [c["lat"], c["lon"]])
+            all_cities.setdefault(c["name"], [c["lat"], c["lon"], c.get("tz", "")])
     cities_sorted = dict(sorted(all_cities.items()))
     jup = build_jupiter.build_all(cities_sorted, "jupiter") + build_jupiter.build_all(cities_sorted, "saturn")
-    build_index(seed, built, jup)
+    ms = build_moonstars.build_all(cities_sorted)
+    build_index(seed, built, jup, ms)

@@ -15,6 +15,9 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 EPHEM_DIR = os.path.join(REPO, "ephemeris")
 DE431 = os.environ.get("OCCULT_DE431") or os.path.abspath(os.path.join(REPO, "..", "kaalshodh", "api", "de431t.bsp"))
 
-if not os.path.exists(DE431):
-    raise SystemExit(f"DE431 not found at {DE431}. Set OCCULT_DE431 to the path of de431t.bsp "
-                     f"(it lives in the kaalshodh checkout: api/de431t.bsp).")
+
+
+def require_de431():
+    if not os.path.exists(DE431):
+        raise SystemExit(f"DE431 not found at {DE431}. Set OCCULT_DE431 to the path of de431t.bsp "
+                         f"(it lives in the kaalshodh checkout: api/de431t.bsp).")
