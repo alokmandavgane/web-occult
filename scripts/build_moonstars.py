@@ -455,7 +455,7 @@ def month_page(ym, d, cities, nav):
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Every lunar occultation of a star to magnitude 9.5 in {label}, computed for your location: disappearance and "
             f"reappearance times, dark or bright limb, and where to look.")
-    page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{MS_CSS}</style>")
+    page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{MS_CSS}</style>", og="ms")
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),
                  "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in cities),

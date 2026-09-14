@@ -98,6 +98,16 @@ Rules that are easy to break:
   number, else HR) groups components, and `merge_doubles` folds those within an hour into the brightest's entry
   (its UID, spanning both, naming the companion). Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come
   from the data, so unchanged events rebuild byte-identical; feed slugs are public subscription URLs — never rename.
+- **Look** (`BASE_CSS` in `scripts/build_pages.py`): almanac paper by day (`--bg #f6f3ec`), night sky by night
+  (`#0c0f17`), lapis / moonlight accent, headings in a SYSTEM serif stack (`--serif`: Iowan Old Style, Palatino,
+  Charter, Georgia). No web fonts, no image or font requests — keep the site's weight where it is. The mark
+  (`MARK_SVG`, favicon `FAVICON`) is a crescent with a star just off its dark limb.
+- **Link previews and install** (`scripts/build_og.py`, run first by the main build): one 1200×630 Open Graph image
+  per kind of page (`OG` in build_pages: home, occultations, moon-stars, jupiter, saturn, calendar), linked by
+  `head(..., og=key)` with a content-hash `?v=`; plus the app icons (192, 512, maskable 512, apple-touch 180).
+  Drawn with Pillow (in requirements) from macOS system fonts; without them the committed PNGs stay. Only
+  previewers and installers fetch these — pages never load them. `site/manifest.webmanifest` is written by
+  `build_index` (standalone, night colours, shortcuts to /calendar and the home sections). No service worker yet.
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
   `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section

@@ -462,7 +462,7 @@ def write_page(rows):
 </body>
 </html>
 """
-    page = head(f"Calendar feeds · {SITE_NAME}", desc, "/calendar", extra=f"<style>{CAL_CSS}</style>").replace("<body>", f'<body data-host="{HOST}">', 1)
+    page = head(f"Calendar feeds · {SITE_NAME}", desc, "/calendar", extra=f"<style>{CAL_CSS}</style>", og="calendar").replace("<body>", f'<body data-host="{HOST}">', 1)
     (OUT / "calendar.html").write_text(page + body)
 
 

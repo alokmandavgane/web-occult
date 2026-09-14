@@ -181,21 +181,24 @@ def city_row(c, data, tz):
 # ── page ───────────────────────────────────────────────────────────────────
 
 BASE_CSS = """
+    /* Almanac paper by day, night sky by night; lapis / moonlight accent. System fonts only: no web fonts, no requests. */
     :root { color-scheme: light dark;
-            --bg: #fbfbfa; --card: #ffffff; --card-2: #f3f4f2; --border: #e6e7e3; --line: #d5d7d2;
-            --text: #16181d; --muted: #6b7280; --accent: #0e7490;
-            --sea: #eef2f5; --land: #dfe3e8; --land-line: #c8ced6;
-            --c-visible: #15803d; --c-miss: #dc2626; --c-down: #9ca3af; --c-limit: #d97706; --c-night: #7c3aed;
-            --region: rgba(14,116,144,0.22); --region-line: rgba(14,116,144,0.6); --night: rgba(124,58,237,0.22); }
+            --bg: #f6f3ec; --card: #fffdf8; --card-2: #f0ebe0; --border: #e5dfd2; --line: #d5cdbb;
+            --text: #1c1a16; --muted: #6f685b; --accent: #2f5597;
+            --sea: #eaeef0; --land: #e3ddcf; --land-line: #c8bfad;
+            --c-visible: #2f7a3e; --c-miss: #b83a2e; --c-down: #a39e92; --c-limit: #c26a0a; --c-night: #6a4bb0;
+            --region: rgba(47,85,151,0.18); --region-line: rgba(47,85,151,0.55); --night: rgba(106,75,176,0.18);
+            --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Charter, Georgia, serif; }
     @media (prefers-color-scheme: dark) { :root {
-            --bg: #0f1115; --card: #171a21; --card-2: #1f232c; --border: #262a33; --line: #343945;
-            --text: #e8eaee; --muted: #9aa3b2; --accent: #67c9e6;
-            --sea: #0b0e14; --land: #232833; --land-line: #3a4150;
-            --c-visible: #4ade80; --c-miss: #f87171; --c-down: #6b7280; --c-limit: #fbbf24; --c-night: #c4b5fd;
-            --region: rgba(103,201,230,0.22); --region-line: rgba(103,201,230,0.6); --night: rgba(196,181,253,0.25); } }
+            --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50;
+            --text: #ece8dd; --muted: #9aa0ae; --accent: #a9c1f0;
+            --sea: #090c13; --land: #1c2230; --land-line: #343d52;
+            --c-visible: #6fd394; --c-miss: #f08a7e; --c-down: #6b7180; --c-limit: #f2b54a; --c-night: #c3b4f5;
+            --region: rgba(169,193,240,0.18); --region-line: rgba(169,193,240,0.55); --night: rgba(195,180,245,0.2); } }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { -webkit-text-size-adjust: 100%; }
-    body { background: var(--bg); color: var(--text); line-height: 1.55; padding-bottom: 4rem;
+    body { background: radial-gradient(ellipse 900px 420px at 88% -180px, color-mix(in srgb, var(--accent) 10%, transparent), transparent 72%) no-repeat, var(--bg);
+           color: var(--text); line-height: 1.55; padding-bottom: 4rem;
            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
            font-feature-settings: "tnum"; }
     a { color: var(--accent); text-decoration: none; }
@@ -207,7 +210,7 @@ BASE_CSS = """
     .brand svg { width: 1.1em; height: 1.1em; }
     .tagline { color: var(--muted); font-size: 0.85rem; }
     .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
-    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; margin: 1.6rem 0 0.35rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.7rem, 4.2vw, 2.35rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.005em; margin: 1.6rem 0 0.35rem; }
     .sub { color: var(--muted); }
     h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; }
     p { margin: 0.55rem 0; }
@@ -337,10 +340,48 @@ BASE_CSS = """
     .event-list-months { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
     .event-list-months .event-card .what { font-size: 1rem; }
     footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
+    /* character: serif display lines, the mark's star in the limit colour, quiet focus and selection */
+    .brand, .night-head h3, .feed-city, .sheet-title, .event-card .what { font-family: var(--serif); letter-spacing: 0; }
+    .brand { font-size: 1.2rem; }
+    .brand .mark-star { fill: var(--c-limit); }
+    h2 { letter-spacing: 0.12em; }
+    ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+    footer { border-top-style: dotted; }
 """
 
 
-def head(title, desc, path, extra=""):
+OG = {   # link-preview image per kind of page: key -> (file in site/og/, alt text). Drawn by scripts/build_og.py.
+    "home": ("home.png", "Occult: what passes in front of what, and when you can see it"),
+    "occ": ("occultations.png", "Lunar occultations: the Moon passing in front of planets and bright stars"),
+    "ms": ("moon-stars.png", "The Moon and the stars: every star the Moon hides, for your location"),
+    "jupiter": ("jupiter.png", "Jupiter's moons: eclipses, transits, shadows and the Great Red Spot"),
+    "saturn": ("saturn.png", "Saturn's moons: eclipses, transits and shadows"),
+    "calendar": ("calendar.png", "Occultations in your calendar: one feed per city"),
+}
+_OG_V = {}
+
+
+def og_url(key):
+    """Absolute URL with a content hash, so a redrawn image is a new URL to link-preview caches."""
+    if key not in _OG_V:
+        import hashlib
+        f = OUT / "og" / OG[key][0]
+        _OG_V[key] = hashlib.sha1(f.read_bytes()).hexdigest()[:10] if f.exists() else ""
+    return f"{SITE}/og/{OG[key][0]}" + (f"?v={_OG_V[key]}" if _OG_V[key] else "")
+
+
+# the mark: a crescent Moon with a star just off its dark limb, about to be covered
+MARK_SVG = ('<svg viewBox="0 0 32 32" aria-hidden="true"><mask id="mark-cut"><rect width="32" height="32" fill="#fff"/>'
+            '<circle cx="19.5" cy="13.5" r="9.5" fill="#000"/></mask><circle cx="14.5" cy="17.5" r="10.5" fill="currentColor" '
+            'mask="url(#mark-cut)"/><circle class="mark-star" cx="25.5" cy="7.5" r="2.3"/></svg>')
+FAVICON = "data:image/svg+xml," + __import__("urllib.parse").parse.quote(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0c0f17"/>'
+    '<mask id="m"><rect width="32" height="32" fill="#fff"/><circle cx="19.5" cy="13.5" r="9.5" fill="#000"/></mask>'
+    '<circle cx="14.5" cy="17.5" r="10.5" fill="#ece8dd" mask="url(#m)"/><circle cx="25.5" cy="7.5" r="2.3" fill="#f2b54a"/></svg>')
+
+
+def head(title, desc, path, extra="", og="home"):
     url = f"{SITE}{path}"
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -359,16 +400,24 @@ def head(title, desc, path, extra=""):
   <meta property="og:type" content="article">
   <meta property="og:url" content="{url}">
   <meta property="og:site_name" content="{SITE_NAME}">
-  <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23111'/%3E%3Ccircle cx='21' cy='14' r='11' fill='%23fbfbfa'/%3E%3C/svg%3E">
+  <meta property="og:image" content="{og_url(og)}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{esc(OG[og][1])}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0f17" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="{FAVICON}">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="{SITE_NAME}">
   <style>{BASE_CSS}</style>
   {extra}
 </head>
 <body>
 <header class="site">
   <div class="site-row">
-    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="currentColor"/><circle cx="21" cy="14" r="11" fill="var(--bg)"/></svg>{SITE_NAME}</a>
+    <a class="brand" href="/">{MARK_SVG}{SITE_NAME}</a>
     <span class="tagline">{TAGLINE}</span>
   </div>
 </header>
@@ -561,7 +610,7 @@ def build(seed, slug):
              f'<th title="How high the Moon stands above the horizon when {esc(tname)} disappears (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look at disappearance</th></tr>')
 
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}",
-                f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>') + f"""
+                f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>', og="occ") + f"""
 <nav class="subnav" id="subnav">
   <div class="subnav-row">
     <div class="subnav-links">
@@ -975,8 +1024,8 @@ def build(seed, slug):
 
 
 INDEX_CSS = """
-    :root { --t-occ: #b45309; --t-ms: #0e7490; --t-jup: #6d28d9; --t-sat: #047857; }
-    @media (prefers-color-scheme: dark) { :root { --t-occ: #fbbf24; --t-ms: #67c9e6; --t-jup: #c4b5fd; --t-sat: #34d399; } }
+    :root { --t-occ: #a4600c; --t-ms: #1b6f86; --t-jup: #6a44a8; --t-sat: #2f7a55; }
+    @media (prefers-color-scheme: dark) { :root { --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-jup: #c3b1f5; --t-sat: #6fd394; } }
     .t-occ { --tc: var(--t-occ); } .t-ms { --tc: var(--t-ms); } .t-jup { --tc: var(--t-jup); } .t-sat { --tc: var(--t-sat); }
     .home-h1 { margin-bottom: 0.3rem; }
     .typenav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.2rem; }
@@ -990,12 +1039,12 @@ INDEX_CSS = """
     .tile:hover { text-decoration: none; border-color: var(--tc); }
     .tile svg { width: 38px; height: 38px; color: var(--tc); grid-row: span 3; }
     .tile-kicker { font-size: 0.68rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--tc); font-weight: 700; }
-    .tile-title { font-weight: 700; font-size: 1.02rem; letter-spacing: -0.01em; line-height: 1.25; }
+    .tile-title { font-family: var(--serif); font-weight: 700; font-size: 1.08rem; line-height: 1.25; }
     .tile-detail { color: var(--muted); font-size: 0.8rem; line-height: 1.35; margin-top: 0.1rem; }
     .kind { margin: 2.4rem 0 0; padding-top: 1.3rem; border-top: 1px solid var(--border); scroll-margin-top: 12px; }
     .kind-head { display: grid; grid-template-columns: 54px 1fr; gap: 0.2rem 0.9rem; align-items: start; }
     .kind-head svg { width: 54px; height: 54px; color: var(--tc); grid-row: span 3; }
-    .kind-head h2 { margin: 0; font-size: 1.4rem; letter-spacing: -0.02em; text-transform: none; color: var(--text); }
+    .kind-head h2 { margin: 0; font-family: var(--serif); font-size: 1.55rem; letter-spacing: 0; text-transform: none; color: var(--text); }
     .kind-what { margin: 0.15rem 0 0; }
     .kind-facts { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin: 0.35rem 0 0; padding: 0; list-style: none; font-size: 0.82rem; color: var(--muted); }
     .kind-facts b { color: var(--tc); font-weight: 600; }
@@ -1220,10 +1269,25 @@ def build_index(seed, built, jup=(), ms=()):
     sm.append("</urlset>\n")
     (OUT / "sitemap.xml").write_text("\n".join(sm))
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    # installable: name, colours, icons (scripts/build_og.py draws them) and shortcuts to each kind of event
+    icons = [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+             {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+             {"src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]
+    shortcuts = [{"name": name, "short_name": short, "url": url, "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192"}]}
+                 for name, short, url in (("Calendar feeds", "Calendar", "/calendar"), ("The Moon and the stars", "Moon & stars", "/#moon-stars"),
+                                          ("Jupiter's moons", "Jupiter", "/#jupiter"), ("Saturn's moons", "Saturn", "/#saturn"))]
+    (OUT / "manifest.webmanifest").write_text(json.dumps({
+        "id": "/", "name": f"{SITE_NAME} — {TAGLINE}", "short_name": SITE_NAME, "description": desc,
+        "start_url": "/", "scope": "/", "display": "standalone", "lang": "en", "dir": "ltr",
+        "background_color": "#0c0f17", "theme_color": "#0c0f17", "categories": ["education", "utilities"],
+        "icons": icons, "shortcuts": shortcuts}, ensure_ascii=False, indent=1) + "\n")
     # Cloudflare Pages: unhashed text stays short-lived; KML/GPX download; images long-lived (URLs carry ?v= hashes)
     (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n"
                                   "/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n"
                                   "/img/*\n  Cache-Control: public, max-age=2592000\n"
+                                  "/og/*\n  Cache-Control: public, max-age=2592000\n"
+                                  "/icons/*\n  Cache-Control: public, max-age=2592000\n"
+                                  "/manifest.webmanifest\n  Content-Type: application/manifest+json\n  Cache-Control: public, max-age=86400\n"
                                   "/ics/*\n  Cache-Control: public, max-age=21600\n  Content-Type: text/calendar; charset=utf-8\n")
     (OUT / "404.html").write_text(head(f"Not found · {SITE_NAME}", "No such page.", "/404") + f"""
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
@@ -1236,8 +1300,10 @@ if __name__ == "__main__":
     import build_feeds
     import build_jupiter
     import build_moonstars
+    import build_og
     seed = json.loads((ROOT / "seed.json").read_text())
     OUT.mkdir(exist_ok=True)
+    build_og.write_all()          # first: every page's head links the images by content hash
     built = [build(seed, e["slug"]) for e in seed["events"]]
     # every city any event page knows: the diary pages' location sheet and one calendar feed each
     cities_sorted = build_feeds.collect_cities(seed)

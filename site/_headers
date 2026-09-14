@@ -7,6 +7,13 @@
   Content-Disposition: attachment
 /img/*
   Cache-Control: public, max-age=2592000
+/og/*
+  Cache-Control: public, max-age=2592000
+/icons/*
+  Cache-Control: public, max-age=2592000
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=86400
 /ics/*
   Cache-Control: public, max-age=21600
   Content-Type: text/calendar; charset=utf-8

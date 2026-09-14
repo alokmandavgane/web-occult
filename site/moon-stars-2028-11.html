@@ -15,25 +15,36 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://occult.alokm.com/moon-stars-2028-11">
   <meta property="og:site_name" content="Occult">
-  <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23111'/%3E%3Ccircle cx='21' cy='14' r='11' fill='%23fbfbfa'/%3E%3C/svg%3E">
+  <meta property="og:image" content="https://occult.alokm.com/og/moon-stars.png?v=63962c4d07">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Moon and the stars: every star the Moon hides, for your location">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0f17" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%230c0f17%22/%3E%3Cmask%20id%3D%22m%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23fff%22/%3E%3Ccircle%20cx%3D%2219.5%22%20cy%3D%2213.5%22%20r%3D%229.5%22%20fill%3D%22%23000%22/%3E%3C/mask%3E%3Ccircle%20cx%3D%2214.5%22%20cy%3D%2217.5%22%20r%3D%2210.5%22%20fill%3D%22%23ece8dd%22%20mask%3D%22url%28%23m%29%22/%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%227.5%22%20r%3D%222.3%22%20fill%3D%22%23f2b54a%22/%3E%3C/svg%3E">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Occult">
   <style>
+    /* Almanac paper by day, night sky by night; lapis / moonlight accent. System fonts only: no web fonts, no requests. */
     :root { color-scheme: light dark;
-            --bg: #fbfbfa; --card: #ffffff; --card-2: #f3f4f2; --border: #e6e7e3; --line: #d5d7d2;
-            --text: #16181d; --muted: #6b7280; --accent: #0e7490;
-            --sea: #eef2f5; --land: #dfe3e8; --land-line: #c8ced6;
-            --c-visible: #15803d; --c-miss: #dc2626; --c-down: #9ca3af; --c-limit: #d97706; --c-night: #7c3aed;
-            --region: rgba(14,116,144,0.22); --region-line: rgba(14,116,144,0.6); --night: rgba(124,58,237,0.22); }
+            --bg: #f6f3ec; --card: #fffdf8; --card-2: #f0ebe0; --border: #e5dfd2; --line: #d5cdbb;
+            --text: #1c1a16; --muted: #6f685b; --accent: #2f5597;
+            --sea: #eaeef0; --land: #e3ddcf; --land-line: #c8bfad;
+            --c-visible: #2f7a3e; --c-miss: #b83a2e; --c-down: #a39e92; --c-limit: #c26a0a; --c-night: #6a4bb0;
+            --region: rgba(47,85,151,0.18); --region-line: rgba(47,85,151,0.55); --night: rgba(106,75,176,0.18);
+            --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Charter, Georgia, serif; }
     @media (prefers-color-scheme: dark) { :root {
-            --bg: #0f1115; --card: #171a21; --card-2: #1f232c; --border: #262a33; --line: #343945;
-            --text: #e8eaee; --muted: #9aa3b2; --accent: #67c9e6;
-            --sea: #0b0e14; --land: #232833; --land-line: #3a4150;
-            --c-visible: #4ade80; --c-miss: #f87171; --c-down: #6b7280; --c-limit: #fbbf24; --c-night: #c4b5fd;
-            --region: rgba(103,201,230,0.22); --region-line: rgba(103,201,230,0.6); --night: rgba(196,181,253,0.25); } }
+            --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50;
+            --text: #ece8dd; --muted: #9aa0ae; --accent: #a9c1f0;
+            --sea: #090c13; --land: #1c2230; --land-line: #343d52;
+            --c-visible: #6fd394; --c-miss: #f08a7e; --c-down: #6b7180; --c-limit: #f2b54a; --c-night: #c3b4f5;
+            --region: rgba(169,193,240,0.18); --region-line: rgba(169,193,240,0.55); --night: rgba(195,180,245,0.2); } }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { -webkit-text-size-adjust: 100%; }
-    body { background: var(--bg); color: var(--text); line-height: 1.55; padding-bottom: 4rem;
+    body { background: radial-gradient(ellipse 900px 420px at 88% -180px, color-mix(in srgb, var(--accent) 10%, transparent), transparent 72%) no-repeat, var(--bg);
+           color: var(--text); line-height: 1.55; padding-bottom: 4rem;
            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
            font-feature-settings: "tnum"; }
     a { color: var(--accent); text-decoration: none; }
@@ -45,7 +56,7 @@
     .brand svg { width: 1.1em; height: 1.1em; }
     .tagline { color: var(--muted); font-size: 0.85rem; }
     .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
-    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; margin: 1.6rem 0 0.35rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.7rem, 4.2vw, 2.35rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.005em; margin: 1.6rem 0 0.35rem; }
     .sub { color: var(--muted); }
     h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; }
     p { margin: 0.55rem 0; }
@@ -175,6 +186,14 @@
     .event-list-months { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
     .event-list-months .event-card .what { font-size: 1rem; }
     footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
+    /* character: serif display lines, the mark's star in the limit colour, quiet focus and selection */
+    .brand, .night-head h3, .feed-city, .sheet-title, .event-card .what { font-family: var(--serif); letter-spacing: 0; }
+    .brand { font-size: 1.2rem; }
+    .brand .mark-star { fill: var(--c-limit); }
+    h2 { letter-spacing: 0.12em; }
+    ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+    footer { border-top-style: dotted; }
 </style>
   <style>
     .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
@@ -217,7 +236,7 @@
 <body>
 <header class="site">
   <div class="site-row">
-    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="currentColor"/><circle cx="21" cy="14" r="11" fill="var(--bg)"/></svg>Occult</a>
+    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><mask id="mark-cut"><rect width="32" height="32" fill="#fff"/><circle cx="19.5" cy="13.5" r="9.5" fill="#000"/></mask><circle cx="14.5" cy="17.5" r="10.5" fill="currentColor" mask="url(#mark-cut)"/><circle class="mark-star" cx="25.5" cy="7.5" r="2.3"/></svg>Occult</a>
     <span class="tagline">lunar occultations, computed</span>
   </div>
 </header>

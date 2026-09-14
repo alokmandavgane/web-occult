@@ -527,7 +527,7 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__DIAGRAM_JS__": DIAGRAM_JS, "__RENDER_JS__": RENDER_JS}.items():
         body = body.replace(k, v)
-    (OUT / f"{slug}.html").write_text(head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{JUPITER_CSS}</style>") + body)
+    (OUT / f"{slug}.html").write_text(head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{JUPITER_CSS}</style>", og=planet) + body)
     return {"slug": slug, "label": label, "year": year, "month": month, "n": len(items), "n_mutual": n_mutual, "planet": planet,
             "visible_default": len(visible)}
 
