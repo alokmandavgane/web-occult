@@ -1,0 +1,489 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Gazipur\, BD
+X-WR-CALDESC:Lunar occultations you can see from Gazipur\, BD\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Dhaka
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-gazipur-bd@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122454Z
+DTEND:20260914T125414Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 18:30:08 and reappears at 18:49:16 +06\, se
+ en from Gazipur\, BD.\nThe Moon is 16° up · dusk.\nTimes for the Moon's 
+ mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/venus-2026-09-14?lat=23.9984&lon=90.4223
+URL:https://occult.alokm.com/venus-2026-09-14?lat=23.9984&lon=90.4223
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3815ff96e7c5-gazipur-bd@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161723Z
+DTEND:20260930T161923Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 22:17:23 at the d
+ ark limb +06\, seen from Gazipur\, BD.\nThe Moon is 25° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe4f4766e6f-gazipur-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202216Z
+DTEND:20261004T202416Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:22:16 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 24° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26a6c90d6ee8-gazipur-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213845Z
+DTEND:20261006T214045Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:38:45 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 14° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0d88404e617-gazipur-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T132359Z
+DTEND:20261020T132559Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 19:23:59 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 49° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfde4b93bb50-gazipur-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T140509Z
+DTEND:20261021T140709Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 20:05:09 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 54° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-695c73f3dbb5-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203433Z
+DTEND:20261102T203633Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:34:33 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 28° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c76a17861039-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T215357Z
+DTEND:20261104T215557Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:53:57 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 20° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6f081bd4d31-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145844Z
+DTEND:20261115T150044Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:58:44 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 12° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4895ca35b59a-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160727Z
+DTEND:20261116T160927Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 22:07:27 at the dark limb
+  +06\, seen from Gazipur\, BD.\nThe Moon is 9° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-686784ed1d5a-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164605Z
+DTEND:20261127T164805Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:46:05 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 33° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a09cc7d03bd2-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T205719Z
+DTEND:20261128T205919Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:57:19 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 74° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74f5a1bb3e1d-gazipur-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232358Z
+DTEND:20261130T232558Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 05:23:58 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 74° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5126c1138eed-gazipur-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T142305Z
+DTEND:20270121T142505Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 20:23:05 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 50° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-daaac5873a3d-gazipur-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224424Z
+DTEND:20270124T224624Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:44:24 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 51° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2522b154851f-gazipur-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162536Z
+DTEND:20270125T162736Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 22:25:36 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 21° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-529b8db88a7d-gazipur-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225630Z
+DTEND:20270201T225830Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:56:30 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 16° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cdae157a12fc-gazipur-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172316Z
+DTEND:20270214T172516Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 23:23:16 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 19° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-969881365283-gazipur-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T174037Z
+DTEND:20270216T174237Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:40:37 at the dark limb
+  +06\, seen from Gazipur\, BD.\nThe Moon is 42° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3c40fd374c9-gazipur-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215308Z
+DTEND:20270220T223931Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:53:08 at the dark limb 
+ and reappears at 04:39:31 at the dark limb +06\, seen from Gazipur\, BD.\n
+ The Moon is 34° up in the W · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-da350dcb8a9f-gazipur-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200316Z
+DTEND:20270227T200516Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 02:03:16 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 17° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c1dcaed0b0e-gazipur-bd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T204926Z
+DTEND:20270301T205126Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 02:49:26 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 7° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-56fc7e34cb48-gazipur-bd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221551Z
+DTEND:20270302T221751Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 04:15:51 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 14° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7507d519b47-gazipur-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143824Z
+DTEND:20270414T144024Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:38:24 at the dark limb
+  +06\, seen from Gazipur\, BD.\nThe Moon is 65° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-954d0a6716c9-gazipur-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T130922Z
+DTEND:20270416T131122Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:09:22 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 66° up in the ESE · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f286f8b0624f-gazipur-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134110Z
+DTEND:20270417T134310Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:41:10 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 59° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d1d4b07324e-gazipur-bd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T180049Z
+DTEND:20270520T193920Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:00:49 at the bright lim
+ b and reappears at 01:39:20 at the dark limb +06\, seen from Gazipur\, BD.
+ \nThe Moon is 40° up in the S · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7df04b940ce0-gazipur-bd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T173110Z
+DTEND:20270522T173310Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 23:31:10 at the dark limb +0
+ 6\, seen from Gazipur\, BD.\nThe Moon is 29° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb00ece80353-gazipur-bd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154744Z
+DTEND:20270620T154944Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:47:44 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 19° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-93486ba4437b-gazipur-bd@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T184442Z
+DTEND:20270723T184642Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:44:42 at the dark limb +
+ 06\, seen from Gazipur\, BD.\nThe Moon is 43° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f81ebf05262c-gazipur-bd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270805T133221Z
+DTEND:20270805T133421Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 19:32:21 at the dark limb
+  +06\, seen from Gazipur\, BD.\nThe Moon is 15° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8e4a01bfe8-gazipur-bd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T185720Z
+DTEND:20270826T185920Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:57:20 at the dark limb 
+ +06\, seen from Gazipur\, BD.\nThe Moon is 6° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-gazipur-bd@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T224135Z
+DTEND:20280121T234434Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:41:35 and reappears at 05:44:34 +06\, 
+ seen from Gazipur\, BD.\nThe Moon is 16° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?lat=23.9984&lon=90.4223
+URL:https://occult.alokm.com/antares-2028-01-22?lat=23.9984&lon=90.4223
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-gazipur-bd@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142156Z
+DTEND:20280330T151720Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 20:21:56 and reappears at 21:17:20 +06\, 
+ seen from Gazipur\, BD.\nThe Moon is 20° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?lat=23.9984&lon=90.4223
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=23.9984&lon=90.4223
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-gazipur-bd@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234205Z
+DTEND:20280413T004000Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:42:05 and reappears at 06:40:00 +06\, 
+ seen from Gazipur\, BD.\nThe Moon is 26° up · twilight.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?lat=23.9984&lon=90.4223
+URL:https://occult.alokm.com/antares-2028-04-12?lat=23.9984&lon=90.4223
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

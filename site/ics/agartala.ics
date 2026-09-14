@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Agartala
+X-WR-CALDESC:Lunar occultations you can see from Agartala\, computed by occ
+ ult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-agartala@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122510Z
+DTEND:20260914T125635Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:59:45 and reappears at 18:22:16 IST\, se
+ en from Agartala.\nThe Moon is 15° up in the WSW · dusk.\nTimes against 
+ the real lunar limb.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/venus-2026-09-14?city=Agartala
+URL:https://occult.alokm.com/venus-2026-09-14?city=Agartala
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22306ac97563-agartala@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161629Z
+DTEND:20260930T161829Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:46:29 at the d
+ ark limb IST\, seen from Agartala.\nThe Moon is 25° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f6b095e0cc4-agartala@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202105Z
+DTEND:20261004T202305Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:51:05 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 25° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26a6c90d6ee8-agartala@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213853Z
+DTEND:20261006T214053Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:08:53 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 15° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a64b6c24d24-agartala@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T132535Z
+DTEND:20261020T132735Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:55:35 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 49° up in the S · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f395bd82a6e9-agartala@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T140730Z
+DTEND:20261021T140930Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:37:30 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 55° up in the S · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b579dd6b892-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203526Z
+DTEND:20261102T203726Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:05:26 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 29° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fda1a536096-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T215431Z
+DTEND:20261104T215631Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:24:31 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 21° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6f081bd4d31-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145850Z
+DTEND:20261115T150050Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:28:50 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 11° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4895ca35b59a-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160721Z
+DTEND:20261116T160921Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:37:21 at the dark limb
+  IST\, seen from Agartala.\nThe Moon is 9° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f53934d4da68-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164722Z
+DTEND:20261127T164922Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:17:22 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 34° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55fd1c44d7c9-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T205930Z
+DTEND:20261128T210130Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:29:30 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 76° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-68cc9d7833ac-agartala@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232521Z
+DTEND:20261130T232721Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:55:21 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 74° up in the SSE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5126c1138eed-agartala@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T142358Z
+DTEND:20270121T142558Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:53:58 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 51° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b269b9b2314e-agartala@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224331Z
+DTEND:20270124T224531Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:13:31 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 50° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1d3122b2a16-agartala@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162614Z
+DTEND:20270125T162814Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:56:14 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 21° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e2414c2a41c-agartala@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225720Z
+DTEND:20270201T225920Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:27:20 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 16° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cdae157a12fc-agartala@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172316Z
+DTEND:20270214T172516Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:53:16 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 18° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6304e76783fd-agartala@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T174223Z
+DTEND:20270216T174423Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:12:23 at the dark limb
+  IST\, seen from Agartala.\nThe Moon is 41° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d13f65ae2339-agartala@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215425Z
+DTEND:20270220T223949Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:24:25 at the dark limb 
+ and reappears at 04:09:49 at the dark limb IST\, seen from Agartala.\nThe 
+ Moon is 33° up in the W · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a486c1e2f2b6-agartala@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200220Z
+DTEND:20270227T200420Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:32:20 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 18° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a690e8fc7411-agartala@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T205007Z
+DTEND:20270301T205207Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 02:20:07 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 7° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f32ce8e71e5-agartala@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221631Z
+DTEND:20270302T221831Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:46:31 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 15° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35673897dac2-agartala@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T144027Z
+DTEND:20270414T144227Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:10:27 at the dark limb
+  IST\, seen from Agartala.\nThe Moon is 63° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7bdfcecf9c90-agartala@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T131031Z
+DTEND:20270416T131231Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:40:31 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 67° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-caa1b660acb4-agartala@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134249Z
+DTEND:20270417T134449Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:12:49 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 60° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-487e755cb0fe-agartala@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T180319Z
+DTEND:20270520T194144Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:33:19 at the bright lim
+ b and reappears at 01:11:44 at the dark limb IST\, seen from Agartala.\nTh
+ e Moon is 40° up in the S · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e75861aa2bea-agartala@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T173315Z
+DTEND:20270522T173515Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 23:03:15 at the dark limb IS
+ T\, seen from Agartala.\nThe Moon is 29° up in the SSE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5cb33a473f3e-agartala@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T133710Z
+DTEND:20270607T133910Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:07:10 at the dark limb
+  IST\, seen from Agartala.\nThe Moon is 22° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7f0023431d1-agartala@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154905Z
+DTEND:20270620T155105Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:19:05 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 20° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fba97d238f2-agartala@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T184827Z
+DTEND:20270723T185027Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:18:27 at the dark limb I
+ ST\, seen from Agartala.\nThe Moon is 44° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7689a09dbeda-agartala@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270805T133300Z
+DTEND:20270805T133500Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 19:03:00 at the dark limb
+  IST\, seen from Agartala.\nThe Moon is 14° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b257e6f7b0b9-agartala@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T132724Z
+DTEND:20270810T132924Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 18:57:24 at the bright limb
+  IST\, seen from Agartala.\nThe Moon is 39° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11b8062f28f2-agartala@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T185642Z
+DTEND:20270826T185842Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:26:42 at the dark limb 
+ IST\, seen from Agartala.\nThe Moon is 6° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-agartala@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T224249Z
+DTEND:20280121T234525Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:12:49 and reappears at 05:15:25 IST\, 
+ seen from Agartala.\nThe Moon is 17° up in the SE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Agartala
+URL:https://occult.alokm.com/antares-2028-01-22?city=Agartala
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-agartala@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142210Z
+DTEND:20280330T151737Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:52:10 and reappears at 20:47:37 IST\, 
+ seen from Agartala.\nThe Moon is 20° up in the WNW · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/alcyone-2028-03-30?city=Agartala
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Agartala
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-agartala@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234434Z
+DTEND:20280413T004010Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:14:34 and reappears at 06:10:10 IST\, 
+ seen from Agartala.\nThe Moon is 26° up in the SW · daylight\, Sun +1°.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/antares-2028-04-12?city=Agartala
+URL:https://occult.alokm.com/antares-2028-04-12?city=Agartala
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

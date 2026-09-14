@@ -1,0 +1,422 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Santiago de Querétaro\, MX
+X-WR-CALDESC:Lunar occultations you can see from Santiago de Querétaro\, M
+ X\, computed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+UID:star-b80d8b0ad3ec-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T045443Z
+DTEND:20260923T045643Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:54:43 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 50° up in the S
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T081901Z
+DTEND:20261006T085912Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:20:17 and reappears at 02:57:49 CST\, 
+ seen from Santiago de Querétaro\, MX.\nThe Moon is -6° up in the ENE · 
+ dark sky.\nTimes against the real lunar limb.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Santi
+ ago%20de%20Quer%C3%A9taro%2C%20MX
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Santiago%20de%20Quer%C
+ 3%A9taro%2C%20MX
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3b212b7bf09c-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T093216Z
+DTEND:20261031T093416Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:32:16 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 63° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d734e05d171-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261126T101932Z
+DTEND:20261126T102132Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:19:32 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 61° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61234444fcc7-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261225T025205Z
+DTEND:20261225T025405Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 20:52:05 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 21° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-67c4bae19841-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T070835Z
+DTEND:20261229T071035Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 01:08:35 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 24° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8764f9f9380d-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T100324Z
+DTEND:20270102T100524Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:03:24 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 13° up in the E
+ SE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5971e5b0d2a-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270120T083306Z
+DTEND:20270120T083506Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:33:06 at the dark limb
+  CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 36° up in the 
+ WNW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-83c09d1a2abe-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T111832Z
+DTEND:20270124T112032Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:18:32 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 50° up in the W 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2e70dc47e775-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T104802Z
+DTEND:20270125T105002Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 04:48:02 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 64° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-88326d2432c1-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270203T115842Z
+DTEND:20270203T120042Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 05:58:42 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 8° up in the ESE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96840c405fd9-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270210T014500Z
+DTEND:20270210T014700Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 19:45:00 at the dark limb
+  CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 21° up in the 
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc24fae3d072-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270215T022114Z
+DTEND:20270215T022314Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 20:21:14 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 73° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-565fe1cb2837-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T021053Z
+DTEND:20270316T021253Z
+SUMMARY:The Moon hides HR 2111 · mag 6.0
+DESCRIPTION:HR 2111 (magnitude 6.0) disappears at 20:10:53 at the dark limb
+  CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 74° up in the 
+ WNW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be849aca6d98-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270317T072603Z
+DTEND:20270317T072803Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 01:26:03 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 20° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7fd4d73ba1d-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270320T071016Z
+DTEND:20270320T071216Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 01:10:16 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 57° up in the W
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a76d40c1b76a-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T070036Z
+DTEND:20270321T070236Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 01:00:36 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 65° up in the S
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d35d15aacf7-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T052538Z
+DTEND:20270413T052738Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 23:25:38 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 19° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7420402674b-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T070813Z
+DTEND:20270423T071013Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:08:13 at the dark limb CS
+ T\, seen from Santiago de Querétaro\, MX.\nThe Moon is 39° up in the SSE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4b62ff898ca-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T111636Z
+DTEND:20270423T111836Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 05:16:36 at the bright lim
+ b CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 29° up in the
+  SW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-80638c17df44-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T105203Z
+DTEND:20270425T105403Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 04:52:03 at the dark limb CS
+ T\, seen from Santiago de Querétaro\, MX.\nThe Moon is 41° up in the S 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66cdb45c32b4-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T065733Z
+DTEND:20270523T065933Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 00:57:33 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 34° up in the S
+ SE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e1b681da1df-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T103250Z
+DTEND:20270524T103450Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 04:32:50 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 43° up in the SS
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2387199d17af-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T030137Z
+DTEND:20270609T030337Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 21:01:37 at the dark limb
+  CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 30° up in the 
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d220e26ef01e-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T023815Z
+DTEND:20270708T024015Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 20:38:15 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 26° up in the W
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-561750e52e54-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T022824Z
+DTEND:20270714T023024Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:28:24 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 43° up in the SS
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98544705c9b2-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T075435Z
+DTEND:20270714T075635Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:54:35 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 7° up in the WS
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bfe02a443d8c-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T043217Z
+DTEND:20270720T043417Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:32:17 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 27° up in the ES
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d8b2562c571f-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T073445Z
+DTEND:20270727T073645Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 01:34:45 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 16° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82eec188e73c-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270807T023346Z
+DTEND:20270807T023546Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 20:33:46 at the dark li
+ mb CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 23° up in th
+ e WSW · dark sky. Binoculars show it.\nEvery occultation this month\, for
+  anywhere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-347fc39403d1-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T043314Z
+DTEND:20270814T043514Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:33:14 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 44° up in the S
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

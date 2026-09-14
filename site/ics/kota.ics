@@ -1,0 +1,513 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kota
+X-WR-CALDESC:Lunar occultations you can see from Kota\, computed by occult.
+ alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kota@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120152Z
+DTEND:20260914T122104Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:31:52 and reappears at 17:51:04 IST\, se
+ en from Kota.\nThe Moon is 31° up in the SW · daylight\, Sun +13°.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/venus-2026-09-14?city=Kota
+URL:https://occult.alokm.com/venus-2026-09-14?city=Kota
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1765b7b80bc0-kota@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162430Z
+DTEND:20260930T162630Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:54:30 at the dark
+  limb IST\, seen from Kota.\nThe Moon is 14° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-452f324a2f8b-kota@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162453Z
+DTEND:20260930T162653Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:54:53 at the d
+ ark limb IST\, seen from Kota.\nThe Moon is 14° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fc9fb789ca5-kota@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202805Z
+DTEND:20261004T203005Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:58:05 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 13° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-79f4409cb60a-kota@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130117Z
+DTEND:20261020T130317Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:31:17 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 43° up in the SSE · dusk. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3d236fc551b-kota@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133447Z
+DTEND:20261021T133647Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:04:47 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 47° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202408Z
+DTEND:20261102T202608Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:08 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 12° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-160cbaa79b09-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T214742Z
+DTEND:20261104T214942Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:17:42 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 5° up in the E · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-330d88035812-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145931Z
+DTEND:20261115T150131Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:29:31 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 22° up in the SW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e8e22c580c0-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T161038Z
+DTEND:20261116T161238Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:40:38 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 20° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-819a9d1ea766-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162353Z
+DTEND:20261127T162553Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:53:53 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 16° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d2d74b87ff9a-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202509Z
+DTEND:20261128T202709Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:55:09 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 54° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d6f1ea57752-kota@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225933Z
+DTEND:20261130T230133Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:29:33 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 60° up in the ESE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7afe0d9febcd-kota@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T134134Z
+DTEND:20261212T134334Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:11:34 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 13° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-914c6e50b5d6-kota@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203131Z
+DTEND:20261223T203331Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:01:31 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 65° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a34454078b29-kota@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T002452Z
+DTEND:20261228T002652Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:54:52 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 61° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7d55c4cf82b-kota@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141443Z
+DTEND:20270121T141643Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:44:43 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 35° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cf0d14cf501-kota@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224116Z
+DTEND:20270124T224316Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:11:16 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 63° up in the SW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f350d9d6e4f4-kota@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T161941Z
+DTEND:20270125T162141Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:49:41 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 6° up in the E · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5dff377bdf2f-kota@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170916Z
+DTEND:20270216T171116Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:39:16 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 62° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c016326d3f90-kota@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213012Z
+DTEND:20270220T223438Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:00:12 at the dark limb 
+ and reappears at 04:04:38 at the dark limb IST\, seen from Kota.\nThe Moon
+  is 52° up in the WSW · dark sky. Binoculars show it.\nEvery occultation
+  this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7f53e38ef8d-kota@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T214334Z
+DTEND:20270221T214534Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:13:34 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 55° up in the SW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d7305867d10-kota@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200945Z
+DTEND:20270227T201145Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:39:45 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 7° up in the SE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59150393c5da-kota@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T222523Z
+DTEND:20270326T222723Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 03:55:23 at the dark limb IS
+ T\, seen from Kota.\nThe Moon is 39° up in the S · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d4f24e6bdbfc-kota@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T145549Z
+DTEND:20270520T145749Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:25:49 at the dark limb IS
+ T\, seen from Kota.\nThe Moon is 12° up in the SE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-10c0f073b220-kota@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172648Z
+DTEND:20270520T185744Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:56:48 at the bright lim
+ b and reappears at 00:27:44 at the dark limb IST\, seen from Kota.\nThe Mo
+ on is 34° up in the SSE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9675af4a7e03-kota@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T165548Z
+DTEND:20270522T165748Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:25:48 at the dark limb IS
+ T\, seen from Kota.\nThe Moon is 13° up in the SE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92d8868abb84-kota@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172010Z
+DTEND:20270609T172210Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:10 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 8° up in the W · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-847b5c1dfec9-kota@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224722Z
+DTEND:20270620T224922Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:17:22 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 30° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8be29b00645c-kota@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174437Z
+DTEND:20270710T174637Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:14:37 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 7° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18b8fcc457e3-kota@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212605Z
+DTEND:20270716T212805Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:56:05 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 14° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db09b4171ec3-kota@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T153925Z
+DTEND:20270806T154125Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:09:25 at the dark limb 
+ IST\, seen from Kota.\nThe Moon is 7° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-019ed8b9a3da-kota@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175715Z
+DTEND:20270810T175915Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:27:15 at the dark limb
+  IST\, seen from Kota.\nThe Moon is 11° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1c6f4de1b2a5-kota@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T233546Z
+DTEND:20270824T233746Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 05:05:46 at the dark limb I
+ ST\, seen from Kota.\nThe Moon is 77° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kota@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222834Z
+DTEND:20280121T233421Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:34 and reappears at 05:04:21 IST\, 
+ seen from Kota.\nThe Moon is 2° up in the ESE · dark sky.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/antares-2028-01-22?city=Kota
+URL:https://occult.alokm.com/antares-2028-01-22?city=Kota
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-kota@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141612Z
+DTEND:20280330T150708Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:46:12 and reappears at 20:37:08 IST\, 
+ seen from Kota.\nThe Moon is 35° up in the WNW · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/alcyone-2028-03-30?city=Kota
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Kota
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-kota@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230229Z
+DTEND:20280413T002433Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:32:29 and reappears at 05:54:33 IST\, 
+ seen from Kota.\nThe Moon is 36° up in the SSW · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?city=Kota
+URL:https://occult.alokm.com/antares-2028-04-12?city=Kota
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

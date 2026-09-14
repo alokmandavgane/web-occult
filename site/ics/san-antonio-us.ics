@@ -1,0 +1,371 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from San Antonio\, US
+X-WR-CALDESC:Lunar occultations you can see from San Antonio\, US\, compute
+ d by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+UID:star-522050f45633-san-antonio-us@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T051059Z
+DTEND:20260923T051259Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 00:10:59 at the dark limb 
+ CDT\, seen from San Antonio\, US.\nThe Moon is 40° up in the SSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-san-antonio-us@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T081354Z
+DTEND:20261006T090934Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 03:14:51 and reappears at 04:08:32 CDT\, 
+ seen from San Antonio\, US.\nThe Moon is -3° up in the ENE · dark sky.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/jupiter-2026-10-06?city=San%20Antonio%2C
+ %20US
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=San%20Antonio%2C%20US
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f3fcfc33218a-san-antonio-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T095954Z
+DTEND:20261031T100154Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 04:59:54 at the dark limb C
+ DT\, seen from San Antonio\, US.\nThe Moon is 71° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1b6cefdd4e9-san-antonio-us@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261126T100939Z
+DTEND:20261126T101139Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:09:39 at the dark limb 
+ CST\, seen from San Antonio\, US.\nThe Moon is 63° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b04bdfecf84a-san-antonio-us@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T011509Z
+DTEND:20261212T011709Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 19:15:09 at the dark limb 
+ CST\, seen from San Antonio\, US.\nThe Moon is 6° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-94fc347a5be2-san-antonio-us@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T004248Z
+DTEND:20261216T004448Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) disappears at 18:42:48 at the dark limb 
+ CST\, seen from San Antonio\, US.\nThe Moon is 51° up in the SSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c368938a19e0-san-antonio-us@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T070347Z
+DTEND:20261229T070547Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 01:03:47 at the dark limb C
+ ST\, seen from San Antonio\, US.\nThe Moon is 23° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b93b0129dcb-san-antonio-us@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T110536Z
+DTEND:20270124T110736Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:05:36 at the dark limb C
+ ST\, seen from San Antonio\, US.\nThe Moon is 49° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a155a4b5b87c-san-antonio-us@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T102837Z
+DTEND:20270125T103037Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 04:28:37 at the dark limb C
+ ST\, seen from San Antonio\, US.\nThe Moon is 59° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb2bc1f7ba5e-san-antonio-us@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270203T120817Z
+DTEND:20270203T121017Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 06:08:17 at the dark limb C
+ ST\, seen from San Antonio\, US.\nThe Moon is 6° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8dfe0dd999e-san-antonio-us@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270210T012918Z
+DTEND:20270210T013118Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 19:29:18 at the dark limb
+  CST\, seen from San Antonio\, US.\nThe Moon is 22° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26440bc31d0b-san-antonio-us@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270215T025011Z
+DTEND:20270215T025211Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 20:50:11 at the dark limb 
+ CST\, seen from San Antonio\, US.\nThe Moon is 67° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ee7fffdc738-san-antonio-us@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270219T111106Z
+DTEND:20270219T111306Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 05:11:06 at the dark limb 
+ CST\, seen from San Antonio\, US.\nThe Moon is 11° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-973e9617eb93-san-antonio-us@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T033742Z
+DTEND:20270318T033942Z
+SUMMARY:The Moon hides μ2 Cnc · mag 5.3
+DESCRIPTION:μ2 Cnc (magnitude 5.3) disappears at 22:37:42 at the dark limb
+  CDT\, seen from San Antonio\, US.\nThe Moon is 79° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5677960a30d-san-antonio-us@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270320T070051Z
+DTEND:20270320T070251Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 02:00:51 at the dark limb 
+ CDT\, seen from San Antonio\, US.\nThe Moon is 54° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e54f28b400c7-san-antonio-us@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T070855Z
+DTEND:20270321T073157Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 02:08:55 at the dark limb 
+ and reappears at 02:31:57 at the dark limb CDT\, seen from San Antonio\, U
+ S.\nThe Moon is 57° up in the SW · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3298ae6c92c-san-antonio-us@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T051840Z
+DTEND:20270413T052040Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:18:40 at the dark limb 
+ CDT\, seen from San Antonio\, US.\nThe Moon is 22° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1fdc68c459af-san-antonio-us@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T071214Z
+DTEND:20270423T071414Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 02:12:14 at the dark limb CD
+ T\, seen from San Antonio\, US.\nThe Moon is 32° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eaf42e9293c2-san-antonio-us@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T104723Z
+DTEND:20270425T104923Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 05:47:23 at the dark limb CD
+ T\, seen from San Antonio\, US.\nThe Moon is 32° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-180428425148-san-antonio-us@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T025054Z
+DTEND:20270609T025254Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 21:50:54 at the dark limb
+  CDT\, seen from San Antonio\, US.\nThe Moon is 31° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a130f73d6f5-san-antonio-us@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T062416Z
+DTEND:20270620T073425Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 01:24:16 at the br
+ ight limb and reappears at 02:34:25 at the dark limb CDT\, seen from San A
+ ntonio\, US.\nThe Moon is 32° up in the SSE · dark sky. Binoculars show 
+ it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
+ /moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6054e05aaa03-san-antonio-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T024515Z
+DTEND:20270714T024715Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:45:15 at the dark limb C
+ DT\, seen from San Antonio\, US.\nThe Moon is 34° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3428f358f83c-san-antonio-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T072842Z
+DTEND:20270716T073042Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 02:28:42 at the dark limb C
+ DT\, seen from San Antonio\, US.\nThe Moon is 21° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e36ad767347-san-antonio-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T045849Z
+DTEND:20270720T050049Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 23:58:49 at the dark limb C
+ DT\, seen from San Antonio\, US.\nThe Moon is 28° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dd23e6f69bf1-san-antonio-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T074454Z
+DTEND:20270727T074654Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 02:44:54 at the dark limb C
+ DT\, seen from San Antonio\, US.\nThe Moon is 22° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-745b5bc85c66-san-antonio-us@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270807T022957Z
+DTEND:20270807T023157Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 21:29:57 at the dark li
+ mb CDT\, seen from San Antonio\, US.\nThe Moon is 19° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73aac89cba1f-san-antonio-us@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T043450Z
+DTEND:20270814T043650Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 23:34:50 at the dark limb 
+ CDT\, seen from San Antonio\, US.\nThe Moon is 35° up in the S · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

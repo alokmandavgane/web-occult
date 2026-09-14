@@ -1,0 +1,484 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Perth\, AU
+X-WR-CALDESC:Lunar occultations you can see from Perth\, AU\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Australia/Perth
+BEGIN:VEVENT
+UID:star-371c85c38495-perth-au@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T150823Z
+DTEND:20260917T151023Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 23:08:23 at the dark limb
+  AWST\, seen from Perth\, AU.\nThe Moon is 13° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6a3edeb7a47-perth-au@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T170229Z
+DTEND:20260920T170429Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 01:02:29 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 19° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d1fb2ff3094b-perth-au@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T141929Z
+DTEND:20260923T142129Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 22:19:29 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 71° up in the NNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-21d2dfb2f93d-perth-au@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261025T191356Z
+DTEND:20261025T191556Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 03:13:56 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 19° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-perth-au@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T224559Z
+DTEND:20261102T235832Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 06:47:49 and reappears at 07:56:46 AWST\,
+  seen from Perth\, AU.\nThe Moon is 43° up · daylight\, Sun +18°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-31.9522&lon=115
+ .8614
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-31.9522&lon=115.8614
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c11e7856f0f-perth-au@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T200028Z
+DTEND:20261103T200228Z
+SUMMARY:The Moon hides ρ Leo · mag 3.8
+DESCRIPTION:ρ Leo (magnitude 3.8) reappears at 04:00:28 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 20° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8cbf6df3c602-perth-au@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261111T032620Z
+DTEND:20261111T044506Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 11:26:20 at the 
+ dark limb and reappears at 12:45:06 at the bright limb AWST\, seen from Pe
+ rth\, AU.\nThe Moon is 64° up in the E · daylight\, Sun +74°. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d1da36bc896-perth-au@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T132501Z
+DTEND:20261114T132701Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 21:25:01 at the dark limb
+  AWST\, seen from Perth\, AU.\nThe Moon is 21° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-934c101869d8-perth-au@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261122T163753Z
+DTEND:20261122T163953Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 00:37:53 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 28° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f06aa202dc1b-perth-au@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T133740Z
+DTEND:20261213T133940Z
+SUMMARY:The Moon hides HR 7964 · mag 6.2
+DESCRIPTION:HR 7964 (magnitude 6.2) disappears at 21:37:40 at the dark limb
+  AWST\, seen from Perth\, AU.\nThe Moon is 9° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fbd085097b09-perth-au@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261219T155929Z
+DTEND:20261219T160129Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 23:59:29 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 15° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64c338787bb4-perth-au@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T185345Z
+DTEND:20261227T185545Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 02:53:45 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 44° up in the NNE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58f4f1076e47-perth-au@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270101T190312Z
+DTEND:20270101T190512Z
+SUMMARY:The Moon hides HIP 68643 · mag 6.3
+DESCRIPTION:HIP 68643 (magnitude 6.3) reappears at 03:03:12 at the dark lim
+ b AWST\, seen from Perth\, AU.\nThe Moon is 27° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f4b24e0c205-perth-au@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T123354Z
+DTEND:20270113T123554Z
+SUMMARY:The Moon hides HIP 116422 · mag 6.5
+DESCRIPTION:HIP 116422 (magnitude 6.5) disappears at 20:33:54 at the dark l
+ imb AWST\, seen from Perth\, AU.\nThe Moon is 22° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-adfe9eff93ad-perth-au@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270127T155646Z
+DTEND:20270127T155846Z
+SUMMARY:The Moon hides ψ Vir · mag 4.7
+DESCRIPTION:ψ Vir (magnitude 4.7) reappears at 23:56:46 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 20° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2027-02-08-perth-au@occult.alokm.com
+DTSTAMP:20260914T035115Z
+DTSTART:20270208T021209Z
+DTEND:20270208T030848Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 10:12:43 and reappears at 11:08:13 AWST\,
+  seen from Perth\, AU.\nThe Moon is 38° up in the ENE · daylight\, Sun +
+ 54°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/mercury-2027-02-08?city=Perth%2C%
+ 20AU
+URL:https://occult.alokm.com/mercury-2027-02-08?city=Perth%2C%20AU
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-053c5c9334b3-perth-au@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270213T131401Z
+DTEND:20270213T131601Z
+SUMMARY:The Moon hides ν Ari · mag 5.5
+DESCRIPTION:ν Ari (magnitude 5.5) disappears at 21:14:01 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 13° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98e883ee15c3-perth-au@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270225T162613Z
+DTEND:20270225T162813Z
+SUMMARY:The Moon hides HR 5332 · mag 5.5
+DESCRIPTION:HR 5332 (magnitude 5.5) reappears at 00:26:13 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 38° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db33e7328567-perth-au@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270314T121836Z
+DTEND:20270314T122036Z
+SUMMARY:The Moon hides φ Tau · mag 5.0
+DESCRIPTION:φ Tau (magnitude 5.0) disappears at 20:18:36 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 16° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2027-03-19-perth-au@occult.alokm.com
+DTSTAMP:20260914T035236Z
+DTSTART:20270319T080216Z
+DTEND:20270319T090205Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 16:03:29 and reappears at 17:00:43 AWST\,
+  seen from Perth\, AU.\nThe Moon is -6° up in the ENE · daylight\, Sun +
+ 30°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/jupiter-2027-03-19?city=Perth%2C%
+ 20AU
+URL:https://occult.alokm.com/jupiter-2027-03-19?city=Perth%2C%20AU
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3b270a9e9fa-perth-au@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270323T120302Z
+DTEND:20270323T120502Z
+SUMMARY:The Moon hides ψ Vir · mag 4.7
+DESCRIPTION:ψ Vir (magnitude 4.7) reappears at 20:03:02 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 16° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-042cf8e77a99-perth-au@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270401T203215Z
+DTEND:20270401T203415Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) reappears at 04:32:15 at the dark li
+ mb AWST\, seen from Perth\, AU.\nThe Moon is 33° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-481bf5597b91-perth-au@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T212551Z
+DTEND:20270402T212751Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) reappears at 05:25:51 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 32° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52bc1dd43963-perth-au@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270419T134200Z
+DTEND:20270419T134400Z
+SUMMARY:The Moon hides χ Vir · mag 4.7
+DESCRIPTION:χ Vir (magnitude 4.7) disappears at 21:42:00 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 59° up in the NE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-399c45c2613b-perth-au@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270430T213338Z
+DTEND:20270430T213538Z
+SUMMARY:The Moon hides HR 8500 · mag 5.8
+DESCRIPTION:HR 8500 (magnitude 5.8) reappears at 05:33:38 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 49° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db1348750164-perth-au@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T151540Z
+DTEND:20270515T151740Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:15:40 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 39° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7d76334dbd64-perth-au@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T095114Z
+DTEND:20270611T095314Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) disappears at 17:51:14 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 56° up in the N · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5bbda028ca7-perth-au@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T111244Z
+DTEND:20270611T111444Z
+SUMMARY:The Moon hides 76 Leo · mag 5.9
+DESCRIPTION:76 Leo (magnitude 5.9) disappears at 19:12:44 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 54° up in the NNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0d7dd60ae46-perth-au@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T133845Z
+DTEND:20270617T145428Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 21:38:45 at the 
+ dark limb and reappears at 22:54:28 at the bright limb AWST\, seen from Pe
+ rth\, AU.\nThe Moon is 70° up in the ENE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-53481c6c944d-perth-au@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270628T205316Z
+DTEND:20270628T205516Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 04:53:16 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 30° up in the NE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b7411e0f5b19-perth-au@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270707T100021Z
+DTEND:20270707T100221Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:00:21 at the dark limb 
+ AWST\, seen from Perth\, AU.\nThe Moon is 34° up in the NW · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb259596c375-perth-au@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270721T215506Z
+DTEND:20270721T215706Z
+SUMMARY:The Moon hides θ Aqr · mag 4.3
+DESCRIPTION:θ Aqr (magnitude 4.3) reappears at 05:55:06 at the dark limb A
+ WST\, seen from Perth\, AU.\nThe Moon is 38° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2028-02-23-perth-au@occult.alokm.com
+DTSTAMP:20260914T035848Z
+DTSTART:20280222T214950Z
+DTEND:20280222T230013Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 05:50:13 and reappears at 06:59:46 AWST\,
+  seen from Perth\, AU.\nThe Moon is 23° up in the E · twilight.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/mercury-2028-02-23?city=Perth%2C%20AU
+URL:https://occult.alokm.com/mercury-2028-02-23?city=Perth%2C%20AU
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2029-01-13-perth-au@occult.alokm.com
+DTSTAMP:20260914T040531Z
+DTSTART:20290113T085801Z
+DTEND:20290113T093532Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 16:58:33 and reappears at 17:35:02 AWST\, s
+ een from Perth\, AU.\nThe Moon is 15° up in the WSW · daylight\, Sun +29
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/venus-2029-01-13?city=Perth%2C%20AU
+URL:https://occult.alokm.com/venus-2029-01-13?city=Perth%2C%20AU
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

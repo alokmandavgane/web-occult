@@ -1,0 +1,391 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Port Harcourt\, NG
+X-WR-CALDESC:Lunar occultations you can see from Port Harcourt\, NG\, compu
+ ted by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Lagos
+BEGIN:VEVENT
+UID:star-4e4797b11f86-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T205033Z
+DTEND:20260916T205233Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:50:33 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 9° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd1f3abbc09b-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T191831Z
+DTEND:20260917T192031Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:18:31 at the dark li
+ mb WAT\, seen from Port Harcourt\, NG.\nThe Moon is 37° up in the SW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-460a363aaba9-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T190118Z
+DTEND:20260923T190318Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:01:18 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 52° up in the ESE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d84987d3c29-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T041711Z
+DTEND:20261001T041911Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 05:17:11 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 62° up in the NW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T110632Z
+DTEND:20261006T121150Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 12:07:51 and reappears at 13:10:39 WAT\, 
+ seen from Port Harcourt\, NG.\nThe Moon is 43° up in the WNW · daylight\
+ , Sun +80°.\nTimes against the real lunar limb.\nMap\, timings and the vi
+ ew at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Po
+ rt%20Harcourt%2C%20NG
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Port%20Harcourt%2C%20N
+ G
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8403f22ab68-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T181505Z
+DTEND:20261018T181705Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:15:05 at the dark limb
+  WAT\, seen from Port Harcourt\, NG.\nThe Moon is 60° up in the SSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5f6cb266f5b2-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T032940Z
+DTEND:20261103T033140Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 04:29:40 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 42° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9950316cd4e8-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T180622Z
+DTEND:20261114T180822Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 19:06:22 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 43° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26f4172780d5-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T012255Z
+DTEND:20261128T012455Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 02:22:55 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 61° up in the NE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3a7a619a5c9-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T041533Z
+DTEND:20261202T041733Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 05:15:33 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 60° up in the E · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfb39ad8cf29-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T043104Z
+DTEND:20261205T043304Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 05:31:04 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 29° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-88a635e7b49b-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T194600Z
+DTEND:20261213T194800Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 20:46:00 at the dark l
+ imb WAT\, seen from Port Harcourt\, NG.\nThe Moon is 17° up in the WSW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a9b2ec3ef28-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T181548Z
+DTEND:20261223T181748Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:15:48 at the dark limb
+  WAT\, seen from Port Harcourt\, NG.\nThe Moon is 15° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e949cdb49e95-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T221938Z
+DTEND:20270116T222138Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 23:19:38 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 27° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-285b90381edd-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T035719Z
+DTEND:20270126T035919Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 04:57:19 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 72° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f7432c914a4-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270322T001052Z
+DTEND:20270322T010154Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 01:10:52 at the dark limb 
+ and reappears at 02:01:54 at the dark limb WAT\, seen from Port Harcourt\,
+  NG.\nThe Moon is 74° up in the WSW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dcec66e578cc-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T221622Z
+DTEND:20270326T221822Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:16:22 at the dark limb WA
+ T\, seen from Port Harcourt\, NG.\nThe Moon is 12° up in the ESE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d62a25a8a75-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T003317Z
+DTEND:20270327T013631Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:33:17 at the bright lim
+ b and reappears at 02:36:31 at the dark limb WAT\, seen from Port Harcourt
+ \, NG.\nThe Moon is 40° up in the SE · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7eac3a1f6507-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T222336Z
+DTEND:20270425T222536Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 23:23:36 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 8° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c0fd5f87db9-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T010133Z
+DTEND:20270427T010333Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 02:01:33 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 31° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-184ad4328da6-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T182620Z
+DTEND:20270510T182820Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:26:20 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 44° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-980e24d1f9a3-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T193601Z
+DTEND:20270513T193801Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:36:01 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 69° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c896ebee84a6-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T191433Z
+DTEND:20270608T191633Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 20:14:33 at the dark limb
+  WAT\, seen from Port Harcourt\, NG.\nThe Moon is 32° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7016dd7ee3d-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T210339Z
+DTEND:20270616T210539Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:03:39 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 58° up in the SSE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2503cc842485-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T194246Z
+DTEND:20270620T194446Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 20:42:46 at the dark limb 
+ WAT\, seen from Port Harcourt\, NG.\nThe Moon is 7° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e2b693f14f3-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234525Z
+DTEND:20270723T234725Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 00:45:25 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 36° up in the E · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09579196161f-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T004949Z
+DTEND:20270820T005149Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:49:49 at the dark limb W
+ AT\, seen from Port Harcourt\, NG.\nThe Moon is 81° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-port-harcourt-ng@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T102602Z
+DTEND:20271229T121916Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 11:26:16 and reappears at 13:19:00 WAT\, see
+ n from Port Harcourt\, NG.\nThe Moon is 45° up in the SE · daylight\, Su
+ n +58°.\nTimes against the real lunar limb.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Port%20Ha
+ rcourt%2C%20NG
+URL:https://occult.alokm.com/mars-2027-12-29?city=Port%20Harcourt%2C%20NG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

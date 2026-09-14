@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Indore
+X-WR-CALDESC:Lunar occultations you can see from Indore\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-indore@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115348Z
+DTEND:20260914T123718Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:28:17 and reappears at 18:03:00 IST\, se
+ en from Indore.\nThe Moon is 34° up in the SW · daylight\, Sun +14°.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?city=Indore
+URL:https://occult.alokm.com/venus-2026-09-14?city=Indore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec6c37996002-indore@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161719Z
+DTEND:20260930T161919Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:47:19 at the dark
+  limb IST\, seen from Indore.\nThe Moon is 12° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-28808a13edfd-indore@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162105Z
+DTEND:20260930T162305Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:51:05 at the d
+ ark limb IST\, seen from Indore.\nThe Moon is 12° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9ccb67a85082-indore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202348Z
+DTEND:20261004T202548Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:53:48 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 11° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e298743e8776-indore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T125420Z
+DTEND:20261020T125620Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:24:20 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 45° up in the SSE · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8d8a84a0b3f-indore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132940Z
+DTEND:20261021T133140Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:59:40 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 48° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202451Z
+DTEND:20261102T202651Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:51 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 12° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b65be0d6e6e-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145457Z
+DTEND:20261115T145657Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:24:57 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 24° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7f73715eb5-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160540Z
+DTEND:20261116T160740Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:35:40 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 22° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df95125d8c5f-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162922Z
+DTEND:20261127T163122Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:59:22 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 16° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e86efccedf4c-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202412Z
+DTEND:20261128T202612Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:54:12 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 54° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90875135299c-indore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230223Z
+DTEND:20261130T230423Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:32:23 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 62° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-indore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133844Z
+DTEND:20261212T134044Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:44 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 15° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-00211740681a-indore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203019Z
+DTEND:20261223T203219Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:00:19 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 65° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a34454078b29-indore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T002418Z
+DTEND:20261228T002618Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:54:18 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 62° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b5bd919e215-indore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140744Z
+DTEND:20270121T140944Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:37:44 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 33° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d3db749b857-indore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224720Z
+DTEND:20270124T224920Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:17:20 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 63° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc68852c2881-indore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162243Z
+DTEND:20270125T162443Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:52:43 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 7° up in the E · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5dff377bdf2f-indore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170948Z
+DTEND:20270216T171148Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:39:48 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 61° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fba6ff36b841-indore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213341Z
+DTEND:20270220T213541Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:03:41 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 52° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b6893834202-indore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215055Z
+DTEND:20270221T215255Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:20:55 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 55° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1e3d9cbd51-indore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201138Z
+DTEND:20270227T201338Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:41:38 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 9° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eacceaae9bbc-indore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T223454Z
+DTEND:20270326T223654Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:04:54 at the dark limb IS
+ T\, seen from Indore.\nThe Moon is 41° up in the S · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a12cef6a1167-indore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T141004Z
+DTEND:20270414T141204Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:40:04 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 84° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e99b6927bb0-indore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150001Z
+DTEND:20270520T150201Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:30:01 at the dark limb IS
+ T\, seen from Indore.\nThe Moon is 14° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2946de711cc9-indore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172850Z
+DTEND:20270520T185749Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:58:50 at the bright lim
+ b and reappears at 00:27:49 at the dark limb IST\, seen from Indore.\nThe 
+ Moon is 36° up in the SSE · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b65ecd00b593-indore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T164039Z
+DTEND:20270522T164239Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:10:39 at the dark limb IS
+ T\, seen from Indore.\nThe Moon is 12° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92d8868abb84-indore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172045Z
+DTEND:20270609T172245Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:45 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 7° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-847b5c1dfec9-indore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224701Z
+DTEND:20270620T224901Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:17:01 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 32° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b730e5bb248-indore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174609Z
+DTEND:20270710T174809Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:16:09 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 7° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d840da854b11-indore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212830Z
+DTEND:20270716T213030Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:58:30 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 15° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e49c39e5d256-indore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154244Z
+DTEND:20270806T154444Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:12:44 at the dark limb 
+ IST\, seen from Indore.\nThe Moon is 7° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69f15c2a724e-indore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175615Z
+DTEND:20270810T175815Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:26:15 at the dark limb
+  IST\, seen from Indore.\nThe Moon is 13° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-67a4c9a3c03e-indore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T233204Z
+DTEND:20270824T233404Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 05:02:04 at the dark limb I
+ ST\, seen from Indore.\nThe Moon is 76° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-indore@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222717Z
+DTEND:20280121T233423Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:57:17 and reappears at 05:04:23 IST\, 
+ seen from Indore.\nThe Moon is 3° up in the ESE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Indore
+URL:https://occult.alokm.com/antares-2028-01-22?city=Indore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-indore@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142434Z
+DTEND:20280330T150341Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:54:34 and reappears at 20:33:41 IST\, 
+ seen from Indore.\nThe Moon is 32° up in the WNW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?city=Indore
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Indore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-indore@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230542Z
+DTEND:20280413T002358Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:35:42 and reappears at 05:53:58 IST\, 
+ seen from Indore.\nThe Moon is 38° up in the SSW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Indore
+URL:https://occult.alokm.com/antares-2028-04-12?city=Indore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,447 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Hohhot\, CN
+X-WR-CALDESC:Lunar occultations you can see from Hohhot\, CN\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:star-427aabf2293f-hohhot-cn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T165803Z
+DTEND:20260930T170003Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:58:03 at the d
+ ark limb CST\, seen from Hohhot\, CN.\nThe Moon is 52° up in the ESE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b63191ff9be3-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T211608Z
+DTEND:20261004T211808Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:16:08 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 53° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2026-10-05-hohhot-cn@occult.alokm.com
+DTSTAMP:20260914T034451Z
+DTSTART:20261005T065029Z
+DTEND:20261005T071614Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:50:57 and reappears at 15:15:54 CST\, see
+ n from Hohhot\, CN.\nThe Moon is 5° up in the WNW · daylight\, Sun +33°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2026-10-05?city=Hohhot%2C%20CN
+URL:https://occult.alokm.com/mars-2026-10-05?city=Hohhot%2C%20CN
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b0869804965-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T190351Z
+DTEND:20261005T190551Z
+SUMMARY:The Moon hides HR 3577 · mag 6.4
+DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 03:03:51 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 17° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92e1ba585554-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T215618Z
+DTEND:20261006T215818Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:56:18 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 35° up in the ESE · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75314d49b127-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T205655Z
+DTEND:20261007T205855Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:56:55 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 12° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fc0ef30d191-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T141118Z
+DTEND:20261020T141318Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:11:18 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 25° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ec3f456d840-hohhot-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T145500Z
+DTEND:20261021T145700Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:55:00 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 30° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a749d8ca0cbf-hohhot-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T222008Z
+DTEND:20261104T222208Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 06:20:08 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 36° up in the SE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3d3ffa5fefd-hohhot-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261124T102813Z
+DTEND:20261124T105803Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 18:28:13 at the 
+ dark limb and reappears at 18:58:03 at the dark limb CST\, seen from Hohho
+ t\, CN.\nThe Moon is 19° up in the ENE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-48e03213dd3d-hohhot-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T102132Z
+DTEND:20261216T102332Z
+SUMMARY:The Moon hides HR 8759 · mag 6.0
+DESCRIPTION:HR 8759 (magnitude 6.0) disappears at 18:21:32 at the dark limb
+  CST\, seen from Hohhot\, CN.\nThe Moon is 44° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c50d08724716-hohhot-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T170537Z
+DTEND:20261229T170737Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 01:05:37 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 15° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3cfb58c61223-hohhot-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T170354Z
+DTEND:20270214T170554Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 01:03:54 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 12° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9030a932c138-hohhot-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171144Z
+DTEND:20270214T171344Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:11:44 at the 
+ dark limb CST\, seen from Hohhot\, CN.\nThe Moon is 11° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-123e3eedfdb1-hohhot-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171956Z
+DTEND:20270214T172156Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 01:19:56 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 9° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e1e243aafa3-hohhot-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270222T124113Z
+DTEND:20270222T124313Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 20:41:13 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 6° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa48b69115b1-hohhot-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210637Z
+DTEND:20270301T210837Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 05:06:37 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 11° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7376101e3615-hohhot-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T192322Z
+DTEND:20270318T192522Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:23:22 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 14° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f686fb0100a6-hohhot-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T132842Z
+DTEND:20270416T133042Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:28:42 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 58° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d983ef0193cf-hohhot-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270507T121151Z
+DTEND:20270507T121351Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 20:11:51 at the dar
+ k limb CST\, seen from Hohhot\, CN.\nThe Moon is 6° up in the WNW · dusk
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e96e17856b4-hohhot-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T145613Z
+DTEND:20270520T145813Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 22:56:13 at the dark limb CS
+ T\, seen from Hohhot\, CN.\nThe Moon is 19° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa3443ce00ff-hohhot-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T184609Z
+DTEND:20270520T195815Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:46:09 at the bright lim
+ b and reappears at 03:58:15 at the dark limb CST\, seen from Hohhot\, CN.\
+ nThe Moon is 17° up in the SSW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e257166f7d0b-hohhot-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T183129Z
+DTEND:20270522T183329Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 02:31:29 at the dark limb CS
+ T\, seen from Hohhot\, CN.\nThe Moon is 21° up in the S · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85acfbdb88ff-hohhot-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T132656Z
+DTEND:20270607T132856Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 21:26:56 at the dark limb
+  CST\, seen from Hohhot\, CN.\nThe Moon is 12° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c42c4853e3de-hohhot-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T165259Z
+DTEND:20270620T165459Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:52:59 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 22° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c496b96c0d80-hohhot-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T202614Z
+DTEND:20270701T202814Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 04:26:14 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 18° up in the ENE · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5635c8a49a02-hohhot-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T130026Z
+DTEND:20270717T130226Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 21:00:26 at the bri
+ ght limb CST\, seen from Hohhot\, CN.\nThe Moon is 12° up in the SE · du
+ sk. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f10441291dce-hohhot-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T195859Z
+DTEND:20270723T200059Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:58:59 at the dark limb C
+ ST\, seen from Hohhot\, CN.\nThe Moon is 51° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb563f02e627-hohhot-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T192007Z
+DTEND:20270826T192207Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:20:07 at the dark limb 
+ CST\, seen from Hohhot\, CN.\nThe Moon is 32° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-503434bc36d8-hohhot-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T185554Z
+DTEND:20270827T193245Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:55:54 at the bright lim
+ b and reappears at 03:32:45 at the dark limb CST\, seen from Hohhot\, CN.\
+ nThe Moon is 16° up in the ENE · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-hohhot-cn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141940Z
+DTEND:20280330T144646Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 22:19:40 and reappears at 22:46:46 CST\, 
+ seen from Hohhot\, CN.\nThe Moon is 10° up · dark sky.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/alcyone-2028-03-30?lat=40.8106&lon=111.6522
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.8106&lon=111.6522
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-hohhot-cn@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234642Z
+DTEND:20280413T004432Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 07:46:42 and reappears at 08:44:32 CST\, 
+ seen from Hohhot\, CN.\nThe Moon is 1° up · daylight\, Sun +20°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?lat=40.8106&lon=111.6
+ 522
+URL:https://occult.alokm.com/antares-2028-04-12?lat=40.8106&lon=111.6522
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

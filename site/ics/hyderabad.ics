@@ -1,0 +1,563 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Hyderabad
+X-WR-CALDESC:Lunar occultations you can see from Hyderabad\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-99f911f9b24c-hyderabad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T230714Z
+DTEND:20260908T230914Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:37:14 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 6° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-hyderabad@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115620Z
+DTEND:20260914T130250Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:28:56 and reappears at 18:30:31 IST\, se
+ en from Hyderabad.\nThe Moon is 35° up in the SW · daylight\, Sun +11°.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?city=Hyderabad
+URL:https://occult.alokm.com/venus-2026-09-14?city=Hyderabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc17ca8a3837-hyderabad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161018Z
+DTEND:20260930T161218Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:40:18 at the d
+ ark limb IST\, seen from Hyderabad.\nThe Moon is 10° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5b2af690e86-hyderabad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T124610Z
+DTEND:20261020T124810Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:16:10 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 50° up in the SSE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a4e485d8405-hyderabad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132547Z
+DTEND:20261021T132747Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:55:47 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 53° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84d713bda452-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202530Z
+DTEND:20261102T202730Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:55:30 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 14° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e3150bb3ec2-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144908Z
+DTEND:20261115T145108Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:19:08 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 27° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6baa7e1646fe-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155855Z
+DTEND:20261116T160055Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:28:55 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 24° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0fbd8debe71-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163614Z
+DTEND:20261127T163814Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:06:14 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 18° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e86efccedf4c-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202406Z
+DTEND:20261128T202606Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:54:06 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 55° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd30ff85d0d3-hyderabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231258Z
+DTEND:20261130T231458Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:42:58 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 68° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8449466aa522-hyderabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133536Z
+DTEND:20261212T133736Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:05:36 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 16° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-949ac148eae1-hyderabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203645Z
+DTEND:20261223T203845Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:06:45 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 59° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6767aa6566f2-hyderabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T001015Z
+DTEND:20261228T002659Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:40:15 at the dark limb 
+ and reappears at 05:56:59 at the dark limb IST\, seen from Hyderabad.\nThe
+  Moon is 65° up in the WSW · dark sky. Binoculars show it.\nEvery occult
+ ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-
+ 12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95b9251cae0a-hyderabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T195251Z
+DTEND:20270118T195451Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:22:51 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 24° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ddd99c21fee-hyderabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140057Z
+DTEND:20270121T140257Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:30:57 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 33° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-772490766b35-hyderabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230211Z
+DTEND:20270124T230411Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:32:11 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 60° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa71acdbdb0d-hyderabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162728Z
+DTEND:20270125T162928Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:57:28 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 10° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-513e3d7087a0-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T223749Z
+DTEND:20270201T223949Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:07:49 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 7° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d79045750abf-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T144301Z
+DTEND:20270212T144501Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:13:01 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 38° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f688dfbd4372-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T145800Z
+DTEND:20270214T150000Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:28:00 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 59° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64bc325b0fcd-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161335Z
+DTEND:20270216T161535Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:43:35 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 69° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2e8c9864727-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171829Z
+DTEND:20270216T172029Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:48:29 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 55° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c20fdcd621d8-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214509Z
+DTEND:20270220T214709Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:15:09 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 47° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7867ed263284-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220651Z
+DTEND:20270221T220851Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:36:51 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 52° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2affbea42e-hyderabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201504Z
+DTEND:20270227T201704Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:45:04 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 15° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be3070b0c697-hyderabad@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220417Z
+DTEND:20270302T220617Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:34:17 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 6° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62c0e02a040e-hyderabad@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T225631Z
+DTEND:20270326T225831Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:26:31 at the dark limb IS
+ T\, seen from Hyderabad.\nThe Moon is 46° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-202f30137bf1-hyderabad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142551Z
+DTEND:20270414T142751Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:55:51 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 78° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-hyderabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150643Z
+DTEND:20270520T150843Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:43 at the dark limb IS
+ T\, seen from Hyderabad.\nThe Moon is 21° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a793a6f7d1e3-hyderabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174020Z
+DTEND:20270520T190507Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:10:20 at the bright lim
+ b and reappears at 00:35:07 at the dark limb IST\, seen from Hyderabad.\nT
+ he Moon is 43° up in the SSE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e974d1e6add9-hyderabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135113Z
+DTEND:20270608T135313Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:21:13 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 41° up in the W · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-hyderabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165750Z
+DTEND:20270609T165950Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:50 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 9° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cffd393402e-hyderabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T123440Z
+DTEND:20270617T125304Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 18:04:40 at the 
+ dark limb and reappears at 18:23:04 at the dark limb IST\, seen from Hyder
+ abad.\nThe Moon is 5° up in the ESE · daylight\, Sun +10°. Binoculars s
+ how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
+ .com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1646fa47a529-hyderabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224635Z
+DTEND:20270620T224835Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:16:35 at the dark limb 
+ IST\, seen from Hyderabad.\nThe Moon is 35° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40c84a277263-hyderabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T214157Z
+DTEND:20270716T214357Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:11:57 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 14° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25c7ec8d0280-hyderabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181631Z
+DTEND:20270723T181831Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:46:31 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 27° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-019ed8b9a3da-hyderabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175759Z
+DTEND:20270810T175959Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:27:59 at the dark limb
+  IST\, seen from Hyderabad.\nThe Moon is 13° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc49c6963e6d-hyderabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232534Z
+DTEND:20270824T232734Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:55:34 at the dark limb I
+ ST\, seen from Hyderabad.\nThe Moon is 75° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-hyderabad@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222732Z
+DTEND:20280121T233612Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:57:32 and reappears at 05:06:12 IST\, 
+ seen from Hyderabad.\nThe Moon is 8° up in the ESE · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-01-22?city=Hyderabad
+URL:https://occult.alokm.com/antares-2028-01-22?city=Hyderabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-hyderabad@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T232403Z
+DTEND:20280413T002220Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:54:03 and reappears at 05:52:20 IST\, 
+ seen from Hyderabad.\nThe Moon is 41° up in the SSW · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-04-12?city=Hyderabad
+URL:https://occult.alokm.com/antares-2028-04-12?city=Hyderabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

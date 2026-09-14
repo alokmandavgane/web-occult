@@ -1,0 +1,547 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Hubli
+X-WR-CALDESC:Lunar occultations you can see from Hubli\, computed by occult
+ .alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-hubli@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114705Z
+DTEND:20260914T130339Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:19:30 and reappears at 18:31:33 IST\, se
+ en from Hubli.\nThe Moon is 40° up in the SW · daylight\, Sun +17°.\nTi
+ mes against the real lunar limb.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/venus-2026-09-14?city=Hubli
+URL:https://occult.alokm.com/venus-2026-09-14?city=Hubli
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-616c808bf7e5-hubli@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160847Z
+DTEND:20260930T161047Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:38:47 at the d
+ ark limb IST\, seen from Hubli.\nThe Moon is 6° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202331Z
+DTEND:20261102T202531Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:31 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 10° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c427992b4bb8-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144442Z
+DTEND:20261115T144642Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:14:42 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 31° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d915561f32b-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155458Z
+DTEND:20261116T155658Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:24:58 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 29° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8935a9a9e12f-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163430Z
+DTEND:20261127T163630Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:04:30 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 14° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d4f1d2cc120d-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201226Z
+DTEND:20261128T201426Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:42:26 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 49° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d3af785c22dc-hubli@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230452Z
+DTEND:20261130T230652Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:34:52 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 64° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a78421fed6c6-hubli@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133252Z
+DTEND:20261212T133452Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:02:52 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 21° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-00211740681a-hubli@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203055Z
+DTEND:20261223T203255Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:00:55 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 62° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f0555d1f65a-hubli@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164505Z
+DTEND:20270113T164705Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:15:05 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 7° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13429102e3c5-hubli@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193918Z
+DTEND:20270118T194118Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:09:18 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 29° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-832a1866fd29-hubli@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135635Z
+DTEND:20270121T135835Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:26:35 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 28° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77f3343eebc6-hubli@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230153Z
+DTEND:20270124T230353Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:31:53 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 64° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa71acdbdb0d-hubli@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162729Z
+DTEND:20270125T162929Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:57:29 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 7° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6909ac02d00a-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T003946Z
+DTEND:20270204T004146Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:09:46 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 11° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df260bcf696d-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142747Z
+DTEND:20270212T142947Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:57:47 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 45° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfb235e340cd-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144448Z
+DTEND:20270214T144648Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:14:48 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 64° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b72b9d1c4d8d-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155552Z
+DTEND:20270216T155752Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:25:52 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 73° up in the NW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-647a32858c72-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171438Z
+DTEND:20270216T171638Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:44:38 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 58° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cdc69330c08-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214447Z
+DTEND:20270220T214647Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:14:47 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 51° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c7725fdbe97-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220855Z
+DTEND:20270221T221055Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:38:55 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 55° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f26bab1ee52f-hubli@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201411Z
+DTEND:20270227T201611Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:44:11 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 13° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b18ef87cc4a-hubli@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T225303Z
+DTEND:20270326T225503Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:23:03 at the dark limb IS
+ T\, seen from Hubli.\nThe Moon is 48° up in the S · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-369966716b91-hubli@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142636Z
+DTEND:20270414T142836Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:56:36 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 80° up in the NW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-41641434c8cb-hubli@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150722Z
+DTEND:20270520T150922Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:37:22 at the dark limb IS
+ T\, seen from Hubli.\nThe Moon is 19° up in the SE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a793a6f7d1e3-hubli@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174019Z
+DTEND:20270520T185100Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:10:19 at the bright lim
+ b and reappears at 00:21:00 at the dark limb IST\, seen from Hubli.\nThe M
+ oon is 44° up in the SSE · dark sky. Binoculars show it.\nEvery occultat
+ ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-hubli@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165536Z
+DTEND:20270609T165736Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:36 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 12° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b86024b8f99-hubli@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172432Z
+DTEND:20270609T172632Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:54:32 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 6° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f9f17ea33ef-hubli@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130424Z
+DTEND:20270617T130624Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:34:24 at the b
+ right limb IST\, seen from Hubli.\nThe Moon is 9° up in the ESE · daylig
+ ht\, Sun +5°. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ee678599b3b-hubli@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224013Z
+DTEND:20270620T224213Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:10:13 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 39° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75ff4f1facb5-hubli@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175158Z
+DTEND:20270710T175358Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:21:58 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 8° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb6f67bd15f3-hubli@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213912Z
+DTEND:20270716T214112Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:09:12 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 18° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ebe606fba138-hubli@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181300Z
+DTEND:20270723T181500Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:43:00 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 23° up in the E · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a9325a5298d-hubli@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T155329Z
+DTEND:20270806T155529Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:23:29 at the dark limb 
+ IST\, seen from Hubli.\nThe Moon is 7° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58cbcd28b61a-hubli@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175528Z
+DTEND:20270810T175728Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:25:28 at the dark limb
+  IST\, seen from Hubli.\nThe Moon is 18° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-65bb8a81433d-hubli@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231445Z
+DTEND:20270824T231645Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:44:45 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 69° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-474f0a2b391d-hubli@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235426Z
+DTEND:20270827T235626Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:24:26 at the dark limb I
+ ST\, seen from Hubli.\nThe Moon is 38° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-hubli@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222821Z
+DTEND:20280121T233127Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:21 and reappears at 05:01:27 IST\, 
+ seen from Hubli.\nThe Moon is 6° up in the ESE · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-01-22?city=Hubli
+URL:https://occult.alokm.com/antares-2028-01-22?city=Hubli
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-hubli@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T231930Z
+DTEND:20280413T001345Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:49:30 and reappears at 05:43:45 IST\, 
+ seen from Hubli.\nThe Moon is 44° up in the SSW · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-04-12?city=Hubli
+URL:https://occult.alokm.com/antares-2028-04-12?city=Hubli
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

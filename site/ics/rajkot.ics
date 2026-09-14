@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Rajkot
+X-WR-CALDESC:Lunar occultations you can see from Rajkot\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-rajkot@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T113543Z
+DTEND:20260914T123144Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:09:24 and reappears at 17:58:24 IST\, se
+ en from Rajkot.\nThe Moon is 40° up in the SW · daylight\, Sun +23°.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?city=Rajkot
+URL:https://occult.alokm.com/venus-2026-09-14?city=Rajkot
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34825fb71a6e-rajkot@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162209Z
+DTEND:20260930T162409Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:52:09 at the dark
+  limb IST\, seen from Rajkot.\nThe Moon is 8° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1eb643dc7dd-rajkot@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162230Z
+DTEND:20260930T162430Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:52:30 at the d
+ ark limb IST\, seen from Rajkot.\nThe Moon is 8° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d35e63d57cf-rajkot@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202456Z
+DTEND:20261004T202656Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:54:56 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 7° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202310Z
+DTEND:20261102T202510Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:10 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 7° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b65be0d6e6e-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145443Z
+DTEND:20261115T145643Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:24:43 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 28° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7f73715eb5-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160546Z
+DTEND:20261116T160746Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:35:46 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 26° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-819a9d1ea766-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162331Z
+DTEND:20261127T162531Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:53:31 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 11° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d7019a735a67-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201445Z
+DTEND:20261128T201645Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:44:45 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 47° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8afe4e7912d7-rajkot@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225237Z
+DTEND:20261130T225437Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:22:37 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 55° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-rajkot@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133813Z
+DTEND:20261212T134013Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:13 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 19° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a554946f3128-rajkot@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144704Z
+DTEND:20261212T144904Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:17:04 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 6° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-256c401b95ce-rajkot@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T201806Z
+DTEND:20261223T202006Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:48:06 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 72° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3cb963b80c75-rajkot@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T165902Z
+DTEND:20270113T170102Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:29:02 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 7° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ed41c8318d7-rajkot@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140544Z
+DTEND:20270121T140744Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:35:44 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 28° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9314e310bd3-rajkot@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224210Z
+DTEND:20270124T224410Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:12:10 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 68° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0825c144322d-rajkot@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T150110Z
+DTEND:20270214T150310Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:31:10 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 67° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6b54fe5de5e-rajkot@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T165852Z
+DTEND:20270216T170052Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:28:52 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 68° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec22bbcd9131-rajkot@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T212713Z
+DTEND:20270220T212913Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 02:57:13 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 58° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-952574dab412-rajkot@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T214829Z
+DTEND:20270221T215029Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:18:29 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 60° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1e3d9cbd51-rajkot@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201139Z
+DTEND:20270227T201339Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:41:39 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 5° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49985058a36a-rajkot@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T222803Z
+DTEND:20270326T223003Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 03:58:03 at the dark limb IS
+ T\, seen from Rajkot.\nThe Moon is 41° up in the S · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-51fb66f6feda-rajkot@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000140Z
+DTEND:20270402T000340Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:31:40 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 22° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09ae30729af7-rajkot@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150113Z
+DTEND:20270520T150313Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:31:13 at the dark limb IS
+ T\, seen from Rajkot.\nThe Moon is 11° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77e946ef164d-rajkot@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172242Z
+DTEND:20270520T184145Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:52:42 at the bright lim
+ b and reappears at 00:11:45 at the dark limb IST\, seen from Rajkot.\nThe 
+ Moon is 33° up in the SSE · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-665a1beedf3c-rajkot@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165430Z
+DTEND:20270609T165630Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:24:30 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 18° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43dd69206c7a-rajkot@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T171923Z
+DTEND:20270609T172123Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:49:23 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 12° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0914d13a99e3-rajkot@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223721Z
+DTEND:20270620T223921Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:07:21 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 36° up in the SSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8fab044ab6cc-rajkot@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174335Z
+DTEND:20270710T174535Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:13:35 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 12° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b1d218d4fc0-rajkot@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212129Z
+DTEND:20270716T212329Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:51:29 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 20° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1189efe157f-rajkot@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154027Z
+DTEND:20270806T154227Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:10:27 at the dark limb 
+ IST\, seen from Rajkot.\nThe Moon is 12° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d330f1638f5-rajkot@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175309Z
+DTEND:20270810T175509Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:23:09 at the dark limb
+  IST\, seen from Rajkot.\nThe Moon is 17° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a3e84230939-rajkot@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232056Z
+DTEND:20270824T232256Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:50:56 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 69° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f24a98974649-rajkot@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235350Z
+DTEND:20270827T235550Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:23:50 at the dark limb I
+ ST\, seen from Rajkot.\nThe Moon is 36° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-rajkot@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222631Z
+DTEND:20280121T233033Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:31 and reappears at 05:00:33 IST\, 
+ seen from Rajkot.\nThe Moon is -1° up in the ESE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Rajkot
+URL:https://occult.alokm.com/antares-2028-01-22?city=Rajkot
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-rajkot@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142954Z
+DTEND:20280330T145005Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:59:54 and reappears at 20:20:05 IST\, 
+ seen from Rajkot.\nThe Moon is 36° up in the WNW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?city=Rajkot
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Rajkot
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-rajkot@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T225214Z
+DTEND:20280413T001420Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:22:14 and reappears at 05:44:20 IST\, 
+ seen from Rajkot.\nThe Moon is 41° up in the S · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?city=Rajkot
+URL:https://occult.alokm.com/antares-2028-04-12?city=Rajkot
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

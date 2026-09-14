@@ -1,0 +1,492 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Stockholm\, SE
+X-WR-CALDESC:Lunar occultations you can see from Stockholm\, SE\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Stockholm
+BEGIN:VEVENT
+UID:star-9c089ecd4e9f-stockholm-se@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T014916Z
+DTEND:20260908T015116Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:49:16 at the dark limb C
+ EST\, seen from Stockholm\, SE.\nThe Moon is 14° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-stockholm-se@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T095332Z
+DTEND:20260914T104040Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:55:41 and reappears at 12:38:25 CEST\, s
+ een from Stockholm\, SE.\nThe Moon is 4° up · daylight\, Sun +33°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?lat=59.3294&lon=18.06
+ 87
+URL:https://occult.alokm.com/venus-2026-09-14?lat=59.3294&lon=18.0687
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9454eed088a-stockholm-se@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260929T224816Z
+DTEND:20260929T225016Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 00:48:16 at the dark limb C
+ EST\, seen from Stockholm\, SE.\nThe Moon is 44° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f60dea060bfb-stockholm-se@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T180044Z
+DTEND:20260930T180244Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 20:00:44 at the d
+ ark limb CEST\, seen from Stockholm\, SE.\nThe Moon is 7° up in the NE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d777bd663159-stockholm-se@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T182836Z
+DTEND:20260930T183036Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:28:36 at the d
+ ark limb CEST\, seen from Stockholm\, SE.\nThe Moon is 10° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89ec85c574f2-stockholm-se@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T015853Z
+DTEND:20261028T020053Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:58:53 at the d
+ ark limb CET\, seen from Stockholm\, SE.\nThe Moon is 50° up in the SW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c10e87070c64-stockholm-se@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T021005Z
+DTEND:20261028T021205Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 03:10:05 at the dark
+  limb CET\, seen from Stockholm\, SE.\nThe Moon is 49° up in the SW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8be70e79ea1-stockholm-se@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T185154Z
+DTEND:20261116T185354Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 19:51:54 at the dark limb
+  CET\, seen from Stockholm\, SE.\nThe Moon is 7° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-87b2f8d584bf-stockholm-se@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T160832Z
+DTEND:20261214T161032Z
+SUMMARY:The Moon hides 44 Cap · mag 5.9
+DESCRIPTION:44 Cap (magnitude 5.9) disappears at 17:08:32 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 15° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5a3289ed087-stockholm-se@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T223245Z
+DTEND:20261221T223445Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:32:45 at the 
+ dark limb CET\, seen from Stockholm\, SE.\nThe Moon is 49° up in the SW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac0e3b49e8e9-stockholm-se@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T225022Z
+DTEND:20261221T225222Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 23:50:22 at the dar
+ k limb CET\, seen from Stockholm\, SE.\nThe Moon is 48° up in the SW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-073ff8145f24-stockholm-se@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T225328Z
+DTEND:20261227T225528Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 23:53:28 at the dark limb C
+ ET\, seen from Stockholm\, SE.\nThe Moon is 26° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f5fd467a6cc0-stockholm-se@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T233503Z
+DTEND:20261228T233703Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:35:03 at the dark limb C
+ ET\, seen from Stockholm\, SE.\nThe Moon is 19° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-474ddbd91d9b-stockholm-se@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T171416Z
+DTEND:20270112T171616Z
+SUMMARY:The Moon hides HR 8759 · mag 6.0
+DESCRIPTION:HR 8759 (magnitude 6.0) disappears at 18:14:16 at the dark limb
+  CET\, seen from Stockholm\, SE.\nThe Moon is 18° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b9e3147e2ec-stockholm-se@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T205140Z
+DTEND:20270124T205340Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 21:51:40 at the dark limb C
+ ET\, seen from Stockholm\, SE.\nThe Moon is 19° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8226602e6d2-stockholm-se@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T194950Z
+DTEND:20270220T195150Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:49:50 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 30° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6327b47cba5-stockholm-se@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200427Z
+DTEND:20270221T200627Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 21:04:27 at the dark limb C
+ ET\, seen from Stockholm\, SE.\nThe Moon is 20° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-491bce740749-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T215311Z
+DTEND:20270313T215511Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 22:53:11 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 15° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c9deec186f1-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T220614Z
+DTEND:20270313T220814Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) disappears at 23:06:14 at the 
+ dark limb CET\, seen from Stockholm\, SE.\nThe Moon is 14° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-affb6022e23d-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T220616Z
+DTEND:20270313T220816Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:06:16 at the 
+ dark limb CET\, seen from Stockholm\, SE.\nThe Moon is 14° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d85788a38d7-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221647Z
+DTEND:20270313T221847Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 23:16:47 at the dar
+ k limb CET\, seen from Stockholm\, SE.\nThe Moon is 13° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d6b95763359-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T222736Z
+DTEND:20270313T222936Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 23:27:36 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 12° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ed05ee833b5d-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T222805Z
+DTEND:20270313T223005Z
+SUMMARY:The Moon hides 22 Tau · mag 6.5
+DESCRIPTION:22 Tau (magnitude 6.5) disappears at 23:28:05 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 11° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f95f175ee59-stockholm-se@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T231854Z
+DTEND:20270316T232054Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:18:54 at the dark limb 
+ CET\, seen from Stockholm\, SE.\nThe Moon is 27° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc30cf20c4c3-stockholm-se@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270411T233037Z
+DTEND:20270411T233237Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) disappears at 01:30:37 at the dark limb
+  CEST\, seen from Stockholm\, SE.\nThe Moon is 7° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c452e4411535-stockholm-se@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T001638Z
+DTEND:20270413T001838Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:16:38 at the dark limb 
+ CEST\, seen from Stockholm\, SE.\nThe Moon is 7° up in the NW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db1b47157923-stockholm-se@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T234356Z
+DTEND:20270413T234556Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 01:43:56 at the dark limb
+  CEST\, seen from Stockholm\, SE.\nThe Moon is 14° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a186236add7a-stockholm-se@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T010953Z
+DTEND:20270415T011153Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:09:53 at the dark limb 
+ CEST\, seen from Stockholm\, SE.\nThe Moon is 7° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff4eab1199ed-stockholm-se@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T232604Z
+DTEND:20270622T232804Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 01:26:04 at the dark limb C
+ EST\, seen from Stockholm\, SE.\nThe Moon is 8° up in the SE · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b5b46fed9e8-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225348Z
+DTEND:20270824T225548Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:53:48 at the dark limb C
+ EST\, seen from Stockholm\, SE.\nThe Moon is 25° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3782a1f79643-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225940Z
+DTEND:20270824T230140Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:59:40 at the d
+ ark limb CEST\, seen from Stockholm\, SE.\nThe Moon is 25° up in the E ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29ef5570f8f8-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230920Z
+DTEND:20270824T235708Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 01:09:20 at the 
+ bright limb and reappears at 01:57:08 at the dark limb CEST\, seen from St
+ ockholm\, SE.\nThe Moon is 26° up in the E · dark sky. Binoculars show i
+ t.\nEvery occultation this month\, for anywhere: https://occult.alokm.com/
+ moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-04c9ff9f8050-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231501Z
+DTEND:20270824T231701Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 01:15:01 at the da
+ rk limb CEST\, seen from Stockholm\, SE.\nThe Moon is 27° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab5ef30cb1d7-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231934Z
+DTEND:20270824T232134Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:19:34 at the dark
+  limb CEST\, seen from Stockholm\, SE.\nThe Moon is 28° up in the E · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db933fd14b7a-stockholm-se@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T002941Z
+DTEND:20270825T003141Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 02:29:41 at the d
+ ark limb CEST\, seen from Stockholm\, SE.\nThe Moon is 36° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2028-03-30-stockholm-se@occult.alokm.com
+DTSTAMP:20260914T040003Z
+DTSTART:20280330T035557Z
+DTEND:20280330T044808Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 05:56:40 and reappears at 06:47:24 CEST\, s
+ een from Stockholm\, SE.\nThe Moon is -4° up in the NNE · twilight.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/venus-2028-03-30?city=Stockholm%2C%20SE
+URL:https://occult.alokm.com/venus-2028-03-30?city=Stockholm%2C%20SE
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

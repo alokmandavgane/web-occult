@@ -1,0 +1,558 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Chittoor (A.P.)
+X-WR-CALDESC:Lunar occultations you can see from Chittoor (A.P.)\, computed
+  by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-43c589817e7a-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232041Z
+DTEND:20260908T232241Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:50:41 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 9° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115748Z
+DTEND:20260914T131533Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:30:01 and reappears at 18:43:39 IST\, se
+ en from Chittoor (A.P.).\nThe Moon is 37° up in the WSW · daylight\, Sun
+  +10°.\nTimes against the real lunar limb.\nMap\, timings and the view at
+  the Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Chittoor%
+ 20%28A.P.%29
+URL:https://occult.alokm.com/venus-2026-09-14?city=Chittoor%20%28A.P.%29
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-146c6cda10e1-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T155953Z
+DTEND:20260930T160153Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:29:53 at the d
+ ark limb IST\, seen from Chittoor (A.P.).\nThe Moon is 7° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d68f1feeb46e-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132147Z
+DTEND:20261021T132347Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:51:47 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 56° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202315Z
+DTEND:20261102T202515Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:15 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 13° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T210027Z
+DTEND:20261102T213452Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:33:07 and reappears at 03:02:04 IST\, 
+ seen from Chittoor (A.P.).\nThe Moon is 22° up in the E · dark sky.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/jupiter-2026-11-02?city=Chittoor%20%28A.P.%
+ 29
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Chittoor%20%28A.P.%29
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ceefc0755991-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144619Z
+DTEND:20261115T144819Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:16:19 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 29° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8cf178f71fe-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155538Z
+DTEND:20261116T155738Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:25:38 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 26° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163718Z
+DTEND:20261127T163918Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:07:18 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 18° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c8ee5e55d83-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201345Z
+DTEND:20261128T201545Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:43:45 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 53° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf393528904a-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231650Z
+DTEND:20261130T231850Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:46:50 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 71° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133445Z
+DTEND:20261212T133645Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:45 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 18° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb9edfb75ca8-chittoor-a-p@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204033Z
+DTEND:20261223T204233Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:10:33 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 56° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9129535574f-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194243Z
+DTEND:20270118T194443Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:12:43 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 24° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-526c6c57f3ca-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135850Z
+DTEND:20270121T140050Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:28:50 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 31° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a2ffbf53099-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231127Z
+DTEND:20270124T231327Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:41:27 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 58° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162915Z
+DTEND:20270125T163115Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:15 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 11° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-288bab3623f1-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T222948Z
+DTEND:20270201T223148Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 03:59:48 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 8° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19d0aefd1ee9-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142646Z
+DTEND:20270212T142846Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:56:46 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 41° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8ea93958fef-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T145121Z
+DTEND:20270214T145321Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:21:21 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 58° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0e1979d7f34-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160508Z
+DTEND:20270216T160708Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:35:08 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 67° up in the NW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d02f90c2456-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172400Z
+DTEND:20270216T172600Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:54:00 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 52° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4bb1f6a59d14-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215233Z
+DTEND:20270220T215433Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:22:33 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 45° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-309167e2d5df-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221729Z
+DTEND:20270221T221929Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:47:29 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 50° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa2060f8a07e-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201652Z
+DTEND:20270227T201852Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:46:52 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 18° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d251a768d45-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220025Z
+DTEND:20270302T220225Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:30:25 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 8° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ffeb27ab6d3-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230831Z
+DTEND:20270326T231031Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:38:31 at the dark limb IS
+ T\, seen from Chittoor (A.P.).\nThe Moon is 49° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71d8db24c7a6-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143723Z
+DTEND:20270414T143923Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:07:23 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 73° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb2bd5615903-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151103Z
+DTEND:20270520T151303Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:41:03 at the dark limb IS
+ T\, seen from Chittoor (A.P.).\nThe Moon is 25° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-421996657f8c-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175034Z
+DTEND:20270520T190342Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:20:34 at the bright lim
+ b and reappears at 00:33:42 at the dark limb IST\, seen from Chittoor (A.P
+ .).\nThe Moon is 48° up in the SSE · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be3121a94cb6-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T140209Z
+DTEND:20270607T140409Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:32:09 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 24° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7cbf3fe04e-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135503Z
+DTEND:20270608T135703Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:25:03 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 39° up in the WNW · dusk. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165724Z
+DTEND:20270609T165924Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:24 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 8° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5bec1be3a0a-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T122313Z
+DTEND:20270617T130558Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 17:53:13 at the 
+ dark limb and reappears at 18:35:58 at the bright limb IST\, seen from Chi
+ ttoor (A.P.).\nThe Moon is 5° up in the ESE · daylight\, Sun +10°. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ee678599b3b-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224028Z
+DTEND:20270620T224228Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:10:28 at the dark limb 
+ IST\, seen from Chittoor (A.P.).\nThe Moon is 38° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6edf31636336-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182125Z
+DTEND:20270723T182325Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:51:25 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 29° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180012Z
+DTEND:20270810T180212Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:12 at the dark limb
+  IST\, seen from Chittoor (A.P.).\nThe Moon is 15° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0fb9efbaa2f5-chittoor-a-p@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231229Z
+DTEND:20270824T231429Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:42:29 at the dark limb I
+ ST\, seen from Chittoor (A.P.).\nThe Moon is 70° up in the NE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222939Z
+DTEND:20280121T233539Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:59:39 and reappears at 05:05:39 IST\, 
+ seen from Chittoor (A.P.).\nThe Moon is 11° up in the ESE · dark sky.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-01-22?city=Chittoor%20%28A.P
+ .%29
+URL:https://occult.alokm.com/antares-2028-01-22?city=Chittoor%20%28A.P.%29
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-chittoor-a-p@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234411Z
+DTEND:20280413T000818Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:14:11 and reappears at 05:38:18 IST\, 
+ seen from Chittoor (A.P.).\nThe Moon is 41° up in the SW · dark sky.\nTi
+ mes against the real lunar limb.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-04-12?city=Chittoor%20%28A.P.
+ %29
+URL:https://occult.alokm.com/antares-2028-04-12?city=Chittoor%20%28A.P.%29
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

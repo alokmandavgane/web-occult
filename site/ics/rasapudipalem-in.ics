@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Rasapūdipalem\, IN
+X-WR-CALDESC:Lunar occultations you can see from Rasapūdipalem\, IN\, comp
+ uted by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-35300108b468-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T231245Z
+DTEND:20260908T231445Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:42:45 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 12° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120715Z
+DTEND:20260914T130851Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:39:48 and reappears at 18:36:35 IST\, se
+ en from Rasapūdipalem\, IN.\nThe Moon is 29° up · daylight\, Sun +4°.\
+ nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=17.7331&lon=8
+ 3.3162
+URL:https://occult.alokm.com/venus-2026-09-14?lat=17.7331&lon=83.3162
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db841165001a-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160719Z
+DTEND:20260930T160919Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:37:19 at the d
+ ark limb IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 14° up in the 
+ ENE · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c6dd91d489c-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T125738Z
+DTEND:20261020T125938Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:27:38 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 53° up in the SSE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55b871f79c02-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133852Z
+DTEND:20261021T134052Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:08:52 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 57° up in the SSE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9abb53f66a5-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202808Z
+DTEND:20261102T203008Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:58:08 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 19° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40069a8dc2bd-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145227Z
+DTEND:20261115T145427Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:22:27 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 22° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9251c774aec-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160120Z
+DTEND:20261116T160320Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:31:20 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 19° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f2af40b53f19-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164016Z
+DTEND:20261127T164216Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:10:16 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 24° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fafa56a52bc2-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T203647Z
+DTEND:20261128T203847Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:06:47 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 63° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7708a6651f34-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232405Z
+DTEND:20261130T232605Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:54:05 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 75° up in the SE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ceaea753df74-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133744Z
+DTEND:20261212T133944Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:07:44 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 12° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cbbef4623876-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204634Z
+DTEND:20261223T204834Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:16:34 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 53° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ed41c8318d7-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140558Z
+DTEND:20270121T140758Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:35:58 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 38° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c0a251a2cc1-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230537Z
+DTEND:20270124T230737Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:35:37 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 54° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162904Z
+DTEND:20270125T163104Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:04 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 15° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-504067d2f1a7-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224427Z
+DTEND:20270201T224627Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:14:27 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 12° up in the SE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-630877f80917-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T145408Z
+DTEND:20270212T145608Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:24:08 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 31° up in the W · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9408247bb260-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T151110Z
+DTEND:20270214T151310Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:41:10 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 52° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe89af216061-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172645Z
+DTEND:20270216T172845Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:56:45 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 49° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59be2751a818-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215019Z
+DTEND:20270220T215219Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:20:19 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 42° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5def6841a388-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220759Z
+DTEND:20270221T220959Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:37:59 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 47° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa2060f8a07e-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201629Z
+DTEND:20270227T201829Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:46:29 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 19° up in the SE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-166eefd62bb2-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220824Z
+DTEND:20270302T221024Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:38:24 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 11° up in the ESE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a5917a190f6-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230735Z
+DTEND:20270326T230935Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:37:35 at the dark limb IS
+ T\, seen from Rasapūdipalem\, IN.\nThe Moon is 43° up in the SSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e3dfba45c21-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143256Z
+DTEND:20270414T143456Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:02:56 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 72° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6164939dc7dc-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134441Z
+DTEND:20270417T134641Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:14:41 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 57° up in the ESE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150653Z
+DTEND:20270520T150853Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:53 at the dark limb IS
+ T\, seen from Rasapūdipalem\, IN.\nThe Moon is 24° up in the SE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55041e00df20-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174855Z
+DTEND:20270520T192119Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:18:55 at the bright lim
+ b and reappears at 00:51:19 at the dark limb IST\, seen from Rasapūdipale
+ m\, IN.\nThe Moon is 45° up in the SSE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c0b8f845048-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135823Z
+DTEND:20270608T140023Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:28:23 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 35° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac8e379fa82b-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T225040Z
+DTEND:20270620T225240Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:20:40 at the dark limb 
+ IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 31° up in the SW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-437730c89735-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T215332Z
+DTEND:20270716T215532Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:23:32 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 8° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0cca2370514b-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182818Z
+DTEND:20270723T183018Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:58:18 at the dark limb I
+ ST\, seen from Rasapūdipalem\, IN.\nThe Moon is 34° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0851cbd7984-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180117Z
+DTEND:20270810T180317Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:17 at the dark limb
+  IST\, seen from Rasapūdipalem\, IN.\nThe Moon is 9° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222921Z
+DTEND:20280121T234153Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:59:21 and reappears at 05:11:53 IST\, 
+ seen from Rasapūdipalem\, IN.\nThe Moon is 12° up · dark sky.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/antares-2028-01-22?lat=17.7331&lon=83.3162
+URL:https://occult.alokm.com/antares-2028-01-22?lat=17.7331&lon=83.3162
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T144131Z
+DTEND:20280330T150354Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 20:11:31 and reappears at 20:33:54 IST\, 
+ seen from Rasapūdipalem\, IN.\nThe Moon is 20° up · dark sky.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/alcyone-2028-03-30?lat=17.7331&lon=83.3162
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=17.7331&lon=83.3162
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233822Z
+DTEND:20280413T002709Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:08:22 and reappears at 05:57:09 IST\, 
+ seen from Rasapūdipalem\, IN.\nThe Moon is 36° up · dusk.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-04-12?lat=17.7331&lon=83.3162
+URL:https://occult.alokm.com/antares-2028-04-12?lat=17.7331&lon=83.3162
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

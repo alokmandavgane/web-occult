@@ -1,0 +1,519 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Jaisalmer
+X-WR-CALDESC:Lunar occultations you can see from Jaisalmer\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-jaisalmer@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114812Z
+DTEND:20260914T120445Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:18:12 and reappears at 17:34:45 IST\, se
+ en from Jaisalmer.\nThe Moon is 35° up in the SW · daylight\, Sun +20°.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?city=Jaisalmer
+URL:https://occult.alokm.com/venus-2026-09-14?city=Jaisalmer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-04889ed73db9-jaisalmer@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162835Z
+DTEND:20260930T163035Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:58:35 at the d
+ ark limb IST\, seen from Jaisalmer.\nThe Moon is 11° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffdb1964a49e-jaisalmer@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T163212Z
+DTEND:20260930T163412Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 22:02:12 at the dark
+  limb IST\, seen from Jaisalmer.\nThe Moon is 12° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1779a1e2ed42-jaisalmer@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T203055Z
+DTEND:20261004T203255Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:00:55 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 10° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ead279259295-jaisalmer@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202108Z
+DTEND:20261102T202308Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:08 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 8° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5051db3589a2-jaisalmer@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T150930Z
+DTEND:20261115T151130Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:39:30 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 23° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-976f57b00556-jaisalmer@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T162119Z
+DTEND:20261116T162319Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:51:19 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 21° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a5f72cf79f2-jaisalmer@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201644Z
+DTEND:20261128T201844Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:46:44 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 48° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-406583153252-jaisalmer@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T224920Z
+DTEND:20261130T225120Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:19:20 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 53° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8c5bcc984b0-jaisalmer@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T134634Z
+DTEND:20261212T134834Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:16:34 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 15° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff290f40296d-jaisalmer@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202018Z
+DTEND:20261223T202218Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:50:18 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 72° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f24929093ae3-jaisalmer@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T000749Z
+DTEND:20261228T000949Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:37:49 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 67° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90ef1277df53-jaisalmer@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T010136Z
+DTEND:20261229T010336Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 06:31:36 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 61° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb39021082d8-jaisalmer@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T143529Z
+DTEND:20270112T143729Z
+SUMMARY:The Moon hides HR 8716 · mag 5.9
+DESCRIPTION:HR 8716 (magnitude 5.9) disappears at 20:05:29 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 26° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9cc0ec151af8-jaisalmer@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T223232Z
+DTEND:20270124T223432Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:02:32 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 66° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa71e8b62b73-jaisalmer@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T165744Z
+DTEND:20270216T165944Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:27:44 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 69° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c857789fafd-jaisalmer@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T212000Z
+DTEND:20270220T212200Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 02:50:00 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 58° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef9471c58f00-jaisalmer@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T213645Z
+DTEND:20270221T213845Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:06:45 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 59° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fcbb8c91ff4-jaisalmer@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T221538Z
+DTEND:20270326T221738Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 03:45:38 at the dark limb IS
+ T\, seen from Jaisalmer.\nThe Moon is 36° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3ae81ec1648-jaisalmer@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270401T235338Z
+DTEND:20270401T235538Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:23:38 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 18° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d4f24e6bdbfc-jaisalmer@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T145551Z
+DTEND:20270520T145751Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:25:51 at the dark limb IS
+ T\, seen from Jaisalmer.\nThe Moon is 8° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3e905bd86e8-jaisalmer@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T171821Z
+DTEND:20270520T184341Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:48:21 at the bright lim
+ b and reappears at 00:13:41 at the dark limb IST\, seen from Jaisalmer.\nT
+ he Moon is 29° up in the SSE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f23297f4c51-jaisalmer@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T164814Z
+DTEND:20270522T165014Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:18:14 at the dark limb IS
+ T\, seen from Jaisalmer.\nThe Moon is 8° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f192282d4fd-jaisalmer@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270606T151819Z
+DTEND:20270606T152019Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 20:48:19 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 8° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e913056316b9-jaisalmer@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T171738Z
+DTEND:20270609T171938Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:47:38 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 13° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74dad8f629a5-jaisalmer@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223641Z
+DTEND:20270620T223841Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:06:41 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 32° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-beafa74da34a-jaisalmer@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174112Z
+DTEND:20270710T174312Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:11:12 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 11° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7be930dc1d7-jaisalmer@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T211905Z
+DTEND:20270716T212105Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:49:05 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 17° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c5c8c5d0f43-jaisalmer@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T153422Z
+DTEND:20270806T153622Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:04:22 at the dark limb 
+ IST\, seen from Jaisalmer.\nThe Moon is 12° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-019ed8b9a3da-jaisalmer@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175754Z
+DTEND:20270810T175954Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:27:54 at the dark limb
+  IST\, seen from Jaisalmer.\nThe Moon is 13° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c8dfe52ebfe-jaisalmer@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230231Z
+DTEND:20270824T230431Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 04:32:31 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 65° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9886d3f0449a-jaisalmer@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232621Z
+DTEND:20270824T232821Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:56:21 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 71° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f24a98974649-jaisalmer@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235350Z
+DTEND:20270827T235550Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:23:50 at the dark limb I
+ ST\, seen from Jaisalmer.\nThe Moon is 37° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-jaisalmer@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222806Z
+DTEND:20280121T233146Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:06 and reappears at 05:01:46 IST\, 
+ seen from Jaisalmer.\nThe Moon is -3° up in the ESE · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-01-22?city=Jaisalmer
+URL:https://occult.alokm.com/antares-2028-01-22?city=Jaisalmer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-jaisalmer@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T140845Z
+DTEND:20280330T150200Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:38:45 and reappears at 20:32:00 IST\, 
+ seen from Jaisalmer.\nThe Moon is 41° up in the W · dusk.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/alcyone-2028-03-30?city=Jaisalmer
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Jaisalmer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-jaisalmer@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T224740Z
+DTEND:20280413T001459Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:17:40 and reappears at 05:44:59 IST\, 
+ seen from Jaisalmer.\nThe Moon is 36° up in the S · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-04-12?city=Jaisalmer
+URL:https://occult.alokm.com/antares-2028-04-12?city=Jaisalmer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-jaisalmer@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T034053Z
+DTEND:20290211T041748Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 09:11:52 and reappears at 09:46:39 IST\, 
+ seen from Jaisalmer.\nThe Moon is 34° up in the SE · daylight\, Sun +21
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mercury-2029-02-11?city=Jaisalmer
+URL:https://occult.alokm.com/mercury-2029-02-11?city=Jaisalmer
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

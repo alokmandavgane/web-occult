@@ -1,0 +1,526 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Cuttack
+X-WR-CALDESC:Lunar occultations you can see from Cuttack\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-cuttack@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T121337Z
+DTEND:20260914T130305Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:46:37 and reappears at 18:30:11 IST\, se
+ en from Cuttack.\nThe Moon is 24° up in the WSW · daylight\, Sun +0°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?city=Cuttack
+URL:https://occult.alokm.com/venus-2026-09-14?city=Cuttack
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-692c90edacac-cuttack@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161149Z
+DTEND:20260930T161349Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:41:49 at the d
+ ark limb IST\, seen from Cuttack.\nThe Moon is 18° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91ffcc8cd70c-cuttack@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213330Z
+DTEND:20261006T213530Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:03:30 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 9° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aabe7f51fdd8-cuttack@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130825Z
+DTEND:20261020T131025Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:38:25 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 52° up in the SSE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8dbdc72abc2-cuttack@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T134908Z
+DTEND:20261021T135108Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:19:08 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 57° up in the SSE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fbdf78073dc-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203042Z
+DTEND:20261102T203242Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:00:42 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 22° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07172256d3e7-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145523Z
+DTEND:20261115T145723Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:25:23 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 18° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4072bd8899d6-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160411Z
+DTEND:20261116T160611Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:34:11 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 15° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-770a22bfc92f-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164210Z
+DTEND:20261127T164410Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:12:10 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 27° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f39025ee8d6-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204601Z
+DTEND:20261128T204801Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:16:01 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 68° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7708a6651f34-cuttack@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232459Z
+DTEND:20261130T232659Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:54:59 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 75° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77f8c3eb8772-cuttack@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133900Z
+DTEND:20261212T134100Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:09:00 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 8° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-87d7afa805bc-cuttack@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T205224Z
+DTEND:20261223T205424Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:22:24 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 50° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-304328c5c27d-cuttack@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141147Z
+DTEND:20270121T141347Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:41:47 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 43° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0d41630073c-cuttack@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225921Z
+DTEND:20270124T230121Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:29:21 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 53° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-cuttack@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162801Z
+DTEND:20270125T163001Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:01 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 17° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60ad5cb999b6-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225004Z
+DTEND:20270201T225204Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:20:04 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 13° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-649c37c761cb-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T153123Z
+DTEND:20270214T153323Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 21:01:23 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 46° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2da026e70a24-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173022Z
+DTEND:20270216T173222Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:00:22 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 47° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59be2751a818-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215013Z
+DTEND:20270220T224731Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:20:13 at the dark limb 
+ and reappears at 04:17:31 at the dark limb IST\, seen from Cuttack.\nThe M
+ oon is 39° up in the W · dark sky. Binoculars show it.\nEvery occultatio
+ n this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9a8cb0db4d2-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215820Z
+DTEND:20270221T220020Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:28:20 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 46° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-cuttack@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201350Z
+DTEND:20270227T201550Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:50 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 18° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6038d67cb336-cuttack@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221155Z
+DTEND:20270302T221355Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:41:55 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 12° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-657cde6923da-cuttack@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230257Z
+DTEND:20270326T230457Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:32:57 at the dark limb IS
+ T\, seen from Cuttack.\nThe Moon is 40° up in the SSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2901c09c5089-cuttack@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143302Z
+DTEND:20270414T143502Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:03:02 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 70° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95b098099e4d-cuttack@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134033Z
+DTEND:20270417T134233Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:10:33 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 57° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f63f2e2bfdec-cuttack@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T142021Z
+DTEND:20270520T145949Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:50:21 at the dark limb a
+ nd reappears at 20:29:49 at the dark limb IST\, seen from Cuttack.\nThe Mo
+ on is 16° up in the SE · dark sky. Binoculars show it.\nEvery occultatio
+ n this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82721a43f78d-cuttack@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175134Z
+DTEND:20270520T192849Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:21:34 at the bright lim
+ b and reappears at 00:58:49 at the dark limb IST\, seen from Cuttack.\nThe
+  Moon is 43° up in the S · dark sky. Binoculars show it.\nEvery occultat
+ ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cec05487a09f-cuttack@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T170957Z
+DTEND:20270522T171157Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:39:57 at the dark limb IS
+ T\, seen from Cuttack.\nThe Moon is 26° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f12dff11a2f-cuttack@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T140338Z
+DTEND:20270608T140538Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:33:38 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 32° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13340d7441e6-cuttack@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T152854Z
+DTEND:20270620T153054Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:58:54 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 14° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1069c143521a-cuttack@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T132646Z
+DTEND:20270708T132846Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 18:56:46 at the dark limb 
+ IST\, seen from Cuttack.\nThe Moon is 40° up in the WSW · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a2766c6f38c-cuttack@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T214848Z
+DTEND:20270716T215048Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:18:48 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 5° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18e74aa8cb6a-cuttack@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T183252Z
+DTEND:20270723T183452Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:02:52 at the dark limb I
+ ST\, seen from Cuttack.\nThe Moon is 37° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0851cbd7984-cuttack@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180127Z
+DTEND:20270810T180327Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:27 at the dark limb
+  IST\, seen from Cuttack.\nThe Moon is 5° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-cuttack@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223210Z
+DTEND:20280121T234347Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:02:10 and reappears at 05:13:47 IST\, 
+ seen from Cuttack.\nThe Moon is 13° up in the SE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Cuttack
+URL:https://occult.alokm.com/antares-2028-01-22?city=Cuttack
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-cuttack@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142928Z
+DTEND:20280330T151320Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:59:28 and reappears at 20:43:20 IST\, 
+ seen from Cuttack.\nThe Moon is 22° up in the WNW · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/alcyone-2028-03-30?city=Cuttack
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Cuttack
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-cuttack@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233811Z
+DTEND:20280413T003341Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:08:11 and reappears at 06:03:41 IST\, 
+ seen from Cuttack.\nThe Moon is 32° up in the SW · twilight.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Cuttack
+URL:https://occult.alokm.com/antares-2028-04-12?city=Cuttack
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

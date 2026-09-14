@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bilaspur
+X-WR-CALDESC:Lunar occultations you can see from Bilaspur\, computed by occ
+ ult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-bilaspur@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120859Z
+DTEND:20260914T125014Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:43:02 and reappears at 18:16:31 IST\, se
+ en from Bilaspur.\nThe Moon is 27° up in the SW · daylight\, Sun +4°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?city=Bilaspur
+URL:https://occult.alokm.com/venus-2026-09-14?city=Bilaspur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3815ff96e7c5-bilaspur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161720Z
+DTEND:20260930T161920Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:47:20 at the d
+ ark limb IST\, seen from Bilaspur.\nThe Moon is 17° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19eda97059c3-bilaspur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201935Z
+DTEND:20261004T202135Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:49:35 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 16° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9789e4be92de-bilaspur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213522Z
+DTEND:20261006T213722Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:05:22 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 6° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c4b4ac63b7f-bilaspur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130351Z
+DTEND:20261020T130551Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:33:51 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 49° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be9f04518517-bilaspur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T134143Z
+DTEND:20261021T134343Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:11:43 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 53° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9abb53f66a5-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202812Z
+DTEND:20261102T203012Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:58:12 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 19° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-421728247f27-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T213632Z
+DTEND:20261104T213832Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:06:32 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 9° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07172256d3e7-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145515Z
+DTEND:20261115T145715Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:25:15 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 20° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7f73715eb5-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160500Z
+DTEND:20261116T160700Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:35:00 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 18° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163712Z
+DTEND:20261127T163912Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:07:12 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 23° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dbfc439d8fbc-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T203726Z
+DTEND:20261128T203926Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:07:26 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 62° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f04d88a4ccd-bilaspur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231520Z
+DTEND:20261130T231720Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:45:20 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 69° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-bilaspur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133854Z
+DTEND:20261212T134054Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:54 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 10° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3044bf235ee6-bilaspur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204447Z
+DTEND:20261223T204647Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:14:47 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 56° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f50dfebcbcac-bilaspur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T004242Z
+DTEND:20261228T004442Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:12:42 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 53° up in the WSW · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1effc802a20-bilaspur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141023Z
+DTEND:20270121T141223Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:40:23 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 39° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-928052acab5b-bilaspur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225328Z
+DTEND:20270124T225528Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:23:28 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 57° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-364d043da6db-bilaspur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162457Z
+DTEND:20270125T162657Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:54:57 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 13° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-72906fcd1cba-bilaspur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224731Z
+DTEND:20270201T224931Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:17:31 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 9° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-332c84fc926c-bilaspur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172258Z
+DTEND:20270216T172458Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:52:58 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 53° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-222c2e163cec-bilaspur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214326Z
+DTEND:20270220T224325Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:13:26 at the dark limb 
+ and reappears at 04:13:25 at the dark limb IST\, seen from Bilaspur.\nThe 
+ Moon is 44° up in the W · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1365b26cf04-bilaspur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215347Z
+DTEND:20270221T215547Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:23:47 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 50° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e279252bde05-bilaspur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201201Z
+DTEND:20270227T201401Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:42:01 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 14° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a95452c4e96a-bilaspur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220957Z
+DTEND:20270302T221157Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:39:57 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 8° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-beaaa329e1af-bilaspur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224721Z
+DTEND:20270326T224921Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:17:21 at the dark limb IS
+ T\, seen from Bilaspur.\nThe Moon is 41° up in the SSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46a0646ac225-bilaspur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142322Z
+DTEND:20270414T142522Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:53:22 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 76° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7787e9e9acf-bilaspur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T141637Z
+DTEND:20270520T145826Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:46:37 at the dark limb a
+ nd reappears at 20:28:26 at the dark limb IST\, seen from Bilaspur.\nThe M
+ oon is 12° up in the SE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-339a26916c69-bilaspur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174121Z
+DTEND:20270520T191706Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:11:21 at the bright lim
+ b and reappears at 00:47:06 at the dark limb IST\, seen from Bilaspur.\nTh
+ e Moon is 40° up in the SSE · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b1e678e26a0-bilaspur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T170322Z
+DTEND:20270522T170522Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:33:22 at the dark limb IS
+ T\, seen from Bilaspur.\nThe Moon is 21° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ae9abf97dff-bilaspur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135643Z
+DTEND:20270608T135843Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:26:43 at the dark limb 
+ IST\, seen from Bilaspur.\nThe Moon is 37° up in the W · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5cb02c55d6cd-bilaspur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T152626Z
+DTEND:20270620T152826Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:56:26 at the dark limb I
+ ST\, seen from Bilaspur.\nThe Moon is 10° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-830866825efc-bilaspur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213825Z
+DTEND:20270716T214025Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:08:25 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 9° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20ce35bf80c5-bilaspur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175916Z
+DTEND:20270810T180116Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:29:16 at the dark limb
+  IST\, seen from Bilaspur.\nThe Moon is 8° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-bilaspur@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223006Z
+DTEND:20280121T233934Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:00:06 and reappears at 05:09:34 IST\, 
+ seen from Bilaspur.\nThe Moon is 9° up in the ESE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Bilaspur
+URL:https://occult.alokm.com/antares-2028-01-22?city=Bilaspur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bilaspur@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142547Z
+DTEND:20280330T151120Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:55:47 and reappears at 20:41:20 IST\, 
+ seen from Bilaspur.\nThe Moon is 26° up in the WNW · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/alcyone-2028-03-30?city=Bilaspur
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Bilaspur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-bilaspur@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T232407Z
+DTEND:20280413T003219Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:54:07 and reappears at 06:02:19 IST\, 
+ seen from Bilaspur.\nThe Moon is 35° up in the SSW · dusk.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?city=Bilaspur
+URL:https://occult.alokm.com/antares-2028-04-12?city=Bilaspur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

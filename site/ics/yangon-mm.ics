@@ -1,0 +1,551 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Yangon\, MM
+X-WR-CALDESC:Lunar occultations you can see from Yangon\, MM\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Yangon
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-yangon-mm@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122417Z
+DTEND:20260914T132537Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 18:56:10 and reappears at 19:53:57 +0630\, 
+ seen from Yangon\, MM.\nThe Moon is 15° up · dark sky.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/venus-2026-09-14?lat=16.8053&lon=96.1561
+URL:https://occult.alokm.com/venus-2026-09-14?lat=16.8053&lon=96.1561
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c76c200457c-yangon-mm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T212434Z
+DTEND:20261006T212634Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:54:34 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 16° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef99a79c740a-yangon-mm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T131515Z
+DTEND:20261016T131715Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 19:45:15 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 23° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b06a0744ffb-yangon-mm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T145425Z
+DTEND:20261017T145625Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:24:25 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 15° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bbad9026506-yangon-mm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T133153Z
+DTEND:20261020T133353Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 20:01:53 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 56° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b94c417870b7-yangon-mm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T143536Z
+DTEND:20261021T145218Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 21:05:36 at the dark limb 
+ and reappears at 21:22:18 at the dark limb +0630\, seen from Yangon\, MM.\
+ nThe Moon is 59° up in the SSW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7cb2c325c6a6-yangon-mm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203948Z
+DTEND:20261102T204148Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 03:09:48 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 34° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2406bac40ee1-yangon-mm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T150022Z
+DTEND:20261115T150222Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 21:30:22 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 10° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7f73715eb5-yangon-mm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160552Z
+DTEND:20261116T160752Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 22:35:52 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 7° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b772cb218689-yangon-mm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T165411Z
+DTEND:20261127T165611Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 23:24:11 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 38° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9a8f002d35d-yangon-mm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T211449Z
+DTEND:20261128T211649Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:44:49 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 83° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c2c79a3d18a-yangon-mm@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T152036Z
+DTEND:20261217T152236Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:50:36 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 35° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70365b34aa86-yangon-mm@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T211106Z
+DTEND:20261223T211306Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 03:41:06 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 36° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-826b31741672-yangon-mm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T142523Z
+DTEND:20270121T142723Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 20:55:23 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 54° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f56f00456b13-yangon-mm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230944Z
+DTEND:20270124T231144Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 05:39:44 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 41° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9de47776968b-yangon-mm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T163803Z
+DTEND:20270125T164003Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:08:03 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 30° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97a6de43ece2-yangon-mm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T230158Z
+DTEND:20270201T230358Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 05:31:58 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 25° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a60adbb1ca15-yangon-mm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T154207Z
+DTEND:20270214T154407Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:12:07 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 33° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f47e5b7c1db-yangon-mm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T174717Z
+DTEND:20270216T174917Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 00:17:17 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 33° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad8611c9b2ee-yangon-mm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T220431Z
+DTEND:20270220T225506Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 04:34:31 at the dark limb 
+ and reappears at 05:25:06 at the dark limb +0630\, seen from Yangon\, MM.\
+ nThe Moon is 26° up in the W · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c49c5714c70-yangon-mm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201941Z
+DTEND:20270227T202141Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 02:49:41 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 29° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-87e1a19545e4-yangon-mm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T204708Z
+DTEND:20270301T204908Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 03:17:08 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 15° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af8e4b1a8b65-yangon-mm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T222212Z
+DTEND:20270302T222412Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 04:52:12 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 24° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ab82db29af7-yangon-mm@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T145628Z
+DTEND:20270414T145828Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 21:26:28 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 54° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-36b1a3e8ee36-yangon-mm@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T133928Z
+DTEND:20270416T134128Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:09:28 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 81° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74fdb3c43b8e-yangon-mm@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T140203Z
+DTEND:20270417T140403Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:32:03 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 72° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-101f34c07542-yangon-mm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T182401Z
+DTEND:20270520T195721Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:54:01 at the bright lim
+ b and reappears at 02:27:21 at the dark limb +0630\, seen from Yangon\, MM
+ .\nThe Moon is 46° up in the SSW · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11ab54c6bee8-yangon-mm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T214557Z
+DTEND:20270520T214757Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 04:15:57 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 18° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af1b7345f62d-yangon-mm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T173418Z
+DTEND:20270522T173618Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 00:04:18 at the dark limb +0
+ 630\, seen from Yangon\, MM.\nThe Moon is 38° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd8cbb1c2c8f-yangon-mm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T134633Z
+DTEND:20270607T134833Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 20:16:33 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 13° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7049797429b-yangon-mm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T142101Z
+DTEND:20270608T143114Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 20:51:01 at the dark limb 
+ and reappears at 21:01:14 at the dark limb +0630\, seen from Yangon\, MM.\
+ nThe Moon is 17° up in the WNW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e8e2ec4075d-yangon-mm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T140613Z
+DTEND:20270611T140813Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 20:36:13 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 50° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5428d43c8f6-yangon-mm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T131310Z
+DTEND:20270619T131510Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 19:43:10 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 7° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a728f692dc6-yangon-mm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154138Z
+DTEND:20270620T154338Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 22:11:38 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 26° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffcea2a2fe10-yangon-mm@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T135055Z
+DTEND:20270708T135255Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 20:20:55 at the dark limb 
+ +0630\, seen from Yangon\, MM.\nThe Moon is 26° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-295b318d2153-yangon-mm@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T190041Z
+DTEND:20270723T190241Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:30:41 at the dark limb +
+ 0630\, seen from Yangon\, MM.\nThe Moon is 54° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bc3415d455c4-yangon-mm@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270805T134138Z
+DTEND:20270805T134338Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 20:11:38 at the dark limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 8° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-06b094b640e2-yangon-mm@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T135426Z
+DTEND:20270810T135626Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 20:24:26 at the bright limb
+  +0630\, seen from Yangon\, MM.\nThe Moon is 41° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-yangon-mm@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T224306Z
+DTEND:20280121T235935Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:13:06 and reappears at 06:29:35 +0630\
+ , seen from Yangon\, MM.\nThe Moon is 25° up · dark sky.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?lat=16.8053&lon=96.1561
+URL:https://occult.alokm.com/antares-2028-01-22?lat=16.8053&lon=96.1561
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-yangon-mm@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T143349Z
+DTEND:20280330T151640Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 21:03:49 and reappears at 21:46:40 +0630\
+ , seen from Yangon\, MM.\nThe Moon is 10° up · dark sky.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/alcyone-2028-03-30?lat=16.8053&lon=96.1561
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=16.8053&lon=96.1561
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

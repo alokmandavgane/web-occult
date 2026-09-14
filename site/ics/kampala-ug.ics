@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kampala\, UG
+X-WR-CALDESC:Lunar occultations you can see from Kampala\, UG\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Kampala
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-kampala-ug@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T113707Z
+DTEND:20261006T121242Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 14:38:45 and reappears at 15:11:10 EAT\, 
+ seen from Kampala\, UG.\nThe Moon is 10° up in the WNW · daylight\, Sun 
+ +59°.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Kampala%
+ 2C%20UG
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Kampala%2C%20UG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34d1bbaf2ddb-kampala-ug@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T020910Z
+DTEND:20261007T021110Z
+SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
+DESCRIPTION:Regulus (α Leo) (magnitude 1.3) reappears at 05:09:10 at the d
+ ark limb EAT\, seen from Kampala\, UG.\nThe Moon is 18° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7aa963679b20-kampala-ug@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261015T174608Z
+DTEND:20261015T174808Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 20:46:08 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 22° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77bdb0d57354-kampala-ug@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261112T165122Z
+DTEND:20261112T165322Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 19:51:22 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 17° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-76956b14b5f9-kampala-ug@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T021455Z
+DTEND:20261128T021655Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 05:14:55 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 61° up in the NNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ee75aa74968-kampala-ug@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270111T180940Z
+DTEND:20270111T181140Z
+SUMMARY:The Moon hides HR 8500 · mag 5.8
+DESCRIPTION:HR 8500 (magnitude 5.8) disappears at 21:09:40 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 8° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-991525b4cd92-kampala-ug@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T180251Z
+DTEND:20270118T180451Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 21:02:51 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 64° up in the N · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3aef3cd7b9c6-kampala-ug@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T184619Z
+DTEND:20270212T184819Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 21:46:19 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 22° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35c3f5dd763f-kampala-ug@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T191801Z
+DTEND:20270214T192001Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 22:18:01 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 36° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49499297781e-kampala-ug@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T010746Z
+DTEND:20270301T010946Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) reappears at 04:07:46 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 34° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cf37fd6a596f-kampala-ug@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T222531Z
+DTEND:20270326T222731Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 01:25:31 at the dark limb EA
+ T\, seen from Kampala\, UG.\nThe Moon is 39° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9ca30b5f5cc-kampala-ug@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T012328Z
+DTEND:20270327T030641Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 04:23:28 at the bright lim
+ b and reappears at 06:06:41 at the dark limb EAT\, seen from Kampala\, UG.
+ \nThe Moon is 64° up in the S · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-797bda55092b-kampala-ug@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T225114Z
+DTEND:20270425T225314Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 01:51:14 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 38° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd45bcfef298-kampala-ug@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T021011Z
+DTEND:20270427T021211Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 05:10:11 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 63° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3df9154578d-kampala-ug@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T203720Z
+DTEND:20270513T203920Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 23:37:20 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 28° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a6e700385cf-kampala-ug@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T200655Z
+DTEND:20270520T200855Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 23:06:55 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 52° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1eaaf3f9630-kampala-ug@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T184340Z
+DTEND:20270608T184540Z
+SUMMARY:The Moon hides HR 3541 · mag 6.4
+DESCRIPTION:HR 3541 (magnitude 6.4) disappears at 21:43:40 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 13° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6db0e1108939-kampala-ug@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T222830Z
+DTEND:20270616T223030Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:28:30 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 46° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d65a1031ef8a-kampala-ug@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T235828Z
+DTEND:20270617T000028Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 02:58:28 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 28° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd9831e4761a-kampala-ug@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T202523Z
+DTEND:20270620T202723Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 23:25:23 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 41° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70f48e00641a-kampala-ug@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T173050Z
+DTEND:20270710T173250Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 20:30:50 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 58° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e9925059585-kampala-ug@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T193752Z
+DTEND:20270716T193952Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 22:37:52 at the dark limb
+  EAT\, seen from Kampala\, UG.\nThe Moon is 60° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1c67ca947f08-kampala-ug@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T025023Z
+DTEND:20270727T025223Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 05:50:23 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 65° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b39ec7ff4ba-kampala-ug@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221732Z
+DTEND:20270824T221932Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 01:17:32 at the dark limb E
+ AT\, seen from Kampala\, UG.\nThe Moon is 12° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d2d29fa03fc-kampala-ug@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T005657Z
+DTEND:20270825T005857Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) reappears at 03:56:57 at the dark limb 
+ EAT\, seen from Kampala\, UG.\nThe Moon is 45° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2029-10-11-kampala-ug@occult.alokm.com
+DTSTAMP:20260914T040845Z
+DTSTART:20291011T174013Z
+DTEND:20291011T181426Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 20:40:35 and reappears at 21:14:06 EAT\, see
+ n from Kampala\, UG.\nThe Moon is 21° up in the WSW · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/mars-2029-10-11?city=Kampala%2C%20UG
+URL:https://occult.alokm.com/mars-2029-10-11?city=Kampala%2C%20UG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

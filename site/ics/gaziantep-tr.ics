@@ -1,0 +1,511 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Gaziantep\, TR
+X-WR-CALDESC:Lunar occultations you can see from Gaziantep\, TR\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T095035Z
+DTEND:20260914T111040Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:52:23 and reappears at 14:08:43 +03\, se
+ en from Gaziantep\, TR.\nThe Moon is 29° up · daylight\, Sun +56°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?lat=37.0594&lon=37.38
+ 25
+URL:https://occult.alokm.com/venus-2026-09-14?lat=37.0594&lon=37.3825
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-516c1ae316b9-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T163149Z
+DTEND:20260917T171358Z
+SUMMARY:The Moon hides τ Sco · mag 2.7
+DESCRIPTION:τ Sco (magnitude 2.7) disappears at 19:31:49 at the dark limb 
+ and reappears at 20:13:58 at the bright limb +03\, seen from Gaziantep\, T
+ R.\nThe Moon is 18° up in the SSW · dusk. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 26-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7e33f31280fc-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T204956Z
+DTEND:20260923T205156Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:49:56 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 34° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc1fb7405367-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T191931Z
+DTEND:20261018T192131Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:19:31 at the dark limb
+  +03\, seen from Gaziantep\, TR.\nThe Moon is 9° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0887221d5de5-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T003812Z
+DTEND:20261030T004012Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:38:12 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 80° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c666d5b41a10-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T000318Z
+DTEND:20261103T000518Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:03:18 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 25° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62addc4f0f41-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T220919Z
+DTEND:20261130T221119Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:09:19 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 15° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02da88f7f4e3-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T161214Z
+DTEND:20261214T161414Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:12:14 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 27° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c34ea0f6dd9-gaziantep-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T234400Z
+DTEND:20261228T234600Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 02:44:00 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 44° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d5e0a9ab567-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T212907Z
+DTEND:20270124T213107Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 00:29:07 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 46° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42f981b9bfd8-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155708Z
+DTEND:20270216T155908Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 18:57:08 at the dark limb
+  +03\, seen from Gaziantep\, TR.\nThe Moon is 66° up in the ESE · dusk. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1dcfb6c42e16-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T201714Z
+DTEND:20270220T201914Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 23:17:14 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 58° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d24a9dedb884-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T203818Z
+DTEND:20270221T204018Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 23:38:18 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 48° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b1deb37aeb05-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214000Z
+DTEND:20270326T214200Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:40:00 at the dark limb +0
+ 3\, seen from Gaziantep\, TR.\nThe Moon is 10° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6f4ea89cf5a-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270410T191651Z
+DTEND:20270410T191851Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 22:16:51 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 8° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1eabdb1466fe-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T233342Z
+DTEND:20270424T233542Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:33:42 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 23° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af7b16c99ccf-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T003043Z
+DTEND:20270427T003243Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:30:43 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 22° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50cbeac13754-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T225623Z
+DTEND:20270427T225823Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 01:56:23 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 5° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05df36267679-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T174540Z
+DTEND:20270510T174740Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 20:45:40 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 35° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-baf15612baf3-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T202217Z
+DTEND:20270512T202417Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:22:17 at the dark limb
+  +03\, seen from Gaziantep\, TR.\nThe Moon is 21° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5fe83408eed-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T233524Z
+DTEND:20270524T010830Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:35:24 at the br
+ ight limb and reappears at 04:08:30 at the dark limb +03\, seen from Gazia
+ ntep\, TR.\nThe Moon is 26° up in the SSE · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a5e19d251a9-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270603T013105Z
+DTEND:20270603T013305Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 04:31:05 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 10° up in the ENE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-65dcd1f720e2-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T185235Z
+DTEND:20270610T185435Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 21:52:35 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 28° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5be2c05a009-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T215616Z
+DTEND:20270616T215816Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 00:56:16 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 20° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3cd8019694d2-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T233050Z
+DTEND:20270622T233250Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:30:50 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 34° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73b316b7f0a0-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T231952Z
+DTEND:20270717T232152Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 02:19:52 at the dark limb 
+ +03\, seen from Gaziantep\, TR.\nThe Moon is 20° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1953702bb7b2-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T190400Z
+DTEND:20270813T201904Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 22:04:00 at the da
+ rk limb and reappears at 23:19:04 at the bright limb +03\, seen from Gazia
+ ntep\, TR.\nThe Moon is 27° up in the S · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9a8f32bfbdc-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221235Z
+DTEND:20270824T221435Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:12:35 at the d
+ ark limb +03\, seen from Gaziantep\, TR.\nThe Moon is 27° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e321800e98b9-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222930Z
+DTEND:20270824T223130Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:29:30 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 31° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18eb2f927184-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224528Z
+DTEND:20270824T224728Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:45:28 at the d
+ ark limb +03\, seen from Gaziantep\, TR.\nThe Moon is 34° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4c17d87e95f-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225827Z
+DTEND:20270824T230027Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:58:27 at the dark
+  limb +03\, seen from Gaziantep\, TR.\nThe Moon is 36° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6bb278fc633-gaziantep-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230604Z
+DTEND:20270824T230804Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:06:04 at the dark limb +
+ 03\, seen from Gaziantep\, TR.\nThe Moon is 38° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T122715Z
+DTEND:20271229T135045Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 15:27:28 and reappears at 16:50:34 +03\, see
+ n from Gaziantep\, TR.\nThe Moon is 27° up in the SSW · daylight\, Sun +
+ 17°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Gaziantep%2C
+ %20TR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Gaziantep%2C%20TR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T124303Z
+DTEND:20280330T140834Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 15:43:03 and reappears at 17:08:34 +03\, 
+ seen from Gaziantep\, TR.\nThe Moon is 77° up · daylight\, Sun +36°.\nT
+ imes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the 
+ Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=37.0594&lon=3
+ 7.3825
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=37.0594&lon=37.3825
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T214342Z
+DTEND:20280412T225712Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:43:42 and reappears at 01:57:12 +03\, 
+ seen from Gaziantep\, TR.\nThe Moon is 15° up · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?lat=37.0594&lon=37.3825
+URL:https://occult.alokm.com/antares-2028-04-12?lat=37.0594&lon=37.3825
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-gaziantep-tr@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T025808Z
+DTEND:20290211T035304Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 05:58:29 and reappears at 06:52:40 +03\, 
+ seen from Gaziantep\, TR.\nThe Moon is -1° up · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/mercury-2029-02-11?lat=37.0594&lon=37.3825
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=37.0594&lon=37.3825
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

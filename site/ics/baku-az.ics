@@ -1,0 +1,520 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Baku\, AZ
+X-WR-CALDESC:Lunar occultations you can see from Baku\, AZ\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Baku
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-baku-az@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T102912Z
+DTEND:20260914T110947Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 14:33:38 and reappears at 15:05:16 +04\, se
+ en from Baku\, AZ.\nThe Moon is 32° up · daylight\, Sun +44°.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/venus-2026-09-14?lat=40.3777&lon=49.8920
+URL:https://occult.alokm.com/venus-2026-09-14?lat=40.3777&lon=49.8920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c0fe4f685d84-baku-az@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T165806Z
+DTEND:20260917T170006Z
+SUMMARY:The Moon hides τ Sco · mag 2.7
+DESCRIPTION:τ Sco (magnitude 2.7) disappears at 20:58:06 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 6° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-945dc133f06d-baku-az@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T210313Z
+DTEND:20260923T210513Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 01:03:13 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 25° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef78ed50853c-baku-az@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T170044Z
+DTEND:20260930T170244Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:00:44 at the dark
+  limb +04\, seen from Baku\, AZ.\nThe Moon is 7° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-94e50d5a4fcb-baku-az@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T005820Z
+DTEND:20261030T010020Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:58:20 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 73° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0a332ef4176-baku-az@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T001106Z
+DTEND:20261103T001306Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 04:11:06 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 36° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e10a6dcdf8f-baku-az@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T221157Z
+DTEND:20261130T221357Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 02:11:57 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 25° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73302421a867-baku-az@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T162148Z
+DTEND:20261214T162348Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 20:21:48 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 17° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5baadf34f011-baku-az@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T232447Z
+DTEND:20261221T232647Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 03:24:47 at the 
+ dark limb +04\, seen from Baku\, AZ.\nThe Moon is 27° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71b69a385366-baku-az@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T231015Z
+DTEND:20261227T231215Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 03:10:15 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 55° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e93ef6d1a3f-baku-az@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T000816Z
+DTEND:20261229T001016Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 04:08:16 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 50° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eccc2e279e70-baku-az@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T152101Z
+DTEND:20270112T152301Z
+SUMMARY:The Moon hides HR 8727 · mag 6.3
+DESCRIPTION:HR 8727 (magnitude 6.3) disappears at 19:21:01 at the dark limb
+  +04\, seen from Baku\, AZ.\nThe Moon is 27° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb9a8c13de9d-baku-az@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T214303Z
+DTEND:20270124T214503Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 01:43:03 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 52° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38e2e03a7186-baku-az@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T160733Z
+DTEND:20270214T160933Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 20:07:33 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 67° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-153add9f3df4-baku-az@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T163037Z
+DTEND:20270216T163237Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 20:30:37 at the dark limb
+  +04\, seen from Baku\, AZ.\nThe Moon is 76° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7abfe55f3bf-baku-az@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T202800Z
+DTEND:20270220T203000Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 00:28:00 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 59° up in the S · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1a53fe61bd82-baku-az@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T204941Z
+DTEND:20270221T205141Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:49:41 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 51° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-676e1cbe1e49-baku-az@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214238Z
+DTEND:20270326T214438Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:42:38 at the dark limb +0
+ 4\, seen from Baku\, AZ.\nThe Moon is 14° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-949fefc90cf3-baku-az@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T000339Z
+DTEND:20270425T000539Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:03:39 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 21° up in the S · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-651974c5b726-baku-az@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T174127Z
+DTEND:20270510T174327Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:41:27 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 26° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-86e09112a2d4-baku-az@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T201827Z
+DTEND:20270512T202027Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 00:18:27 at the dark limb
+  +04\, seen from Baku\, AZ.\nThe Moon is 13° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-79579e8f7eb8-baku-az@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T180729Z
+DTEND:20270520T180929Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 22:07:29 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 14° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d061399669f-baku-az@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T000524Z
+DTEND:20270524T000724Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 04:05:24 at the br
+ ight limb +04\, seen from Baku\, AZ.\nThe Moon is 23° up in the S · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ab333e57e8e-baku-az@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T185850Z
+DTEND:20270610T190050Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 22:58:50 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 16° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-024e83b975da-baku-az@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T221056Z
+DTEND:20270616T221256Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 02:10:56 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 9° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2fccd326e92-baku-az@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T235656Z
+DTEND:20270622T235856Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 03:56:56 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 33° up in the S · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df481d46b577-baku-az@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T234455Z
+DTEND:20270717T234655Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 03:44:55 at the dark limb 
+ +04\, seen from Baku\, AZ.\nThe Moon is 8° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-085f4a6f1654-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T193556Z
+DTEND:20270813T203018Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 23:35:56 at the da
+ rk limb and reappears at 00:30:18 at the bright limb +04\, seen from Baku\
+ , AZ.\nThe Moon is 20° up in the SSW · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22774b3a2e05-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T220937Z
+DTEND:20270824T221137Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 02:09:37 at the d
+ ark limb +04\, seen from Baku\, AZ.\nThe Moon is 37° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ed4dcf9eccc-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223948Z
+DTEND:20270824T224148Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 02:39:48 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 43° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cdb383c59900-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230044Z
+DTEND:20270824T230244Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 03:00:44 at the d
+ ark limb +04\, seen from Baku\, AZ.\nThe Moon is 46° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-245c81b4b17a-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231059Z
+DTEND:20270824T231259Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 03:10:59 at the dark
+  limb +04\, seen from Baku\, AZ.\nThe Moon is 48° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e87c88ff40e-baku-az@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232400Z
+DTEND:20270824T232600Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 03:24:00 at the dark limb +
+ 04\, seen from Baku\, AZ.\nThe Moon is 51° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-baku-az@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T124232Z
+DTEND:20271229T140018Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 16:42:43 and reappears at 18:00:08 +04\, see
+ n from Baku\, AZ.\nThe Moon is 17° up in the SW · daylight\, Sun +5°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/mars-2027-12-29?city=Baku%2C%20AZ
+URL:https://occult.alokm.com/mars-2027-12-29?city=Baku%2C%20AZ
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-baku-az@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T131000Z
+DTEND:20280330T143259Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 17:10:00 and reappears at 18:32:59 +04\, 
+ seen from Baku\, AZ.\nThe Moon is 67° up · daylight\, Sun +21°.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.3777&lon=49.892
+ 0
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.3777&lon=49.8920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-baku-az@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T220059Z
+DTEND:20280412T232346Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 02:00:59 and reappears at 03:23:46 +04\, 
+ seen from Baku\, AZ.\nThe Moon is 19° up · dark sky.\nTimes for the Moon
+ 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/antares-2028-04-12?lat=40.3777&lon=49.8920
+URL:https://occult.alokm.com/antares-2028-04-12?lat=40.3777&lon=49.8920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-baku-az@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T030659Z
+DTEND:20290211T042113Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 07:06:59 and reappears at 08:20:51 +04\, 
+ seen from Baku\, AZ.\nThe Moon is 7° up · dusk.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/mercury-2029-02-11?lat=40.3777&lon=49.8920
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=40.3777&lon=49.8920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

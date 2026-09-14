@@ -1,0 +1,529 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bhubaneswar
+X-WR-CALDESC:Lunar occultations you can see from Bhubaneswar\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-bhubaneswar@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T121320Z
+DTEND:20260914T130338Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:46:19 and reappears at 18:30:49 IST\, se
+ en from Bhubaneswar.\nThe Moon is 24° up in the WSW · daylight\, Sun +0
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Bhubaneswar
+URL:https://occult.alokm.com/venus-2026-09-14?city=Bhubaneswar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-692c90edacac-bhubaneswar@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161128Z
+DTEND:20260930T161328Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:41:28 at the d
+ ark limb IST\, seen from Bhubaneswar.\nThe Moon is 18° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91ffcc8cd70c-bhubaneswar@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213315Z
+DTEND:20261006T213515Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:03:15 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 8° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aabe7f51fdd8-bhubaneswar@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130800Z
+DTEND:20261020T131000Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:38:00 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 52° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82a3c9ab3982-bhubaneswar@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T134847Z
+DTEND:20261021T135047Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:18:47 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 57° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fbdf78073dc-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203038Z
+DTEND:20261102T203238Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:00:38 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 22° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07172256d3e7-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145516Z
+DTEND:20261115T145716Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:25:16 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 18° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4072bd8899d6-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160403Z
+DTEND:20261116T160603Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:34:03 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 15° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-770a22bfc92f-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164209Z
+DTEND:20261127T164409Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:12:09 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 27° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-24a0cf03d13a-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204547Z
+DTEND:20261128T204747Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:15:47 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 68° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-68cc9d7833ac-bhubaneswar@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232511Z
+DTEND:20261130T232711Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:55:11 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 75° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-bhubaneswar@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133857Z
+DTEND:20261212T134057Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:57 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 8° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-87d7afa805bc-bhubaneswar@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T205211Z
+DTEND:20261223T205411Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:22:11 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 50° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-304328c5c27d-bhubaneswar@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141131Z
+DTEND:20270121T141331Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:41:31 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 42° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0d41630073c-bhubaneswar@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225950Z
+DTEND:20270124T230150Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:29:50 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 53° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-bhubaneswar@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162809Z
+DTEND:20270125T163009Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:09 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 17° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa10143337a2-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224952Z
+DTEND:20270201T225152Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:19:52 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 13° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1d67a5e5315-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T152939Z
+DTEND:20270214T153139Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:59:39 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 46° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2da026e70a24-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173016Z
+DTEND:20270216T173216Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:00:16 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 47° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59be2751a818-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215020Z
+DTEND:20270220T224751Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:20:20 at the dark limb 
+ and reappears at 04:17:51 at the dark limb IST\, seen from Bhubaneswar.\nT
+ he Moon is 39° up in the W · dark sky. Binoculars show it.\nEvery occult
+ ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-
+ 02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-357410c20930-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215901Z
+DTEND:20270221T220101Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:29:01 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 46° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f26bab1ee52f-bhubaneswar@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201403Z
+DTEND:20270227T201603Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:44:03 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 18° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6038d67cb336-bhubaneswar@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221148Z
+DTEND:20270302T221348Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:41:48 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 12° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62ecc468d85f-bhubaneswar@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230338Z
+DTEND:20270326T230538Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:33:38 at the dark limb IS
+ T\, seen from Bhubaneswar.\nThe Moon is 41° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2901c09c5089-bhubaneswar@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143310Z
+DTEND:20270414T143510Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:03:10 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 70° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95b098099e4d-bhubaneswar@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134050Z
+DTEND:20270417T134250Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:10:50 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 57° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5df4c613f278-bhubaneswar@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T141947Z
+DTEND:20270520T150022Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:49:47 at the dark limb a
+ nd reappears at 20:30:22 at the dark limb IST\, seen from Bhubaneswar.\nTh
+ e Moon is 16° up in the SE · dark sky. Binoculars show it.\nEvery occult
+ ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-
+ 05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82721a43f78d-bhubaneswar@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175135Z
+DTEND:20270520T192842Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:21:35 at the bright lim
+ b and reappears at 00:58:42 at the dark limb IST\, seen from Bhubaneswar.\
+ nThe Moon is 43° up in the S · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cec05487a09f-bhubaneswar@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T170912Z
+DTEND:20270522T171112Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:39:12 at the dark limb IS
+ T\, seen from Bhubaneswar.\nThe Moon is 26° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f12dff11a2f-bhubaneswar@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T140322Z
+DTEND:20270608T140522Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:33:22 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 32° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13340d7441e6-bhubaneswar@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T152811Z
+DTEND:20270620T153011Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:58:11 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 14° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1069c143521a-bhubaneswar@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T132620Z
+DTEND:20270708T132820Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 18:56:20 at the dark limb 
+ IST\, seen from Bhubaneswar.\nThe Moon is 41° up in the WSW · dusk. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db6f8050d483-bhubaneswar@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T214915Z
+DTEND:20270716T215115Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:19:15 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 5° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18e74aa8cb6a-bhubaneswar@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T183254Z
+DTEND:20270723T183454Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:02:54 at the dark limb I
+ ST\, seen from Bhubaneswar.\nThe Moon is 37° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0851cbd7984-bhubaneswar@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180130Z
+DTEND:20270810T180330Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:30 at the dark limb
+  IST\, seen from Bhubaneswar.\nThe Moon is 5° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-bhubaneswar@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223159Z
+DTEND:20280121T234349Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:01:59 and reappears at 05:13:49 IST\, 
+ seen from Bhubaneswar.\nThe Moon is 13° up in the SE · dark sky.\nTimes 
+ against the real lunar limb.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-01-22?city=Bhubaneswar
+URL:https://occult.alokm.com/antares-2028-01-22?city=Bhubaneswar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bhubaneswar@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142958Z
+DTEND:20280330T151303Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:59:58 and reappears at 20:43:03 IST\, 
+ seen from Bhubaneswar.\nThe Moon is 22° up in the WNW · dark sky.\nTimes
+  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/alcyone-2028-03-30?city=Bhubaneswar
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Bhubaneswar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-bhubaneswar@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233829Z
+DTEND:20280413T003324Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:08:29 and reappears at 06:03:24 IST\, 
+ seen from Bhubaneswar.\nThe Moon is 33° up in the SW · twilight.\nTimes 
+ against the real lunar limb.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-04-12?city=Bhubaneswar
+URL:https://occult.alokm.com/antares-2028-04-12?city=Bhubaneswar
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

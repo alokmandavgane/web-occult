@@ -1,0 +1,469 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Khartoum\, SD
+X-WR-CALDESC:Lunar occultations you can see from Khartoum\, SD\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Khartoum
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-khartoum-sd@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T100815Z
+DTEND:20260914T111845Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:10:38 and reappears at 13:16:09 CAT\, se
+ en from Khartoum\, SD.\nThe Moon is 46° up · daylight\, Sun +76°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?lat=15.5518&lon=32.532
+ 4
+URL:https://occult.alokm.com/venus-2026-09-14?lat=15.5518&lon=32.5324
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35a32a613803-khartoum-sd@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T202214Z
+DTEND:20260923T202414Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 22:22:14 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 58° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-da2bdc3273dd-khartoum-sd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T192116Z
+DTEND:20261018T192316Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 21:21:16 at the dark limb
+  CAT\, seen from Khartoum\, SD.\nThe Moon is 26° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-860fc5e62ce6-khartoum-sd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T234118Z
+DTEND:20261102T234318Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 01:41:18 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 15° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a712288b07ad-khartoum-sd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261112T165324Z
+DTEND:20261112T165524Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 18:53:24 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 9° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-24f0f86960f2-khartoum-sd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T185220Z
+DTEND:20261114T185420Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 20:52:20 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 6° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b11a137021d-khartoum-sd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T215903Z
+DTEND:20261130T220103Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 23:59:03 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 7° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a80d92583b03-khartoum-sd@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261211T155307Z
+DTEND:20261211T155507Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 17:53:07 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 17° up in the WSW · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cf77f7d75fc5-khartoum-sd@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T155653Z
+DTEND:20261214T155853Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 17:56:53 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 48° up in the SW · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-804e266288f8-khartoum-sd@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T184630Z
+DTEND:20261223T184830Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 20:46:30 at the dark limb
+  CAT\, seen from Khartoum\, SD.\nThe Moon is 49° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14bce30e119f-khartoum-sd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T163353Z
+DTEND:20270113T163553Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 18:33:53 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 50° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-308bd541bdee-khartoum-sd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T180049Z
+DTEND:20270118T180249Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 20:00:49 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 79° up in the N · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc44bcf2990f-khartoum-sd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T190821Z
+DTEND:20270212T191021Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 21:08:21 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 21° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd472fedb0f3-khartoum-sd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T185045Z
+DTEND:20270214T185245Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 20:50:45 at the dark limb
+  CAT\, seen from Khartoum\, SD.\nThe Moon is 50° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c0add8fce3ac-khartoum-sd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T004100Z
+DTEND:20270301T004300Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) reappears at 02:41:00 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 20° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bac5bcff8d98-khartoum-sd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T205852Z
+DTEND:20270326T210403Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:58:52 at the dark limb a
+ nd reappears at 23:04:03 at the dark limb CAT\, seen from Khartoum\, SD.\n
+ The Moon is 13° up in the ESE · dark sky. Binoculars show it.\nA graze: 
+ the star skims the Moon's edge and may flicker.\nEvery occultation this mo
+ nth\, for anywhere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70cc3aea0131-khartoum-sd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T011819Z
+DTEND:20270327T024717Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 03:18:19 at the bright lim
+ b and reappears at 04:47:17 at the dark limb CAT\, seen from Khartoum\, SD
+ .\nThe Moon is 48° up in the S · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa6e573983ae-khartoum-sd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T020913Z
+DTEND:20270427T021113Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 04:09:13 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 48° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a58a3caf81d6-khartoum-sd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T224027Z
+DTEND:20270427T224227Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 00:40:27 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 9° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11c2cd369abb-khartoum-sd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T210624Z
+DTEND:20270512T210824Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:06:24 at the dark limb
+  CAT\, seen from Khartoum\, SD.\nThe Moon is 13° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c04ace4c8da9-khartoum-sd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T195357Z
+DTEND:20270520T195557Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 21:53:57 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 38° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25de3594bf10-khartoum-sd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T232925Z
+DTEND:20270524T002245Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 01:29:25 at the br
+ ight limb and reappears at 02:22:45 at the dark limb CAT\, seen from Khart
+ oum\, SD.\nThe Moon is 45° up in the SSE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75a66dfcbc54-khartoum-sd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T192331Z
+DTEND:20270610T192531Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 21:23:31 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 29° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e38d7a79f5e6-khartoum-sd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T215149Z
+DTEND:20270616T215349Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 23:51:49 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 41° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38af2fb584c2-khartoum-sd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T204109Z
+DTEND:20270620T204309Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 22:41:09 at the dark limb 
+ CAT\, seen from Khartoum\, SD.\nThe Moon is 34° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8028c3fcbdd-khartoum-sd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T223221Z
+DTEND:20270622T223421Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 00:32:21 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 42° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cda3b0251ead-khartoum-sd@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T194947Z
+DTEND:20270716T195147Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 21:49:47 at the dark limb
+  CAT\, seen from Khartoum\, SD.\nThe Moon is 46° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5f9a0ed61af0-khartoum-sd@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T003942Z
+DTEND:20270724T004142Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 02:39:42 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 71° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-562b717539a9-khartoum-sd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T214458Z
+DTEND:20270824T214658Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 23:44:58 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 11° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d0a03326d18-khartoum-sd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T220756Z
+DTEND:20270824T220956Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:07:56 at the dark
+  limb CAT\, seen from Khartoum\, SD.\nThe Moon is 16° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a739287152c-khartoum-sd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221209Z
+DTEND:20270824T221409Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 00:12:09 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 17° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cbd646d40338-khartoum-sd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221420Z
+DTEND:20270824T221620Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:14:20 at the d
+ ark limb CAT\, seen from Khartoum\, SD.\nThe Moon is 17° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b766159ca7fb-khartoum-sd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223530Z
+DTEND:20270824T223730Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 00:35:30 at the dark limb C
+ AT\, seen from Khartoum\, SD.\nThe Moon is 22° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-khartoum-sd@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T120446Z
+DTEND:20271229T133212Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:05:02 and reappears at 15:31:58 CAT\, see
+ n from Khartoum\, SD.\nThe Moon is 50° up in the SSW · daylight\, Sun +3
+ 9°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Khartoum%2C%2
+ 0SD
+URL:https://occult.alokm.com/mars-2027-12-29?city=Khartoum%2C%20SD
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

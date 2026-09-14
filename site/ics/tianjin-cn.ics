@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Tianjin\, CN
+X-WR-CALDESC:Lunar occultations you can see from Tianjin\, CN\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:star-6137a79bfcae-tianjin-cn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T165316Z
+DTEND:20260930T165516Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:53:16 at the d
+ ark limb CST\, seen from Tianjin\, CN.\nThe Moon is 56° up in the ESE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2026-10-05-tianjin-cn@occult.alokm.com
+DTSTAMP:20260914T034451Z
+DTSTART:20261005T064930Z
+DTEND:20261005T071536Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:49:48 and reappears at 15:15:19 CST\, see
+ n from Tianjin\, CN.\nThe Moon is 1° up in the WNW · daylight\, Sun +31
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2026-10-05?city=Tianjin%2C%20C
+ N
+URL:https://occult.alokm.com/mars-2026-10-05?city=Tianjin%2C%20CN
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5f3fe9ebbb33-tianjin-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T185547Z
+DTEND:20261005T185747Z
+SUMMARY:The Moon hides HR 3577 · mag 6.4
+DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 02:55:47 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 19° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3999c5bb8d91-tianjin-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T205717Z
+DTEND:20261007T205917Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:57:17 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 16° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a7619cdc7c2-tianjin-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T141755Z
+DTEND:20261020T141955Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:17:55 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 23° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f17015c9b9d-tianjin-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T150603Z
+DTEND:20261021T150803Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:06:03 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 27° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6cc4d6c5519-tianjin-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T102907Z
+DTEND:20261116T103107Z
+SUMMARY:The Moon hides 20 Cap · mag 6.3
+DESCRIPTION:20 Cap (magnitude 6.3) disappears at 18:29:07 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 30° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1fa653bc7078-tianjin-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261124T092258Z
+DTEND:20261124T092458Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) disappears at 17:22:58 at the 
+ dark limb CST\, seen from Tianjin\, CN.\nThe Moon is 11° up in the ENE ·
+  dusk. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe5bf03e0a6-tianjin-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261204T223458Z
+DTEND:20261204T223658Z
+SUMMARY:The Moon hides 75 Vir · mag 5.5
+DESCRIPTION:75 Vir (magnitude 5.5) disappears at 06:34:58 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 27° up in the SE · dusk. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c8ba2a2088d-tianjin-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T103329Z
+DTEND:20261216T103529Z
+SUMMARY:The Moon hides HR 8759 · mag 6.0
+DESCRIPTION:HR 8759 (magnitude 6.0) disappears at 18:33:29 at the dark limb
+  CST\, seen from Tianjin\, CN.\nThe Moon is 44° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-effe15554eee-tianjin-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T170839Z
+DTEND:20261229T171039Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 01:08:39 at the dark limb C
+ ST\, seen from Tianjin\, CN.\nThe Moon is 20° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7bc4ef1ab1c5-tianjin-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T170528Z
+DTEND:20270214T170728Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 01:05:28 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 7° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-851d720fd3d7-tianjin-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171040Z
+DTEND:20270214T171240Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:10:40 at the 
+ dark limb CST\, seen from Tianjin\, CN.\nThe Moon is 6° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-244ddbcf0384-tianjin-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270222T124411Z
+DTEND:20270222T124611Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 20:44:11 at the dark limb C
+ ST\, seen from Tianjin\, CN.\nThe Moon is 11° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f969380cfb32-tianjin-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210749Z
+DTEND:20270301T210949Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 05:07:49 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 15° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-999635637b97-tianjin-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T192443Z
+DTEND:20270318T192643Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:24:43 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 9° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-17cf22ad038e-tianjin-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T134549Z
+DTEND:20270416T134749Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:45:49 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 57° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c406320f6894-tianjin-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270507T114835Z
+DTEND:20270507T115035Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 19:48:35 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 6° up in the WNW · dusk. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-453d8e40c124-tianjin-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150455Z
+DTEND:20270520T150655Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 23:04:55 at the dark limb CS
+ T\, seen from Tianjin\, CN.\nThe Moon is 23° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ad9cdfda7f5-tianjin-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T185550Z
+DTEND:20270520T200900Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:55:50 at the bright lim
+ b and reappears at 04:09:00 at the dark limb CST\, seen from Tianjin\, CN.
+ \nThe Moon is 15° up in the SW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa4fe1ee8c71-tianjin-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T184514Z
+DTEND:20270522T184714Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 02:45:14 at the dark limb CS
+ T\, seen from Tianjin\, CN.\nThe Moon is 22° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-497da1455661-tianjin-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T132938Z
+DTEND:20270607T133138Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 21:29:38 at the dark limb
+  CST\, seen from Tianjin\, CN.\nThe Moon is 7° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-441cde6d307a-tianjin-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T170500Z
+DTEND:20270620T170700Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 01:05:00 at the dark limb C
+ ST\, seen from Tianjin\, CN.\nThe Moon is 25° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11de39156009-tianjin-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T130749Z
+DTEND:20270717T130949Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 21:07:49 at the bri
+ ght limb CST\, seen from Tianjin\, CN.\nThe Moon is 17° up in the SSE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ae0e32bc9df-tianjin-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T201550Z
+DTEND:20270723T201750Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 04:15:50 at the dark limb C
+ ST\, seen from Tianjin\, CN.\nThe Moon is 52° up in the S · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91888bab3ff0-tianjin-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T191932Z
+DTEND:20270826T192132Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:19:32 at the dark limb 
+ CST\, seen from Tianjin\, CN.\nThe Moon is 36° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d8871b3616b-tianjin-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T190357Z
+DTEND:20270827T192232Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 03:03:57 at the bright lim
+ b and reappears at 03:22:32 at the dark limb CST\, seen from Tianjin\, CN.
+ \nThe Moon is 21° up in the ENE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-tianjin-cn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142214Z
+DTEND:20280330T144422Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 22:22:14 and reappears at 22:44:22 CST\, 
+ seen from Tianjin\, CN.\nThe Moon is 5° up · dark sky.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/alcyone-2028-03-30?lat=39.1422&lon=117.1767
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=39.1422&lon=117.1767
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

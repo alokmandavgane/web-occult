@@ -1,0 +1,403 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Lomé\, TG
+X-WR-CALDESC:Lunar occultations you can see from Lomé\, TG\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Lome
+BEGIN:VEVENT
+UID:star-c5a1982d6463-lome-tg@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T204827Z
+DTEND:20260916T205027Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:48:27 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 14° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0b19243fcbc-lome-tg@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T190327Z
+DTEND:20260917T190527Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 19:03:27 at the dark li
+ mb GMT\, seen from Lomé\, TG.\nThe Moon is 43° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ee8b558a8fe9-lome-tg@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T185323Z
+DTEND:20260923T185523Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 18:53:23 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 44° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-00149f9e6747-lome-tg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T040548Z
+DTEND:20261001T040748Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 04:05:48 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 68° up in the NNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-lome-tg@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T105605Z
+DTEND:20261006T120743Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:57:25 and reappears at 12:06:31 GMT\, 
+ seen from Lomé\, TG.\nThe Moon is 52° up in the WNW · daylight\, Sun +7
+ 4°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Lom%C3%A9%
+ 2C%20TG
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Lom%C3%A9%2C%20TG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49f827f98ac1-lome-tg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010403Z
+DTEND:20261021T010603Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:04:03 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 7° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f1c36a956d-lome-tg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T230054Z
+DTEND:20261029T230254Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:00:54 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 26° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b31d75615095-lome-tg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T032120Z
+DTEND:20261103T032320Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:21:20 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 34° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-565ca908c93c-lome-tg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T010526Z
+DTEND:20261128T010726Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 01:05:26 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 54° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eefa8303f266-lome-tg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T035947Z
+DTEND:20261202T040147Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:59:47 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 50° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b52d3072246e-lome-tg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042516Z
+DTEND:20261205T042716Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:25:16 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 22° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea748dafaa71-lome-tg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261206T043926Z
+DTEND:20261206T044126Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:39:26 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 13° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11023d5f630b-lome-tg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T194921Z
+DTEND:20261213T195121Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 19:49:21 at the dark l
+ imb GMT\, seen from Lomé\, TG.\nThe Moon is 21° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22e621181c78-lome-tg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T211717Z
+DTEND:20261214T211917Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:17:17 at the dark limb
+  GMT\, seen from Lomé\, TG.\nThe Moon is 12° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-069ffceed7da-lome-tg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T221631Z
+DTEND:20270116T221831Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 22:16:31 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 34° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8a504d82083-lome-tg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T034734Z
+DTEND:20270126T034934Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:47:34 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 79° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a2aef9322f2-lome-tg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214907Z
+DTEND:20270212T215107Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:49:07 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 11° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26cea93a6043-lome-tg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T234910Z
+DTEND:20270321T235110Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:49:10 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 82° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5240ece68cfc-lome-tg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T221519Z
+DTEND:20270326T221719Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 22:15:19 at the dark limb GM
+ T\, seen from Lomé\, TG.\nThe Moon is 6° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b2e102ba224-lome-tg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T003157Z
+DTEND:20270327T011554Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:31:57 at the bright lim
+ b and reappears at 01:15:54 at the dark limb GMT\, seen from Lomé\, TG.\n
+ The Moon is 35° up in the SE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a30ffa52dc43-lome-tg@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T235221Z
+DTEND:20270413T235421Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 23:52:21 at the dark limb
+  GMT\, seen from Lomé\, TG.\nThe Moon is 6° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7f7f42a7db6f-lome-tg@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T005244Z
+DTEND:20270427T005444Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:52:44 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 24° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58d18915c2b1-lome-tg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T192122Z
+DTEND:20270513T192322Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:21:22 at the dark limb 
+ GMT\, seen from Lomé\, TG.\nThe Moon is 79° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e21bd383c6de-lome-tg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T205540Z
+DTEND:20270514T212442Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:55:40 at the dark limb 
+ and reappears at 21:24:42 at the dark limb GMT\, seen from Lomé\, TG.\nTh
+ e Moon is 68° up in the W · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a17787af3866-lome-tg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T190624Z
+DTEND:20270608T190824Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 19:06:24 at the dark limb
+  GMT\, seen from Lomé\, TG.\nThe Moon is 40° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-773cd97000fe-lome-tg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T205404Z
+DTEND:20270616T205604Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:54:04 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 54° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8858a6098387-lome-tg@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234230Z
+DTEND:20270723T234430Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:42:30 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 30° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-828fb517d010-lome-tg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T005719Z
+DTEND:20270820T005919Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:57:19 at the dark limb G
+ MT\, seen from Lomé\, TG.\nThe Moon is 77° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-lome-tg@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T101155Z
+DTEND:20271229T120228Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 10:12:09 and reappears at 12:02:12 GMT\, see
+ n from Lomé\, TG.\nThe Moon is 37° up in the ESE · daylight\, Sun +51°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Lom%C3%A9%2C%20T
+ G
+URL:https://occult.alokm.com/mars-2027-12-29?city=Lom%C3%A9%2C%20TG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

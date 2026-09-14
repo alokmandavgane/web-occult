@@ -1,0 +1,496 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kharkiv\, UA
+X-WR-CALDESC:Lunar occultations you can see from Kharkiv\, UA\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Kyiv
+BEGIN:VEVENT
+UID:star-844534f982d5-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T013750Z
+DTEND:20260908T013950Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:37:50 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 21° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T100412Z
+DTEND:20260914T105017Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 13:07:04 and reappears at 13:47:18 EEST\, s
+ een from Kharkiv\, UA.\nThe Moon is 19° up · daylight\, Sun +43°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?lat=49.9818&lon=36.254
+ 8
+URL:https://occult.alokm.com/venus-2026-09-14?lat=49.9818&lon=36.2548
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97fe6431adb4-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T211001Z
+DTEND:20260923T211201Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:10:01 at the dark limb 
+ EEST\, seen from Kharkiv\, UA.\nThe Moon is 22° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dacd036af6a2-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T171531Z
+DTEND:20260930T171731Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 20:15:31 at the dark
+  limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 5° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9138db5b57e1-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T173406Z
+DTEND:20260930T173606Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 20:34:06 at the d
+ ark limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 8° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7fd047ea6073-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T022105Z
+DTEND:20261028T022305Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 04:21:05 at the d
+ ark limb EET\, seen from Kharkiv\, UA.\nThe Moon is 43° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d22a012a58cd-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T022201Z
+DTEND:20261028T022401Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 04:22:01 at the dark
+  limb EET\, seen from Kharkiv\, UA.\nThe Moon is 43° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-adf2cd996b97-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T163159Z
+DTEND:20261214T163359Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 18:31:59 at the dark limb 
+ EET\, seen from Kharkiv\, UA.\nThe Moon is 16° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-160db67d8f8b-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T230013Z
+DTEND:20261221T230213Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:00:13 at the 
+ dark limb EET\, seen from Kharkiv\, UA.\nThe Moon is 41° up in the W · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb55e788a217-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T232408Z
+DTEND:20261221T232608Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 01:24:08 at the dar
+ k limb EET\, seen from Kharkiv\, UA.\nThe Moon is 37° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c97f77bcd09-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T230005Z
+DTEND:20261227T230205Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 01:00:05 at the dark limb E
+ ET\, seen from Kharkiv\, UA.\nThe Moon is 41° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a235fc3995d-kharkiv-ua@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T234733Z
+DTEND:20261228T234933Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 01:47:33 at the dark limb E
+ ET\, seen from Kharkiv\, UA.\nThe Moon is 35° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca8d2672bf18-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T211913Z
+DTEND:20270124T212113Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 23:19:13 at the dark limb E
+ ET\, seen from Kharkiv\, UA.\nThe Moon is 36° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3b8966ce7a9-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T162835Z
+DTEND:20270214T163035Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 18:28:35 at the dark limb 
+ EET\, seen from Kharkiv\, UA.\nThe Moon is 63° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca494ec04009-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T200323Z
+DTEND:20270220T200523Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 22:03:23 at the dark limb 
+ EET\, seen from Kharkiv\, UA.\nThe Moon is 45° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b914305968f-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T202513Z
+DTEND:20270221T202713Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 22:25:13 at the dark limb E
+ ET\, seen from Kharkiv\, UA.\nThe Moon is 36° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-06c3e00c82fe-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T233538Z
+DTEND:20270316T233738Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 01:35:38 at the dark limb 
+ EET\, seen from Kharkiv\, UA.\nThe Moon is 13° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b09ec270628-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270410T184731Z
+DTEND:20270410T184931Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 21:47:31 at the dark limb 
+ EEST\, seen from Kharkiv\, UA.\nThe Moon is 19° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9f4eb909a094-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T233914Z
+DTEND:20270424T234114Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:39:14 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 10° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d8d29b86c44e-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T004929Z
+DTEND:20270427T005129Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:49:29 at the dark limb 
+ EEST\, seen from Kharkiv\, UA.\nThe Moon is 11° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-225bc9a35132-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T200033Z
+DTEND:20270512T200233Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:00:33 at the dark limb
+  EEST\, seen from Kharkiv\, UA.\nThe Moon is 26° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6cbe068f0a45-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T234118Z
+DTEND:20270523T234318Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:41:18 at the br
+ ight limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 13° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7d3c5b49b56f-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T220250Z
+DTEND:20270616T220450Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:02:50 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 8° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3e070bc2ba4d-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T234204Z
+DTEND:20270622T234404Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:42:04 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 22° up in the SSE · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c36afd724eed-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T230236Z
+DTEND:20270717T230436Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 02:02:36 at the dark limb 
+ EEST\, seen from Kharkiv\, UA.\nThe Moon is 11° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f15fe1052d5-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T185935Z
+DTEND:20270813T202042Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 21:59:35 at the da
+ rk limb and reappears at 23:20:42 at the bright limb EEST\, seen from Khar
+ kiv\, UA.\nThe Moon is 14° up in the S · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ba456a3fff4f-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224359Z
+DTEND:20270824T224559Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:43:59 at the d
+ ark limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 33° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ee68a8a4d78-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225009Z
+DTEND:20270824T225209Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:50:09 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 34° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-410d99294246-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225630Z
+DTEND:20270824T225830Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:56:30 at the d
+ ark limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 35° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fed51af68e4f-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231213Z
+DTEND:20270824T231413Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:12:13 at the dark limb E
+ EST\, seen from Kharkiv\, UA.\nThe Moon is 38° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab5ef30cb1d7-kharkiv-ua@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231930Z
+DTEND:20270824T232130Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:19:30 at the dark
+  limb EEST\, seen from Kharkiv\, UA.\nThe Moon is 39° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T123757Z
+DTEND:20271229T132844Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:38:17 and reappears at 15:28:27 EET\, see
+ n from Kharkiv\, UA.\nThe Moon is 14° up in the SSW · daylight\, Sun +6
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Kharkiv%2C%20U
+ A
+URL:https://occult.alokm.com/mars-2027-12-29?city=Kharkiv%2C%20UA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T125134Z
+DTEND:20280330T140225Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 15:51:34 and reappears at 17:02:25 EEST\,
+  seen from Kharkiv\, UA.\nThe Moon is 64° up · daylight\, Sun +29°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=49.9818&lon=36
+ .2548
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=49.9818&lon=36.2548
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T215043Z
+DTEND:20280412T230340Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:50:43 and reappears at 02:03:40 EEST\,
+  seen from Kharkiv\, UA.\nThe Moon is 5° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?lat=49.9818&lon=36.2548
+URL:https://occult.alokm.com/antares-2028-04-12?lat=49.9818&lon=36.2548
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-kharkiv-ua@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T031215Z
+DTEND:20290211T042243Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 05:12:32 and reappears at 06:22:25 EET\, 
+ seen from Kharkiv\, UA.\nThe Moon is -5° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/mercury-2029-02-11?lat=49.9818&lon=36.2548
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=49.9818&lon=36.2548
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

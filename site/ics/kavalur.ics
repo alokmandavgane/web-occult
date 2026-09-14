@@ -1,0 +1,554 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kavalur
+X-WR-CALDESC:Lunar occultations you can see from Kavalur\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-d83176cc5baa-kavalur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232138Z
+DTEND:20260908T232338Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:51:38 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 9° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kavalur@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115718Z
+DTEND:20260914T131642Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:29:29 and reappears at 18:44:51 IST\, se
+ en from Kavalur.\nThe Moon is 37° up in the WSW · daylight\, Sun +11°.\
+ nTimes against the real lunar limb.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?city=Kavalur
+URL:https://occult.alokm.com/venus-2026-09-14?city=Kavalur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d5fee2ffe62a-kavalur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T155819Z
+DTEND:20260930T160019Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:28:19 at the d
+ ark limb IST\, seen from Kavalur.\nThe Moon is 6° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9a9eb01edb7-kavalur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132019Z
+DTEND:20261021T132219Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:50:19 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 56° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-482d14b3aa6b-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202235Z
+DTEND:20261102T202435Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:52:35 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 13° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-kavalur@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205824Z
+DTEND:20261102T213708Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:30:43 and reappears at 03:04:41 IST\, 
+ seen from Kavalur.\nThe Moon is 21° up in the E · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/jupiter-2026-11-02?city=Kavalur
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Kavalur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ded871d7a6b6-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144538Z
+DTEND:20261115T144738Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:15:38 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 30° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d915561f32b-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155459Z
+DTEND:20261116T155659Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:24:59 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 27° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163707Z
+DTEND:20261127T163907Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:07:07 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 17° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-980aa86437db-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T200929Z
+DTEND:20261128T201129Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:39:29 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 51° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf393528904a-kavalur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231607Z
+DTEND:20261130T231807Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:46:07 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 71° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-kavalur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133428Z
+DTEND:20261212T133628Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:28 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 19° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb9edfb75ca8-kavalur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204037Z
+DTEND:20261223T204237Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:10:37 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 56° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2cef3c507efe-kavalur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194122Z
+DTEND:20270118T194322Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:11:22 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 24° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-526c6c57f3ca-kavalur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135823Z
+DTEND:20270121T140023Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:28:23 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 31° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7cdd86269f27-kavalur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231218Z
+DTEND:20270124T231418Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:42:18 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 58° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-kavalur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162916Z
+DTEND:20270125T163116Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:16 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 11° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9468e97d39d7-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T222711Z
+DTEND:20270201T222911Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 03:57:11 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 8° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e89c1fefea90-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142435Z
+DTEND:20270212T142635Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:54:35 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 41° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ebbb6a28f5-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144946Z
+DTEND:20270214T145146Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:19:46 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 59° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ea2efb757a8-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160321Z
+DTEND:20270216T160521Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:33:21 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 67° up in the NW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d02f90c2456-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172426Z
+DTEND:20270216T172626Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:54:26 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 52° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3c40fd374c9-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215324Z
+DTEND:20270220T215524Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:23:24 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 45° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e44f67e8d891-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221841Z
+DTEND:20270221T222041Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:48:41 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 50° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa2060f8a07e-kavalur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201649Z
+DTEND:20270227T201849Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:46:49 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 18° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c126672d2cd1-kavalur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T215921Z
+DTEND:20270302T220121Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:29:21 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 8° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-202f81a4b491-kavalur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230908Z
+DTEND:20270326T231108Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:39:08 at the dark limb IS
+ T\, seen from Kavalur.\nThe Moon is 50° up in the SSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7507d519b47-kavalur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143857Z
+DTEND:20270414T144057Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:08:57 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 73° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb2bd5615903-kavalur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151124Z
+DTEND:20270520T151324Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:41:24 at the dark limb IS
+ T\, seen from Kavalur.\nThe Moon is 25° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cd51353a1ea-kavalur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175205Z
+DTEND:20270520T190142Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:22:05 at the bright lim
+ b and reappears at 00:31:42 at the bright limb IST\, seen from Kavalur.\nT
+ he Moon is 49° up in the SSE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6be155e05b9e-kavalur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T140456Z
+DTEND:20270607T140656Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:34:56 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 23° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7cbf3fe04e-kavalur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135516Z
+DTEND:20270608T135716Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:25:16 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 39° up in the WNW · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-kavalur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165723Z
+DTEND:20270609T165923Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:23 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 8° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1412a367393-kavalur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T122152Z
+DTEND:20270617T130730Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 17:51:52 at the 
+ dark limb and reappears at 18:37:30 at the bright limb IST\, seen from Kav
+ alur.\nThe Moon is 5° up in the ESE · daylight\, Sun +10°. Binoculars s
+ how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
+ .com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-477c8517d141-kavalur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223900Z
+DTEND:20270620T224100Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:09:00 at the dark limb 
+ IST\, seen from Kavalur.\nThe Moon is 39° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6edf31636336-kavalur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182102Z
+DTEND:20270723T182302Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:51:02 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 29° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-kavalur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180018Z
+DTEND:20270810T180218Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:18 at the dark limb
+  IST\, seen from Kavalur.\nThe Moon is 15° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60847c4aad10-kavalur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230938Z
+DTEND:20270824T231138Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:39:38 at the dark limb I
+ ST\, seen from Kavalur.\nThe Moon is 69° up in the NE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kavalur@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223013Z
+DTEND:20280121T233457Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:00:13 and reappears at 05:04:57 IST\, 
+ seen from Kavalur.\nThe Moon is 11° up in the ESE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Kavalur
+URL:https://occult.alokm.com/antares-2028-01-22?city=Kavalur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-kavalur@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234947Z
+DTEND:20280413T000205Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:19:47 and reappears at 05:32:05 IST\, 
+ seen from Kavalur.\nThe Moon is 41° up in the SW · dusk.\nTimes against 
+ the real lunar limb.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/antares-2028-04-12?city=Kavalur
+URL:https://occult.alokm.com/antares-2028-04-12?city=Kavalur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

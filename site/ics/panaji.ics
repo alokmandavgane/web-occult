@@ -1,0 +1,574 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Panaji
+X-WR-CALDESC:Lunar occultations you can see from Panaji\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-panaji@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114317Z
+DTEND:20260914T130111Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:15:47 and reappears at 18:28:58 IST\, se
+ en from Panaji.\nThe Moon is 42° up in the SW · daylight\, Sun +19°.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?city=Panaji
+URL:https://occult.alokm.com/venus-2026-09-14?city=Panaji
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc17ca8a3837-panaji@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161002Z
+DTEND:20260930T161202Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:40:02 at the d
+ ark limb IST\, seen from Panaji.\nThe Moon is 5° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202317Z
+DTEND:20261102T202517Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:17 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 9° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e80195bf7850-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144353Z
+DTEND:20261115T144553Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:13:53 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 32° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d915561f32b-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155423Z
+DTEND:20261116T155623Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:24:23 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 30° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1df4b017297-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163337Z
+DTEND:20261127T163537Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:03:37 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 13° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-516ae21d2071-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201016Z
+DTEND:20261128T201216Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:40:16 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 47° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-feb6a23ca3e2-panaji@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230114Z
+DTEND:20261130T230314Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:31:14 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 62° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a78421fed6c6-panaji@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133210Z
+DTEND:20261212T133410Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:02:10 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 22° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12c4f82ad3a9-panaji@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144935Z
+DTEND:20261212T145135Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:19:35 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 6° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a973a3114e3-panaji@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202805Z
+DTEND:20261223T203005Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:58:05 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 64° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-605a5d4ae905-panaji@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164459Z
+DTEND:20270113T164659Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:14:59 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 8° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b1cd6bffe6b-panaji@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193707Z
+DTEND:20270118T193907Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:07:07 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 31° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e44e40bc143d-panaji@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135551Z
+DTEND:20270121T135751Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:25:51 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 27° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0d41630073c-panaji@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225938Z
+DTEND:20270124T230138Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:29:38 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 65° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa71acdbdb0d-panaji@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162710Z
+DTEND:20270125T162910Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:57:10 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 6° up in the E · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b83708ee0a32-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T003823Z
+DTEND:20270204T004023Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:08:23 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 9° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19d0aefd1ee9-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142624Z
+DTEND:20270212T142824Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:56:24 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 46° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6437cf6f95a-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144143Z
+DTEND:20270214T144343Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:11:43 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 66° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5bf4bea1583-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155152Z
+DTEND:20270216T155352Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:21:52 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 74° up in the NW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35d3b63ca18d-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171207Z
+DTEND:20270216T171407Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:42:07 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 60° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-222c2e163cec-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214312Z
+DTEND:20270220T214512Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:13:12 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 53° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5def6841a388-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220715Z
+DTEND:20270221T220915Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:37:15 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 57° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-panaji@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201333Z
+DTEND:20270227T201533Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:33 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 12° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc9abc4bb736-panaji@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224929Z
+DTEND:20270326T225129Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:19:29 at the dark limb IS
+ T\, seen from Panaji.\nThe Moon is 48° up in the S · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be913358c1a9-panaji@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000729Z
+DTEND:20270402T000929Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:37:29 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 29° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e19be25e09b2-panaji@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142444Z
+DTEND:20270414T142644Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:54:44 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 81° up in the NW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-panaji@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150643Z
+DTEND:20270520T150843Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:43 at the dark limb IS
+ T\, seen from Panaji.\nThe Moon is 18° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-215911a9207e-panaji@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173855Z
+DTEND:20270520T184602Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:08:55 at the bright lim
+ b and reappears at 00:16:02 at the dark limb IST\, seen from Panaji.\nThe 
+ Moon is 43° up in the SSE · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-665a1beedf3c-panaji@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165452Z
+DTEND:20270609T165652Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:24:52 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 14° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b86024b8f99-panaji@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172421Z
+DTEND:20270609T172621Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:54:21 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 7° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa7c1e0e8c7a-panaji@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130508Z
+DTEND:20270617T130708Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:35:08 at the b
+ right limb IST\, seen from Panaji.\nThe Moon is 8° up in the ESE · dayli
+ ght\, Sun +6°. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d91b2907e59e-panaji@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223837Z
+DTEND:20270620T224037Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:08:37 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 40° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75ff4f1facb5-panaji@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175108Z
+DTEND:20270710T175308Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:21:08 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 10° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ea16b556033-panaji@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213545Z
+DTEND:20270716T213745Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:05:45 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 20° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-420130944448-panaji@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181026Z
+DTEND:20270723T181226Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:40:26 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 21° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac815c4147a4-panaji@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T155237Z
+DTEND:20270806T155437Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:22:37 at the dark limb 
+ IST\, seen from Panaji.\nThe Moon is 9° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-panaji@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175409Z
+DTEND:20270810T175609Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:09 at the dark limb
+  IST\, seen from Panaji.\nThe Moon is 19° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bb982fd95bf-panaji@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231311Z
+DTEND:20270824T231511Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:43:11 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 67° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f24a98974649-panaji@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235310Z
+DTEND:20270827T235510Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:23:10 at the dark limb I
+ ST\, seen from Panaji.\nThe Moon is 37° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-panaji@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222829Z
+DTEND:20280121T232956Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:29 and reappears at 04:59:56 IST\, 
+ seen from Panaji.\nThe Moon is 5° up in the ESE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Panaji
+URL:https://occult.alokm.com/antares-2028-01-22?city=Panaji
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-panaji@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T231456Z
+DTEND:20280413T001210Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:44:56 and reappears at 05:42:10 IST\, 
+ seen from Panaji.\nThe Moon is 45° up in the SSW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Panaji
+URL:https://occult.alokm.com/antares-2028-04-12?city=Panaji
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

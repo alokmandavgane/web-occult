@@ -1,0 +1,495 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Ciudad Juárez\, MX
+X-WR-CALDESC:Lunar occultations you can see from Ciudad Juárez\, MX\, comp
+ uted by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Ciudad_Juarez
+BEGIN:VEVENT
+UID:star-dcc8e379460e-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T025827Z
+DTEND:20260916T030027Z
+SUMMARY:The Moon hides HR 5655 · mag 6.5
+DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 20:58:27 at the dark limb
+  MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 7° up in the SW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2403d91585c1-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T051352Z
+DTEND:20260923T051552Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 23:13:52 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 40° up in the SSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55e727fd8464-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T122543Z
+DTEND:20261004T122743Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 06:25:43 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 68° up in the ESE · dus
+ k. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7772a82373cc-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T104850Z
+DTEND:20261005T105050Z
+SUMMARY:The Moon hides 39 Cnc · mag 6.4
+DESCRIPTION:39 Cnc (magnitude 6.4) reappears at 04:48:50 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 35° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T081637Z
+DTEND:20261006T091042Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:17:30 and reappears at 03:09:45 MDT\, 
+ seen from Ciudad Juárez\, MX.\nThe Moon is -8° up in the ENE · dark sky
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ciudad%20Ju%C
+ 3%A1rez%2C%20MX
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ciudad%20Ju%C3%A1rez%2
+ C%20MX
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c56d8ea0d4c2-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T094455Z
+DTEND:20261031T094655Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:44:55 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 61° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6bfab3e4a5a4-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T030832Z
+DTEND:20261115T031032Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 20:08:32 at the dark limb
+  MST\, seen from Ciudad Juárez\, MX.\nThe Moon is 13° up in the SW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db486f747ee8-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261124T121705Z
+DTEND:20261124T121905Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 05:17:05 at the 
+ dark limb MST\, seen from Ciudad Juárez\, MX.\nThe Moon is 17° up in the
+  WNW · dark sky. Binoculars show it.\nEvery occultation this month\, for 
+ anywhere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2add05387b61-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261126T095255Z
+DTEND:20261126T095455Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 02:52:55 at the dark limb 
+ MST\, seen from Ciudad Juárez\, MX.\nThe Moon is 74° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-03e3f5db0b7f-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T123050Z
+DTEND:20261228T123250Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 05:30:50 at the dark limb M
+ ST\, seen from Ciudad Juárez\, MX.\nThe Moon is 59° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b4e734fa4711-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T065744Z
+DTEND:20261229T065944Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:57:44 at the dark limb M
+ ST\, seen from Ciudad Juárez\, MX.\nThe Moon is 14° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ca6f31fa7bb-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T105234Z
+DTEND:20270124T105434Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 03:52:34 at the dark limb M
+ ST\, seen from Ciudad Juárez\, MX.\nThe Moon is 56° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9478b32a0f83-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T101645Z
+DTEND:20270125T101845Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:16:45 at the dark limb M
+ ST\, seen from Ciudad Juárez\, MX.\nThe Moon is 61° up in the SSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64cd9cff8b1b-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270128T122827Z
+DTEND:20270128T123027Z
+SUMMARY:The Moon hides 75 Vir · mag 5.5
+DESCRIPTION:75 Vir (magnitude 5.5) reappears at 05:28:27 at the dark limb M
+ ST\, seen from Ciudad Juárez\, MX.\nThe Moon is 42° up in the S · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a8fb935c1e3-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270130T123541Z
+DTEND:20270130T123741Z
+SUMMARY:The Moon hides HR 5655 · mag 6.5
+DESCRIPTION:HR 5655 (magnitude 6.5) reappears at 05:35:41 at the dark limb 
+ MST\, seen from Ciudad Juárez\, MX.\nThe Moon is 32° up in the SSE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15787fd6257d-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270219T111054Z
+DTEND:20270219T111254Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 04:10:54 at the dark limb 
+ MST\, seen from Ciudad Juárez\, MX.\nThe Moon is 19° up in the W · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7081ba7f114f-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270317T072025Z
+DTEND:20270317T072225Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 01:20:25 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 29° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be2ab8ad8046-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270320T064320Z
+DTEND:20270320T064520Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 00:43:20 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 62° up in the SW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aefaa9369b5f-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T063855Z
+DTEND:20270321T064055Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 00:38:55 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 61° up in the SSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b13fc9973e75-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T051202Z
+DTEND:20270413T051402Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 23:12:02 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 30° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b8eb363ff74-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T065706Z
+DTEND:20270423T065906Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:57:06 at the dark limb MD
+ T\, seen from Ciudad Juárez\, MX.\nThe Moon is 26° up in the SSE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ecbe2d54bcc-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T105951Z
+DTEND:20270423T110151Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 04:59:51 at the bright lim
+ b MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 25° up in the SSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e55e1dc260eb-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T101953Z
+DTEND:20270425T102153Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 04:19:53 at the dark limb MD
+ T\, seen from Ciudad Juárez\, MX.\nThe Moon is 30° up in the S · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c9c8ce39938-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270501T110622Z
+DTEND:20270501T110822Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) reappears at 05:06:22 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 20° up in the ESE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec24f83e2b92-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270508T023536Z
+DTEND:20270508T023736Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 20:35:36 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 11° up in the WNW · du
+ sk. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4a5ea3f5119-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T055935Z
+DTEND:20270511T060135Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 23:59:35 at the dark limb
+  MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 7° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-009c24fa6f52-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T101904Z
+DTEND:20270524T102104Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 04:19:04 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 33° up in the S · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c1ca02d9b52-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T024048Z
+DTEND:20270609T024248Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 20:40:48 at the dark limb
+  MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 40° up in the W · dus
+ k. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2afdb4f257f3-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T060441Z
+DTEND:20270620T072115Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 00:04:41 at the br
+ ight limb and reappears at 01:21:15 at the dark limb MDT\, seen from Ciuda
+ d Juárez\, MX.\nThe Moon is 25° up in the SSE · dark sky. Binoculars sh
+ ow it.\nEvery occultation this month\, for anywhere: https://occult.alokm.
+ com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52d41a9f15a1-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270709T044241Z
+DTEND:20270709T044441Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 22:42:41 at the dark limb
+  MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 10° up in the W · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-542f0f514049-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T073809Z
+DTEND:20270714T074009Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:38:09 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 8° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f0afac8ad29-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T070551Z
+DTEND:20270716T070751Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 01:05:51 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 25° up in the SSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f5830155a6d9-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T045114Z
+DTEND:20270720T045314Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:51:14 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 20° up in the SE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cde2776b2584-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T074336Z
+DTEND:20270727T074536Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 01:43:36 at the dark limb M
+ DT\, seen from Ciudad Juárez\, MX.\nThe Moon is 15° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-157c6bd0bab1-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T041258Z
+DTEND:20270814T041458Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:12:58 at the dark limb 
+ MDT\, seen from Ciudad Juárez\, MX.\nThe Moon is 32° up in the S · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2029-10-11-ciudad-juarez-mx@occult.alokm.com
+DTSTAMP:20260914T040658Z
+DTSTART:20291011T024232Z
+DTEND:20291011T031938Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 20:43:47 and reappears at 21:18:28 MDT\, se
+ en from Ciudad Juárez\, MX.\nThe Moon is 1° up in the WSW · dark sky.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2029-10-11?city=Ciudad%20Ju%C3%A1r
+ ez%2C%20MX
+URL:https://occult.alokm.com/venus-2029-10-11?city=Ciudad%20Ju%C3%A1rez%2C%
+ 20MX
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

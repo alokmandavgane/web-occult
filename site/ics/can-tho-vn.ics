@@ -1,0 +1,549 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Cần Thơ\, VN
+X-WR-CALDESC:Lunar occultations you can see from Cần Thơ\, VN\, computed
+  by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-can-tho-vn@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123345Z
+DTEND:20260914T133938Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 19:35:09 and reappears at 20:38:24 +07\, se
+ en from Cần Thơ\, VN.\nThe Moon is 7° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/venus-2026-09-14?lat=10.0371&lon=105.7883
+URL:https://occult.alokm.com/venus-2026-09-14?lat=10.0371&lon=105.7883
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be8cd09a0028-can-tho-vn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260918T143750Z
+DTEND:20260918T143950Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:37:50 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 19° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd8ca1ec3160-can-tho-vn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T161908Z
+DTEND:20260920T162108Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 23:19:08 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 20° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f9d1c3b2b52-can-tho-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T131843Z
+DTEND:20261016T132043Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 20:18:43 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 20° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-191c3ff7eb3a-can-tho-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T144605Z
+DTEND:20261017T144805Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:46:05 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 13° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-86a08242eb82-can-tho-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T204810Z
+DTEND:20261102T205010Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 03:48:10 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 44° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-can-tho-vn@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T214323Z
+DTEND:20261102T221031Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:49:46 and reappears at 05:04:00 +07\, 
+ seen from Cần Thơ\, VN.\nThe Moon is 59° up · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/jupiter-2026-11-02?lat=10.0371&lon=105.7883
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=10.0371&lon=105.7883
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cda6d30e70d2-can-tho-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T154249Z
+DTEND:20261116T154449Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 22:42:49 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 6° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e7261ff7a8e-can-tho-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T170047Z
+DTEND:20261127T170247Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 00:00:47 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 46° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ce7322c6160-can-tho-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T214552Z
+DTEND:20261128T214752Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:45:52 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 75° up in the NW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5c80f70d6bb-can-tho-vn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T150536Z
+DTEND:20261217T150736Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 22:05:36 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 30° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25140780ec25-can-tho-vn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T212120Z
+DTEND:20261223T212320Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 04:21:20 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 22° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08bd1c608f10-can-tho-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T114934Z
+DTEND:20270116T115134Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 18:49:34 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 78° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7979a6f6b9c9-can-tho-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T145047Z
+DTEND:20270121T145247Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 21:50:47 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 64° up in the NE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec89d06ffce3-can-tho-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T165523Z
+DTEND:20270125T165723Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:55:23 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 44° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab819d6db53f-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T145255Z
+DTEND:20270212T145455Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 21:52:55 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 8° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a60adbb1ca15-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T154214Z
+DTEND:20270214T154414Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:42:14 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 22° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0232dc38b274-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T175720Z
+DTEND:20270216T175920Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 00:57:20 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 19° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be9ed6881776-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T221453Z
+DTEND:20270220T221653Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:14:53 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 13° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f5378fcb127-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T174514Z
+DTEND:20270227T174714Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 00:45:14 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 11° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97b1f59912aa-can-tho-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T203904Z
+DTEND:20270227T204104Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 03:39:04 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 43° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5225db643d9-can-tho-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T205548Z
+DTEND:20270301T205748Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 03:55:48 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 28° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-609f519a185c-can-tho-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T122243Z
+DTEND:20270318T122443Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 19:22:43 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 67° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85b45fece7ba-can-tho-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T122039Z
+DTEND:20270413T122239Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:20:39 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 63° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b3ca6c4046b-can-tho-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T151657Z
+DTEND:20270414T151857Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:16:57 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 39° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd01bd0914c7-can-tho-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T140614Z
+DTEND:20270416T140814Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:06:14 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 81° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9ba44ebeacc-can-tho-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T143217Z
+DTEND:20270417T143417Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 21:32:17 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 82° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8711f7cd24aa-can-tho-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T190634Z
+DTEND:20270520T200953Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:06:34 at the bright lim
+ b and reappears at 03:09:53 at the bright limb +07\, seen from Cần Thơ\
+ , VN.\nThe Moon is 43° up in the SW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-36ccc85f0fa6-can-tho-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T174804Z
+DTEND:20270522T175004Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 00:48:04 at the dark limb +0
+ 7\, seen from Cần Thơ\, VN.\nThe Moon is 50° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1239faaecc8a-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T125211Z
+DTEND:20270607T125411Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 19:52:11 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 14° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09ff6cd29359-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T142039Z
+DTEND:20270608T142239Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 21:20:39 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 6° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13fa6ed7b4bb-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T142912Z
+DTEND:20270611T143112Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 21:29:12 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 37° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-10a40f2e1f84-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T131610Z
+DTEND:20270619T131810Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 20:16:10 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 19° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f7ab00da320-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T153813Z
+DTEND:20270620T154013Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 22:38:13 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 37° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb43e6bcab0a-can-tho-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270626T165319Z
+DTEND:20270626T165519Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:53:19 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 6° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3fc13777e1fe-can-tho-vn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270706T115050Z
+DTEND:20270706T115250Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 18:50:50 at the dark limb
+  +07\, seen from Cần Thơ\, VN.\nThe Moon is 23° up in the WNW · dusk.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c4810804207-can-tho-vn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T135405Z
+DTEND:20270708T135605Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 20:54:05 at the dark limb 
+ +07\, seen from Cần Thơ\, VN.\nThe Moon is 16° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-183e05261dfd-can-tho-vn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T190959Z
+DTEND:20270723T191159Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:09:59 at the dark limb +
+ 07\, seen from Cần Thơ\, VN.\nThe Moon is 67° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-67205b54c732-can-tho-vn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T124804Z
+DTEND:20270810T142728Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:48:04 at the dark limb 
+ and reappears at 21:27:28 at the bright limb +07\, seen from Cần Thơ\, 
+ VN.\nThe Moon is 50° up in the SSW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-can-tho-vn@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T225902Z
+DTEND:20280122T002806Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:59:02 and reappears at 07:28:06 +07\, 
+ seen from Cần Thơ\, VN.\nThe Moon is 39° up · twilight.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-01-22?lat=10.0371&lon=105.7883
+URL:https://occult.alokm.com/antares-2028-01-22?lat=10.0371&lon=105.7883
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

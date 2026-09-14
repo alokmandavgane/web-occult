@@ -1,0 +1,580 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Nellore
+X-WR-CALDESC:Lunar occultations you can see from Nellore\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-f781ed4d540e-nellore@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T231854Z
+DTEND:20260908T232054Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:48:54 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 9° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-nellore@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115942Z
+DTEND:20260914T131343Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:31:55 and reappears at 18:41:43 IST\, se
+ en from Nellore.\nThe Moon is 35° up in the WSW · daylight\, Sun +9°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?city=Nellore
+URL:https://occult.alokm.com/venus-2026-09-14?city=Nellore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-210d4bb97c06-nellore@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160214Z
+DTEND:20260930T160414Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:32:14 at the d
+ ark limb IST\, seen from Nellore.\nThe Moon is 9° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-154f83283a7b-nellore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T130818Z
+DTEND:20261016T131018Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 18:38:18 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 37° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-115ce6f475b0-nellore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T124333Z
+DTEND:20261020T124533Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:13:33 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 53° up in the SE · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a4e485d8405-nellore@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132540Z
+DTEND:20261021T132740Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:55:40 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 57° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202433Z
+DTEND:20261102T202633Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:33 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 14° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-nellore@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T210610Z
+DTEND:20261102T212921Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:40:41 and reappears at 02:54:33 IST\, 
+ seen from Nellore.\nThe Moon is 25° up in the E · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/jupiter-2026-11-02?city=Nellore
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Nellore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f3b7e3b87253-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144756Z
+DTEND:20261115T144956Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:17:56 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 27° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8381dc0a73c-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155709Z
+DTEND:20261116T155909Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:27:09 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 25° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163753Z
+DTEND:20261127T163953Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:07:53 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 19° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7a5921846f4-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202050Z
+DTEND:20261128T202250Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:50:50 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 55° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c2a75824667b-nellore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231853Z
+DTEND:20261130T232053Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:48:53 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 72° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8449466aa522-nellore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133531Z
+DTEND:20261212T133731Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:05:31 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 17° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4700c7c010f-nellore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204119Z
+DTEND:20261223T204319Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:11:19 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 56° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34838a6ae273-nellore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194633Z
+DTEND:20270118T194833Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:16:33 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 23° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ddd99c21fee-nellore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140013Z
+DTEND:20270121T140213Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:30:13 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 33° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-36ae186011be-nellore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231005Z
+DTEND:20270124T231205Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:40:05 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 57° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-nellore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162916Z
+DTEND:20270125T163116Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:16 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 12° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de45689588cf-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T223429Z
+DTEND:20270201T223629Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:04:29 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 9° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9d7d1e716fc-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T143152Z
+DTEND:20270212T143352Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:01:52 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 39° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cff5de1425f2-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T145533Z
+DTEND:20270214T145733Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:25:33 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 57° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-584efbcfaa23-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161020Z
+DTEND:20270216T161220Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:40:20 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 66° up in the NW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49a6330a566b-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172357Z
+DTEND:20270216T172557Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:53:57 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 51° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b64ea98028e-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215125Z
+DTEND:20270220T215325Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:21:25 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 45° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cfbf8ff5ac99-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221517Z
+DTEND:20270221T221717Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:45:17 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 49° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46e4151d4e86-nellore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201701Z
+DTEND:20270227T201901Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:47:01 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 18° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7cac097714b3-nellore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220239Z
+DTEND:20270302T220439Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:32:39 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 8° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ffeb27ab6d3-nellore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230808Z
+DTEND:20270326T231008Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:38:08 at the dark limb IS
+ T\, seen from Nellore.\nThe Moon is 48° up in the SSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b620f98acc7-nellore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143509Z
+DTEND:20270414T143709Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:05:09 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 73° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9bc1c57a7a14-nellore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T135608Z
+DTEND:20270417T135808Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:26:08 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 58° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea2a5bb8c493-nellore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151023Z
+DTEND:20270520T151223Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:40:23 at the dark limb IS
+ T\, seen from Nellore.\nThe Moon is 24° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55041e00df20-nellore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174844Z
+DTEND:20270520T190825Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:18:44 at the bright lim
+ b and reappears at 00:38:25 at the dark limb IST\, seen from Nellore.\nThe
+  Moon is 47° up in the SSE · dark sky. Binoculars show it.\nEvery occult
+ ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-
+ 05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7cbf3fe04e-nellore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135513Z
+DTEND:20270608T135713Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:25:13 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 38° up in the WNW · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-nellore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165742Z
+DTEND:20270609T165942Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:42 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 7° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9ded0ffc0605-nellore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T122705Z
+DTEND:20270617T130159Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 17:57:05 at the 
+ dark limb and reappears at 18:31:59 at the bright limb IST\, seen from Nel
+ lore.\nThe Moon is 6° up in the ESE · daylight\, Sun +9°. Binoculars sh
+ ow it.\nEvery occultation this month\, for anywhere: https://occult.alokm.
+ com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-caeac42f1d51-nellore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224322Z
+DTEND:20270620T224522Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:13:22 at the dark limb 
+ IST\, seen from Nellore.\nThe Moon is 36° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73f95c8e3130-nellore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182243Z
+DTEND:20270723T182443Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:52:43 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 30° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-nellore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180022Z
+DTEND:20270810T180222Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:22 at the dark limb
+  IST\, seen from Nellore.\nThe Moon is 13° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8a97784f52c-nellore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231811Z
+DTEND:20270824T232011Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:48:11 at the dark limb I
+ ST\, seen from Nellore.\nThe Moon is 73° up in the NE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-nellore@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222855Z
+DTEND:20280121T233724Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:55 and reappears at 05:07:24 IST\, 
+ seen from Nellore.\nThe Moon is 11° up in the ESE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Nellore
+URL:https://occult.alokm.com/antares-2028-01-22?city=Nellore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-nellore@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234004Z
+DTEND:20280413T001512Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:10:04 and reappears at 05:45:12 IST\, 
+ seen from Nellore.\nThe Moon is 40° up in the SW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Nellore
+URL:https://occult.alokm.com/antares-2028-04-12?city=Nellore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,477 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Cairo\, EG
+X-WR-CALDESC:Lunar occultations you can see from Cairo\, EG\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Cairo
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-cairo-eg@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T094222Z
+DTEND:20260914T110921Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:43:59 and reappears at 14:07:33 EEST\, s
+ een from Cairo\, EG.\nThe Moon is 31° up · daylight\, Sun +63°.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?lat=30.0626&lon=31.2497
+URL:https://occult.alokm.com/venus-2026-09-14?lat=30.0626&lon=31.2497
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1a6273768197-cairo-eg@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T203433Z
+DTEND:20260923T203633Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:34:33 at the dark limb 
+ EEST\, seen from Cairo\, EG.\nThe Moon is 44° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96ad05ea9552-cairo-eg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T191502Z
+DTEND:20261018T191702Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:15:02 at the dark limb
+  EEST\, seen from Cairo\, EG.\nThe Moon is 19° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f66d17649c86-cairo-eg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T002338Z
+DTEND:20261030T002538Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 02:23:38 at the dark limb 
+ EET\, seen from Cairo\, EG.\nThe Moon is 78° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6346872f2e9-cairo-eg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T235957Z
+DTEND:20261103T000157Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 01:59:57 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 19° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f13f71b4e5fc-cairo-eg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T031659Z
+DTEND:20261104T031859Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 05:16:59 at the dark limb 
+ EET\, seen from Cairo\, EG.\nThe Moon is 47° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2af6ffe7e76f-cairo-eg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T193856Z
+DTEND:20261128T194056Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 21:38:56 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 6° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62addc4f0f41-cairo-eg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T220944Z
+DTEND:20261130T221144Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 00:09:44 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 10° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b1e8496db3bd-cairo-eg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T160020Z
+DTEND:20261214T160220Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 18:00:20 at the dark limb 
+ EET\, seen from Cairo\, EG.\nThe Moon is 38° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cf0579375b1-cairo-eg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T211517Z
+DTEND:20270124T211717Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 23:15:17 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 42° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f5365de3bbf3-cairo-eg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T190053Z
+DTEND:20270214T190253Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 21:00:53 at the dark limb
+  EET\, seen from Cairo\, EG.\nThe Moon is 52° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-51bf56764830-cairo-eg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T202648Z
+DTEND:20270221T202848Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 22:26:48 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 47° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-642134d6d7ec-cairo-eg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T235027Z
+DTEND:20270316T235227Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 01:50:27 at the dark limb 
+ EET\, seen from Cairo\, EG.\nThe Moon is 5° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38273060fa25-cairo-eg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T213300Z
+DTEND:20270326T213500Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 23:33:00 at the dark limb EE
+ T\, seen from Cairo\, EG.\nThe Moon is 10° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69d6a005fef5-cairo-eg@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T230935Z
+DTEND:20270424T231135Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 01:09:35 at the dark limb E
+ ET\, seen from Cairo\, EG.\nThe Moon is 25° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9eb3a8641866-cairo-eg@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270426T235040Z
+DTEND:20270426T235240Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 01:50:40 at the dark limb 
+ EET\, seen from Cairo\, EG.\nThe Moon is 20° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d40cc6c7eadb-cairo-eg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T180442Z
+DTEND:20270510T180642Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:04:42 at the dark limb 
+ EEST\, seen from Cairo\, EG.\nThe Moon is 35° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a21091e30a7e-cairo-eg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T203353Z
+DTEND:20270512T203553Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:33:53 at the dark limb
+  EEST\, seen from Cairo\, EG.\nThe Moon is 24° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df278802d7d9-cairo-eg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T231619Z
+DTEND:20270524T005058Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:16:19 at the br
+ ight limb and reappears at 03:50:58 at the dark limb EEST\, seen from Cair
+ o\, EG.\nThe Moon is 30° up in the SSE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e6863cbbd92-cairo-eg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T185643Z
+DTEND:20270610T185843Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 21:56:43 at the dark limb 
+ EEST\, seen from Cairo\, EG.\nThe Moon is 34° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4623d3a27ddf-cairo-eg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T214305Z
+DTEND:20270616T214505Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 00:43:05 at the dark limb E
+ EST\, seen from Cairo\, EG.\nThe Moon is 29° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-289ba2479c4d-cairo-eg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T203201Z
+DTEND:20270620T203401Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 23:32:01 at the dark limb 
+ EEST\, seen from Cairo\, EG.\nThe Moon is 21° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2922a5899808-cairo-eg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T230716Z
+DTEND:20270622T230916Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:07:16 at the dark limb E
+ EST\, seen from Cairo\, EG.\nThe Moon is 36° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2808c6185303-cairo-eg@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T231516Z
+DTEND:20270717T231716Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 02:15:16 at the dark limb 
+ EEST\, seen from Cairo\, EG.\nThe Moon is 29° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42da58477142-cairo-eg@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T011252Z
+DTEND:20270724T011452Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 04:12:52 at the dark limb E
+ EST\, seen from Cairo\, EG.\nThe Moon is 62° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8200ac66c62b-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T184943Z
+DTEND:20270813T200135Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 21:49:43 at the da
+ rk limb and reappears at 23:01:35 at the bright limb EEST\, seen from Cair
+ o\, EG.\nThe Moon is 33° up in the S · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73d330de29d0-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T215655Z
+DTEND:20270824T215855Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:56:55 at the d
+ ark limb EEST\, seen from Cairo\, EG.\nThe Moon is 17° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1886f4480390-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221708Z
+DTEND:20270824T221908Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:17:08 at the dark limb E
+ EST\, seen from Cairo\, EG.\nThe Moon is 22° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9fc8e396e3b-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223352Z
+DTEND:20270824T223552Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:33:52 at the d
+ ark limb EEST\, seen from Cairo\, EG.\nThe Moon is 25° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95764f07b009-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224423Z
+DTEND:20270824T224623Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:44:23 at the dark
+  limb EEST\, seen from Cairo\, EG.\nThe Moon is 27° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab5388a1d856-cairo-eg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225347Z
+DTEND:20270824T225547Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 01:53:47 at the dark limb E
+ EST\, seen from Cairo\, EG.\nThe Moon is 29° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-cairo-eg@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T121124Z
+DTEND:20271229T134440Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:11:39 and reappears at 15:44:29 EET\, see
+ n from Cairo\, EG.\nThe Moon is 36° up in the SSW · daylight\, Sun +28°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Cairo%2C%20EG
+URL:https://occult.alokm.com/mars-2027-12-29?city=Cairo%2C%20EG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-cairo-eg@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T123044Z
+DTEND:20280330T134111Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 14:30:44 and reappears at 15:41:11 EET\, 
+ seen from Cairo\, EG.\nThe Moon is 80° up · daylight\, Sun +46°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=30.0626&lon=31.24
+ 97
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=30.0626&lon=31.2497
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-cairo-eg@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T214435Z
+DTEND:20280412T223325Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 23:44:35 and reappears at 00:33:25 EET\, 
+ seen from Cairo\, EG.\nThe Moon is 17° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?lat=30.0626&lon=31.2497
+URL:https://occult.alokm.com/antares-2028-04-12?lat=30.0626&lon=31.2497
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

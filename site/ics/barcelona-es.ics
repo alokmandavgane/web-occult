@@ -1,0 +1,494 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Barcelona\, ES
+X-WR-CALDESC:Lunar occultations you can see from Barcelona\, ES\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-barcelona-es@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T092554Z
+DTEND:20260914T102949Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:27:18 and reappears at 12:28:18 CEST\, s
+ een from Barcelona\, ES.\nThe Moon is 2° up · daylight\, Sun +41°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?lat=41.3888&lon=2.159
+ 0
+URL:https://occult.alokm.com/venus-2026-09-14?lat=41.3888&lon=2.1590
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-10a957ad7533-barcelona-es@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260929T220146Z
+DTEND:20260929T220346Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 00:01:46 at the dark limb C
+ EST\, seen from Barcelona\, ES.\nThe Moon is 33° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70eae9211eb7-barcelona-es@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T011812Z
+DTEND:20261028T012012Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:18:12 at the d
+ ark limb CET\, seen from Barcelona\, ES.\nThe Moon is 73° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42f415b0b3a1-barcelona-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T022528Z
+DTEND:20261101T022728Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 03:25:28 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 49° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eda8f7a1731a-barcelona-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T024712Z
+DTEND:20261104T024912Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 03:47:12 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 15° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0136c6f32b15-barcelona-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T181458Z
+DTEND:20261114T181658Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 19:14:58 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 16° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5c70a756ad8-barcelona-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T183701Z
+DTEND:20261116T183901Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 19:37:01 at the dark limb
+  CET\, seen from Barcelona\, ES.\nThe Moon is 29° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d1e13aef8c1-barcelona-es@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T041651Z
+DTEND:20261205T041851Z
+SUMMARY:The Moon hides 83 Vir · mag 5.6
+DESCRIPTION:83 Vir (magnitude 5.6) reappears at 05:16:51 at the dark limb C
+ ET\, seen from Barcelona\, ES.\nThe Moon is 6° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0eca9d52d765-barcelona-es@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T231018Z
+DTEND:20261228T231218Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:10:18 at the dark limb C
+ ET\, seen from Barcelona\, ES.\nThe Moon is 11° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f6728f1cdb42-barcelona-es@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T195209Z
+DTEND:20270113T195409Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 20:52:09 at the dark limb
+  CET\, seen from Barcelona\, ES.\nThe Moon is 26° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-738eab73b34b-barcelona-es@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T205949Z
+DTEND:20270124T210149Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 21:59:49 at the dark limb C
+ ET\, seen from Barcelona\, ES.\nThe Moon is 13° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4e1affe366a-barcelona-es@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T043121Z
+DTEND:20270201T043321Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) reappears at 05:31:21 at the dark lim
+ b CET\, seen from Barcelona\, ES.\nThe Moon is 7° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ea5ffaf58a4-barcelona-es@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200321Z
+DTEND:20270221T200521Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 21:03:21 at the dark limb C
+ ET\, seen from Barcelona\, ES.\nThe Moon is 16° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a837a6e0d4ab-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223131Z
+DTEND:20270313T223331Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:31:31 at the 
+ dark limb CET\, seen from Barcelona\, ES.\nThe Moon is 13° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5629eb21eaf0-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T224525Z
+DTEND:20270313T224725Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 23:45:25 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 10° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33929963d3fa-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T224529Z
+DTEND:20270313T224729Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 23:45:29 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 10° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e9b51addc25-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T224920Z
+DTEND:20270313T225120Z
+SUMMARY:The Moon hides 22 Tau · mag 6.5
+DESCRIPTION:22 Tau (magnitude 6.5) disappears at 23:49:20 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 10° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15a2b8b68ee8-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T225702Z
+DTEND:20270313T225902Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 23:57:02 at the dar
+ k limb CET\, seen from Barcelona\, ES.\nThe Moon is 8° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca423f7d5868-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T233438Z
+DTEND:20270316T233638Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:34:38 at the dark limb 
+ CET\, seen from Barcelona\, ES.\nThe Moon is 34° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d7904b5328ce-barcelona-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T002950Z
+DTEND:20270327T011403Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:29:50 at the bright lim
+ b and reappears at 02:14:03 at the dark limb CET\, seen from Barcelona\, E
+ S.\nThe Moon is 10° up in the SE · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfef8b343bdb-barcelona-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T230605Z
+DTEND:20270413T230805Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 01:06:05 at the dark limb
+  CEST\, seen from Barcelona\, ES.\nThe Moon is 26° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1913d81e75db-barcelona-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T002223Z
+DTEND:20270414T002423Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 02:22:23 at the dark limb
+  CEST\, seen from Barcelona\, ES.\nThe Moon is 12° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89d0ca60fb34-barcelona-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T013014Z
+DTEND:20270415T013214Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:30:14 at the dark limb 
+ CEST\, seen from Barcelona\, ES.\nThe Moon is 7° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-acf6d844e54e-barcelona-es@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T003956Z
+DTEND:20270515T004156Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 02:39:56 at the dark limb 
+ CEST\, seen from Barcelona\, ES.\nThe Moon is 10° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4b511619cd0-barcelona-es@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T235810Z
+DTEND:20270524T000010Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 01:58:10 at the dar
+ k limb CEST\, seen from Barcelona\, ES.\nThe Moon is 12° up in the SE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0db1052897f6-barcelona-es@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T013857Z
+DTEND:20270617T014057Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 03:38:57 at the dark limb 
+ CEST\, seen from Barcelona\, ES.\nThe Moon is 7° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2f7f31cb4d-barcelona-es@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T003850Z
+DTEND:20270619T004050Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 02:38:50 at the dark limb C
+ EST\, seen from Barcelona\, ES.\nThe Moon is 20° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e88aaf399289-barcelona-es@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T224152Z
+DTEND:20270622T224352Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 00:41:52 at the dark limb C
+ EST\, seen from Barcelona\, ES.\nThe Moon is 7° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce5b6e7251c4-barcelona-es@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T220051Z
+DTEND:20270717T220251Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 00:00:51 at the dark limb 
+ CEST\, seen from Barcelona\, ES.\nThe Moon is 20° up in the SSE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2c0ea99781f7-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T015407Z
+DTEND:20270820T015607Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:54:07 at the dark limb C
+ EST\, seen from Barcelona\, ES.\nThe Moon is 50° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a10ed1cce9d-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223227Z
+DTEND:20270824T223427Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:32:27 at the dark limb C
+ EST\, seen from Barcelona\, ES.\nThe Moon is 6° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9254dc6d062e-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223447Z
+DTEND:20270824T223647Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:34:47 at the d
+ ark limb CEST\, seen from Barcelona\, ES.\nThe Moon is 7° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37b9ec9ae434-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223839Z
+DTEND:20270824T224039Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 00:38:39 at the da
+ rk limb CEST\, seen from Barcelona\, ES.\nThe Moon is 7° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c63cc38bc71-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224630Z
+DTEND:20270824T232240Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 00:46:30 at the 
+ bright limb and reappears at 01:22:40 at the dark limb CEST\, seen from Ba
+ rcelona\, ES.\nThe Moon is 9° up in the ENE · dark sky. Binoculars show 
+ it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
+ /moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d6fe059610f-barcelona-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225607Z
+DTEND:20270824T225807Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:56:07 at the dark
+  limb CEST\, seen from Barcelona\, ES.\nThe Moon is 10° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-barcelona-es@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T115754Z
+DTEND:20280330T125829Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 13:57:54 and reappears at 14:58:29 CEST\,
+  seen from Barcelona\, ES.\nThe Moon is 47° up · daylight\, Sun +53°.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=41.3888&lon=
+ 2.1590
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=41.3888&lon=2.1590
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

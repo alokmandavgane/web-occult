@@ -1,0 +1,512 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Budapest\, HU
+X-WR-CALDESC:Lunar occultations you can see from Budapest\, HU\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Budapest
+BEGIN:VEVENT
+UID:star-3f44f650412f-budapest-hu@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T013457Z
+DTEND:20260908T013657Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:34:57 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 9° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-budapest-hu@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T093435Z
+DTEND:20260914T104552Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:36:04 and reappears at 12:44:15 CEST\, s
+ een from Budapest\, HU.\nThe Moon is 11° up · daylight\, Sun +44°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?lat=47.4984&lon=19.04
+ 04
+URL:https://occult.alokm.com/venus-2026-09-14?lat=47.4984&lon=19.0404
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-30d9797bc229-budapest-hu@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T173404Z
+DTEND:20261016T173604Z
+SUMMARY:The Moon hides HR 6766 · mag 4.5
+DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 19:34:04 at the dark limb
+  CEST\, seen from Budapest\, HU.\nThe Moon is 8° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-738756f70711-budapest-hu@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T015723Z
+DTEND:20261028T015923Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:57:23 at the d
+ ark limb CET\, seen from Budapest\, HU.\nThe Moon is 58° up in the SW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eda8f7a1731a-budapest-hu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T024755Z
+DTEND:20261104T024955Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 03:47:55 at the dark limb 
+ CET\, seen from Budapest\, HU.\nThe Moon is 26° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f51b0d61e285-budapest-hu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T185643Z
+DTEND:20261116T185843Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 19:56:43 at the dark limb
+  CET\, seen from Budapest\, HU.\nThe Moon is 16° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ebd381e2ae17-budapest-hu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042556Z
+DTEND:20261205T042756Z
+SUMMARY:The Moon hides 83 Vir · mag 5.6
+DESCRIPTION:83 Vir (magnitude 5.6) reappears at 05:25:56 at the dark limb C
+ ET\, seen from Budapest\, HU.\nThe Moon is 13° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9097fe67f35d-budapest-hu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T161908Z
+DTEND:20261214T162108Z
+SUMMARY:The Moon hides 44 Cap · mag 5.9
+DESCRIPTION:44 Cap (magnitude 5.9) disappears at 17:19:08 at the dark limb 
+ CET\, seen from Budapest\, HU.\nThe Moon is 25° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d30e2fd80aad-budapest-hu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T224938Z
+DTEND:20261221T225138Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:49:38 at the 
+ dark limb CET\, seen from Budapest\, HU.\nThe Moon is 54° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7bc218365b9-budapest-hu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T223141Z
+DTEND:20261227T223341Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 23:31:41 at the dark limb C
+ ET\, seen from Budapest\, HU.\nThe Moon is 28° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf087e3be801-budapest-hu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T233034Z
+DTEND:20261228T233234Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:30:34 at the dark limb C
+ ET\, seen from Budapest\, HU.\nThe Moon is 25° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20e4d2312b52-budapest-hu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T200828Z
+DTEND:20270113T201028Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 21:08:28 at the dark limb
+  CET\, seen from Budapest\, HU.\nThe Moon is 11° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d2e70d4c2dd-budapest-hu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T210945Z
+DTEND:20270124T211145Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 22:09:45 at the dark limb C
+ ET\, seen from Budapest\, HU.\nThe Moon is 26° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d0b7bb6c887-budapest-hu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T045213Z
+DTEND:20270201T045413Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) reappears at 05:52:13 at the dark lim
+ b CET\, seen from Budapest\, HU.\nThe Moon is 10° up in the SSE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3116a033071-budapest-hu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T194633Z
+DTEND:20270220T194833Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:46:33 at the dark limb 
+ CET\, seen from Budapest\, HU.\nThe Moon is 36° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f14589c51deb-budapest-hu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T201553Z
+DTEND:20270221T201753Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 21:15:53 at the dark limb C
+ ET\, seen from Budapest\, HU.\nThe Moon is 28° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-539074fe7e32-budapest-hu@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221211Z
+DTEND:20270313T221411Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 23:12:11 at the dark limb 
+ CET\, seen from Budapest\, HU.\nThe Moon is 7° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-391499b9af85-budapest-hu@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221758Z
+DTEND:20270313T221958Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:17:58 at the 
+ dark limb CET\, seen from Budapest\, HU.\nThe Moon is 6° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3b0c59f07d42-budapest-hu@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T233232Z
+DTEND:20270316T233432Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:32:32 at the dark limb 
+ CET\, seen from Budapest\, HU.\nThe Moon is 23° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-952a4382059d-budapest-hu@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270410T185936Z
+DTEND:20270410T190136Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 20:59:36 at the dark limb 
+ CEST\, seen from Budapest\, HU.\nThe Moon is 27° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f256ffc8ada8-budapest-hu@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T000203Z
+DTEND:20270414T000403Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 02:02:03 at the dark limb
+  CEST\, seen from Budapest\, HU.\nThe Moon is 7° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe1b23f7921a-budapest-hu@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T231114Z
+DTEND:20270424T231314Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 01:11:14 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 5° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f78322d30834-budapest-hu@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T195618Z
+DTEND:20270512T195818Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 21:56:18 at the dark limb
+  CEST\, seen from Budapest\, HU.\nThe Moon is 38° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40b0c43d4154-budapest-hu@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T231019Z
+DTEND:20270524T003325Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 01:10:19 at the br
+ ight limb and reappears at 02:33:25 at the dark limb CEST\, seen from Buda
+ pest\, HU.\nThe Moon is 9° up in the SSE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c176bcf549c3-budapest-hu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T212643Z
+DTEND:20270616T212843Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 23:26:43 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 16° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52e37e368c00-budapest-hu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T010404Z
+DTEND:20270619T010604Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 03:04:04 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 8° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7bee342e879-budapest-hu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T231118Z
+DTEND:20270622T231318Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 01:11:18 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 16° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b06df95f4957-budapest-hu@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T223646Z
+DTEND:20270717T223846Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 00:36:46 at the dark limb 
+ CEST\, seen from Budapest\, HU.\nThe Moon is 17° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dbca40109c80-budapest-hu@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T005054Z
+DTEND:20270724T005254Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 02:50:54 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 40° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1327e1c7f9b0-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T195320Z
+DTEND:20270813T195520Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 21:53:20 at the bri
+ ght limb CEST\, seen from Budapest\, HU.\nThe Moon is 16° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e2942252bd9-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T022916Z
+DTEND:20270820T023116Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 04:29:16 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 38° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3591b300ab05-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223933Z
+DTEND:20270824T224133Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:39:33 at the d
+ ark limb CEST\, seen from Budapest\, HU.\nThe Moon is 21° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ed4dcf9eccc-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223954Z
+DTEND:20270824T224154Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:39:54 at the dark limb C
+ EST\, seen from Budapest\, HU.\nThe Moon is 21° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f5da5b86279a-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225747Z
+DTEND:20270824T232607Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 00:57:47 at the 
+ bright limb and reappears at 01:26:07 at the dark limb CEST\, seen from Bu
+ dapest\, HU.\nThe Moon is 24° up in the E · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9680186c463-budapest-hu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230627Z
+DTEND:20270824T230827Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:06:27 at the dark
+  limb CEST\, seen from Budapest\, HU.\nThe Moon is 25° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-budapest-hu@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T122510Z
+DTEND:20280330T133253Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 14:25:10 and reappears at 15:32:53 CEST\,
+  seen from Budapest\, HU.\nThe Moon is 60° up · daylight\, Sun +42°.\nT
+ imes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the 
+ Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=47.4984&lon=1
+ 9.0404
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=47.4984&lon=19.0404
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-budapest-hu@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T213816Z
+DTEND:20280412T223953Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 23:38:16 and reappears at 00:39:53 CEST\,
+  seen from Budapest\, HU.\nThe Moon is -3° up · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?lat=47.4984&lon=19.0404
+URL:https://occult.alokm.com/antares-2028-04-12?lat=47.4984&lon=19.0404
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

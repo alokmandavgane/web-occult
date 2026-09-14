@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from León de los Aldama\, MX
+X-WR-CALDESC:Lunar occultations you can see from León de los Aldama\, MX\,
+  computed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+UID:star-88e1f6e32c7f-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T031602Z
+DTEND:20260916T031802Z
+SUMMARY:The Moon hides HR 5655 · mag 6.5
+DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 21:16:02 at the dark limb
+  CST\, seen from León de los Aldama\, MX.\nThe Moon is 5° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec430b7fcd83-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T045330Z
+DTEND:20260923T045530Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:53:30 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 50° up in the SSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T081801Z
+DTEND:20261006T090038Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:19:14 and reappears at 02:59:21 CST\, 
+ seen from León de los Aldama\, MX.\nThe Moon is -8° up in the ENE · dar
+ k sky.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Le%C3%B3
+ n%20de%20los%20Aldama%2C%20MX
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Le%C3%B3n%20de%20los%2
+ 0Aldama%2C%20MX
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3b212b7bf09c-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T093234Z
+DTEND:20261031T093434Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:32:34 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 62° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38fac3b5b566-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261126T101635Z
+DTEND:20261126T101835Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:16:35 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 63° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62a19844cf73-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T010808Z
+DTEND:20261216T011008Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) reappears at 19:08:08 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 57° up in the SW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e192b4634e61-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261225T024557Z
+DTEND:20261225T024757Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 20:45:57 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 19° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-770ab2ecc51c-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T070729Z
+DTEND:20261229T070929Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 01:07:29 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 22° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8764f9f9380d-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T100325Z
+DTEND:20270102T100525Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:03:25 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 11° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f1ec6f10076-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270120T083058Z
+DTEND:20270120T083258Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:30:58 at the dark limb
+  CST\, seen from León de los Aldama\, MX.\nThe Moon is 38° up in the WNW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-102d9a380d8a-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T111554Z
+DTEND:20270124T111754Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:15:54 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 52° up in the W · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-94ccf04456f2-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T104508Z
+DTEND:20270125T104708Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 04:45:08 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 65° up in the SW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-88326d2432c1-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270203T115805Z
+DTEND:20270203T120005Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 05:58:05 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 6° up in the ESE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-28d8fc4a45e7-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270210T014028Z
+DTEND:20270210T014228Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 19:40:28 at the dark limb
+  CST\, seen from León de los Aldama\, MX.\nThe Moon is 23° up in the W 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c7c08e1d2cd-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270215T021833Z
+DTEND:20270215T022033Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 20:18:33 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 75° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fff24e9579a1-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T020727Z
+DTEND:20270316T020927Z
+SUMMARY:The Moon hides HR 2111 · mag 6.0
+DESCRIPTION:HR 2111 (magnitude 6.0) disappears at 20:07:27 at the dark limb
+  CST\, seen from León de los Aldama\, MX.\nThe Moon is 76° up in the WNW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-00b37b549f07-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270317T072458Z
+DTEND:20270317T072658Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 01:24:58 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 21° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-414f0061448e-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270320T070731Z
+DTEND:20270320T070931Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 01:07:31 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 59° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-da5bf2cb4adf-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T065642Z
+DTEND:20270321T065842Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 00:56:42 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 67° up in the SW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d8461f2b00e7-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T052451Z
+DTEND:20270413T052651Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 23:24:51 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 20° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38432872ff01-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T070450Z
+DTEND:20270423T070650Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:04:50 at the dark limb CS
+ T\, seen from León de los Aldama\, MX.\nThe Moon is 38° up in the SSE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e51cc6081a13-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T111326Z
+DTEND:20270423T111526Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 05:13:26 at the bright lim
+ b CST\, seen from León de los Aldama\, MX.\nThe Moon is 30° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eaf42e9293c2-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T104721Z
+DTEND:20270425T104921Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 04:47:21 at the dark limb CS
+ T\, seen from León de los Aldama\, MX.\nThe Moon is 41° up in the S · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59351fac9d0f-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270501T102836Z
+DTEND:20270501T103036Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) reappears at 04:28:36 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 19° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8157d29cddc8-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T065421Z
+DTEND:20270523T065621Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 00:54:21 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 32° up in the SE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b9bf6a20aed-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T102958Z
+DTEND:20270524T103158Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 04:29:58 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 43° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f88c4901bfdb-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T030009Z
+DTEND:20270609T030209Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 21:00:09 at the dark limb
+  CST\, seen from León de los Aldama\, MX.\nThe Moon is 31° up in the W 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d94c9e48a7d-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T063541Z
+DTEND:20270620T065443Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 00:35:41 at the br
+ ight limb and reappears at 00:54:43 at the bright limb CST\, seen from Le
+ ón de los Aldama\, MX.\nThe Moon is 39° up in the SSE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-969c41815302-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T023630Z
+DTEND:20270708T023830Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 20:36:30 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 27° up in the W ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5b7351e3000a-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T075228Z
+DTEND:20270714T075428Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:52:28 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 9° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-960b3a558777-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T074407Z
+DTEND:20270716T074607Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 01:44:07 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 27° up in the SW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1da66b01d2d7-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T043156Z
+DTEND:20270720T043356Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:31:56 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 26° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c385b4a5801b-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T073513Z
+DTEND:20270727T073713Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 01:35:13 at the dark limb C
+ ST\, seen from León de los Aldama\, MX.\nThe Moon is 15° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6f6e3a9159e-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270807T023138Z
+DTEND:20270807T023338Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 20:31:38 at the dark li
+ mb CST\, seen from León de los Aldama\, MX.\nThe Moon is 25° up in the W
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d5a262511681-leon-de-los-aldama-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T042733Z
+DTEND:20270814T042933Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:27:33 at the dark limb 
+ CST\, seen from León de los Aldama\, MX.\nThe Moon is 44° up in the S ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

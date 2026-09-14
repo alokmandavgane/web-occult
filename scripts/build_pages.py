@@ -378,7 +378,7 @@ def head(title, desc, path, extra=""):
 FOOTER = f"""
 <footer>
   <p>Computed from the JPL DE431 ephemeris, for the Moon's mean limb. Static pages; no tracking beyond
-  basic analytics. <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
+  basic analytics. <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 """
 
@@ -1199,6 +1199,7 @@ def build_index(seed, built, jup=(), ms=()):
   <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
   <h2>Coming up</h2>
   <div class="upnext">{"".join(tiles)}</div>
+  <p style="margin:0.7rem 0 0"><a href="/calendar">Get the occultations your city can see in your calendar →</a></p>
   {"".join(sections)}
   <section class="kind" id="method"><h2>How these are made</h2>
   <p class="method">Every time, line and diagram here is computed, not copied: planets, the Moon and the Sun from the JPL DE431
@@ -1212,7 +1213,7 @@ def build_index(seed, built, jup=(), ms=()):
 </html>
 """
     (OUT / "index.html").write_text(page)
-    urls = [("/", "weekly", "1.0")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
+    urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
@@ -1222,7 +1223,8 @@ def build_index(seed, built, jup=(), ms=()):
     # Cloudflare Pages: unhashed text stays short-lived; KML/GPX download; images long-lived (URLs carry ?v= hashes)
     (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n"
                                   "/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n"
-                                  "/img/*\n  Cache-Control: public, max-age=2592000\n")
+                                  "/img/*\n  Cache-Control: public, max-age=2592000\n"
+                                  "/ics/*\n  Cache-Control: public, max-age=21600\n  Content-Type: text/calendar; charset=utf-8\n")
     (OUT / "404.html").write_text(head(f"Not found · {SITE_NAME}", "No such page.", "/404") + f"""
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
 <p><a href="/">All events</a></p></main>{FOOTER}</body></html>
@@ -1231,17 +1233,15 @@ def build_index(seed, built, jup=(), ms=()):
 
 
 if __name__ == "__main__":
+    import build_feeds
     import build_jupiter
     import build_moonstars
     seed = json.loads((ROOT / "seed.json").read_text())
     OUT.mkdir(exist_ok=True)
     built = [build(seed, e["slug"]) for e in seed["events"]]
-    # every city any event page knows, for the diary pages' location sheet
-    all_cities = {}
-    for e in seed["events"]:
-        for c in json.loads((ROOT / "data" / f"{e['slug']}.json").read_text())["cities"]:
-            all_cities.setdefault(c["name"], [c["lat"], c["lon"], c.get("tz", "")])
-    cities_sorted = dict(sorted(all_cities.items()))
+    # every city any event page knows: the diary pages' location sheet and one calendar feed each
+    cities_sorted = build_feeds.collect_cities(seed)
     jup = build_jupiter.build_all(cities_sorted, "jupiter") + build_jupiter.build_all(cities_sorted, "saturn")
     ms = build_moonstars.build_all(cities_sorted)
+    build_feeds.build_all(seed, cities_sorted)
     build_index(seed, built, jup, ms)

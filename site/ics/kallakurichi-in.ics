@@ -1,0 +1,551 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kallakurichi\, IN
+X-WR-CALDESC:Lunar occultations you can see from Kallakurichi\, IN\, comput
+ ed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-30b9039d6f3d-kallakurichi-in@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232307Z
+DTEND:20260908T232507Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:53:07 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 9° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kallakurichi-in@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115757Z
+DTEND:20260914T131847Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:30:03 and reappears at 18:46:59 IST\, se
+ en from Kallakurichi\, IN.\nThe Moon is 38° up · daylight\, Sun +10°.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=11.7338&lon=78
+ .9592
+URL:https://occult.alokm.com/venus-2026-09-14?lat=11.7338&lon=78.9592
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d7326c0db2a-kallakurichi-in@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T155516Z
+DTEND:20260930T155716Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:25:16 at the d
+ ark limb IST\, seen from Kallakurichi\, IN.\nThe Moon is 5° up in the ENE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a4b8063b82e-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T131950Z
+DTEND:20261021T132150Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:49:50 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 57° up in the SE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ead279259295-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202145Z
+DTEND:20261102T202345Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:45 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 12° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-kallakurichi-in@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205626Z
+DTEND:20261102T214019Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:28:27 and reappears at 03:08:08 IST\, 
+ seen from Kallakurichi\, IN.\nThe Moon is 21° up · dark sky.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/jupiter-2026-11-02?lat=11.7338&lon=78.9592
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=11.7338&lon=78.9592
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ded871d7a6b6-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144517Z
+DTEND:20261115T144717Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:15:17 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 30° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d915561f32b-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155432Z
+DTEND:20261116T155632Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:24:32 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 27° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163706Z
+DTEND:20261127T163906Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:07:06 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 17° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5b876845df4-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T200120Z
+DTEND:20261128T200320Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:31:20 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 49° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf393528904a-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231634Z
+DTEND:20261130T231834Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:46:34 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 71° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133431Z
+DTEND:20261212T133631Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:31 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 19° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4700c7c010f-kallakurichi-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204139Z
+DTEND:20261223T204339Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:11:39 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 55° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-281b5f3d6d64-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194030Z
+DTEND:20270118T194230Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:10:30 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 24° up in the WNW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-526c6c57f3ca-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135823Z
+DTEND:20270121T140023Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:28:23 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 30° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-871a86efdda0-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231401Z
+DTEND:20270124T231601Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:44:01 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 58° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162925Z
+DTEND:20270125T163125Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:25 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 11° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92f6b6186430-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T222410Z
+DTEND:20270201T222610Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 03:54:10 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 8° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cdff97d04cf6-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142241Z
+DTEND:20270212T142441Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:52:41 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 42° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ebbb6a28f5-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144902Z
+DTEND:20270214T145102Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:19:02 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 58° up in the WNW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1006f4dde29c-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160243Z
+DTEND:20270216T160443Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:32:43 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 67° up in the NW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-65dce4a16d95-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172548Z
+DTEND:20270216T172748Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:55:48 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 51° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d13f65ae2339-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215459Z
+DTEND:20270220T215659Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:24:59 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 45° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e00fce462811-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T222039Z
+DTEND:20270221T222239Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:50:39 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 49° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46e4151d4e86-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201704Z
+DTEND:20270227T201904Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:47:04 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 19° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-884ccd179595-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T215821Z
+DTEND:20270302T220021Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:28:21 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 8° up in the ESE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-79ef1dd90033-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T231115Z
+DTEND:20270326T231315Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:41:15 at the dark limb IS
+ T\, seen from Kallakurichi\, IN.\nThe Moon is 50° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ae22359b5e26-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T144137Z
+DTEND:20270414T144337Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:11:37 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 72° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75fb6ae4857e-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151208Z
+DTEND:20270520T151408Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:42:08 at the dark limb IS
+ T\, seen from Kallakurichi\, IN.\nThe Moon is 26° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbb7b8ee5195-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175456Z
+DTEND:20270520T190045Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:24:56 at the bright lim
+ b and reappears at 00:30:45 at the bright limb IST\, seen from Kallakurich
+ i\, IN.\nThe Moon is 50° up in the SSE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-582867aee5d4-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T213119Z
+DTEND:20270520T213939Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 03:01:19 at the dark limb
+  and reappears at 03:09:39 at the dark limb IST\, seen from Kallakurichi\,
+  IN.\nThe Moon is 36° up in the SW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e72c2f7a106-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T140827Z
+DTEND:20270607T141027Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:38:27 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 22° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ae9abf97dff-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135610Z
+DTEND:20270608T135810Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:26:10 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 38° up in the WNW · dusk
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165734Z
+DTEND:20270609T165934Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:34 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 8° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95486de75275-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T122047Z
+DTEND:20270617T130904Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 17:50:47 at the 
+ dark limb and reappears at 18:39:04 at the bright limb IST\, seen from Kal
+ lakurichi\, IN.\nThe Moon is 5° up in the ESE · daylight\, Sun +10°. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0914d13a99e3-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223711Z
+DTEND:20270620T223911Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:07:11 at the dark limb 
+ IST\, seen from Kallakurichi\, IN.\nThe Moon is 40° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6edf31636336-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182114Z
+DTEND:20270723T182314Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:51:14 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 29° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180057Z
+DTEND:20270810T180257Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:57 at the dark limb
+  IST\, seen from Kallakurichi\, IN.\nThe Moon is 15° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fc3b2735395-kallakurichi-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230557Z
+DTEND:20270824T230757Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:35:57 at the dark limb I
+ ST\, seen from Kallakurichi\, IN.\nThe Moon is 68° up in the NE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kallakurichi-in@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223104Z
+DTEND:20280121T233434Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:01:04 and reappears at 05:04:34 IST\, 
+ seen from Kallakurichi\, IN.\nThe Moon is 12° up · dark sky.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/antares-2028-01-22?lat=11.7338&lon=78.9592
+URL:https://occult.alokm.com/antares-2028-01-22?lat=11.7338&lon=78.9592
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

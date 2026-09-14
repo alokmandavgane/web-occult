@@ -1,0 +1,422 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bamako\, ML
+X-WR-CALDESC:Lunar occultations you can see from Bamako\, ML\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Bamako
+BEGIN:VEVENT
+UID:star-5f419d8dac10-bamako-ml@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T205812Z
+DTEND:20260916T210012Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:58:12 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 16° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be86802b7ff2-bamako-ml@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T035202Z
+DTEND:20261001T035402Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:52:02 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 76° up in the NNE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-bamako-ml@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T103032Z
+DTEND:20261006T114933Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:31:56 and reappears at 11:48:17 GMT\, 
+ seen from Bamako\, ML.\nThe Moon is 68° up in the W · daylight\, Sun +58
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Bamako%2C%2
+ 0ML
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Bamako%2C%20ML
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d42a4c5d552-bamako-ml@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010704Z
+DTEND:20261021T010904Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:07:04 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 13° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e962d3cf361-bamako-ml@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T231111Z
+DTEND:20261029T231311Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:11:11 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 23° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d2727fcdb257-bamako-ml@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T015212Z
+DTEND:20261101T015412Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:52:12 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 31° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5749352ff92d-bamako-ml@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T031952Z
+DTEND:20261103T032152Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:19:52 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 26° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-21ac2adb3b15-bamako-ml@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T183925Z
+DTEND:20261113T194944Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 18:39:25 at the dark limb 
+ and reappears at 19:49:44 at the bright limb GMT\, seen from Bamako\, ML.\
+ nThe Moon is 32° up in the SW · dusk. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-1
+ 1
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aeba5576c159-bamako-ml@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T034154Z
+DTEND:20261202T034354Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:41:54 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 36° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b10b21b60dce-bamako-ml@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T041902Z
+DTEND:20261205T042102Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:19:02 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 9° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eeba646c5928-bamako-ml@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T210919Z
+DTEND:20261214T211119Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:09:19 at the dark limb
+  GMT\, seen from Bamako\, ML.\nThe Moon is 20° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19fbb57e60de-bamako-ml@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T194027Z
+DTEND:20270113T194227Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 19:40:27 at the dark limb
+  GMT\, seen from Bamako\, ML.\nThe Moon is 46° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3e735d67deeb-bamako-ml@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T215133Z
+DTEND:20270113T215333Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:51:33 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 15° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eacfe12a702f-bamako-ml@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T031922Z
+DTEND:20270126T032122Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:19:22 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 74° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-72388702867a-bamako-ml@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T053017Z
+DTEND:20270131T053217Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:30:17 at the dark limb GM
+ T\, seen from Bamako\, ML.\nThe Moon is 39° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3796ac8ab8f7-bamako-ml@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214400Z
+DTEND:20270212T214600Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:44:00 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 23° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3c471498b3d-bamako-ml@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T231712Z
+DTEND:20270321T231912Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:17:12 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 71° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d68d07f166cd-bamako-ml@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T001938Z
+DTEND:20270327T005759Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:19:38 at the bright lim
+ b and reappears at 00:57:59 at the dark limb GMT\, seen from Bamako\, ML.\
+ nThe Moon is 21° up in the SE · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-41fcb71541d1-bamako-ml@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T234419Z
+DTEND:20270413T234619Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 23:44:19 at the dark limb
+  GMT\, seen from Bamako\, ML.\nThe Moon is 19° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ea2f03533a3-bamako-ml@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T004654Z
+DTEND:20270427T004854Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:46:54 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 11° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25373480acd2-bamako-ml@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T201605Z
+DTEND:20270514T201805Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:16:05 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 80° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55e467278ea5-bamako-ml@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T012213Z
+DTEND:20270515T012413Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 01:22:13 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 12° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-981585713876-bamako-ml@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T202920Z
+DTEND:20270616T203120Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:29:20 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 40° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07174e610666-bamako-ml@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T015638Z
+DTEND:20270617T025814Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:56:38 at the dark limb 
+ and reappears at 02:58:14 at the bright limb GMT\, seen from Bamako\, ML.\
+ nThe Moon is 31° up in the SW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19229245356d-bamako-ml@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T053415Z
+DTEND:20270701T053615Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 05:34:15 at the d
+ ark limb GMT\, seen from Bamako\, ML.\nThe Moon is 30° up in the ENE · d
+ usk. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac7e5b43502d-bamako-ml@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T212628Z
+DTEND:20270717T212828Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 21:26:28 at the dark limb 
+ GMT\, seen from Bamako\, ML.\nThe Moon is 36° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8858a6098387-bamako-ml@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234209Z
+DTEND:20270723T234409Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:42:09 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 21° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01a986694ee7-bamako-ml@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T010118Z
+DTEND:20270820T010318Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:01:18 at the dark limb G
+ MT\, seen from Bamako\, ML.\nThe Moon is 67° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-bamako-ml@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T100116Z
+DTEND:20271229T113817Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 10:01:29 and reappears at 11:38:02 GMT\, see
+ n from Bamako\, ML.\nThe Moon is 24° up in the ESE · daylight\, Sun +38
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Bamako%2C%20ML
+URL:https://occult.alokm.com/mars-2027-12-29?city=Bamako%2C%20ML
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bamako-ml@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T110547Z
+DTEND:20280330T120607Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 11:05:47 and reappears at 12:06:07 GMT\, 
+ seen from Bamako\, ML.\nThe Moon is 23° up · daylight\, Sun +66°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=12.6091&lon=-7.9
+ 752
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=12.6091&lon=-7.9752
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

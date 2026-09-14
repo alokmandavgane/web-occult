@@ -24,7 +24,7 @@ catalog/moonband.csv  30k stars the Moon can cover: Gaia DR3 to G 9.5 in |eclipt
                    Catalogue (committed; rebuilt by `engine/star_occultations.py catalog` from ephemeris/catalog/)
 ephemeris/         gitignored binary inputs: jup365.bsp, sat441.bsp, lola/ (see engine/ephem_paths.py)
 geo/<audience>.json map outlines (Natural Earth + India-compliant borders): scripts/build_geo.py
-scripts/build_pages.py   data + geo + seed  ->  site/   (also runs build_jupiter.py and build_moonstars.py: one page per month)
+scripts/build_pages.py   data + geo + seed  ->  site/   (also runs build_jupiter.py and build_moonstars.py: one page per month, and build_feeds.py: a calendar feed per city)
 site/              what Cloudflare Pages serves (committed)
 ```
 

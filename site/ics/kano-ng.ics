@@ -1,0 +1,400 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kano\, NG
+X-WR-CALDESC:Lunar occultations you can see from Kano\, NG\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Lagos
+BEGIN:VEVENT
+UID:star-b135750b9fff-kano-ng@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T191936Z
+DTEND:20260917T192136Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:19:36 at the dark li
+ mb WAT\, seen from Kano\, NG.\nThe Moon is 31° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4235c8af86d6-kano-ng@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T192051Z
+DTEND:20260923T192251Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:20:51 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 53° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-kano-ng@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T110542Z
+DTEND:20261006T115423Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 12:07:30 and reappears at 12:52:43 WAT\, 
+ seen from Kano\, NG.\nThe Moon is 44° up in the W · daylight\, Sun +73°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Kano%2C%20NG
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Kano%2C%20NG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bc4215d6b301-kano-ng@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T182756Z
+DTEND:20261018T182956Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:27:56 at the dark limb
+  WAT\, seen from Kano\, NG.\nThe Moon is 51° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70415b96df9f-kano-ng@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T231543Z
+DTEND:20261029T231743Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 00:15:43 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 38° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-400b0e537b38-kano-ng@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T034538Z
+DTEND:20261103T034738Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 04:45:38 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 48° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71eb16c89e88-kano-ng@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T180749Z
+DTEND:20261114T180949Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 19:07:49 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 36° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-784feac888a8-kano-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T041230Z
+DTEND:20261202T041430Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 05:12:30 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 59° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60f6a47a2ebc-kano-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042621Z
+DTEND:20261205T042821Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 05:26:21 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 26° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ea484b1e38d-kano-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T195925Z
+DTEND:20261213T200125Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 20:59:25 at the dark l
+ imb WAT\, seen from Kano\, NG.\nThe Moon is 10° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-28afc9797c55-kano-ng@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T182032Z
+DTEND:20261223T182232Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:20:32 at the dark limb
+  WAT\, seen from Kano\, NG.\nThe Moon is 21° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9bcf965f742c-kano-ng@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T033001Z
+DTEND:20270126T033201Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 04:30:01 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 72° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3d420a96cd5-kano-ng@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T182052Z
+DTEND:20270212T182252Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 19:20:52 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 54° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1df7a5a3289-kano-ng@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T220832Z
+DTEND:20270326T221032Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:08:32 at the dark limb WA
+ T\, seen from Kano\, NG.\nThe Moon is 9° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bcb50e3dc7ae-kano-ng@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T002000Z
+DTEND:20270327T014433Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:20:00 at the bright lim
+ b and reappears at 02:44:33 at the dark limb WAT\, seen from Kano\, NG.\nT
+ he Moon is 34° up in the SE · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-934cffb580f7-kano-ng@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T233753Z
+DTEND:20270413T233953Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 00:37:53 at the dark limb
+  WAT\, seen from Kano\, NG.\nThe Moon is 5° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8113dfd88ff5-kano-ng@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T222559Z
+DTEND:20270425T222759Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 23:25:59 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 6° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95b7c2e09abd-kano-ng@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T010644Z
+DTEND:20270427T010844Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 02:06:44 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 29° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6ed43bd2442-kano-ng@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T183637Z
+DTEND:20270510T183837Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:36:37 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 44° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-23e7a8edf30e-kano-ng@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T193407Z
+DTEND:20270513T193607Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:34:07 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 69° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ee53e65732a-kano-ng@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T192316Z
+DTEND:20270520T192516Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 20:23:16 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 17° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d61a93eb9d00-kano-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T191905Z
+DTEND:20270608T192105Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 20:19:05 at the dark limb
+  WAT\, seen from Kano\, NG.\nThe Moon is 31° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63ab50b9e75b-kano-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T204708Z
+DTEND:20270616T204908Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:47:08 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 50° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f55bcdd55a6-kano-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T200132Z
+DTEND:20270620T200332Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 21:01:32 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 9° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f5c8d6d9719-kano-ng@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T213159Z
+DTEND:20270622T213359Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:31:59 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 11° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-00f7fbef9f48-kano-ng@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T222012Z
+DTEND:20270717T222212Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 23:20:12 at the dark limb 
+ WAT\, seen from Kano\, NG.\nThe Moon is 52° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a967a43d7a9-kano-ng@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T235949Z
+DTEND:20270724T000149Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 00:59:49 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 41° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26ab915d8dff-kano-ng@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T012155Z
+DTEND:20270820T012355Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:21:55 at the dark limb W
+ AT\, seen from Kano\, NG.\nThe Moon is 80° up in the S · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-kano-ng@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T103935Z
+DTEND:20271229T123556Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 11:39:50 and reappears at 13:35:40 WAT\, see
+ n from Kano\, NG.\nThe Moon is 44° up in the SE · daylight\, Sun +53°.\
+ nTimes against the real lunar limb.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/mars-2027-12-29?city=Kano%2C%20NG
+URL:https://occult.alokm.com/mars-2027-12-29?city=Kano%2C%20NG
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

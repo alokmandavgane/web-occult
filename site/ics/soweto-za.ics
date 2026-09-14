@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Soweto\, ZA
+X-WR-CALDESC:Lunar occultations you can see from Soweto\, ZA\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Johannesburg
+BEGIN:VEVENT
+UID:star-ec5bc27bbf77-soweto-za@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260914T173118Z
+DTEND:20260914T173318Z
+SUMMARY:The Moon hides HIP 68643 · mag 6.3
+DESCRIPTION:HIP 68643 (magnitude 6.3) disappears at 19:31:18 at the dark li
+ mb SAST\, seen from Soweto\, ZA.\nThe Moon is 22° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-soweto-za@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T115149Z
+DTEND:20261006T122507Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 13:53:32 and reappears at 14:23:27 SAST\,
+  seen from Soweto\, ZA.\nThe Moon is 3° up in the WNW · daylight\, Sun +
+ 55°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Soweto%2C
+ %20ZA
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Soweto%2C%20ZA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8083166ec08e-soweto-za@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T022602Z
+DTEND:20261007T022802Z
+SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
+DESCRIPTION:Regulus (α Leo) (magnitude 1.3) reappears at 04:26:02 at the d
+ ark limb SAST\, seen from Soweto\, ZA.\nThe Moon is 10° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-275b6817bfe5-soweto-za@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261015T171758Z
+DTEND:20261015T171958Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 19:17:58 at the dark limb
+  SAST\, seen from Soweto\, ZA.\nThe Moon is 43° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6d8352cc5ac-soweto-za@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T203656Z
+DTEND:20261114T203856Z
+SUMMARY:The Moon hides 53 Sgr · mag 6.3
+DESCRIPTION:53 Sgr (magnitude 6.3) disappears at 22:36:56 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 5° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb0c3d3ff571-soweto-za@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261125T013814Z
+DTEND:20261125T014014Z
+SUMMARY:The Moon hides φ Tau · mag 5.0
+DESCRIPTION:φ Tau (magnitude 5.0) reappears at 03:38:14 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 18° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe023031cf21-soweto-za@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261125T231041Z
+DTEND:20261126T001814Z
+SUMMARY:The Moon hides Elnath (β Tau) · mag 1.6
+DESCRIPTION:Elnath (β Tau) (magnitude 1.6) disappears at 01:10:41 at the b
+ right limb and reappears at 02:18:14 at the dark limb SAST\, seen from Sow
+ eto\, ZA.\nThe Moon is 35° up in the N · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-708a7e8c8350-soweto-za@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T024134Z
+DTEND:20261128T024334Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 04:41:34 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 36° up in the NNW · dusk. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a779aab31af4-soweto-za@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261203T004957Z
+DTEND:20261203T005157Z
+SUMMARY:The Moon hides HR 4613 · mag 6.4
+DESCRIPTION:HR 4613 (magnitude 6.4) reappears at 02:49:57 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 20° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97152d70e90a-soweto-za@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261204T023116Z
+DTEND:20261204T023316Z
+SUMMARY:The Moon hides ψ Vir · mag 4.7
+DESCRIPTION:ψ Vir (magnitude 4.7) reappears at 04:31:16 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 35° up in the E · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7e6b5d650ce-soweto-za@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261208T120413Z
+DTEND:20261208T125023Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 14:04:13 at the 
+ bright limb and reappears at 14:50:23 at the dark limb SAST\, seen from So
+ weto\, ZA.\nThe Moon is 56° up in the W · daylight\, Sun +62°. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ad376f98ab6-soweto-za@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T010114Z
+DTEND:20270102T010314Z
+SUMMARY:The Moon hides HR 5332 · mag 5.5
+DESCRIPTION:HR 5332 (magnitude 5.5) reappears at 03:01:14 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 26° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ca239aa869c-soweto-za@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T021404Z
+DTEND:20270102T021604Z
+SUMMARY:The Moon hides HR 5344 · mag 6.2
+DESCRIPTION:HR 5344 (magnitude 6.2) reappears at 04:14:04 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 42° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82a96c1ffcae-soweto-za@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T230440Z
+DTEND:20270118T230640Z
+SUMMARY:The Moon hides φ Tau · mag 5.0
+DESCRIPTION:φ Tau (magnitude 5.0) disappears at 01:04:40 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 6° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84dc482fa5dc-soweto-za@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T235525Z
+DTEND:20270121T235725Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) disappears at 01:55:25 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 31° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ed5e1a9db36-soweto-za@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270211T180831Z
+DTEND:20270211T181031Z
+SUMMARY:The Moon hides 75 Psc · mag 6.2
+DESCRIPTION:75 Psc (magnitude 6.2) disappears at 20:08:31 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 16° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b4ed4301aac-soweto-za@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270317T170319Z
+DTEND:20270317T170519Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) disappears at 19:03:19 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 37° up in the NNE · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a140f73d2434-soweto-za@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270322T011158Z
+DTEND:20270322T011358Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 03:11:58 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 35° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb4552f04480-soweto-za@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T225522Z
+DTEND:20270326T225722Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 00:55:22 at the dark limb SA
+ ST\, seen from Soweto\, ZA.\nThe Moon is 51° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-712f497a0c49-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270411T170211Z
+DTEND:20270411T170411Z
+SUMMARY:The Moon hides HR 1750 · mag 6.3
+DESCRIPTION:HR 1750 (magnitude 6.3) disappears at 19:02:11 at the dark limb
+  SAST\, seen from Soweto\, ZA.\nThe Moon is 22° up in the NW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-920970ab90bc-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T201258Z
+DTEND:20270414T201458Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 22:12:58 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 26° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2027-04-15-soweto-za@occult.alokm.com
+DTSTAMP:20260914T035318Z
+DTSTART:20270415T125348Z
+DTEND:20270415T135332Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 14:55:15 and reappears at 15:51:55 SAST\,
+  seen from Soweto\, ZA.\nThe Moon is 6° up in the ENE · daylight\, Sun +
+ 36°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/jupiter-2027-04-15?city=Soweto%2C
+ %20ZA
+URL:https://occult.alokm.com/jupiter-2027-04-15?city=Soweto%2C%20ZA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc0ba04ec733-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270418T000157Z
+DTEND:20270418T000357Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) disappears at 02:01:57 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 22° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9aa64e1e52cd-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T182547Z
+DTEND:20270423T185811Z
+SUMMARY:The Moon hides σ Sco · mag 2.9
+DESCRIPTION:σ Sco (magnitude 2.9) disappears at 20:25:47 at the bright lim
+ b and reappears at 20:58:11 at the dark limb SAST\, seen from Soweto\, ZA.
+ \nThe Moon is 11° up in the ESE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-444b8df1fab9-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T224951Z
+DTEND:20270424T002505Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 00:49:51 at the 
+ bright limb and reappears at 02:25:05 at the dark limb SAST\, seen from So
+ weto\, ZA.\nThe Moon is 67° up in the E · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b73a09aad7fb-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270428T222546Z
+DTEND:20270428T222746Z
+SUMMARY:The Moon hides HR 7964 · mag 6.2
+DESCRIPTION:HR 7964 (magnitude 6.2) reappears at 00:25:46 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 6° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c43e2419d05e-soweto-za@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270429T020808Z
+DTEND:20270429T021008Z
+SUMMARY:The Moon hides 19 Cap · mag 5.8
+DESCRIPTION:19 Cap (magnitude 5.8) reappears at 04:08:08 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 54° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d33b3714af7-soweto-za@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T204354Z
+DTEND:20270513T204554Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 22:43:54 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 23° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f122c2264d54-soweto-za@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T214648Z
+DTEND:20270514T214848Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 23:46:48 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 23° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a96c7873c64-soweto-za@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T233220Z
+DTEND:20270616T233420Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 01:32:20 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 48° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ef7f33608d-soweto-za@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T202015Z
+DTEND:20270714T215252Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 22:20:15 at the 
+ dark limb and reappears at 23:52:52 at the bright limb SAST\, seen from So
+ weto\, ZA.\nThe Moon is 74° up in the W · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d26c37de800e-soweto-za@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T030412Z
+DTEND:20270727T030612Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) reappears at 05:04:12 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 41° up in the NNE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-36439403a8c1-soweto-za@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270807T193948Z
+DTEND:20270807T194148Z
+SUMMARY:The Moon hides 75 Vir · mag 5.5
+DESCRIPTION:75 Vir (magnitude 5.5) disappears at 21:39:48 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 19° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-79db2e67d04f-soweto-za@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270811T235623Z
+DTEND:20270811T235823Z
+SUMMARY:The Moon hides 36 Oph · mag 5.1
+DESCRIPTION:36 Oph (magnitude 5.1) disappears at 01:56:23 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 13° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-31209fcbfdf6-soweto-za@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270822T225154Z
+DTEND:20270822T225354Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) reappears at 00:51:54 at the dark limb S
+ AST\, seen from Soweto\, ZA.\nThe Moon is 26° up in the NE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d2d29fa03fc-soweto-za@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T005659Z
+DTEND:20270825T005859Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) reappears at 02:56:59 at the dark limb 
+ SAST\, seen from Soweto\, ZA.\nThe Moon is 23° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2029-10-11-soweto-za@occult.alokm.com
+DTSTAMP:20260914T040845Z
+DTSTART:20291011T170327Z
+DTEND:20291011T180423Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 19:03:40 and reappears at 20:04:10 SAST\, se
+ en from Soweto\, ZA.\nThe Moon is 42° up in the W · dusk.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/mars-2029-10-11?city=Soweto%2C%20ZA
+URL:https://occult.alokm.com/mars-2029-10-11?city=Soweto%2C%20ZA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

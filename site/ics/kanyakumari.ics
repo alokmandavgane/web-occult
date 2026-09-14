@@ -1,0 +1,591 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kanyakumari
+X-WR-CALDESC:Lunar occultations you can see from Kanyakumari\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-7408ba8f2c3c-kanyakumari@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232700Z
+DTEND:20260908T232900Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:57:00 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 7° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kanyakumari@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115645Z
+DTEND:20260914T132356Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:28:44 and reappears at 18:52:16 IST\, se
+ en from Kanyakumari.\nThe Moon is 41° up in the WSW · daylight\, Sun +12
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Kanyakumari
+URL:https://occult.alokm.com/venus-2026-09-14?city=Kanyakumari
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-921874de6720-kanyakumari@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T144432Z
+DTEND:20261017T144632Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 20:14:32 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 37° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ad559441295-kanyakumari@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T201610Z
+DTEND:20261102T201810Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:46:10 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 9° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-kanyakumari@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205032Z
+DTEND:20261102T214820Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:22:00 and reappears at 03:16:42 IST\, 
+ seen from Kanyakumari.\nThe Moon is 17° up in the ENE · dark sky.\nTimes
+  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/jupiter-2026-11-02?city=Kanyakumari
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Kanyakumari
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-068f53b8255f-kanyakumari@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144139Z
+DTEND:20261115T144339Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:11:39 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 34° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-117e9431a73c-kanyakumari@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155102Z
+DTEND:20261116T155302Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:21:02 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 31° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e16152102b28-kanyakumari@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163536Z
+DTEND:20261127T163736Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:05:36 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 14° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5824e38020ef-kanyakumari@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230828Z
+DTEND:20261130T231028Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:38:28 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 68° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-996c795fd8d6-kanyakumari@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133321Z
+DTEND:20261212T133521Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:03:21 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 22° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d5a00fd9ce98-kanyakumari@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T144445Z
+DTEND:20261217T144645Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 20:14:45 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 63° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea1544f61111-kanyakumari@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204349Z
+DTEND:20261223T204549Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:13:49 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 54° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d2338d5fc397-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270103T232309Z
+DTEND:20270103T232509Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 04:53:09 at the dark limb IS
+ T\, seen from Kanyakumari.\nThe Moon is 17° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1d34ab666a6-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T163835Z
+DTEND:20270113T164035Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:08:35 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 6° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3db84e92556-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193538Z
+DTEND:20270118T193738Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:05:38 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 25° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90e5912c50df-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135721Z
+DTEND:20270121T135921Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:27:21 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 27° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f2cfbfb44595-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231737Z
+DTEND:20270124T231937Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:47:37 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 59° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-kanyakumari@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162831Z
+DTEND:20270125T163031Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:31 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 10° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a31af69d1381-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T141241Z
+DTEND:20270212T141441Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:42:41 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 44° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0897938ddbfa-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144202Z
+DTEND:20270214T144402Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:12:02 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 59° up in the NW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b72b9d1c4d8d-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155556Z
+DTEND:20270216T155756Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:25:56 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 66° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2da026e70a24-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173015Z
+DTEND:20270216T173215Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:00:15 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 49° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4bb647ff607a-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T220052Z
+DTEND:20270220T220252Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:30:52 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 44° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-897db0c44b47-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T222616Z
+DTEND:20270221T222816Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:56:16 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 50° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2affbea42e-kanyakumari@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201541Z
+DTEND:20270227T201741Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:45:41 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 19° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2bb634d46a3b-kanyakumari@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T215021Z
+DTEND:20270302T215221Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:20:21 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 7° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7f07cdac472b-kanyakumari@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T223319Z
+DTEND:20270302T231831Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 04:03:19 at the br
+ ight limb and reappears at 04:48:31 at the dark limb IST\, seen from Kanya
+ kumari.\nThe Moon is 16° up in the ESE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ff8e2409520-kanyakumari@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T231315Z
+DTEND:20270326T231515Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:43:15 at the dark limb IS
+ T\, seen from Kanyakumari.\nThe Moon is 54° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b552f06fc723-kanyakumari@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T145419Z
+DTEND:20270414T145619Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:24:19 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 68° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b04fef85ec0b-kanyakumari@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T155900Z
+DTEND:20270511T161709Z
+SUMMARY:The Moon hides μ2 Cnc · mag 5.3
+DESCRIPTION:μ2 Cnc (magnitude 5.3) disappears at 21:29:00 at the dark limb
+  and reappears at 21:47:09 at the dark limb IST\, seen from Kanyakumari.\n
+ The Moon is 27° up in the WNW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd0307818ac2-kanyakumari@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151301Z
+DTEND:20270520T151501Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:43:01 at the dark limb IS
+ T\, seen from Kanyakumari.\nThe Moon is 27° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-400eb4106c11-kanyakumari@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T181339Z
+DTEND:20270520T184011Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:43:39 at the bright lim
+ b and reappears at 00:10:11 at the bright limb IST\, seen from Kanyakumari
+ .\nThe Moon is 54° up in the SSE · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-449ff83b37db-kanyakumari@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T210606Z
+DTEND:20270520T215939Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 02:36:06 at the dark limb
+  and reappears at 03:29:39 at the dark limb IST\, seen from Kanyakumari.\n
+ The Moon is 44° up in the SW · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c0b8f845048-kanyakumari@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135834Z
+DTEND:20270608T140034Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:28:34 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 38° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d48938f569d-kanyakumari@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165832Z
+DTEND:20270609T170032Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:28:32 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 8° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc35787f8b37-kanyakumari@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T121647Z
+DTEND:20270617T131450Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 17:46:47 at the 
+ dark limb and reappears at 18:44:50 at the bright limb IST\, seen from Kan
+ yakumari.\nThe Moon is 5° up in the ESE · daylight\, Sun +11°. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-690f4d744d8f-kanyakumari@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T222651Z
+DTEND:20270620T222851Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 03:56:51 at the dark limb 
+ IST\, seen from Kanyakumari.\nThe Moon is 46° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7b1124c3019-kanyakumari@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T180152Z
+DTEND:20270710T180352Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:31:52 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 5° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f5dca814d3f-kanyakumari@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181817Z
+DTEND:20270723T182017Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:48:17 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 27° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ba0c66dfafb-kanyakumari@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180205Z
+DTEND:20270810T180405Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:32:05 at the dark limb
+  IST\, seen from Kanyakumari.\nThe Moon is 18° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad72254af4e6-kanyakumari@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224525Z
+DTEND:20270824T224725Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:15:25 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 61° up in the NE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffc2e1e8cbee-kanyakumari@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T234313Z
+DTEND:20270827T234513Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:13:13 at the dark limb I
+ ST\, seen from Kanyakumari.\nThe Moon is 35° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kanyakumari@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223642Z
+DTEND:20280121T232833Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:06:42 and reappears at 04:58:33 IST\, 
+ seen from Kanyakumari.\nThe Moon is 14° up in the ESE · dark sky.\nTimes
+  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/antares-2028-01-22?city=Kanyakumari
+URL:https://occult.alokm.com/antares-2028-01-22?city=Kanyakumari
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

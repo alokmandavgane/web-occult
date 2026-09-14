@@ -1,0 +1,592 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Mangalore
+X-WR-CALDESC:Lunar occultations you can see from Mangalore\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-mangalore@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114653Z
+DTEND:20260914T130953Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:19:06 and reappears at 18:37:56 IST\, se
+ en from Mangalore.\nThe Moon is 42° up in the SW · daylight\, Sun +17°.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?city=Mangalore
+URL:https://occult.alokm.com/venus-2026-09-14?city=Mangalore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ead279259295-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202158Z
+DTEND:20261102T202358Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:58 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 9° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-mangalore@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205759Z
+DTEND:20261102T213115Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:30:33 and reappears at 02:58:31 IST\, 
+ seen from Mangalore.\nThe Moon is 18° up in the E · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/jupiter-2026-11-02?city=Mangalore
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Mangalore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-068f53b8255f-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144153Z
+DTEND:20261115T144353Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:11:53 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 34° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fca6a5393c4b-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155207Z
+DTEND:20261116T155407Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:22:07 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 31° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8935a9a9e12f-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163453Z
+DTEND:20261127T163653Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:04:53 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 13° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02c8d9a5dbae-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T200256Z
+DTEND:20261128T200456Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:32:56 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 46° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-679441316782-mangalore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230328Z
+DTEND:20261130T230528Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:33:28 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 64° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d36ed80114f-mangalore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133129Z
+DTEND:20261212T133329Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:01:29 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 23° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b12cc286d3b-mangalore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T145217Z
+DTEND:20261212T145417Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:22:17 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 6° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-afd69635abdc-mangalore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203243Z
+DTEND:20261223T203443Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:02:43 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 61° up in the NW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e53e7a1038ee-mangalore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164204Z
+DTEND:20270113T164404Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:12:04 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 8° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3db84e92556-mangalore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193534Z
+DTEND:20270118T193734Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:05:34 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 29° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9fae6eec66df-mangalore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135452Z
+DTEND:20270121T135652Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:24:52 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 26° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c0a251a2cc1-mangalore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230542Z
+DTEND:20270124T230742Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:35:42 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 64° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-mangalore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162801Z
+DTEND:20270125T163001Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:01 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 7° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49e88a045a6c-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T003516Z
+DTEND:20270204T003716Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:05:16 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 11° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-132872ae28a3-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T141901Z
+DTEND:20270212T142101Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:49:01 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 47° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0345834bde17-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T143950Z
+DTEND:20270214T144150Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:09:50 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 64° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5bf4bea1583-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155109Z
+DTEND:20270216T155309Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:21:09 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 72° up in the NNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e12ad61fb024-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171746Z
+DTEND:20270216T171946Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:47:46 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 56° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c59cdb8d9e7-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214910Z
+DTEND:20270220T215110Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:19:10 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 50° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e28d8980aba8-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221351Z
+DTEND:20270221T221551Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:43:51 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 55° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f26bab1ee52f-mangalore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201407Z
+DTEND:20270227T201607Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:44:07 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 14° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-886d5271916a-mangalore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T225714Z
+DTEND:20270326T225914Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:27:14 at the dark limb IS
+ T\, seen from Mangalore.\nThe Moon is 51° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e683de0b02ef-mangalore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000822Z
+DTEND:20270402T001022Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:38:22 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 32° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b56a8330887d-mangalore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143428Z
+DTEND:20270414T143628Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:04:28 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 77° up in the NW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe971ef315ba-mangalore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150840Z
+DTEND:20270520T151040Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:38:40 at the dark limb IS
+ T\, seen from Mangalore.\nThe Moon is 21° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98a3ea1f9664-mangalore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174742Z
+DTEND:20270520T184532Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:17:42 at the bright lim
+ b and reappears at 00:15:32 at the bright limb IST\, seen from Mangalore.\
+ nThe Moon is 46° up in the SSE · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5399a2709f5-mangalore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135014Z
+DTEND:20270608T135214Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:20:14 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 44° up in the WNW · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-mangalore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165553Z
+DTEND:20270609T165753Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:53 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 12° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-132ee6be3136-mangalore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172620Z
+DTEND:20270609T172820Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:56:20 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 5° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9d16b4cd4ac-mangalore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130851Z
+DTEND:20270617T131051Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:38:51 at the b
+ right limb IST\, seen from Mangalore.\nThe Moon is 11° up in the ESE · d
+ aylight\, Sun +3°. Binoculars show it.\nEvery occultation this month\, fo
+ r anywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74dad8f629a5-mangalore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223615Z
+DTEND:20270620T223815Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:06:15 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 42° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d482747faa16-mangalore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175425Z
+DTEND:20270710T175625Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:24:25 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 9° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a32ed9e42c8-mangalore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T214659Z
+DTEND:20270716T214859Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:16:59 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 18° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66780520cbf5-mangalore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181450Z
+DTEND:20270723T181650Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:44:50 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 24° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-04ff85d3103f-mangalore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T155742Z
+DTEND:20270806T155942Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:27:42 at the dark limb 
+ IST\, seen from Mangalore.\nThe Moon is 7° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58cbcd28b61a-mangalore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175552Z
+DTEND:20270810T175752Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:25:52 at the dark limb
+  IST\, seen from Mangalore.\nThe Moon is 19° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb4803fdd14a-mangalore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230713Z
+DTEND:20270824T230913Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:37:13 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 66° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0b2dbea0337-mangalore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235105Z
+DTEND:20270827T235305Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:21:05 at the dark limb I
+ ST\, seen from Mangalore.\nThe Moon is 36° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-mangalore@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223040Z
+DTEND:20280121T232915Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:00:40 and reappears at 04:59:15 IST\, 
+ seen from Mangalore.\nThe Moon is 8° up in the ESE · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-01-22?city=Mangalore
+URL:https://occult.alokm.com/antares-2028-01-22?city=Mangalore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-mangalore@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T232858Z
+DTEND:20280413T000510Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:58:58 and reappears at 05:35:10 IST\, 
+ seen from Mangalore.\nThe Moon is 46° up in the SSW · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-04-12?city=Mangalore
+URL:https://occult.alokm.com/antares-2028-04-12?city=Mangalore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

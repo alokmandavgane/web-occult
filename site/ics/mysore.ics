@@ -1,0 +1,553 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Mysore
+X-WR-CALDESC:Lunar occultations you can see from Mysore\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-43c589817e7a-mysore@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232036Z
+DTEND:20260908T232236Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:50:36 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 6° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-mysore@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115156Z
+DTEND:20260914T131409Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:24:06 and reappears at 18:42:15 IST\, se
+ en from Mysore.\nThe Moon is 40° up in the SW · daylight\, Sun +14°.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?city=Mysore
+URL:https://occult.alokm.com/venus-2026-09-14?city=Mysore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ead279259295-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202147Z
+DTEND:20261102T202347Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:47 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 10° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-mysore@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205642Z
+DTEND:20261102T213537Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:28:55 and reappears at 03:03:17 IST\, 
+ seen from Mysore.\nThe Moon is 19° up in the E · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/jupiter-2026-11-02?city=Mysore
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Mysore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e80195bf7850-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144309Z
+DTEND:20261115T144509Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:13:09 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 32° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fca6a5393c4b-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155259Z
+DTEND:20261116T155459Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:22:59 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 29° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e16152102b28-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163552Z
+DTEND:20261127T163752Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:05:52 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 15° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02c8d9a5dbae-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T200225Z
+DTEND:20261128T200425Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:32:25 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 47° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-493a6e57f89e-mysore@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230901Z
+DTEND:20261130T231101Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:39:01 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 67° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a78421fed6c6-mysore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133242Z
+DTEND:20261212T133442Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:02:42 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 21° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-949ac148eae1-mysore@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203650Z
+DTEND:20261223T203850Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:06:50 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 58° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c31e6a98395e-mysore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164149Z
+DTEND:20270113T164349Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:11:49 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 6° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b1cd6bffe6b-mysore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193741Z
+DTEND:20270118T193941Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:07:41 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 27° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-832a1866fd29-mysore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135609Z
+DTEND:20270121T135809Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:26:09 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 28° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f56f00456b13-mysore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230938Z
+DTEND:20270124T231138Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:39:38 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 61° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-mysore@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162834Z
+DTEND:20270125T163034Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:34 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 9° up in the E · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46fce7dded43-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142015Z
+DTEND:20270212T142215Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:50:15 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 45° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ba08c5a916fa-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144341Z
+DTEND:20270214T144541Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:13:41 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 62° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b75621287e2-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155603Z
+DTEND:20270216T155803Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:26:03 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 70° up in the NW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-545924c6252c-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172133Z
+DTEND:20270216T172333Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:51:33 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 54° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b64ea98028e-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215156Z
+DTEND:20270220T215356Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:21:56 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 48° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-309167e2d5df-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221708Z
+DTEND:20270221T221908Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:47:08 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 52° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2affbea42e-mysore@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201519Z
+DTEND:20270227T201719Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:45:19 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 16° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3b686d6db0f-mysore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T215646Z
+DTEND:20270302T215846Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:26:46 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 5° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62ecc468d85f-mysore@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230326Z
+DTEND:20270326T230526Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:33:26 at the dark limb IS
+ T\, seen from Mysore.\nThe Moon is 51° up in the SSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71d8db24c7a6-mysore@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143756Z
+DTEND:20270414T143956Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:07:56 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 75° up in the NW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f277325b45a1-mysore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T134727Z
+DTEND:20270515T134927Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 19:17:27 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 68° up in the SE · dusk. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea2a5bb8c493-mysore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151010Z
+DTEND:20270520T151210Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:40:10 at the dark limb IS
+ T\, seen from Mysore.\nThe Moon is 23° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-421996657f8c-mysore@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175055Z
+DTEND:20270520T185203Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:20:55 at the bright lim
+ b and reappears at 00:22:03 at the bright limb IST\, seen from Mysore.\nTh
+ e Moon is 48° up in the SSE · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-167b6cf0bf31-mysore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135300Z
+DTEND:20270608T135500Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:23:00 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 41° up in the WNW · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-acdf521a0448-mysore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165644Z
+DTEND:20270609T165844Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:26:44 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 10° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14a9d8434259-mysore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130906Z
+DTEND:20270617T131106Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:39:06 at the b
+ right limb IST\, seen from Mysore.\nThe Moon is 13° up in the ESE · dayl
+ ight\, Sun +2°. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74dad8f629a5-mysore@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223653Z
+DTEND:20270620T223853Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:06:53 at the dark limb 
+ IST\, seen from Mysore.\nThe Moon is 41° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4da598038cc-mysore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175602Z
+DTEND:20270710T175802Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:26:02 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 7° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-867fdad38345-mysore@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181739Z
+DTEND:20270723T181939Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:47:39 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 26° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-667ca05ba566-mysore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175808Z
+DTEND:20270810T180008Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:28:08 at the dark limb
+  IST\, seen from Mysore.\nThe Moon is 18° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3a7589c908e-mysore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230649Z
+DTEND:20270824T230849Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:36:49 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 67° up in the NE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0b2dbea0337-mysore@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235149Z
+DTEND:20270827T235349Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:21:49 at the dark limb I
+ ST\, seen from Mysore.\nThe Moon is 38° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-mysore@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223051Z
+DTEND:20280121T233122Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:00:51 and reappears at 05:01:22 IST\, 
+ seen from Mysore.\nThe Moon is 10° up in the ESE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Mysore
+URL:https://occult.alokm.com/antares-2028-01-22?city=Mysore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-mysore@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234103Z
+DTEND:20280413T000218Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:11:03 and reappears at 05:32:18 IST\, 
+ seen from Mysore.\nThe Moon is 44° up in the SSW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Mysore
+URL:https://occult.alokm.com/antares-2028-04-12?city=Mysore
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

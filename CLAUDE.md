@@ -82,6 +82,16 @@ Rules that are easy to break:
   `valid_until`, and months past that simply have no spot rows. Refresh it from Sky & Telescope / JUPOS each
   apparition, extend `valid_until`, re-run the engine. Project Pluto's 2026 table holds L2 ≈ 80° all year with no
   drift, so by late 2026 its times run ~30 min early against the JUPOS trend — don't "fix" ours to match it.
+- **Calendar feeds** (`scripts/build_feeds.py`, run by the main build, ~1 min on 12 cores): `site/ics/<city>.ics` for
+  every city the event pages list, merged when two names are one place (< 5 km: the India list's name, else the
+  more populous), plus `site/calendar.html` (city picker, nearest city, webcal / Google / copy link, a preview parsed
+  from the feed). A feed holds the hand-picked occultations the city sees (the event file's real-limb row where the
+  city or an alias is listed, else `solve_from_elements` for cities in or near the world visibility region) and the
+  star occultations visible in BINOCULARS for the next 12 months. The star path screens on the solver's 2-minute
+  grid and then runs `MonthModel.events` on the survivors; `tests/test_feeds.py` fails if the screen ever drops an
+  event the full solve keeps. Prefilter stars by the chosen instrument's dark-limb limit — using the faintest
+  instrument's limit once made the build 6x slower. Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come
+  from the data, so unchanged events rebuild byte-identical; feed slugs are public subscription URLs — never rename.
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
   `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section

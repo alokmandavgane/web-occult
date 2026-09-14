@@ -1,0 +1,537 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Medan\, ID
+X-WR-CALDESC:Lunar occultations you can see from Medan\, ID\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Jakarta
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-medan-id@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123430Z
+DTEND:20260914T134322Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 19:36:00 and reappears at 20:42:04 WIB\, se
+ en from Medan\, ID.\nThe Moon is 15° up · dark sky.\nTimes for the Moon'
+ s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/venus-2026-09-14?lat=3.5833&lon=98.6667
+URL:https://occult.alokm.com/venus-2026-09-14?lat=3.5833&lon=98.6667
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ee8c6fdea74-medan-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260918T142323Z
+DTEND:20260918T142523Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:23:23 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 32° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca2b447f907c-medan-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T160636Z
+DTEND:20260920T160836Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 23:06:36 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 32° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e02b41e96216-medan-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261014T124846Z
+DTEND:20261014T125046Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:48:46 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 15° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2891ccf22128-medan-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T130942Z
+DTEND:20261016T131142Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 20:09:42 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 31° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-246ecc915d21-medan-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T143911Z
+DTEND:20261017T144111Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:39:11 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 24° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-medan-id@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T211435Z
+DTEND:20261102T223106Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:16:14 and reappears at 05:29:18 WIB\, 
+ seen from Medan\, ID.\nThe Moon is 43° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/jupiter-2026-11-02?lat=3.5833&lon=98.6667
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=3.5833&lon=98.6667
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f732b8b41312-medan-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T153111Z
+DTEND:20261116T153311Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 22:31:11 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 17° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45ce274ab539-medan-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163741Z
+DTEND:20261127T163941Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 23:37:41 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 31° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-655b81022b9f-medan-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T144721Z
+DTEND:20261217T144921Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:47:21 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 41° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b720b15512c8-medan-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T211304Z
+DTEND:20261223T211504Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 04:13:04 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 27° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b82636dfbae-medan-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T172420Z
+DTEND:20261227T172620Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 00:24:20 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 36° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfe0e0b83c6e-medan-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T144549Z
+DTEND:20270121T144749Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 21:45:49 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 54° up in the NE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6178b471a8c4-medan-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T164702Z
+DTEND:20270125T164902Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:47:02 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 35° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c51510a061d7-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225555Z
+DTEND:20270201T225755Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 05:55:55 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 35° up in the SE · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd17c6d8bb29-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T143607Z
+DTEND:20270212T143807Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 21:36:07 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 17° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b285a7400612-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T152402Z
+DTEND:20270214T152602Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:24:02 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 30° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d591dd72c522-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T164933Z
+DTEND:20270216T165133Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 23:49:33 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 37° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa7ae775e448-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T175323Z
+DTEND:20270216T175523Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 00:53:23 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 24° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96c0df5d0992-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T221836Z
+DTEND:20270220T222036Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:18:36 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 19° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0f0bf82232f-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T224931Z
+DTEND:20270221T225131Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 05:49:31 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 23° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-140a8d7671f1-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T175412Z
+DTEND:20270227T175612Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 00:54:12 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 10° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-925769c03e2c-medan-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T204507Z
+DTEND:20270227T204707Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 03:45:07 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 45° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f9ff03f793b-medan-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221953Z
+DTEND:20270302T222153Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 05:19:53 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 33° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1efedf061616-medan-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270311T122435Z
+DTEND:20270311T122635Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 19:24:35 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 20° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49c9b119b21-medan-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T151708Z
+DTEND:20270414T151908Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:17:08 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 43° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b9937fe641e-medan-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T143907Z
+DTEND:20270417T144107Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 21:39:07 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 88° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-618d547fd76d-medan-id@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270502T221009Z
+DTEND:20270502T221209Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) reappears at 05:10:09 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 24° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-79c0c9737d7b-medan-id@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T154348Z
+DTEND:20270520T154548Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 22:43:48 at the dark limb WI
+ B\, seen from Medan\, ID.\nThe Moon is 51° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3404906ffbbb-medan-id@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T191709Z
+DTEND:20270520T193425Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:17:09 at the bright lim
+ b and reappears at 02:34:25 at the bright limb WIB\, seen from Medan\, ID.
+ \nThe Moon is 51° up in the SW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e28c13d90c3-medan-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T124336Z
+DTEND:20270607T124536Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 19:43:36 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 20° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e94768fd89fb-medan-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T141523Z
+DTEND:20270608T141723Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 21:15:23 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 13° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d75b7414c252-medan-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T141246Z
+DTEND:20270611T141446Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 21:12:46 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 49° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f83cd5971af0-medan-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T124357Z
+DTEND:20270617T132029Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 19:43:57 at the 
+ dark limb and reappears at 20:20:29 at the dark limb WIB\, seen from Medan
+ \, ID.\nThe Moon is 31° up in the SE · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e58df585e22-medan-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T134748Z
+DTEND:20270708T134948Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 20:47:48 at the dark limb 
+ WIB\, seen from Medan\, ID.\nThe Moon is 25° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-93486ba4437b-medan-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T184412Z
+DTEND:20270723T184612Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:44:12 at the dark limb W
+ IB\, seen from Medan\, ID.\nThe Moon is 55° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cf0da561a74-medan-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T123154Z
+DTEND:20270810T141026Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:31:54 at the dark limb 
+ and reappears at 21:10:26 at the bright limb WIB\, seen from Medan\, ID.\n
+ The Moon is 60° up in the S · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7027e8ac21e-medan-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T160301Z
+DTEND:20270810T160501Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 23:03:01 at the dark limb
+  WIB\, seen from Medan\, ID.\nThe Moon is 27° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-medan-id@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T224832Z
+DTEND:20280122T001534Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:48:32 and reappears at 07:15:34 WIB\, 
+ seen from Medan\, ID.\nThe Moon is 36° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-01-22?lat=3.5833&lon=98.6667
+URL:https://occult.alokm.com/antares-2028-01-22?lat=3.5833&lon=98.6667
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

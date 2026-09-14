@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Ahmedabad
+X-WR-CALDESC:Lunar occultations you can see from Ahmedabad\, computed by oc
+ cult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-ahmedabad@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114310Z
+DTEND:20260914T123109Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:17:26 and reappears at 17:57:05 IST\, se
+ en from Ahmedabad.\nThe Moon is 37° up in the SW · daylight\, Sun +19°.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/venus-2026-09-14?city=Ahmedabad
+URL:https://occult.alokm.com/venus-2026-09-14?city=Ahmedabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34825fb71a6e-ahmedabad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162209Z
+DTEND:20260930T162409Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:52:09 at the dark
+  limb IST\, seen from Ahmedabad.\nThe Moon is 10° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1eb643dc7dd-ahmedabad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162249Z
+DTEND:20260930T162449Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:52:49 at the d
+ ark limb IST\, seen from Ahmedabad.\nThe Moon is 10° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c27887a6fa55-ahmedabad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202526Z
+DTEND:20261004T202726Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:55:26 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 9° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202332Z
+DTEND:20261102T202532Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:32 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 9° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07172256d3e7-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145551Z
+DTEND:20261115T145751Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:25:51 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 26° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-453554d04d86-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160652Z
+DTEND:20261116T160852Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:36:52 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 24° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0fe14bfa646c-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162424Z
+DTEND:20261127T162624Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:54:24 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 13° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-634d96830e1f-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201816Z
+DTEND:20261128T202016Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:48:16 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 49° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96b9961f078e-ahmedabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225540Z
+DTEND:20261130T225740Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:25:40 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 57° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77f8c3eb8772-ahmedabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133907Z
+DTEND:20261212T134107Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:09:07 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 17° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be6d608e02c9-ahmedabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202228Z
+DTEND:20261223T202428Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:52:28 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 70° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cee1087f75a4-ahmedabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T235042Z
+DTEND:20261228T000728Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:20:42 at the dark limb 
+ and reappears at 05:37:28 at the dark limb IST\, seen from Ahmedabad.\nThe
+  Moon is 71° up in the SW · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-1
+ 2
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b35fd56dfe5-ahmedabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T170210Z
+DTEND:20270113T170410Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:32:10 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 5° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b5bd919e215-ahmedabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140743Z
+DTEND:20270121T140943Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:37:43 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 30° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b269b9b2314e-ahmedabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224302Z
+DTEND:20270124T224502Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:13:02 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 66° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-216dc9d56c7e-ahmedabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004653Z
+DTEND:20270204T004853Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:16:53 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 6° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c811cb3a41ac-ahmedabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170227Z
+DTEND:20270216T170427Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:32:27 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 66° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863a8f6c3285-ahmedabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T212830Z
+DTEND:20270220T213030Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 02:58:30 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 56° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-952574dab412-ahmedabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T214809Z
+DTEND:20270221T215009Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:18:09 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 58° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1e3d9cbd51-ahmedabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201127Z
+DTEND:20270227T201327Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:41:27 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 6° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73fa1657693d-ahmedabad@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T222900Z
+DTEND:20270326T223100Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 03:59:00 at the dark limb IS
+ T\, seen from Ahmedabad.\nThe Moon is 41° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11071e4d7489-ahmedabad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000343Z
+DTEND:20270402T000543Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:33:43 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 24° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e99b6927bb0-ahmedabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150019Z
+DTEND:20270520T150219Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:30:19 at the dark limb IS
+ T\, seen from Ahmedabad.\nThe Moon is 12° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cac232ca075a-ahmedabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172350Z
+DTEND:20270520T184741Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:53:50 at the bright lim
+ b and reappears at 00:17:41 at the dark limb IST\, seen from Ahmedabad.\nT
+ he Moon is 34° up in the SSE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb042963066c-ahmedabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165903Z
+DTEND:20270609T170103Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:29:03 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 15° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43dd69206c7a-ahmedabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T171941Z
+DTEND:20270609T172141Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:49:41 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 10° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1653c48acb-ahmedabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224108Z
+DTEND:20270620T224308Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:11:08 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 34° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8be29b00645c-ahmedabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174415Z
+DTEND:20270710T174615Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:14:15 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 10° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55cd84c57b71-ahmedabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212333Z
+DTEND:20270716T212533Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:53:33 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 18° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1189efe157f-ahmedabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154034Z
+DTEND:20270806T154234Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:10:34 at the dark limb 
+ IST\, seen from Ahmedabad.\nThe Moon is 11° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-ahmedabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175438Z
+DTEND:20270810T175638Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:38 at the dark limb
+  IST\, seen from Ahmedabad.\nThe Moon is 15° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc49c6963e6d-ahmedabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232536Z
+DTEND:20270824T232736Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:55:36 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 72° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4157be9242d3-ahmedabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235614Z
+DTEND:20270827T235814Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:26:14 at the dark limb I
+ ST\, seen from Ahmedabad.\nThe Moon is 38° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-ahmedabad@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222642Z
+DTEND:20280121T233202Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:42 and reappears at 05:02:02 IST\, 
+ seen from Ahmedabad.\nThe Moon is 0° up in the ESE · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-01-22?city=Ahmedabad
+URL:https://occult.alokm.com/antares-2028-01-22?city=Ahmedabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-ahmedabad@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142351Z
+DTEND:20280330T145759Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:53:51 and reappears at 20:27:59 IST\, 
+ seen from Ahmedabad.\nThe Moon is 36° up in the WNW · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/alcyone-2028-03-30?city=Ahmedabad
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Ahmedabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-ahmedabad@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T225609Z
+DTEND:20280413T001809Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:26:09 and reappears at 05:48:09 IST\, 
+ seen from Ahmedabad.\nThe Moon is 40° up in the SSW · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-04-12?city=Ahmedabad
+URL:https://occult.alokm.com/antares-2028-04-12?city=Ahmedabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

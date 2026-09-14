@@ -1,0 +1,503 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Chattogram\, BD
+X-WR-CALDESC:Lunar occultations you can see from Chattogram\, BD\, computed
+  by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Dhaka
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-chattogram-bd@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122303Z
+DTEND:20260914T130415Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 18:26:18 and reappears at 19:01:15 +06\, se
+ en from Chattogram\, BD.\nThe Moon is 16° up · dusk.\nTimes for the Moon
+ 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/venus-2026-09-14?lat=22.3384&lon=91.8317
+URL:https://occult.alokm.com/venus-2026-09-14?lat=22.3384&lon=91.8317
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-500c46c014b0-chattogram-bd@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161211Z
+DTEND:20260930T161411Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 22:12:11 at the d
+ ark limb +06\, seen from Chattogram\, BD.\nThe Moon is 24° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1c883430a53-chattogram-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213717Z
+DTEND:20261006T213917Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:37:17 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 15° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b76d097ce7f5-chattogram-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T132449Z
+DTEND:20261020T132649Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 19:24:49 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 51° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-945b1ea0b34e-chattogram-bd@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T140820Z
+DTEND:20261021T141020Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 20:08:20 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 56° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-94b03d3efb8b-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203611Z
+DTEND:20261102T203811Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:36:11 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 29° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-907ffa0b38d5-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T215010Z
+DTEND:20261104T215210Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:50:10 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 21° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6f081bd4d31-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145824Z
+DTEND:20261115T150024Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:58:24 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 12° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-453554d04d86-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160626Z
+DTEND:20261116T160826Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 22:06:26 at the dark limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 9° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d21366b38aaf-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164845Z
+DTEND:20261127T165045Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:48:45 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 35° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9561d6527761-chattogram-bd@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T210135Z
+DTEND:20261128T210335Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:01:35 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 77° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-806744f00208-chattogram-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T142220Z
+DTEND:20270121T142420Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 20:22:20 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 51° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-714c09bf2f7c-chattogram-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225017Z
+DTEND:20270124T225217Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:50:17 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 49° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-chattogram-bd@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162843Z
+DTEND:20270125T163043Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 22:28:43 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 23° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e2414c2a41c-chattogram-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225734Z
+DTEND:20270201T225934Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:57:34 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 18° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9dfb88a0191e-chattogram-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172722Z
+DTEND:20270214T172922Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 23:27:22 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 16° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6304e76783fd-chattogram-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T174212Z
+DTEND:20270216T174412Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:42:12 at the dark limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 40° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7eb94414988-chattogram-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215605Z
+DTEND:20270220T224324Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:56:05 at the dark limb 
+ and reappears at 04:43:24 at the dark limb +06\, seen from Chattogram\, BD
+ .\nThe Moon is 32° up in the W · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-038eeb206641-chattogram-bd@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200705Z
+DTEND:20270227T200905Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 02:07:05 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 20° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2954e4b09319-chattogram-bd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T204854Z
+DTEND:20270301T205054Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 02:48:54 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 9° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c07aadf0c779-chattogram-bd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221709Z
+DTEND:20270302T221909Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 04:17:09 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 16° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-657cde6923da-chattogram-bd@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230200Z
+DTEND:20270326T230400Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:02:00 at the dark limb +0
+ 6\, seen from Chattogram\, BD.\nThe Moon is 37° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bed4c346ccd0-chattogram-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T144250Z
+DTEND:20270414T144450Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:42:50 at the dark limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 62° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8e390e99f3b-chattogram-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T131602Z
+DTEND:20270416T131802Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:16:02 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 70° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9fc22786a85-chattogram-bd@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134542Z
+DTEND:20270417T134742Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:45:42 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 62° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a8e6c92d84a-chattogram-bd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T180549Z
+DTEND:20270520T194418Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:05:49 at the bright lim
+ b and reappears at 01:44:18 at the dark limb +06\, seen from Chattogram\, 
+ BD.\nThe Moon is 42° up in the S · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e21d3080e77-chattogram-bd@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T173216Z
+DTEND:20270522T173416Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 23:32:16 at the dark limb +0
+ 6\, seen from Chattogram\, BD.\nThe Moon is 31° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cd268e4b5b8-chattogram-bd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T133917Z
+DTEND:20270607T134117Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:39:17 at the dark limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 20° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d822483de4c9-chattogram-bd@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154650Z
+DTEND:20270620T154850Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:46:50 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 21° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f5f59fd53d3-chattogram-bd@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T185118Z
+DTEND:20270723T185318Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:51:18 at the dark limb +
+ 06\, seen from Chattogram\, BD.\nThe Moon is 46° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9f29d8e75d4-chattogram-bd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270805T133435Z
+DTEND:20270805T133635Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 19:34:35 at the dark limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 13° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5b88a62b19c-chattogram-bd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T133156Z
+DTEND:20270810T133356Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 19:31:56 at the bright limb
+  +06\, seen from Chattogram\, BD.\nThe Moon is 40° up in the SSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf7356bd5866-chattogram-bd@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T185422Z
+DTEND:20270826T185622Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:54:22 at the dark limb 
+ +06\, seen from Chattogram\, BD.\nThe Moon is 6° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-chattogram-bd@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T224135Z
+DTEND:20280121T234743Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:41:35 and reappears at 05:47:43 +06\, 
+ seen from Chattogram\, BD.\nThe Moon is 18° up · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-01-22?lat=22.3384&lon=91.8317
+URL:https://occult.alokm.com/antares-2028-01-22?lat=22.3384&lon=91.8317
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-chattogram-bd@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142443Z
+DTEND:20280330T151742Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 20:24:43 and reappears at 21:17:42 +06\, 
+ seen from Chattogram\, BD.\nThe Moon is 18° up · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/alcyone-2028-03-30?lat=22.3384&lon=91.8317
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=22.3384&lon=91.8317
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-chattogram-bd@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234952Z
+DTEND:20280413T003823Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:49:52 and reappears at 06:38:23 +06\, 
+ seen from Chattogram\, BD.\nThe Moon is 26° up · daylight\, Sun +3°.\nT
+ imes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the 
+ Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=22.3384&lon=9
+ 1.8317
+URL:https://occult.alokm.com/antares-2028-04-12?lat=22.3384&lon=91.8317
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

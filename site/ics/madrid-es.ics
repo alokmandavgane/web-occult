@@ -1,0 +1,440 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Madrid\, ES
+X-WR-CALDESC:Lunar occultations you can see from Madrid\, ES\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:star-94ff3d7e9e44-madrid-es@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T043036Z
+DTEND:20260908T043236Z
+SUMMARY:The Moon hides 39 Cnc · mag 6.4
+DESCRIPTION:39 Cnc (magnitude 6.4) reappears at 06:30:36 at the dark limb C
+ EST\, seen from Madrid\, ES.\nThe Moon is 21° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-madrid-es@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T092726Z
+DTEND:20260914T102311Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:28:57 and reappears at 12:21:33 CEST\, s
+ een from Madrid\, ES.\nThe Moon is -1° up · daylight\, Sun +38°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?lat=40.4165&lon=-3.7026
+URL:https://occult.alokm.com/venus-2026-09-14?lat=40.4165&lon=-3.7026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-516e73b9a277-madrid-es@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260929T220233Z
+DTEND:20260929T220433Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 00:02:33 at the dark limb C
+ EST\, seen from Madrid\, ES.\nThe Moon is 29° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-747e03454101-madrid-es@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T010858Z
+DTEND:20261028T011058Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:08:58 at the d
+ ark limb CET\, seen from Madrid\, ES.\nThe Moon is 73° up in the SSE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b2e6013b5b95-madrid-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T021839Z
+DTEND:20261101T022039Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 03:18:39 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 44° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6aa31611d7c8-madrid-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T024527Z
+DTEND:20261104T024727Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 03:45:27 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 11° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3da0dd0e464-madrid-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T185017Z
+DTEND:20261113T185217Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 19:50:17 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 8° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d87c3a7d87e3-madrid-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T181000Z
+DTEND:20261114T181200Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 19:10:00 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 19° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fec5f9fbc917-madrid-es@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T182822Z
+DTEND:20261116T183022Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 19:28:22 at the dark limb
+  CET\, seen from Madrid\, ES.\nThe Moon is 31° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9912c4e7b50-madrid-es@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T230628Z
+DTEND:20261228T230828Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:06:28 at the dark limb C
+ ET\, seen from Madrid\, ES.\nThe Moon is 6° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce232e47f163-madrid-es@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T194738Z
+DTEND:20270113T194938Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 20:47:38 at the dark limb
+  CET\, seen from Madrid\, ES.\nThe Moon is 32° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4fadaf6f0a9-madrid-es@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T205742Z
+DTEND:20270124T205942Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 21:57:42 at the dark limb C
+ ET\, seen from Madrid\, ES.\nThe Moon is 8° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-833b37873887-madrid-es@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200005Z
+DTEND:20270221T200205Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 21:00:05 at the dark limb C
+ ET\, seen from Madrid\, ES.\nThe Moon is 11° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c631b4a3e4ff-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223554Z
+DTEND:20270313T223754Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:35:54 at the 
+ dark limb CET\, seen from Madrid\, ES.\nThe Moon is 16° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96bbdd6706a4-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223955Z
+DTEND:20270313T224155Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 23:39:55 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 15° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4d2790e8980-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T224823Z
+DTEND:20270313T225023Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 23:48:23 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 13° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-abc628aea8ff-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T225255Z
+DTEND:20270313T225455Z
+SUMMARY:The Moon hides 22 Tau · mag 6.5
+DESCRIPTION:22 Tau (magnitude 6.5) disappears at 23:52:55 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 13° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bcd52a178fa8-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T233359Z
+DTEND:20270316T233559Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:33:59 at the dark limb 
+ CET\, seen from Madrid\, ES.\nThe Moon is 38° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c001be40a5e3-madrid-es@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T001709Z
+DTEND:20270327T011413Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:17:09 at the bright lim
+ b and reappears at 02:14:13 at the dark limb CET\, seen from Madrid\, ES.\
+ nThe Moon is 6° up in the SE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df49fdb4904e-madrid-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T230306Z
+DTEND:20270413T230506Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 01:03:06 at the dark limb
+  CEST\, seen from Madrid\, ES.\nThe Moon is 31° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20c367089785-madrid-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T002908Z
+DTEND:20270414T003108Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 02:29:08 at the dark limb
+  CEST\, seen from Madrid\, ES.\nThe Moon is 15° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89a8cf1f21b4-madrid-es@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T013132Z
+DTEND:20270415T013332Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:31:32 at the dark limb 
+ CEST\, seen from Madrid\, ES.\nThe Moon is 11° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-562e7c9a76b2-madrid-es@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T003840Z
+DTEND:20270515T004040Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 02:38:40 at the dark limb 
+ CEST\, seen from Madrid\, ES.\nThe Moon is 15° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92a892d98b4e-madrid-es@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T234758Z
+DTEND:20270523T234958Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 01:47:58 at the dar
+ k limb CEST\, seen from Madrid\, ES.\nThe Moon is 9° up in the SE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62ee48dee5a3-madrid-es@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T013338Z
+DTEND:20270617T013538Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 03:33:38 at the dark limb 
+ CEST\, seen from Madrid\, ES.\nThe Moon is 11° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2753dbdea890-madrid-es@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T002619Z
+DTEND:20270619T002819Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 02:26:19 at the dark limb C
+ EST\, seen from Madrid\, ES.\nThe Moon is 22° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-47d1e3723552-madrid-es@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T214802Z
+DTEND:20270717T215002Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 23:48:02 at the dark limb 
+ CEST\, seen from Madrid\, ES.\nThe Moon is 18° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cd50b2408319-madrid-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T013301Z
+DTEND:20270820T013501Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:33:01 at the dark limb C
+ EST\, seen from Madrid\, ES.\nThe Moon is 51° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-164787aa1127-madrid-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225518Z
+DTEND:20270824T225718Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:55:18 at the dark
+  limb CEST\, seen from Madrid\, ES.\nThe Moon is 6° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cca31d906c75-madrid-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232442Z
+DTEND:20270824T232642Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 01:24:42 at the d
+ ark limb CEST\, seen from Madrid\, ES.\nThe Moon is 11° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a305191637e4-madrid-es@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T234656Z
+DTEND:20270824T234856Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 01:46:56 at the d
+ ark limb CEST\, seen from Madrid\, ES.\nThe Moon is 14° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-madrid-es@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T115430Z
+DTEND:20280330T124628Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 13:54:30 and reappears at 14:46:28 CEST\,
+  seen from Madrid\, ES.\nThe Moon is 42° up · daylight\, Sun +53°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.4165&lon=-3.
+ 7026
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.4165&lon=-3.7026
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

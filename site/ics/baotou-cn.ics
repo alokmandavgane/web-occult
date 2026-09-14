@@ -1,0 +1,421 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Baotou\, CN
+X-WR-CALDESC:Lunar occultations you can see from Baotou\, CN\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:star-10bc044e0d2d-baotou-cn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T165704Z
+DTEND:20260930T165904Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:57:04 at the d
+ ark limb CST\, seen from Baotou\, CN.\nThe Moon is 51° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b242d101afe7-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T211319Z
+DTEND:20261004T211519Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:13:19 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 51° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2026-10-05-baotou-cn@occult.alokm.com
+DTSTAMP:20260914T034451Z
+DTSTART:20261005T065243Z
+DTEND:20261005T071621Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:53:02 and reappears at 15:16:02 CST\, see
+ n from Baotou\, CN.\nThe Moon is 6° up in the WNW · daylight\, Sun +34°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2026-10-05?city=Baotou%2C%20CN
+URL:https://occult.alokm.com/mars-2026-10-05?city=Baotou%2C%20CN
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b0869804965-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T190345Z
+DTEND:20261005T190545Z
+SUMMARY:The Moon hides HR 3577 · mag 6.4
+DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 03:03:45 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 15° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f2ebbec70da3-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T215452Z
+DTEND:20261006T215652Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:54:52 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 34° up in the ESE · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75314d49b127-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T205615Z
+DTEND:20261007T205815Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:56:15 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 10° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-51503851eb34-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T140917Z
+DTEND:20261020T141117Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:09:17 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 26° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f61a6f9d69f7-baotou-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T145209Z
+DTEND:20261021T145409Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:52:09 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 31° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-641ef97b75bb-baotou-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T221906Z
+DTEND:20261104T222106Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 06:19:06 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 35° up in the SE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73ecbeb6c800-baotou-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261124T102702Z
+DTEND:20261124T105900Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 18:27:02 at the 
+ dark limb and reappears at 18:59:00 at the dark limb CST\, seen from Baoto
+ u\, CN.\nThe Moon is 18° up in the ENE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c50d08724716-baotou-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T170501Z
+DTEND:20261229T170701Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 01:05:01 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 14° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3cfb58c61223-baotou-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T170328Z
+DTEND:20270214T170528Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 01:03:28 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 13° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc49bd9894e7-baotou-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171423Z
+DTEND:20270214T171623Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:14:23 at the 
+ dark limb CST\, seen from Baotou\, CN.\nThe Moon is 11° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29f0847236d8-baotou-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172116Z
+DTEND:20270214T172316Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 01:21:16 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 10° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e1e243aafa3-baotou-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270222T124124Z
+DTEND:20270222T124324Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 20:41:24 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 5° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f969380cfb32-baotou-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210710Z
+DTEND:20270301T210910Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 05:07:10 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 10° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7376101e3615-baotou-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T192358Z
+DTEND:20270318T192558Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:23:58 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 15° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-16e0c38d9443-baotou-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T132328Z
+DTEND:20270416T132528Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:23:28 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 59° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e61277edbce1-baotou-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T145329Z
+DTEND:20270520T145529Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 22:53:29 at the dark limb CS
+ T\, seen from Baotou\, CN.\nThe Moon is 19° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-072a9a7b658f-baotou-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T184308Z
+DTEND:20270520T195542Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:43:08 at the bright lim
+ b and reappears at 03:55:42 at the dark limb CST\, seen from Baotou\, CN.\
+ nThe Moon is 18° up in the SSW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c94a53b510db-baotou-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T182724Z
+DTEND:20270522T182924Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 02:27:24 at the dark limb CS
+ T\, seen from Baotou\, CN.\nThe Moon is 21° up in the S · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85acfbdb88ff-baotou-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T132605Z
+DTEND:20270607T132805Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 21:26:05 at the dark limb
+  CST\, seen from Baotou\, CN.\nThe Moon is 13° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-823b0cb326a5-baotou-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T164856Z
+DTEND:20270620T165056Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:48:56 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 22° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c496b96c0d80-baotou-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T202600Z
+DTEND:20270701T202800Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 04:26:00 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 16° up in the ENE · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6937c0a918a8-baotou-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T125658Z
+DTEND:20270717T125858Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 20:56:58 at the bri
+ ght limb CST\, seen from Baotou\, CN.\nThe Moon is 11° up in the SE · du
+ sk. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42a1c6f99976-baotou-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T195229Z
+DTEND:20270723T195429Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:52:29 at the dark limb C
+ ST\, seen from Baotou\, CN.\nThe Moon is 51° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91888bab3ff0-baotou-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T191912Z
+DTEND:20270826T192112Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:19:12 at the dark limb 
+ CST\, seen from Baotou\, CN.\nThe Moon is 31° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98bd27c76897-baotou-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T185450Z
+DTEND:20270827T193306Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:54:50 at the bright lim
+ b and reappears at 03:33:06 at the dark limb CST\, seen from Baotou\, CN.\
+ nThe Moon is 15° up in the ENE · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-baotou-cn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141812Z
+DTEND:20280330T144917Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 22:18:12 and reappears at 22:49:17 CST\, 
+ seen from Baotou\, CN.\nThe Moon is 11° up · dark sky.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/alcyone-2028-03-30?lat=40.6516&lon=109.8439
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.6516&lon=109.8439
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-baotou-cn@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234503Z
+DTEND:20280413T004435Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 07:45:03 and reappears at 08:44:35 CST\, 
+ seen from Baotou\, CN.\nThe Moon is 3° up · daylight\, Sun +18°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?lat=40.6516&lon=109.8
+ 439
+URL:https://occult.alokm.com/antares-2028-04-12?lat=40.6516&lon=109.8439
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

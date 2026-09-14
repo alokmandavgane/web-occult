@@ -1,0 +1,508 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Konya\, TR
+X-WR-CALDESC:Lunar occultations you can see from Konya\, TR\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-konya-tr@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T094252Z
+DTEND:20260914T110408Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:44:31 and reappears at 14:02:19 +03\, se
+ en from Konya\, TR.\nThe Moon is 25° up · daylight\, Sun +55°.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/venus-2026-09-14?lat=37.8713&lon=32.4846
+URL:https://occult.alokm.com/venus-2026-09-14?lat=37.8713&lon=32.4846
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a501aa22cf9-konya-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T171108Z
+DTEND:20260917T171308Z
+SUMMARY:The Moon hides τ Sco · mag 2.7
+DESCRIPTION:τ Sco (magnitude 2.7) reappears at 20:11:08 at the bright limb
+  +03\, seen from Konya\, TR.\nThe Moon is 15° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-16bcdc2de662-konya-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T204711Z
+DTEND:20260923T204911Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:47:11 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 36° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9b0fbd7a375-konya-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T191835Z
+DTEND:20261018T192035Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:18:35 at the dark limb
+  +03\, seen from Konya\, TR.\nThe Moon is 12° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-531d11282efe-konya-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T002733Z
+DTEND:20261030T002933Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:27:33 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 76° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff4c68b45cd4-konya-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T031704Z
+DTEND:20261101T031904Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 06:17:04 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 74° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6346872f2e9-konya-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T235927Z
+DTEND:20261103T000127Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 02:59:27 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 21° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-926e204b49c3-konya-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T031205Z
+DTEND:20261104T031405Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 06:12:05 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 43° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fb200007efa-konya-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T193150Z
+DTEND:20261116T193350Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 22:31:50 at the dark limb
+  +03\, seen from Konya\, TR.\nThe Moon is 10° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1e88ddd8732-konya-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T220637Z
+DTEND:20261130T220837Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:06:37 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 11° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f667d53bfee9-konya-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T160952Z
+DTEND:20261214T161152Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:09:52 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 30° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f5fd467a6cc0-konya-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T233531Z
+DTEND:20261228T233731Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 02:35:31 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 39° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fca4a32a271e-konya-tr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T212226Z
+DTEND:20270124T212426Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 00:22:26 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 41° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b7ae6b544561-konya-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T203106Z
+DTEND:20270221T203306Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 23:31:06 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 44° up in the SE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f751b809966-konya-tr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T234344Z
+DTEND:20270316T234544Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 02:43:44 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 9° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97e9c8639604-konya-tr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T213744Z
+DTEND:20270326T213944Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:37:44 at the dark limb +0
+ 3\, seen from Konya\, TR.\nThe Moon is 7° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7752d6e1966b-konya-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T232320Z
+DTEND:20270424T232520Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:23:20 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 20° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4de073c08cb-konya-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T002157Z
+DTEND:20270427T002357Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:21:57 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 18° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a22dcbdde8b2-konya-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T201950Z
+DTEND:20270512T202150Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:19:50 at the dark limb
+  +03\, seen from Konya\, TR.\nThe Moon is 26° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-10c4b8876ffb-konya-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T232434Z
+DTEND:20270524T005818Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:24:34 at the br
+ ight limb and reappears at 03:58:18 at the dark limb +03\, seen from Konya
+ \, TR.\nThe Moon is 23° up in the SSE · dark sky. Binoculars show it.\nE
+ very occultation this month\, for anywhere: https://occult.alokm.com/moon-
+ stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ef676805fd4-konya-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270603T013420Z
+DTEND:20270603T013620Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 04:34:20 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 7° up in the ENE · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f93e7e82e25-konya-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T184615Z
+DTEND:20270610T184815Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 21:46:15 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 32° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-93784215d4ae-konya-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T214743Z
+DTEND:20270616T214943Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 00:47:43 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 21° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f236577b22e2-konya-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T232210Z
+DTEND:20270622T232410Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:22:10 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 31° up in the SSE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e82118900f6-konya-tr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T230632Z
+DTEND:20270717T230832Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 02:06:32 at the dark limb 
+ +03\, seen from Konya\, TR.\nThe Moon is 23° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d5ab4f0a1d7f-konya-tr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T012555Z
+DTEND:20270724T012755Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 04:25:55 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 55° up in the S · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c977768ea28f-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T185039Z
+DTEND:20270813T201300Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 21:50:39 at the da
+ rk limb and reappears at 23:13:00 at the bright limb +03\, seen from Konya
+ \, TR.\nThe Moon is 26° up in the S · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-268865f978cc-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221733Z
+DTEND:20270824T221933Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:17:33 at the d
+ ark limb +03\, seen from Konya\, TR.\nThe Moon is 25° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e321800e98b9-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222954Z
+DTEND:20270824T223154Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:29:54 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 27° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-076c6e3c641c-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224251Z
+DTEND:20270824T224451Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:42:51 at the d
+ ark limb +03\, seen from Konya\, TR.\nThe Moon is 29° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4c17d87e95f-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225812Z
+DTEND:20270824T230012Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:58:12 at the dark
+  limb +03\, seen from Konya\, TR.\nThe Moon is 32° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b7c2f2706ca-konya-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230159Z
+DTEND:20270824T230359Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:01:59 at the dark limb +
+ 03\, seen from Konya\, TR.\nThe Moon is 33° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-konya-tr@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T122204Z
+DTEND:20271229T134205Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 15:22:18 and reappears at 16:41:52 +03\, see
+ n from Konya\, TR.\nThe Moon is 28° up in the SSW · daylight\, Sun +19°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Konya%2C%20TR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Konya%2C%20TR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-konya-tr@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T123139Z
+DTEND:20280330T135854Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 15:31:39 and reappears at 16:58:54 +03\, 
+ seen from Konya\, TR.\nThe Moon is 75° up · daylight\, Sun +41°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=37.8713&lon=32.48
+ 46
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=37.8713&lon=32.4846
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-konya-tr@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T214013Z
+DTEND:20280412T224815Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:40:13 and reappears at 01:48:15 +03\, 
+ seen from Konya\, TR.\nThe Moon is 11° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?lat=37.8713&lon=32.4846
+URL:https://occult.alokm.com/antares-2028-04-12?lat=37.8713&lon=32.4846
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-konya-tr@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T025839Z
+DTEND:20290211T034840Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 05:59:01 and reappears at 06:48:16 +03\, 
+ seen from Konya\, TR.\nThe Moon is -5° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/mercury-2029-02-11?lat=37.8713&lon=32.4846
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=37.8713&lon=32.4846
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

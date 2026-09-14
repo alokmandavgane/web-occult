@@ -1,0 +1,486 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from London\, GB
+X-WR-CALDESC:Lunar occultations you can see from London\, GB\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-london-gb@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T092913Z
+DTEND:20260914T103555Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 10:30:29 and reappears at 11:34:33 BST\, se
+ en from London\, GB.\nThe Moon is -3° up · daylight\, Sun +33°.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?lat=51.5085&lon=-0.1257
+URL:https://occult.alokm.com/venus-2026-09-14?lat=51.5085&lon=-0.1257
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d4faa11ab83-london-gb@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260929T222816Z
+DTEND:20260929T223016Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 23:28:16 at the dark limb B
+ ST\, seen from London\, GB.\nThe Moon is 36° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ad04d030950-london-gb@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T013544Z
+DTEND:20261028T013744Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:35:44 at the d
+ ark limb GMT\, seen from London\, GB.\nThe Moon is 63° up in the S · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18cdcb1f01c4-london-gb@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T013946Z
+DTEND:20261028T014146Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:39:46 at the dark
+  limb GMT\, seen from London\, GB.\nThe Moon is 63° up in the S · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-703bbc97c145-london-gb@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261105T051526Z
+DTEND:20261105T051726Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 05:15:26 at the dark limb G
+ MT\, seen from London\, GB.\nThe Moon is 22° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-398e0ed96aaa-london-gb@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T181826Z
+DTEND:20261114T182026Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 18:18:26 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 8° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7387294582de-london-gb@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T184023Z
+DTEND:20261116T184223Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 18:40:23 at the dark limb
+  GMT\, seen from London\, GB.\nThe Moon is 19° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3112a15ee5c6-london-gb@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T221515Z
+DTEND:20261221T221715Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 22:15:15 at the 
+ dark limb GMT\, seen from London\, GB.\nThe Moon is 62° up in the SSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e26bb5e4c787-london-gb@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T224703Z
+DTEND:20261221T224903Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 22:47:03 at the dar
+ k limb GMT\, seen from London\, GB.\nThe Moon is 61° up in the SSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-683d33cd6e8f-london-gb@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T223223Z
+DTEND:20261227T223423Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 22:32:23 at the dark limb G
+ MT\, seen from London\, GB.\nThe Moon is 15° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0e6626df043-london-gb@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T232418Z
+DTEND:20261228T232618Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 23:24:18 at the dark limb G
+ MT\, seen from London\, GB.\nThe Moon is 10° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46bd0fbe95b6-london-gb@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T210048Z
+DTEND:20270124T210248Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 21:00:48 at the dark limb G
+ MT\, seen from London\, GB.\nThe Moon is 11° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1980dee84fb-london-gb@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T193328Z
+DTEND:20270220T193528Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:33:28 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 21° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01c1f2a3130d-london-gb@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200619Z
+DTEND:20270221T200819Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 20:06:19 at the dark limb G
+ MT\, seen from London\, GB.\nThe Moon is 13° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-28406e55a812-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221341Z
+DTEND:20270313T221541Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 22:13:41 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 20° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e4c872ed3d1-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221537Z
+DTEND:20270313T221737Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 22:15:37 at the 
+ dark limb GMT\, seen from London\, GB.\nThe Moon is 20° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29a166ac2be5-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223323Z
+DTEND:20270313T223523Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 22:33:23 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 17° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d462d62b5d4-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223351Z
+DTEND:20270313T223551Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 22:33:51 at the dar
+ k limb GMT\, seen from London\, GB.\nThe Moon is 17° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9f514e0aec3-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223610Z
+DTEND:20270313T223810Z
+SUMMARY:The Moon hides 22 Tau · mag 6.5
+DESCRIPTION:22 Tau (magnitude 6.5) disappears at 22:36:10 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 17° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f95f175ee59-london-gb@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T231805Z
+DTEND:20270316T232005Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 23:18:05 at the dark limb 
+ GMT\, seen from London\, GB.\nThe Moon is 38° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ebc0800ed216-london-gb@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270411T234429Z
+DTEND:20270411T234629Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) disappears at 00:44:29 at the dark limb
+  BST\, seen from London\, GB.\nThe Moon is 9° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d8c3ac7bda7-london-gb@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T003841Z
+DTEND:20270413T004041Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 01:38:41 at the dark limb 
+ BST\, seen from London\, GB.\nThe Moon is 9° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5383782b6b10-london-gb@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T225604Z
+DTEND:20270413T225804Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 23:56:04 at the dark limb
+  BST\, seen from London\, GB.\nThe Moon is 30° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61df4ab8edd4-london-gb@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T000315Z
+DTEND:20270414T000515Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 01:03:15 at the dark limb
+  BST\, seen from London\, GB.\nThe Moon is 20° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-874a02b749b5-london-gb@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T011833Z
+DTEND:20270415T012033Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 02:18:33 at the dark limb 
+ BST\, seen from London\, GB.\nThe Moon is 13° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a46458e2161b-london-gb@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T002422Z
+DTEND:20270515T002622Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 01:24:22 at the dark limb 
+ BST\, seen from London\, GB.\nThe Moon is 13° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e490436a0b0-london-gb@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270606T213246Z
+DTEND:20270606T213446Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) disappears at 22:32:46 at the dark limb 
+ BST\, seen from London\, GB.\nThe Moon is 6° up in the WNW · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43d1a8dbb85d-london-gb@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T003316Z
+DTEND:20270619T003516Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 01:33:16 at the dark limb B
+ ST\, seen from London\, GB.\nThe Moon is 10° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a512ef7cae20-london-gb@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T220844Z
+DTEND:20270717T221044Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 23:08:44 at the dark limb 
+ BST\, seen from London\, GB.\nThe Moon is 11° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ed4dcf9eccc-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223928Z
+DTEND:20270824T224128Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 23:39:28 at the dark limb B
+ ST\, seen from London\, GB.\nThe Moon is 11° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-646faa1873bc-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224857Z
+DTEND:20270824T225057Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 23:48:57 at the d
+ ark limb BST\, seen from London\, GB.\nThe Moon is 12° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-72c9fb37fd9f-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225632Z
+DTEND:20270824T234415Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 23:56:32 at the 
+ bright limb and reappears at 00:44:15 at the dark limb BST\, seen from Lon
+ don\, GB.\nThe Moon is 13° up in the ENE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73652fd478c2-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230159Z
+DTEND:20270824T230359Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:01:59 at the dark
+  limb BST\, seen from London\, GB.\nThe Moon is 14° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0919b69f99b-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230802Z
+DTEND:20270824T231002Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 00:08:02 at the da
+ rk limb BST\, seen from London\, GB.\nThe Moon is 14° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54fe14d578a7-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T001718Z
+DTEND:20270825T001918Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 01:17:18 at the d
+ ark limb BST\, seen from London\, GB.\nThe Moon is 25° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de56746ba73d-london-gb@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270828T024125Z
+DTEND:20270828T024325Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 03:41:25 at the dark limb B
+ ST\, seen from London\, GB.\nThe Moon is 19° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

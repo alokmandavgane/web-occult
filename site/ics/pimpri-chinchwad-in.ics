@@ -1,0 +1,563 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Pimpri-Chinchwad\, IN
+X-WR-CALDESC:Lunar occultations you can see from Pimpri-Chinchwad\, IN\, co
+ mputed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114334Z
+DTEND:20260914T125104Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:16:26 and reappears at 18:18:28 IST\, se
+ en from Pimpri-Chinchwad\, IN.\nThe Moon is 40° up · daylight\, Sun +19
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=18.6187&l
+ on=73.8037
+URL:https://occult.alokm.com/venus-2026-09-14?lat=18.6187&lon=73.8037
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f28b35356295-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161531Z
+DTEND:20260930T161731Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:45:31 at the d
+ ark limb IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 8° up in the
+  ENE · dark sky. Binoculars show it.\nEvery occultation this month\, for 
+ anywhere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9b3a62db599-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201540Z
+DTEND:20261004T201740Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:45:40 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 6° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202410Z
+DTEND:20261102T202610Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:10 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 9° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-113782606109-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144807Z
+DTEND:20261115T145007Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:18:07 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 30° up in the SW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6baa7e1646fe-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155844Z
+DTEND:20261116T160044Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:28:44 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 27° up in the WSW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e3f47023572-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163148Z
+DTEND:20261127T163348Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:01:48 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 14° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a5f72cf79f2-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201614Z
+DTEND:20261128T201814Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:46:14 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 49° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7d072e92b66d-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230047Z
+DTEND:20261130T230247Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:30:47 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 61° up in the ESE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133431Z
+DTEND:20261212T133631Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:31 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 20° up in the WSW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a259300867aa-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144811Z
+DTEND:20261212T145011Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:18:11 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 5° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b5422ad8090-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202601Z
+DTEND:20261223T202801Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:56:01 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 66° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85c5e1d4d407-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T165002Z
+DTEND:20270113T165202Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:20:02 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 7° up in the W · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e6eca0bc8ee-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194418Z
+DTEND:20270118T194618Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:14:18 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 30° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54fd6c37fa3e-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135924Z
+DTEND:20270121T140124Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:29:24 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 28° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-928052acab5b-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225345Z
+DTEND:20270124T225545Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:23:45 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 65° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2522b154851f-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162541Z
+DTEND:20270125T162741Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:55:41 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 5° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-944c12c1f165-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004251Z
+DTEND:20270204T004451Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:12:51 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 8° up in the ESE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ebbb6a28f5-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144945Z
+DTEND:20270214T145145Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:19:45 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 66° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95f8c13842bd-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160034Z
+DTEND:20270216T160234Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:30:34 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 75° up in the NW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-44808bfcc0bf-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170821Z
+DTEND:20270216T171021Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:38:21 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 62° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc042e4578d4-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213730Z
+DTEND:20270220T213930Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:07:30 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 54° up in the W · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08b5d3d12e8b-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220007Z
+DTEND:20270221T220207Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:30:07 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 57° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201307Z
+DTEND:20270227T201507Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:07 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 10° up in the ESE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e4fda994410-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224232Z
+DTEND:20270326T224432Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:12:32 at the dark limb IS
+ T\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 45° up in the S · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be913358c1a9-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000744Z
+DTEND:20270402T000944Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:37:44 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 28° up in the ESE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863bf3adb82e-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T141535Z
+DTEND:20270414T141735Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:45:35 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 85° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-149478220de3-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150431Z
+DTEND:20270520T150631Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:34:31 at the dark limb IS
+ T\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 16° up in the SE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08d51c99bbf1-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173146Z
+DTEND:20270520T184926Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:01:46 at the bright lim
+ b and reappears at 00:19:26 at the dark limb IST\, seen from Pimpri-Chinch
+ wad\, IN.\nThe Moon is 39° up in the SSE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165509Z
+DTEND:20270609T165709Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:09 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 14° up in the W · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2de6614a7ca2-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172217Z
+DTEND:20270609T172417Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:52:17 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 8° up in the W · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fb937c06f5a-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T125739Z
+DTEND:20270617T125939Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:27:39 at the b
+ right limb IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 5° up in t
+ he ESE · daylight\, Sun +9°. Binoculars show it.\nEvery occultation this
+  month\, for anywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1653c48acb-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224135Z
+DTEND:20270620T224335Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:11:35 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 37° up in the SW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a6fcbc5c55c-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174814Z
+DTEND:20270710T175014Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:18:14 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 10° up in the WSW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2399d5cda20b-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213014Z
+DTEND:20270716T213214Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:00:14 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 19° up in the SW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d12d710af787-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154736Z
+DTEND:20270806T154936Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:17:36 at the dark limb 
+ IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 9° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175405Z
+DTEND:20270810T175605Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:05 at the dark limb
+  IST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 17° up in the SW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a3e84230939-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232021Z
+DTEND:20270824T232221Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:50:21 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 70° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eefd63e7357d-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235549Z
+DTEND:20270827T235749Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:25:49 at the dark limb I
+ ST\, seen from Pimpri-Chinchwad\, IN.\nThe Moon is 38° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222655Z
+DTEND:20280121T233136Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:55 and reappears at 05:01:36 IST\, 
+ seen from Pimpri-Chinchwad\, IN.\nThe Moon is 3° up · dark sky.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-01-22?lat=18.6187&lon=73.8037
+URL:https://occult.alokm.com/antares-2028-01-22?lat=18.6187&lon=73.8037
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-pimpri-chinchwad-in@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230659Z
+DTEND:20280413T001721Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:36:59 and reappears at 05:47:21 IST\, 
+ seen from Pimpri-Chinchwad\, IN.\nThe Moon is 43° up · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-04-12?lat=18.6187&lon=73.803
+ 7
+URL:https://occult.alokm.com/antares-2028-04-12?lat=18.6187&lon=73.8037
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

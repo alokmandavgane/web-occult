@@ -1,0 +1,492 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Phnom Penh\, KH
+X-WR-CALDESC:Lunar occultations you can see from Phnom Penh\, KH\, computed
+  by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Phnom_Penh
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123212Z
+DTEND:20260914T133803Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 19:33:38 and reappears at 20:36:48 +07\, se
+ en from Phnom Penh\, KH.\nThe Moon is 7° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/venus-2026-09-14?lat=11.5625&lon=104.9160
+URL:https://occult.alokm.com/venus-2026-09-14?lat=11.5625&lon=104.9160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9cd7d51f7fe0-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260918T144305Z
+DTEND:20260918T144505Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:43:05 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 18° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-afc876797e27-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T162357Z
+DTEND:20260920T162557Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 23:23:57 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 19° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0660ad7101f6-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T131757Z
+DTEND:20261016T131957Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 20:17:57 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 20° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-191c3ff7eb3a-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T144643Z
+DTEND:20261017T144843Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:46:43 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 13° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863635bd26e1-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T204909Z
+DTEND:20261102T205109Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 03:49:09 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 44° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9ce09a572fcc-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T170201Z
+DTEND:20261127T170401Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 00:02:01 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 46° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8668ca83b2f-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T214253Z
+DTEND:20261128T214453Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:42:53 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 77° up in the NW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d2360fb2fab-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T150752Z
+DTEND:20261217T150952Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 22:07:52 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 30° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25140780ec25-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T212124Z
+DTEND:20261223T212324Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 04:21:24 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 24° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e422a03b1eb-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T144659Z
+DTEND:20270121T144859Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 21:46:59 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 64° up in the NE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4785f7b61558-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T165240Z
+DTEND:20270125T165440Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:52:40 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 42° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c358c7689562-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T145624Z
+DTEND:20270212T145824Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 21:56:24 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 9° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3dded52f6d15-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T154418Z
+DTEND:20270214T154618Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:44:18 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 23° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f31279809814-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T175656Z
+DTEND:20270216T175856Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 00:56:56 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 21° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-724e6eccbdee-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T221334Z
+DTEND:20270220T221534Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:13:34 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 15° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-855dd1fcc87c-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T222247Z
+DTEND:20270221T222447Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 05:22:47 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 23° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02d638eaf03b-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T174256Z
+DTEND:20270227T174456Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 00:42:56 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 9° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af58cebbfb8a-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T203348Z
+DTEND:20270227T203548Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 03:33:48 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 41° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ed6656a4d75e-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T205610Z
+DTEND:20270301T205810Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 03:56:10 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 26° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d221b5867099-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T121945Z
+DTEND:20270318T122145Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 19:19:45 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 67° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f261b1b8357-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T121510Z
+DTEND:20270413T121710Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:15:10 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 66° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b0a270348f1-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T151442Z
+DTEND:20270414T151642Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:14:42 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 40° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f37a23e619e2-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T140027Z
+DTEND:20270416T140227Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:00:27 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 83° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-484e5737ad71-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T142745Z
+DTEND:20270417T142945Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 21:27:45 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 82° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1522bc398e66-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T185947Z
+DTEND:20270520T201106Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:59:47 at the bright lim
+ b and reappears at 03:11:06 at the bright limb +07\, seen from Phnom Penh\
+ , KH.\nThe Moon is 44° up in the SW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85b947ed9e59-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T175111Z
+DTEND:20270522T175311Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 00:51:11 at the dark limb +0
+ 7\, seen from Phnom Penh\, KH.\nThe Moon is 48° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61f5a88ddd04-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T125340Z
+DTEND:20270607T125540Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 19:53:40 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 15° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d7bf59eccff5-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T142215Z
+DTEND:20270608T142415Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 21:22:15 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 7° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13fa6ed7b4bb-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T142929Z
+DTEND:20270611T143129Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 21:29:29 at the dark limb
+  +07\, seen from Phnom Penh\, KH.\nThe Moon is 38° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec8c87d9304e-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T131709Z
+DTEND:20270619T131909Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 20:17:09 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 17° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0893e907e77-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154554Z
+DTEND:20270620T154754Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 22:45:54 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 37° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c4810804207-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T135433Z
+DTEND:20270708T135633Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 20:54:33 at the dark limb 
+ +07\, seen from Phnom Penh\, KH.\nThe Moon is 17° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a6931c1fb76-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T191148Z
+DTEND:20270723T191348Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:11:48 at the dark limb +
+ 07\, seen from Phnom Penh\, KH.\nThe Moon is 66° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6bb096777f78-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T124429Z
+DTEND:20270810T142431Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:44:29 at the dark limb 
+ and reappears at 21:24:31 at the bright limb +07\, seen from Phnom Penh\, 
+ KH.\nThe Moon is 50° up in the SSW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-phnom-penh-kh@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T225743Z
+DTEND:20280122T002330Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:57:43 and reappears at 07:23:30 +07\, 
+ seen from Phnom Penh\, KH.\nThe Moon is 37° up · dusk.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?lat=11.5625&lon=104.9160
+URL:https://occult.alokm.com/antares-2028-01-22?lat=11.5625&lon=104.9160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

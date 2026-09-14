@@ -1,0 +1,442 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Yaoundé\, CM
+X-WR-CALDESC:Lunar occultations you can see from Yaoundé\, CM\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Douala
+BEGIN:VEVENT
+UID:star-c9cf50a0fe4d-yaounde-cm@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T192936Z
+DTEND:20260917T193136Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:29:36 at the dark li
+ mb WAT\, seen from Yaoundé\, CM.\nThe Moon is 32° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b7ce5e59e5d-yaounde-cm@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T190940Z
+DTEND:20260923T191140Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:09:40 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 58° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-yaounde-cm@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T111348Z
+DTEND:20261006T121344Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 12:15:08 and reappears at 13:12:31 WAT\, 
+ seen from Yaoundé\, CM.\nThe Moon is 37° up in the WNW · daylight\, Sun
+  +80°.\nTimes against the real lunar limb.\nMap\, timings and the view at
+  the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Yaound%
+ C3%A9%2C%20CM
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Yaound%C3%A9%2C%20CM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ecb6ce4ea139-yaounde-cm@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T182843Z
+DTEND:20261018T183043Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:28:43 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 58° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d4bf93d361b1-yaounde-cm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T034057Z
+DTEND:20261103T034257Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 04:40:57 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 49° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25502b0959a0-yaounde-cm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T182308Z
+DTEND:20261114T182508Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 19:23:08 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 36° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d398fc7d8df-yaounde-cm@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T013543Z
+DTEND:20261128T013743Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 02:35:43 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 66° up in the NNE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f2f8910e65-yaounde-cm@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T042833Z
+DTEND:20261202T043033Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 05:28:33 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 68° up in the E · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ecc8ac89746-yaounde-cm@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T194434Z
+DTEND:20261213T194634Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 20:44:34 at the dark l
+ imb WAT\, seen from Yaoundé\, CM.\nThe Moon is 13° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b142a05fcce8-yaounde-cm@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T181839Z
+DTEND:20261223T182039Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:18:39 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 20° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a22ed0caa55-yaounde-cm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T011755Z
+DTEND:20270102T011955Z
+SUMMARY:The Moon hides HR 5344 · mag 6.2
+DESCRIPTION:HR 5344 (magnitude 6.2) reappears at 02:17:55 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 6° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-47511fa48c01-yaounde-cm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270111T181000Z
+DTEND:20270111T181200Z
+SUMMARY:The Moon hides HR 8500 · mag 5.8
+DESCRIPTION:HR 8500 (magnitude 5.8) disappears at 19:10:00 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 28° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0b108e16317-yaounde-cm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T222421Z
+DTEND:20270116T222621Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 23:24:21 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 21° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6560f446526-yaounde-cm@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T040240Z
+DTEND:20270126T040440Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 05:02:40 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 67° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d76c72da151-yaounde-cm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T181346Z
+DTEND:20270212T181546Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 19:13:46 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 50° up in the WNW · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6358a0ec7c21-yaounde-cm@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T181523Z
+DTEND:20270214T181723Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 19:15:23 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 65° up in the NNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7fb199707a2-yaounde-cm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T004733Z
+DTEND:20270301T004933Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) reappears at 01:47:33 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 10° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d986069fff8-yaounde-cm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270322T003117Z
+DTEND:20270322T010212Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 01:31:17 at the dark limb 
+ and reappears at 02:02:12 at the dark limb WAT\, seen from Yaoundé\, CM.\
+ nThe Moon is 65° up in the W · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-427219c5c3da-yaounde-cm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T221739Z
+DTEND:20270326T221939Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:17:39 at the dark limb WA
+ T\, seen from Yaoundé\, CM.\nThe Moon is 17° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1d81dcd4ab0-yaounde-cm@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T003658Z
+DTEND:20270327T015238Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:36:58 at the bright lim
+ b and reappears at 02:52:38 at the dark limb WAT\, seen from Yaoundé\, CM
+ .\nThe Moon is 45° up in the SE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a4b0c7499ef-yaounde-cm@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T222618Z
+DTEND:20270425T222818Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 23:26:18 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 13° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3cd7625bcf15-yaounde-cm@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T011011Z
+DTEND:20270427T011211Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 02:10:11 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 37° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ffee5b27ffc-yaounde-cm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T183510Z
+DTEND:20270510T183710Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:35:10 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 38° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b20747d2fa3c-yaounde-cm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T194725Z
+DTEND:20270513T194925Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:47:25 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 62° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f3574faa201-yaounde-cm@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270530T042724Z
+DTEND:20270530T042924Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 05:27:24 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 60° up in the E · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-31a7f1608ad5-yaounde-cm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T182715Z
+DTEND:20270608T182915Z
+SUMMARY:The Moon hides HR 3541 · mag 6.4
+DESCRIPTION:HR 3541 (magnitude 6.4) disappears at 19:27:15 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 38° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d61a93eb9d00-yaounde-cm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T191956Z
+DTEND:20270608T192156Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 20:19:56 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 26° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b45db6dd5b7d-yaounde-cm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T211410Z
+DTEND:20270616T211610Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:14:10 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 60° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a015fe345bed-yaounde-cm@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T194830Z
+DTEND:20270620T195030Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 20:48:30 at the dark limb 
+ WAT\, seen from Yaoundé\, CM.\nThe Moon is 12° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4da0d3604261-yaounde-cm@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T184224Z
+DTEND:20270716T184424Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:42:24 at the dark limb
+  WAT\, seen from Yaoundé\, CM.\nThe Moon is 34° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-844e96528d93-yaounde-cm@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234733Z
+DTEND:20270723T234933Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 00:47:33 at the dark limb W
+ AT\, seen from Yaoundé\, CM.\nThe Moon is 42° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-yaounde-cm@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T103933Z
+DTEND:20271229T123024Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 11:39:49 and reappears at 13:30:07 WAT\, see
+ n from Yaoundé\, CM.\nThe Moon is 52° up in the SE · daylight\, Sun +62
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Yaound%C3%A9%2
+ C%20CM
+URL:https://occult.alokm.com/mars-2027-12-29?city=Yaound%C3%A9%2C%20CM
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

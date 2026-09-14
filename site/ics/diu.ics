@@ -1,0 +1,534 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Diu
+X-WR-CALDESC:Lunar occultations you can see from Diu\, computed by occult.a
+ lokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-diu@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T113508Z
+DTEND:20260914T123835Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:08:24 and reappears at 18:05:36 IST\, se
+ en from Diu.\nThe Moon is 42° up in the SW · daylight\, Sun +23°.\nTime
+ s against the real lunar limb.\nMap\, timings and the view at the Moon's e
+ dge: https://occult.alokm.com/venus-2026-09-14?city=Diu
+URL:https://occult.alokm.com/venus-2026-09-14?city=Diu
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec6c37996002-diu@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161739Z
+DTEND:20260930T161939Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:47:39 at the dark
+  limb IST\, seen from Diu.\nThe Moon is 7° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-392f1c6ccd32-diu@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162012Z
+DTEND:20260930T162212Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:50:12 at the d
+ ark limb IST\, seen from Diu.\nThe Moon is 7° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe4f4766e6f-diu@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202213Z
+DTEND:20261004T202413Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:52:13 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 6° up in the ENE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202328Z
+DTEND:20261102T202528Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:28 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 7° up in the ENE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ae4dbaa57416-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145111Z
+DTEND:20261115T145311Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:21:11 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 30° up in the SW · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b489e34c2ac-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160210Z
+DTEND:20261116T160410Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:32:10 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 28° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43257f0f2e89-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162652Z
+DTEND:20261127T162852Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:56:52 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 11° up in the ENE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c8ee5e55d83-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201343Z
+DTEND:20261128T201543Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:43:43 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 46° up in the E · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e57464a7ab61-diu@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225340Z
+DTEND:20261130T225540Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:23:40 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 56° up in the ESE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37847d9df8f9-diu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133604Z
+DTEND:20261212T133804Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:06:04 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 20° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a554946f3128-diu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144701Z
+DTEND:20261212T144901Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:17:01 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 7° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-256c401b95ce-diu@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T201844Z
+DTEND:20261223T202044Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:48:44 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 71° up in the WNW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5725fff9e2c6-diu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T165411Z
+DTEND:20270113T165611Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:24:11 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 8° up in the W · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d554316f0faa-diu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194508Z
+DTEND:20270118T194708Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:15:08 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 33° up in the WNW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9cb4c69dcd1-diu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140205Z
+DTEND:20270121T140405Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:32:05 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 27° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c2c5e88dc1b1-diu@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224533Z
+DTEND:20270124T224733Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:15:33 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 68° up in the SW · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-944c12c1f165-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004252Z
+DTEND:20270204T004452Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:12:52 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 5° up in the ESE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8ea93958fef-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T145114Z
+DTEND:20270214T145314Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:21:14 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 69° up in the WNW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-993db87643fc-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160100Z
+DTEND:20270216T160300Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:31:00 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 79° up in the NW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f762269d056d-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170028Z
+DTEND:20270216T170228Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:30:28 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 67° up in the WNW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c016326d3f90-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213015Z
+DTEND:20270220T213215Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:00:15 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 57° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0bbc88b7b41-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215226Z
+DTEND:20270221T215426Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:22:26 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 60° up in the WSW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e279252bde05-diu@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201203Z
+DTEND:20270227T201403Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:42:03 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 6° up in the ESE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab6064a2f2d5-diu@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T223201Z
+DTEND:20270326T223401Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:02:01 at the dark limb IS
+ T\, seen from Diu.\nThe Moon is 43° up in the S · dark sky. Binoculars s
+ how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
+ .com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-341f197e6ac6-diu@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000243Z
+DTEND:20270402T000443Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:32:43 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 23° up in the ESE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e67c81e3a61b-diu@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150231Z
+DTEND:20270520T150431Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:32:31 at the dark limb IS
+ T\, seen from Diu.\nThe Moon is 12° up in the ESE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fe00ddf18a3-diu@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172517Z
+DTEND:20270520T184116Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:55:17 at the bright lim
+ b and reappears at 00:11:16 at the dark limb IST\, seen from Diu.\nThe Moo
+ n is 35° up in the SSE · dark sky. Binoculars show it.\nEvery occultatio
+ n this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aed67470ff77-diu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165325Z
+DTEND:20270609T165525Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:23:25 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 18° up in the W · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92d8868abb84-diu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172020Z
+DTEND:20270609T172220Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:20 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 11° up in the W · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0914d13a99e3-diu@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223726Z
+DTEND:20270620T223926Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:07:26 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 38° up in the SSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8be29b00645c-diu@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174449Z
+DTEND:20270710T174649Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:14:49 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 12° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55cd84c57b71-diu@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212301Z
+DTEND:20270716T212501Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:53:01 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 21° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e49c39e5d256-diu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154250Z
+DTEND:20270806T154450Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:12:50 at the dark limb 
+ IST\, seen from Diu.\nThe Moon is 12° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3e6990af7c56-diu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175223Z
+DTEND:20270810T175423Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:22:23 at the dark limb
+  IST\, seen from Diu.\nThe Moon is 18° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8a97784f52c-diu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231855Z
+DTEND:20270824T232055Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:48:55 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 68° up in the ENE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f24a98974649-diu@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235335Z
+DTEND:20270827T235535Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:23:35 at the dark limb I
+ ST\, seen from Diu.\nThe Moon is 36° up in the ENE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-diu@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222635Z
+DTEND:20280121T233001Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:35 and reappears at 05:00:01 IST\, 
+ seen from Diu.\nThe Moon is 0° up in the ESE · dark sky.\nTimes against 
+ the real lunar limb.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/antares-2028-01-22?city=Diu
+URL:https://occult.alokm.com/antares-2028-01-22?city=Diu
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-diu@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T225501Z
+DTEND:20280413T001352Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:25:01 and reappears at 05:43:52 IST\, 
+ seen from Diu.\nThe Moon is 42° up in the S · dark sky.\nTimes against t
+ he real lunar limb.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/antares-2028-04-12?city=Diu
+URL:https://occult.alokm.com/antares-2028-04-12?city=Diu
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

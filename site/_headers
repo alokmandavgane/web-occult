@@ -7,3 +7,6 @@
   Content-Disposition: attachment
 /img/*
   Cache-Control: public, max-age=2592000
+/ics/*
+  Cache-Control: public, max-age=21600
+  Content-Type: text/calendar; charset=utf-8

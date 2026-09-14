@@ -1,0 +1,521 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Karaj\, IR
+X-WR-CALDESC:Lunar occultations you can see from Karaj\, IR\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Tehran
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-karaj-ir@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T102617Z
+DTEND:20260914T112403Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 13:59:23 and reappears at 14:50:51 +0330\, 
+ seen from Karaj\, IR.\nThe Moon is 37° up · daylight\, Sun +48°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?lat=35.8327&lon=50.9915
+URL:https://occult.alokm.com/venus-2026-09-14?lat=35.8327&lon=50.9915
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-945dc133f06d-karaj-ir@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T210342Z
+DTEND:20260923T210542Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:33:42 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 27° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-32ddf1f6cbeb-karaj-ir@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T010643Z
+DTEND:20261030T010843Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:36:43 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 73° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7269df5253dc-karaj-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T001649Z
+DTEND:20261103T001849Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:46:49 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 39° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad1cdc6afc7a-karaj-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T194806Z
+DTEND:20261128T195006Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 23:18:06 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 25° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bb9983a29f6-karaj-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T221831Z
+DTEND:20261130T222031Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:48:31 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 28° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cdeedb49b27f-karaj-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T162246Z
+DTEND:20261214T162446Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:52:46 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 18° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02723fe83e36-karaj-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T233632Z
+DTEND:20261221T233832Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 03:06:32 at the 
+ dark limb +0330\, seen from Karaj\, IR.\nThe Moon is 23° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12e1dbfc6685-karaj-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T001218Z
+DTEND:20261229T001418Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:42:18 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 55° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-17dcd5e3b27a-karaj-ir@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T152606Z
+DTEND:20270112T152806Z
+SUMMARY:The Moon hides HR 8727 · mag 6.3
+DESCRIPTION:HR 8727 (magnitude 6.3) disappears at 18:56:06 at the dark limb
+  +0330\, seen from Karaj\, IR.\nThe Moon is 28° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9482f34dbdc-karaj-ir@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T215003Z
+DTEND:20270124T215203Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 01:20:03 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 57° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e58009a8ceeb-karaj-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T161857Z
+DTEND:20270214T162057Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 19:48:57 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 67° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-180d180b2623-karaj-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161755Z
+DTEND:20270216T161955Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:47:55 at the dark limb
+  +0330\, seen from Karaj\, IR.\nThe Moon is 80° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5351b8b06344-karaj-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T203533Z
+DTEND:20270220T203733Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 00:05:33 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 64° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-10fcea21febe-karaj-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T205814Z
+DTEND:20270221T210014Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:28:14 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 56° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6016b97f35f3-karaj-ir@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214731Z
+DTEND:20270326T214931Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:17:31 at the dark limb +0
+ 330\, seen from Karaj\, IR.\nThe Moon is 19° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f6e5b67256b-karaj-ir@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T000624Z
+DTEND:20270425T000824Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 03:36:24 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 26° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5d623b6ce6c-karaj-ir@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T230346Z
+DTEND:20270427T230546Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 02:33:46 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 16° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb19bbe89dac-karaj-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270503T003646Z
+DTEND:20270503T003846Z
+SUMMARY:The Moon hides 25 Psc · mag 6.3
+DESCRIPTION:25 Psc (magnitude 6.3) reappears at 04:06:46 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 11° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ba4f68dbe3ad-karaj-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T174838Z
+DTEND:20270510T175038Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:18:38 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 23° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a627e2658d8-karaj-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T202450Z
+DTEND:20270512T202650Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:54:50 at the dark limb
+  +0330\, seen from Karaj\, IR.\nThe Moon is 10° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2526b627b454-karaj-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T170109Z
+DTEND:20270520T180356Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:31:09 at the bright lim
+ b and reappears at 21:33:56 at the dark limb +0330\, seen from Karaj\, IR.
+ \nThe Moon is 9° up in the SE · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20ac44a208fd-karaj-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T000943Z
+DTEND:20270524T001143Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 03:39:43 at the br
+ ight limb +0330\, seen from Karaj\, IR.\nThe Moon is 27° up in the S · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f208e97fc23-karaj-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T190429Z
+DTEND:20270610T190629Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 22:34:29 at the dark limb 
+ +0330\, seen from Karaj\, IR.\nThe Moon is 15° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66553fc8338c-karaj-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T221410Z
+DTEND:20270616T221610Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:44:10 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 11° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db37c4f6053f-karaj-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T235243Z
+DTEND:20270622T235443Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 03:22:43 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 37° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f159160636d9-karaj-ir@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T171418Z
+DTEND:20270710T171618Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 20:44:18 at the dark limb
+  +0330\, seen from Karaj\, IR.\nThe Moon is 27° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9df6be7d5bd-karaj-ir@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T210732Z
+DTEND:20270716T210932Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 00:37:32 at the dark limb
+  +0330\, seen from Karaj\, IR.\nThe Moon is 22° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-313a25f82741-karaj-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T195158Z
+DTEND:20270813T201933Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 23:21:58 at the da
+ rk limb and reappears at 23:49:33 at the bright limb +0330\, seen from Kar
+ aj\, IR.\nThe Moon is 23° up in the SSW · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e321800e98b9-karaj-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222930Z
+DTEND:20270824T223130Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:59:30 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 41° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73018f16599c-karaj-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225428Z
+DTEND:20270824T225628Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:24:28 at the d
+ ark limb +0330\, seen from Karaj\, IR.\nThe Moon is 46° up in the E · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f1d3c7439fb-karaj-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225957Z
+DTEND:20270824T230157Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:29:57 at the dark
+  limb +0330\, seen from Karaj\, IR.\nThe Moon is 47° up in the E · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9f6479252018-karaj-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231842Z
+DTEND:20270824T232042Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:48:42 at the dark limb +
+ 0330\, seen from Karaj\, IR.\nThe Moon is 51° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-karaj-ir@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T124515Z
+DTEND:20271229T140204Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 16:15:27 and reappears at 17:31:54 +0330\, s
+ een from Karaj\, IR.\nThe Moon is 20° up in the SW · daylight\, Sun +7°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Karaj%2C%20IR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Karaj%2C%20IR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-karaj-ir@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T131635Z
+DTEND:20280330T143500Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 16:46:35 and reappears at 18:05:00 +0330\
+ , seen from Karaj\, IR.\nThe Moon is 68° up · daylight\, Sun +19°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=35.8327&lon=50.
+ 9915
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=35.8327&lon=50.9915
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-karaj-ir@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T220111Z
+DTEND:20280412T232617Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 01:31:11 and reappears at 02:56:17 +0330\
+ , seen from Karaj\, IR.\nThe Moon is 24° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?lat=35.8327&lon=50.9915
+URL:https://occult.alokm.com/antares-2028-04-12?lat=35.8327&lon=50.9915
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-karaj-ir@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T030341Z
+DTEND:20290211T041211Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 06:34:03 and reappears at 07:41:46 +0330\
+ , seen from Karaj\, IR.\nThe Moon is 10° up · twilight.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/mercury-2029-02-11?lat=35.8327&lon=50.9915
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=35.8327&lon=50.9915
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

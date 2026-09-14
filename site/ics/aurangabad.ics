@@ -1,0 +1,497 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Aurangabad
+X-WR-CALDESC:Lunar occultations you can see from Aurangabad\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-aurangabad@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114856Z
+DTEND:20260914T124851Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:22:04 and reappears at 18:15:59 IST\, se
+ en from Aurangabad.\nThe Moon is 37° up in the SW · daylight\, Sun +16°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/venus-2026-09-14?city=Aurangabad
+URL:https://occult.alokm.com/venus-2026-09-14?city=Aurangabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22306ac97563-aurangabad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161645Z
+DTEND:20260930T161845Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:46:45 at the d
+ ark limb IST\, seen from Aurangabad.\nThe Moon is 10° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e59c54b4bc9f-aurangabad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201747Z
+DTEND:20261004T201947Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:47:47 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 9° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6a9157f120f-aurangabad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T132308Z
+DTEND:20261021T132508Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 18:53:08 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 49° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202448Z
+DTEND:20261102T202648Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:48 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 11° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a31d17a4258-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145031Z
+DTEND:20261115T145231Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:20:31 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 27° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9251c774aec-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160100Z
+DTEND:20261116T160300Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:31:00 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 25° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-201773baa04c-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163206Z
+DTEND:20261127T163406Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:02:06 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 16° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7a5921846f4-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202049Z
+DTEND:20261128T202249Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:50:49 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 52° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-679441316782-aurangabad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230343Z
+DTEND:20261130T230543Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:33:43 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 63° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37847d9df8f9-aurangabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133603Z
+DTEND:20261212T133803Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:06:03 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 17° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d1db8d69824-aurangabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202906Z
+DTEND:20261223T203106Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:59:06 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 65° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0baf406994d4-aurangabad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T000650Z
+DTEND:20261228T001203Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:36:50 at the dark limb 
+ and reappears at 05:42:03 at the dark limb IST\, seen from Aurangabad.\nTh
+ e Moon is 67° up in the WSW · dark sky. Binoculars show it.\nA graze: th
+ e star skims the Moon's edge and may flicker.\nEvery occultation this mont
+ h\, for anywhere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9cb4c69dcd1-aurangabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140202Z
+DTEND:20270121T140402Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:32:02 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 31° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-928052acab5b-aurangabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225311Z
+DTEND:20270124T225511Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:23:11 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 64° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2522b154851f-aurangabad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162507Z
+DTEND:20270125T162707Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:55:07 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 7° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f688dfbd4372-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T145804Z
+DTEND:20270214T150004Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:28:04 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 63° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4e92b33b81f-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161430Z
+DTEND:20270216T161630Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:44:30 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 72° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f4e33122552-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171022Z
+DTEND:20270216T171222Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:40:22 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 61° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc042e4578d4-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213720Z
+DTEND:20270220T213920Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:07:20 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 52° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9a8cb0db4d2-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215817Z
+DTEND:20270221T220017Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:28:17 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 56° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-aurangabad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201305Z
+DTEND:20270227T201505Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:05 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 10° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e4fda994410-aurangabad@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224235Z
+DTEND:20270326T224435Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:12:35 at the dark limb IS
+ T\, seen from Aurangabad.\nThe Moon is 44° up in the S · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863bf3adb82e-aurangabad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T141500Z
+DTEND:20270414T141700Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:45:00 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 84° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a94f47181c60-aurangabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150334Z
+DTEND:20270520T150534Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:33:34 at the dark limb IS
+ T\, seen from Aurangabad.\nThe Moon is 16° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08d51c99bbf1-aurangabad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173135Z
+DTEND:20270520T185530Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:01:35 at the bright lim
+ b and reappears at 00:25:30 at the dark limb IST\, seen from Aurangabad.\n
+ The Moon is 39° up in the SSE · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bdd2d753051a-aurangabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165715Z
+DTEND:20270609T165915Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:27:15 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 12° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c908b6649e1f-aurangabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172151Z
+DTEND:20270609T172351Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:51:51 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 7° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f066fa6597ca-aurangabad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224453Z
+DTEND:20270620T224653Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:14:53 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 35° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a6fcbc5c55c-aurangabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174800Z
+DTEND:20270710T175000Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:18:00 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 8° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2585b23dbfd8-aurangabad@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213111Z
+DTEND:20270716T213311Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:01:11 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 17° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-41db0a17fb67-aurangabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154631Z
+DTEND:20270806T154831Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:16:31 at the dark limb 
+ IST\, seen from Aurangabad.\nThe Moon is 8° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58cbcd28b61a-aurangabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175524Z
+DTEND:20270810T175724Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:25:24 at the dark limb
+  IST\, seen from Aurangabad.\nThe Moon is 15° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc49c6963e6d-aurangabad@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232548Z
+DTEND:20270824T232748Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:55:48 at the dark limb I
+ ST\, seen from Aurangabad.\nThe Moon is 73° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-aurangabad@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222645Z
+DTEND:20280121T233332Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:45 and reappears at 05:03:32 IST\, 
+ seen from Aurangabad.\nThe Moon is 4° up in the ESE · dark sky.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/antares-2028-01-22?city=Aurangabad
+URL:https://occult.alokm.com/antares-2028-01-22?city=Aurangabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-aurangabad@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230852Z
+DTEND:20280413T002119Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:38:52 and reappears at 05:51:19 IST\, 
+ seen from Aurangabad.\nThe Moon is 41° up in the SSW · dark sky.\nTimes 
+ against the real lunar limb.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-04-12?city=Aurangabad
+URL:https://occult.alokm.com/antares-2028-04-12?city=Aurangabad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

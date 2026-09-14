@@ -1,0 +1,526 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Anand
+X-WR-CALDESC:Lunar occultations you can see from Anand\, computed by occult
+ .alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-anand@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114348Z
+DTEND:20260914T123342Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:17:46 and reappears at 17:59:54 IST\, se
+ en from Anand.\nThe Moon is 37° up in the SW · daylight\, Sun +19°.\nTi
+ mes against the real lunar limb.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/venus-2026-09-14?city=Anand
+URL:https://occult.alokm.com/venus-2026-09-14?city=Anand
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3703bd15cb3e-anand@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162032Z
+DTEND:20260930T162232Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:50:32 at the dark
+  limb IST\, seen from Anand.\nThe Moon is 10° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1eb643dc7dd-anand@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T162201Z
+DTEND:20260930T162401Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:52:01 at the d
+ ark limb IST\, seen from Anand.\nThe Moon is 10° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d35e63d57cf-anand@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202434Z
+DTEND:20261004T202634Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:54:34 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 9° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202346Z
+DTEND:20261102T202546Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:46 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 9° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b65be0d6e6e-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145449Z
+DTEND:20261115T145649Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:24:49 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 26° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7f73715eb5-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160546Z
+DTEND:20261116T160746Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:35:46 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 25° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6abcfd7c4d1f-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T162556Z
+DTEND:20261127T162756Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 21:55:56 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 13° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-634d96830e1f-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201837Z
+DTEND:20261128T202037Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:48:37 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 50° up in the E · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05e98ca8d712-anand@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225642Z
+DTEND:20261130T225842Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:26:42 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 58° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-anand@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133830Z
+DTEND:20261212T134030Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:30 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 17° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-51c9d4375351-anand@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202317Z
+DTEND:20261223T202517Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:53:17 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 69° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11a4f59c432b-anand@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T235308Z
+DTEND:20261228T000756Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:23:08 at the dark limb 
+ and reappears at 05:37:56 at the dark limb IST\, seen from Anand.\nThe Moo
+ n is 71° up in the SW · dark sky. Binoculars show it.\nEvery occultation
+  this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1c0dd2ad24e3-anand@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T170017Z
+DTEND:20270113T170217Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:30:17 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 5° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-04f663116694-anand@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140634Z
+DTEND:20270121T140834Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:36:34 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 30° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-daaac5873a3d-anand@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224428Z
+DTEND:20270124T224628Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:14:28 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 66° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-216dc9d56c7e-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004642Z
+DTEND:20270204T004842Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:16:42 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 6° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49a0b125ded9-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T150909Z
+DTEND:20270214T151109Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:39:09 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 63° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a1bd8bfd1ca-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170329Z
+DTEND:20270216T170529Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:33:29 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 65° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e7e1b703e0f-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T212945Z
+DTEND:20270220T213145Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 02:59:45 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 55° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f98ba749a0b7-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T214935Z
+DTEND:20270221T215135Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:19:35 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 58° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1e3d9cbd51-anand@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201140Z
+DTEND:20270227T201340Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:41:40 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 7° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f603709074dc-anand@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T223049Z
+DTEND:20270326T223249Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:00:49 at the dark limb IS
+ T\, seen from Anand.\nThe Moon is 41° up in the S · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c213a8537094-anand@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000441Z
+DTEND:20270402T000641Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:34:41 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 24° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e99b6927bb0-anand@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150046Z
+DTEND:20270520T150246Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:30:46 at the dark limb IS
+ T\, seen from Anand.\nThe Moon is 12° up in the SE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0961529c067-anand@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172448Z
+DTEND:20270520T184839Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:54:48 at the bright lim
+ b and reappears at 00:18:39 at the dark limb IST\, seen from Anand.\nThe M
+ oon is 35° up in the SSE · dark sky. Binoculars show it.\nEvery occultat
+ ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d48938f569d-anand@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165822Z
+DTEND:20270609T170022Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:28:22 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 15° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92d8868abb84-anand@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172000Z
+DTEND:20270609T172200Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:00 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 10° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1653c48acb-anand@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224146Z
+DTEND:20270620T224346Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:11:46 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 35° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8be29b00645c-anand@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174445Z
+DTEND:20270710T174645Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:14:45 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 10° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c0745856a5da-anand@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212426Z
+DTEND:20270716T212626Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:54:26 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 18° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60a4b0433354-anand@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154124Z
+DTEND:20270806T154324Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:11:24 at the dark limb 
+ IST\, seen from Anand.\nThe Moon is 10° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-anand@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175435Z
+DTEND:20270810T175635Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:35 at the dark limb
+  IST\, seen from Anand.\nThe Moon is 15° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc49c6963e6d-anand@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232541Z
+DTEND:20270824T232741Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:55:41 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 72° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4157be9242d3-anand@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235636Z
+DTEND:20270827T235836Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:26:36 at the dark limb I
+ ST\, seen from Anand.\nThe Moon is 39° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-anand@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222639Z
+DTEND:20280121T233212Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:39 and reappears at 05:02:12 IST\, 
+ seen from Anand.\nThe Moon is 1° up in the ESE · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-01-22?city=Anand
+URL:https://occult.alokm.com/antares-2028-01-22?city=Anand
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-anand@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142614Z
+DTEND:20280330T145722Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:56:14 and reappears at 20:27:22 IST\, 
+ seen from Anand.\nThe Moon is 35° up in the WNW · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/alcyone-2028-03-30?city=Anand
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Anand
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-anand@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T225746Z
+DTEND:20280413T001840Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:27:46 and reappears at 05:48:40 IST\, 
+ seen from Anand.\nThe Moon is 40° up in the SSW · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-04-12?city=Anand
+URL:https://occult.alokm.com/antares-2028-04-12?city=Anand
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

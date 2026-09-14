@@ -1,0 +1,576 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from South Tangerang\, ID
+X-WR-CALDESC:Lunar occultations you can see from South Tangerang\, ID\, com
+ puted by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Jakarta
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-south-tangerang-id@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T130042Z
+DTEND:20260914T133227Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 20:03:29 and reappears at 20:29:50 WIB\, se
+ en from South Tangerang\, ID.\nThe Moon is 4° up · dark sky.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/venus-2026-09-14?lat=-6.2886&lon=106.7179
+URL:https://occult.alokm.com/venus-2026-09-14?lat=-6.2886&lon=106.7179
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ce6d296d1eb-south-tangerang-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260918T141912Z
+DTEND:20260918T142112Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:19:12 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 31° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f66dc945a5ed-south-tangerang-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T155611Z
+DTEND:20260920T155811Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 22:56:11 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 32° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2424b60c0511-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261014T125652Z
+DTEND:20261014T125852Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:56:52 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 10° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-668b5876f3e9-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T114254Z
+DTEND:20261017T114454Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 18:42:54 at the bright limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 58° up in the SW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d3fa393e7b2-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T145045Z
+DTEND:20261017T145245Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:50:45 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 19° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-south-tangerang-id@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T213919Z
+DTEND:20261102T230923Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:40:56 and reappears at 06:07:42 WIB\, 
+ seen from South Tangerang\, ID.\nThe Moon is 52° up · dusk.\nTimes for t
+ he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2886&lon=106.7179
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2886&lon=106.7179
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0bd3c2f65d7e-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T210304Z
+DTEND:20261103T210504Z
+SUMMARY:The Moon hides 49 Leo · mag 5.8
+DESCRIPTION:49 Leo (magnitude 5.8) reappears at 04:03:04 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 35° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1add5943397-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T140329Z
+DTEND:20261114T140529Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 21:03:29 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 12° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71e176c52015-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T151602Z
+DTEND:20261116T151802Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 22:16:02 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 16° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d3455197d46-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261122T171224Z
+DTEND:20261122T171424Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 00:12:24 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 46° up in the NW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b22e61cef63-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T204303Z
+DTEND:20261205T204503Z
+SUMMARY:The Moon hides HR 5355 · mag 5.9
+DESCRIPTION:HR 5355 (magnitude 5.9) reappears at 03:43:03 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 8° up in the ESE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f14f7112172a-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T144913Z
+DTEND:20261217T145113Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:49:13 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 32° up in the W · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b15d8b150a4-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261219T163252Z
+DTEND:20261219T163452Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 23:32:52 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 27° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25140780ec25-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T212147Z
+DTEND:20261223T212347Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 04:21:47 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 14° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-70d780602d95-south-tangerang-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T180028Z
+DTEND:20261227T180228Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 01:00:28 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 49° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db85cd0fc4c5-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270101T184711Z
+DTEND:20270101T184911Z
+SUMMARY:The Moon hides HIP 68643 · mag 6.3
+DESCRIPTION:HIP 68643 (magnitude 6.3) reappears at 01:47:11 at the dark lim
+ b WIB\, seen from South Tangerang\, ID.\nThe Moon is 10° up in the ESE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db2797ad8175-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T131255Z
+DTEND:20270113T131455Z
+SUMMARY:The Moon hides HIP 116422 · mag 6.5
+DESCRIPTION:HIP 116422 (magnitude 6.5) disappears at 20:12:55 at the dark l
+ imb WIB\, seen from South Tangerang\, ID.\nThe Moon is 26° up in the W ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fda8a31f7b18-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T165646Z
+DTEND:20270125T165846Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:56:46 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 45° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6a8415b784a-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T143417Z
+DTEND:20270212T143617Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 21:34:17 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 7° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1bdd752e58a9-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T153032Z
+DTEND:20270214T153232Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:30:32 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 16° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f820b30461d-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T165545Z
+DTEND:20270216T165745Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 23:55:45 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 23° up in the NW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e753d0361eb9-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T180218Z
+DTEND:20270216T180418Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:02:18 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 10° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d0e45516d26-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T180323Z
+DTEND:20270227T180523Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 01:03:23 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 24° up in the ESE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a71f31095ad9-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T211436Z
+DTEND:20270227T211636Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 04:14:36 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 62° up in the SE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6bac75b6e92e-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270311T121101Z
+DTEND:20270311T121301Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 19:11:01 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 12° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29a6d0cbe0d5-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T125324Z
+DTEND:20270318T125524Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 19:53:24 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 60° up in the NNE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01a55ca2ac53-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T214458Z
+DTEND:20270402T214658Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) reappears at 04:44:58 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 27° up in the E · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6faeb69c82f-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T153620Z
+DTEND:20270414T153820Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:36:20 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 27° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6f907b70d54-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T151538Z
+DTEND:20270417T151738Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 22:15:38 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 71° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a846836a8e4f-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T162011Z
+DTEND:20270520T162211Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:20:11 at the dark limb WI
+ B\, seen from South Tangerang\, ID.\nThe Moon is 69° up in the SSE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b2f6f720695f-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T124937Z
+DTEND:20270607T125137Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 19:49:37 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 7° up in the WNW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d2682a4bedd0-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T143416Z
+DTEND:20270611T143616Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 21:34:16 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 36° up in the W · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e007247cda35-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T125050Z
+DTEND:20270617T140015Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 19:50:50 at the 
+ dark limb and reappears at 21:00:15 at the bright limb WIB\, seen from Sou
+ th Tangerang\, ID.\nThe Moon is 45° up in the ESE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a43bb3b59974-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270706T121613Z
+DTEND:20270706T121813Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 19:16:13 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 12° up in the WNW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc0394936571-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T135944Z
+DTEND:20270708T140144Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 20:59:44 at the dark limb 
+ WIB\, seen from South Tangerang\, ID.\nThe Moon is 14° up in the W · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-867fdad38345-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181726Z
+DTEND:20270723T181926Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:17:26 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 56° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-24ba5803ba89-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270726T194102Z
+DTEND:20270726T194302Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) reappears at 02:41:02 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 39° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3be33a83032c-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T132846Z
+DTEND:20270810T140511Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:28:46 at the dark limb 
+ and reappears at 21:05:11 at the bright limb WIB\, seen from South Tangera
+ ng\, ID.\nThe Moon is 57° up in the SW · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-53140721daec-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T155242Z
+DTEND:20270810T155442Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 22:52:42 at the dark limb
+  WIB\, seen from South Tangerang\, ID.\nThe Moon is 27° up in the WSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-992ec7c935a1-south-tangerang-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T220044Z
+DTEND:20270824T220244Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) reappears at 05:00:44 at the dark limb W
+ IB\, seen from South Tangerang\, ID.\nThe Moon is 58° up in the N · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-south-tangerang-id@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T231510Z
+DTEND:20280122T004028Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 06:15:10 and reappears at 07:40:28 WIB\, 
+ seen from South Tangerang\, ID.\nThe Moon is 54° up · daylight\, Sun +5
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.2886
+ &lon=106.7179
+URL:https://occult.alokm.com/antares-2028-01-22?lat=-6.2886&lon=106.7179
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

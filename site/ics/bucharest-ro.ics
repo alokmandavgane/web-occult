@@ -1,0 +1,518 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bucharest\, RO
+X-WR-CALDESC:Lunar occultations you can see from Bucharest\, RO\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Bucharest
+BEGIN:VEVENT
+UID:star-ba117be0b318-bucharest-ro@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T012804Z
+DTEND:20260908T013004Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:28:04 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 12° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-bucharest-ro@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T093844Z
+DTEND:20260914T105225Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:40:20 and reappears at 13:50:41 EEST\, s
+ een from Bucharest\, RO.\nThe Moon is 17° up · daylight\, Sun +48°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/venus-2026-09-14?lat=44.4323&lon=26.1
+ 063
+URL:https://occult.alokm.com/venus-2026-09-14?lat=44.4323&lon=26.1063
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d0ebbc698d9-bucharest-ro@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T210425Z
+DTEND:20260923T210625Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:04:25 at the dark limb 
+ EEST\, seen from Bucharest\, RO.\nThe Moon is 30° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3dec73fe8a36-bucharest-ro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T174814Z
+DTEND:20261016T175014Z
+SUMMARY:The Moon hides HR 6766 · mag 4.5
+DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 20:48:14 at the dark limb
+  EEST\, seen from Bucharest\, RO.\nThe Moon is 6° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d476cb3bf978-bucharest-ro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T193109Z
+DTEND:20261018T193309Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:31:09 at the dark limb
+  EEST\, seen from Bucharest\, RO.\nThe Moon is 9° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15ff2fed4355-bucharest-ro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T020215Z
+DTEND:20261028T020415Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 04:02:15 at the d
+ ark limb EET\, seen from Bucharest\, RO.\nThe Moon is 55° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ddfbe87f49d-bucharest-ro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T000749Z
+DTEND:20261030T000949Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 02:07:49 at the dark limb 
+ EET\, seen from Bucharest\, RO.\nThe Moon is 65° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85033c0c05c2-bucharest-ro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T234552Z
+DTEND:20261102T234752Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 01:45:52 at the dark limb E
+ ET\, seen from Bucharest\, RO.\nThe Moon is 14° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea9fe6fff886-bucharest-ro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T025723Z
+DTEND:20261104T025923Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:57:23 at the dark limb 
+ EET\, seen from Bucharest\, RO.\nThe Moon is 33° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19929fb50018-bucharest-ro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T190646Z
+DTEND:20261116T190846Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 21:06:46 at the dark limb
+  EET\, seen from Bucharest\, RO.\nThe Moon is 13° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f43d564b360-bucharest-ro@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T162503Z
+DTEND:20261214T162703Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 18:25:03 at the dark limb 
+ EET\, seen from Bucharest\, RO.\nThe Moon is 25° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca0bbf531f0a-bucharest-ro@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T230530Z
+DTEND:20261221T230730Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:05:30 at the 
+ dark limb EET\, seen from Bucharest\, RO.\nThe Moon is 48° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-80d6a8fbe8f9-bucharest-ro@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T233433Z
+DTEND:20261228T233633Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 01:34:33 at the dark limb E
+ ET\, seen from Bucharest\, RO.\nThe Moon is 31° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-39fb58fc8bcd-bucharest-ro@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T200340Z
+DTEND:20270113T200540Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 22:03:40 at the dark limb
+  EET\, seen from Bucharest\, RO.\nThe Moon is 7° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cf0579375b1-bucharest-ro@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T211527Z
+DTEND:20270124T211727Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 23:15:27 at the dark limb E
+ ET\, seen from Bucharest\, RO.\nThe Moon is 32° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f427f8cd864c-bucharest-ro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T195506Z
+DTEND:20270220T195706Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:55:06 at the dark limb 
+ EET\, seen from Bucharest\, RO.\nThe Moon is 43° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d5e30b52650-bucharest-ro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T202216Z
+DTEND:20270221T202416Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 22:22:16 at the dark limb E
+ ET\, seen from Bucharest\, RO.\nThe Moon is 34° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84741237c39e-bucharest-ro@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T233735Z
+DTEND:20270316T233935Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 01:37:35 at the dark limb 
+ EET\, seen from Bucharest\, RO.\nThe Moon is 17° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-700ff0ae277a-bucharest-ro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270410T190459Z
+DTEND:20270410T190659Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 22:04:59 at the dark limb 
+ EEST\, seen from Bucharest\, RO.\nThe Moon is 21° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f66ffbc29118-bucharest-ro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T231806Z
+DTEND:20270424T232006Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:18:06 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 11° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eba0be27382d-bucharest-ro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T002349Z
+DTEND:20270427T002549Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:23:49 at the dark limb 
+ EEST\, seen from Bucharest\, RO.\nThe Moon is 10° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7cc40f34723b-bucharest-ro@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T200542Z
+DTEND:20270512T200742Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:05:42 at the dark limb
+  EEST\, seen from Bucharest\, RO.\nThe Moon is 32° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-535c1f0b433d-bucharest-ro@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T231812Z
+DTEND:20270524T004606Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:18:12 at the br
+ ight limb and reappears at 03:46:06 at the dark limb EEST\, seen from Buch
+ arest\, RO.\nThe Moon is 15° up in the SSE · dark sky. Binoculars show i
+ t.\nEvery occultation this month\, for anywhere: https://occult.alokm.com/
+ moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9fdcac0f29e9-bucharest-ro@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270603T014605Z
+DTEND:20270603T014805Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 04:46:05 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 7° up in the ENE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-126ff6e303c3-bucharest-ro@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T213945Z
+DTEND:20270616T214145Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 00:39:45 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 18° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-159b3df344f1-bucharest-ro@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T231837Z
+DTEND:20270622T232037Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:18:37 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 23° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ebea615eae5d-bucharest-ro@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T224915Z
+DTEND:20270717T225115Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 01:49:15 at the dark limb 
+ EEST\, seen from Bucharest\, RO.\nThe Moon is 19° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-051fae87f5f0-bucharest-ro@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T011508Z
+DTEND:20270724T011708Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 04:15:08 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 47° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ed1bd09895eb-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T183813Z
+DTEND:20270813T200503Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 21:38:13 at the da
+ rk limb and reappears at 23:05:03 at the bright limb EEST\, seen from Buch
+ arest\, RO.\nThe Moon is 18° up in the SSE · dark sky. Binoculars show i
+ t.\nEvery occultation this month\, for anywhere: https://occult.alokm.com/
+ moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-236a69dd1a55-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223309Z
+DTEND:20270824T223509Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:33:09 at the d
+ ark limb EEST\, seen from Bucharest\, RO.\nThe Moon is 24° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64f271aacfe6-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223757Z
+DTEND:20270824T223957Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:37:57 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 25° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-076c6e3c641c-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224217Z
+DTEND:20270824T224417Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:42:17 at the d
+ ark limb EEST\, seen from Bucharest\, RO.\nThe Moon is 26° up in the E ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0cb3c04a0e5c-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225530Z
+DTEND:20270824T225730Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 01:55:30 at the dark limb E
+ EST\, seen from Bucharest\, RO.\nThe Moon is 28° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fec03fa13da-bucharest-ro@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230536Z
+DTEND:20270824T230736Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:05:36 at the dark
+  limb EEST\, seen from Bucharest\, RO.\nThe Moon is 30° up in the E · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-bucharest-ro@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T122850Z
+DTEND:20271229T131434Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:29:15 and reappears at 15:14:12 EET\, see
+ n from Bucharest\, RO.\nThe Moon is 22° up in the SSW · daylight\, Sun +
+ 16°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Bucharest%2C
+ %20RO
+URL:https://occult.alokm.com/mars-2027-12-29?city=Bucharest%2C%20RO
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bucharest-ro@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T122713Z
+DTEND:20280330T134759Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 15:27:13 and reappears at 16:47:59 EEST\,
+  seen from Bucharest\, RO.\nThe Moon is 66° up · daylight\, Sun +41°.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=44.4323&lon=
+ 26.1063
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=44.4323&lon=26.1063
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-bucharest-ro@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T213851Z
+DTEND:20280412T224503Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:38:51 and reappears at 01:45:03 EEST\,
+  seen from Bucharest\, RO.\nThe Moon is 3° up · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?lat=44.4323&lon=26.1063
+URL:https://occult.alokm.com/antares-2028-04-12?lat=44.4323&lon=26.1063
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

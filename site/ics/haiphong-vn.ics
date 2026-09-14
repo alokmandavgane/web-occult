@@ -1,0 +1,380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Haiphong\, VN
+X-WR-CALDESC:Lunar occultations you can see from Haiphong\, VN\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Bangkok
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-haiphong-vn@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122926Z
+DTEND:20260914T132253Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 19:31:13 and reappears at 20:21:17 +07\, se
+ en from Haiphong\, VN.\nThe Moon is 3° up · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/venus-2026-09-14?lat=20.8648&lon=106.6834
+URL:https://occult.alokm.com/venus-2026-09-14?lat=20.8648&lon=106.6834
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b2d810b8f1d9-haiphong-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T214525Z
+DTEND:20261006T214725Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 04:45:25 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 31° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa23ff7c1e43-haiphong-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T132213Z
+DTEND:20261016T132413Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 20:22:13 at the dark limb
+  +07\, seen from Haiphong\, VN.\nThe Moon is 12° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6c8e60957fe-haiphong-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T140635Z
+DTEND:20261020T140835Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 21:06:35 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 44° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b69c4cc2925-haiphong-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T205716Z
+DTEND:20261102T205916Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 03:57:16 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 48° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aafe45a15937-haiphong-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T221533Z
+DTEND:20261104T221733Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 05:15:33 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 40° up in the ESE · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-87ff404a0e96-haiphong-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T171223Z
+DTEND:20261127T171423Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 00:12:23 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 53° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12404f3ada53-haiphong-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T213756Z
+DTEND:20261128T213956Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:37:56 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 80° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2254f849a547-haiphong-vn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T163839Z
+DTEND:20261229T164039Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 23:38:39 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 9° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7979a6f6b9c9-haiphong-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T145033Z
+DTEND:20270121T145233Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 21:50:33 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 70° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-56898ff84211-haiphong-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T164026Z
+DTEND:20270125T164226Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:40:26 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 39° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c6b34690c91-haiphong-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T221145Z
+DTEND:20270220T221345Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:11:45 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 14° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f969380cfb32-haiphong-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210759Z
+DTEND:20270301T210959Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 04:07:59 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 23° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50d1e8745a29-haiphong-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T123449Z
+DTEND:20270318T123649Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 19:34:49 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 74° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b3ca6c4046b-haiphong-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T151641Z
+DTEND:20270414T151841Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:16:41 at the dark limb
+  +07\, seen from Haiphong\, VN.\nThe Moon is 40° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d794dcd14ca2-haiphong-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T133559Z
+DTEND:20270416T133759Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:35:59 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 79° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-81b97e2de421-haiphong-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T142007Z
+DTEND:20270417T142207Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 21:20:07 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 73° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea4d8e8374ba-haiphong-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T184905Z
+DTEND:20270520T201621Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:49:05 at the bright lim
+ b and reappears at 03:16:21 at the dark limb +07\, seen from Haiphong\, VN
+ .\nThe Moon is 36° up in the SSW · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef6a812ef774-haiphong-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T181546Z
+DTEND:20270522T181746Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 01:15:46 at the dark limb +0
+ 7\, seen from Haiphong\, VN.\nThe Moon is 41° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cd268e4b5b8-haiphong-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T133945Z
+DTEND:20270607T134145Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 20:39:45 at the dark limb
+  +07\, seen from Haiphong\, VN.\nThe Moon is 7° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-791a58b98777-haiphong-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T132847Z
+DTEND:20270619T133047Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 20:28:47 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 16° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7d565d63d78-haiphong-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T161929Z
+DTEND:20270620T162129Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 23:19:29 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 36° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863f0faece94-haiphong-vn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T193247Z
+DTEND:20270723T193447Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:32:47 at the dark limb +
+ 07\, seen from Haiphong\, VN.\nThe Moon is 66° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ddfdcc8ba77-haiphong-vn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T125056Z
+DTEND:20270810T141551Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:50:56 at the dark limb 
+ and reappears at 21:15:51 at the bright limb +07\, seen from Haiphong\, VN
+ .\nThe Moon is 40° up in the SSW · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6ac43038ef5-haiphong-vn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T183919Z
+DTEND:20270826T184119Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 01:39:19 at the dark limb 
+ +07\, seen from Haiphong\, VN.\nThe Moon is 14° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-haiphong-vn@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T232156Z
+DTEND:20280122T000026Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 06:21:56 and reappears at 07:00:26 +07\, 
+ seen from Haiphong\, VN.\nThe Moon is 34° up · twilight.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?lat=20.8648&lon=106.6834
+URL:https://occult.alokm.com/antares-2028-01-22?lat=20.8648&lon=106.6834
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-haiphong-vn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142417Z
+DTEND:20280330T151711Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 21:24:17 and reappears at 22:17:11 +07\, 
+ seen from Haiphong\, VN.\nThe Moon is 5° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?lat=20.8648&lon=106.6834
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=20.8648&lon=106.6834
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,560 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Pune
+X-WR-CALDESC:Lunar occultations you can see from Pune\, computed by occult.
+ alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-pune@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114341Z
+DTEND:20260914T125130Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:16:29 and reappears at 18:18:57 IST\, se
+ en from Pune.\nThe Moon is 40° up in the SW · daylight\, Sun +18°.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/venus-2026-09-14?city=Pune
+URL:https://occult.alokm.com/venus-2026-09-14?city=Pune
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f28b35356295-pune@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161519Z
+DTEND:20260930T161719Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:45:19 at the d
+ ark limb IST\, seen from Pune.\nThe Moon is 8° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9b3a62db599-pune@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201520Z
+DTEND:20261004T201720Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:45:20 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 6° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834f0938899a-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202410Z
+DTEND:20261102T202610Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:10 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 9° up in the ENE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-113782606109-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144800Z
+DTEND:20261115T145000Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:18:00 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 30° up in the SW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6baa7e1646fe-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155836Z
+DTEND:20261116T160036Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:28:36 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 27° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e3f47023572-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163155Z
+DTEND:20261127T163355Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:01:55 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 14° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a5f72cf79f2-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201611Z
+DTEND:20261128T201811Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:46:11 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 49° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7d072e92b66d-pune@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230057Z
+DTEND:20261130T230257Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:30:57 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 61° up in the ESE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-pune@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133427Z
+DTEND:20261212T133627Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:27 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 20° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a259300867aa-pune@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144814Z
+DTEND:20261212T145014Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:18:14 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 5° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b5422ad8090-pune@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202611Z
+DTEND:20261223T202811Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:56:11 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 66° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ceefff93472-pune@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164952Z
+DTEND:20270113T165152Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:19:52 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 7° up in the W · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e6eca0bc8ee-pune@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194406Z
+DTEND:20270118T194606Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:14:06 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 30° up in the WNW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54fd6c37fa3e-pune@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135917Z
+DTEND:20270121T140117Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:29:17 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 28° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98a5dd4c64dc-pune@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225401Z
+DTEND:20270124T225601Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:24:01 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 65° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2522b154851f-pune@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162545Z
+DTEND:20270125T162745Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:55:45 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 5° up in the E · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-944c12c1f165-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004247Z
+DTEND:20270204T004447Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:12:47 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 8° up in the ESE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ebbb6a28f5-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144934Z
+DTEND:20270214T145134Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:19:34 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 66° up in the WNW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95f8c13842bd-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160022Z
+DTEND:20270216T160222Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:30:22 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 75° up in the NW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-44808bfcc0bf-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170833Z
+DTEND:20270216T171033Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:38:33 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 62° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc042e4578d4-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213744Z
+DTEND:20270220T213944Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:07:44 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 53° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08b5d3d12e8b-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220024Z
+DTEND:20270221T220224Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:30:24 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 57° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-pune@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201309Z
+DTEND:20270227T201509Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:09 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 10° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e4fda994410-pune@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224253Z
+DTEND:20270326T224453Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:12:53 at the dark limb IS
+ T\, seen from Pune.\nThe Moon is 45° up in the S · dark sky. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be913358c1a9-pune@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000751Z
+DTEND:20270402T000951Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:37:51 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 28° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-863bf3adb82e-pune@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T141556Z
+DTEND:20270414T141756Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:45:56 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 85° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-149478220de3-pune@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150437Z
+DTEND:20270520T150637Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:34:37 at the dark limb IS
+ T\, seen from Pune.\nThe Moon is 16° up in the SE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d95780d9ae0-pune@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173201Z
+DTEND:20270520T184932Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:02:01 at the bright lim
+ b and reappears at 00:19:32 at the dark limb IST\, seen from Pune.\nThe Mo
+ on is 39° up in the SSE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-pune@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165510Z
+DTEND:20270609T165710Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:10 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 14° up in the W · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2de6614a7ca2-pune@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172221Z
+DTEND:20270609T172421Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:52:21 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 8° up in the W · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fb937c06f5a-pune@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T125753Z
+DTEND:20270617T125953Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:27:53 at the b
+ right limb IST\, seen from Pune.\nThe Moon is 5° up in the ESE · dayligh
+ t\, Sun +9°. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a1653c48acb-pune@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224136Z
+DTEND:20270620T224336Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:11:36 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 37° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a6fcbc5c55c-pune@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174821Z
+DTEND:20270710T175021Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:18:21 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 9° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2399d5cda20b-pune@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213028Z
+DTEND:20270716T213228Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:00:28 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 19° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d12d710af787-pune@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154747Z
+DTEND:20270806T154947Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:17:47 at the dark limb 
+ IST\, seen from Pune.\nThe Moon is 9° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-pune@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175407Z
+DTEND:20270810T175607Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:07 at the dark limb
+  IST\, seen from Pune.\nThe Moon is 17° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a3e84230939-pune@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232015Z
+DTEND:20270824T232215Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:50:15 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 70° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eefd63e7357d-pune@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235549Z
+DTEND:20270827T235749Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:25:49 at the dark limb I
+ ST\, seen from Pune.\nThe Moon is 38° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-pune@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222656Z
+DTEND:20280121T233139Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:56 and reappears at 05:01:39 IST\, 
+ seen from Pune.\nThe Moon is 4° up in the ESE · dark sky.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/antares-2028-01-22?city=Pune
+URL:https://occult.alokm.com/antares-2028-01-22?city=Pune
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-pune@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230716Z
+DTEND:20280413T001720Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:37:16 and reappears at 05:47:20 IST\, 
+ seen from Pune.\nThe Moon is 43° up in the SSW · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?city=Pune
+URL:https://occult.alokm.com/antares-2028-04-12?city=Pune
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

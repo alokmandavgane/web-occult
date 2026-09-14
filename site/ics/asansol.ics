@@ -1,0 +1,448 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Asansol
+X-WR-CALDESC:Lunar occultations you can see from Asansol\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-asansol@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122036Z
+DTEND:20260914T124947Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:56:25 and reappears at 18:14:19 IST\, se
+ en from Asansol.\nThe Moon is 20° up in the WSW · twilight.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/venus-2026-09-14?city=Asansol
+URL:https://occult.alokm.com/venus-2026-09-14?city=Asansol
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-03bcbc87a389-asansol@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161822Z
+DTEND:20260930T162022Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:48:22 at the d
+ ark limb IST\, seen from Asansol.\nThe Moon is 22° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe4f4766e6f-asansol@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202228Z
+DTEND:20261004T202428Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:52:28 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 21° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1c883430a53-asansol@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213729Z
+DTEND:20261006T213929Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:07:29 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 11° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-adcc2ee61a92-asansol@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T131625Z
+DTEND:20261020T131825Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:46:25 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 49° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-826c2834968e-asansol@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T135538Z
+DTEND:20261021T135738Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:25:38 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 54° up in the SSE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f82f9bda7f-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203132Z
+DTEND:20261102T203332Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:01:32 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 24° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8be2d992e3-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T214928Z
+DTEND:20261104T215128Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:19:28 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 16° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6608e30408fc-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145749Z
+DTEND:20261115T145949Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:27:49 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 15° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4895ca35b59a-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160705Z
+DTEND:20261116T160905Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:37:05 at the dark limb
+  IST\, seen from Asansol.\nThe Moon is 12° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-565b8f50e9f5-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164146Z
+DTEND:20261127T164346Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:11:46 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 29° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b574ec4b2511-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204907Z
+DTEND:20261128T205107Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:19:07 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 69° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7fabbeefa3bf-asansol@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232017Z
+DTEND:20261130T232217Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:50:17 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 72° up in the SSE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d1f08e1a0d4-asansol@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T134001Z
+DTEND:20261212T134201Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:10:01 at the dark limb
+  IST\, seen from Asansol.\nThe Moon is 5° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5ee80acd48d-asansol@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141810Z
+DTEND:20270121T142010Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:48:10 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 46° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5501bec675c0-asansol@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224851Z
+DTEND:20270124T225051Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:18:51 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 53° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-364d043da6db-asansol@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162441Z
+DTEND:20270125T162641Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:54:41 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 17° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfaf559f6a72-asansol@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225306Z
+DTEND:20270201T225506Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:23:06 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 13° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9aee23fbf90d-asansol@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172644Z
+DTEND:20270214T172844Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:56:44 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 21° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42c1b84f2766-asansol@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173258Z
+DTEND:20270216T173458Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:02:58 at the dark limb
+  IST\, seen from Asansol.\nThe Moon is 47° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2c82bbb95ef4-asansol@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214833Z
+DTEND:20270220T224030Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:18:33 at the dark limb 
+ and reappears at 04:10:30 at the dark limb IST\, seen from Asansol.\nThe M
+ oon is 38° up in the W · dark sky. Binoculars show it.\nEvery occultatio
+ n this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-038eeb206641-asansol@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200753Z
+DTEND:20270227T200953Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:37:53 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 16° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7f34a8760d3-asansol@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221329Z
+DTEND:20270302T221529Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:43:29 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 11° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5332651403af-asansol@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143111Z
+DTEND:20270414T143311Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:01:11 at the dark limb
+  IST\, seen from Asansol.\nThe Moon is 69° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8420edb4260b-asansol@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T130859Z
+DTEND:20270416T131059Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:38:59 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 64° up in the ESE · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9598e1f9f67-asansol@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T133618Z
+DTEND:20270417T133818Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:06:18 at the dark limb 
+ IST\, seen from Asansol.\nThe Moon is 56° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-82721a43f78d-asansol@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175145Z
+DTEND:20270520T193013Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:21:45 at the bright lim
+ b and reappears at 01:00:13 at the dark limb IST\, seen from Asansol.\nThe
+  Moon is 40° up in the S · dark sky. Binoculars show it.\nEvery occultat
+ ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2c5dd3f6081c-asansol@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T172118Z
+DTEND:20270522T172318Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:51:18 at the dark limb IS
+ T\, seen from Asansol.\nThe Moon is 26° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-413485997259-asansol@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T154024Z
+DTEND:20270620T154224Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:10:24 at the dark limb I
+ ST\, seen from Asansol.\nThe Moon is 15° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-asansol@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223609Z
+DTEND:20280121T234232Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:06:09 and reappears at 05:12:32 IST\, 
+ seen from Asansol.\nThe Moon is 13° up in the SE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Asansol
+URL:https://occult.alokm.com/antares-2028-01-22?city=Asansol
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-asansol@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142209Z
+DTEND:20280330T151559Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:52:09 and reappears at 20:45:59 IST\, 
+ seen from Asansol.\nThe Moon is 23° up in the WNW · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/alcyone-2028-03-30?city=Asansol
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Asansol
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-asansol@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233354Z
+DTEND:20280413T003748Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:03:54 and reappears at 06:07:48 IST\, 
+ seen from Asansol.\nThe Moon is 30° up in the SW · twilight.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Asansol
+URL:https://occult.alokm.com/antares-2028-04-12?city=Asansol
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

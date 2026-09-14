@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from N'Djamena\, TD
+X-WR-CALDESC:Lunar occultations you can see from N'Djamena\, TD\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Ndjamena
+BEGIN:VEVENT
+UID:star-1e182c749f6f-n-djamena-td@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T193034Z
+DTEND:20260917T193234Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:30:34 at the dark li
+ mb WAT\, seen from N'Djamena\, TD.\nThe Moon is 24° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ad65941776c-n-djamena-td@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T193322Z
+DTEND:20260923T193522Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:33:22 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 59° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-n-djamena-td@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T112236Z
+DTEND:20261006T114742Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 12:26:07 and reappears at 12:44:24 WAT\, 
+ seen from N'Djamena\, TD.\nThe Moon is 33° up in the W · daylight\, Sun 
+ +70°.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=N%27Djam
+ ena%2C%20TD
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=N%27Djamena%2C%20TD
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8d17e5fd049-n-djamena-td@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T184305Z
+DTEND:20261018T184505Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:43:05 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 47° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84324fb7ac9c-n-djamena-td@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T231609Z
+DTEND:20261029T231809Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 00:16:09 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 44° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fbaa98ade5da-n-djamena-td@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T040112Z
+DTEND:20261103T040312Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:01:12 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 58° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b68694f1e09d-n-djamena-td@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T182100Z
+DTEND:20261114T182300Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 19:21:00 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 29° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b64e1b9c4586-n-djamena-td@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T042406Z
+DTEND:20261202T042606Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 05:24:06 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 68° up in the ESE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-996d7ac817dd-n-djamena-td@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T182325Z
+DTEND:20261223T182525Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:23:25 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 27° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ec6e010dd32-n-djamena-td@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270111T183247Z
+DTEND:20270111T183447Z
+SUMMARY:The Moon hides HR 8500 · mag 5.8
+DESCRIPTION:HR 8500 (magnitude 5.8) disappears at 19:32:47 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 18° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13111d7fce20-n-djamena-td@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T183315Z
+DTEND:20270212T183515Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 19:33:15 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 45° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38fc24a13510-n-djamena-td@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T180901Z
+DTEND:20270214T181101Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 19:09:01 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 71° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cda16bac62f7-n-djamena-td@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T004920Z
+DTEND:20270301T005120Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) reappears at 01:49:20 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 9° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-17a5a82bf034-n-djamena-td@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T220422Z
+DTEND:20270326T220622Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:04:22 at the dark limb WA
+ T\, seen from N'Djamena\, TD.\nThe Moon is 13° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fbf3f4294201-n-djamena-td@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T002825Z
+DTEND:20270327T020253Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:28:25 at the bright lim
+ b and reappears at 03:02:53 at the dark limb WAT\, seen from N'Djamena\, T
+ D.\nThe Moon is 40° up in the SE · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a3d8f8776eb8-n-djamena-td@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T222745Z
+DTEND:20270425T222945Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 23:27:45 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 12° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b8349eae081-n-djamena-td@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T011910Z
+DTEND:20270427T012110Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 02:19:10 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 36° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69bb517d10e1-n-djamena-td@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T195919Z
+DTEND:20270513T200119Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:59:19 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 56° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9d928e4e416-n-djamena-td@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T193229Z
+DTEND:20270520T193429Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 20:32:29 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 24° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad4073d61b7b-n-djamena-td@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T182410Z
+DTEND:20270608T182610Z
+SUMMARY:The Moon hides HR 3541 · mag 6.4
+DESCRIPTION:HR 3541 (magnitude 6.4) disappears at 19:24:10 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 38° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f6b327af1274-n-djamena-td@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T192904Z
+DTEND:20270610T193104Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 20:29:04 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 45° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7016dd7ee3d-n-djamena-td@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T210312Z
+DTEND:20270616T210512Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:03:12 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 52° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-858a8e02bdd5-n-djamena-td@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T200917Z
+DTEND:20270620T201117Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 21:09:17 at the dark limb 
+ WAT\, seen from N'Djamena\, TD.\nThe Moon is 16° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e26249855c3-n-djamena-td@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T214814Z
+DTEND:20270622T215014Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:48:14 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 20° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40925be25ab6-n-djamena-td@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T185118Z
+DTEND:20270716T185318Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:51:18 at the dark limb
+  WAT\, seen from N'Djamena\, TD.\nThe Moon is 33° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ee96824f3311-n-djamena-td@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T000910Z
+DTEND:20270724T001110Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 01:09:10 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 50° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4d3e2d329a9-n-djamena-td@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T011651Z
+DTEND:20270820T011851Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:16:51 at the dark limb W
+ AT\, seen from N'Djamena\, TD.\nThe Moon is 78° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-n-djamena-td@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T110012Z
+DTEND:20271229T125652Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 12:00:28 and reappears at 13:56:37 WAT\, see
+ n from N'Djamena\, TD.\nThe Moon is 50° up in the SSE · daylight\, Sun +
+ 55°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ he Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=N%27Djamena%
+ 2C%20TD
+URL:https://occult.alokm.com/mars-2027-12-29?city=N%27Djamena%2C%20TD
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

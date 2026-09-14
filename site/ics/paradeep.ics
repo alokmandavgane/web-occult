@@ -1,0 +1,501 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Paradeep
+X-WR-CALDESC:Lunar occultations you can see from Paradeep\, computed by occ
+ ult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-paradeep@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T121435Z
+DTEND:20260914T130441Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:47:31 and reappears at 18:31:55 IST\, se
+ en from Paradeep.\nThe Moon is 23° up in the WSW · twilight.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/venus-2026-09-14?city=Paradeep
+URL:https://occult.alokm.com/venus-2026-09-14?city=Paradeep
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc17ca8a3837-paradeep@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161057Z
+DTEND:20260930T161257Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:40:57 at the d
+ ark limb IST\, seen from Paradeep.\nThe Moon is 19° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91ffcc8cd70c-paradeep@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213319Z
+DTEND:20261006T213519Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:03:19 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 9° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c380a5ba1bec-paradeep@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130948Z
+DTEND:20261020T131148Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:39:48 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 52° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6c2d5b19461-paradeep@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T135103Z
+DTEND:20261021T135303Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:21:03 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 57° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f82f9bda7f-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203115Z
+DTEND:20261102T203315Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:01:15 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 23° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07172256d3e7-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145538Z
+DTEND:20261115T145738Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:25:38 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 17° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4072bd8899d6-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160415Z
+DTEND:20261116T160615Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:34:15 at the dark limb
+  IST\, seen from Paradeep.\nThe Moon is 15° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6094ad8e4546-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164301Z
+DTEND:20261127T164501Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:13:01 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 28° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c7a69f1d198-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204753Z
+DTEND:20261128T204953Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:17:53 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 69° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a454e466a199-paradeep@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232634Z
+DTEND:20261130T232834Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:56:34 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 75° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77f8c3eb8772-paradeep@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133908Z
+DTEND:20261212T134108Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:09:08 at the dark limb
+  IST\, seen from Paradeep.\nThe Moon is 7° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3804d8e5b47-paradeep@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T205354Z
+DTEND:20261223T205554Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:23:54 at the dark limb
+  IST\, seen from Paradeep.\nThe Moon is 49° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e18f5015e571-paradeep@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141229Z
+DTEND:20270121T141429Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:42:29 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 43° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0d41630073c-paradeep@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225956Z
+DTEND:20270124T230156Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:29:56 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 52° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-paradeep@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162829Z
+DTEND:20270125T163029Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:29 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 18° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60ad5cb999b6-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225047Z
+DTEND:20270201T225247Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:20:47 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 14° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-44c399e5c566-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T153255Z
+DTEND:20270214T153455Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 21:02:55 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 45° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89336dd9e9be-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173142Z
+DTEND:20270216T173342Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:01:42 at the dark limb
+  IST\, seen from Paradeep.\nThe Moon is 46° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b64ea98028e-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215117Z
+DTEND:20270220T224755Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:21:17 at the dark limb 
+ and reappears at 04:17:55 at the dark limb IST\, seen from Paradeep.\nThe 
+ Moon is 38° up in the W · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9a8cb0db4d2-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215827Z
+DTEND:20270221T220027Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:28:27 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 45° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f26bab1ee52f-paradeep@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201400Z
+DTEND:20270227T201600Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:44:00 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 19° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6b5254637f3-paradeep@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221227Z
+DTEND:20270302T221427Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:42:27 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 13° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9b57397728d-paradeep@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230525Z
+DTEND:20270326T230725Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:35:25 at the dark limb IS
+ T\, seen from Paradeep.\nThe Moon is 40° up in the SSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b56a8330887d-paradeep@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143438Z
+DTEND:20270414T143638Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:04:38 at the dark limb
+  IST\, seen from Paradeep.\nThe Moon is 69° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f286f8b0624f-paradeep@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134142Z
+DTEND:20270417T134342Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:11:42 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 58° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-052b22a422f2-paradeep@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T142143Z
+DTEND:20270520T145934Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:51:43 at the dark limb a
+ nd reappears at 20:29:34 at the dark limb IST\, seen from Paradeep.\nThe M
+ oon is 17° up in the SE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09a08ef27c32-paradeep@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175332Z
+DTEND:20270520T193100Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:23:32 at the bright lim
+ b and reappears at 01:01:00 at the dark limb IST\, seen from Paradeep.\nTh
+ e Moon is 43° up in the S · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-acb53157ef7e-paradeep@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T171151Z
+DTEND:20270522T171351Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:41:51 at the dark limb IS
+ T\, seen from Paradeep.\nThe Moon is 27° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fdebc7cf4450-paradeep@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T140504Z
+DTEND:20270608T140704Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:35:04 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 31° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cf3a5002dc30-paradeep@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T153003Z
+DTEND:20270620T153203Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:00:03 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 15° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c549f5ca0aa-paradeep@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T132902Z
+DTEND:20270708T133102Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 18:59:02 at the dark limb 
+ IST\, seen from Paradeep.\nThe Moon is 39° up in the WSW · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b20964d8702c-paradeep@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T183525Z
+DTEND:20270723T183725Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:05:25 at the dark limb I
+ ST\, seen from Paradeep.\nThe Moon is 38° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-paradeep@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223246Z
+DTEND:20280121T234437Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:02:46 and reappears at 05:14:37 IST\, 
+ seen from Paradeep.\nThe Moon is 14° up in the SE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Paradeep
+URL:https://occult.alokm.com/antares-2028-01-22?city=Paradeep
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-paradeep@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142941Z
+DTEND:20280330T151350Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:59:41 and reappears at 20:43:50 IST\, 
+ seen from Paradeep.\nThe Moon is 21° up in the WNW · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/alcyone-2028-03-30?city=Paradeep
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Paradeep
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-paradeep@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234044Z
+DTEND:20280413T003349Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:10:44 and reappears at 06:03:49 IST\, 
+ seen from Paradeep.\nThe Moon is 32° up in the SW · twilight.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-04-12?city=Paradeep
+URL:https://occult.alokm.com/antares-2028-04-12?city=Paradeep
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

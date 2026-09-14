@@ -1,0 +1,487 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kohima
+X-WR-CALDESC:Lunar occultations you can see from Kohima\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kohima@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123159Z
+DTEND:20260914T125040Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 18:01:59 and reappears at 18:20:40 IST\, se
+ en from Kohima.\nThe Moon is 12° up in the WSW · dusk.\nTimes against th
+ e real lunar limb.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/venus-2026-09-14?city=Kohima
+URL:https://occult.alokm.com/venus-2026-09-14?city=Kohima
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e39f54ed64c9-kohima@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161936Z
+DTEND:20260930T162136Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:49:36 at the d
+ ark limb IST\, seen from Kohima.\nThe Moon is 29° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fc9fb789ca5-kohima@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202806Z
+DTEND:20261004T203006Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:58:06 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 29° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-158cda9990b9-kohima@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T214159Z
+DTEND:20261006T214359Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:11:59 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 19° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5ef41ab5eb4-kohima@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T133356Z
+DTEND:20261020T133556Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 19:03:56 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 47° up in the S · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6c919742131-kohima@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T141639Z
+DTEND:20261021T141839Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:46:39 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 52° up in the S · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98bc9fd99470-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203748Z
+DTEND:20261102T203948Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:07:48 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 32° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d3898a5b950-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T220150Z
+DTEND:20261104T220350Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:31:50 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 25° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2406bac40ee1-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T150003Z
+DTEND:20261115T150203Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:30:03 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 8° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-adcdf24b5a38-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160835Z
+DTEND:20261116T161035Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:38:35 at the dark limb
+  IST\, seen from Kohima.\nThe Moon is 5° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f00bf0efc27a-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T165015Z
+DTEND:20261127T165215Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:20:15 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 38° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69cd26b32555-kohima@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T210431Z
+DTEND:20261128T210631Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:34:31 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 79° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7b3b46ba5584-kohima@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T143202Z
+DTEND:20270121T143402Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 20:02:02 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 56° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-030d50cc2fa7-kohima@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162358Z
+DTEND:20270125T162558Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:53:58 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 23° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43f2352af8c0-kohima@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T230009Z
+DTEND:20270201T230209Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:30:09 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 17° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd6f83d25203-kohima@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171754Z
+DTEND:20270214T171954Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:47:54 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 18° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc6635f20ccf-kohima@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T175438Z
+DTEND:20270216T175638Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:24:38 at the dark limb
+  IST\, seen from Kohima.\nThe Moon is 36° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6eaf68149a9-kohima@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215735Z
+DTEND:20270220T223407Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:27:35 at the dark limb 
+ and reappears at 04:04:07 at the dark limb IST\, seen from Kohima.\nThe Mo
+ on is 29° up in the W · dark sky. Binoculars show it.\nEvery occultation
+  this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42974215f3c8-kohima@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T205455Z
+DTEND:20270301T205655Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 02:24:55 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 9° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c07aadf0c779-kohima@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221751Z
+DTEND:20270302T221951Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:47:51 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 16° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3483a1f08f79-kohima@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T200343Z
+DTEND:20270318T200543Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 01:33:43 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 17° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-071e29e7ef7d-kohima@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T144600Z
+DTEND:20270414T144800Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:16:00 at the dark limb
+  IST\, seen from Kohima.\nThe Moon is 59° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8420edb4260b-kohima@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T130800Z
+DTEND:20270416T131000Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:38:00 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 68° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d1027a71ff5-kohima@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134605Z
+DTEND:20270417T134805Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:16:05 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 61° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7bd68435d951-kohima@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T181018Z
+DTEND:20270520T194706Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:40:18 at the bright lim
+ b and reappears at 01:17:06 at the dark limb IST\, seen from Kohima.\nThe 
+ Moon is 38° up in the S · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c37fe1cf058-kohima@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T174326Z
+DTEND:20270522T174526Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 23:13:26 at the dark limb IS
+ T\, seen from Kohima.\nThe Moon is 30° up in the SSE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a32e6a9242c7-kohima@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T133500Z
+DTEND:20270607T133700Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 19:05:00 at the dark limb
+  IST\, seen from Kohima.\nThe Moon is 20° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb3821152f19-kohima@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T155826Z
+DTEND:20270620T160026Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:28:26 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 22° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0fa631cea13b-kohima@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T185804Z
+DTEND:20270723T190004Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:28:04 at the dark limb I
+ ST\, seen from Kohima.\nThe Moon is 48° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7689a09dbeda-kohima@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270805T133305Z
+DTEND:20270805T133505Z
+SUMMARY:The Moon hides HR 4484 · mag 6.3
+DESCRIPTION:HR 4484 (magnitude 6.3) disappears at 19:03:05 at the dark limb
+  IST\, seen from Kohima.\nThe Moon is 11° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5fd760f2e2e-kohima@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T133034Z
+DTEND:20270810T133234Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 19:00:34 at the bright limb
+  IST\, seen from Kohima.\nThe Moon is 36° up in the SSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8e4a01bfe8-kohima@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T185758Z
+DTEND:20270826T185958Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:27:58 at the dark limb 
+ IST\, seen from Kohima.\nThe Moon is 10° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kohima@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T225230Z
+DTEND:20280121T234323Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:22:30 and reappears at 05:13:23 IST\, 
+ seen from Kohima.\nThe Moon is 19° up in the SE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Kohima
+URL:https://occult.alokm.com/antares-2028-01-22?city=Kohima
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-kohima@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141951Z
+DTEND:20280330T151727Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:49:51 and reappears at 20:47:27 IST\, 
+ seen from Kohima.\nThe Moon is 18° up in the WNW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?city=Kohima
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Kohima
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-kohima@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234708Z
+DTEND:20280413T004237Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:17:08 and reappears at 06:12:37 IST\, 
+ seen from Kohima.\nThe Moon is 22° up in the SW · daylight\, Sun +5°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?city=Kohima
+URL:https://occult.alokm.com/antares-2028-04-12?city=Kohima
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

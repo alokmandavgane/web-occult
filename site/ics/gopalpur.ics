@@ -1,0 +1,527 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Gopalpur
+X-WR-CALDESC:Lunar occultations you can see from Gopalpur\, computed by occ
+ ult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-e051727ab542-gopalpur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T230640Z
+DTEND:20260908T230840Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:36:40 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 12° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-gopalpur@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T121058Z
+DTEND:20260914T130603Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:43:44 and reappears at 18:33:34 IST\, se
+ en from Gopalpur.\nThe Moon is 26° up in the WSW · daylight\, Sun +2°.\
+ nTimes against the real lunar limb.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?city=Gopalpur
+URL:https://occult.alokm.com/venus-2026-09-14?city=Gopalpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-65c25d4675a0-gopalpur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160941Z
+DTEND:20260930T161141Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:39:41 at the d
+ ark limb IST\, seen from Gopalpur.\nThe Moon is 17° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-32ab335453cf-gopalpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213138Z
+DTEND:20261006T213338Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:01:38 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 7° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8d468d3d1d0-gopalpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130405Z
+DTEND:20261020T130605Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:34:05 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 52° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e90986642989-gopalpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T134504Z
+DTEND:20261021T134704Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:15:04 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 57° up in the SSE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9e228df62d5b-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202943Z
+DTEND:20261102T203143Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:59:43 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 21° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b65be0d6e6e-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145414Z
+DTEND:20261115T145614Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:24:14 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 20° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-769a80f90ec7-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160301Z
+DTEND:20261116T160501Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:33:01 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 17° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-565b8f50e9f5-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164129Z
+DTEND:20261127T164329Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:11:29 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 26° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d931f3a3f8e6-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204241Z
+DTEND:20261128T204441Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:12:41 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 66° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-68cc9d7833ac-gopalpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232512Z
+DTEND:20261130T232712Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:55:12 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 75° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-gopalpur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133832Z
+DTEND:20261212T134032Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:32 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 10° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0eca21d4d432-gopalpur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204954Z
+DTEND:20261223T205154Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:19:54 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 51° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97c9f52d4af1-gopalpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140914Z
+DTEND:20270121T141114Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:39:14 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 41° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-772490766b35-gopalpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230228Z
+DTEND:20270124T230428Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:32:28 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 53° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-gopalpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162839Z
+DTEND:20270125T163039Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:39 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 17° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-72906fcd1cba-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224758Z
+DTEND:20270201T224958Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:17:58 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 13° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d465309f5de5-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T152045Z
+DTEND:20270214T152245Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:50:45 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 49° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d2916a54d21-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172851Z
+DTEND:20270216T173051Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:58:51 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 48° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59be2751a818-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215021Z
+DTEND:20270220T224946Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:20:21 at the dark limb 
+ and reappears at 04:19:46 at the dark limb IST\, seen from Gopalpur.\nThe 
+ Moon is 40° up in the W · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-802d7604bc1a-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220307Z
+DTEND:20270221T220507Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:33:07 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 46° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2affbea42e-gopalpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201518Z
+DTEND:20270227T201718Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:45:18 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 19° up in the SE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f93cc550a283-gopalpur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221036Z
+DTEND:20270302T221236Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:40:36 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 11° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9b57397728d-gopalpur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230558Z
+DTEND:20270326T230758Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:35:58 at the dark limb IS
+ T\, seen from Gopalpur.\nThe Moon is 42° up in the SSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2901c09c5089-gopalpur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143303Z
+DTEND:20270414T143503Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:03:03 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 71° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-caa1b660acb4-gopalpur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134208Z
+DTEND:20270417T134408Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:12:08 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 57° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2122a5a288eb-gopalpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T141543Z
+DTEND:20270520T150335Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:45:43 at the dark limb a
+ nd reappears at 20:33:35 at the dark limb IST\, seen from Gopalpur.\nThe M
+ oon is 15° up in the SE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-421996657f8c-gopalpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175031Z
+DTEND:20270520T192612Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:20:31 at the bright lim
+ b and reappears at 00:56:12 at the dark limb IST\, seen from Gopalpur.\nTh
+ e Moon is 44° up in the SSE · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1eaccf9d4964-gopalpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T170153Z
+DTEND:20270522T170353Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:31:53 at the dark limb IS
+ T\, seen from Gopalpur.\nThe Moon is 25° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9d8aad23d0c-gopalpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T140105Z
+DTEND:20270608T140305Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:31:05 at the dark limb 
+ IST\, seen from Gopalpur.\nThe Moon is 33° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d04b54a7b8b9-gopalpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T152145Z
+DTEND:20270620T152345Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:51:45 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 12° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6840251e4cdd-gopalpur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T215101Z
+DTEND:20270716T215301Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:21:01 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 6° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a68b3fd28ff-gopalpur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T183116Z
+DTEND:20270723T183316Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:01:16 at the dark limb I
+ ST\, seen from Gopalpur.\nThe Moon is 36° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0851cbd7984-gopalpur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180130Z
+DTEND:20270810T180330Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:30 at the dark limb
+  IST\, seen from Gopalpur.\nThe Moon is 6° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-gopalpur@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223043Z
+DTEND:20280121T234318Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:00:43 and reappears at 05:13:18 IST\, 
+ seen from Gopalpur.\nThe Moon is 13° up in the SE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Gopalpur
+URL:https://occult.alokm.com/antares-2028-01-22?city=Gopalpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-gopalpur@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T143334Z
+DTEND:20280330T151038Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 20:03:34 and reappears at 20:40:38 IST\, 
+ seen from Gopalpur.\nThe Moon is 21° up in the WNW · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/alcyone-2028-03-30?city=Gopalpur
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Gopalpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-gopalpur@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233837Z
+DTEND:20280413T003109Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:08:37 and reappears at 06:01:09 IST\, 
+ seen from Gopalpur.\nThe Moon is 34° up in the SW · dusk.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/antares-2028-04-12?city=Gopalpur
+URL:https://occult.alokm.com/antares-2028-04-12?city=Gopalpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

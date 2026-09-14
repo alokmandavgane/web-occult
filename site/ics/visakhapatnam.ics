@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Visakhapatnam
+X-WR-CALDESC:Lunar occultations you can see from Visakhapatnam\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-35300108b468-visakhapatnam@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T231249Z
+DTEND:20260908T231449Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:42:49 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 12° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-visakhapatnam@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120701Z
+DTEND:20260914T130853Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:39:35 and reappears at 18:36:39 IST\, se
+ en from Visakhapatnam.\nThe Moon is 29° up in the WSW · daylight\, Sun +
+ 4°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Visakhapatna
+ m
+URL:https://occult.alokm.com/venus-2026-09-14?city=Visakhapatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db841165001a-visakhapatnam@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160717Z
+DTEND:20260930T160917Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:37:17 at the d
+ ark limb IST\, seen from Visakhapatnam.\nThe Moon is 14° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c6dd91d489c-visakhapatnam@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T125719Z
+DTEND:20261020T125919Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:27:19 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 53° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55b871f79c02-visakhapatnam@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133832Z
+DTEND:20261021T134032Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:08:32 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 57° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9abb53f66a5-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202804Z
+DTEND:20261102T203004Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:58:04 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 19° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40069a8dc2bd-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145222Z
+DTEND:20261115T145422Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:22:22 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 22° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9251c774aec-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160115Z
+DTEND:20261116T160315Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:31:15 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 19° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f2af40b53f19-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164011Z
+DTEND:20261127T164211Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:10:11 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 24° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fafa56a52bc2-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T203628Z
+DTEND:20261128T203828Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:06:28 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 63° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74f5a1bb3e1d-visakhapatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232356Z
+DTEND:20261130T232556Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:53:56 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 74° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ceaea753df74-visakhapatnam@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133741Z
+DTEND:20261212T133941Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:07:41 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 12° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cbbef4623876-visakhapatnam@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204622Z
+DTEND:20261223T204822Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:16:22 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 53° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ed41c8318d7-visakhapatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140549Z
+DTEND:20270121T140749Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:35:49 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 38° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c0a251a2cc1-visakhapatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230540Z
+DTEND:20270124T230740Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:35:40 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 55° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-visakhapatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162903Z
+DTEND:20270125T163103Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:03 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 15° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-504067d2f1a7-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224417Z
+DTEND:20270201T224617Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:14:17 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 12° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ced7bbe09620-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T145324Z
+DTEND:20270212T145524Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:23:24 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 31° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ed5bd3ad4db-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T151047Z
+DTEND:20270214T151247Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:40:47 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 52° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe89af216061-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172636Z
+DTEND:20270216T172836Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:56:36 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 49° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59be2751a818-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215016Z
+DTEND:20270220T215216Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:20:16 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 42° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c7725fdbe97-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220806Z
+DTEND:20270221T221006Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:38:06 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 47° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa2060f8a07e-visakhapatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201629Z
+DTEND:20270227T201829Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:46:29 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 18° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-166eefd62bb2-visakhapatnam@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220817Z
+DTEND:20270302T221017Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:38:17 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 11° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a5917a190f6-visakhapatnam@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230729Z
+DTEND:20270326T230929Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:37:29 at the dark limb IS
+ T\, seen from Visakhapatnam.\nThe Moon is 44° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e3dfba45c21-visakhapatnam@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143251Z
+DTEND:20270414T143451Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:02:51 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 72° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6164939dc7dc-visakhapatnam@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134445Z
+DTEND:20270417T134645Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:14:45 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 57° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-visakhapatnam@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150658Z
+DTEND:20270520T150858Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:58 at the dark limb IS
+ T\, seen from Visakhapatnam.\nThe Moon is 24° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55041e00df20-visakhapatnam@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174847Z
+DTEND:20270520T192100Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:18:47 at the bright lim
+ b and reappears at 00:51:00 at the dark limb IST\, seen from Visakhapatnam
+ .\nThe Moon is 45° up in the SSE · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c0b8f845048-visakhapatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135815Z
+DTEND:20270608T140015Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:28:15 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 35° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac8e379fa82b-visakhapatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T225033Z
+DTEND:20270620T225233Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:20:33 at the dark limb 
+ IST\, seen from Visakhapatnam.\nThe Moon is 31° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-437730c89735-visakhapatnam@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T215326Z
+DTEND:20270716T215526Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:23:26 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 8° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0cca2370514b-visakhapatnam@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182805Z
+DTEND:20270723T183005Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:58:05 at the dark limb I
+ ST\, seen from Visakhapatnam.\nThe Moon is 34° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0851cbd7984-visakhapatnam@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180114Z
+DTEND:20270810T180314Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:14 at the dark limb
+  IST\, seen from Visakhapatnam.\nThe Moon is 9° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-visakhapatnam@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222916Z
+DTEND:20280121T234149Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:59:16 and reappears at 05:11:49 IST\, 
+ seen from Visakhapatnam.\nThe Moon is 12° up in the ESE · dark sky.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/antares-2028-01-22?city=Visakhapatnam
+URL:https://occult.alokm.com/antares-2028-01-22?city=Visakhapatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-visakhapatnam@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T144205Z
+DTEND:20280330T150330Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 20:12:05 and reappears at 20:33:30 IST\, 
+ seen from Visakhapatnam.\nThe Moon is 20° up in the WNW · dark sky.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/alcyone-2028-03-30?city=Visakhapatnam
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Visakhapatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-visakhapatnam@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233805Z
+DTEND:20280413T002702Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:08:05 and reappears at 05:57:02 IST\, 
+ seen from Visakhapatnam.\nThe Moon is 36° up in the SW · dusk.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?city=Visakhapatnam
+URL:https://occult.alokm.com/antares-2028-04-12?city=Visakhapatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

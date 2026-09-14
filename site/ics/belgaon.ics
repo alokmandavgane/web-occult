@@ -1,0 +1,574 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Belgaon
+X-WR-CALDESC:Lunar occultations you can see from Belgaon\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-belgaon@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114516Z
+DTEND:20260914T130114Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:17:42 and reappears at 18:29:00 IST\, se
+ en from Belgaon.\nThe Moon is 41° up in the SW · daylight\, Sun +18°.\n
+ Times against the real lunar limb.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?city=Belgaon
+URL:https://occult.alokm.com/venus-2026-09-14?city=Belgaon
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc17ca8a3837-belgaon@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161012Z
+DTEND:20260930T161212Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:40:12 at the d
+ ark limb IST\, seen from Belgaon.\nThe Moon is 6° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202335Z
+DTEND:20261102T202535Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:35 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 9° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c427992b4bb8-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144448Z
+DTEND:20261115T144648Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:14:48 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 31° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8cf178f71fe-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155512Z
+DTEND:20261116T155712Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:25:12 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 29° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1df4b017297-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163354Z
+DTEND:20261127T163554Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:03:54 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 14° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d4f1d2cc120d-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201225Z
+DTEND:20261128T201425Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:42:25 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 49° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-679441316782-belgaon@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230307Z
+DTEND:20261130T230507Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:33:07 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 63° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a78421fed6c6-belgaon@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133247Z
+DTEND:20261212T133447Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:02:47 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 21° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12c4f82ad3a9-belgaon@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144943Z
+DTEND:20261212T145143Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:19:43 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 5° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d1db8d69824-belgaon@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202913Z
+DTEND:20261223T203113Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:59:13 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 63° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f0555d1f65a-belgaon@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164537Z
+DTEND:20270113T164737Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:15:37 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 7° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9c9e0fdc181-belgaon@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193858Z
+DTEND:20270118T194058Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:08:58 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 30° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-832a1866fd29-belgaon@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135635Z
+DTEND:20270121T135835Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:26:35 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 27° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-348be7e635cf-belgaon@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230002Z
+DTEND:20270124T230202Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:30:02 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 64° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa71acdbdb0d-belgaon@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162710Z
+DTEND:20270125T162910Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:57:10 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 6° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6909ac02d00a-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T003945Z
+DTEND:20270204T004145Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:09:45 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 10° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7618556d0f4-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T142856Z
+DTEND:20270212T143056Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:58:56 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 45° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dfb235e340cd-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144413Z
+DTEND:20270214T144613Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:14:13 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 65° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cb4de87d74e-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155448Z
+DTEND:20270216T155648Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:24:48 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 74° up in the NW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35d3b63ca18d-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171252Z
+DTEND:20270216T171452Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:42:52 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 59° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-222c2e163cec-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214314Z
+DTEND:20270220T214514Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:13:14 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 52° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5def6841a388-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220711Z
+DTEND:20270221T220911Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:37:11 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 56° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-belgaon@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201350Z
+DTEND:20270227T201550Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:50 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 12° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f29630b216b-belgaon@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T225025Z
+DTEND:20270326T225225Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:20:25 at the dark limb IS
+ T\, seen from Belgaon.\nThe Moon is 48° up in the S · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e683de0b02ef-belgaon@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000847Z
+DTEND:20270402T001047Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:38:47 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 30° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e19be25e09b2-belgaon@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142423Z
+DTEND:20270414T142623Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:54:23 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 81° up in the NW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-belgaon@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150646Z
+DTEND:20270520T150846Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:46 at the dark limb IS
+ T\, seen from Belgaon.\nThe Moon is 19° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-215911a9207e-belgaon@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173830Z
+DTEND:20270520T184911Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:08:30 at the bright lim
+ b and reappears at 00:19:11 at the dark limb IST\, seen from Belgaon.\nThe
+  Moon is 43° up in the SSE · dark sky. Binoculars show it.\nEvery occult
+ ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-
+ 05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-belgaon@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165514Z
+DTEND:20270609T165714Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:14 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 13° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b86024b8f99-belgaon@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172409Z
+DTEND:20270609T172609Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:54:09 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 6° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e4d685e0201b-belgaon@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130355Z
+DTEND:20270617T130555Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:33:55 at the b
+ right limb IST\, seen from Belgaon.\nThe Moon is 8° up in the ESE · dayl
+ ight\, Sun +6°. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-477c8517d141-belgaon@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T223959Z
+DTEND:20270620T224159Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:09:59 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 39° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75ff4f1facb5-belgaon@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175109Z
+DTEND:20270710T175309Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:21:09 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 9° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b75d692f9b12-belgaon@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213632Z
+DTEND:20270716T213832Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:06:32 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 19° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-420130944448-belgaon@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181057Z
+DTEND:20270723T181257Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:40:57 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 22° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac815c4147a4-belgaon@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T155222Z
+DTEND:20270806T155422Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:22:22 at the dark limb 
+ IST\, seen from Belgaon.\nThe Moon is 8° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-belgaon@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175446Z
+DTEND:20270810T175646Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:46 at the dark limb
+  IST\, seen from Belgaon.\nThe Moon is 18° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-665ed6383048-belgaon@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231506Z
+DTEND:20270824T231706Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:45:06 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 69° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-474f0a2b391d-belgaon@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235416Z
+DTEND:20270827T235616Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:24:16 at the dark limb I
+ ST\, seen from Belgaon.\nThe Moon is 38° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-belgaon@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222807Z
+DTEND:20280121T233059Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:07 and reappears at 05:00:59 IST\, 
+ seen from Belgaon.\nThe Moon is 6° up in the ESE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Belgaon
+URL:https://occult.alokm.com/antares-2028-01-22?city=Belgaon
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-belgaon@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T231557Z
+DTEND:20280413T001359Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:45:57 and reappears at 05:43:59 IST\, 
+ seen from Belgaon.\nThe Moon is 44° up in the SSW · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-04-12?city=Belgaon
+URL:https://occult.alokm.com/antares-2028-04-12?city=Belgaon
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

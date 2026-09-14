@@ -1,0 +1,393 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Da Nang\, VN
+X-WR-CALDESC:Lunar occultations you can see from Da Nang\, VN\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-da-nang-vn@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123103Z
+DTEND:20260914T133229Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 19:32:32 and reappears at 20:31:11 +07\, se
+ en from Da Nang\, VN.\nThe Moon is 3° up · dark sky.\nTimes for the Moon
+ 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/venus-2026-09-14?lat=16.0678&lon=108.2208
+URL:https://occult.alokm.com/venus-2026-09-14?lat=16.0678&lon=108.2208
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c5e8ae5cd82-da-nang-vn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T163545Z
+DTEND:20260920T163745Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 23:35:45 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 12° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c7ea699505c-da-nang-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T132057Z
+DTEND:20261016T132257Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 20:20:57 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 14° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ad2f9b399da-da-nang-vn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T144948Z
+DTEND:20261017T145148Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:49:48 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 7° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33d62492e8ea-da-nang-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T210021Z
+DTEND:20261102T210221Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 04:00:21 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 50° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a771da56f81-da-nang-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T171302Z
+DTEND:20261127T171502Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 00:13:02 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 53° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9ca6c49a698-da-nang-vn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T214805Z
+DTEND:20261128T215005Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:48:05 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 76° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c2c79a3d18a-da-nang-vn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T152022Z
+DTEND:20261217T152222Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 22:20:22 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 24° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f6b3d5f4aaa3-da-nang-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T145249Z
+DTEND:20270121T145449Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 21:52:49 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 70° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b56633c042a1-da-nang-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T165039Z
+DTEND:20270125T165239Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 23:50:39 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 44° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ec7340f99614-da-nang-vn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270128T165023Z
+DTEND:20270128T165223Z
+SUMMARY:The Moon hides 83 Vir · mag 5.6
+DESCRIPTION:83 Vir (magnitude 5.6) reappears at 23:50:23 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 6° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9da345c2ef3f-da-nang-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T180633Z
+DTEND:20270216T180833Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:06:33 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 18° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4281c2a4c73c-da-nang-vn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T221254Z
+DTEND:20270220T221454Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 05:12:54 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 12° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db1b01438869-da-nang-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210802Z
+DTEND:20270301T211002Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 04:08:02 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 28° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cc4a50d822b-da-nang-vn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T123034Z
+DTEND:20270318T123234Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 19:30:34 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 74° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9d4d07fad71-da-nang-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T120903Z
+DTEND:20270413T121103Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 19:09:03 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 67° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75e6fb33bff9-da-nang-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T151812Z
+DTEND:20270414T152012Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:18:12 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 38° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0ae4c346038-da-nang-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T134923Z
+DTEND:20270416T135123Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:49:23 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 80° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6f2a2c0542d-da-nang-vn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T142839Z
+DTEND:20270417T143039Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 21:28:39 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 76° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca880f85749b-da-nang-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T120610Z
+DTEND:20270512T120810Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 19:06:10 at the dark limb
+  +07\, seen from Da Nang\, VN.\nThe Moon is 66° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa1efc3b0d69-da-nang-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T190002Z
+DTEND:20270520T201844Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:00:02 at the bright lim
+ b and reappears at 03:18:44 at the dark limb +07\, seen from Da Nang\, VN.
+ \nThe Moon is 38° up in the SW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8440ea5c3a3-da-nang-vn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T181422Z
+DTEND:20270522T181622Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 01:14:22 at the dark limb +0
+ 7\, seen from Da Nang\, VN.\nThe Moon is 46° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a892ac5dad95-da-nang-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T132723Z
+DTEND:20270619T132923Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 20:27:23 at the dark limb 
+ +07\, seen from Da Nang\, VN.\nThe Moon is 19° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5902d6eee29b-da-nang-vn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T161245Z
+DTEND:20270620T161445Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 23:12:45 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 40° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4a0d6b7abab-da-nang-vn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T192741Z
+DTEND:20270723T192941Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:27:41 at the dark limb +
+ 07\, seen from Da Nang\, VN.\nThe Moon is 70° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-949aae19040e-da-nang-vn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T125407Z
+DTEND:20270810T142725Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:54:07 at the dark limb 
+ and reappears at 21:27:25 at the bright limb +07\, seen from Da Nang\, VN.
+ \nThe Moon is 43° up in the SSW · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-da-nang-vn@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T231324Z
+DTEND:20280122T001952Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 06:13:24 and reappears at 07:19:52 +07\, 
+ seen from Da Nang\, VN.\nThe Moon is 38° up · twilight.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?lat=16.0678&lon=108.2208
+URL:https://occult.alokm.com/antares-2028-01-22?lat=16.0678&lon=108.2208
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-da-nang-vn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142844Z
+DTEND:20280330T151704Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 21:28:44 and reappears at 22:17:04 +07\, 
+ seen from Da Nang\, VN.\nThe Moon is 1° up · dark sky.\nTimes for the Mo
+ on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/alcyone-2028-03-30?lat=16.0678&lon=108.2208
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=16.0678&lon=108.2208
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

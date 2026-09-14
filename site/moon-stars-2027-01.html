@@ -105,12 +105,13 @@
     .limb-controls { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.9rem; }
     .limb-controls select { font: inherit; padding: 0.3rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 60vw; }
     .limb-readout { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-    .limb-stage { position: relative; margin: 0.5rem 0; }
-    #limb-moon { position: absolute; inset: 0; width: 100%; height: 100%; }
-    .limb-svg { position: relative; width: 100%; height: auto; display: block; }
+    .limb-svg { width: 100%; height: auto; display: block; margin: 0.5rem 0; }
     .limb-svg .disc-dark { fill: #2a2f3a; }
     .limb-svg .disc-bright { fill: #f2e9c9; }
-    .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; opacity: 0.45; }
+    .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; }
+    .limb-svg .crater { fill: none; stroke-width: 0.8; stroke-linejoin: round; }
+    .limb-svg .crater-night { stroke: #aab3c5; opacity: 0.16; }
+    .limb-svg .crater-day { stroke: #7d6e4c; opacity: 0.4; }
     .limb-svg .track { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 4 3; }
     .limb-svg .track-hidden { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.35; }
     .limb-svg .contact { fill: var(--c-limit); }
@@ -272,7 +273,7 @@
 
 <footer>
   <p>Computed from the JPL DE431 ephemeris, for the Moon's mean limb. Static pages; no tracking beyond
-  basic analytics. <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
+  basic analytics. <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 
 <script src="/js/moon.js?v=d338bbdc7a"></script>

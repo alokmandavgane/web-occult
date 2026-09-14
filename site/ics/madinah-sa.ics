@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Madinah\, SA
+X-WR-CALDESC:Lunar occultations you can see from Madinah\, SA\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Riyadh
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-madinah-sa@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T095729Z
+DTEND:20260914T113227Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:59:14 and reappears at 14:30:31 +03\, se
+ en from Madinah\, SA.\nThe Moon is 42° up · daylight\, Sun +67°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?lat=24.4686&lon=39.6142
+URL:https://occult.alokm.com/venus-2026-09-14?lat=24.4686&lon=39.6142
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f36c9606a328-madinah-sa@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T204358Z
+DTEND:20260923T204558Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:43:58 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 45° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-189e09340997-madinah-sa@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T192408Z
+DTEND:20261018T192608Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:24:08 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 15° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad018ee4f498-madinah-sa@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T003626Z
+DTEND:20261030T003826Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:36:26 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 86° up in the NNE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c666d5b41a10-madinah-sa@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T000301Z
+DTEND:20261103T000501Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:03:01 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 27° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d17c636b0a6-madinah-sa@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T194619Z
+DTEND:20261128T194819Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 22:46:19 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 13° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e10a6dcdf8f-madinah-sa@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T221159Z
+DTEND:20261130T221359Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:11:59 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 18° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c910e6802c2-madinah-sa@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T161106Z
+DTEND:20261214T161306Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:11:06 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 35° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89a3b669e35b-madinah-sa@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T190515Z
+DTEND:20261223T190715Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:05:15 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 63° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b95fc2e52def-madinah-sa@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T183518Z
+DTEND:20270118T183718Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 21:35:18 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 78° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-279af1a7177e-madinah-sa@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T212426Z
+DTEND:20270124T212626Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 00:24:26 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 53° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-675a5ca99876-madinah-sa@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T190734Z
+DTEND:20270214T190934Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 22:07:34 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 42° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c7e3a9a2e68-madinah-sa@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T154036Z
+DTEND:20270216T154236Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 18:40:36 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 65° up in the ENE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b115319384e7-madinah-sa@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T204240Z
+DTEND:20270221T204440Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 23:42:40 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 59° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34ed18ef8e99-madinah-sa@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T213838Z
+DTEND:20270326T214038Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:38:38 at the dark limb +0
+ 3\, seen from Madinah\, SA.\nThe Moon is 20° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6aa51deee445-madinah-sa@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T020931Z
+DTEND:20270327T023006Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 05:09:31 at the bright lim
+ b and reappears at 05:30:06 at the dark limb +03\, seen from Madinah\, SA.
+ \nThe Moon is 37° up in the SSW · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe5a3b0b7a93-madinah-sa@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270404T021705Z
+DTEND:20270404T021905Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) reappears at 05:17:05 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 10° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-081df3ee4246-madinah-sa@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T232500Z
+DTEND:20270424T232700Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:25:00 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 35° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d39133bf7585-madinah-sa@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T021536Z
+DTEND:20270427T021736Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 05:15:36 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 40° up in the S · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-68e80e8958f1-madinah-sa@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T225519Z
+DTEND:20270427T225719Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 01:55:19 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 14° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a55f4c7a253-madinah-sa@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T181518Z
+DTEND:20270510T181718Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:15:18 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 24° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d0c96233231-madinah-sa@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T204345Z
+DTEND:20270512T204545Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:43:45 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 13° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-03d0702e35a5-madinah-sa@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T234030Z
+DTEND:20270524T010134Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:40:30 at the br
+ ight limb and reappears at 04:01:34 at the dark limb +03\, seen from Madin
+ ah\, SA.\nThe Moon is 39° up in the S · dark sky. Binoculars show it.\nE
+ very occultation this month\, for anywhere: https://occult.alokm.com/moon-
+ stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dafb663b33d3-madinah-sa@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T191218Z
+DTEND:20270610T191418Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 22:12:18 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 24° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7d3c5b49b56f-madinah-sa@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T220253Z
+DTEND:20270616T220453Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:02:53 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 28° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e41b89e55225-madinah-sa@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T205500Z
+DTEND:20270620T205700Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 23:55:00 at the dark limb 
+ +03\, seen from Madinah\, SA.\nThe Moon is 33° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7bee342e879-madinah-sa@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T231153Z
+DTEND:20270622T231353Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:11:53 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 45° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b59d1ab5542-madinah-sa@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T202907Z
+DTEND:20270716T203107Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 23:29:07 at the dark limb
+  +03\, seen from Madinah\, SA.\nThe Moon is 38° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a67900329892-madinah-sa@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T011309Z
+DTEND:20270724T011509Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 04:13:09 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 69° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3de4ebc5e446-madinah-sa@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T220329Z
+DTEND:20270824T220529Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:03:29 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 24° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a600a3a75fe8-madinah-sa@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222851Z
+DTEND:20270824T223051Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:28:51 at the d
+ ark limb +03\, seen from Madinah\, SA.\nThe Moon is 30° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b397ec28b60b-madinah-sa@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223005Z
+DTEND:20270824T223205Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:30:05 at the dark
+  limb +03\, seen from Madinah\, SA.\nThe Moon is 30° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-346106647771-madinah-sa@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225107Z
+DTEND:20270824T225307Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 01:51:07 at the dark limb +
+ 03\, seen from Madinah\, SA.\nThe Moon is 34° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-madinah-sa@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T122639Z
+DTEND:20271229T135051Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 15:26:53 and reappears at 16:50:40 +03\, see
+ n from Madinah\, SA.\nThe Moon is 37° up in the SSW · daylight\, Sun +25
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Madinah%2C%20S
+ A
+URL:https://occult.alokm.com/mars-2027-12-29?city=Madinah%2C%20SA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-madinah-sa@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T215443Z
+DTEND:20280412T224640Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:54:43 and reappears at 01:46:40 +03\, 
+ seen from Madinah\, SA.\nThe Moon is 28° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?lat=24.4686&lon=39.6142
+URL:https://occult.alokm.com/antares-2028-04-12?lat=24.4686&lon=39.6142
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

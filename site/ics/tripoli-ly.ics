@@ -1,0 +1,511 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Tripoli\, LY
+X-WR-CALDESC:Lunar occultations you can see from Tripoli\, LY\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Tripoli
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-tripoli-ly@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T093204Z
+DTEND:20260914T103555Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:33:45 and reappears at 12:34:03 EET\, se
+ en from Tripoli\, LY.\nThe Moon is 15° up · daylight\, Sun +54°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?lat=32.8874&lon=13.1873
+URL:https://occult.alokm.com/venus-2026-09-14?lat=32.8874&lon=13.1873
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bba82958d5a6-tripoli-ly@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T194237Z
+DTEND:20260917T194437Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 21:42:37 at the dark li
+ mb EET\, seen from Tripoli\, LY.\nThe Moon is 10° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2b6f8c1ffe1-tripoli-ly@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T174004Z
+DTEND:20261016T174204Z
+SUMMARY:The Moon hides HR 6766 · mag 4.5
+DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 19:40:04 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 22° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e900fbe6f551-tripoli-ly@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T191148Z
+DTEND:20261018T191348Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 21:11:48 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 26° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8d4e18ce0075-tripoli-ly@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T234941Z
+DTEND:20261029T235141Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 01:49:41 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 55° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-046195acfda0-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T025416Z
+DTEND:20261101T025616Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 04:54:16 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 66° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-578eded359aa-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T032644Z
+DTEND:20261103T032844Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:26:44 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 46° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01600fb94028-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T025429Z
+DTEND:20261104T025629Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:54:29 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 27° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6929d9a9baf8-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T182251Z
+DTEND:20261114T182451Z
+SUMMARY:The Moon hides 51 Sgr · mag 5.7
+DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 20:22:51 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 16° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dff612dbb63b-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T182838Z
+DTEND:20261114T183038Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 20:28:38 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 15° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02464f3de28c-tripoli-ly@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T185854Z
+DTEND:20261116T190054Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 20:58:54 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 30° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f57c6bdce24-tripoli-ly@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T041811Z
+DTEND:20261205T042011Z
+SUMMARY:The Moon hides 83 Vir · mag 5.6
+DESCRIPTION:83 Vir (magnitude 5.6) reappears at 06:18:11 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 18° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-745c578b9edb-tripoli-ly@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T195324Z
+DTEND:20270113T195524Z
+SUMMARY:The Moon hides HR 9015 · mag 6.5
+DESCRIPTION:HR 9015 (magnitude 6.5) disappears at 21:53:24 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 20° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1ed7892bcd7-tripoli-ly@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T205650Z
+DTEND:20270124T205850Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 22:56:50 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 22° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69b4579a8042-tripoli-ly@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T043921Z
+DTEND:20270201T044121Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) reappears at 06:39:21 at the dark lim
+ b EET\, seen from Tripoli\, LY.\nThe Moon is 20° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52a41b685968-tripoli-ly@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T183150Z
+DTEND:20270214T183350Z
+SUMMARY:The Moon hides HR 1188 · mag 5.3
+DESCRIPTION:HR 1188 (magnitude 5.3) disappears at 20:31:50 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 73° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01ccaeea0d9f-tripoli-ly@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200105Z
+DTEND:20270221T200305Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 22:01:05 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 26° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb83d279ce2a-tripoli-ly@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T234930Z
+DTEND:20270316T235130Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 01:49:30 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 21° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6aff3fff4034-tripoli-ly@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T003810Z
+DTEND:20270327T013018Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:38:10 at the bright lim
+ b and reappears at 03:30:18 at the dark limb EET\, seen from Tripoli\, LY.
+ \nThe Moon is 23° up in the SSE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-60070f4ff9ea-tripoli-ly@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T231742Z
+DTEND:20270413T231942Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 01:17:42 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 13° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a5354802321-tripoli-ly@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T202543Z
+DTEND:20270512T202743Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 22:25:43 at the dark limb
+  EET\, seen from Tripoli\, LY.\nThe Moon is 41° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-501e373fe9ca-tripoli-ly@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T192553Z
+DTEND:20270520T192753Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 21:25:53 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 9° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e73fcac7f678-tripoli-ly@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T224311Z
+DTEND:20270524T000844Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 00:43:11 at the br
+ ight limb and reappears at 02:08:44 at the dark limb EET\, seen from Tripo
+ li\, LY.\nThe Moon is 15° up in the SE · dark sky. Binoculars show it.\n
+ Every occultation this month\, for anywhere: https://occult.alokm.com/moon
+ -stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f39595a4a8c-tripoli-ly@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T205319Z
+DTEND:20270616T205519Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:53:19 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 31° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d4d999fae6f-tripoli-ly@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T201856Z
+DTEND:20270620T202056Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 22:18:56 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 5° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f2bcedc547c-tripoli-ly@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T224002Z
+DTEND:20270622T224202Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 00:40:02 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 19° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af007776a8d9-tripoli-ly@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T221902Z
+DTEND:20270717T222102Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 00:19:02 at the dark limb 
+ EET\, seen from Tripoli\, LY.\nThe Moon is 32° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eba6c0318cb5-tripoli-ly@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270724T003407Z
+DTEND:20270724T003607Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 02:34:07 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 45° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66a3e72863b3-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T192725Z
+DTEND:20270813T192925Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 21:27:25 at the bri
+ ght limb EET\, seen from Tripoli\, LY.\nThe Moon is 29° up in the SSE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6351a0ab72b-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T021741Z
+DTEND:20270820T021941Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 04:17:41 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 54° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-268865f978cc-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221710Z
+DTEND:20270824T221910Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:17:10 at the d
+ ark limb EET\, seen from Tripoli\, LY.\nThe Moon is 8° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69dc65738d5b-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222316Z
+DTEND:20270824T222516Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:23:16 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 9° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ef7d01b9caa-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T222941Z
+DTEND:20270824T223141Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:29:41 at the d
+ ark limb EET\, seen from Tripoli\, LY.\nThe Moon is 10° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-08d58954384a-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224346Z
+DTEND:20270824T224546Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 00:43:46 at the dark limb E
+ ET\, seen from Tripoli\, LY.\nThe Moon is 13° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4c7bebdb546-tripoli-ly@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224820Z
+DTEND:20270824T225020Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:48:20 at the dark
+  limb EET\, seen from Tripoli\, LY.\nThe Moon is 14° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-tripoli-ly@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T115004Z
+DTEND:20271229T124824Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 13:50:31 and reappears at 14:47:58 EET\, see
+ n from Tripoli\, LY.\nThe Moon is 34° up in the S · daylight\, Sun +33°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Tripoli%2C%20LY
+URL:https://occult.alokm.com/mars-2027-12-29?city=Tripoli%2C%20LY
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-tripoli-ly@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T114916Z
+DTEND:20280330T131159Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 13:49:16 and reappears at 15:11:59 EET\, 
+ seen from Tripoli\, LY.\nThe Moon is 56° up · daylight\, Sun +60°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=32.8874&lon=13.
+ 1873
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=32.8874&lon=13.1873
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

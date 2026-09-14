@@ -1,0 +1,437 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Ouagadougou\, BF
+X-WR-CALDESC:Lunar occultations you can see from Ouagadougou\, BF\, compute
+ d by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Ouagadougou
+BEGIN:VEVENT
+UID:star-29c14af06e3a-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T205402Z
+DTEND:20260916T205602Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:54:02 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 12° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7e76017a899-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T185805Z
+DTEND:20260917T190005Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 18:58:05 at the dark li
+ mb GMT\, seen from Ouagadougou\, BF.\nThe Moon is 41° up in the SW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c531a458b851-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T190719Z
+DTEND:20260923T190919Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 19:07:19 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 42° up in the ESE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-217d1a51a144-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T040935Z
+DTEND:20261001T041135Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 04:09:35 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 74° up in the NNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T104341Z
+DTEND:20261006T115359Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:45:07 and reappears at 11:52:40 GMT\, 
+ seen from Ouagadougou\, BF.\nThe Moon is 59° up in the W · daylight\, Su
+ n +65°.\nTimes against the real lunar limb.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ouagad
+ ougou%2C%20BF
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ouagadougou%2C%20BF
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d42a4c5d552-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010708Z
+DTEND:20261021T010908Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:07:08 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 7° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be38c92f94f4-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T231311Z
+DTEND:20261029T231511Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:13:11 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 29° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75018f357201-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T032730Z
+DTEND:20261103T032930Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:27:30 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 34° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf3a32c463de-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T185355Z
+DTEND:20261113T194728Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 18:53:55 at the dark limb 
+ and reappears at 19:47:28 at the bright limb GMT\, seen from Ouagadougou\,
+  BF.\nThe Moon is 25° up in the SW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-398e0ed96aaa-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T181802Z
+DTEND:20261114T182002Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 18:18:02 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 41° up in the SW · dusk. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-377b9f89b2d5-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T035259Z
+DTEND:20261202T035459Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:52:59 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 45° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61ff77b6d195-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042119Z
+DTEND:20261205T042319Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:21:19 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 16° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cd51b77686df-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261206T044302Z
+DTEND:20261206T044502Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:43:02 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 9° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ece51a260789-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T211305Z
+DTEND:20261214T211505Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:13:05 at the dark limb
+  GMT\, seen from Ouagadougou\, BF.\nThe Moon is 14° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33b7e20967d2-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T215420Z
+DTEND:20270113T215620Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:54:20 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 8° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cf179c8d4a4c-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T032757Z
+DTEND:20270126T032957Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:27:57 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 76° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-13522522b966-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T054042Z
+DTEND:20270131T054242Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:40:42 at the dark limb GM
+ T\, seen from Ouagadougou\, BF.\nThe Moon is 45° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a2aef9322f2-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214914Z
+DTEND:20270212T215114Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:49:14 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 16° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff3684efd6c9-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T233811Z
+DTEND:20270322T003341Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:38:11 at the dark limb 
+ and reappears at 00:33:41 at the dark limb GMT\, seen from Ouagadougou\, B
+ F.\nThe Moon is 76° up in the S · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58ce37e767dc-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T001544Z
+DTEND:20270327T011652Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:15:44 at the bright lim
+ b and reappears at 01:16:52 at the dark limb GMT\, seen from Ouagadougou\,
+  BF.\nThe Moon is 25° up in the SE · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1895e26b62c5-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T234134Z
+DTEND:20270413T234334Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 23:41:34 at the dark limb
+  GMT\, seen from Ouagadougou\, BF.\nThe Moon is 14° up in the WNW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc2d3dc79e1a-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T005304Z
+DTEND:20270427T005504Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:53:04 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 18° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eda13cea667b-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T190532Z
+DTEND:20270513T190732Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:05:32 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 85° up in the WSW · dusk.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0390fb29b742-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T012320Z
+DTEND:20270515T012520Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 01:23:20 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 5° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b1155c613459-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T203112Z
+DTEND:20270616T203312Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:31:12 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 44° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9929acd0f2f2-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T021342Z
+DTEND:20270617T025739Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:13:42 at the dark limb 
+ and reappears at 02:57:39 at the bright limb GMT\, seen from Ouagadougou\,
+  BF.\nThe Moon is 23° up in the SW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-811a666fd83e-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T214107Z
+DTEND:20270717T214307Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 21:41:07 at the dark limb 
+ GMT\, seen from Ouagadougou\, BF.\nThe Moon is 43° up in the SE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-844e96528d93-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234756Z
+DTEND:20270723T234956Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:47:56 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 28° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ed39b6d3a5be-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T011237Z
+DTEND:20270820T011437Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:12:37 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 75° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T101353Z
+DTEND:20271229T115917Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 10:14:07 and reappears at 11:59:01 GMT\, see
+ n from Ouagadougou\, BF.\nThe Moon is 32° up in the SE · daylight\, Sun 
+ +45°.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Ouagadougou
+ %2C%20BF
+URL:https://occult.alokm.com/mars-2027-12-29?city=Ouagadougou%2C%20BF
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T111311Z
+DTEND:20280330T120627Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 11:13:11 and reappears at 12:06:27 GMT\, 
+ seen from Ouagadougou\, BF.\nThe Moon is 31° up · daylight\, Sun +74°.\
+ nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=12.3657&lon
+ =-1.5339
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=12.3657&lon=-1.5339
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

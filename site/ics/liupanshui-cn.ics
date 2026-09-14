@@ -1,0 +1,472 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Liupanshui\, CN
+X-WR-CALDESC:Lunar occultations you can see from Liupanshui\, CN\, computed
+  by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-liupanshui-cn@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T123212Z
+DTEND:20260914T130402Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 20:35:33 and reappears at 21:00:52 CST\, se
+ en from Liupanshui\, CN.\nThe Moon is 2° up · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/venus-2026-09-14?lat=26.5944&lon=104.8333
+URL:https://occult.alokm.com/venus-2026-09-14?lat=26.5944&lon=104.8333
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc17ca8a3837-liupanshui-cn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161020Z
+DTEND:20260930T161220Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:10:20 at the d
+ ark limb CST\, seen from Liupanshui\, CN.\nThe Moon is 37° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7cde14570803-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T203316Z
+DTEND:20261004T203516Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 04:33:16 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 40° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-78dc9af2fb1c-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T215109Z
+DTEND:20261006T215309Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:51:09 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 30° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-816cc06c08b4-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T132828Z
+DTEND:20261016T133028Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:28:28 at the dark limb
+  CST\, seen from Liupanshui\, CN.\nThe Moon is 9° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69aa66080833-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T135827Z
+DTEND:20261020T140027Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 21:58:27 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 41° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45934e0c4114-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T145322Z
+DTEND:20261021T145522Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:53:22 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 45° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0fe82969e6ef-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T205053Z
+DTEND:20261102T205253Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 04:50:53 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 44° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f365ad5ae959-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T221825Z
+DTEND:20261104T222025Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 06:18:25 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 37° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19ed3931e5a3-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T170733Z
+DTEND:20261127T170933Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 01:07:33 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 51° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3957a915066b-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T212355Z
+DTEND:20261128T212555Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 05:23:55 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 82° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f4c86f9e6e89-liupanshui-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T165604Z
+DTEND:20261229T165804Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 00:56:04 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 10° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9fc37011f64-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T145531Z
+DTEND:20270121T145731Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 22:55:31 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 71° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-030d50cc2fa7-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162350Z
+DTEND:20270125T162550Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 00:23:50 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 32° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9370ff8e9cb8-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T230947Z
+DTEND:20270201T231147Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 07:09:47 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 24° up in the SE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3dd1dbb197ec-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171406Z
+DTEND:20270214T171606Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 01:14:06 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 10° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f969380cfb32-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210722Z
+DTEND:20270301T210922Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 05:07:22 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 18° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe75fa0842e-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T222338Z
+DTEND:20270302T222538Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 06:23:38 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 23° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50b23a7fc57c-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T195204Z
+DTEND:20270318T195404Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:52:04 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 10° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-17202476bca1-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T132201Z
+DTEND:20270416T132401Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:22:01 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 73° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4134f1310df9-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T141238Z
+DTEND:20270417T141438Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 22:12:38 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 67° up in the S · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84799b397e9d-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270501T202705Z
+DTEND:20270501T202905Z
+SUMMARY:The Moon hides HR 8759 · mag 6.0
+DESCRIPTION:HR 8759 (magnitude 6.0) reappears at 04:27:05 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 12° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1ed766d9d2f1-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270507T121127Z
+DTEND:20270507T121327Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 20:11:27 at the 
+ dark limb CST\, seen from Liupanshui\, CN.\nThe Moon is 5° up in the WNW 
+ · dusk. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0591031c6a91-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270507T121131Z
+DTEND:20270507T121331Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 20:11:31 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 5° up in the WNW · dusk. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef1a3acbff84-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T183909Z
+DTEND:20270520T200851Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:39:09 at the bright lim
+ b and reappears at 04:08:51 at the dark limb CST\, seen from Liupanshui\, 
+ CN.\nThe Moon is 33° up in the SSW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8440ea5c3a3-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T181413Z
+DTEND:20270522T181613Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 02:14:13 at the dark limb CS
+ T\, seen from Liupanshui\, CN.\nThe Moon is 35° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0801ca9ecc1a-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T133441Z
+DTEND:20270607T133641Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 21:34:41 at the dark limb
+  CST\, seen from Liupanshui\, CN.\nThe Moon is 11° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ffb83bb401f-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270619T132947Z
+DTEND:20270619T133147Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 21:29:47 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 11° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d35387881d94-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T162403Z
+DTEND:20270620T162603Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:24:03 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 31° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ae162aa11507-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T193442Z
+DTEND:20270723T193642Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:34:42 at the dark limb C
+ ST\, seen from Liupanshui\, CN.\nThe Moon is 61° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ddfdcc8ba77-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T125045Z
+DTEND:20270810T135654Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:50:45 at the dark limb 
+ and reappears at 21:56:54 at the bright limb CST\, seen from Liupanshui\, 
+ CN.\nThe Moon is 35° up in the SSW · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-31e5a7a91a30-liupanshui-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T185522Z
+DTEND:20270826T185722Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:55:22 at the dark limb 
+ CST\, seen from Liupanshui\, CN.\nThe Moon is 18° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-liupanshui-cn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141944Z
+DTEND:20280330T151443Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 22:19:44 and reappears at 23:14:43 CST\, 
+ seen from Liupanshui\, CN.\nThe Moon is 10° up · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/alcyone-2028-03-30?lat=26.5944&lon=104.8333
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=26.5944&lon=104.8333
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-liupanshui-cn@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280413T000935Z
+DTEND:20280413T004029Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 08:09:35 and reappears at 08:40:29 CST\, 
+ seen from Liupanshui\, CN.\nThe Moon is 11° up · daylight\, Sun +19°.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=26.5944&lon=
+ 104.8333
+URL:https://occult.alokm.com/antares-2028-04-12?lat=26.5944&lon=104.8333
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,531 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Hamburg\, DE
+X-WR-CALDESC:Lunar occultations you can see from Hamburg\, DE\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:star-cff224d6225d-hamburg-de@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T014347Z
+DTEND:20260908T014547Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:43:47 at the dark limb C
+ EST\, seen from Hamburg\, DE.\nThe Moon is 7° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-hamburg-de@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T093535Z
+DTEND:20260914T104036Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 11:37:02 and reappears at 12:39:03 CEST\, s
+ een from Hamburg\, DE.\nThe Moon is 2° up · daylight\, Sun +36°.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/venus-2026-09-14?lat=53.5507&lon=9.9930
+URL:https://occult.alokm.com/venus-2026-09-14?lat=53.5507&lon=9.9930
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14230577782f-hamburg-de@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260929T223306Z
+DTEND:20260929T223506Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 00:33:06 at the dark limb C
+ EST\, seen from Hamburg\, DE.\nThe Moon is 42° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a9222ed72778-hamburg-de@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261016T171644Z
+DTEND:20261016T171844Z
+SUMMARY:The Moon hides HR 6766 · mag 4.5
+DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 19:16:44 at the dark limb
+  CEST\, seen from Hamburg\, DE.\nThe Moon is 6° up in the SSW · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0fcf4453cfb-hamburg-de@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T015017Z
+DTEND:20261028T015217Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:50:17 at the d
+ ark limb CET\, seen from Hamburg\, DE.\nThe Moon is 58° up in the SSW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fbf53f2728a9-hamburg-de@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T015534Z
+DTEND:20261028T015734Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:55:34 at the dark
+  limb CET\, seen from Hamburg\, DE.\nThe Moon is 58° up in the SSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce9de2b6fcf6-hamburg-de@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261105T053215Z
+DTEND:20261105T053415Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 06:32:15 at the dark limb C
+ ET\, seen from Hamburg\, DE.\nThe Moon is 27° up in the SE · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f3f4f9b62240-hamburg-de@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T184801Z
+DTEND:20261116T185001Z
+SUMMARY:The Moon hides HR 8122 · mag 6.1
+DESCRIPTION:HR 8122 (magnitude 6.1) disappears at 19:48:01 at the dark limb
+  CET\, seen from Hamburg\, DE.\nThe Moon is 15° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c181fd790d57-hamburg-de@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T222759Z
+DTEND:20261221T222959Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:27:59 at the 
+ dark limb CET\, seen from Hamburg\, DE.\nThe Moon is 57° up in the SW · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-57feefacfadb-hamburg-de@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T225419Z
+DTEND:20261221T225619Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 23:54:19 at the dar
+ k limb CET\, seen from Hamburg\, DE.\nThe Moon is 55° up in the SW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bfea6732694c-hamburg-de@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T224028Z
+DTEND:20261227T224228Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 23:40:28 at the dark limb C
+ ET\, seen from Hamburg\, DE.\nThe Moon is 22° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9d5e3680da3-hamburg-de@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T232936Z
+DTEND:20261228T233136Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:29:36 at the dark limb C
+ ET\, seen from Hamburg\, DE.\nThe Moon is 17° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0e45eabf59c-hamburg-de@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T171735Z
+DTEND:20270112T171935Z
+SUMMARY:The Moon hides HR 8759 · mag 6.0
+DESCRIPTION:HR 8759 (magnitude 6.0) disappears at 18:17:35 at the dark limb
+  CET\, seen from Hamburg\, DE.\nThe Moon is 25° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-862863e7d504-hamburg-de@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T210254Z
+DTEND:20270124T210454Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 22:02:54 at the dark limb C
+ ET\, seen from Hamburg\, DE.\nThe Moon is 17° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c138377dc0a5-hamburg-de@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T193947Z
+DTEND:20270220T194147Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:39:47 at the dark limb 
+ CET\, seen from Hamburg\, DE.\nThe Moon is 27° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61b5ef74d0d1-hamburg-de@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T200918Z
+DTEND:20270221T201118Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 21:09:18 at the dark limb C
+ ET\, seen from Hamburg\, DE.\nThe Moon is 19° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd211b2afe28-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T220515Z
+DTEND:20270313T220715Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) disappears at 23:05:15 at the dark limb 
+ CET\, seen from Hamburg\, DE.\nThe Moon is 16° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c01305a7b6cb-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T221244Z
+DTEND:20270313T221444Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 23:12:44 at the 
+ dark limb CET\, seen from Hamburg\, DE.\nThe Moon is 15° up in the WNW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fa0a92c3f8f-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T222710Z
+DTEND:20270313T222910Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) disappears at 23:27:10 at the dar
+ k limb CET\, seen from Hamburg\, DE.\nThe Moon is 13° up in the WNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96c5d2f385ed-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223137Z
+DTEND:20270313T223337Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 23:31:37 at the dark limb 
+ CET\, seen from Hamburg\, DE.\nThe Moon is 12° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7c1f5e2fd0b-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T223331Z
+DTEND:20270313T223531Z
+SUMMARY:The Moon hides 22 Tau · mag 6.5
+DESCRIPTION:22 Tau (magnitude 6.5) disappears at 23:33:31 at the dark limb 
+ CET\, seen from Hamburg\, DE.\nThe Moon is 12° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aad7facd1d38-hamburg-de@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T232115Z
+DTEND:20270316T232315Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 00:21:15 at the dark limb 
+ CET\, seen from Hamburg\, DE.\nThe Moon is 31° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a7d7860c104b-hamburg-de@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270411T233853Z
+DTEND:20270411T234053Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) disappears at 01:38:53 at the dark limb
+  CEST\, seen from Hamburg\, DE.\nThe Moon is 5° up in the NW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26af7d18b3c0-hamburg-de@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T002905Z
+DTEND:20270413T003105Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:29:05 at the dark limb 
+ CEST\, seen from Hamburg\, DE.\nThe Moon is 6° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d32d42e4f850-hamburg-de@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T235605Z
+DTEND:20270413T235805Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) disappears at 01:56:05 at the dark limb
+  CEST\, seen from Hamburg\, DE.\nThe Moon is 15° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f6bf97e16635-hamburg-de@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T011651Z
+DTEND:20270415T011851Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:16:51 at the dark limb 
+ CEST\, seen from Hamburg\, DE.\nThe Moon is 8° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef8b40c9341d-hamburg-de@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T002505Z
+DTEND:20270515T002705Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 02:25:05 at the dark limb 
+ CEST\, seen from Hamburg\, DE.\nThe Moon is 6° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-764a64ebe548-hamburg-de@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T002317Z
+DTEND:20270524T002517Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 02:23:17 at the dar
+ k limb CEST\, seen from Hamburg\, DE.\nThe Moon is 7° up in the SSE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-81bcfbd1a7e5-hamburg-de@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T230900Z
+DTEND:20270622T231100Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 01:09:00 at the dark limb C
+ EST\, seen from Hamburg\, DE.\nThe Moon is 8° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8064b9d38e25-hamburg-de@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T222513Z
+DTEND:20270717T222713Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 00:25:13 at the dark limb 
+ CEST\, seen from Hamburg\, DE.\nThe Moon is 11° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f58d74af2bf7-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T194136Z
+DTEND:20270813T194336Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 21:41:36 at the bri
+ ght limb CEST\, seen from Hamburg\, DE.\nThe Moon is 9° up in the SSE · 
+ dusk. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-374c528e62c1-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224400Z
+DTEND:20270824T224600Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:44:00 at the dark limb C
+ EST\, seen from Hamburg\, DE.\nThe Moon is 18° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a0b6fbc583fc-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225014Z
+DTEND:20270824T225214Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:50:14 at the d
+ ark limb CEST\, seen from Hamburg\, DE.\nThe Moon is 19° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-93e70aad913d-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225920Z
+DTEND:20270824T234532Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 00:59:20 at the 
+ bright limb and reappears at 01:45:32 at the dark limb CEST\, seen from Ha
+ mburg\, DE.\nThe Moon is 20° up in the ENE · dark sky. Binoculars show i
+ t.\nEvery occultation this month\, for anywhere: https://occult.alokm.com/
+ moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d4f67fd846b-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230542Z
+DTEND:20270824T230742Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 01:05:42 at the da
+ rk limb CEST\, seen from Hamburg\, DE.\nThe Moon is 21° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1a39d015a559-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230845Z
+DTEND:20270824T231045Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:08:45 at the dark
+  limb CEST\, seen from Hamburg\, DE.\nThe Moon is 21° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e90f2f7962e4-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T001618Z
+DTEND:20270825T001818Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 02:16:18 at the d
+ ark limb CEST\, seen from Hamburg\, DE.\nThe Moon is 31° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de56746ba73d-hamburg-de@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270828T024137Z
+DTEND:20270828T024337Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 04:41:37 at the dark limb C
+ EST\, seen from Hamburg\, DE.\nThe Moon is 25° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-hamburg-de@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T124519Z
+DTEND:20280330T130237Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 14:45:19 and reappears at 15:02:37 CEST\,
+  seen from Hamburg\, DE.\nThe Moon is 54° up · daylight\, Sun +38°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=53.5507&lon=9.
+ 9930
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=53.5507&lon=9.9930
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

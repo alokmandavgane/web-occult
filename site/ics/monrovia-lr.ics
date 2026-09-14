@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Monrovia\, LR
+X-WR-CALDESC:Lunar occultations you can see from Monrovia\, LR\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Monrovia
+BEGIN:VEVENT
+UID:star-5b8caac56021-monrovia-lr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T204203Z
+DTEND:20260916T204403Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:42:03 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 26° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-836ec9062a11-monrovia-lr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T033642Z
+DTEND:20261001T033842Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:36:42 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 67° up in the NNE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-monrovia-lr@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T103817Z
+DTEND:20261006T115618Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:39:46 and reappears at 11:55:00 GMT\, 
+ seen from Monrovia\, LR.\nThe Moon is 67° up in the WNW · daylight\, Sun
+  +60°.\nTimes against the real lunar limb.\nMap\, timings and the view at
+  the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Monrovi
+ a%2C%20LR
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Monrovia%2C%20LR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b45682b874d0-monrovia-lr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010022Z
+DTEND:20261021T010222Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:00:22 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 19° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aedcab889c26-monrovia-lr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T230358Z
+DTEND:20261029T230558Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:03:58 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 16° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8142bab20aea-monrovia-lr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T030746Z
+DTEND:20261103T030946Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:07:46 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 19° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22e26e26becc-monrovia-lr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T193836Z
+DTEND:20261113T194036Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 19:38:36 at the bright limb
+  GMT\, seen from Monrovia\, LR.\nThe Moon is 28° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59716ea505b1-monrovia-lr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T003612Z
+DTEND:20261128T003812Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 00:36:12 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 38° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2102b0e20acf-monrovia-lr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T033058Z
+DTEND:20261202T033258Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:30:58 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 31° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ad65f9ebe96-monrovia-lr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T041705Z
+DTEND:20261205T041905Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:17:05 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 8° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c5a44f9e7ae-monrovia-lr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T200009Z
+DTEND:20261213T200209Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 20:00:09 at the dark l
+ imb GMT\, seen from Monrovia\, LR.\nThe Moon is 30° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f950c6066b8-monrovia-lr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T210510Z
+DTEND:20261214T210710Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:05:10 at the dark limb
+  GMT\, seen from Monrovia\, LR.\nThe Moon is 26° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b499a9860987-monrovia-lr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261225T053454Z
+DTEND:20261225T053654Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 05:34:54 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 34° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3e735d67deeb-monrovia-lr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T215104Z
+DTEND:20270113T215304Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:51:04 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 18° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f370be7c1324-monrovia-lr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T215447Z
+DTEND:20270116T215647Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 21:54:47 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 50° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fdd6c2d8dea8-monrovia-lr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T032506Z
+DTEND:20270126T032706Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:25:06 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 78° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b3401df8b092-monrovia-lr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T052858Z
+DTEND:20270131T053058Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:28:58 at the dark limb GM
+ T\, seen from Monrovia\, LR.\nThe Moon is 42° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3d04425f3f1d-monrovia-lr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214047Z
+DTEND:20270212T214247Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:40:47 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 25° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bc15654a97e7-monrovia-lr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270311T201518Z
+DTEND:20270311T201718Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:15:18 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 16° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2acfe421bd1a-monrovia-lr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T210359Z
+DTEND:20270313T210559Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 21:03:59 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 29° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dc751f940a00-monrovia-lr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T004231Z
+DTEND:20270316T004431Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 00:42:31 at the dark limb
+  GMT\, seen from Monrovia\, LR.\nThe Moon is 8° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce1ef2eb2579-monrovia-lr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T231821Z
+DTEND:20270321T232021Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:18:21 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 72° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c526ecea106e-monrovia-lr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T214727Z
+DTEND:20270423T223632Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 21:47:27 at the 
+ bright limb and reappears at 22:36:32 at the dark limb GMT\, seen from Mon
+ rovia\, LR.\nThe Moon is 6° up in the ESE · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e80f815d499-monrovia-lr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T003723Z
+DTEND:20270427T003923Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:37:23 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 10° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3aba8a40924c-monrovia-lr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T204129Z
+DTEND:20270511T204329Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:41:29 at the dark limb
+  GMT\, seen from Monrovia\, LR.\nThe Moon is 45° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f445b9f34d9-monrovia-lr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T200803Z
+DTEND:20270514T201003Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:08:03 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 87° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de043715ff3c-monrovia-lr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270515T013929Z
+DTEND:20270515T014129Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 01:39:29 at the dark limb 
+ GMT\, seen from Monrovia\, LR.\nThe Moon is 11° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c18453b3996b-monrovia-lr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T020949Z
+DTEND:20270617T024229Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:09:49 at the dark limb 
+ and reappears at 02:42:29 at the bright limb GMT\, seen from Monrovia\, LR
+ .\nThe Moon is 34° up in the SW · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c0563d9bf6d-monrovia-lr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T041730Z
+DTEND:20270617T041930Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 04:17:30 at the dark limb
+  GMT\, seen from Monrovia\, LR.\nThe Moon is 8° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92cdc91da463-monrovia-lr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T233427Z
+DTEND:20270723T233627Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:34:27 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 16° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ebb441c319c-monrovia-lr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270726T043747Z
+DTEND:20270726T050208Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 04:37:47 at the dark limb 
+ and reappears at 05:02:08 at the dark limb GMT\, seen from Monrovia\, LR.\
+ nThe Moon is 67° up in the ENE · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-071a73a16f2a-monrovia-lr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T004257Z
+DTEND:20270820T004457Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:42:57 at the dark limb G
+ MT\, seen from Monrovia\, LR.\nThe Moon is 62° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-monrovia-lr@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T095030Z
+DTEND:20271229T112457Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 09:50:42 and reappears at 11:24:43 GMT\, see
+ n from Monrovia\, LR.\nThe Moon is 22° up in the ESE · daylight\, Sun +3
+ 8°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Monrovia%2C%2
+ 0LR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Monrovia%2C%20LR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-monrovia-lr@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T110343Z
+DTEND:20280330T115134Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 11:03:43 and reappears at 11:51:34 GMT\, 
+ seen from Monrovia\, LR.\nThe Moon is 18° up · daylight\, Sun +64°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=6.3005&lon=-10
+ .7969
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=6.3005&lon=-10.7969
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

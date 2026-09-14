@@ -1,0 +1,474 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bokaro
+X-WR-CALDESC:Lunar occultations you can see from Bokaro\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-bokaro@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T121929Z
+DTEND:20260914T124828Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:55:31 and reappears at 18:12:47 IST\, se
+ en from Bokaro.\nThe Moon is 20° up in the WSW · twilight.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/venus-2026-09-14?city=Bokaro
+URL:https://occult.alokm.com/venus-2026-09-14?city=Bokaro
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-03bcbc87a389-bokaro@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161841Z
+DTEND:20260930T162041Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:48:41 at the d
+ ark limb IST\, seen from Bokaro.\nThe Moon is 21° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe4f4766e6f-bokaro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202241Z
+DTEND:20261004T202441Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:52:41 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 20° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1c883430a53-bokaro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213719Z
+DTEND:20261006T213919Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:07:19 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 10° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6ba98bfaa32-bokaro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T131447Z
+DTEND:20261020T131647Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:44:47 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 49° up in the S · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e651cd73656-bokaro@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T135334Z
+DTEND:20261021T135534Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:23:34 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 54° up in the SSE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fbdf78073dc-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203053Z
+DTEND:20261102T203253Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:00:53 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 23° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e84fc1068ea-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T214840Z
+DTEND:20261104T215040Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:18:40 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 15° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6608e30408fc-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145738Z
+DTEND:20261115T145938Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:27:38 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 16° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4895ca35b59a-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160702Z
+DTEND:20261116T160902Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:37:02 at the dark limb
+  IST\, seen from Bokaro.\nThe Moon is 13° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f2af40b53f19-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164044Z
+DTEND:20261127T164244Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:10:44 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 28° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c7a69f1d198-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204710Z
+DTEND:20261128T204910Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:17:10 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 68° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-573e5308224f-bokaro@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231908Z
+DTEND:20261130T232108Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:49:08 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 71° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77f8c3eb8772-bokaro@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133959Z
+DTEND:20261212T134159Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:09:59 at the dark limb
+  IST\, seen from Bokaro.\nThe Moon is 6° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14cfbb64be0c-bokaro@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T205551Z
+DTEND:20261223T205751Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:25:51 at the dark limb
+  IST\, seen from Bokaro.\nThe Moon is 50° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad12103f077c-bokaro@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141714Z
+DTEND:20270121T141914Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:47:14 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 45° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e42e55408a02-bokaro@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224910Z
+DTEND:20270124T225110Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:19:10 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 54° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-364d043da6db-bokaro@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162425Z
+DTEND:20270125T162625Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:54:25 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 16° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54a86c2a6683-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225220Z
+DTEND:20270201T225420Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:22:20 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 12° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9dfb88a0191e-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172738Z
+DTEND:20270214T172938Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:57:38 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 22° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89336dd9e9be-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173115Z
+DTEND:20270216T173315Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:01:15 at the dark limb
+  IST\, seen from Bokaro.\nThe Moon is 48° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e73c60091b9a-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214724Z
+DTEND:20270220T224031Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:17:24 at the dark limb 
+ and reappears at 04:10:31 at the dark limb IST\, seen from Bokaro.\nThe Mo
+ on is 39° up in the W · dark sky. Binoculars show it.\nEvery occultation
+  this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-201f7cb4d522-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T214136Z
+DTEND:20270221T214336Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:11:36 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 48° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac63282f1f39-bokaro@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200826Z
+DTEND:20270227T201026Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:38:26 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 16° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6b5254637f3-bokaro@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221258Z
+DTEND:20270302T221458Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:42:58 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 10° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b77755032ce0-bokaro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142928Z
+DTEND:20270414T143128Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:59:28 at the dark limb
+  IST\, seen from Bokaro.\nThe Moon is 70° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8420edb4260b-bokaro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T130859Z
+DTEND:20270416T131059Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:38:59 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 63° up in the ESE · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-309e1dc3ec49-bokaro@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T133513Z
+DTEND:20270417T133713Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:05:13 at the dark limb 
+ IST\, seen from Bokaro.\nThe Moon is 55° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c4bc4ec9cf2-bokaro@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174941Z
+DTEND:20270520T192757Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:19:41 at the bright lim
+ b and reappears at 00:57:57 at the dark limb IST\, seen from Bokaro.\nThe 
+ Moon is 40° up in the S · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fcd9d4b51db2-bokaro@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T171904Z
+DTEND:20270522T172104Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:49:04 at the dark limb IS
+ T\, seen from Bokaro.\nThe Moon is 25° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f7ab00da320-bokaro@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T153850Z
+DTEND:20270620T154050Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:08:50 at the dark limb I
+ ST\, seen from Bokaro.\nThe Moon is 14° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-bokaro@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223507Z
+DTEND:20280121T234159Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:05:07 and reappears at 05:11:59 IST\, 
+ seen from Bokaro.\nThe Moon is 12° up in the SE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Bokaro
+URL:https://occult.alokm.com/antares-2028-01-22?city=Bokaro
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bokaro@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142208Z
+DTEND:20280330T151532Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:52:08 and reappears at 20:45:32 IST\, 
+ seen from Bokaro.\nThe Moon is 24° up in the WNW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?city=Bokaro
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Bokaro
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-bokaro@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233151Z
+DTEND:20280413T003710Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:01:51 and reappears at 06:07:10 IST\, 
+ seen from Bokaro.\nThe Moon is 30° up in the SW · dusk.\nTimes against t
+ he real lunar limb.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/antares-2028-04-12?city=Bokaro
+URL:https://occult.alokm.com/antares-2028-04-12?city=Bokaro
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

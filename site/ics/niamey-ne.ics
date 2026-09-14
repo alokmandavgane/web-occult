@@ -1,0 +1,438 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Niamey\, NE
+X-WR-CALDESC:Lunar occultations you can see from Niamey\, NE\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Niamey
+BEGIN:VEVENT
+UID:star-29c14af06e3a-niamey-ne@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T205451Z
+DTEND:20260916T205651Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:54:51 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 8° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bff8a922ddd-niamey-ne@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T190717Z
+DTEND:20260917T190917Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:07:17 at the dark li
+ mb WAT\, seen from Niamey\, NE.\nThe Moon is 36° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3f44a7b334ee-niamey-ne@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T191550Z
+DTEND:20260923T191750Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:15:50 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 46° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33d055688725-niamey-ne@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T042054Z
+DTEND:20261001T042254Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 05:20:54 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 72° up in the NW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-niamey-ne@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T105033Z
+DTEND:20261006T115141Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 11:52:07 and reappears at 12:50:16 WAT\, 
+ seen from Niamey\, NE.\nThe Moon is 54° up in the W · daylight\, Sun +68
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Niamey%2C%2
+ 0NE
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Niamey%2C%20NE
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84324fb7ac9c-niamey-ne@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T231627Z
+DTEND:20261029T231827Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 00:16:27 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 33° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-23a3a1ab6433-niamey-ne@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261101T015558Z
+DTEND:20261101T015758Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:55:58 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 41° up in the ENE · dark sky. 
+ Binoculars show it.\nA graze: the star skims the Moon's edge and may flick
+ er.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
+ /moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4d0ad1cabab-niamey-ne@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T033354Z
+DTEND:20261103T033554Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 04:33:54 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 39° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-390c730c44e1-niamey-ne@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T190013Z
+DTEND:20261113T194706Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 20:00:13 at the dark limb 
+ and reappears at 20:47:06 at the bright limb WAT\, seen from Niamey\, NE.\
+ nThe Moon is 20° up in the SW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 26-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84443216cb66-niamey-ne@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T183149Z
+DTEND:20261114T190321Z
+SUMMARY:The Moon hides 52 Sgr · mag 4.6
+DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 19:31:49 at the dark limb 
+ and reappears at 20:03:21 at the dark limb WAT\, seen from Niamey\, NE.\nT
+ he Moon is 36° up in the SW · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026
+ -11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b462419f82d3-niamey-ne@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T035855Z
+DTEND:20261202T040055Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 04:58:55 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 50° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6b5914f14ae2-niamey-ne@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042202Z
+DTEND:20261205T042402Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 05:22:02 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 19° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f40820b6012-niamey-ne@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261206T044546Z
+DTEND:20261206T044746Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 05:45:46 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 13° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6af8b6deb9bc-niamey-ne@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T211442Z
+DTEND:20261214T211642Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 22:14:42 at the dark limb
+  WAT\, seen from Niamey\, NE.\nThe Moon is 10° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38e5de8f2236-niamey-ne@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T182233Z
+DTEND:20261223T182433Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:22:33 at the dark limb
+  WAT\, seen from Niamey\, NE.\nThe Moon is 16° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c59aef116ff-niamey-ne@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T032636Z
+DTEND:20270126T032836Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 04:26:36 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 75° up in the SSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5b7f7f6fac7b-niamey-ne@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T054339Z
+DTEND:20270131T054539Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 06:43:39 at the dark limb WA
+ T\, seen from Niamey\, NE.\nThe Moon is 46° up in the SSE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7036b1a17dcf-niamey-ne@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T215222Z
+DTEND:20270212T215422Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 22:52:22 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 12° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-337b23622a10-niamey-ne@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T235830Z
+DTEND:20270322T002258Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 00:58:30 at the dark limb 
+ and reappears at 01:22:58 at the dark limb WAT\, seen from Niamey\, NE.\nT
+ he Moon is 74° up in the SSW · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4712c5699318-niamey-ne@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T001403Z
+DTEND:20270327T012730Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:14:03 at the bright lim
+ b and reappears at 02:27:30 at the dark limb WAT\, seen from Niamey\, NE.\
+ nThe Moon is 27° up in the SE · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-77980424c4b0-niamey-ne@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T233814Z
+DTEND:20270413T234014Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 00:38:14 at the dark limb
+  WAT\, seen from Niamey\, NE.\nThe Moon is 11° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-955651031016-niamey-ne@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T005741Z
+DTEND:20270427T005941Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 01:57:41 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 21° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd11bc80a210-niamey-ne@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T191350Z
+DTEND:20270513T191550Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 20:13:50 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 80° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb2fd2a0fc32-niamey-ne@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T191637Z
+DTEND:20270520T191837Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 20:16:37 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 10° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-175500717ec6-niamey-ne@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T203253Z
+DTEND:20270616T203453Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:32:53 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 45° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bde8ebd29d97-niamey-ne@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T021908Z
+DTEND:20270617T025806Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 03:19:08 at the dark limb 
+ and reappears at 03:58:06 at the bright limb WAT\, seen from Niamey\, NE.\
+ nThe Moon is 18° up in the WSW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f62ca43f2f10-niamey-ne@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T214918Z
+DTEND:20270717T215118Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:49:18 at the dark limb 
+ WAT\, seen from Niamey\, NE.\nThe Moon is 45° up in the SSE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4303b17ce9cb-niamey-ne@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T235329Z
+DTEND:20270723T235529Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 00:53:29 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 33° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-26ab915d8dff-niamey-ne@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T012104Z
+DTEND:20270820T012304Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:21:04 at the dark limb W
+ AT\, seen from Niamey\, NE.\nThe Moon is 77° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-niamey-ne@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T102500Z
+DTEND:20271229T121322Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 11:25:14 and reappears at 13:13:05 WAT\, see
+ n from Niamey\, NE.\nThe Moon is 36° up in the SE · daylight\, Sun +47°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Niamey%2C%20NE
+URL:https://occult.alokm.com/mars-2027-12-29?city=Niamey%2C%20NE
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-niamey-ne@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T111916Z
+DTEND:20280330T120952Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 12:19:16 and reappears at 13:09:52 WAT\, 
+ seen from Niamey\, NE.\nThe Moon is 36° up · daylight\, Sun +77°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=13.5137&lon=2.10
+ 98
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=13.5137&lon=2.1098
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

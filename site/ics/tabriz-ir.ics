@@ -1,0 +1,548 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Tabriz\, IR
+X-WR-CALDESC:Lunar occultations you can see from Tabriz\, IR\, computed by 
+ occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Tehran
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-tabriz-ir@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T101249Z
+DTEND:20260914T111609Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 13:45:24 and reappears at 14:43:27 +0330\, 
+ seen from Tabriz\, IR.\nThe Moon is 33° up · daylight\, Sun +50°.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?lat=38.0800&lon=46.291
+ 9
+URL:https://occult.alokm.com/venus-2026-09-14?lat=38.0800&lon=46.2919
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e601e4b2b360-tabriz-ir@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T165739Z
+DTEND:20260917T171052Z
+SUMMARY:The Moon hides τ Sco · mag 2.7
+DESCRIPTION:τ Sco (magnitude 2.7) disappears at 20:27:39 at the dark limb 
+ and reappears at 20:40:52 at the dark limb +0330\, seen from Tabriz\, IR.\
+ nThe Moon is 10° up in the SW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 26-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5be16e2c4fba-tabriz-ir@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T205910Z
+DTEND:20260923T210110Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:29:10 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 29° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bc1aa55df184-tabriz-ir@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T005518Z
+DTEND:20261030T005718Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:25:18 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 77° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0658ebfc0ce-tabriz-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T001013Z
+DTEND:20261103T001213Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:40:13 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 34° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cbbab4446535-tabriz-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T193654Z
+DTEND:20261128T193854Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 23:06:54 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 20° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2c5a1668d262-tabriz-ir@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T221304Z
+DTEND:20261130T221504Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:43:04 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 23° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d021ff5f941c-tabriz-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T161911Z
+DTEND:20261214T162111Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:49:11 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 21° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-886c2009fae5-tabriz-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T233116Z
+DTEND:20261221T233316Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 03:01:16 at the 
+ dark limb +0330\, seen from Tabriz\, IR.\nThe Moon is 28° up in the W · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca2ab1d7c237-tabriz-ir@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T000233Z
+DTEND:20261229T000433Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:32:33 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 50° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-25a2ddef7643-tabriz-ir@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T151733Z
+DTEND:20270112T151933Z
+SUMMARY:The Moon hides HR 8727 · mag 6.3
+DESCRIPTION:HR 8727 (magnitude 6.3) disappears at 18:47:33 at the dark limb
+  +0330\, seen from Tabriz\, IR.\nThe Moon is 31° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac715f097bb3-tabriz-ir@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T214110Z
+DTEND:20270124T214310Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 01:11:10 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 52° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cc11d77f9d9-tabriz-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T160324Z
+DTEND:20270214T160524Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 19:33:24 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 72° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50900abf8d76-tabriz-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161427Z
+DTEND:20270216T161627Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:44:27 at the dark limb
+  +0330\, seen from Tabriz\, IR.\nThe Moon is 75° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8818562e1bb9-tabriz-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T202547Z
+DTEND:20270220T202747Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 23:55:47 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 61° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1a53fe61bd82-tabriz-ir@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T204919Z
+DTEND:20270221T205119Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:19:19 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 52° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a45312e2400-tabriz-ir@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214354Z
+DTEND:20270326T214554Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:13:54 at the dark limb +0
+ 330\, seen from Tabriz\, IR.\nThe Moon is 15° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-579e53d78881-tabriz-ir@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T235513Z
+DTEND:20270424T235713Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 03:25:13 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 24° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05acfb890926-tabriz-ir@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T005141Z
+DTEND:20270427T005341Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 04:21:41 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 25° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-68e80e8958f1-tabriz-ir@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T225559Z
+DTEND:20270427T225759Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 02:25:59 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 10° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1da2b090e25b-tabriz-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270503T003934Z
+DTEND:20270503T004134Z
+SUMMARY:The Moon hides 25 Psc · mag 6.3
+DESCRIPTION:25 Psc (magnitude 6.3) reappears at 04:09:34 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 8° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91133147a4a6-tabriz-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T174443Z
+DTEND:20270510T174643Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:14:43 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 28° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a102ce29b47-tabriz-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T202141Z
+DTEND:20270512T202341Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:51:41 at the dark limb
+  +0330\, seen from Tabriz\, IR.\nThe Moon is 14° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cd2067387417-tabriz-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175848Z
+DTEND:20270520T180048Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 21:28:48 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 13° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-be6e732f382d-tabriz-ir@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T235715Z
+DTEND:20270523T235915Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 03:27:15 at the br
+ ight limb +0330\, seen from Tabriz\, IR.\nThe Moon is 26° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ab333e57e8e-tabriz-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T185859Z
+DTEND:20270610T190059Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 22:28:59 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 19° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f55a8877f8e-tabriz-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T220813Z
+DTEND:20270616T221013Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:38:13 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 13° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-47c469d672a5-tabriz-ir@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T234837Z
+DTEND:20270622T235037Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 03:18:37 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 35° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19621c0f3e0e-tabriz-ir@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T234310Z
+DTEND:20270717T234510Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 03:13:10 at the dark limb 
+ +0330\, seen from Tabriz\, IR.\nThe Moon is 12° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98ece8b393b4-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T192858Z
+DTEND:20270813T202647Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 22:58:58 at the da
+ rk limb and reappears at 23:56:47 at the bright limb +0330\, seen from Tab
+ riz\, IR.\nThe Moon is 24° up in the SSW · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe0380a4c7f8-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T220513Z
+DTEND:20270824T220713Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:35:13 at the d
+ ark limb +0330\, seen from Tabriz\, IR.\nThe Moon is 33° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2411098bcbb1-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223339Z
+DTEND:20270824T223539Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 02:03:39 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 39° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b70b4a5fbcf2-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T225359Z
+DTEND:20270824T225559Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:23:59 at the d
+ ark limb +0330\, seen from Tabriz\, IR.\nThe Moon is 42° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-06e016002917-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230400Z
+DTEND:20270824T230600Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:34:00 at the dark
+  limb +0330\, seen from Tabriz\, IR.\nThe Moon is 44° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19154de0d448-tabriz-ir@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231643Z
+DTEND:20270824T231843Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:46:43 at the dark limb +
+ 0330\, seen from Tabriz\, IR.\nThe Moon is 47° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-tabriz-ir@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T123844Z
+DTEND:20271229T135913Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 16:08:55 and reappears at 17:29:03 +0330\, s
+ een from Tabriz\, IR.\nThe Moon is 21° up in the SW · daylight\, Sun +10
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Tabriz%2C%20IR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Tabriz%2C%20IR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-tabriz-ir@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T130339Z
+DTEND:20280330T142700Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 16:33:39 and reappears at 17:57:00 +0330\
+ , seen from Tabriz\, IR.\nThe Moon is 72° up · daylight\, Sun +25°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=38.0800&lon=46
+ .2919
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=38.0800&lon=46.2919
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-tabriz-ir@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T215422Z
+DTEND:20280412T231611Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 01:24:22 and reappears at 02:46:11 +0330\
+ , seen from Tabriz\, IR.\nThe Moon is 19° up · dark sky.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-04-12?lat=38.0800&lon=46.2919
+URL:https://occult.alokm.com/antares-2028-04-12?lat=38.0800&lon=46.2919
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-tabriz-ir@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T030156Z
+DTEND:20290211T040942Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 06:32:16 and reappears at 07:39:19 +0330\
+ , seen from Tabriz\, IR.\nThe Moon is 5° up · dusk.\nTimes for the Moon'
+ s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/mercury-2029-02-11?lat=38.0800&lon=46.2919
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=38.0800&lon=46.2919
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

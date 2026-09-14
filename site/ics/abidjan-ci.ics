@@ -1,0 +1,475 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Abidjan\, CI
+X-WR-CALDESC:Lunar occultations you can see from Abidjan\, CI\, computed by
+  occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Abidjan
+BEGIN:VEVENT
+UID:star-995dbdb33998-abidjan-ci@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T204519Z
+DTEND:20260916T204719Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:45:19 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 20° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a2cb022fa40e-abidjan-ci@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T035050Z
+DTEND:20261001T035250Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:50:50 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 69° up in the N · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-abidjan-ci@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T104925Z
+DTEND:20261006T120533Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:50:45 and reappears at 12:04:21 GMT\, 
+ seen from Abidjan\, CI.\nThe Moon is 58° up in the WNW · daylight\, Sun 
+ +69°.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Abidjan%
+ 2C%20CI
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Abidjan%2C%20CI
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3fb502500348-abidjan-ci@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010225Z
+DTEND:20261021T010425Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:02:25 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 13° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a2f76b0b9e74-abidjan-ci@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T230115Z
+DTEND:20261029T230315Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:01:15 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 21° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f472430e69b0-abidjan-ci@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T030943Z
+DTEND:20261103T031143Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:09:43 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 26° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a9b16c62945-abidjan-ci@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261110T182325Z
+DTEND:20261110T182525Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 18:23:25 at the dark limb
+  GMT\, seen from Abidjan\, CI.\nThe Moon is 6° up in the WSW · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d652dc6fcd14-abidjan-ci@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261113T190458Z
+DTEND:20261113T192554Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 19:04:58 at the dark limb 
+ and reappears at 19:25:54 at the dark limb GMT\, seen from Abidjan\, CI.\n
+ The Moon is 29° up in the SW · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 6-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce47a2fb62f6-abidjan-ci@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T005513Z
+DTEND:20261128T005713Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 00:55:13 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 47° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b66b85ac4d22-abidjan-ci@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T034534Z
+DTEND:20261202T034734Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:45:34 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 42° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61ff77b6d195-abidjan-ci@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042108Z
+DTEND:20261205T042308Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:21:08 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 16° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d2f49438b3fa-abidjan-ci@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261206T042641Z
+DTEND:20261206T042841Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:26:41 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 6° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11023d5f630b-abidjan-ci@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T194916Z
+DTEND:20261213T195116Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 19:49:16 at the dark l
+ imb GMT\, seen from Abidjan\, CI.\nThe Moon is 26° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-972dc1c83970-abidjan-ci@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T211259Z
+DTEND:20261214T211459Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:12:59 at the dark limb
+  GMT\, seen from Abidjan\, CI.\nThe Moon is 18° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca873fcdc269-abidjan-ci@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T215608Z
+DTEND:20270113T215808Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:56:08 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 10° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6663fc55a5a3-abidjan-ci@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T215952Z
+DTEND:20270116T220152Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 21:59:52 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 42° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4be674f1bef4-abidjan-ci@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T034104Z
+DTEND:20270126T034304Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:41:04 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 83° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd97a8d83541-abidjan-ci@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T054452Z
+DTEND:20270131T054652Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:44:52 at the dark limb GM
+ T\, seen from Abidjan\, CI.\nThe Moon is 50° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8fc6f7c04bf6-abidjan-ci@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214624Z
+DTEND:20270212T214824Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:46:24 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 17° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c2547dcb635-abidjan-ci@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270311T202004Z
+DTEND:20270311T202204Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:20:04 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 8° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09425cf1d39f-abidjan-ci@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T211534Z
+DTEND:20270313T211734Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 21:15:34 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 20° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e4e11ffc2298-abidjan-ci@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T233441Z
+DTEND:20270321T233641Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:34:41 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 82° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d327ae03386-abidjan-ci@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T000056Z
+DTEND:20270414T000256Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 00:00:56 at the dark limb
+  GMT\, seen from Abidjan\, CI.\nThe Moon is 9° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-358373d5c2be-abidjan-ci@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T215406Z
+DTEND:20270423T223433Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 21:54:06 at the 
+ bright limb and reappears at 22:34:33 at the dark limb GMT\, seen from Abi
+ djan\, CI.\nThe Moon is 14° up in the ESE · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa9f90cf2c10-abidjan-ci@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T004428Z
+DTEND:20270427T004628Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:44:28 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 18° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b0702aafb20-abidjan-ci@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T210340Z
+DTEND:20270511T211651Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 21:03:40 at the dark limb
+  and reappears at 21:16:51 at the dark limb GMT\, seen from Abidjan\, CI.\
+ nThe Moon is 34° up in the WNW · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd11bc80a210-abidjan-ci@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T191301Z
+DTEND:20270513T191501Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:13:01 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 84° up in the NW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2fb286b1ca2-abidjan-ci@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T203050Z
+DTEND:20270514T203250Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:30:50 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 79° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2105bb27b1e5-abidjan-ci@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270606T193823Z
+DTEND:20270606T194023Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 19:38:23 at the dark limb 
+ GMT\, seen from Abidjan\, CI.\nThe Moon is 10° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d1dd7ffa0e93-abidjan-ci@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T233719Z
+DTEND:20270723T233919Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:37:19 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 23° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29c6450f832d-abidjan-ci@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270726T053820Z
+DTEND:20270726T054020Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 05:38:20 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 80° up in the N · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bfcd3d0761f5-abidjan-ci@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T005014Z
+DTEND:20270820T005214Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:50:14 at the dark limb G
+ MT\, seen from Abidjan\, CI.\nThe Moon is 71° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-abidjan-ci@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T100030Z
+DTEND:20271229T114351Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 10:00:43 and reappears at 11:43:35 GMT\, see
+ n from Abidjan\, CI.\nThe Moon is 30° up in the ESE · daylight\, Sun +46
+ °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Abidjan%2C%20C
+ I
+URL:https://occult.alokm.com/mars-2027-12-29?city=Abidjan%2C%20CI
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-abidjan-ci@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T111807Z
+DTEND:20280330T114100Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 11:18:07 and reappears at 11:41:00 GMT\, 
+ seen from Abidjan\, CI.\nThe Moon is 27° up · daylight\, Sun +74°.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=5.3544&lon=-4.0
+ 017
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=5.3544&lon=-4.0017
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,440 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Surabaya\, ID
+X-WR-CALDESC:Lunar occultations you can see from Surabaya\, ID\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Jakarta
+BEGIN:VEVENT
+UID:star-e5a3524f9f09-surabaya-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260918T142640Z
+DTEND:20260918T142840Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:26:40 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 25° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-389228edfed6-surabaya-id@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260920T160154Z
+DTEND:20260920T160354Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 23:01:54 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 26° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c604c94bd509-surabaya-id@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261017T115716Z
+DTEND:20261017T115916Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 18:57:16 at the bright limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 51° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-surabaya-id@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T215524Z
+DTEND:20261102T232224Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:57:08 and reappears at 06:20:40 WIB\, 
+ seen from Surabaya\, ID.\nThe Moon is 59° up · twilight.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/jupiter-2026-11-02?lat=-7.2492&lon=112.7508
+URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-7.2492&lon=112.7508
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7be96f9b0c8-surabaya-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T211210Z
+DTEND:20261103T211410Z
+SUMMARY:The Moon hides 49 Leo · mag 5.8
+DESCRIPTION:49 Leo (magnitude 5.8) reappears at 04:12:10 at the dark limb W
+ IB\, seen from Surabaya\, ID.\nThe Moon is 42° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1925c40d1b9b-surabaya-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261114T135619Z
+DTEND:20261114T135819Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 20:56:19 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 9° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-71e176c52015-surabaya-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T151619Z
+DTEND:20261116T151819Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 22:16:19 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 11° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63e33285e32d-surabaya-id@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261122T171731Z
+DTEND:20261122T171931Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) disappears at 00:17:31 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 40° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d8732743adf-surabaya-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T204542Z
+DTEND:20261205T204742Z
+SUMMARY:The Moon hides HR 5355 · mag 5.9
+DESCRIPTION:HR 5355 (magnitude 5.9) reappears at 03:45:42 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 15° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9f7fabb7db0d-surabaya-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261217T145719Z
+DTEND:20261217T145919Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:57:19 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 24° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-72bccd229a03-surabaya-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261219T163734Z
+DTEND:20261219T163934Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 23:37:34 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 20° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5425ad8ba801-surabaya-id@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261227T181228Z
+DTEND:20261227T181428Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 01:12:28 at the dark limb W
+ IB\, seen from Surabaya\, ID.\nThe Moon is 56° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-49f2e6251e92-surabaya-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270101T184849Z
+DTEND:20270101T185049Z
+SUMMARY:The Moon hides HIP 68643 · mag 6.3
+DESCRIPTION:HIP 68643 (magnitude 6.3) reappears at 01:48:49 at the dark lim
+ b WIB\, seen from Surabaya\, ID.\nThe Moon is 16° up in the ESE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-06ffbe728886-surabaya-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T131313Z
+DTEND:20270113T131513Z
+SUMMARY:The Moon hides HIP 116422 · mag 6.5
+DESCRIPTION:HIP 116422 (magnitude 6.5) disappears at 20:13:13 at the dark l
+ imb WIB\, seen from Surabaya\, ID.\nThe Moon is 20° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43988bbcc06d-surabaya-id@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T171730Z
+DTEND:20270125T171930Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 00:17:30 at the dark limb W
+ IB\, seen from Surabaya\, ID.\nThe Moon is 56° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c519007a14bc-surabaya-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T153409Z
+DTEND:20270214T153609Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 22:34:09 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 10° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dd14962e56e3-surabaya-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170307Z
+DTEND:20270216T170507Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 00:03:07 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 16° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14a2e045eb94-surabaya-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T180836Z
+DTEND:20270227T181036Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) reappears at 01:08:36 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 31° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6529573f5d90-surabaya-id@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T213233Z
+DTEND:20270227T213433Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 04:32:33 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 69° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5845495b79a0-surabaya-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270311T121347Z
+DTEND:20270311T121547Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 19:13:47 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 6° up in the WNW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4be0da40566a-surabaya-id@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T130613Z
+DTEND:20270318T130813Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) disappears at 20:06:13 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 62° up in the N · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a571b2cfb22f-surabaya-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T153821Z
+DTEND:20270414T154021Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 22:38:21 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 21° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2806f924f66-surabaya-id@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T152140Z
+DTEND:20270417T152340Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 22:21:40 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 64° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af22597e8879-surabaya-id@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T163814Z
+DTEND:20270520T164014Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 23:38:14 at the dark limb WI
+ B\, seen from Surabaya\, ID.\nThe Moon is 72° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea7a151dce02-surabaya-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270611T144122Z
+DTEND:20270611T144322Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) disappears at 21:41:22 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 28° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-14a9d8434259-surabaya-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130948Z
+DTEND:20270617T141104Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 20:09:48 at the 
+ dark limb and reappears at 21:11:04 at the bright limb WIB\, seen from Sur
+ abaya\, ID.\nThe Moon is 54° up in the SE · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f663ca2828bd-surabaya-id@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270626T164723Z
+DTEND:20270626T164923Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:47:23 at the dark limb W
+ IB\, seen from Surabaya\, ID.\nThe Moon is 10° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f46e039261e7-surabaya-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270706T121522Z
+DTEND:20270706T121722Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 19:15:22 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 6° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d094884cd7a9-surabaya-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T140207Z
+DTEND:20270708T140407Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) disappears at 21:02:07 at the dark limb 
+ WIB\, seen from Surabaya\, ID.\nThe Moon is 7° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ceb39f837ca0-surabaya-id@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270726T194956Z
+DTEND:20270726T195156Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) reappears at 02:49:56 at the dark limb W
+ IB\, seen from Surabaya\, ID.\nThe Moon is 45° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-41b73f817e0b-surabaya-id@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T155801Z
+DTEND:20270810T160001Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 22:58:01 at the dark limb
+  WIB\, seen from Surabaya\, ID.\nThe Moon is 21° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-surabaya-id@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T232744Z
+DTEND:20280122T010140Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 06:27:44 and reappears at 08:01:40 WIB\, 
+ seen from Surabaya\, ID.\nThe Moon is 62° up · daylight\, Sun +14°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/antares-2028-01-22?lat=-7.2492&lon=11
+ 2.7508
+URL:https://occult.alokm.com/antares-2028-01-22?lat=-7.2492&lon=112.7508
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,567 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Thiruvananthapuram
+X-WR-CALDESC:Lunar occultations you can see from Thiruvananthapuram\, compu
+ ted by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-1d9ddfaa5fe0-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T232612Z
+DTEND:20260908T232812Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:56:12 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 7° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T115457Z
+DTEND:20260914T132220Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:26:57 and reappears at 18:50:39 IST\, se
+ en from Thiruvananthapuram.\nThe Moon is 42° up in the WSW · daylight\, 
+ Sun +13°.\nTimes against the real lunar limb.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Thiruv
+ ananthapuram
+URL:https://occult.alokm.com/venus-2026-09-14?city=Thiruvananthapuram
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-efda576b2831-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T201700Z
+DTEND:20261102T201900Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:47:00 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 9° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-11-02-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20260914T034752Z
+DTSTART:20261102T205038Z
+DTEND:20261102T214639Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:22:09 and reappears at 03:15:01 IST\, 
+ seen from Thiruvananthapuram.\nThe Moon is 17° up in the ENE · dark sky.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/jupiter-2026-11-02?city=Thiruvananthap
+ uram
+URL:https://occult.alokm.com/jupiter-2026-11-02?city=Thiruvananthapuram
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-068f53b8255f-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144100Z
+DTEND:20261115T144300Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:11:00 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 35° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bca1e8ab2a32-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155035Z
+DTEND:20261116T155235Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:20:35 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 31° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e16152102b28-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163531Z
+DTEND:20261127T163731Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:05:31 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 13° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-80857831b28d-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230633Z
+DTEND:20261130T230833Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:36:33 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 67° up in the E · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a78421fed6c6-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133238Z
+DTEND:20261212T133438Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:02:38 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 23° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5cf9925d62bf-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204213Z
+DTEND:20261223T204413Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:12:13 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 55° up in the NW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7b3a480fa74-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270103T232232Z
+DTEND:20270103T232432Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 04:52:32 at the dark limb IS
+ T\, seen from Thiruvananthapuram.\nThe Moon is 16° up in the ESE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1d34ab666a6-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T163844Z
+DTEND:20270113T164044Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:08:44 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 6° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3db84e92556-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T193507Z
+DTEND:20270118T193707Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:05:07 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 25° up in the WNW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-832a1866fd29-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135630Z
+DTEND:20270121T135830Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:26:30 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 27° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c8ee5b0d6298-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T231558Z
+DTEND:20270124T231758Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:45:58 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 60° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c71209df5f32-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162826Z
+DTEND:20270125T163026Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:58:26 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 9° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a31af69d1381-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T141223Z
+DTEND:20270212T141423Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 19:42:23 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 45° up in the WNW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e4b3a3aba67e-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144042Z
+DTEND:20270214T144242Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:10:42 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 60° up in the NW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cb4de87d74e-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155417Z
+DTEND:20270216T155617Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:24:17 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 66° up in the NNW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d2916a54d21-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172841Z
+DTEND:20270216T173041Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:58:41 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 50° up in the NW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ffbe5d7531b-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T215936Z
+DTEND:20270220T220136Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:29:36 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 45° up in the W · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c66340bf306d-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T222445Z
+DTEND:20270221T222645Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:54:45 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 51° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de2affbea42e-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201510Z
+DTEND:20270227T201710Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:45:10 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 18° up in the ESE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2bb634d46a3b-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T215027Z
+DTEND:20270302T215227Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:20:27 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 6° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7f07cdac472b-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T223322Z
+DTEND:20270302T231713Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 04:03:22 at the br
+ ight limb and reappears at 04:47:13 at the dark limb IST\, seen from Thiru
+ vananthapuram.\nThe Moon is 15° up in the ESE · dark sky. Binoculars sho
+ w it.\nEvery occultation this month\, for anywhere: https://occult.alokm.c
+ om/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f164978cd3d6-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T231045Z
+DTEND:20270326T231245Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:40:45 at the dark limb IS
+ T\, seen from Thiruvananthapuram.\nThe Moon is 54° up in the SSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b20e9c0e0c1d-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T145233Z
+DTEND:20270414T145433Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:22:33 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 69° up in the NW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e0f9712c4a6f-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T155825Z
+DTEND:20270511T161613Z
+SUMMARY:The Moon hides μ2 Cnc · mag 5.3
+DESCRIPTION:μ2 Cnc (magnitude 5.3) disappears at 21:28:25 at the dark limb
+  and reappears at 21:46:13 at the dark limb IST\, seen from Thiruvananthap
+ uram.\nThe Moon is 28° up in the WNW · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75fb6ae4857e-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T151215Z
+DTEND:20270520T151415Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:42:15 at the dark limb IS
+ T\, seen from Thiruvananthapuram.\nThe Moon is 26° up in the SE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7bd68435d951-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T181047Z
+DTEND:20270520T183917Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:40:47 at the bright lim
+ b and reappears at 00:09:17 at the bright limb IST\, seen from Thiruvanant
+ hapuram.\nThe Moon is 54° up in the SSE · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-449ff83b37db-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T210629Z
+DTEND:20270520T215550Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 02:36:29 at the dark limb
+  and reappears at 03:25:50 at the dark limb IST\, seen from Thiruvananthap
+ uram.\nThe Moon is 44° up in the SW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6794cf07e49-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135730Z
+DTEND:20270608T135930Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:27:30 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 39° up in the WNW · dus
+ k. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d48938f569d-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165813Z
+DTEND:20270609T170013Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:28:13 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 9° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-beff7e0b819e-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T131419Z
+DTEND:20270617T131619Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:44:19 at the b
+ right limb IST\, seen from Thiruvananthapuram.\nThe Moon is 16° up in the
+  ESE · twilight. Binoculars show it.\nEvery occultation this month\, for 
+ anywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f47f1b201444-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T222802Z
+DTEND:20270620T223002Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 03:58:02 at the dark limb 
+ IST\, seen from Thiruvananthapuram.\nThe Moon is 45° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6fcd0d82d40d-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T180058Z
+DTEND:20270710T180258Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:30:58 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 6° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-867fdad38345-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T181741Z
+DTEND:20270723T181941Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:47:41 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 26° up in the E · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180056Z
+DTEND:20270810T180256Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:56 at the dark limb
+  IST\, seen from Thiruvananthapuram.\nThe Moon is 19° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ced3bad53c7-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224922Z
+DTEND:20270824T225122Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:19:22 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 61° up in the NE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bd5dca2d3ad3-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T234410Z
+DTEND:20270827T234610Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:14:10 at the dark limb I
+ ST\, seen from Thiruvananthapuram.\nThe Moon is 35° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-thiruvananthapuram@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223612Z
+DTEND:20280121T232756Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:06:12 and reappears at 04:57:56 IST\, 
+ seen from Thiruvananthapuram.\nThe Moon is 13° up in the ESE · dark sky.
+ \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/antares-2028-01-22?city=Thiruvananthap
+ uram
+URL:https://occult.alokm.com/antares-2028-01-22?city=Thiruvananthapuram
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

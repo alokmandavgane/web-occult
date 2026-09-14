@@ -1,0 +1,332 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Montréal\, CA
+X-WR-CALDESC:Lunar occultations you can see from Montréal\, CA\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:star-d31954b9b9b4-montreal-ca@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T053921Z
+DTEND:20260923T054121Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 01:39:21 at the dark limb 
+ EDT\, seen from Montréal\, CA.\nThe Moon is 12° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-57fd7ee92388-montreal-ca@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T075513Z
+DTEND:20261005T075713Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:55:13 at the dark limb E
+ DT\, seen from Montréal\, CA.\nThe Moon is 29° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-montreal-ca@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T082951Z
+DTEND:20261006T092656Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:31:06 and reappears at 05:25:35 EDT\, 
+ seen from Montréal\, CA.\nThe Moon is 22° up in the E · dark sky.\nTime
+ s against the real lunar limb.\nMap\, timings and the view at the Moon's e
+ dge: https://occult.alokm.com/jupiter-2026-10-06?city=Montr%C3%A9al%2C%20C
+ A
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Montr%C3%A9al%2C%20CA
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1c58f3323e41-montreal-ca@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T001434Z
+DTEND:20261028T001634Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 20:14:34 at the d
+ ark limb EDT\, seen from Montréal\, CA.\nThe Moon is 17° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fee9d8694fe9-montreal-ca@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T002705Z
+DTEND:20261028T005646Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 20:27:05 at the 
+ bright limb and reappears at 20:56:46 at the dark limb EDT\, seen from Mon
+ tréal\, CA.\nThe Moon is 19° up in the ENE · dark sky. Binoculars show 
+ it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
+ /moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-573850809d6a-montreal-ca@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T003823Z
+DTEND:20261028T004023Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 20:38:23 at the dark
+  limb EDT\, seen from Montréal\, CA.\nThe Moon is 21° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19e09ee6831a-montreal-ca@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T102302Z
+DTEND:20261031T102502Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 06:23:02 at the dark limb E
+ DT\, seen from Montréal\, CA.\nThe Moon is 68° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3d7d736521c-montreal-ca@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261117T225705Z
+DTEND:20261117T225905Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 17:57:05 at the dark limb 
+ EST\, seen from Montréal\, CA.\nThe Moon is 33° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6bf222828641-montreal-ca@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T011859Z
+DTEND:20261216T012059Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) disappears at 20:18:59 at the dark limb 
+ EST\, seen from Montréal\, CA.\nThe Moon is 21° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6211420231e-montreal-ca@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270110T220834Z
+DTEND:20270110T221034Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 17:08:34 at the dark limb 
+ EST\, seen from Montréal\, CA.\nThe Moon is 19° up in the SW · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5b9de6ec260-montreal-ca@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T014456Z
+DTEND:20270116T014656Z
+SUMMARY:The Moon hides 101 Psc · mag 6.2
+DESCRIPTION:101 Psc (magnitude 6.2) disappears at 20:44:56 at the dark limb
+  EST\, seen from Montréal\, CA.\nThe Moon is 42° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52b92121b949-montreal-ca@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T032648Z
+DTEND:20270318T032848Z
+SUMMARY:The Moon hides μ2 Cnc · mag 5.3
+DESCRIPTION:μ2 Cnc (magnitude 5.3) disappears at 23:26:48 at the dark limb
+  EDT\, seen from Montréal\, CA.\nThe Moon is 55° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-42a1795a581d-montreal-ca@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270415T005321Z
+DTEND:20270415T005521Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 20:53:21 at the dark limb 
+ EDT\, seen from Montréal\, CA.\nThe Moon is 61° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ce968537f2f-montreal-ca@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T014055Z
+DTEND:20270511T014255Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) disappears at 21:40:55 at the dark limb
+  EDT\, seen from Montréal\, CA.\nThe Moon is 32° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f94d8b6eb4ab-montreal-ca@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T071957Z
+DTEND:20270620T081929Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 03:19:57 at the br
+ ight limb and reappears at 04:19:29 at the dark limb EDT\, seen from Montr
+ éal\, CA.\nThe Moon is 16° up in the SSW · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0c6d854acd4-montreal-ca@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T070715Z
+DTEND:20270701T070915Z
+SUMMARY:The Moon hides TYC 1800-2201-1 · mag 6.3
+DESCRIPTION:TYC 1800-2201-1 (magnitude 6.3) reappears at 03:07:15 at the da
+ rk limb EDT\, seen from Montréal\, CA.\nThe Moon is 7° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe6ff66069ed-montreal-ca@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T070928Z
+DTEND:20270701T071128Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 03:09:28 at the d
+ ark limb EDT\, seen from Montréal\, CA.\nThe Moon is 8° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a66375ac8e70-montreal-ca@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T073445Z
+DTEND:20270701T073645Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 03:34:45 at the dar
+ k limb EDT\, seen from Montréal\, CA.\nThe Moon is 11° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f70d99d21bc-montreal-ca@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T074241Z
+DTEND:20270701T074441Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 03:42:41 at the d
+ ark limb EDT\, seen from Montréal\, CA.\nThe Moon is 13° up in the ENE 
+ · dusk. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d527b19feb49-montreal-ca@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T060703Z
+DTEND:20270720T060903Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:07:03 at the dark limb E
+ DT\, seen from Montréal\, CA.\nThe Moon is 28° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e32fcb3053e9-montreal-ca@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270812T015505Z
+DTEND:20270812T015705Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:55:05 at the dark limb 
+ EDT\, seen from Montréal\, CA.\nThe Moon is 15° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d285fabd49d2-montreal-ca@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T051921Z
+DTEND:20270814T052121Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 01:19:21 at the dark limb 
+ EDT\, seen from Montréal\, CA.\nThe Moon is 11° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-591ac249177e-montreal-ca@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T025723Z
+DTEND:20270824T025923Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 22:57:23 at the dark limb E
+ DT\, seen from Montréal\, CA.\nThe Moon is 7° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2efc33a841cd-montreal-ca@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270825T033950Z
+DTEND:20270825T034150Z
+SUMMARY:The Moon hides HR 1222 · mag 6.2
+DESCRIPTION:HR 1222 (magnitude 6.2) reappears at 23:39:50 at the dark limb 
+ EDT\, seen from Montréal\, CA.\nThe Moon is 7° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

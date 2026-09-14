@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Philadelphia\, US
+X-WR-CALDESC:Lunar occultations you can see from Philadelphia\, US\, comput
+ ed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:star-1675b077ce07-philadelphia-us@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T053633Z
+DTEND:20260923T053833Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 01:36:33 at the dark limb 
+ EDT\, seen from Philadelphia\, US.\nThe Moon is 16° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbf48d907dd6-philadelphia-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T074124Z
+DTEND:20261005T074324Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:41:24 at the dark limb E
+ DT\, seen from Philadelphia\, US.\nThe Moon is 25° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-philadelphia-us@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T082141Z
+DTEND:20261006T092652Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 04:22:46 and reappears at 05:25:42 EDT\, 
+ seen from Philadelphia\, US.\nThe Moon is 19° up in the E · dark sky.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/jupiter-2026-10-06?city=Philadelphia%2C%2
+ 0US
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Philadelphia%2C%20US
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-401519a0635c-philadelphia-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T000640Z
+DTEND:20261028T000840Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 20:06:40 at the d
+ ark limb EDT\, seen from Philadelphia\, US.\nThe Moon is 12° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-411d84387b9b-philadelphia-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T000840Z
+DTEND:20261028T001040Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 20:08:40 at the d
+ ark limb EDT\, seen from Philadelphia\, US.\nThe Moon is 13° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff43b121d13e-philadelphia-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T002533Z
+DTEND:20261028T004148Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 20:25:33 at the 
+ bright limb and reappears at 20:41:48 at the dark limb EDT\, seen from Phi
+ ladelphia\, US.\nThe Moon is 16° up in the ENE · dark sky. Binoculars sh
+ ow it.\nEvery occultation this month\, for anywhere: https://occult.alokm.
+ com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0eacd0576bae-philadelphia-us@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261028T003204Z
+DTEND:20261028T003404Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 20:32:04 at the dark
+  limb EDT\, seen from Philadelphia\, US.\nThe Moon is 17° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e2ebccd22fa-philadelphia-us@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261117T225052Z
+DTEND:20261117T225252Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 17:50:52 at the dark limb 
+ EST\, seen from Philadelphia\, US.\nThe Moon is 38° up in the S · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fd5b179af02-philadelphia-us@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261216T012721Z
+DTEND:20261216T012921Z
+SUMMARY:The Moon hides 67 Aqr · mag 6.4
+DESCRIPTION:67 Aqr (magnitude 6.4) disappears at 20:27:21 at the dark limb 
+ EST\, seen from Philadelphia\, US.\nThe Moon is 24° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fdf25733a69-philadelphia-us@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T033040Z
+DTEND:20270318T033240Z
+SUMMARY:The Moon hides μ2 Cnc · mag 5.3
+DESCRIPTION:μ2 Cnc (magnitude 5.3) disappears at 23:30:40 at the dark limb
+  EDT\, seen from Philadelphia\, US.\nThe Moon is 58° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a398b9e29ceb-philadelphia-us@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T073838Z
+DTEND:20270423T074038Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 03:38:38 at the dark limb ED
+ T\, seen from Philadelphia\, US.\nThe Moon is 23° up in the SSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6c927bfd833-philadelphia-us@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270511T015600Z
+DTEND:20270511T015800Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) disappears at 21:56:00 at the dark limb
+  EDT\, seen from Philadelphia\, US.\nThe Moon is 30° up in the W · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5f2265e67fb-philadelphia-us@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T011949Z
+DTEND:20270512T012149Z
+SUMMARY:The Moon hides HIP 41833 · mag 6.5
+DESCRIPTION:HIP 41833 (magnitude 6.5) disappears at 21:19:49 at the dark li
+ mb EDT\, seen from Philadelphia\, US.\nThe Moon is 45° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c5697cb8f2e3-philadelphia-us@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270607T014758Z
+DTEND:20270607T014958Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 21:47:58 at the dark limb 
+ EDT\, seen from Philadelphia\, US.\nThe Moon is 9° up in the WNW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c1fc2337123-philadelphia-us@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T072423Z
+DTEND:20270620T081401Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 03:24:23 at the br
+ ight limb and reappears at 04:14:01 at the dark limb EDT\, seen from Phila
+ delphia\, US.\nThe Moon is 21° up in the SSW · dark sky. Binoculars show
+  it.\nEvery occultation this month\, for anywhere: https://occult.alokm.co
+ m/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1eb884d1bfba-philadelphia-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T072427Z
+DTEND:20270701T072627Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 03:24:27 at the dar
+ k limb EDT\, seen from Philadelphia\, US.\nThe Moon is 6° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-201bca3b056c-philadelphia-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T073407Z
+DTEND:20270701T073607Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 03:34:07 at the d
+ ark limb EDT\, seen from Philadelphia\, US.\nThe Moon is 8° up in the ENE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5ea3c22b449-philadelphia-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T055817Z
+DTEND:20270720T060017Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 01:58:17 at the dark limb E
+ DT\, seen from Philadelphia\, US.\nThe Moon is 33° up in the S · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-667c16c9325c-philadelphia-us@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T081738Z
+DTEND:20270727T081938Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 04:17:38 at the dark limb E
+ DT\, seen from Philadelphia\, US.\nThe Moon is 47° up in the ESE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa1bc3f4243a-philadelphia-us@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270812T015641Z
+DTEND:20270812T015841Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:56:41 at the dark limb 
+ EDT\, seen from Philadelphia\, US.\nThe Moon is 21° up in the SSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8fa881e9f5c0-philadelphia-us@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T052519Z
+DTEND:20270814T052719Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 01:25:19 at the dark limb 
+ EDT\, seen from Philadelphia\, US.\nThe Moon is 15° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

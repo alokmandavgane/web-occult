@@ -1,0 +1,455 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Accra\, GH
+X-WR-CALDESC:Lunar occultations you can see from Accra\, GH\, computed by o
+ ccult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Africa/Accra
+BEGIN:VEVENT
+UID:star-a3225b47b83f-accra-gh@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T204732Z
+DTEND:20260916T204932Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:47:32 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 16° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7180d36365d8-accra-gh@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T185939Z
+DTEND:20260917T190139Z
+SUMMARY:The Moon hides HIP 81731 · mag 6.5
+DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 18:59:39 at the dark li
+ mb GMT\, seen from Accra\, GH.\nThe Moon is 45° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-da82d521ae82-accra-gh@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T184939Z
+DTEND:20260923T185139Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 18:49:39 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 43° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-468920333509-accra-gh@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261001T040040Z
+DTEND:20261001T040240Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 04:00:40 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 68° up in the NNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-accra-gh@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T105439Z
+DTEND:20261006T120759Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 10:55:58 and reappears at 12:06:48 GMT\, 
+ seen from Accra\, GH.\nThe Moon is 53° up in the WNW · daylight\, Sun +7
+ 3°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Accra%2C%2
+ 0GH
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Accra%2C%20GH
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07fa08ca72b1-accra-gh@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T010336Z
+DTEND:20261021T010536Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:03:36 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 9° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f1c36a956d-accra-gh@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261029T230006Z
+DTEND:20261029T230206Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:00:06 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 24° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8fb74a2ac3ba-accra-gh@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T031622Z
+DTEND:20261103T031822Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:16:22 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 32° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ff111208f90-accra-gh@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T010341Z
+DTEND:20261128T010541Z
+SUMMARY:The Moon hides κ Gem · mag 3.6
+DESCRIPTION:κ Gem (magnitude 3.6) reappears at 01:03:41 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 52° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-265ea74c59ab-accra-gh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261202T035551Z
+DTEND:20261202T035751Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:55:51 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 48° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-508ca3dccb43-accra-gh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261205T042411Z
+DTEND:20261205T042611Z
+SUMMARY:The Moon hides 85 Vir · mag 6.2
+DESCRIPTION:85 Vir (magnitude 6.2) reappears at 04:24:11 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 20° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3fd7814430ec-accra-gh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261206T043609Z
+DTEND:20261206T043809Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:36:09 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 12° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e985da4eea89-accra-gh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261213T194828Z
+DTEND:20261213T195028Z
+SUMMARY:The Moon hides HIP 103703 · mag 6.1
+DESCRIPTION:HIP 103703 (magnitude 6.1) disappears at 19:48:28 at the dark l
+ imb GMT\, seen from Accra\, GH.\nThe Moon is 23° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-01d69c1e9585-accra-gh@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T211637Z
+DTEND:20261214T211837Z
+SUMMARY:The Moon hides HR 8337 · mag 6.3
+DESCRIPTION:HR 8337 (magnitude 6.3) disappears at 21:16:37 at the dark limb
+  GMT\, seen from Accra\, GH.\nThe Moon is 13° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-84b3f54cf4ee-accra-gh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T215713Z
+DTEND:20270113T215913Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) disappears at 21:57:13 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 6° up in the W · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-53824d2fb49a-accra-gh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270116T220838Z
+DTEND:20270116T221038Z
+SUMMARY:The Moon hides θ Ari · mag 5.6
+DESCRIPTION:θ Ari (magnitude 5.6) disappears at 22:08:38 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 36° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8a504d82083-accra-gh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270126T034700Z
+DTEND:20270126T034900Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 03:47:00 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 80° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb6f4cb5acc2-accra-gh@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270131T055334Z
+DTEND:20270131T055534Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 05:53:34 at the dark limb GM
+ T\, seen from Accra\, GH.\nThe Moon is 53° up in the SSE · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1bf10add862-accra-gh@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T214828Z
+DTEND:20270212T215028Z
+SUMMARY:The Moon hides HR 609 · mag 6.2
+DESCRIPTION:HR 609 (magnitude 6.2) disappears at 21:48:28 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 13° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64ad7d3c1614-accra-gh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270313T212637Z
+DTEND:20270313T214107Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 21:26:37 at the dark limb 
+ and reappears at 21:41:07 at the dark limb GMT\, seen from Accra\, GH.\nTh
+ e Moon is 14° up in the WNW · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c0059cddd11-accra-gh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T234503Z
+DTEND:20270321T234703Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) disappears at 23:45:03 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 83° up in the S · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5240ece68cfc-accra-gh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T221535Z
+DTEND:20270326T221735Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 22:15:35 at the dark limb GM
+ T\, seen from Accra\, GH.\nThe Moon is 5° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b7e6f0ee7968-accra-gh@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270327T003709Z
+DTEND:20270327T010713Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 00:37:09 at the bright lim
+ b and reappears at 01:07:13 at the dark limb GMT\, seen from Accra\, GH.\n
+ The Moon is 35° up in the SE · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-460750fccc8a-accra-gh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T235511Z
+DTEND:20270413T235711Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) disappears at 23:55:11 at the dark limb
+  GMT\, seen from Accra\, GH.\nThe Moon is 7° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-af2807b2b0be-accra-gh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T220348Z
+DTEND:20270423T222802Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 22:03:48 at the 
+ bright limb and reappears at 22:28:02 at the dark limb GMT\, seen from Acc
+ ra\, GH.\nThe Moon is 19° up in the ESE · dark sky. Binoculars show it.\
+ nEvery occultation this month\, for anywhere: https://occult.alokm.com/moo
+ n-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5adc11350264-accra-gh@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T005005Z
+DTEND:20270427T005205Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:50:05 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 22° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-267a9d87bc49-accra-gh@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270513T191931Z
+DTEND:20270513T192131Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 19:19:31 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 80° up in the WNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69d2b479902b-accra-gh@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270514T204648Z
+DTEND:20270514T204848Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 20:46:48 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 71° up in the W · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9c4c48dab16d-accra-gh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270606T194212Z
+DTEND:20270606T194412Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 19:42:12 at the dark limb 
+ GMT\, seen from Accra\, GH.\nThe Moon is 6° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d8f293e2901e-accra-gh@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T190454Z
+DTEND:20270608T190654Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) disappears at 19:04:54 at the dark limb
+  GMT\, seen from Accra\, GH.\nThe Moon is 41° up in the WNW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15e5be09adf4-accra-gh@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T234027Z
+DTEND:20270723T234227Z
+SUMMARY:The Moon hides 22 Psc · mag 5.6
+DESCRIPTION:22 Psc (magnitude 5.6) reappears at 23:40:27 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 28° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e70e7540e148-accra-gh@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270820T005426Z
+DTEND:20270820T005626Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:54:26 at the dark limb G
+ MT\, seen from Accra\, GH.\nThe Moon is 75° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-accra-gh@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T100817Z
+DTEND:20271229T115644Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 10:08:30 and reappears at 11:56:27 GMT\, see
+ n from Accra\, GH.\nThe Moon is 35° up in the ESE · daylight\, Sun +50°
+ .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/mars-2027-12-29?city=Accra%2C%20GH
+URL:https://occult.alokm.com/mars-2027-12-29?city=Accra%2C%20GH
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

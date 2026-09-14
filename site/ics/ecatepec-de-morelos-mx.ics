@@ -1,0 +1,435 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Ecatepec de Morelos\, MX
+X-WR-CALDESC:Lunar occultations you can see from Ecatepec de Morelos\, MX\,
+  computed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:America/Mexico_City
+BEGIN:VEVENT
+UID:star-3b7089261d0e-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260916T013636Z
+DTEND:20260916T013836Z
+SUMMARY:The Moon hides HIP 74206 · mag 6.5
+DESCRIPTION:HIP 74206 (magnitude 6.5) disappears at 19:36:36 at the dark li
+ mb CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 23° up in the S
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-81f171ecc347-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T045537Z
+DTEND:20260923T045737Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:55:37 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 50° up in the SSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-jupiter-2026-10-06-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20260914T034633Z
+DTSTART:20261006T082103Z
+DTEND:20261006T085636Z
+SUMMARY:The Moon occults Jupiter
+DESCRIPTION:Jupiter disappears at 02:22:32 and reappears at 02:54:58 CST\, 
+ seen from Ecatepec de Morelos\, MX.\nThe Moon is -5° up in the ENE · dar
+ k sky.\nTimes against the real lunar limb.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ecatepec
+ %20de%20Morelos%2C%20MX
+URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ecatepec%20de%20Morelo
+ s%2C%20MX
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Jupiter
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb8e87a91662-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261031T092526Z
+DTEND:20261031T092726Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:25:26 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 62° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-399ab52f6a3a-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261126T102248Z
+DTEND:20261126T102448Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:22:48 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 59° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f36c389df9e7-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261225T025712Z
+DTEND:20261225T025912Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 20:57:12 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 23° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85475f549bef-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T070953Z
+DTEND:20261229T071153Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 01:09:53 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 25° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce45fbff5f05-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270102T100529Z
+DTEND:20270102T100729Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) reappears at 04:05:29 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 15° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2b18abd1d798-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270120T083446Z
+DTEND:20270120T083646Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:34:46 at the dark limb
+  CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 34° up in the WNW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f691b27a6555-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T112143Z
+DTEND:20270124T112343Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:21:43 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 48° up in the W · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-afe90048f057-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T105152Z
+DTEND:20270125T105352Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 04:51:52 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 62° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-88326d2432c1-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270203T115854Z
+DTEND:20270203T120054Z
+SUMMARY:The Moon hides φ Sgr · mag 3.1
+DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 05:58:54 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 9° up in the ESE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db7849dedb5f-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270215T022338Z
+DTEND:20270215T022538Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 20:23:38 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 71° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f021c017b17d-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270314T013723Z
+DTEND:20270314T013923Z
+SUMMARY:The Moon hides HIP 18201 · mag 6.3
+DESCRIPTION:HIP 18201 (magnitude 6.3) disappears at 19:37:23 at the dark li
+ mb CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 54° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-910921b9a386-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270316T021414Z
+DTEND:20270316T021614Z
+SUMMARY:The Moon hides HR 2111 · mag 6.0
+DESCRIPTION:HR 2111 (magnitude 6.0) disappears at 20:14:14 at the dark limb
+  CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 72° up in the WNW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e4a60e10c511-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270317T072710Z
+DTEND:20270317T072910Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) disappears at 01:27:10 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 18° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19e02e4a9ffd-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270320T071347Z
+DTEND:20270320T071547Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 01:13:47 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 55° up in the W ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cbaaac6ac1fb-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270321T070457Z
+DTEND:20270321T070657Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 01:04:57 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 64° up in the SW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5d2a5657668a-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270413T052648Z
+DTEND:20270413T052848Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) disappears at 23:26:48 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 17° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2b5f5d8897b-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T071141Z
+DTEND:20270423T071341Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 01:11:41 at the dark limb CS
+ T\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 41° up in the SSE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-24f451cd03cf-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270423T112012Z
+DTEND:20270423T112212Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 05:20:12 at the bright lim
+ b CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 28° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ff3222dbe27e-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270425T105707Z
+DTEND:20270425T105907Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 04:57:07 at the dark limb CS
+ T\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 41° up in the SSW ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c69837ddf49e-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T070208Z
+DTEND:20270523T070408Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) reappears at 01:02:08 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 36° up in the SSE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c2fbfc02a1ba-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T103505Z
+DTEND:20270524T103705Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 04:35:05 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 44° up in the SSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-80eafd222c41-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T030341Z
+DTEND:20270609T030541Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 21:03:41 at the dark limb
+  CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 28° up in the W 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4cf6710e6e64-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270708T024017Z
+DTEND:20270708T024217Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 20:40:17 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 24° up in the W ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ff6442b1fff-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T023224Z
+DTEND:20270714T023424Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:32:24 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 44° up in the S · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64f808a325f0-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270714T075730Z
+DTEND:20270714T075930Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 01:57:30 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 6° up in the WSW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1da66b01d2d7-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270720T043106Z
+DTEND:20270720T043306Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 22:31:06 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 28° up in the ESE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09216a039f0d-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270727T073342Z
+DTEND:20270727T073542Z
+SUMMARY:The Moon hides 26 Ari · mag 6.1
+DESCRIPTION:26 Ari (magnitude 6.1) reappears at 01:33:42 at the dark limb C
+ ST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 16° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-92b480deb7c3-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270807T023616Z
+DTEND:20270807T023816Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 20:36:16 at the dark li
+ mb CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 22° up in the W
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df9e2f438396-ecatepec-de-morelos-mx@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270814T044026Z
+DTEND:20270814T044226Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:40:26 at the dark limb 
+ CST\, seen from Ecatepec de Morelos\, MX.\nThe Moon is 45° up in the S ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

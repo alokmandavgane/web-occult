@@ -1,0 +1,524 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Diyarbakır\, TR
+X-WR-CALDESC:Lunar occultations you can see from Diyarbakır\, TR\, compute
+ d by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T095649Z
+DTEND:20260914T111209Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 12:58:48 and reappears at 14:10:02 +03\, se
+ en from Diyarbakır\, TR.\nThe Moon is 30° up · daylight\, Sun +54°.\nT
+ imes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the 
+ Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=37.9136&lon=40.
+ 2172
+URL:https://occult.alokm.com/venus-2026-09-14?lat=37.9136&lon=40.2172
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b18596955012-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260917T163704Z
+DTEND:20260917T171536Z
+SUMMARY:The Moon hides τ Sco · mag 2.7
+DESCRIPTION:τ Sco (magnitude 2.7) disappears at 19:37:04 at the dark limb 
+ and reappears at 20:15:36 at the bright limb +03\, seen from Diyarbakır\,
+  TR.\nThe Moon is 16° up in the SSW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85494859d45e-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T205320Z
+DTEND:20260923T205520Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:53:20 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 32° up in the SSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d05c1204e954-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T192024Z
+DTEND:20261018T192224Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:20:24 at the dark limb
+  +03\, seen from Diyarbakır\, TR.\nThe Moon is 7° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2903eb762daf-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T004329Z
+DTEND:20261030T004529Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:43:29 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 80° up in the S · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c44d4a512da1-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T000500Z
+DTEND:20261103T000700Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:05:00 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 28° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-62addc4f0f41-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T220953Z
+DTEND:20261130T221153Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:09:53 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 18° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0091355c2ee9-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T161451Z
+DTEND:20261214T161651Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:14:51 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 25° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-40c745a8288f-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261221T233425Z
+DTEND:20261221T233625Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 02:34:25 at the 
+ dark limb +03\, seen from Diyarbakır\, TR.\nThe Moon is 32° up in the W 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-010d5d0adcd8-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T235036Z
+DTEND:20261228T235236Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 02:50:36 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 46° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-30721b2da9fc-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T213253Z
+DTEND:20270124T213453Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 00:32:53 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 47° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0355ac120385-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160355Z
+DTEND:20270216T160555Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:03:55 at the dark limb
+  +03\, seen from Diyarbakır\, TR.\nThe Moon is 70° up in the ESE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1791c982bd6e-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T201838Z
+DTEND:20270220T202038Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 23:18:38 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 58° up in the SSE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e0e6c0bcf25-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T204142Z
+DTEND:20270221T204342Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 23:41:42 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 49° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-227278ef9151-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214122Z
+DTEND:20270326T214322Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:41:22 at the dark limb +0
+ 3\, seen from Diyarbakır\, TR.\nThe Moon is 11° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-380d65ed7fb8-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270410T191037Z
+DTEND:20270410T191237Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) disappears at 22:10:37 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 8° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-012c27233115-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T234051Z
+DTEND:20270424T234251Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:40:51 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 23° up in the SSE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6a863669a760-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T003837Z
+DTEND:20270427T004037Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:38:37 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 22° up in the SSE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50cbeac13754-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T225625Z
+DTEND:20270427T225825Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 01:56:25 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 7° up in the SE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91133147a4a6-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T174417Z
+DTEND:20270510T174617Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 20:44:17 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 33° up in the W · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4a102ce29b47-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T202121Z
+DTEND:20270512T202321Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:21:21 at the dark limb
+  +03\, seen from Diyarbakır\, TR.\nThe Moon is 19° up in the W · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55041e00df20-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174813Z
+DTEND:20270520T175013Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) reappears at 20:48:13 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 8° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d125e8cadff0-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270523T234235Z
+DTEND:20270524T011408Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 02:42:35 at the br
+ ight limb and reappears at 04:14:08 at the dark limb +03\, seen from Diyar
+ bakır\, TR.\nThe Moon is 25° up in the S · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12484adf908d-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T185410Z
+DTEND:20270610T185610Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 21:54:10 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 25° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a2462e116287-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T220038Z
+DTEND:20270616T220238Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:00:38 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 17° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fab150527728-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T233728Z
+DTEND:20270622T233928Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:37:28 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 34° up in the SSE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-53840fbdc6e0-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T232531Z
+DTEND:20270717T232731Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 02:25:31 at the dark limb 
+ +03\, seen from Diyarbakır\, TR.\nThe Moon is 18° up in the SW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9e275e544a4-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270813T191125Z
+DTEND:20270813T202248Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 22:11:25 at the da
+ rk limb and reappears at 23:22:48 at the bright limb +03\, seen from Diyar
+ bakır\, TR.\nThe Moon is 26° up in the S · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9a8f32bfbdc-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221259Z
+DTEND:20270824T221459Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 01:12:59 at the d
+ ark limb +03\, seen from Diyarbakır\, TR.\nThe Moon is 30° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a00d41111a0-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T223141Z
+DTEND:20270824T223341Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:31:41 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 33° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b53a24d15403-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224840Z
+DTEND:20270824T225040Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:48:40 at the d
+ ark limb +03\, seen from Diyarbakır\, TR.\nThe Moon is 37° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73652fd478c2-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230109Z
+DTEND:20270824T230309Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:01:09 at the dark
+  limb +03\, seen from Diyarbakır\, TR.\nThe Moon is 39° up in the E · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-742fea72c86a-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230953Z
+DTEND:20270824T231153Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:09:53 at the dark limb +
+ 03\, seen from Diyarbakır\, TR.\nThe Moon is 41° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T123116Z
+DTEND:20271229T135346Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 15:31:29 and reappears at 16:53:33 +03\, see
+ n from Diyarbakır\, TR.\nThe Moon is 24° up in the SSW · daylight\, Sun
+  +14°.\nTimes against the real lunar limb.\nMap\, timings and the view at
+  the Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Diyarbak%C
+ 4%B1r%2C%20TR
+URL:https://occult.alokm.com/mars-2027-12-29?city=Diyarbak%C4%B1r%2C%20TR
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T124938Z
+DTEND:20280330T141504Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 15:49:38 and reappears at 17:15:04 +03\, 
+ seen from Diyarbakır\, TR.\nThe Moon is 76° up · daylight\, Sun +32°.\
+ nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=37.9136&lon
+ =40.2172
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=37.9136&lon=40.2172
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T214638Z
+DTEND:20280412T230333Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:46:38 and reappears at 02:03:33 +03\, 
+ seen from Diyarbakır\, TR.\nThe Moon is 16° up · dark sky.\nTimes for t
+ he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-04-12?lat=37.9136&lon=40.2172
+URL:https://occult.alokm.com/antares-2028-04-12?lat=37.9136&lon=40.2172
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-diyarbakr-tr@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T025904Z
+DTEND:20290211T035939Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 05:59:04 and reappears at 06:59:16 +03\, 
+ seen from Diyarbakır\, TR.\nThe Moon is 1° up · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/mercury-2029-02-11?lat=37.9136&lon=40.2172
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=37.9136&lon=40.2172
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

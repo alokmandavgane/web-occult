@@ -1,0 +1,527 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Nagpur
+X-WR-CALDESC:Lunar occultations you can see from Nagpur\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-nagpur@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120033Z
+DTEND:20260914T124934Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:34:10 and reappears at 18:16:17 IST\, se
+ en from Nagpur.\nThe Moon is 31° up in the SW · daylight\, Sun +9°.\nTi
+ mes against the real lunar limb.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/venus-2026-09-14?city=Nagpur
+URL:https://occult.alokm.com/venus-2026-09-14?city=Nagpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3815ff96e7c5-nagpur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161703Z
+DTEND:20260930T161903Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:47:03 at the d
+ ark limb IST\, seen from Nagpur.\nThe Moon is 14° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e4a5c577c84-nagpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201840Z
+DTEND:20261004T202040Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:48:40 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 12° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6715d0327973-nagpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T125558Z
+DTEND:20261020T125758Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:25:58 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 48° up in the SSE · dusk. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66df1292ce7a-nagpur@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133318Z
+DTEND:20261021T133518Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:03:18 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 52° up in the SSE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20aa5266e317-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202628Z
+DTEND:20261102T202828Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:56:28 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 15° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-74f06760f9a9-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145321Z
+DTEND:20261115T145521Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:23:21 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 23° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-769a80f90ec7-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160326Z
+DTEND:20261116T160526Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:33:26 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 21° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8935a9a9e12f-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163440Z
+DTEND:20261127T163640Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:04:40 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 20° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90e3b1d4ea10-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202955Z
+DTEND:20261128T203155Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:59:55 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 58° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a277587279c-nagpur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231039Z
+DTEND:20261130T231239Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:40:39 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 67° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ceaea753df74-nagpur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133750Z
+DTEND:20261212T133950Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:07:50 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 13° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1545086d2e04-nagpur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T203732Z
+DTEND:20261223T203932Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:07:32 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 60° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b0c1878c197-nagpur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T003458Z
+DTEND:20261228T003658Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:04:58 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 58° up in the WSW · dusk. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-04f663116694-nagpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140623Z
+DTEND:20270121T140823Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:36:23 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 35° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98a5dd4c64dc-nagpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225400Z
+DTEND:20270124T225600Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:24:00 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 60° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-364d043da6db-nagpur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162457Z
+DTEND:20270125T162657Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:54:57 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 10° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e267eecc2462-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224340Z
+DTEND:20270201T224540Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:13:40 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 7° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b583d78cd27a-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T151412Z
+DTEND:20270214T151612Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:44:12 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 56° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e12ad61fb024-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171709Z
+DTEND:20270216T171909Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:47:09 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 56° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46e8a93b6e22-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214026Z
+DTEND:20270220T214226Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:10:26 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 48° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11c6cae9f124-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215640Z
+DTEND:20270221T215840Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:26:40 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 52° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e279252bde05-nagpur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201253Z
+DTEND:20270227T201453Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:42:53 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 13° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c660556302db-nagpur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220736Z
+DTEND:20270302T220936Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:37:36 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 5° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f8d02b9d3d0-nagpur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224555Z
+DTEND:20270326T224755Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:15:55 at the dark limb IS
+ T\, seen from Nagpur.\nThe Moon is 42° up in the S · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6ba319511ac-nagpur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T141904Z
+DTEND:20270414T142104Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:49:04 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 80° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a79b1c2db7e0-nagpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T141027Z
+DTEND:20270520T150139Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:40:27 at the dark limb a
+ nd reappears at 20:31:39 at the dark limb IST\, seen from Nagpur.\nThe Moo
+ n is 9° up in the ESE · dark sky. Binoculars show it.\nEvery occultation
+  this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-30f554b79591-nagpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173604Z
+DTEND:20270520T190754Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:06:04 at the bright lim
+ b and reappears at 00:37:54 at the dark limb IST\, seen from Nagpur.\nThe 
+ Moon is 39° up in the SSE · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c6a166b2821-nagpur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T164631Z
+DTEND:20270522T164831Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:16:31 at the dark limb IS
+ T\, seen from Nagpur.\nThe Moon is 17° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5399a2709f5-nagpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135038Z
+DTEND:20270608T135238Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:20:38 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 41° up in the W · dusk. Binoculars 
+ show it.\nEvery occultation this month\, for anywhere: https://occult.alok
+ m.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8b9763ae9226-nagpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T170531Z
+DTEND:20270609T171041Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:35:31 at the dark limb 
+ and reappears at 22:40:41 at the dark limb IST\, seen from Nagpur.\nThe Mo
+ on is 7° up in the W · dark sky. Binoculars show it.\nEvery occultation 
+ this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-613bd988e9df-nagpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T151508Z
+DTEND:20270620T151708Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:45:08 at the dark limb I
+ ST\, seen from Nagpur.\nThe Moon is 6° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac8e379fa82b-nagpur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T225046Z
+DTEND:20270620T225246Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:20:46 at the dark limb 
+ IST\, seen from Nagpur.\nThe Moon is 31° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5ea16b556033-nagpur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213523Z
+DTEND:20270716T213723Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:05:23 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 13° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-019ed8b9a3da-nagpur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175749Z
+DTEND:20270810T175949Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:27:49 at the dark limb
+  IST\, seen from Nagpur.\nThe Moon is 11° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-nagpur@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222757Z
+DTEND:20280121T233703Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:57:57 and reappears at 05:07:03 IST\, 
+ seen from Nagpur.\nThe Moon is 7° up in the ESE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Nagpur
+URL:https://occult.alokm.com/antares-2028-01-22?city=Nagpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-nagpur@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142945Z
+DTEND:20280330T150550Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:59:45 and reappears at 20:35:50 IST\, 
+ seen from Nagpur.\nThe Moon is 28° up in the WNW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/alcyone-2028-03-30?city=Nagpur
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Nagpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-nagpur@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T231718Z
+DTEND:20280413T002757Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:47:18 and reappears at 05:57:57 IST\, 
+ seen from Nagpur.\nThe Moon is 38° up in the SSW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Nagpur
+URL:https://occult.alokm.com/antares-2028-04-12?city=Nagpur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

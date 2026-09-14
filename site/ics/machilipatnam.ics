@@ -1,0 +1,563 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Machilipatnam
+X-WR-CALDESC:Lunar occultations you can see from Machilipatnam\, computed b
+ y occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:star-a390a516877e-machilipatnam@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260908T231533Z
+DTEND:20260908T231733Z
+SUMMARY:The Moon hides HR 3736 · mag 6.3
+DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:45:33 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 10° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-machilipatnam@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120218Z
+DTEND:20260914T131030Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:34:43 and reappears at 18:38:21 IST\, se
+ en from Machilipatnam.\nThe Moon is 32° up in the WSW · daylight\, Sun +
+ 7°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Machilipatna
+ m
+URL:https://occult.alokm.com/venus-2026-09-14?city=Machilipatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dffc699bfc77-machilipatnam@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160530Z
+DTEND:20260930T160730Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:35:30 at the d
+ ark limb IST\, seen from Machilipatnam.\nThe Moon is 11° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e4c6bebf91e-machilipatnam@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T124938Z
+DTEND:20261020T125138Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:19:38 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 52° up in the SSE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-834625c6384e-machilipatnam@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133057Z
+DTEND:20261021T133257Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:00:57 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 57° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20aa5266e317-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202611Z
+DTEND:20261102T202811Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:56:11 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 16° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a31d17a4258-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145000Z
+DTEND:20261115T145200Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:20:00 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 25° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98614486764d-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155908Z
+DTEND:20261116T160108Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:29:08 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 22° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b30cb1ab1663-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163837Z
+DTEND:20261127T164037Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:08:37 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 21° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3ea22ab57a4-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T202822Z
+DTEND:20261128T203022Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:58:22 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 59° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7fabbeefa3bf-machilipatnam@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T232038Z
+DTEND:20261130T232238Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:50:38 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 73° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37847d9df8f9-machilipatnam@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133629Z
+DTEND:20261212T133829Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:06:29 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 15° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5cf9925d62bf-machilipatnam@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204237Z
+DTEND:20261223T204437Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:12:37 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 55° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8460ffa3b86f-machilipatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T195520Z
+DTEND:20270118T195720Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:25:20 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 20° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9cb4c69dcd1-machilipatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140225Z
+DTEND:20270121T140425Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:32:25 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 35° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f926a502bc77-machilipatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T230732Z
+DTEND:20270124T230932Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:37:32 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 56° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-02daa44305d4-machilipatnam@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162901Z
+DTEND:20270125T163101Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:59:01 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 13° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2110e69dddca-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T223927Z
+DTEND:20270201T224127Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:09:27 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 10° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f713749e1c34-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T144019Z
+DTEND:20270212T144219Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:10:19 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 36° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0825c144322d-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T150149Z
+DTEND:20270214T150349Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:31:49 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 56° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6228e07decf5-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T161932Z
+DTEND:20270216T162132Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:49:32 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 65° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d02f90c2456-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172409Z
+DTEND:20270216T172609Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:54:09 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 51° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c59cdb8d9e7-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214959Z
+DTEND:20270220T215159Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:19:59 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 44° up in the W · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c6ed7c82094-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T221133Z
+DTEND:20270221T221333Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:41:33 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 49° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa2060f8a07e-machilipatnam@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201646Z
+DTEND:20270227T201846Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:46:46 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 18° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29f6bd09ce34-machilipatnam@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220521Z
+DTEND:20270302T220721Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:35:21 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 9° up in the ESE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-566a534a29d7-machilipatnam@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T230639Z
+DTEND:20270326T230839Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:36:39 at the dark limb IS
+ T\, seen from Machilipatnam.\nThe Moon is 46° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e3dfba45c21-machilipatnam@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T143237Z
+DTEND:20270414T143437Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 20:02:37 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 74° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90a4a4fdd825-machilipatnam@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T134833Z
+DTEND:20270417T135033Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:18:33 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 56° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe971ef315ba-machilipatnam@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150850Z
+DTEND:20270520T151050Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:38:50 at the dark limb IS
+ T\, seen from Machilipatnam.\nThe Moon is 24° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98a3ea1f9664-machilipatnam@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174705Z
+DTEND:20270520T191341Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:17:05 at the bright lim
+ b and reappears at 00:43:41 at the dark limb IST\, seen from Machilipatnam
+ .\nThe Moon is 46° up in the SSE · dark sky. Binoculars show it.\nEvery 
+ occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
+ -2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4c7cbf3fe04e-machilipatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135543Z
+DTEND:20270608T135743Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:25:43 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 37° up in the W · dusk. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9d48938f569d-machilipatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165833Z
+DTEND:20270609T170033Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:28:33 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 6° up in the W · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-774178f4b1e9-machilipatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T123707Z
+DTEND:20270617T125156Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 18:07:07 at the 
+ dark limb and reappears at 18:21:56 at the dark limb IST\, seen from Machi
+ lipatnam.\nThe Moon is 8° up in the ESE · daylight\, Sun +6°. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-847b5c1dfec9-machilipatnam@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224704Z
+DTEND:20270620T224904Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:17:04 at the dark limb 
+ IST\, seen from Machilipatnam.\nThe Moon is 34° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f01953e88542-machilipatnam@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T215426Z
+DTEND:20270716T215626Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:24:26 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 10° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66517b1d694a-machilipatnam@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T182414Z
+DTEND:20270723T182614Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:54:14 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 32° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1696bb95bb99-machilipatnam@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T180028Z
+DTEND:20270810T180228Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:28 at the dark limb
+  IST\, seen from Machilipatnam.\nThe Moon is 11° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9886d3f0449a-machilipatnam@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T232603Z
+DTEND:20270824T232803Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:56:03 at the dark limb I
+ ST\, seen from Machilipatnam.\nThe Moon is 76° up in the NE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-machilipatnam@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222831Z
+DTEND:20280121T233916Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:58:31 and reappears at 05:09:16 IST\, 
+ seen from Machilipatnam.\nThe Moon is 11° up in the ESE · dark sky.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/antares-2028-01-22?city=Machilipatnam
+URL:https://occult.alokm.com/antares-2028-01-22?city=Machilipatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-machilipatnam@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233624Z
+DTEND:20280413T002201Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:06:24 and reappears at 05:52:01 IST\, 
+ seen from Machilipatnam.\nThe Moon is 39° up in the SW · dusk.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?city=Machilipatnam
+URL:https://occult.alokm.com/antares-2028-04-12?city=Machilipatnam
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

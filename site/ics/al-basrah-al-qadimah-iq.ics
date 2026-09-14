@@ -1,0 +1,565 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Al Başrah al Qadīmah\, IQ
+X-WR-CALDESC:Lunar occultations you can see from Al Başrah al Qadīmah\, I
+ Q\, computed by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Baghdad
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T101245Z
+DTEND:20260914T113518Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 13:14:54 and reappears at 14:33:01 +03\, se
+ en from Al Başrah al Qadīmah\, IQ.\nThe Moon is 41° up · daylight\, Su
+ n +55°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the v
+ iew at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=30.5
+ 032&lon=47.8151
+URL:https://occult.alokm.com/venus-2026-09-14?lat=30.5032&lon=47.8151
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5be16e2c4fba-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260923T205947Z
+DTEND:20260923T210147Z
+SUMMARY:The Moon hides μ Cap · mag 5.0
+DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:59:47 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 33° up in the S
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2ba82bc5c2ee-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261018T192624Z
+DTEND:20261018T192824Z
+SUMMARY:The Moon hides HR 7578 · mag 6.2
+DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:26:24 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 5° up in the W
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9122fbef357c-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261030T010310Z
+DTEND:20261030T010510Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:03:10 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 78° up in the W
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab02392093b2-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261103T001450Z
+DTEND:20261103T001650Z
+SUMMARY:The Moon hides 23 Leo · mag 6.5
+DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:14:50 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 37° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-58672156e460-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T194950Z
+DTEND:20261128T195150Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 22:49:50 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 22° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bb9983a29f6-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T221849Z
+DTEND:20261130T222049Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 01:18:49 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 26° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-73302421a867-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261214T162125Z
+DTEND:20261214T162325Z
+SUMMARY:The Moon hides 42 Cap · mag 5.1
+DESCRIPTION:42 Cap (magnitude 5.1) disappears at 19:21:25 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 24° up in the S
+ W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-83d8e1bd1a2b-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T192956Z
+DTEND:20261223T193156Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:29:56 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 76° up in the 
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca2ab1d7c237-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T000249Z
+DTEND:20261229T000449Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:02:49 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 57° up in the SE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66c54220ab16-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270112T152909Z
+DTEND:20270112T153109Z
+SUMMARY:The Moon hides HR 8727 · mag 6.3
+DESCRIPTION:HR 8727 (magnitude 6.3) disappears at 18:29:09 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 33° up in the 
+ WSW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e27dddcb40aa-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T214848Z
+DTEND:20270124T215048Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 00:48:48 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 60° up in the SE
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-513565ef71f0-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T160255Z
+DTEND:20270216T160455Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 19:02:55 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 78° up in the 
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-43348ea0553e-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T204200Z
+DTEND:20270220T204400Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 23:42:00 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 69° up in the S
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d25bd9813a32-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T210019Z
+DTEND:20270221T210219Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 00:00:19 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 61° up in the SS
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e504dae503bd-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T214831Z
+DTEND:20270326T215031Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 00:48:31 at the dark limb +0
+ 3\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 22° up in the SE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bffabd6ef368-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270424T235642Z
+DTEND:20270424T235842Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 02:56:42 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 31° up in the S 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c910d07e776f-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T003718Z
+DTEND:20270427T003918Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 03:37:18 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 32° up in the S
+ SE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19177a17f881-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270427T230526Z
+DTEND:20270427T230726Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) reappears at 02:05:26 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 18° up in the S
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-edc998e5916f-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270503T002653Z
+DTEND:20270503T002853Z
+SUMMARY:The Moon hides 25 Psc · mag 6.3
+DESCRIPTION:25 Psc (magnitude 6.3) reappears at 03:26:53 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 7° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7248218963d1-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270510T175753Z
+DTEND:20270510T175953Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) disappears at 20:57:53 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 22° up in the W
+ NW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-632c3220a05c-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270512T203247Z
+DTEND:20270512T203447Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) disappears at 23:32:47 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 10° up in the 
+ WNW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1990cb76b80-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T170848Z
+DTEND:20270520T174619Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:08:48 at the bright lim
+ b and reappears at 20:46:19 at the bright limb +03\, seen from Al Başrah 
+ al Qadīmah\, IQ.\nThe Moon is 12° up in the SE · dark sky. Binoculars s
+ how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
+ .com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6929ca90ae9a-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270524T000338Z
+DTEND:20270524T012139Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 03:03:38 at the br
+ ight limb and reappears at 04:21:39 at the dark limb +03\, seen from Al Ba
+ şrah al Qadīmah\, IQ.\nThe Moon is 33° up in the S · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e2f8fffdcce3-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270603T011355Z
+DTEND:20270603T011555Z
+SUMMARY:The Moon hides ε Ari · mag 5.2
+DESCRIPTION:ε Ari (magnitude 5.2) reappears at 04:13:55 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 13° up in the EN
+ E · dusk. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0d6c30ac5223-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165258Z
+DTEND:20270609T165458Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 19:52:58 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 38° up in the W
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fdb2bb5cdd7e-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270610T190900Z
+DTEND:20270610T191100Z
+SUMMARY:The Moon hides 35 Sex · mag 6.1
+DESCRIPTION:35 Sex (magnitude 6.1) disappears at 22:09:00 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 17° up in the W
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-aa89c6c0070d-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270616T221328Z
+DTEND:20270616T221528Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 01:13:28 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 17° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ab6fafc1078-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T210623Z
+DTEND:20270620T210823Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 00:06:23 at the dark limb 
+ +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 32° up in the S
+ SE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c30d85b7723-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270622T233850Z
+DTEND:20270622T234050Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) reappears at 02:38:50 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 42° up in the S 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a2d7c86e119-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T170628Z
+DTEND:20270710T170828Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 20:06:28 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 33° up in the 
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-269e72bf6fc1-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T205427Z
+DTEND:20270716T205627Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 23:54:27 at the dark limb
+  +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 29° up in the 
+ SSW · dark sky. Binoculars show it.\nEvery occultation this month\, for a
+ nywhere: https://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f695d860061-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T221549Z
+DTEND:20270824T221749Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 01:15:49 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 35° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-076c6e3c641c-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224239Z
+DTEND:20270824T224439Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:42:39 at the d
+ ark limb +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 41° up
+  in the E · dark sky. Binoculars show it.\nEvery occultation this month\,
+  for anywhere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95764f07b009-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T224426Z
+DTEND:20270824T224626Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:44:26 at the dark
+  limb +03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 41° up in
+  the E · dark sky. Binoculars show it.\nEvery occultation this month\, fo
+ r anywhere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a6bb278fc633-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T230635Z
+DTEND:20270824T230835Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:06:35 at the dark limb +
+ 03\, seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 46° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2027-12-29-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T124245Z
+DTEND:20271229T135915Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 15:42:57 and reappears at 16:59:05 +03\, see
+ n from Al Başrah al Qadīmah\, IQ.\nThe Moon is 26° up in the SW · dayl
+ ight\, Sun +13°.\nTimes against the real lunar limb.\nMap\, timings and t
+ he view at the Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=
+ Al%20Ba%C5%9Frah%20al%20Qad%C4%ABmah%2C%20IQ
+URL:https://occult.alokm.com/mars-2027-12-29?city=Al%20Ba%C5%9Frah%20al%20Q
+ ad%C4%ABmah%2C%20IQ
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T132106Z
+DTEND:20280330T142049Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 16:21:06 and reappears at 17:20:49 +03\, 
+ seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 72° up · daylight\, 
+ Sun +22°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the
+  view at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=
+ 30.5032&lon=47.8151
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=30.5032&lon=47.8151
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T215616Z
+DTEND:20280412T231726Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 00:56:16 and reappears at 02:17:26 +03\, 
+ seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 27° up · dark sky.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=30.5032&lon=
+ 47.8151
+URL:https://occult.alokm.com/antares-2028-04-12?lat=30.5032&lon=47.8151
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mercury-2029-02-11-al-basrah-al-qadimah-iq@occult.alokm.com
+DTSTAMP:20260914T040616Z
+DTSTART:20290211T030047Z
+DTEND:20290211T034937Z
+SUMMARY:The Moon occults Mercury
+DESCRIPTION:Mercury disappears at 06:01:17 and reappears at 06:49:04 +03\, 
+ seen from Al Başrah al Qadīmah\, IQ.\nThe Moon is 10° up · dusk.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/mercury-2029-02-11?lat=30.5032&lon=47.8
+ 151
+URL:https://occult.alokm.com/mercury-2029-02-11?lat=30.5032&lon=47.8151
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mercury
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

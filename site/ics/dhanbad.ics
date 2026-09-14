@@ -1,0 +1,474 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Dhanbad
+X-WR-CALDESC:Lunar occultations you can see from Dhanbad\, computed by occu
+ lt.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-dhanbad@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T122017Z
+DTEND:20260914T124815Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:56:37 and reappears at 18:12:13 IST\, se
+ en from Dhanbad.\nThe Moon is 20° up in the WSW · twilight.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/venus-2026-09-14?city=Dhanbad
+URL:https://occult.alokm.com/venus-2026-09-14?city=Dhanbad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-03bcbc87a389-dhanbad@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161849Z
+DTEND:20260930T162049Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:48:49 at the d
+ ark limb IST\, seen from Dhanbad.\nThe Moon is 21° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bbe4f4766e6f-dhanbad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T202259Z
+DTEND:20261004T202459Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:52:59 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 21° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1c883430a53-dhanbad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T213729Z
+DTEND:20261006T213929Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:07:29 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 11° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c1f9b9589a0-dhanbad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T131534Z
+DTEND:20261020T131734Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:45:34 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 49° up in the S · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b688e1629521-dhanbad@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T135425Z
+DTEND:20261021T135625Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:24:25 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 54° up in the SSE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-75f82f9bda7f-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T203105Z
+DTEND:20261102T203305Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:01:05 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 23° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8be2d992e3-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T214919Z
+DTEND:20261104T215119Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:19:19 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 15° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6608e30408fc-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145747Z
+DTEND:20261115T145947Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:27:47 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 15° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4895ca35b59a-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160710Z
+DTEND:20261116T160910Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:37:10 at the dark limb
+  IST\, seen from Dhanbad.\nThe Moon is 13° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-565b8f50e9f5-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T164100Z
+DTEND:20261127T164300Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:11:00 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 29° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0c7a69f1d198-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T204749Z
+DTEND:20261128T204949Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:17:49 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 69° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-573e5308224f-dhanbad@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231916Z
+DTEND:20261130T232116Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:49:16 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 72° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2d1f08e1a0d4-dhanbad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T134002Z
+DTEND:20261212T134202Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:10:02 at the dark limb
+  IST\, seen from Dhanbad.\nThe Moon is 6° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-66e6c60a1ea8-dhanbad@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T205646Z
+DTEND:20261223T205846Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:26:46 at the dark limb
+  IST\, seen from Dhanbad.\nThe Moon is 50° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad12103f077c-dhanbad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T141747Z
+DTEND:20270121T141947Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:47:47 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 45° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5501bec675c0-dhanbad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T224839Z
+DTEND:20270124T225039Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:18:39 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 53° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-364d043da6db-dhanbad@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162420Z
+DTEND:20270125T162620Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:54:20 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 17° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54a86c2a6683-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T225240Z
+DTEND:20270201T225440Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:22:40 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 12° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9aee23fbf90d-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172648Z
+DTEND:20270214T172848Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:56:48 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 22° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89336dd9e9be-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T173153Z
+DTEND:20270216T173353Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 23:01:53 at the dark limb
+  IST\, seen from Dhanbad.\nThe Moon is 47° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e73c60091b9a-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214741Z
+DTEND:20270220T224014Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:17:41 at the dark limb 
+ and reappears at 04:10:14 at the dark limb IST\, seen from Dhanbad.\nThe M
+ oon is 39° up in the W · dark sky. Binoculars show it.\nEvery occultatio
+ n this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-38d43ccd97a1-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T213902Z
+DTEND:20270221T214102Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:09:02 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 48° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ac63282f1f39-dhanbad@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T200800Z
+DTEND:20270227T201000Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:38:00 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 16° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7f34a8760d3-dhanbad@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T221310Z
+DTEND:20270302T221510Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:43:10 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 10° up in the SE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b77755032ce0-dhanbad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142956Z
+DTEND:20270414T143156Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:59:56 at the dark limb
+  IST\, seen from Dhanbad.\nThe Moon is 70° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8420edb4260b-dhanbad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T130826Z
+DTEND:20270416T131026Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 18:38:26 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 63° up in the ESE · dusk. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-309e1dc3ec49-dhanbad@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270417T133524Z
+DTEND:20270417T133724Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) disappears at 19:05:24 at the dark limb 
+ IST\, seen from Dhanbad.\nThe Moon is 55° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-421996657f8c-dhanbad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T175019Z
+DTEND:20270520T192839Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:20:19 at the bright lim
+ b and reappears at 00:58:39 at the dark limb IST\, seen from Dhanbad.\nThe
+  Moon is 40° up in the S · dark sky. Binoculars show it.\nEvery occultat
+ ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1fcb19bc69b-dhanbad@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T172005Z
+DTEND:20270522T172205Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:50:05 at the dark limb IS
+ T\, seen from Dhanbad.\nThe Moon is 25° up in the SE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-140faa1fc7a8-dhanbad@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T153940Z
+DTEND:20270620T154140Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:09:40 at the dark limb I
+ ST\, seen from Dhanbad.\nThe Moon is 14° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-dhanbad@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T223536Z
+DTEND:20280121T234205Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:05:36 and reappears at 05:12:05 IST\, 
+ seen from Dhanbad.\nThe Moon is 12° up in the SE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-01-22?city=Dhanbad
+URL:https://occult.alokm.com/antares-2028-01-22?city=Dhanbad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-dhanbad@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142154Z
+DTEND:20280330T151543Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:51:54 and reappears at 20:45:43 IST\, 
+ seen from Dhanbad.\nThe Moon is 24° up in the WNW · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/alcyone-2028-03-30?city=Dhanbad
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Dhanbad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-dhanbad@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T233221Z
+DTEND:20280413T003728Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 05:02:21 and reappears at 06:07:28 IST\, 
+ seen from Dhanbad.\nThe Moon is 30° up in the SW · twilight.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Dhanbad
+URL:https://occult.alokm.com/antares-2028-04-12?city=Dhanbad
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

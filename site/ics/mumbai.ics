@@ -1,0 +1,535 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Mumbai
+X-WR-CALDESC:Lunar occultations you can see from Mumbai\, computed by occul
+ t.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-mumbai@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114047Z
+DTEND:20260914T124757Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:13:40 and reappears at 18:15:13 IST\, se
+ en from Mumbai.\nThe Moon is 41° up in the SW · daylight\, Sun +20°.\nT
+ imes against the real lunar limb.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/venus-2026-09-14?city=Mumbai
+URL:https://occult.alokm.com/venus-2026-09-14?city=Mumbai
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e3a635b12d9-mumbai@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T160737Z
+DTEND:20260930T160937Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:37:37 at the dark
+  limb IST\, seen from Mumbai.\nThe Moon is 6° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22306ac97563-mumbai@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161646Z
+DTEND:20260930T161846Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:46:46 at the d
+ ark limb IST\, seen from Mumbai.\nThe Moon is 8° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e59c54b4bc9f-mumbai@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201738Z
+DTEND:20261004T201938Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:47:38 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 6° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202358Z
+DTEND:20261102T202558Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:58 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 9° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-113782606109-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144830Z
+DTEND:20261115T145030Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:18:30 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 30° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98614486764d-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155915Z
+DTEND:20261116T160115Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:29:15 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 28° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fbf307edce4-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163038Z
+DTEND:20261127T163238Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:00:38 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 13° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ec04dd1abe6-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201508Z
+DTEND:20261128T201708Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:45:08 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 48° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52edeb90c6d0-mumbai@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T225826Z
+DTEND:20261130T230026Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:28:26 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 59° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e46c8b942a0-mumbai@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133438Z
+DTEND:20261212T133638Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:04:38 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 20° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a554946f3128-mumbai@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144745Z
+DTEND:20261212T144945Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:17:45 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 6° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-51c9d4375351-mumbai@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202342Z
+DTEND:20261223T202542Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:53:42 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 67° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-85c5e1d4d407-mumbai@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T165046Z
+DTEND:20270113T165246Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:20:46 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 7° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05768db8bcaa-mumbai@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194328Z
+DTEND:20270118T194528Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:13:28 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 31° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54fd6c37fa3e-mumbai@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135941Z
+DTEND:20270121T140141Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:29:41 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 28° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-61279a575859-mumbai@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225131Z
+DTEND:20270124T225331Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:21:31 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 66° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-944c12c1f165-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004231Z
+DTEND:20270204T004431Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:12:31 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 7° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8ebbb6a28f5-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144900Z
+DTEND:20270214T145100Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:19:00 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 67° up in the WNW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1aa8d6ac785d-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155905Z
+DTEND:20270216T160105Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:29:05 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 77° up in the NW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cd09647d8bef-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T170601Z
+DTEND:20270216T170801Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:36:01 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 64° up in the WNW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eada0469e795-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T213533Z
+DTEND:20270220T213733Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:05:33 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 55° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c9a8cb0db4d2-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215809Z
+DTEND:20270221T220009Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:28:09 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 58° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e279252bde05-mumbai@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201246Z
+DTEND:20270227T201446Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:42:46 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 9° up in the ESE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-caaa3df84c34-mumbai@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T223929Z
+DTEND:20270326T224129Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:09:29 at the dark limb IS
+ T\, seen from Mumbai.\nThe Moon is 45° up in the S · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f929d7adf3e2-mumbai@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000605Z
+DTEND:20270402T000805Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:36:05 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 26° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a94f47181c60-mumbai@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150359Z
+DTEND:20270520T150559Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:33:59 at the dark limb IS
+ T\, seen from Mumbai.\nThe Moon is 15° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7e7870e4647a-mumbai@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T172957Z
+DTEND:20270520T184631Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 22:59:57 at the bright lim
+ b and reappears at 00:16:31 at the dark limb IST\, seen from Mumbai.\nThe 
+ Moon is 38° up in the SSE · dark sky. Binoculars show it.\nEvery occulta
+ tion this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-0
+ 5
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-665a1beedf3c-mumbai@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165433Z
+DTEND:20270609T165633Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:24:33 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 15° up in the W · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c908b6649e1f-mumbai@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172150Z
+DTEND:20270609T172350Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:51:50 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 9° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ee678599b3b-mumbai@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224019Z
+DTEND:20270620T224219Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:10:19 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 38° up in the SW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7314092c579e-mumbai@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T174719Z
+DTEND:20270710T174919Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:17:19 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 10° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-69953fd89414-mumbai@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T212757Z
+DTEND:20270716T212957Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:57:57 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 20° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-41db0a17fb67-mumbai@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T154624Z
+DTEND:20270806T154824Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:16:24 at the dark limb 
+ IST\, seen from Mumbai.\nThe Moon is 10° up in the WSW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d330f1638f5-mumbai@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175322Z
+DTEND:20270810T175522Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:23:22 at the dark limb
+  IST\, seen from Mumbai.\nThe Moon is 18° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0715417805bf-mumbai@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231936Z
+DTEND:20270824T232136Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:49:36 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 70° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eefd63e7357d-mumbai@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235501Z
+DTEND:20270827T235701Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:25:01 at the dark limb I
+ ST\, seen from Mumbai.\nThe Moon is 37° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-mumbai@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222649Z
+DTEND:20280121T233057Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:56:49 and reappears at 05:00:57 IST\, 
+ seen from Mumbai.\nThe Moon is 2° up in the ESE · dark sky.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/antares-2028-01-22?city=Mumbai
+URL:https://occult.alokm.com/antares-2028-01-22?city=Mumbai
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-mumbai@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T230317Z
+DTEND:20280413T001614Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:33:17 and reappears at 05:46:14 IST\, 
+ seen from Mumbai.\nThe Moon is 43° up in the SSW · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/antares-2028-04-12?city=Mumbai
+URL:https://occult.alokm.com/antares-2028-04-12?city=Mumbai
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

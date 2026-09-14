@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Bayan Nur\, CN
+X-WR-CALDESC:Lunar occultations you can see from Bayan Nur\, CN\, computed 
+ by occult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:star-494e7a53ed5c-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T165627Z
+DTEND:20260930T165827Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:56:27 at the d
+ ark limb CST\, seen from Bayan Nur\, CN.\nThe Moon is 49° up in the E · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5f1af3983fb7-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T210954Z
+DTEND:20261004T211154Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:09:54 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 49° up in the ESE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-mars-2026-10-05-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20260914T034451Z
+DTSTART:20261005T065450Z
+DTEND:20261005T071610Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 14:55:10 and reappears at 15:15:49 CST\, see
+ n from Bayan Nur\, CN.\nThe Moon is 7° up in the WNW · daylight\, Sun +3
+ 5°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/mars-2026-10-05?city=Bayan%20Nur%2
+ C%20CN
+URL:https://occult.alokm.com/mars-2026-10-05?city=Bayan%20Nur%2C%20CN
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f73b928e0c16-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261005T190431Z
+DTEND:20261005T190631Z
+SUMMARY:The Moon hides HR 3577 · mag 6.4
+DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 03:04:31 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 14° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e39ea3af02b7-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261006T215241Z
+DTEND:20261006T215441Z
+SUMMARY:The Moon hides ν Leo · mag 5.3
+DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:52:41 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 31° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29ce35371be5-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261007T205549Z
+DTEND:20261007T205749Z
+SUMMARY:The Moon hides HR 4207 · mag 6.4
+DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:55:49 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 8° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6c8e60957fe-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T140639Z
+DTEND:20261020T140839Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:06:39 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 27° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6d7d29fe291-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T144811Z
+DTEND:20261021T145011Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:48:11 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 32° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6d89d6e4fb9-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261104T221716Z
+DTEND:20261104T221916Z
+SUMMARY:The Moon hides 79 Leo · mag 5.4
+DESCRIPTION:79 Leo (magnitude 5.4) reappears at 06:17:16 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 33° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e041bbd1ca7-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261124T102558Z
+DTEND:20261124T110051Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 18:25:58 at the 
+ dark limb and reappears at 19:00:51 at the dark limb CST\, seen from Bayan
+  Nur\, CN.\nThe Moon is 16° up in the ENE · dusk. Binoculars show it.\nE
+ very occultation this month\, for anywhere: https://occult.alokm.com/moon-
+ stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f9a4e1714d52-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261229T170412Z
+DTEND:20261229T170612Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 01:04:12 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 12° up in the ESE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9ab499746dd6-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T170244Z
+DTEND:20270214T170444Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) disappears at 01:02:44 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 15° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37edd687e5e1-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T171742Z
+DTEND:20270214T171942Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) disappears at 01:17:42 at the 
+ dark limb CST\, seen from Bayan Nur\, CN.\nThe Moon is 13° up in the WNW 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-deb5b227e490-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T172231Z
+DTEND:20270214T172431Z
+SUMMARY:The Moon hides 21 Tau · mag 5.8
+DESCRIPTION:21 Tau (magnitude 5.8) disappears at 01:22:31 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 12° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa48b69115b1-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270301T210658Z
+DTEND:20270301T210858Z
+SUMMARY:The Moon hides HR 6680 · mag 5.8
+DESCRIPTION:HR 6680 (magnitude 5.8) reappears at 05:06:58 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 9° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-999635637b97-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270318T192412Z
+DTEND:20270318T192612Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 03:24:12 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 17° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-24ba4a5dda16-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270416T131705Z
+DTEND:20270416T131905Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 21:17:05 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 59° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c88af6c33a8-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T144955Z
+DTEND:20270520T145155Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 22:49:55 at the dark limb CS
+ T\, seen from Bayan Nur\, CN.\nThe Moon is 18° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c34fbdfaa46f-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T183838Z
+DTEND:20270520T195126Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 02:38:38 at the dark limb 
+ and reappears at 03:51:26 at the dark limb CST\, seen from Bayan Nur\, CN.
+ \nThe Moon is 19° up in the SSW · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a30cc0d3d2f1-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T182149Z
+DTEND:20270522T182349Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 02:21:49 at the dark limb CS
+ T\, seen from Bayan Nur\, CN.\nThe Moon is 21° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1fc0743e3e7b-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T164345Z
+DTEND:20270620T164545Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 00:43:45 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 21° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c496b96c0d80-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270701T202607Z
+DTEND:20270701T202807Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 04:26:07 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 14° up in the ENE · dusk. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-34eb1ef6bd51-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270717T125258Z
+DTEND:20270717T125458Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 20:52:58 at the bri
+ ght limb CST\, seen from Bayan Nur\, CN.\nThe Moon is 9° up in the SE · 
+ dusk. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3629ad957f80-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T194111Z
+DTEND:20270723T194311Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:41:11 at the dark limb C
+ ST\, seen from Bayan Nur\, CN.\nThe Moon is 50° up in the SSE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b6af15b6e7f-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270826T191828Z
+DTEND:20270826T192028Z
+SUMMARY:The Moon hides HR 1921 · mag 6.5
+DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:18:28 at the dark limb 
+ CST\, seen from Bayan Nur\, CN.\nThe Moon is 29° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0312ba09022c-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T185341Z
+DTEND:20270827T193419Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:53:41 at the bright lim
+ b and reappears at 03:34:19 at the dark limb CST\, seen from Bayan Nur\, C
+ N.\nThe Moon is 13° up in the ENE · dark sky. Binoculars show it.\nEvery
+  occultation this month\, for anywhere: https://occult.alokm.com/moon-star
+ s-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T141634Z
+DTEND:20280330T145129Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 22:16:34 and reappears at 22:51:29 CST\, 
+ seen from Bayan Nur\, CN.\nThe Moon is 13° up · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/alcyone-2028-03-30?lat=40.7414&lon=107.3860
+URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.7414&lon=107.3860
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-bayan-nur-cn@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T234210Z
+DTEND:20280413T004413Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 07:42:10 and reappears at 08:44:13 CST\, 
+ seen from Bayan Nur\, CN.\nThe Moon is 4° up · daylight\, Sun +16°.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/antares-2028-04-12?lat=40.7414&lon=10
+ 7.3860
+URL:https://occult.alokm.com/antares-2028-04-12?lat=40.7414&lon=107.3860
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

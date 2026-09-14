@@ -1,0 +1,574 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Kolhapur
+X-WR-CALDESC:Lunar occultations you can see from Kolhapur\, computed by occ
+ ult.alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-kolhapur@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T114429Z
+DTEND:20260914T125812Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:17:03 and reappears at 18:25:56 IST\, se
+ en from Kolhapur.\nThe Moon is 41° up in the SW · daylight\, Sun +18°.\
+ nTimes against the real lunar limb.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/venus-2026-09-14?city=Kolhapur
+URL:https://occult.alokm.com/venus-2026-09-14?city=Kolhapur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-692c90edacac-kolhapur@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161157Z
+DTEND:20260930T161357Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:41:57 at the d
+ ark limb IST\, seen from Kolhapur.\nThe Moon is 7° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f49f70121e65-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202350Z
+DTEND:20261102T202550Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:50 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 9° up in the ENE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ded871d7a6b6-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T144542Z
+DTEND:20261115T144742Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:15:42 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 31° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33eb39b9f9fa-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T155611Z
+DTEND:20261116T155811Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:26:11 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 28° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f1df4b017297-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163321Z
+DTEND:20261127T163521Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:03:21 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 14° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5c8ee5e55d83-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T201348Z
+DTEND:20261128T201548Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 01:43:48 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 49° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90875135299c-kolhapur@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T230222Z
+DTEND:20261130T230422Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:32:22 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 62° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-996c795fd8d6-kolhapur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133313Z
+DTEND:20261212T133513Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:03:13 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 21° up in the WSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12c4f82ad3a9-kolhapur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T144907Z
+DTEND:20261212T145107Z
+SUMMARY:The Moon hides HR 7658 · mag 6.4
+DESCRIPTION:HR 7658 (magnitude 6.4) disappears at 20:19:07 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 5° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5a973a3114e3-kolhapur@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T202803Z
+DTEND:20261223T203003Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 01:58:03 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 64° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d61c96c5e9c5-kolhapur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270113T164650Z
+DTEND:20270113T164850Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:16:50 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 7° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-281b5f3d6d64-kolhapur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270118T194008Z
+DTEND:20270118T194208Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) disappears at 01:10:08 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 30° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90e5912c50df-kolhapur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T135716Z
+DTEND:20270121T135916Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:27:16 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 28° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7fde0957b20a-kolhapur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225804Z
+DTEND:20270124T230004Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:28:04 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 65° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1d3122b2a16-kolhapur@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162646Z
+DTEND:20270125T162846Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:56:46 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 6° up in the E · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ae6952e16e02-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270204T004043Z
+DTEND:20270204T004243Z
+SUMMARY:The Moon hides HR 7277 · mag 5.8
+DESCRIPTION:HR 7277 (magnitude 5.8) reappears at 06:10:43 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 9° up in the ESE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-303d01fad62e-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270212T143252Z
+DTEND:20270212T143452Z
+SUMMARY:The Moon hides 4 Ari · mag 5.9
+DESCRIPTION:4 Ari (magnitude 5.9) disappears at 20:02:52 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 45° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46115315f129-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T144531Z
+DTEND:20270214T144731Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:15:31 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 66° up in the WNW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b72b9d1c4d8d-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T155558Z
+DTEND:20270216T155758Z
+SUMMARY:The Moon hides HR 2013 · mag 5.6
+DESCRIPTION:HR 2013 (magnitude 5.6) disappears at 21:25:58 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 75° up in the NW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7d8d1da49e3-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T171119Z
+DTEND:20270216T171319Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:41:19 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 60° up in the WNW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b4c47562ed9-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214124Z
+DTEND:20270220T214324Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:11:24 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 52° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f0dab80fdb8d-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T220500Z
+DTEND:20270221T220700Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:35:00 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 56° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45e280cde2a1-kolhapur@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201337Z
+DTEND:20270227T201537Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:43:37 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 11° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-beaaa329e1af-kolhapur@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224756Z
+DTEND:20270326T224956Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:17:56 at the dark limb IS
+ T\, seen from Kolhapur.\nThe Moon is 47° up in the S · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e683de0b02ef-kolhapur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270402T000829Z
+DTEND:20270402T001029Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) reappears at 05:38:29 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 29° up in the ESE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e629e413fba-kolhapur@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142131Z
+DTEND:20270414T142331Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:51:31 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 82° up in the NW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b927da0776c-kolhapur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T150605Z
+DTEND:20270520T150805Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) reappears at 20:36:05 at the dark limb IS
+ T\, seen from Kolhapur.\nThe Moon is 18° up in the SE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-30f554b79591-kolhapur@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T173612Z
+DTEND:20270520T184914Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:06:12 at the bright lim
+ b and reappears at 00:19:14 at the dark limb IST\, seen from Kolhapur.\nTh
+ e Moon is 42° up in the SSE · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3a566678bfc8-kolhapur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T165506Z
+DTEND:20270609T165706Z
+SUMMARY:The Moon hides 18 Leo · mag 5.7
+DESCRIPTION:18 Leo (magnitude 5.7) disappears at 22:25:06 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 14° up in the W · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-dcd696b91e5e-kolhapur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270609T172333Z
+DTEND:20270609T172533Z
+SUMMARY:The Moon hides 19 Leo · mag 6.5
+DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:53:33 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 7° up in the W · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a9aab227f9d-kolhapur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270617T130217Z
+DTEND:20270617T130417Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 18:32:17 at the b
+ right limb IST\, seen from Kolhapur.\nThe Moon is 7° up in the ESE · day
+ light\, Sun +7°. Binoculars show it.\nEvery occultation this month\, for 
+ anywhere: https://occult.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6ee678599b3b-kolhapur@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T224034Z
+DTEND:20270620T224234Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:10:34 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 39° up in the SW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ba7679d245d7-kolhapur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270710T175011Z
+DTEND:20270710T175211Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 23:20:11 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 9° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1bfc71fe8819-kolhapur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213413Z
+DTEND:20270716T213613Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:04:13 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 19° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b5996d9d3db4-kolhapur@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270723T180753Z
+DTEND:20270723T180953Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 23:37:53 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 21° up in the E · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c814508d68f-kolhapur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270806T155050Z
+DTEND:20270806T155250Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 21:20:50 at the dark limb 
+ IST\, seen from Kolhapur.\nThe Moon is 8° up in the WSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-091c6c210b8b-kolhapur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175426Z
+DTEND:20270810T175626Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:24:26 at the dark limb
+  IST\, seen from Kolhapur.\nThe Moon is 18° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a4e4cb343df9-kolhapur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270824T231650Z
+DTEND:20270824T231850Z
+SUMMARY:The Moon hides 18 Tau · mag 5.7
+DESCRIPTION:18 Tau (magnitude 5.7) reappears at 04:46:50 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 69° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-474f0a2b391d-kolhapur@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270827T235448Z
+DTEND:20270827T235648Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 05:24:48 at the dark limb I
+ ST\, seen from Kolhapur.\nThe Moon is 38° up in the ENE · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-kolhapur@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222739Z
+DTEND:20280121T233110Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:57:39 and reappears at 05:01:10 IST\, 
+ seen from Kolhapur.\nThe Moon is 5° up in the ESE · dark sky.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/antares-2028-01-22?city=Kolhapur
+URL:https://occult.alokm.com/antares-2028-01-22?city=Kolhapur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-kolhapur@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T231246Z
+DTEND:20280413T001517Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:42:46 and reappears at 05:45:17 IST\, 
+ seen from Kolhapur.\nThe Moon is 44° up in the SSW · dark sky.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?city=Kolhapur
+URL:https://occult.alokm.com/antares-2028-04-12?city=Kolhapur
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

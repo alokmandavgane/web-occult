@@ -1,0 +1,513 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//occult.alokm.com//Occultations//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Occultations from Durg
+X-WR-CALDESC:Lunar occultations you can see from Durg\, computed by occult.
+ alokm.com
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:Asia/Kolkata
+BEGIN:VEVENT
+UID:occ-venus-2026-09-14-durg@occult.alokm.com
+DTSTAMP:20260914T034332Z
+DTSTART:20260914T120546Z
+DTEND:20260914T125252Z
+SUMMARY:The Moon occults Venus
+DESCRIPTION:Venus disappears at 17:39:24 and reappears at 18:19:35 IST\, se
+ en from Durg.\nThe Moon is 29° up in the SW · daylight\, Sun +6°.\nTime
+ s against the real lunar limb.\nMap\, timings and the view at the Moon's e
+ dge: https://occult.alokm.com/venus-2026-09-14?city=Durg
+URL:https://occult.alokm.com/venus-2026-09-14?city=Durg
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-22306ac97563-durg@occult.alokm.com
+DTSTAMP:20260901T000000Z
+DTSTART:20260930T161603Z
+DTEND:20260930T161803Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:46:03 at the d
+ ark limb IST\, seen from Durg.\nThe Moon is 15° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2026-09
+URL:https://occult.alokm.com/moon-stars-2026-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e59c54b4bc9f-durg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261004T201718Z
+DTEND:20261004T201918Z
+SUMMARY:The Moon hides μ1 Cnc · mag 6.0
+DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:47:18 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 14° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fc6b0aa8f7ae-durg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261020T130016Z
+DTEND:20261020T130216Z
+SUMMARY:The Moon hides ι Cap · mag 4.3
+DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:30:16 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 49° up in the SSE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-55b871f79c02-durg@occult.alokm.com
+DTSTAMP:20261001T000000Z
+DTSTART:20261021T133821Z
+DTEND:20261021T134021Z
+SUMMARY:The Moon hides 38 Aqr · mag 5.5
+DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:08:21 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 53° up in the SSE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2026-10
+URL:https://occult.alokm.com/moon-stars-2026-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-31ac4d4cb798-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261102T202740Z
+DTEND:20261102T202940Z
+SUMMARY:The Moon hides ψ Leo · mag 5.4
+DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:57:40 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 18° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b65be0d6e6e-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261115T145408Z
+DTEND:20261115T145608Z
+SUMMARY:The Moon hides 4 Cap · mag 5.9
+DESCRIPTION:4 Cap (magnitude 5.9) disappears at 20:24:08 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 21° up in the SW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-769a80f90ec7-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261116T160352Z
+DTEND:20261116T160552Z
+SUMMARY:The Moon hides HR 8083 · mag 6.2
+DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:33:52 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 19° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0fbd8debe71-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261127T163654Z
+DTEND:20261127T163854Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:06:54 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 22° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-625d4928307d-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261128T203458Z
+DTEND:20261128T203658Z
+SUMMARY:The Moon hides η Cnc · mag 5.3
+DESCRIPTION:η Cnc (magnitude 5.3) reappears at 02:04:58 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 61° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f04d88a4ccd-durg@occult.alokm.com
+DTSTAMP:20261101T000000Z
+DTSTART:20261130T231502Z
+DTEND:20261130T231702Z
+SUMMARY:The Moon hides 44 Leo · mag 5.6
+DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:45:02 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 69° up in the SE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2026-11
+URL:https://occult.alokm.com/moon-stars-2026-11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05cd80b8e232-durg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261212T133817Z
+DTEND:20261212T134017Z
+SUMMARY:The Moon hides HR 7643 · mag 6.0
+DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:08:17 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 12° up in the WSW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5cf9925d62bf-durg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261223T204230Z
+DTEND:20261223T204430Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:12:30 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 57° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffcb3b9ba0e8-durg@occult.alokm.com
+DTSTAMP:20261201T000000Z
+DTSTART:20261228T004108Z
+DTEND:20261228T004308Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:11:08 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 54° up in the WSW · dusk. Binoculars s
+ how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
+ .com/moon-stars-2026-12
+URL:https://occult.alokm.com/moon-stars-2026-12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-930ad8b5e7e0-durg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270121T140809Z
+DTEND:20270121T141009Z
+SUMMARY:The Moon hides 57 Gem · mag 5.0
+DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:38:09 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 38° up in the ENE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-96814d4e13be-durg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270124T225526Z
+DTEND:20270124T225726Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 04:25:26 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 57° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2522b154851f-durg@occult.alokm.com
+DTSTAMP:20270101T000000Z
+DTSTART:20270125T162533Z
+DTEND:20270125T162733Z
+SUMMARY:The Moon hides 75 Leo · mag 5.2
+DESCRIPTION:75 Leo (magnitude 5.2) reappears at 21:55:33 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 12° up in the E · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-01
+URL:https://occult.alokm.com/moon-stars-2027-01
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6041a661b62a-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270201T224552Z
+DTEND:20270201T224752Z
+SUMMARY:The Moon hides 43 Oph · mag 5.3
+DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:15:52 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 9° up in the SE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6bff6a78f8e-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270214T152113Z
+DTEND:20270214T152313Z
+SUMMARY:The Moon hides 11 Tau · mag 6.1
+DESCRIPTION:11 Tau (magnitude 6.1) disappears at 20:51:13 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 53° up in the WNW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-545924c6252c-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270216T172129Z
+DTEND:20270216T172329Z
+SUMMARY:The Moon hides 136 Tau · mag 4.6
+DESCRIPTION:136 Tau (magnitude 4.6) disappears at 22:51:29 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 53° up in the WNW · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-222c2e163cec-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270220T214321Z
+DTEND:20270220T224459Z
+SUMMARY:The Moon hides 31 Leo · mag 4.5
+DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:13:21 at the dark limb 
+ and reappears at 04:14:59 at the dark limb IST\, seen from Durg.\nThe Moon
+  is 45° up in the W · dark sky. Binoculars show it.\nEvery occultation t
+ his month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-11c6cae9f124-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270221T215653Z
+DTEND:20270221T215853Z
+SUMMARY:The Moon hides 58 Leo · mag 4.8
+DESCRIPTION:58 Leo (magnitude 4.8) reappears at 03:26:53 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 50° up in the WSW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e279252bde05-durg@occult.alokm.com
+DTSTAMP:20270201T000000Z
+DTSTART:20270227T201258Z
+DTEND:20270227T201458Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:42:58 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 14° up in the SE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-02
+URL:https://occult.alokm.com/moon-stars-2027-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-166eefd62bb2-durg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270302T220858Z
+DTEND:20270302T221058Z
+SUMMARY:The Moon hides HR 7103 · mag 6.3
+DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:38:58 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 7° up in the ESE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc9abc4bb736-durg@occult.alokm.com
+DTSTAMP:20270301T000000Z
+DTSTART:20270326T224954Z
+DTEND:20270326T225154Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) reappears at 04:19:54 at the dark limb IS
+ T\, seen from Durg.\nThe Moon is 42° up in the SSW · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-03
+URL:https://occult.alokm.com/moon-stars-2027-03
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-46a0646ac225-durg@occult.alokm.com
+DTSTAMP:20270401T000000Z
+DTSTART:20270414T142308Z
+DTEND:20270414T142508Z
+SUMMARY:The Moon hides HR 3264 · mag 5.8
+DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:53:08 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 77° up in the W · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-04
+URL:https://occult.alokm.com/moon-stars-2027-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05046634c8b3-durg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T141323Z
+DTEND:20270520T150053Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:43:23 at the dark limb a
+ nd reappears at 20:30:53 at the dark limb IST\, seen from Durg.\nThe Moon 
+ is 11° up in the ESE · dark sky. Binoculars show it.\nEvery occultation 
+ this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a793a6f7d1e3-durg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270520T174021Z
+DTEND:20270520T191444Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:10:21 at the bright lim
+ b and reappears at 00:44:44 at the dark limb IST\, seen from Durg.\nThe Mo
+ on is 40° up in the SSE · dark sky. Binoculars show it.\nEvery occultati
+ on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-29ba05861ba1-durg@occult.alokm.com
+DTSTAMP:20270501T000000Z
+DTSTART:20270522T165652Z
+DTEND:20270522T165852Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:26:52 at the dark limb IS
+ T\, seen from Durg.\nThe Moon is 20° up in the SE · dark sky. Binoculars
+  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
+ km.com/moon-stars-2027-05
+URL:https://occult.alokm.com/moon-stars-2027-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6110cade39d-durg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270608T135445Z
+DTEND:20270608T135645Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:24:45 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 38° up in the W · dusk. Binoculars sh
+ ow it.\nEvery occultation this month\, for anywhere: https://occult.alokm.
+ com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d04b54a7b8b9-durg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T152108Z
+DTEND:20270620T152308Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 20:51:08 at the dark limb I
+ ST\, seen from Durg.\nThe Moon is 8° up in the ESE · dark sky. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-910a0df6623c-durg@occult.alokm.com
+DTSTAMP:20270601T000000Z
+DTSTART:20270620T225308Z
+DTEND:20270620T225508Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:23:08 at the dark limb 
+ IST\, seen from Durg.\nThe Moon is 29° up in the SW · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-06
+URL:https://occult.alokm.com/moon-stars-2027-06
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-830866825efc-durg@occult.alokm.com
+DTSTAMP:20270701T000000Z
+DTSTART:20270716T213846Z
+DTEND:20270716T214046Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:08:46 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 10° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-07
+URL:https://occult.alokm.com/moon-stars-2027-07
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-20ce35bf80c5-durg@occult.alokm.com
+DTSTAMP:20270801T000000Z
+DTSTART:20270810T175900Z
+DTEND:20270810T180100Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:29:00 at the dark limb
+  IST\, seen from Durg.\nThe Moon is 9° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-08
+URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-01-22-durg@occult.alokm.com
+DTSTAMP:20260914T035705Z
+DTSTART:20280121T222904Z
+DTEND:20280121T233904Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 03:59:04 and reappears at 05:09:04 IST\, 
+ seen from Durg.\nThe Moon is 9° up in the ESE · dark sky.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/antares-2028-01-22?city=Durg
+URL:https://occult.alokm.com/antares-2028-01-22?city=Durg
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-alcyone-2028-03-30-durg@occult.alokm.com
+DTSTAMP:20260914T040053Z
+DTSTART:20280330T142846Z
+DTEND:20280330T150908Z
+SUMMARY:The Moon occults Alcyone
+DESCRIPTION:Alcyone disappears at 19:58:46 and reappears at 20:39:08 IST\, 
+ seen from Durg.\nThe Moon is 26° up in the WNW · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/alcyone-2028-03-30?city=Durg
+URL:https://occult.alokm.com/alcyone-2028-03-30?city=Durg
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Alcyone
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:occ-antares-2028-04-12-durg@occult.alokm.com
+DTSTAMP:20260914T040148Z
+DTSTART:20280412T232324Z
+DTEND:20280413T003038Z
+SUMMARY:The Moon occults Antares
+DESCRIPTION:Antares disappears at 04:53:24 and reappears at 06:00:38 IST\, 
+ seen from Durg.\nThe Moon is 36° up in the SSW · dark sky.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/antares-2028-04-12?city=Durg
+URL:https://occult.alokm.com/antares-2028-04-12?city=Durg
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Antares
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
