@@ -461,7 +461,7 @@ def head(title, desc, path, extra="", og="home"):
 FOOTER = f"""
 <footer>
   <p>Computed from the JPL DE431 ephemeris, for the Moon's mean limb. Static pages; no tracking beyond
-  basic analytics. <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
+  basic analytics. <a href="/method">How this is computed</a> · <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 """
 
@@ -1302,7 +1302,7 @@ def build_index(seed, built, jup=(), ms=()):
   <p class="method">Every time, line and diagram here is computed, not copied: planets, the Moon and the Sun from the JPL DE431
   ephemeris, Jupiter's and Saturn's moons from JPL's satellite ephemerides, stars from Gaia DR3 and Hipparcos-2, and the
   Moon's mountains from NASA's LRO laser altimeter. The lunar-occultation list is chosen by hand; each page links the data it
-  was built from.</p></section>
+  was built from. <a href="/method">How this is computed, and what it was checked against →</a></p></section>
 </main>
 {FOOTER}
 <script>{INDEX_JS}</script>
@@ -1310,7 +1310,7 @@ def build_index(seed, built, jup=(), ms=()):
 </html>
 """
     (OUT / "index.html").write_text(page)
-    urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
+    urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7"), ("/method", "monthly", "0.6")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
@@ -1358,4 +1358,6 @@ if __name__ == "__main__":
     jup = build_jupiter.build_all(cities_sorted, "jupiter") + build_jupiter.build_all(cities_sorted, "saturn")
     ms = build_moonstars.build_all(cities_sorted)
     build_feeds.build_all(seed, cities_sorted)
+    import build_method
+    build_method.write_page()      # after the feeds: it counts them
     build_index(seed, built, jup, ms)

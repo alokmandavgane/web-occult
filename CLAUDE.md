@@ -114,6 +114,12 @@ Rules that are easy to break:
   Drawn with Pillow (in requirements) from macOS system fonts; without them the committed PNGs stay. Only
   previewers and installers fetch these — pages never load them. `site/manifest.webmanifest` is written by
   `build_index` (standalone, night colours, shortcuts to /calendar and the home sections). No service worker yet.
+- **"How this is computed"** (`scripts/build_method.py` → `site/method.html`, run after the feeds; linked from the
+  footer and the home page): the inputs, how each kind of page is made, a "Checked against" table and "What is
+  approximate". Counts (events, catalogue stars, months, satellite events, feeds, ΔT, the GRS longitude) are read
+  from the data at build time. Every row of the checks table is a comparison that was actually made — a test or a
+  recorded check. Add a row only when a new comparison exists, and keep the approximations list true when a model
+  changes (limb, refraction, rings, visibility rule).
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
   `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section
