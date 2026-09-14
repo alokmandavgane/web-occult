@@ -5,3 +5,5 @@
 /kml/*
   Cache-Control: public, max-age=86400
   Content-Disposition: attachment
+/img/*
+  Cache-Control: public, max-age=2592000

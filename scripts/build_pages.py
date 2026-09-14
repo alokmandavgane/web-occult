@@ -964,161 +964,239 @@ def build(seed, slug):
 
 
 INDEX_CSS = """
-    .hero-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0.8rem; margin: 1.2rem 0 1.6rem; }
-    .hero-row .hero { margin: 0; }
-    .hero-saturn { border-color: var(--c-limit); background: color-mix(in srgb, var(--c-limit) 8%, var(--card)); }
-    .hero-saturn .hero-kicker { color: var(--c-limit); }
-    .hero-jupiter { border-color: var(--c-night); background: color-mix(in srgb, var(--c-night) 8%, var(--card)); }
-    .hero-jupiter .hero-kicker { color: var(--c-night); }
-    @media (min-width: 900px) { .hero-row { grid-template-columns: 1.2fr 1fr 1fr; } }
-    .hero { display: block; background: var(--card); border: 1px solid var(--accent); border-radius: 16px; padding: 1.1rem 1.25rem; margin: 1.2rem 0 1.6rem; color: var(--text); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
-    .hero:hover { text-decoration: none; border-color: var(--accent); }
-    .hero-kicker { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
-    .hero-title { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin: 0.2rem 0 0.3rem; }
-    .hero-note { color: var(--muted); }
-    .evlist { list-style: none; margin: 0.4rem 0 0; border: 1px solid var(--border); border-radius: 14px; background: var(--card); overflow: hidden; }
+    :root { --t-occ: #b45309; --t-ms: #0e7490; --t-jup: #6d28d9; --t-sat: #047857; }
+    @media (prefers-color-scheme: dark) { :root { --t-occ: #fbbf24; --t-ms: #67c9e6; --t-jup: #c4b5fd; --t-sat: #34d399; } }
+    .t-occ { --tc: var(--t-occ); } .t-ms { --tc: var(--t-ms); } .t-jup { --tc: var(--t-jup); } .t-sat { --tc: var(--t-sat); }
+    .home-h1 { margin-bottom: 0.3rem; }
+    .typenav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.2rem; }
+    .typenav a { display: inline-flex; align-items: center; gap: 0.4rem; border: 1px solid var(--line); border-radius: 999px;
+                 padding: 0.25rem 0.75rem 0.25rem 0.4rem; font-size: 0.85rem; color: var(--text); background: var(--card); }
+    .typenav a:hover { border-color: var(--tc); text-decoration: none; }
+    .typenav svg { width: 22px; height: 22px; color: var(--tc); flex: none; }
+    .upnext { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 0.6rem; margin: 0.5rem 0 0.5rem; }
+    .tile { display: grid; grid-template-columns: 38px 1fr; gap: 0.1rem 0.7rem; align-items: start; background: var(--card);
+            border: 1px solid var(--border); border-top: 3px solid var(--tc); border-radius: 12px; padding: 0.75rem 0.85rem; color: var(--text); }
+    .tile:hover { text-decoration: none; border-color: var(--tc); }
+    .tile svg { width: 38px; height: 38px; color: var(--tc); grid-row: span 3; }
+    .tile-kicker { font-size: 0.68rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--tc); font-weight: 700; }
+    .tile-title { font-weight: 700; font-size: 1.02rem; letter-spacing: -0.01em; line-height: 1.25; }
+    .tile-detail { color: var(--muted); font-size: 0.8rem; line-height: 1.35; margin-top: 0.1rem; }
+    .kind { margin: 2.4rem 0 0; padding-top: 1.3rem; border-top: 1px solid var(--border); scroll-margin-top: 12px; }
+    .kind-head { display: grid; grid-template-columns: 54px 1fr; gap: 0.2rem 0.9rem; align-items: start; }
+    .kind-head svg { width: 54px; height: 54px; color: var(--tc); grid-row: span 3; }
+    .kind-head h2 { margin: 0; font-size: 1.4rem; letter-spacing: -0.02em; text-transform: none; color: var(--text); }
+    .kind-what { margin: 0.15rem 0 0; }
+    .kind-facts { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin: 0.35rem 0 0; padding: 0; list-style: none; font-size: 0.82rem; color: var(--muted); }
+    .kind-facts b { color: var(--tc); font-weight: 600; }
+    .evlist { list-style: none; margin: 1rem 0 0; border: 1px solid var(--border); border-left: 3px solid var(--tc); border-radius: 12px; background: var(--card); overflow: hidden; padding: 0; }
     .evlist li + li { border-top: 1px solid var(--border); }
-    .evlist .ev a { display: grid; grid-template-columns: 7.5rem 1fr auto; grid-template-areas: "date what tags" "date note note"; gap: 0.15rem 0.8rem; align-items: baseline; padding: 0.65rem 0.9rem; color: var(--text); }
+    .evlist .ev a { display: grid; grid-template-columns: 4.2rem 1fr auto; gap: 0.1rem 0.9rem; align-items: center; padding: 0.6rem 0.9rem; color: var(--text); }
     .evlist .ev a:hover { background: var(--card-2); text-decoration: none; }
-    .ev-date { grid-area: date; color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-    .ev-what { grid-area: what; font-weight: 600; }
-    .ev-note { grid-area: note; color: var(--muted); font-size: 0.85rem; }
-    .tag { grid-area: tags; display: inline-block; font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 999px; padding: 0.05rem 0.5rem; color: var(--muted); margin-left: 0.3rem; }
-    .tag-planet { border-color: var(--c-limit); color: var(--c-limit); }
-    .tag-star { border-color: var(--accent); color: var(--accent); }
-    .tags { grid-area: tags; }
+    .ev-date { display: flex; flex-direction: column; line-height: 1.15; }
+    .ev-dmy { font-weight: 700; font-size: 1rem; font-variant-numeric: tabular-nums; }
+    .ev-y { font-size: 0.72rem; color: var(--muted); }
+    .ev-what { font-weight: 600; display: block; }
+    .ev-note { color: var(--muted); font-size: 0.82rem; display: block; margin-top: 0.1rem; }
+    .tags { display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem; }
+    .tag { display: inline-block; font-size: 0.66rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; color: var(--muted); }
+    .tag-planet { border-color: var(--tc); color: var(--tc); }
     .ev.past a { opacity: 0.45; }
-    .ev.past a:hover { opacity: 0.8; }
-    .evlist .divider { padding: 0.4rem 0.9rem; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); background: var(--card-2); }
-    @media (max-width: 560px) { .evlist .ev a { grid-template-columns: 1fr auto; grid-template-areas: "date tags" "what what" "note note"; } }
-    .months { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.5rem; margin: 0.6rem 0; }
-    .months a { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.6rem 0.8rem; color: var(--text); }
-    .months a:hover { border-color: var(--accent); text-decoration: none; }
-    .mo-name { display: block; font-weight: 600; font-size: 0.95rem; }
-    .mo-n { display: block; color: var(--muted); font-size: 0.78rem; }
-    .mo.current a { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
-    .mo.past a { opacity: 0.5; }
+    .ev-more { margin: 0.6rem 0 0; }
+    @media (max-width: 560px) { .evlist .ev a { grid-template-columns: 3.6rem 1fr; } .tags { grid-column: 2; flex-direction: row; align-items: center; } .ev-note { display: none; } }
+    .this-month { margin: 1rem 0 0; font-size: 0.92rem; }
+    .this-month a { font-weight: 600; }
+    .yrs { margin: 0.8rem 0 0; display: grid; gap: 0.4rem; }
+    .yr { display: grid; grid-template-columns: 2.8rem 1fr; align-items: center; gap: 0.5rem; }
+    .yr-label { font-size: 0.8rem; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .mpills { list-style: none; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; margin: 0; padding: 0; }
+    .mpills a, .mpills span { display: block; text-align: center; font-size: 0.78rem; padding: 0.35rem 0; border-radius: 8px; }
+    .mpills a { background: var(--card); border: 1px solid var(--border); color: var(--text); }
+    .mpills a:hover { border-color: var(--tc); text-decoration: none; }
+    .mpills span { color: var(--line); opacity: 0.6; }
+    .mo.current a { background: color-mix(in srgb, var(--tc) 20%, var(--card)); border-color: var(--tc); font-weight: 700; }
+    .mo.past a { opacity: 0.45; }
+    @media (max-width: 560px) { .mpills { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+"""
+
+ICONS = {
+    # the Moon with a planet at its edge
+    "occ": '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="17" cy="21" r="13" fill="currentColor" opacity=".22"/>'
+           '<circle cx="17" cy="21" r="13" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="30.5" cy="13" r="4" fill="currentColor"/></svg>',
+    # a crescent and stars
+    "ms": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M21 6a14 14 0 1 0 12.2 20.8A11.5 11.5 0 1 1 21 6z" fill="currentColor"/>'
+          '<circle cx="31" cy="9" r="1.7" fill="currentColor"/><circle cx="36" cy="17" r="1.2" fill="currentColor"/><circle cx="27" cy="15.5" r="1" fill="currentColor"/></svg>',
+    # Jupiter and its four moons
+    "jup": '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="8.5" fill="currentColor"/>'
+           '<path d="M12.2 17.2h15.6M11.6 21.4h16.8" stroke="var(--card)" stroke-width="1.4"/>'
+           '<circle cx="3.5" cy="20" r="1.7" fill="currentColor"/><circle cx="8.5" cy="20" r="1.4" fill="currentColor"/>'
+           '<circle cx="31.5" cy="20" r="1.5" fill="currentColor"/><circle cx="37" cy="20" r="1.7" fill="currentColor"/></svg>',
+    # Saturn, rings nearly edge-on, a moon
+    "sat": '<svg viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="20" rx="17" ry="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/>'
+           '<circle cx="20" cy="20" r="7.5" fill="currentColor"/><path d="M3 20a17 4.2 0 0 0 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>'
+           '<circle cx="34" cy="10" r="1.8" fill="currentColor"/></svg>',
+}
+
+KINDS = [
+    ("occ", "occultations", "Lunar occultations", "Occultations",
+     "The Moon passes in front of a planet or a bright star. Only a band of the Earth sees it, and the times change from city to city.",
+     [("You need", "your eyes or binoculars"), ("How often", "a few a year"), ("Each page", "a map of where it's seen and times for 500 cities")]),
+    ("ms", "moon-stars", "The Moon and the stars", "Moon & stars",
+     "Every night the Moon slides over fainter stars. A star doesn't fade — it switches off at one edge and back on at the other. Computed for your own place.",
+     [("You need", "binoculars or a small telescope"), ("How often", "about one a night"), ("Each page", "a month calendar and every event for your location")]),
+    ("jup", "jupiter", "Jupiter's moons", "Jupiter",
+     "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face. In 2026–27 they also eclipse and hide one another.",
+     [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a live diagram of the moons")]),
+    ("sat", "saturn", "Saturn's moons", "Saturn",
+     "Titan, Rhea, Dione and Tethys cross Saturn's face and fall into its shadow — possible only in the few years around the 2025 ring-plane crossing.",
+     [("You need", "a telescope, 100 mm or more"), ("How often", "most nights while the season lasts"), ("Each page", "a month of events and a live diagram")]),
+]
+
+INDEX_JS = r"""
+(function () {
+  var now = Date.now(), ym = new Date().toISOString().slice(0, 7);
+  // occultations: upcoming first by the READER's clock, past last and dimmed, first five shown
+  var list = document.getElementById('evlist');
+  if (list) {
+    var items = [].slice.call(list.querySelectorAll('li.ev')), up = [], past = [];
+    items.forEach(function (li) { var p = Date.parse(li.dataset.end) < now; li.classList.toggle('past', p); (p ? past : up).push(li); });
+    up.concat(past.reverse()).forEach(function (li) { list.appendChild(li); });
+    var SHOW = 5, more = document.getElementById('ev-more');
+    list.querySelectorAll('li.ev').forEach(function (li, i) { li.hidden = i >= SHOW; });
+    if (more) {
+      if (items.length <= SHOW) more.hidden = true;
+      more.textContent = 'Show all ' + items.length + ' events' + (past.length ? ' (' + past.length + ' past)' : '');
+      more.addEventListener('click', function () { list.querySelectorAll('li.ev').forEach(function (li) { li.hidden = false; }); more.hidden = true; });
+    }
+    var t = document.getElementById('tile-occ');
+    if (t && up[0]) {
+      t.setAttribute('href', up[0].querySelector('a').getAttribute('href'));
+      t.querySelector('.tile-title').textContent = up[0].querySelector('.ev-what').textContent;
+      t.querySelector('.tile-detail').textContent = up[0].dataset.detail;
+    }
+  }
+  // month links: this month highlighted, earlier months dimmed; tiles follow this month
+  document.querySelectorAll('.mo').forEach(function (li) { if (li.dataset.ym === ym) li.classList.add('current'); else if (li.dataset.ym < ym) li.classList.add('past'); });
+  ['ms', 'jup', 'sat'].forEach(function (k) {
+    var tile = document.getElementById('tile-' + k), pill = document.querySelector('#kind-' + k + ' .mo[data-ym="' + ym + '"]');
+    if (!tile || !pill || tile.dataset.ym === ym) return;
+    tile.setAttribute('href', pill.querySelector('a').getAttribute('href'));
+    tile.querySelector('.tile-title').textContent = pill.dataset.label;
+    tile.querySelector('.tile-detail').textContent = pill.dataset.detail;
+    var tm = document.querySelector('#kind-' + k + ' .this-month');
+    if (tm) tm.innerHTML = 'This month: <a href="' + pill.querySelector('a').getAttribute('href') + '">' + pill.dataset.label + '</a> — ' + pill.dataset.detail;
+  });
+})();
 """
 
 
 def build_index(seed, built, jup=(), ms=()):
-    """One list, newest-upcoming first: the next event as a hero, then the rest as compact rows with
-    tags (planet/star, audience) — past events greyed at the bottom. The build stamps each row
-    with its UTC end so the browser re-sorts 'past' vs 'upcoming' on the day, not the deploy."""
+    """The front door: a 'coming up' tile for each kind of event, then one section per kind, each saying
+    what it is, what you need and how often, with its own colour and icon. Clock-dependent choices (next
+    occultation, this month) are prerendered from the build date and corrected by the reader's clock."""
     built = sorted(built, key=lambda b: b["when"])
     now = datetime.now(timezone.utc)
-
-    def row(b, past):
-        tags = (f'<span class="tags"><span class="tag tag-{b["kind"]}">{b["kind"]}</span>'
-                f'<span class="tag tag-aud">{esc(b["audience"])}</span></span>')
-        return (f'<li class="ev{" past" if past else ""}" data-end="{b["end_utc"]}">'
-                f'<a href="/{b["slug"]}"><span class="ev-date">{esc(b["day"])}</span>'
-                f'<span class="ev-what">The Moon occults {esc(b["target"])}</span>{tags}'
-                f'<span class="ev-note">{esc(b["note"])}</span></a></li>')
-
-    rows = "".join(row(b, parse(b["end_utc"]) < now) for b in built)
-    upcoming = [b for b in built if parse(b["end_utc"]) >= now]
-    hero = upcoming[0] if upcoming else built[-1]
     ym_now = now.strftime("%Y-%m")
-    SEASON = {
-        "jupiter": ("Jupiter this month · mutual-event season", "Jupiter",
-                    "Every six years the Galilean moons' orbits turn edge-on to the Sun and they eclipse and occult each other — the 2026–27 season peaks this winter."),
-        "saturn": ("Saturn this month · ring-plane season", "Saturn",
-                   "Possible only in the years around the 2025 equinox, when the moons' orbits turn edge-on to us."),
+    MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    kinds = {k[0]: k for k in KINDS}
+
+    # ---------------- per-kind month entries: (ym, slug, label, detail)
+    def monthly(entries, detail):
+        return [(f"{e['year']}-{e['month']:02d}", e["slug"], e["label"], detail(e)) for e in entries]
+    months = {
+        "ms": monthly(ms, lambda e: f"{e['n']} occultations on {e.get('nights', '?')} nights from New Delhi with a small telescope"),
+        "jup": monthly([j for j in jup if j.get("planet", "jupiter") == "jupiter"],
+                       lambda e: f"{e['n']} events" + (f" · {e['n_mutual']} mutual" if e["n_mutual"] else "")),
+        "sat": monthly([j for j in jup if j.get("planet") == "saturn"],
+                       lambda e: f"{e['n']} events" + (f" · {e['n_mutual']} mutual" if e["n_mutual"] else "")),
     }
 
-    def planet_hero(planet):
-        months_ = [j for j in jup if j.get("planet") == planet]
-        cur = next((j for j in months_ if f"{j['year']}-{j['month']:02d}" >= ym_now), months_[-1] if months_ else None)
-        if not cur:
-            return ""
-        kicker, pname, why = SEASON[planet]
-        return (f'<a class="hero hero-{planet}" id="hero-{planet}" href="/{cur["slug"]}" data-ym="{cur["year"]}-{cur["month"]:02d}" data-why="{esc(why)}">'
-                f'<div class="hero-kicker">{kicker}</div>'
-                f'<div class="hero-title">{pname}\'s moons in {esc(cur["label"])}</div>'
-                f'<div class="hero-note">{cur["n"]} times a moon slips behind {pname}, crosses its face or falls into its shadow'
-                f'{(" — and " + str(cur["n_mutual"]) + " mutual events") if cur["n_mutual"] else ""}. {esc(why)}</div></a>')
+    def current(entries):
+        return next((m for m in entries if m[0] >= ym_now), entries[-1] if entries else None)
 
-    sat_hero = planet_hero("jupiter") + planet_hero("saturn")
-    hero_html = (f'<div class="hero-row"><a class="hero" id="hero" href="/{hero["slug"]}"><div class="hero-kicker">Next up · {esc(hero["day"])}</div>'
-                 f'<div class="hero-title">The Moon occults {esc(hero["target"])}</div>'
-                 f'<div class="hero-note">{esc(hero["note"])}</div></a>{sat_hero}</div>')
+    def year_rows(entries):
+        by_year = {}
+        for ymk, slug, label, detail in entries:
+            by_year.setdefault(int(ymk[:4]), {})[int(ymk[5:])] = (ymk, slug, label, detail)
+        out = []
+        for y in sorted(by_year):
+            cells = []
+            for mo in range(1, 13):
+                e = by_year[y].get(mo)
+                if e:
+                    cells.append(f'<li class="mo" data-ym="{e[0]}" data-label="{esc(e[2])}" data-detail="{esc(e[3])}">'
+                                 f'<a href="/{e[1]}" title="{esc(e[2])}: {esc(e[3])}">{MON[mo - 1]}</a></li>')
+                else:
+                    cells.append(f'<li aria-hidden="true"><span>{MON[mo - 1]}</span></li>')
+            out.append(f'<div class="yr"><span class="yr-label">{y}</span><ul class="mpills">{"".join(cells)}</ul></div>')
+        return f'<div class="yrs">{"".join(out)}</div>'
 
-    # planet moons: one strip per planet, the month in progress first (the browser does that)
-    def strip(planet, heading, blurb):
-        rows_ = [j for j in jup if j.get("planet", "jupiter") == planet]
-        if not rows_:
-            return ""
-        items_ = "".join(
-            f'<li class="mo" data-ym="{j["year"]}-{j["month"]:02d}"><a href="/{j["slug"]}">'
-            f'<span class="mo-name">{esc(j["label"])}</span><span class="mo-n">{j["n"]} events'
-            f'{(" · " + str(j["n_mutual"]) + " mutual") if j["n_mutual"] else ""}</span></a></li>' for j in rows_)
-        return f"""
-  <h2 id="{planet}">{heading}</h2>
-  <p class="hint">{blurb}</p>
-  <ul class="months">{items_}</ul>"""
-    jup_section = strip("jupiter", "Jupiter's moons",
-                        "Eclipses, occultations, transits and shadows of Io, Europa, Ganymede and Callisto — plus the "
-                        "2026–27 mutual events, when they eclipse and occult each other. One page per month.") + \
-                  strip("saturn", "Saturn's moons",
-                        "Titan, Rhea, Dione, Tethys, Enceladus, Mimas and Iapetus behind, in front of and in the shadow of "
-                        "Saturn — possible only in the years around the 2025 ring-plane crossing. One page per month.")
+    # ---------------- occultation rows
+    def row(b, past):
+        w = b["when"]
+        detail = f"{w.strftime('%a %-d %b %Y')} · {b['audience']}"
+        tags = (f'<span class="tags"><span class="tag tag-{b["kind"]}">{b["kind"]}</span>'
+                f'<span class="tag">{esc(b["audience"])}</span></span>')
+        return (f'<li class="ev{" past" if past else ""}" data-end="{b["end_utc"]}" data-detail="{esc(detail)}">'
+                f'<a href="/{b["slug"]}"><span class="ev-date"><span class="ev-dmy">{w.strftime("%-d %b")}</span>'
+                f'<span class="ev-y">{w.strftime("%a %Y")}</span></span>'
+                f'<span class="ev-body"><span class="ev-what">The Moon occults {esc(b["target"])}</span>'
+                f'<span class="ev-note">{esc(b["note"])}</span></span>{tags}</a></li>')
 
-    ms_items = "".join(
-        f'<li class="mo" data-ym="{m["year"]}-{m["month"]:02d}"><a href="/{m["slug"]}">'
-        f'<span class="mo-name">{esc(m["label"])}</span><span class="mo-n">{m["n"]} from New Delhi · 80 mm</span></a></li>' for m in ms)
-    ms_section = f"""
-  <h2 id="moon-stars">The Moon and the stars</h2>
-  <p class="hint">Every star to magnitude 9.5 the Moon hides, computed for your own location and instrument — about one
-  a night with a small telescope. One page per month.</p>
-  <ul class="months">{ms_items}</ul>""" if ms else ""
-    desc = ("Lunar occultations of planets and bright stars: where on Earth each one can be seen, the graze-limit "
-            "map, and city-by-city contact times — computed from the JPL DE431 ephemeris.")
+    upcoming = [b for b in built if parse(b["end_utc"]) >= now]
+    past = [b for b in built if parse(b["end_utc"]) < now]
+    rows = "".join(row(b, False) for b in upcoming) + "".join(row(b, True) for b in reversed(past))
+    nxt = upcoming[0] if upcoming else (built[-1] if built else None)
+
+    # ---------------- tiles
+    tiles = []
+    if nxt:
+        tiles.append(f'<a class="tile t-occ" id="tile-occ" href="/{nxt["slug"]}">{ICONS["occ"]}'
+                     f'<span class="tile-kicker">Next lunar occultation</span>'
+                     f'<span class="tile-title">The Moon occults {esc(nxt["target"])}</span>'
+                     f'<span class="tile-detail">{esc(nxt["when"].strftime("%a %-d %b %Y"))} · {esc(nxt["audience"])}</span></a>')
+    for k, kicker in (("ms", "Moon & stars · this month"), ("jup", "Jupiter's moons · this month"), ("sat", "Saturn's moons · this month")):
+        cur = current(months[k])
+        if cur:
+            tiles.append(f'<a class="tile t-{k}" id="tile-{k}" href="/{cur[1]}" data-ym="{cur[0]}">{ICONS[k]}'
+                         f'<span class="tile-kicker">{kicker}</span><span class="tile-title">{esc(cur[2])}</span>'
+                         f'<span class="tile-detail">{esc(cur[3])}</span></a>')
+
+    # ---------------- sections
+    def section(k, body):
+        _, anchor, name, _, what, facts = kinds[k]
+        facts_html = "".join(f"<li><b>{esc(a)}</b> {esc(b)}</li>" for a, b in facts)
+        return (f'<section class="kind t-{k}" id="kind-{k}"><a id="{anchor}"></a><header class="kind-head">{ICONS[k]}'
+                f'<h2>{esc(name)}</h2><p class="kind-what">{esc(what)}</p><ul class="kind-facts">{facts_html}</ul></header>{body}</section>')
+
+    sections = []
+    if built:
+        sections.append(section("occ", f'<ul class="evlist" id="evlist">{rows}</ul>'
+                                       f'<p class="ev-more"><button class="btn" id="ev-more" type="button">Show all events</button></p>'))
+    for k in ("ms", "jup", "sat"):
+        if months[k]:
+            cur = current(months[k])
+            sections.append(section(k, f'<p class="this-month">This month: <a href="/{cur[1]}">{esc(cur[2])}</a> — {esc(cur[3])}</p>'
+                                       + year_rows(months[k])))
+
+    nav = "".join(f'<a class="t-{k[0]}" href="#{k[1]}">{ICONS[k[0]]}{esc(k[3])}</a>' for k in KINDS if (k[0] == "occ" and built) or months.get(k[0]))
+    desc = ("Lunar occultations of planets and stars, and the eclipses, transits and mutual events of Jupiter's and Saturn's "
+            "moons — where on Earth they can be seen and when, computed from JPL ephemerides.")
     page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
 <main class="wrap">
-  <h1>When the Moon hides a planet or a star</h1>
-  <p class="sub">{TAGLINE} — where on Earth, and when, city by city</p>
-  {hero_html}
-  <h2>Lunar occultations</h2>
-  <ul class="evlist" id="evlist">{rows}</ul>
-  {ms_section}
-  {jup_section}
-  <h2>How these are made</h2>
-  <p class="method">The event list is chosen by hand; every time and line is then computed from the JPL DE431
-  ephemeris for the Moon's mean limb (±2 s against the real, mountainous limb). Each page links the JSON
-  it was built from. Nothing here is copied from another prediction service.</p>
+  <h1 class="home-h1">What passes in front of what — and when you can see it</h1>
+  <p class="sub">Four kinds of sky events, computed from JPL ephemerides for where you are.</p>
+  <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
+  <h2>Coming up</h2>
+  <div class="upnext">{"".join(tiles)}</div>
+  {"".join(sections)}
+  <section class="kind" id="method"><h2>How these are made</h2>
+  <p class="method">Every time, line and diagram here is computed, not copied: planets, the Moon and the Sun from the JPL DE431
+  ephemeris, Jupiter's and Saturn's moons from JPL's satellite ephemerides, stars from Gaia DR3 and Hipparcos-2, and the
+  Moon's mountains from NASA's LRO laser altimeter. The lunar-occultation list is chosen by hand; each page links the data it
+  was built from.</p></section>
 </main>
 {FOOTER}
-<script>
-(function () {{
-  // 'past' is decided by the reader's clock, not the build's: re-sort so upcoming come first, past last
-  var now = Date.now(), list = document.getElementById('evlist'), items = [].slice.call(list.children);
-  var up = [], past = [];
-  items.forEach(function (li) {{ (Date.parse(li.dataset.end) < now ? past : up).push(li); li.classList.toggle('past', Date.parse(li.dataset.end) < now); }});
-  up.concat(past.reverse()).forEach(function (li) {{ list.appendChild(li); }});
-  if (past.length) {{ var h = document.createElement('li'); h.className = 'divider'; h.textContent = 'Past'; list.insertBefore(h, past[0]); }}
-  var hero = document.getElementById('hero'), first = up[0];
-  if (hero && first && hero.getAttribute('href') !== first.querySelector('a').getAttribute('href')) {{
-    hero.setAttribute('href', first.querySelector('a').getAttribute('href'));
-    hero.querySelector('.hero-kicker').textContent = 'Next up · ' + first.querySelector('.ev-date').textContent;
-    hero.querySelector('.hero-title').textContent = first.querySelector('.ev-what').textContent;
-    hero.querySelector('.hero-note').textContent = first.querySelector('.ev-note').textContent;
-  }}
-  var ym = new Date().toISOString().slice(0, 7), cur = document.querySelector('.mo[data-ym="' + ym + '"]');
-  // current month first and highlighted in every month strip; earlier months dimmed
-  document.querySelectorAll('.mo[data-ym="' + ym + '"]').forEach(function (c) {{ c.classList.add('current'); c.parentNode.insertBefore(c, c.parentNode.firstChild); }});
-  document.querySelectorAll('.mo').forEach(function (li) {{ if (li.dataset.ym < ym) li.classList.add('past'); }});
-  ['jupiter', 'saturn'].forEach(function (pl) {{
-    var sh = document.getElementById('hero-' + pl);
-    if (!sh || sh.dataset.ym === ym) return;
-    var m = document.querySelector('#' + pl + ' ~ .months .mo[data-ym="' + ym + '"] a');
-    if (!m) return;
-    sh.setAttribute('href', m.getAttribute('href'));
-    sh.querySelector('.hero-title').textContent = pl.charAt(0).toUpperCase() + pl.slice(1) + "'s moons in " + m.querySelector('.mo-name').textContent;
-    sh.querySelector('.hero-note').textContent = m.querySelector('.mo-n').textContent + ' this month. ' + sh.dataset.why;
-  }});
-}})();
-</script>
+<script>{INDEX_JS}</script>
 </body>
 </html>
 """
@@ -1130,8 +1208,10 @@ def build_index(seed, built, jup=(), ms=()):
     sm.append("</urlset>\n")
     (OUT / "sitemap.xml").write_text("\n".join(sm))
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-    # Cloudflare Pages: text is unhashed, keep it short-lived; the JSON is immutable per generation date
-    (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n")
+    # Cloudflare Pages: unhashed text stays short-lived; KML/GPX download; images long-lived (URLs carry ?v= hashes)
+    (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n"
+                                  "/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n"
+                                  "/img/*\n  Cache-Control: public, max-age=2592000\n")
     (OUT / "404.html").write_text(head(f"Not found · {SITE_NAME}", "No such page.", "/404") + f"""
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
 <p><a href="/">All events</a></p></main>{FOOTER}</body></html>

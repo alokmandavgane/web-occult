@@ -51,6 +51,21 @@ Rules that are easy to break:
   sources dropped as likely artefacts. Visibility is a documented rule of thumb (instrument V limits at the dark /
   bright limb, moonglare and twilight penalties, Moon ≥ 5°, no daylight except V ≤ 1.5), shown on the page. Mean limb.
   Pages prerender New Delhi with an 80 mm telescope, so builds need the venv and take ~2.5 min.
+  Layout: a month calendar (a phase Moon and the count of visible events per night) above one card per
+  *observing night* (noon to noon, so 01:30 stays with the evening before), each with a drawn Moon whose numbered
+  marks sit at the contacts' position angles. The Moons come from `site/js/moon.js` (`MoonRender`, ~4.6 KB), which
+  shades `site/img/moon-relief-360.png` — LOLA heights, 360×180, 40 KB, built by `engine/moon_texture.py` — with
+  the real Sun direction, turned to the libration and lunar-pole position angle stored per day in the month
+  file (`lib`, pinned against JPL Horizons in the tests). North up, east left. The data, renderer and texture
+  URLs carry a content hash (`?v=`): `/data` is cached a day and `/img` 30 days, and a stale month file without
+  `lib` once broke the page — never drop the hash. The row HTML exists twice (`li_html` / JS `li`), and the page
+  check compares them text for text.
+- **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
+  what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
+  `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section
+  per kind: occultations as a list (first five, "Show all"), the monthly features as year rows of month links. Which
+  occultation is next and which month is current are prerendered from the build date and corrected in the browser by
+  the reader's clock (`INDEX_JS`). A new kind of event = one `KINDS` entry, one icon, one colour, one section.
 - Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, and Jupiter's and Saturn's moons. Asteroid
   occultations and ISS transits are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

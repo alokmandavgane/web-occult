@@ -265,7 +265,24 @@ def build_month(ym, rows, ts, eph, log=print):
         ves.append([round(float(x), 7) for x in earth.at(ts.tt_jd(T0.tt + (seg0 + 1440 * k + 720) / 1440.0)).velocity.km_per_s])
     assert np.degrees(worst) * 3600 < 1e-3, f"moon fit {np.degrees(worst)*3600} arcsec"
 
-    d = {"schema": 2, "month": ym, "t0": t0.strftime("%Y-%m-%dT%H:%M:%SZ"), "total_min": total_min,
+    # the Moon's face for the page's renderer, per segment centre (geocentric): sub-Earth selenographic
+    # lat / lon (MOON_ME frame, east-positive) and the sky position angle of the lunar north pole
+    from lunar_limb import MoonOrientation
+    orient = MoonOrientation()
+    lib = []
+    for k in range(nseg):
+        tc = ts.tt_jd(T0.tt + (seg0 + 1440 * k + 720) / 1440.0)
+        R = orient.rotation(tc)
+        mh = earth.at(tc).observe(moon).apparent().position.km
+        mh = mh / np.linalg.norm(mh)
+        o = R @ (-mh)
+        pole = R.T @ np.array([0.0, 0.0, 1.0])
+        east = np.cross([0.0, 0.0, 1.0], mh); east /= np.linalg.norm(east)
+        north = np.cross(mh, east)
+        lib.append([round(math.degrees(math.asin(o[2])), 3), round((math.degrees(math.atan2(o[1], o[0])) + 180) % 360 - 180, 3),
+                    round(math.degrees(math.atan2(pole @ east, pole @ north)), 3)])
+
+    d = {"schema": 3, "lib": lib, "month": ym, "t0": t0.strftime("%Y-%m-%dT%H:%M:%SZ"), "total_min": total_min,
          "seg0_min": seg0, "moon_deg": MOON_DEG, "sun_deg": SUN_DEG, "era_rate_deg_per_min": ERA_RATE,
          "moon": moon_c, "sun": sun_c, "R0": R0s, "v_earth": ves,
          "moon_radius_km": R_MOON_KM, "earth_a_km": 6378.137, "earth_f": 1 / 298.257223563}
