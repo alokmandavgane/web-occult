@@ -25,6 +25,9 @@ Rules that are easy to break:
   JPL samples stored in `data/saturn-moons-<year>.json` (`config`, generator `--config`) for Saturn.
   Saturn's rings are NOT modelled — "behind Saturn" means behind the globe; near the 2025 equinox the
   rings are edge-on so it barely matters, but say so on the page (it does).
-- Mean limb (R = 1737.4 km): contacts are ±2 s; limit lines ≈ grid resolution. Say so on pages, don't imply IOTA precision.
+- Limb: the city tables' contacts and the solid `limits_exact` lines use the **real lunar limb** (LRO LOLA
+  LDEM_64 silhouette at each observer's libration — `lunar_limb.py` in kaalshodh); each city row also
+  keeps `contacts_mean_limb` and `limb_shift_s`. The browser solver, the shaded region and the world map
+  are still the mean sphere (±2 s). The pages say exactly this; keep it true if either side changes.
 - Scope now: lunar occultations of grahas and bright stars. Asteroid occultations and grazes at IOTA precision are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

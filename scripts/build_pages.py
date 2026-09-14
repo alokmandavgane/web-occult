@@ -82,8 +82,12 @@ def svg_map(data, geo, aud, cities, featured, width=800, inset=False):
     out.append(f'<path class="region" fill-rule="evenodd" d="{p.path(m["region"])}"/>')
     if m["region_night"]:
         out.append(f'<path class="night" fill-rule="evenodd" d="{p.path(m["region_night"])}"/>')
+    exact = m.get("limits_exact") or []
     for lim in m["limits"]:
-        out.append(f'<path class="limit limit-{lim["kind"]}" d="{p.path([lim["points"]], close=False)}"/>')
+        cls = "limit-grid" if exact and lim["kind"] in ("north", "south") else f"limit-{lim['kind']}"
+        out.append(f'<path class="limit {cls}" d="{p.path([lim["points"]], close=False)}"/>')
+    for lim in exact:
+        out.append(f'<path class="limit limit-{lim["kind"]} limit-exact" d="{p.path([lim["points"]], close=False)}"/>')
     if inset:
         # the audience frame on the world inset
         ab = data["maps"][data["audience"]]["bbox"]
@@ -228,6 +232,7 @@ BASE_CSS = """
     .limit { fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
     .limit-north, .limit-south { stroke: var(--c-limit); }
     .limit-horizon { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .limit-grid { stroke: var(--c-limit); stroke-width: 1; opacity: 0.35; stroke-dasharray: 3 3; }
     .frame { fill: none; stroke: var(--c-limit); stroke-width: 1.2; }
     .city { stroke: var(--card); stroke-width: 1; }
     .city-visible { fill: var(--c-visible); }
@@ -361,6 +366,62 @@ FOOTER = f"""
 """
 
 
+def write_geo_files(slug, data, tz, tzl):
+    """KML (Google Earth / Maps) and GPX (phone GPS apps) with the graze limits, the visibility
+    region and the listed cities' times — what a graze chaser plans a station from."""
+    m = data["maps"][data["audience"]]
+    tname = data["target"]["names"]["common"]
+    title = f"The Moon occults {tname} — {data['geocentric']['t_min'][:10]}"
+
+    def coords(points):   # KML wants lon,lat
+        return " ".join(f"{lon},{lat},0" for lat, lon in points)
+
+    k = [f'<?xml version="1.0" encoding="UTF-8"?>\n<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>{esc(title)}</name>',
+         f'<description>Graze limits and visibility from {SITE}/{slug}. Solid limits are traced against the real lunar limb (LRO LOLA); '
+         f'the dotted line is the mean-sphere limit. Times in the city placemarks are {esc(tzl)}, real limb.</description>',
+         '<Style id="exact"><LineStyle><color>ff06b6d9</color><width>4</width></LineStyle></Style>',
+         '<Style id="mean"><LineStyle><color>8006b6d9</color><width>2</width></LineStyle></Style>',
+         '<Style id="region"><LineStyle><color>80e6c07d</color><width>1</width></LineStyle><PolyStyle><color>3fe6c07d</color></PolyStyle></Style>',
+         '<Style id="night"><LineStyle><width>0</width></LineStyle><PolyStyle><color>3fed3ac4</color></PolyStyle></Style>',
+         '<Style id="city"><IconStyle><scale>0.8</scale></IconStyle></Style>']
+    k.append('<Folder><name>Graze limits (real lunar limb)</name>')
+    for lim in m.get("limits_exact") or []:
+        k.append(f'<Placemark><name>{lim["kind"]} limit — real limb</name><styleUrl>#exact</styleUrl>'
+                 f'<LineString><tessellate>1</tessellate><coordinates>{coords(lim["points"])}</coordinates></LineString></Placemark>')
+    k.append('</Folder><Folder><name>Mean-sphere limits</name>')
+    for lim in m["limits"]:
+        if lim["kind"] in ("north", "south"):
+            k.append(f'<Placemark><name>{lim["kind"]} limit — mean sphere</name><styleUrl>#mean</styleUrl>'
+                     f'<LineString><tessellate>1</tessellate><coordinates>{coords(lim["points"])}</coordinates></LineString></Placemark>')
+    k.append('</Folder><Folder><name>Visibility</name>')
+    for name, rings, style in (("sees the occultation", m["region"], "region"), ("after sunset", m["region_night"], "night")):
+        for ring in rings:
+            k.append(f'<Placemark><name>{name}</name><styleUrl>#{style}</styleUrl><Polygon><outerBoundaryIs><LinearRing>'
+                     f'<coordinates>{coords(ring)}</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>')
+    k.append('</Folder><Folder><name>Cities</name>')
+    for c in data["cities"]:
+        if c["verdict"] == "moon_down":
+            continue
+        con = c.get("contacts", {})
+        if con:
+            d = " · ".join(f"{kk} {t_local(v, tz)}" for kk, v in con.items())
+        else:
+            d = f"near miss: {tname} passes {c['sep_arcmin'] - c['moon_sd_arcmin']:.1f}′ from the limb"
+        k.append(f'<Placemark><name>{esc(c["name"])}</name><styleUrl>#city</styleUrl><description>{esc(d)} ({esc(tzl)})</description>'
+                 f'<Point><coordinates>{c["lon"]},{c["lat"]},0</coordinates></Point></Placemark>')
+    k.append('</Folder></Document></kml>\n')
+    (OUT / "kml").mkdir(exist_ok=True)
+    (OUT / "kml" / f"{slug}.kml").write_text("\n".join(k))
+
+    g = ['<?xml version="1.0" encoding="UTF-8"?>', f'<gpx version="1.1" creator="{SITE}" xmlns="http://www.topografix.com/GPX/1/1">',
+         f'<metadata><name>{esc(title)} — graze limits</name></metadata>']
+    for lim in (m.get("limits_exact") or [l for l in m["limits"] if l["kind"] in ("north", "south")]):
+        g.append(f'<trk><name>{lim["kind"]} graze limit</name><trkseg>' +
+                 "".join(f'<trkpt lat="{lat}" lon="{lon}"/>' for lat, lon in lim["points"]) + '</trkseg></trk>')
+    g.append('</gpx>\n')
+    (OUT / "kml" / f"{slug}.gpx").write_text("\n".join(g))
+
+
 def build(seed, slug):
     entry = next(e for e in seed["events"] if e["slug"] == slug)
     data = json.loads((ROOT / "data" / f"{slug}.json").read_text())
@@ -433,10 +494,17 @@ def build(seed, slug):
     limit_para = ""
     if near_miss:
         gap = near_miss["sep_arcmin"] - near_miss["moon_sd_arcmin"]
+        exact_note = ""
+        ex = data["maps"][data["audience"]].get("limits_exact")
+        if ex:
+            sh = ex[0].get("shift_km") or {}
+            exact_note = (f" The solid line is traced against the real lunar limb — LRO LOLA terrain, the mountains and valleys "
+                          f"that are on the edge for this libration — and sits {sh.get('min', 0):+.1f} to {sh.get('max', 0):+.1f} km from the "
+                          f"mean-sphere line (dotted).")
         limit_para = (f"<p>The gold line is the <strong>north limit</strong>: along it {tname} grazes the Moon's "
                       f"northern edge. North of the line it is a near miss — from {esc(near_miss['name'])} {tname} "
                       f"passes just {gap:.1f}′ outside the limb — and a graze seen from right on the line, {tname} "
-                      f"blinking in and out behind lunar mountains, is the finest view of all.</p>")
+                      f"blinking in and out behind lunar mountains, is the finest view of all.{exact_note}</p>")
     night_para = ""
     if data["maps"][data["audience"]]["region_night"]:
         night_para = ("<p>The violet shading is where the Sun has set by the time of the event, so the "
@@ -529,7 +597,8 @@ def build(seed, slug):
   </div>
   {limit_para}
   {night_para}
-  <p class="hint">Tap the map to set your location.</p>
+  <p class="hint">Tap the map to set your location. Take the graze line with you:
+  <a href="/kml/{slug}.kml">KML</a> for Google Earth / Maps · <a href="/kml/{slug}.gpx">GPX</a> for a phone GPS app.</p>
 
   <h2 id="moon">At the Moon's edge</h2>
   <div class="limb-card">
@@ -543,8 +612,7 @@ def build(seed, slug):
   <script type="application/json" id="limb-data">{json.dumps(limb, ensure_ascii=False, separators=(",", ":"))}</script>
 
   <h2 id="cities">City by city</h2>
-  <p>Times are for the Moon's mean limb; the real limb's mountains and valleys shift each contact by up to a
-  couple of seconds. <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
+  <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
   Moon's height above the horizon (0° is the horizon, 90° straight up) and compass direction at that moment,
   and whether the Sun is still up.</p>
@@ -565,10 +633,11 @@ def build(seed, slug):
   <h2 id="watch">How to watch</h2>{tips}
 
   <h2>Method &amp; accuracy</h2>
-  <p class="method">Positions from the JPL <strong>DE431</strong> ephemeris (Skyfield), ΔT = {data['engine']['delta_t_s']} s,
-  the Moon as a sphere of mean radius {data['engine']['moon_radius_km']} km — contact times are therefore
-  ±2 s or so against the true, mountainous limb, and the limit line is drawn from a
-  {data['maps'][data['audience']]['grid_deg']}° grid (≈10 km). {esc(tname)}'s own disc
+  <p class="method">Positions from the JPL <strong>DE431</strong> ephemeris (Skyfield), ΔT = {data['engine']['delta_t_s']} s.
+  The city table's contact times and the solid limit line use the <strong>real lunar limb</strong> — the silhouette of
+  LRO LOLA terrain (LDEM_64, ~0.5 km) at each observer's own libration — so they carry the mountains and valleys
+  that a mean sphere misses (up to a few seconds at ordinary contacts, tens of seconds near a graze). The
+  any-location solver in your browser and the shaded region still use the mean sphere of {data['engine']['moon_radius_km']} km (±2 s). {esc(tname)}'s own disc
   ({2 * g['target_sd_arcsec']:.0f}″ across) is included: partial contacts are the <small>from/to</small> times.
   The numbers behind this page: <a href="/data/{slug}.json">{slug}.json</a>.
   Generated {data['generated'][:10]}.</p>
@@ -777,6 +846,7 @@ def build(seed, slug):
 """
     out = OUT / f"{slug}.html"
     out.write_text(page)
+    write_geo_files(slug, data, tz, tzl)
     (OUT / "data").mkdir(exist_ok=True)
     (OUT / "data" / f"{slug}.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     print(f"wrote site/{slug}.html ({out.stat().st_size // 1024} KB): {len(vis)} visible / {len(misses)} miss / "
@@ -942,7 +1012,7 @@ def build_index(seed, built, jup=()):
     (OUT / "sitemap.xml").write_text("\n".join(sm))
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     # Cloudflare Pages: text is unhashed, keep it short-lived; the JSON is immutable per generation date
-    (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n")
+    (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n")
     (OUT / "404.html").write_text(head(f"Not found · {SITE_NAME}", "No such page.", "/404") + f"""
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
 <p><a href="/">All events</a></p></main>{FOOTER}</body></html>
