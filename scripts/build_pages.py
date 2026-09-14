@@ -1055,7 +1055,7 @@ KINDS = [
      "Every night the Moon slides over fainter stars. A star doesn't fade — it switches off at one edge and back on at the other. Computed for your own place.",
      [("You need", "binoculars or a small telescope"), ("How often", "about one a night"), ("Each page", "a month calendar and every event for your location")]),
     ("jup", "jupiter", "Jupiter's moons", "Jupiter",
-     "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face. In 2026–27 they also eclipse and hide one another.",
+     "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face — and the Great Red Spot turns to face us every ten hours.",
      [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a live diagram of the moons")]),
     ("sat", "saturn", "Saturn's moons", "Saturn",
      "Titan, Rhea, Dione and Tethys cross Saturn's face and fall into its shadow — possible only in the few years around the 2025 ring-plane crossing.",

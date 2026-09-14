@@ -74,6 +74,14 @@ Rules that are easy to break:
   type icon; halves behind the planet or in its shadow say "unseen". `item_li` (Python prerender, New Delhi) and
   `li()` in `RENDER_JS` are twins with identical rounding (`floor(x + 0.5)`) — keep them so; tapping a row moves the
   diagram (`window.JDiagram.at`).
+- **Great Red Spot transits** (`engine/grs_transits.py` → `data/jupiter-grs.json`, merged into the Jupiter pages as
+  `kind: "grs"` rows, a "Red Spot" chip, and the spot drawn on the diagram's disc). The central meridian is System II
+  (W = 43.3° + 870.270°/d) on the IAU pole from DE431 with light time; the same code with System III constants matches
+  JPL Horizons' ObsSub-LON to 0.01° (`tests/test_grs_transits.py`). The spot's longitude is an OBSERVATION, not
+  ephemeris: `catalog/grs.json` (longitude at a date, drift per month, source) is extrapolated only to its
+  `valid_until`, and months past that simply have no spot rows. Refresh it from Sky & Telescope / JUPOS each
+  apparition, extend `valid_until`, re-run the engine. Project Pluto's 2026 table holds L2 ≈ 80° all year with no
+  drift, so by late 2026 its times run ~30 min early against the JUPOS trend — don't "fix" ours to match it.
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
   `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section

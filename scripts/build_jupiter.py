@@ -21,10 +21,12 @@ from build_pages import FOOTER, OUT, ROOT, SITE, SITE_NAME, esc, head
 
 MOON_NAME = {"io": "Io", "europa": "Europa", "ganymede": "Ganymede", "callisto": "Callisto",
              "mimas": "Mimas", "enceladus": "Enceladus", "tethys": "Tethys", "dione": "Dione",
-             "rhea": "Rhea", "titan": "Titan", "iapetus": "Iapetus"}
+             "rhea": "Rhea", "titan": "Titan", "iapetus": "Iapetus", "grs": "Great Red Spot"}
+GRS_COLOR = "#d9603b"
+GRS_HALF_VIEW = 3000   # s: the spot sits well on the disc for ~50 min either side of the central meridian
 PLANETS = {
     "jupiter": dict(name="Jupiter", moons=["io", "europa", "ganymede", "callisto"], oblate=0.935,
-                    colors={"io": "#f59e0b", "europa": "#60a5fa", "ganymede": "#a78bfa", "callisto": "#34d399"},
+                    colors={"io": "#f59e0b", "europa": "#60a5fa", "ganymede": "#a78bfa", "callisto": "#34d399", "grs": GRS_COLOR},
                     radii_rp={"io": 0.0255, "europa": 0.0218, "ganymede": 0.0368, "callisto": 0.0337},
                     pole=[268.056595, -0.006499, 64.495303, 0.002413], rings=None, zooms=[30, 8],
                     intro="Jupiter's four big moons put on a show every night: they slip behind the planet and into its "
@@ -64,9 +66,13 @@ ICONS = {
               '<circle cx="14.5" cy="11" r="2.6" fill="var(--card)"/></svg>',
     "mutual": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="12" r="5" fill="currentColor" opacity=".45"/>'
               '<circle cx="15" cy="12" r="5" fill="currentColor"/></svg>',
+    "grs": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="currentColor" opacity=".22"/>'
+           '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.4"/>'
+           '<path d="M12 3.5 V20.5" stroke="currentColor" stroke-width="1" stroke-dasharray="1.6 1.4"/>'
+           f'<ellipse cx="12" cy="14.6" rx="3.4" ry="2.1" fill="{GRS_COLOR}"/></svg>',
 }
 LEGEND = [("occultation", "behind the planet"), ("eclipse", "in its shadow"), ("transit", "crossing its face"),
-          ("shadow", "shadow on the planet"), ("mutual", "moons eclipse or hide each other")]
+          ("shadow", "shadow on the planet"), ("mutual", "moons eclipse or hide each other"), ("grs", "Great Red Spot mid-disc")]
 
 
 # ---------------------------------------------------------------------------------------------- data
@@ -126,7 +132,7 @@ def good(s, it, lat, lon):
 
 
 def item_ok(it, lat, lon):
-    if it["kind"] == "mutual":
+    if it["kind"] in ("mutual", "grs"):
         return good(it["t"], it, lat, lon)
     return any(h and h["seen"] and good(h["t"], it, lat, lon) for h in (it["start"], it["end"]))
 
@@ -140,6 +146,9 @@ def item_li(it, P, tz, lat, lon):
         title = f"{m} {'occults' if it['verb'] == 'occults' else 'eclipses'} {MOON_NAME[it['b']]}"
         times = f"{hm(it['t'])} · {r0(it['dur'] * 10) / 10:.1f} min"
         extra = f"{r0(it['covered'] * 100)}% of {MOON_NAME[it['b']]} covered · ≈{r0(it['drop'] * 10) / 10:.1f} mag fainter"
+    elif it["kind"] == "grs":
+        title = f"Great Red Spot crosses the middle of {P['name']}"
+        times = f"{hm(it['t'])} · on view {hm(it['t'] - GRS_HALF_VIEW)}–{hm(it['t'] + GRS_HALF_VIEW)}"
     else:
         tmpl, w1, w2 = TYPES[it["kind"]]
         title = tmpl.format(m=m, p=P["name"])
@@ -261,6 +270,17 @@ DIAGRAM_JS = r"""
       [[0.3, 0.17], [-0.2, 0.2], [-0.62, 0.1]].forEach(function (b) {
         svg.appendChild(el('rect', { x: cx - s, y: cy - (b[0] + b[1] / 2) * ry, width: 2 * s, height: b[1] * ry, class: 'cfg-band', 'clip-path': 'url(#jclip)' }));
       });
+      var G = DD.grs;   // Great Red Spot: its System II longitude against the central meridian (daily DE431 values, interpolated)
+      if (G && G.cm.length > 1) {
+        var gi = (ms / 1000 - G.t0) / 86400, gk = Math.max(0, Math.min(G.cm.length - 2, Math.floor(gi))), gf = gi - gk;
+        if (gi >= 0 && gi <= G.cm.length - 1) {
+          var step = ((G.cm[gk + 1] - G.cm[gk] - 870.27) % 360 + 540) % 360 - 180, cmv = G.cm[gk] + (870.27 + step) * gf;
+          var lon = G.lon + G.drift * (ms / 1000 - G.ref), dl = (((lon - cmv) % 360) + 540) % 360 - 180;   // + = east of the central meridian
+          if (Math.cos(dl * RAD) > 0.05)
+            svg.appendChild(el('ellipse', { cx: cx - sin(dl * RAD) * 0.93 * s, cy: cy + 0.36 * ry, rx: Math.max(1, 0.105 * s * cos(dl * RAD)), ry: 0.075 * ry,
+              class: 'cfg-grs', 'clip-path': 'url(#jclip)' }));
+        }
+      }
     }
     pos.forEach(function (p, i) { if (p.front) moon(p, i, false); });
     var e = el('text', { x: 8, y: 14, class: 'cfg-lbl' }); e.textContent = 'E'; svg.appendChild(e);
@@ -297,13 +317,16 @@ RENDER_JS = r"""
   function tzLabel(tz) { try { return new Intl.DateTimeFormat('en-GB', { timeZone: tz, timeZoneName: 'short' }).formatToParts(new Date(M.t0 * 1000 + 864e6)).filter(function (x) { return x.type === 'timeZoneName'; })[0].value; } catch (e) { return tz; } }
   var LOC = null;
   function good(s, it) { return alt(s, it.ra, it.dec, LOC.lat, LOC.lon) > 10 && alt(s, it.sra, it.sdec, LOC.lat, LOC.lon) < -6; }
-  function itemOk(it) { if (it.kind === 'mutual') return good(it.t, it); return [it.start, it.end].some(function (h) { return h && h.seen && good(h.t, it); }); }
+  function itemOk(it) { if (it.kind === 'mutual' || it.kind === 'grs') return good(it.t, it); return [it.start, it.end].some(function (h) { return h && h.seen && good(h.t, it); }); }
   function li(it, tz) {   // twin of item_li()
     var m = M.names[it.moon], col = M.colors[it.moon] || '#94a3b8', title, times, extra = '';
     if (it.kind === 'mutual') {
       title = m + ' ' + (it.verb === 'occults' ? 'occults' : 'eclipses') + ' ' + M.names[it.b];
       times = hm(it.t, tz) + ' · ' + (r0(it.dur * 10) / 10).toFixed(1) + ' min';
       extra = r0(it.covered * 100) + '% of ' + M.names[it.b] + ' covered · ≈' + (r0(it.drop * 10) / 10).toFixed(1) + ' mag fainter';
+    } else if (it.kind === 'grs') {
+      title = 'Great Red Spot crosses the middle of ' + P.name;
+      times = hm(it.t, tz) + ' · on view ' + hm(it.t - M.grsHalf, tz) + '–' + hm(it.t + M.grsHalf, tz);
     } else {
       var T = M.types[it.kind], parts = [];
       title = T[0].replace('{m}', m).replace('{p}', P.name);
@@ -441,7 +464,7 @@ __FOOTER__
 """
 
 
-def month_page(planet, year, month, items, all_cities, nav, config=None):
+def month_page(planet, year, month, items, all_cities, nav, config=None, grs=None):
     P = PLANETS[planet]
     pname = P["name"]
     moon_list = ", ".join(MOON_NAME[m] for m in P["moons"][:-1]) + " and " + MOON_NAME[P["moons"][-1]]
@@ -460,16 +483,19 @@ def month_page(planet, year, month, items, all_cities, nav, config=None):
     first = items[0] if items else {"ra": 0, "dec": 0}
     diag = {"names": [MOON_NAME[m] for m in P["moons"]], "colors": [P["colors"][m] for m in P["moons"]],
             "radii": [P["radii_rp"][m] for m in P["moons"]], "oblate": P["oblate"], "zooms": P["zooms"],
-            "config": config, "pole": P["pole"], "rings": P["rings"], "ra": first["ra"], "dec": first["dec"]}
+            "config": config, "pole": P["pole"], "rings": P["rings"], "ra": first["ra"], "dec": first["dec"],
+            "grs": grs and {k: grs[k] for k in ("t0", "cm", "lon", "ref", "drift")}}
     kinds_present = {it["kind"] for it in items}
     meta = {"items": items, "planet": {"name": pname}, "names": MOON_NAME, "colors": P["colors"], "icons": ICONS, "types": TYPES,
-            "cities": all_cities, "defaultPlace": list(DEFAULT_PLACE), "ym": [year, month], "t0": t0}
+            "cities": all_cities, "defaultPlace": list(DEFAULT_PLACE), "ym": [year, month], "t0": t0, "grsHalf": GRS_HALF_VIEW}
     chips = "".join(f'<label class="chipbox" style="border-color:{P["colors"][m]}"><input type="checkbox" value="{m}" checked> {MOON_NAME[m]}</label>'
                     for m in P["moons"])
     if n_mutual:
         chips += '<label class="chipbox"><input type="checkbox" value="mutual" checked> Mutual</label>'
     else:
         chips += '<input type="checkbox" value="mutual" checked hidden>'
+    if "grs" in kinds_present:
+        chips += f'<label class="chipbox" style="border-color:{GRS_COLOR}"><input type="checkbox" value="grs" checked> Red Spot</label>'
     legend = "".join(f'<span>{ICONS[k]}{esc(t)}</span>' for k, t in LEGEND if k in kinds_present)
     lead = (P["intro"] + (" This is a mutual-event season — the moons' orbits are edge-on to the Sun and they eclipse and occult "
                           "<em>each other</em>." if n_mutual else "") + " Pick your place: the calendar and the nights keep only what your sky shows.")
@@ -479,7 +505,11 @@ def month_page(planet, year, month, items, all_cities, nav, config=None):
               f"JPL DE431 and the {'jup365' if planet == 'jupiter' else 'sat441'} satellite ephemeris, {pname} as an oblate spheroid with "
               f"its shadow cone{'; the rings are not modelled, so a moon behind Saturn means behind the globe' if planet == 'saturn' else ''}. "
               f"Mutual-event brightness drops assume uniform discs and are estimates. Events are geocentric — the same instant everywhere "
-              f"on Earth to well under a second.")
+              f"on Earth to well under a second."
+              + (f" The Great Red Spot is a storm, not ephemeris: its times are when it crosses the middle of the disc (the central "
+                 f"meridian, System II from DE431), taking its longitude as {grs['lon']:g}° on {grs['date']} drifting "
+                 f"{grs['drift_month']:g}° a month ({esc(grs['source'])}). Each degree that estimate is off moves the time by 1.65 min; "
+                 f"the spot is well placed for about 50 minutes either side." if grs else ""))
     diag_hint = (f"{pname}'s equator horizontal, east to the left as in binoculars. Drag through the month, or tap any event below to "
                  f"jump there. Moons behind the planet fade. " + ("Positions ±0.1 Jupiter radii — for the picture; the times come from JPL."
                                                                   if planet == "jupiter" else "Positions are JPL's, sampled hourly; the rings are drawn at their real tilt."))
@@ -504,7 +534,25 @@ def month_page(planet, year, month, items, all_cities, nav, config=None):
 
 def build_all(all_cities, planet="jupiter"):
     files = sorted(ROOT.glob(f"data/{planet}-moons-*.json"))
-    months, configs = {}, {}
+    months, configs, grs_months = {}, {}, {}
+    grs_file = ROOT / "data" / f"{planet}-grs.json"
+    if grs_file.exists():   # engine/grs_transits.py: only as far ahead as the spot's longitude can be trusted
+        gd = json.loads(grs_file.read_text())
+        g = gd["grs"]
+        ref = datetime.fromisoformat(g["date"]).replace(tzinfo=timezone.utc).timestamp()
+        common = {"lon": g["lon_II"], "ref": int(ref), "drift": g["drift_deg_per_month"] / (30.436875 * 86400),
+                  "date": datetime.fromisoformat(g["date"]).strftime("%-d %b %Y"), "drift_month": g["drift_deg_per_month"], "source": g["source"]}
+        for t, ra, dec, sra, sdec in gd["transits"]:
+            u = datetime.fromtimestamp(t, timezone.utc)
+            months.setdefault((u.year, u.month), []).append({"kind": "grs", "moon": "grs", "t": t, "ra": ra, "dec": dec, "sra": sra, "sdec": sdec})
+            grs_months[(u.year, u.month)] = True
+        cmd = gd["cm_daily"]
+        for key in grs_months:
+            y, m = key
+            m0 = int(datetime(y, m, 1, tzinfo=timezone.utc).timestamp())
+            m1 = int(datetime(y + (m == 12), m % 12 + 1, 1, tzinfo=timezone.utc).timestamp())
+            i0, i1 = max(0, (m0 - cmd["t0"]) // 86400), min(len(cmd["values"]) - 1, (m1 - cmd["t0"]) // 86400)
+            grs_months[key] = dict(common, t0=cmd["t0"] + i0 * 86400, cm=cmd["values"][i0:i1 + 1])
     for f in files:
         d = json.loads(f.read_text())
         for ev in d["events"]:
@@ -532,7 +580,7 @@ def build_all(all_cities, planet="jupiter"):
             py, pm = keys[i - 1]; nav["prev"] = f"{planet}-moons-{py}-{pm:02d}"; nav["prev_label"] = MONTHS[pm - 1][:3]
         if i < len(keys) - 1:
             ny, nm = keys[i + 1]; nav["next"] = f"{planet}-moons-{ny}-{nm:02d}"; nav["next_label"] = MONTHS[nm - 1][:3]
-        built.append(month_page(planet, y, m, items, all_cities, nav, configs.get((y, m))))
+        built.append(month_page(planet, y, m, items, all_cities, nav, configs.get((y, m)), grs_months.get((y, m))))
         print(f"wrote site/{built[-1]['slug']}.html: {len(items)} events ({built[-1]['n_mutual']} mutual), "
               f"{built[-1]['visible_default']} visible from New Delhi")
     return built
@@ -545,6 +593,7 @@ JUPITER_CSS = """
     .cfg-jup { fill: #d9b98a; stroke: #b08a55; stroke-width: 0.8; }
     .cfg-band { fill: #9c6b3a; opacity: 0.45; }
     .cfg-sat { fill: #e3cf9a; stroke: #b39a60; stroke-width: 0.8; }
+    .cfg-grs { fill: #c2502f; stroke: #8f3a22; stroke-width: 0.6; }
     .cfg-ring { fill: #c9b27a; fill-opacity: 0.55; stroke: #a8904f; stroke-width: 0.6; fill-rule: evenodd; }
     .cfg-moon.dim { opacity: 0.25; }
     .cfg-lbl { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
