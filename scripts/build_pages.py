@@ -278,6 +278,20 @@ BASE_CSS = """
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
+    details.advanced { border: 1px dashed var(--line); border-radius: 12px; padding: 0 0.8rem; margin: 1.2rem 0 0; }
+    details.advanced summary { color: var(--muted); font-size: 0.85rem; padding: 0.55rem 0; }
+    details.advanced[open] summary { color: var(--accent); }
+    details.advanced .graze-card { margin-bottom: 0.8rem; }
+    .graze-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .graze-svg { width: 100%; height: auto; display: block; }
+    .gz-sky { fill: var(--sea); }
+    .gz-terrain { fill: #6b7280; opacity: 0.85; }
+    .gz-mean { stroke: var(--muted); stroke-width: 0.8; stroke-dasharray: 3 3; }
+    .gz-star { fill: none; stroke: var(--c-limit); stroke-width: 2; }
+    .gz-disc { fill: var(--c-limit); opacity: 0.2; }
+    .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
+    .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
     .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
     .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
     .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
@@ -523,6 +537,22 @@ def build(seed, slug):
     }
 
     p_main = Proj(geo["bbox"], aud["lat0"], 800)
+    graze_block = ""
+    if (ROOT / "data" / f"{slug}-limb.json").exists():
+        graze_block = f"""  <details class="advanced" id="graze">
+    <summary>Advanced · graze profile against the real lunar limb</summary>
+    <p class="hint">For graze chasers. The lunar limb as it really is for your libration — LRO LOLA terrain, in km above and
+    below the mean sphere — with {esc(tname)}'s track drawn across it six minutes either side of each contact. Where the
+    track dips below the terrain, {esc(tname)} is hidden; near a graze it blinks behind peaks.</p>
+    <div class="graze-card" id="graze-card">
+      <button class="btn" id="graze-load" type="button" data-src="/data/{slug}-limb.json">Load the limb profile (120 KB)</button>
+      <svg id="graze-svg" viewBox="0 0 800 230" class="graze-svg" role="img" aria-label="The target's track against the lunar limb profile" hidden></svg>
+      <p class="hint" id="graze-out"></p>
+    </div>
+  </details>
+
+"""
+
     limb = {
         "tz": aud["tz"], "tzl": tzl, "target": tname, "kind": kind,
         "illum": g["illum_pct"] / 100, "bright_pa": g["bright_limb_pa"],
@@ -611,6 +641,8 @@ def build(seed, slug):
   Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{json.dumps(limb, ensure_ascii=False, separators=(",", ":"))}</script>
 
+  {graze_block}
+
   <h2 id="cities">City by city</h2>
   <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
@@ -685,7 +717,7 @@ def build(seed, slug):
       var ram = Math.atan2(M.u[1], M.u[0]), decm = Math.asin(M.u[2]), ras = Math.atan2(S.u[1], S.u[0]), decs = Math.asin(S.u[2]);
       var dra = ((ras - ram + 3 * Math.PI) % (2 * Math.PI)) - Math.PI;
       var azm = Math.atan2(dot(M.u, eg), dot(M.u, ng)) / RAD; if (azm < 0) azm += 360;
-      return {{ sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
+      return {{ sep: sep, sdm: sdm, sdt: sdt, mu: M.u, mdist: M.dist, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
                east: dra * Math.cos(decm) / RAD * 60, north: (decs - decm) / RAD * 60 }};
     }};
   }}
@@ -746,7 +778,8 @@ def build(seed, slug):
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
       h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + ' · at disappearance' : '');
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
-      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
+      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : (r.verdict === 'visible' ? 'grazing partial' : 'Moon below horizon');
+      if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here — a grazing partial");
     }} else {{
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
@@ -764,6 +797,7 @@ def build(seed, slug):
     if (!label) sel.value = '';
     if (!fromUrl) {{ var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }}
     drawLimb(r);
+    if (typeof drawGraze === 'function') drawGraze(r);
   }}
   chip.addEventListener('click', function () {{ sheet.showModal(); }});
   sheet.addEventListener('click', function (e) {{ if (e.target === sheet) sheet.close(); }});
@@ -792,6 +826,76 @@ def build(seed, slug):
     }}, {{ rootMargin: '-40% 0px -55% 0px' }});
     secs.forEach(function (sc) {{ if (sc) io.observe(sc); }});
   }}
+
+  // ---- graze profile: the target's track against the real lunar limb for THIS location ----
+  var gzCard = document.getElementById('graze-card'), gzBtn = document.getElementById('graze-load'), gzSvg = document.getElementById('graze-svg'), gzOut = document.getElementById('graze-out');
+  var LIMB = null, lastR = null;
+  function rotMe(m) {{   // ICRF -> MOON_ME at t0 + m minutes: the Moon spins about its pole
+    var th = LIMB.spin_deg_per_min * m * RAD, c = Math.cos(th), s = Math.sin(th), R0 = LIMB.R_me;
+    return [c*R0[0] + s*R0[3], c*R0[1] + s*R0[4], c*R0[2] + s*R0[5], -s*R0[0] + c*R0[3], -s*R0[1] + c*R0[4], -s*R0[2] + c*R0[5], R0[6], R0[7], R0[8]];
+  }}
+  function limbKm(m, g) {{   // real limb radius excess (km) at the target's PA, for the observer's libration
+    var R = rotMe(m), u = g.mu, o = [-(R[0]*u[0] + R[1]*u[1] + R[2]*u[2]), -(R[3]*u[0] + R[4]*u[1] + R[5]*u[2]), -(R[6]*u[0] + R[7]*u[1] + R[8]*u[2])];
+    var lat = Math.asin(o[2]) / RAD, lon = Math.atan2(o[1], o[0]) / RAD;
+    var dlat = lat - LIMB.sub_earth[0], dlon = ((lon - LIMB.sub_earth[1] + 540) % 360) - 180;
+    var n = LIMB.nodes, h = (n - 1) / 2, fi = Math.max(0, Math.min(n - 1.0001, dlat / LIMB.node_step + h)), fj = Math.max(0, Math.min(n - 1.0001, dlon / LIMB.node_step + h));
+    var i0 = Math.floor(fi), j0 = Math.floor(fj), a = fi - i0, b = fj - j0;
+    var pa = ((Math.atan2(g.east, g.north) / RAD) + 360) % 360, k = pa / LIMB.pa_step, k0 = Math.floor(k) % 3600, k1 = (k0 + 1) % 3600, c = k - Math.floor(k);
+    function P(i, j) {{ var p = LIMB.profiles[i][j]; return (p[k0] * (1 - c) + p[k1] * c) / 100; }}
+    return (P(i0, j0) * (1-a) * (1-b) + P(i0+1, j0) * a * (1-b) + P(i0, j0+1) * (1-a) * b + P(i0+1, j0+1) * a * b);
+  }}
+  function drawGraze(r) {{
+    lastR = r; if (!LIMB) return;
+    var geom = r.geom, c = r.contacts, centers = [];
+    if (c.D2 !== undefined || c.D1 !== undefined) centers.push({{ m: (c.D1 !== undefined ? c.D1 : c.D2), label: 'disappearance' }});
+    if (c.R1 !== undefined || c.R2 !== undefined) centers.push({{ m: (c.R2 !== undefined ? c.R2 : c.R1), label: 'reappearance' }});
+    if (!centers.length) centers.push({{ m: r.closest.m, label: 'closest approach' }});
+    if (centers.length === 2 && centers[1].m - centers[0].m < 14) centers = [{{ m: (centers[0].m + centers[1].m) / 2, label: 'graze' }}];
+    var g0c = geom(centers[0].m), tKm = Math.tan(g0c.sdt * RAD) * g0c.mdist;     // the target's radius, km at the Moon
+    var W = 800, H = 230, pad = 34, HALF = 6, KM = Math.max(6, Math.ceil(tKm * 1.6 / 5) * 5), sy = (H - 2 * pad) / (2 * KM), kstep = KM > 10 ? 10 : 2;
+    while (gzSvg.firstChild) gzSvg.removeChild(gzSvg.firstChild);
+    var panels = centers.length, pw = W / panels, notes = [];
+    centers.forEach(function (cen, pi) {{
+      var gx = pi * pw, sxp = (pw - 2 * pad) / (2 * HALF);
+      var terrain = [], star = [], top = [], bot = [], events = [], prevSt = null;
+      function Y(v) {{ return Math.max(pad - 8, Math.min(H - pad + 8, H - pad - (v + KM) * sy)); }}
+      for (var dm = -HALF; dm <= HALF; dm += 2 / 60) {{
+        var m = cen.m + dm, g = geom(m), km = limbKm(m, g);
+        var rt = Math.tan(g.sep * RAD) * g.mdist - 1737.4;          // target centre above the mean sphere, km
+        var x = gx + pad + (dm + HALF) * sxp;
+        terrain.push(x.toFixed(1) + ',' + Math.max(pad, Math.min(H - pad, H - pad - (km + KM) * sy)).toFixed(1));
+        star.push(x.toFixed(1) + ',' + Y(rt).toFixed(1));
+        if (tKm > 0.5) {{ top.push(x.toFixed(1) + ',' + Y(rt + tKm).toFixed(1)); bot.unshift(x.toFixed(1) + ',' + Y(rt - tKm).toFixed(1)); }}
+        var st = rt + tKm < km ? 2 : (rt - tKm < km ? 1 : 0);        // 2 fully hidden, 1 partly, 0 clear
+        if (prevSt !== null && st !== prevSt) events.push({{ m: m, from: prevSt, to: st }});
+        prevSt = st;
+      }}
+      var g0 = el('rect', {{ x: gx + pad, y: pad, width: pw - 2 * pad, height: H - 2 * pad, class: 'gz-sky' }}); gzSvg.appendChild(g0);
+      gzSvg.appendChild(el('polygon', {{ class: 'gz-terrain', points: terrain.join(' ') + ' ' + (gx + pw - pad).toFixed(1) + ',' + (H - pad) + ' ' + (gx + pad).toFixed(1) + ',' + (H - pad) }}));
+      gzSvg.appendChild(el('line', {{ x1: gx + pad, x2: gx + pw - pad, y1: H - pad - KM * sy, y2: H - pad - KM * sy, class: 'gz-mean' }}));
+      if (top.length) gzSvg.appendChild(el('polygon', {{ class: 'gz-disc', points: top.concat(bot).join(' ') }}));
+      gzSvg.appendChild(el('polyline', {{ class: 'gz-star', points: star.join(' ') }}));
+      for (var k = -KM; k <= KM; k += kstep) {{ var t = el('text', {{ x: gx + pad - 4, y: H - pad - (k + KM) * sy + 3, 'text-anchor': 'end', class: 'gz-lbl' }}); t.textContent = (k > 0 ? '+' : '') + k; gzSvg.appendChild(t); }}
+      for (var mm = -HALF; mm <= HALF; mm += 2) {{ var t2 = el('text', {{ x: gx + pad + (mm + HALF) * sxp, y: H - pad + 14, 'text-anchor': 'middle', class: 'gz-lbl' }}); t2.textContent = localTime(cen.m + mm, false); gzSvg.appendChild(t2); }}
+      var cap = el('text', {{ x: gx + pw / 2, y: pad - 10, 'text-anchor': 'middle', class: 'gz-cap' }}); cap.textContent = cen.label; gzSvg.appendChild(cap);
+      events.forEach(function (e) {{
+        var x = gx + pad + (e.m - cen.m + HALF) * sxp;
+        gzSvg.appendChild(el('line', {{ x1: x, x2: x, y1: pad, y2: H - pad, class: 'gz-ev' }}));
+        var nm = e.to > e.from ? (e.to === 2 ? 'D2' : 'D1') : (e.to === 0 ? 'R2' : 'R1');
+        notes.push(nm + ' ' + localTime(e.m, true));
+      }});
+    }});
+    // how much a step north moves the track on this chart
+    var probe = solve(LOC.lat + 0.009, LOC.lon), m0 = centers[0].m, g1 = geom(m0), g2 = probe.geom(m0);
+    var shift = (Math.tan(g2.sep * RAD) * g2.mdist - Math.tan(g1.sep * RAD) * g1.mdist);
+    gzOut.textContent = (notes.length ? notes.join(' · ') + ' (' + D.tzl + ', real limb). ' : 'No contact with the real limb from here. ')
+      + 'Moving 1 km north shifts the track by ' + (shift > 0 ? '+' : '') + shift.toFixed(2) + ' km on this chart.';
+  }}
+  gzBtn.addEventListener('click', function () {{
+    gzBtn.disabled = true; gzBtn.textContent = 'Loading limb…';
+    fetch(gzBtn.dataset.src).then(function (r) {{ return r.json(); }}).then(function (j) {{ LIMB = j; gzBtn.hidden = true; gzSvg.hidden = false; if (lastR) drawGraze(lastR); }})
+      .catch(function () {{ gzBtn.disabled = false; gzBtn.textContent = 'Could not load the limb profile'; }});
+  }});
 
   // ---- limb diagram ----
   var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
@@ -849,6 +953,9 @@ def build(seed, slug):
     write_geo_files(slug, data, tz, tzl)
     (OUT / "data").mkdir(exist_ok=True)
     (OUT / "data" / f"{slug}.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+    limb_src = ROOT / "data" / f"{slug}-limb.json"
+    if limb_src.exists():
+        (OUT / "data" / f"{slug}-limb.json").write_bytes(limb_src.read_bytes())
     print(f"wrote site/{slug}.html ({out.stat().st_size // 1024} KB): {len(vis)} visible / {len(misses)} miss / "
           f"{len(cities) - len(vis) - len(misses)} moon-down cities")
     return {"slug": slug, "title": title, "day": day, "note": entry.get("note") or auto_note,

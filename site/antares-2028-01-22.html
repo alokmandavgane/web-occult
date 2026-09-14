@@ -116,6 +116,20 @@
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
+    details.advanced { border: 1px dashed var(--line); border-radius: 12px; padding: 0 0.8rem; margin: 1.2rem 0 0; }
+    details.advanced summary { color: var(--muted); font-size: 0.85rem; padding: 0.55rem 0; }
+    details.advanced[open] summary { color: var(--accent); }
+    details.advanced .graze-card { margin-bottom: 0.8rem; }
+    .graze-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .graze-svg { width: 100%; height: auto; display: block; }
+    .gz-sky { fill: var(--sea); }
+    .gz-terrain { fill: #6b7280; opacity: 0.85; }
+    .gz-mean { stroke: var(--muted); stroke-width: 0.8; stroke-dasharray: 3 3; }
+    .gz-star { fill: none; stroke: var(--c-limit); stroke-width: 2; }
+    .gz-disc { fill: var(--c-limit); opacity: 0.2; }
+    .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
+    .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
     .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
     .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
     .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
@@ -414,6 +428,8 @@
   Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{"tz":"Asia/Kolkata","tzl":"IST","target":"Antares","kind":"star","illum":0.18899999999999997,"bright_pa":95.5,"elements":{"t0":"2028-01-22T00:34:49.523Z","half_hours":3.0,"deg":6,"v_earth_km_s":[-25.997179209,-14.209820235,-6.160298808],"era_rate_deg_per_min":0.2506844773377014,"R0":[-0.632745946804,0.774357515919,0.001733304155,-0.774354551752,-0.632748320706,0.002142620772,0.002755899792,1.3542647e-05,0.999996202409],"moon_radius_km":1737.4,"target_radius_km":0.0,"earth_a_km":6378.137,"earth_f":0.0033528106647474805,"moon":[[-135787.67161982087,9913.158891099056,53.81977368717587,-1.3396659911089206,-0.0008205225887260661,1.930957403168255e-05,-7.430570633275146e-08],[-326099.3531907236,-4096.362269557031,125.60946501279234,0.3632536715808338,-0.00814720691503495,1.8753692580522665e-05,1.662037596822217e-07],[-172690.45470218692,-1151.464007385437,66.65236974493666,0.061655868878758936,-0.004091783562467903,1.0960224320993418e-05,1.3840303109709063e-07]],"target":[[-1806440391663296.2,230998.0891691506,-188.77743998333838,-5.1725572968029425,14.34223718590426,5.860171948038627,-12.633978016227312],[-4329427699764640.5,307557.84473228897,278.18344603255315,-7.8462487223714765,16.008504561324663,9.05478841751964,-14.164365816630044],[-2332007178136282.5,-98490.5061563678,118.97492073851299,-3.8787547361108237,10.738873708394696,4.587929144792036,-11.090444562897932]],"sun":[[76052346.98634538,280818.4644811555,-183.8241530135877,-0.24069561456022484,7.28175842614201e-05,-0.0006603132785760644,-5.8554343819385484e-08],[-115658664.63643853,153553.63466068526,282.06994752017255,-0.12270598036295417,-0.00021627630186766864,-0.0003608812957128351,-3.609357370409203e-07],[-50136239.44413436,66567.71229871247,122.4201512032734,-0.0543526135101449,-0.00010058874287101341,-0.00015637805977930776,-1.8791107049291802e-07]],"fit_residual_arcsec":9e-06},"proj":{"lon0":66.0,"lat1":38.0,"k":0.9271838545667874,"s":26.963368566939586,"W":800,"H":916.754531275946},"cities":{"Agartala":[23.8315,91.2868],"Agra":[27.1767,78.0081],"Ahmedabad":[23.0225,72.5714],"Aizawl":[23.7271,92.7176],"Ajmer":[26.4499,74.6399],"Akola":[20.7002,77.0082],"Allahabad":[25.4358,81.8463],"Almora":[29.5971,79.6591],"Ambala":[30.3782,76.7767],"Amritsar":[31.634,74.8723],"Anand":[22.5645,72.9289],"Asansol":[23.6889,86.9661],"Aurangabad":[19.8762,75.3433],"Ayodhya":[26.7922,82.1998],"Balasore":[21.4934,86.9135],"Bangalore":[12.9716,77.5946],"Bankura":[23.2324,87.0649],"Bareilly":[28.367,79.4304],"Bauxar":[25.5647,83.9777],"Belgaon":[15.8497,74.4977],"Berhampur":[19.315,84.7941],"Bhagalpur":[25.2425,86.9842],"Bharatpur":[27.2152,77.503],"Bhavnagar":[21.7645,72.1519],"Bhopal":[23.2599,77.4126],"Bhubaneswar":[20.2961,85.8245],"Bhuj":[23.242,69.6669],"Bijapur":[16.8302,75.71],"Bikaner":[28.0229,73.3119],"Bilaspur":[22.0797,82.1409],"Bokaro":[23.6693,86.1511],"Cannanore":[11.8745,75.3704],"Champa":[22.0354,82.6576],"Chandigarh":[30.7333,76.7794],"Chennai":[13.0827,80.2707],"Chittoor (A.P.)":[13.2172,79.1003],"Chittorgarh":[24.8887,74.6269],"Cochin":[9.9312,76.2673],"Coimbatore":[11.0168,76.9558],"Cooch Bihar":[26.3452,89.4482],"Cuddalore":[11.748,79.7714],"Cuttack":[20.4625,85.883],"Darjeeling":[27.041,88.2663],"Dehradun":[30.3165,78.0322],"Delhi":[28.6139,77.209],"Dhanbad":[23.7957,86.4304],"Diamond Harbour":[22.191,88.1868],"Dibrugarh":[27.4728,94.912],"Dimapur":[25.9065,93.7272],"Diu":[20.7144,70.9874],"Durg":[21.1904,81.2849],"Dwarka":[22.2394,68.9678],"Etawah":[26.7856,79.0152],"Faizabad":[26.7735,82.1446],"Ferozpur":[30.9332,74.6136],"Gandhinagar":[23.2156,72.6369],"Gangtok":[27.3389,88.6065],"Gaya":[24.7955,84.9994],"Gopalpur":[19.2594,84.9052],"Gorakhpur":[26.7606,83.3732],"Gulmarg":[34.0484,74.3805],"Gurgaon":[28.4595,77.0266],"Guwahati":[26.1445,91.7362],"Gwalior":[26.2183,78.1828],"Haridwar":[29.9457,78.1642],"Hassan":[13.0072,76.1004],"Hubli":[15.3647,75.124],"Hyderabad":[17.385,78.4867],"Imphal":[24.817,93.9368],"Indore":[22.7196,75.8577],"Itanagar":[27.0844,93.6053],"Jabalpur":[23.1815,79.9864],"Jaipur":[26.9124,75.7873],"Jaisalmer":[26.9157,70.9083],"Jalandhar":[31.326,75.5762],"Jalpaiguri":[26.5167,88.7333],"Jammu":[32.7266,74.857],"Jamshedpur":[22.8046,86.2029],"Jhansi":[25.4484,78.5685],"Jodhpur":[26.2389,73.0243],"Jorhat":[26.7509,94.2037],"Kanpur":[26.4499,80.3319],"Kanyakumari":[8.0883,77.5385],"Kavalur":[12.5766,78.8308],"Kharagpur":[22.346,87.232],"Kohima":[25.6751,94.1086],"Kolhapur":[16.705,74.2433],"Kolkata":[22.5726,88.3639],"Koraput":[18.8135,82.7123],"Kota":[25.2138,75.8648],"Kozhikode":[11.2588,75.7804],"Kurnool":[15.8281,78.0373],"Lucknow":[26.8467,80.9462],"Ludhiana":[30.901,75.8573],"Machilipatnam":[16.1875,81.1389],"Madurai":[9.9252,78.1198],"Mangalore":[12.9141,74.856],"Mathura":[27.4924,77.6737],"Meerut":[28.9845,77.7064],"Midnapore":[22.426,87.3199],"Mount Abu":[24.5926,72.7156],"Mumbai":[19.076,72.8777],"Murshidabad":[24.1745,88.27],"Mussoorie":[30.4598,78.0644],"Muzaffarpur":[26.1209,85.3647],"Mysore":[12.2958,76.6394],"Nagpur":[21.1458,79.0882],"Nainital":[29.3919,79.4542],"Nalgonda":[17.0575,79.269],"Nashik":[19.9975,73.7898],"Nellore":[14.4426,79.9865],"Nowgong":[26.349,92.684],"Panaji":[15.4909,73.8278],"Pantnagar":[29.021,79.4737],"Paradeep":[20.3165,86.6114],"Pathankot":[32.2747,75.6522],"Patna":[25.6093,85.1376],"Pondicherry":[11.9416,79.8083],"Port Blair":[11.6234,92.7265],"Pune":[18.5204,73.8567],"Puri":[19.8135,85.8312],"Raipur":[21.2514,81.6296],"Rajkot":[22.3039,70.8022],"Rameswaram":[9.2876,79.3129],"Ranchi":[23.3441,85.3096],"Roorkee":[29.8543,77.888],"Rourkela":[22.2604,84.8536],"Salem":[11.6643,78.146],"Shillong":[25.5788,91.8933],"Shimla":[31.1048,77.1734],"Silchar":[24.8333,92.7789],"Sriharikota":[13.7199,80.2304],"Srinagar":[34.0837,74.7973],"Surat":[21.1702,72.8311],"Thanjavur":[10.787,79.1378],"Tezpur":[26.6338,92.8006],"Thiruvananthapuram":[8.5241,76.9366],"Tiruchirappalli":[10.7905,78.7047],"Tirupati":[13.6288,79.4192],"Udaipur":[24.5854,73.7125],"Ujjain":[23.1765,75.7885],"Vadodara":[22.3072,73.1812],"Varanasi":[25.3176,82.9739],"Vellore":[12.9165,79.1325],"Vijayawada":[16.5062,80.648],"Visakhapatnam":[17.6868,83.2185]}}</script>
 
+  
+
   <h2 id="cities">City by city</h2>
   <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment Antares is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
@@ -493,7 +509,7 @@
       var ram = Math.atan2(M.u[1], M.u[0]), decm = Math.asin(M.u[2]), ras = Math.atan2(S.u[1], S.u[0]), decs = Math.asin(S.u[2]);
       var dra = ((ras - ram + 3 * Math.PI) % (2 * Math.PI)) - Math.PI;
       var azm = Math.atan2(dot(M.u, eg), dot(M.u, ng)) / RAD; if (azm < 0) azm += 360;
-      return { sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
+      return { sep: sep, sdm: sdm, sdt: sdt, mu: M.u, mdist: M.dist, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
                east: dra * Math.cos(decm) / RAD * 60, north: (decs - decm) / RAD * 60 };
     };
   }
@@ -554,7 +570,8 @@
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
       h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + ' · at disappearance' : '');
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
-      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
+      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : (r.verdict === 'visible' ? 'grazing partial' : 'Moon below horizon');
+      if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here — a grazing partial");
     } else {
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
@@ -572,6 +589,7 @@
     if (!label) sel.value = '';
     if (!fromUrl) { var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }
     drawLimb(r);
+    if (typeof drawGraze === 'function') drawGraze(r);
   }
   chip.addEventListener('click', function () { sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -600,6 +618,76 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
     secs.forEach(function (sc) { if (sc) io.observe(sc); });
   }
+
+  // ---- graze profile: the target's track against the real lunar limb for THIS location ----
+  var gzCard = document.getElementById('graze-card'), gzBtn = document.getElementById('graze-load'), gzSvg = document.getElementById('graze-svg'), gzOut = document.getElementById('graze-out');
+  var LIMB = null, lastR = null;
+  function rotMe(m) {   // ICRF -> MOON_ME at t0 + m minutes: the Moon spins about its pole
+    var th = LIMB.spin_deg_per_min * m * RAD, c = Math.cos(th), s = Math.sin(th), R0 = LIMB.R_me;
+    return [c*R0[0] + s*R0[3], c*R0[1] + s*R0[4], c*R0[2] + s*R0[5], -s*R0[0] + c*R0[3], -s*R0[1] + c*R0[4], -s*R0[2] + c*R0[5], R0[6], R0[7], R0[8]];
+  }
+  function limbKm(m, g) {   // real limb radius excess (km) at the target's PA, for the observer's libration
+    var R = rotMe(m), u = g.mu, o = [-(R[0]*u[0] + R[1]*u[1] + R[2]*u[2]), -(R[3]*u[0] + R[4]*u[1] + R[5]*u[2]), -(R[6]*u[0] + R[7]*u[1] + R[8]*u[2])];
+    var lat = Math.asin(o[2]) / RAD, lon = Math.atan2(o[1], o[0]) / RAD;
+    var dlat = lat - LIMB.sub_earth[0], dlon = ((lon - LIMB.sub_earth[1] + 540) % 360) - 180;
+    var n = LIMB.nodes, h = (n - 1) / 2, fi = Math.max(0, Math.min(n - 1.0001, dlat / LIMB.node_step + h)), fj = Math.max(0, Math.min(n - 1.0001, dlon / LIMB.node_step + h));
+    var i0 = Math.floor(fi), j0 = Math.floor(fj), a = fi - i0, b = fj - j0;
+    var pa = ((Math.atan2(g.east, g.north) / RAD) + 360) % 360, k = pa / LIMB.pa_step, k0 = Math.floor(k) % 3600, k1 = (k0 + 1) % 3600, c = k - Math.floor(k);
+    function P(i, j) { var p = LIMB.profiles[i][j]; return (p[k0] * (1 - c) + p[k1] * c) / 100; }
+    return (P(i0, j0) * (1-a) * (1-b) + P(i0+1, j0) * a * (1-b) + P(i0, j0+1) * (1-a) * b + P(i0+1, j0+1) * a * b);
+  }
+  function drawGraze(r) {
+    lastR = r; if (!LIMB) return;
+    var geom = r.geom, c = r.contacts, centers = [];
+    if (c.D2 !== undefined || c.D1 !== undefined) centers.push({ m: (c.D1 !== undefined ? c.D1 : c.D2), label: 'disappearance' });
+    if (c.R1 !== undefined || c.R2 !== undefined) centers.push({ m: (c.R2 !== undefined ? c.R2 : c.R1), label: 'reappearance' });
+    if (!centers.length) centers.push({ m: r.closest.m, label: 'closest approach' });
+    if (centers.length === 2 && centers[1].m - centers[0].m < 14) centers = [{ m: (centers[0].m + centers[1].m) / 2, label: 'graze' }];
+    var g0c = geom(centers[0].m), tKm = Math.tan(g0c.sdt * RAD) * g0c.mdist;     // the target's radius, km at the Moon
+    var W = 800, H = 230, pad = 34, HALF = 6, KM = Math.max(6, Math.ceil(tKm * 1.6 / 5) * 5), sy = (H - 2 * pad) / (2 * KM), kstep = KM > 10 ? 10 : 2;
+    while (gzSvg.firstChild) gzSvg.removeChild(gzSvg.firstChild);
+    var panels = centers.length, pw = W / panels, notes = [];
+    centers.forEach(function (cen, pi) {
+      var gx = pi * pw, sxp = (pw - 2 * pad) / (2 * HALF);
+      var terrain = [], star = [], top = [], bot = [], events = [], prevSt = null;
+      function Y(v) { return Math.max(pad - 8, Math.min(H - pad + 8, H - pad - (v + KM) * sy)); }
+      for (var dm = -HALF; dm <= HALF; dm += 2 / 60) {
+        var m = cen.m + dm, g = geom(m), km = limbKm(m, g);
+        var rt = Math.tan(g.sep * RAD) * g.mdist - 1737.4;          // target centre above the mean sphere, km
+        var x = gx + pad + (dm + HALF) * sxp;
+        terrain.push(x.toFixed(1) + ',' + Math.max(pad, Math.min(H - pad, H - pad - (km + KM) * sy)).toFixed(1));
+        star.push(x.toFixed(1) + ',' + Y(rt).toFixed(1));
+        if (tKm > 0.5) { top.push(x.toFixed(1) + ',' + Y(rt + tKm).toFixed(1)); bot.unshift(x.toFixed(1) + ',' + Y(rt - tKm).toFixed(1)); }
+        var st = rt + tKm < km ? 2 : (rt - tKm < km ? 1 : 0);        // 2 fully hidden, 1 partly, 0 clear
+        if (prevSt !== null && st !== prevSt) events.push({ m: m, from: prevSt, to: st });
+        prevSt = st;
+      }
+      var g0 = el('rect', { x: gx + pad, y: pad, width: pw - 2 * pad, height: H - 2 * pad, class: 'gz-sky' }); gzSvg.appendChild(g0);
+      gzSvg.appendChild(el('polygon', { class: 'gz-terrain', points: terrain.join(' ') + ' ' + (gx + pw - pad).toFixed(1) + ',' + (H - pad) + ' ' + (gx + pad).toFixed(1) + ',' + (H - pad) }));
+      gzSvg.appendChild(el('line', { x1: gx + pad, x2: gx + pw - pad, y1: H - pad - KM * sy, y2: H - pad - KM * sy, class: 'gz-mean' }));
+      if (top.length) gzSvg.appendChild(el('polygon', { class: 'gz-disc', points: top.concat(bot).join(' ') }));
+      gzSvg.appendChild(el('polyline', { class: 'gz-star', points: star.join(' ') }));
+      for (var k = -KM; k <= KM; k += kstep) { var t = el('text', { x: gx + pad - 4, y: H - pad - (k + KM) * sy + 3, 'text-anchor': 'end', class: 'gz-lbl' }); t.textContent = (k > 0 ? '+' : '') + k; gzSvg.appendChild(t); }
+      for (var mm = -HALF; mm <= HALF; mm += 2) { var t2 = el('text', { x: gx + pad + (mm + HALF) * sxp, y: H - pad + 14, 'text-anchor': 'middle', class: 'gz-lbl' }); t2.textContent = localTime(cen.m + mm, false); gzSvg.appendChild(t2); }
+      var cap = el('text', { x: gx + pw / 2, y: pad - 10, 'text-anchor': 'middle', class: 'gz-cap' }); cap.textContent = cen.label; gzSvg.appendChild(cap);
+      events.forEach(function (e) {
+        var x = gx + pad + (e.m - cen.m + HALF) * sxp;
+        gzSvg.appendChild(el('line', { x1: x, x2: x, y1: pad, y2: H - pad, class: 'gz-ev' }));
+        var nm = e.to > e.from ? (e.to === 2 ? 'D2' : 'D1') : (e.to === 0 ? 'R2' : 'R1');
+        notes.push(nm + ' ' + localTime(e.m, true));
+      });
+    });
+    // how much a step north moves the track on this chart
+    var probe = solve(LOC.lat + 0.009, LOC.lon), m0 = centers[0].m, g1 = geom(m0), g2 = probe.geom(m0);
+    var shift = (Math.tan(g2.sep * RAD) * g2.mdist - Math.tan(g1.sep * RAD) * g1.mdist);
+    gzOut.textContent = (notes.length ? notes.join(' · ') + ' (' + D.tzl + ', real limb). ' : 'No contact with the real limb from here. ')
+      + 'Moving 1 km north shifts the track by ' + (shift > 0 ? '+' : '') + shift.toFixed(2) + ' km on this chart.';
+  }
+  gzBtn.addEventListener('click', function () {
+    gzBtn.disabled = true; gzBtn.textContent = 'Loading limb…';
+    fetch(gzBtn.dataset.src).then(function (r) { return r.json(); }).then(function (j) { LIMB = j; gzBtn.hidden = true; gzSvg.hidden = false; if (lastR) drawGraze(lastR); })
+      .catch(function () { gzBtn.disabled = false; gzBtn.textContent = 'Could not load the limb profile'; });
+  });
 
   // ---- limb diagram ----
   var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');

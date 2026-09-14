@@ -29,5 +29,10 @@ Rules that are easy to break:
   LDEM_64 silhouette at each observer's libration — `lunar_limb.py` in kaalshodh); each city row also
   keeps `contacts_mean_limb` and `limb_shift_s`. The browser solver, the shaded region and the world map
   are still the mean sphere (±2 s). The pages say exactly this; keep it true if either side changes.
+  The **graze profile chart** ("Against the real limb") fetches `data/<slug>-limb.json` on demand
+  (~120 KB gz: the LOLA silhouette on a 5×5 grid of librations ±1.2°, 0.1° of PA) and, in the browser,
+  interpolates it to the observer's own topocentric libration (ICRF→MOON_ME rotation + spin rate are
+  in the file) to draw the target's track against the terrain around each contact, with D1/D2/R1/R2
+  from the real limb and the "1 km north shifts the track by…" sensitivity.
 - Scope now: lunar occultations of grahas and bright stars. Asteroid occultations and grazes at IOTA precision are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

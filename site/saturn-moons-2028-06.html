@@ -116,6 +116,20 @@
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
+    details.advanced { border: 1px dashed var(--line); border-radius: 12px; padding: 0 0.8rem; margin: 1.2rem 0 0; }
+    details.advanced summary { color: var(--muted); font-size: 0.85rem; padding: 0.55rem 0; }
+    details.advanced[open] summary { color: var(--accent); }
+    details.advanced .graze-card { margin-bottom: 0.8rem; }
+    .graze-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .graze-svg { width: 100%; height: auto; display: block; }
+    .gz-sky { fill: var(--sea); }
+    .gz-terrain { fill: #6b7280; opacity: 0.85; }
+    .gz-mean { stroke: var(--muted); stroke-width: 0.8; stroke-dasharray: 3 3; }
+    .gz-star { fill: none; stroke: var(--c-limit); stroke-width: 2; }
+    .gz-disc { fill: var(--c-limit); opacity: 0.2; }
+    .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
+    .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
     .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
     .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
     .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }

@@ -116,6 +116,20 @@
     .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
     input[type=range] { width: 100%; accent-color: var(--accent); }
+    details.advanced { border: 1px dashed var(--line); border-radius: 12px; padding: 0 0.8rem; margin: 1.2rem 0 0; }
+    details.advanced summary { color: var(--muted); font-size: 0.85rem; padding: 0.55rem 0; }
+    details.advanced[open] summary { color: var(--accent); }
+    details.advanced .graze-card { margin-bottom: 0.8rem; }
+    .graze-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .graze-svg { width: 100%; height: auto; display: block; }
+    .gz-sky { fill: var(--sea); }
+    .gz-terrain { fill: #6b7280; opacity: 0.85; }
+    .gz-mean { stroke: var(--muted); stroke-width: 0.8; stroke-dasharray: 3 3; }
+    .gz-star { fill: none; stroke: var(--c-limit); stroke-width: 2; }
+    .gz-disc { fill: var(--c-limit); opacity: 0.2; }
+    .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
+    .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
     .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
     .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
     .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
@@ -441,6 +455,8 @@
   Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{"tz":"UTC","tzl":"UTC","target":"Jupiter","kind":"planet","illum":0.88,"bright_pa":288.0,"elements":{"t0":"2027-03-19T09:25:58.495Z","half_hours":3.0,"deg":6,"v_earth_km_s":[-1.417426624,-27.406207903,-11.878909378],"era_rate_deg_per_min":0.2506844773377014,"R0":[0.741386287722,-0.671075657901,-0.001957996435,0.671073216856,0.741388872711,-0.001810259269,0.0026664577,2.8142433e-05,0.999996444599],"moon_radius_km":1737.4,"target_radius_km":69911.0,"earth_a_km":6378.137,"earth_f":0.0033528106647474805,"moon":[[-270113.7315995636,-7821.236898910919,127.84573274340181,1.2265041313142377,-0.011755922478120826,-6.92654337385255e-05,8.147155291951277e-07],[226739.4439148136,-7367.652510634876,-108.87625461828189,1.1875570202703805,0.009829506676568862,-6.155553062864414e-05,-8.40680136407089e-07],[99685.04848612146,-4335.124143467623,-47.86747627447239,0.6976486790354651,0.004301585363390207,-3.65890546753415e-05,-3.804151108614169e-07]],"target":[[-503697598.16384274,-68232.49681930138,-337.45171545335137,0.015202241543464402,-9.653955119517074e-08,0.000160728275979919,-3.0762771946027967e-06],[417559855.98200893,195675.51201551384,2.5445080535037925,-0.21641585907877162,0.00012695462562339402,-0.0004618829287014047,6.873994720586512e-07],[194839630.27152961,87329.9132026198,0.8885186196693432,-0.09159627324560461,5.4596517257317535e-05,-0.0002064737743584546,8.600119539747384e-07]],"sun":[[148839429.27493322,15400.347427212811,-347.2738076193278,0.01499309248289868,-3.5130972036809815e-06,-3.7491765333230774e-05,1.9150538429694377e-07],[-4353323.464009193,296053.74083103176,8.881007177245067,-0.21679266426472765,0.00012750507856158002,-0.0006975812479588064,-1.675086372874315e-08],[-1887964.9019812143,128318.90875802722,3.8435206803993265,-0.09175295910128774,5.5765400671452836e-05,-0.00030250575678380343,-9.090024056289709e-09]],"fit_residual_arcsec":8e-06},"proj":{"lon0":-180.0,"lat1":80.0,"k":1.0,"s":2.2222222222222223,"W":800,"H":355.55555555555554},"cities":{"Shanghai, CN":[31.22222,121.45806],"Beijing, CN":[39.9075,116.39723],"Shenzhen, CN":[22.54554,114.0683],"Guangzhou, CN":[23.11667,113.25],"Mexico City, MX":[19.42847,-99.12766],"Tianjin, CN":[39.14222,117.17667],"Wuhan, CN":[30.58333,114.26667],"Seoul, KR":[37.566,126.9784],"Tokyo, JP":[35.6895,139.69171],"Dongguan, CN":[23.01797,113.74866],"Xi’an, CN":[34.25833,108.92861],"Nanjing, CN":[32.06167,118.77778],"Hangzhou, CN":[30.29365,120.16142],"Foshan, CN":[23.02677,113.13148],"Taipei, TW":[25.05306,121.52639],"Chongqing, CN":[29.56026,106.55771],"Hong Kong, HK":[22.27832,114.17469],"Wuzhong, CN":[37.9867,106.201],"Qingdao, CN":[36.06488,120.38042],"Shenyang, CN":[41.79222,123.43278],"Suzhou, CN":[31.30408,120.59538],"Pudong, CN":[31.23995,121.50094],"Sydney, AU":[-33.86785,151.20732],"Melbourne, AU":[-37.814,144.96332],"Harbin, CN":[45.75,126.65],"Hefei, CN":[31.86389,117.28083],"Dalian, CN":[38.91222,121.60222],"Changchun, CN":[43.88,125.32278],"Xiamen, CN":[24.47979,118.08187],"Bao'an, CN":[22.55213,113.88288],"Wuxi, CN":[31.56887,120.28857],"Jinan, CN":[36.66833,116.99722],"Taiyuan, CN":[37.86944,112.56028],"Zhengzhou, CN":[34.75778,113.64861],"New Taipei City, TW":[25.06199,121.45703],"New Territories, HK":[22.42441,114.11095],"Shijiazhuang, CN":[38.04139,114.47861],"Zhongshan, CN":[22.52306,113.37912],"Nanning, CN":[22.81667,108.31667],"Shantou, CN":[23.35489,116.67876],"Los Angeles, US":[34.05223,-118.24368],"Yokohama, JP":[35.43333,139.65],"Fuzhou, CN":[26.06139,119.30611],"Ningbo, CN":[29.87819,121.54945],"Puyang, CN":[29.45679,119.88872],"Shiyan, CN":[32.6475,110.77806],"Tangshan, CN":[39.64381,118.18319],"Lüliang, CN":[37.5192,111.14436],"Changzhou, CN":[31.77359,119.95401],"Busan, KR":[35.10168,129.03004],"Pyongyang, KP":[39.03385,125.75432],"Zibo, CN":[36.79056,118.06333],"Changsha, CN":[28.19874,112.97087],"Quezon City, PH":[14.6488,121.0509],"Guiyang, CN":[26.58333,106.71667],"Incheon, KR":[37.45646,126.70515],"Lanzhou, CN":[36.05701,103.83987],"Huizhou, CN":[23.11147,114.41523],"Haikou, CN":[20.03421,110.34651],"Taichung, TW":[24.1469,120.6839],"Brisbane, AU":[-27.46794,153.02809],"Osaka, JP":[34.69379,135.50107],"Linyi, CN":[35.06306,118.34278],"Baoding, CN":[38.87288,115.46246],"Kaohsiung, TW":[22.61626,120.31333],"Minhang, CN":[31.10881,121.37471],"Bazhong, CN":[31.8694,106.74432],"Chicago, US":[41.85003,-87.65005],"Wenzhou, CN":[27.99942,120.66682],"Yunfu, CN":[22.92787,112.03809],"Huai'an, CN":[33.58861,119.01917],"Daegu, KR":[35.87028,128.59111],"Nanchang, CN":[28.68396,115.85306],"Hohhot, CN":[40.81056,111.65222],"Nagoya, JP":[35.18147,136.90641],"Houston, US":[29.76328,-95.36327],"Perth, AU":[-31.95224,115.8614],"Shaoxing, CN":[30.00237,120.57864],"Nantong, CN":[32.03028,120.87472],"Baoshan, CN":[31.40845,121.48956],"Kowloon, HK":[22.31667,114.18333],"Yantai, CN":[37.47649,121.44081],"Zhuhai, CN":[22.27694,113.56778],"Baotou, CN":[40.6516,109.84389],"Qingyang, CN":[35.70976,107.64455],"Kunshan, CN":[31.37762,120.95431],"Weifang, CN":[36.71,119.10194],"Zunyi, CN":[27.68667,106.90722],"Lianyungang, CN":[34.59845,119.21556],"Ganzhou, CN":[25.84664,114.9326],"Sapporo, JP":[43.06667,141.35],"Songjiang, CN":[31.03443,121.22326],"Ordos, CN":[39.6086,109.78157],"Tijuana, MX":[32.5027,-117.00371],"Jieyang, CN":[23.5418,116.36581],"Jilin, CN":[43.84652,126.5608],"Jiading, CN":[31.38575,121.24465],"Shangqiu, CN":[34.4143,115.65613],"Nanchong, CN":[30.79508,106.08473],"Tainan, TW":[22.99083,120.21333],"Datong, CN":[40.09361,113.29139],"Davao, PH":[7.07306,125.61278],"Iztapalapa, MX":[19.35529,-99.06224],"Nanyang, CN":[33.00524,112.54659],"Jiangmen, CN":[22.58333,113.08333],"Jiangyin, CN":[31.91102,120.26302],"Fuyang, CN":[32.9,115.81667],"Bayan Nur, CN":[40.74143,107.38599],"Chaozhou, CN":[23.65396,116.62262],"Qingyuan, CN":[23.7,113.03333],"Tai’an, CN":[36.18528,117.12],"Caloocan, PH":[14.64953,120.96788],"Puebla, MX":[19.04778,-98.20723],"Xining, CN":[36.62554,101.75739],"Changshu, CN":[31.64615,120.74221],"Huainan, CN":[32.62639,116.99694],"Phoenix, US":[33.44838,-112.07404],"Ecatepec de Morelos, MX":[19.60492,-99.06064],"Lu’an, CN":[31.73561,116.51688],"Yancheng, CN":[33.3575,120.1573],"Fukuoka, JP":[33.6,130.41667],"Taizhou, CN":[32.49069,119.90812],"Daqing, CN":[46.58333,125.0],"Manila, PH":[14.6042,120.9822],"Wuhu, CN":[31.35259,118.42947],"Santiago de Querétaro, MX":[20.58806,-100.38806],"Dazhou, CN":[31.2106,107.46308],"Yangzhou, CN":[32.39722,119.43583],"León de los Aldama, MX":[21.12183,-101.68253],"Guilin, CN":[25.28022,110.29639],"Zhaoqing, CN":[23.04893,112.46091],"Mianyang, CN":[31.46784,104.68168],"Auckland, NZ":[-36.84853,174.76349],"Wanzhou, CN":[30.76451,108.39586],"Putian, CN":[25.43944,119.01028],"Kawasaki, JP":[35.52056,139.71722],"San Antonio, US":[29.42412,-98.49363],"Kobe, JP":[34.6913,135.183],"Ciudad Juárez, MX":[31.72024,-106.46084],"Yinchuan, CN":[38.46806,106.27306],"Yiwu, CN":[29.31506,120.07676],"Zapopan, MX":[20.72111,-103.38742],"Makassar, ID":[-5.14861,119.43194],"Adelaide, AU":[-34.92866,138.59863],"Quanzhou, CN":[24.91389,118.58583],"Jinhua, CN":[29.10678,119.64421],"Kyoto, JP":[35.02107,135.75385],"Cixi, CN":[30.1764,121.2457],"Changde, CN":[29.03205,111.69844],"Kaifeng, CN":[34.7986,114.30742],"Anshan, CN":[41.12361,122.99],"Daejeon, KR":[36.34913,127.38493],"Baoji, CN":[34.36775,107.23705],"Suqian, CN":[33.94917,118.29583],"Liuzhou, CN":[24.32405,109.40698],"Zhangjiagang, CN":[31.865,120.53889],"Jinjiang, CN":[24.81978,118.57415],"Bozhou, CN":[33.87722,115.77028],"San Diego, US":[32.71571,-117.16472],"Gwangju, KR":[35.15472,126.91556],"Zhanjiang, CN":[21.23391,110.38749],"Fushun, CN":[41.88669,123.94363],"Luoyang, CN":[34.67345,112.43684],"Guadalajara, MX":[20.67738,-103.34749],"Guankou, CN":[28.15861,113.62709],"Handan, CN":[36.60999,114.48764],"Yichang, CN":[30.71444,111.28472],"Heze, CN":[35.23929,115.47358],"Dallas, US":[32.78306,-96.80667],"Saitama, JP":[35.90807,139.65657],"Taguig, PH":[14.5243,121.0792],"Maoming, CN":[21.66625,110.91364],"Calgary, CA":[51.05011,-114.08529],"Qinzhou, CN":[21.98247,108.65061],"Luohe, CN":[33.57424,114.03261],"Xiangyang, CN":[32.0422,112.14479],"Yangjiang, CN":[21.85563,111.96272],"Yixing, CN":[31.36059,119.82016]}}</script>
 
+  
+
   <h2 id="cities">City by city</h2>
   <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment Jupiter is fully hidden (its disc takes from the
   earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
@@ -520,7 +536,7 @@
       var ram = Math.atan2(M.u[1], M.u[0]), decm = Math.asin(M.u[2]), ras = Math.atan2(S.u[1], S.u[0]), decs = Math.asin(S.u[2]);
       var dra = ((ras - ram + 3 * Math.PI) % (2 * Math.PI)) - Math.PI;
       var azm = Math.atan2(dot(M.u, eg), dot(M.u, ng)) / RAD; if (azm < 0) azm += 360;
-      return { sep: sep, sdm: sdm, sdt: sdt, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
+      return { sep: sep, sdm: sdm, sdt: sdt, mu: M.u, mdist: M.dist, altm: Math.asin(dot(M.u, upg)) / RAD, azm: azm, alts: Math.asin(dot(unit(sun), upg)) / RAD,
                east: dra * Math.cos(decm) / RAD * 60, north: (decs - decm) / RAD * 60 };
     };
   }
@@ -581,7 +597,8 @@
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
       h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + ' · at disappearance' : '');
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
-      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'Moon below horizon';
+      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : (r.verdict === 'visible' ? 'grazing partial' : 'Moon below horizon');
+      if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here — a grazing partial");
     } else {
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
@@ -599,6 +616,7 @@
     if (!label) sel.value = '';
     if (!fromUrl) { var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }
     drawLimb(r);
+    if (typeof drawGraze === 'function') drawGraze(r);
   }
   chip.addEventListener('click', function () { sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -627,6 +645,76 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
     secs.forEach(function (sc) { if (sc) io.observe(sc); });
   }
+
+  // ---- graze profile: the target's track against the real lunar limb for THIS location ----
+  var gzCard = document.getElementById('graze-card'), gzBtn = document.getElementById('graze-load'), gzSvg = document.getElementById('graze-svg'), gzOut = document.getElementById('graze-out');
+  var LIMB = null, lastR = null;
+  function rotMe(m) {   // ICRF -> MOON_ME at t0 + m minutes: the Moon spins about its pole
+    var th = LIMB.spin_deg_per_min * m * RAD, c = Math.cos(th), s = Math.sin(th), R0 = LIMB.R_me;
+    return [c*R0[0] + s*R0[3], c*R0[1] + s*R0[4], c*R0[2] + s*R0[5], -s*R0[0] + c*R0[3], -s*R0[1] + c*R0[4], -s*R0[2] + c*R0[5], R0[6], R0[7], R0[8]];
+  }
+  function limbKm(m, g) {   // real limb radius excess (km) at the target's PA, for the observer's libration
+    var R = rotMe(m), u = g.mu, o = [-(R[0]*u[0] + R[1]*u[1] + R[2]*u[2]), -(R[3]*u[0] + R[4]*u[1] + R[5]*u[2]), -(R[6]*u[0] + R[7]*u[1] + R[8]*u[2])];
+    var lat = Math.asin(o[2]) / RAD, lon = Math.atan2(o[1], o[0]) / RAD;
+    var dlat = lat - LIMB.sub_earth[0], dlon = ((lon - LIMB.sub_earth[1] + 540) % 360) - 180;
+    var n = LIMB.nodes, h = (n - 1) / 2, fi = Math.max(0, Math.min(n - 1.0001, dlat / LIMB.node_step + h)), fj = Math.max(0, Math.min(n - 1.0001, dlon / LIMB.node_step + h));
+    var i0 = Math.floor(fi), j0 = Math.floor(fj), a = fi - i0, b = fj - j0;
+    var pa = ((Math.atan2(g.east, g.north) / RAD) + 360) % 360, k = pa / LIMB.pa_step, k0 = Math.floor(k) % 3600, k1 = (k0 + 1) % 3600, c = k - Math.floor(k);
+    function P(i, j) { var p = LIMB.profiles[i][j]; return (p[k0] * (1 - c) + p[k1] * c) / 100; }
+    return (P(i0, j0) * (1-a) * (1-b) + P(i0+1, j0) * a * (1-b) + P(i0, j0+1) * (1-a) * b + P(i0+1, j0+1) * a * b);
+  }
+  function drawGraze(r) {
+    lastR = r; if (!LIMB) return;
+    var geom = r.geom, c = r.contacts, centers = [];
+    if (c.D2 !== undefined || c.D1 !== undefined) centers.push({ m: (c.D1 !== undefined ? c.D1 : c.D2), label: 'disappearance' });
+    if (c.R1 !== undefined || c.R2 !== undefined) centers.push({ m: (c.R2 !== undefined ? c.R2 : c.R1), label: 'reappearance' });
+    if (!centers.length) centers.push({ m: r.closest.m, label: 'closest approach' });
+    if (centers.length === 2 && centers[1].m - centers[0].m < 14) centers = [{ m: (centers[0].m + centers[1].m) / 2, label: 'graze' }];
+    var g0c = geom(centers[0].m), tKm = Math.tan(g0c.sdt * RAD) * g0c.mdist;     // the target's radius, km at the Moon
+    var W = 800, H = 230, pad = 34, HALF = 6, KM = Math.max(6, Math.ceil(tKm * 1.6 / 5) * 5), sy = (H - 2 * pad) / (2 * KM), kstep = KM > 10 ? 10 : 2;
+    while (gzSvg.firstChild) gzSvg.removeChild(gzSvg.firstChild);
+    var panels = centers.length, pw = W / panels, notes = [];
+    centers.forEach(function (cen, pi) {
+      var gx = pi * pw, sxp = (pw - 2 * pad) / (2 * HALF);
+      var terrain = [], star = [], top = [], bot = [], events = [], prevSt = null;
+      function Y(v) { return Math.max(pad - 8, Math.min(H - pad + 8, H - pad - (v + KM) * sy)); }
+      for (var dm = -HALF; dm <= HALF; dm += 2 / 60) {
+        var m = cen.m + dm, g = geom(m), km = limbKm(m, g);
+        var rt = Math.tan(g.sep * RAD) * g.mdist - 1737.4;          // target centre above the mean sphere, km
+        var x = gx + pad + (dm + HALF) * sxp;
+        terrain.push(x.toFixed(1) + ',' + Math.max(pad, Math.min(H - pad, H - pad - (km + KM) * sy)).toFixed(1));
+        star.push(x.toFixed(1) + ',' + Y(rt).toFixed(1));
+        if (tKm > 0.5) { top.push(x.toFixed(1) + ',' + Y(rt + tKm).toFixed(1)); bot.unshift(x.toFixed(1) + ',' + Y(rt - tKm).toFixed(1)); }
+        var st = rt + tKm < km ? 2 : (rt - tKm < km ? 1 : 0);        // 2 fully hidden, 1 partly, 0 clear
+        if (prevSt !== null && st !== prevSt) events.push({ m: m, from: prevSt, to: st });
+        prevSt = st;
+      }
+      var g0 = el('rect', { x: gx + pad, y: pad, width: pw - 2 * pad, height: H - 2 * pad, class: 'gz-sky' }); gzSvg.appendChild(g0);
+      gzSvg.appendChild(el('polygon', { class: 'gz-terrain', points: terrain.join(' ') + ' ' + (gx + pw - pad).toFixed(1) + ',' + (H - pad) + ' ' + (gx + pad).toFixed(1) + ',' + (H - pad) }));
+      gzSvg.appendChild(el('line', { x1: gx + pad, x2: gx + pw - pad, y1: H - pad - KM * sy, y2: H - pad - KM * sy, class: 'gz-mean' }));
+      if (top.length) gzSvg.appendChild(el('polygon', { class: 'gz-disc', points: top.concat(bot).join(' ') }));
+      gzSvg.appendChild(el('polyline', { class: 'gz-star', points: star.join(' ') }));
+      for (var k = -KM; k <= KM; k += kstep) { var t = el('text', { x: gx + pad - 4, y: H - pad - (k + KM) * sy + 3, 'text-anchor': 'end', class: 'gz-lbl' }); t.textContent = (k > 0 ? '+' : '') + k; gzSvg.appendChild(t); }
+      for (var mm = -HALF; mm <= HALF; mm += 2) { var t2 = el('text', { x: gx + pad + (mm + HALF) * sxp, y: H - pad + 14, 'text-anchor': 'middle', class: 'gz-lbl' }); t2.textContent = localTime(cen.m + mm, false); gzSvg.appendChild(t2); }
+      var cap = el('text', { x: gx + pw / 2, y: pad - 10, 'text-anchor': 'middle', class: 'gz-cap' }); cap.textContent = cen.label; gzSvg.appendChild(cap);
+      events.forEach(function (e) {
+        var x = gx + pad + (e.m - cen.m + HALF) * sxp;
+        gzSvg.appendChild(el('line', { x1: x, x2: x, y1: pad, y2: H - pad, class: 'gz-ev' }));
+        var nm = e.to > e.from ? (e.to === 2 ? 'D2' : 'D1') : (e.to === 0 ? 'R2' : 'R1');
+        notes.push(nm + ' ' + localTime(e.m, true));
+      });
+    });
+    // how much a step north moves the track on this chart
+    var probe = solve(LOC.lat + 0.009, LOC.lon), m0 = centers[0].m, g1 = geom(m0), g2 = probe.geom(m0);
+    var shift = (Math.tan(g2.sep * RAD) * g2.mdist - Math.tan(g1.sep * RAD) * g1.mdist);
+    gzOut.textContent = (notes.length ? notes.join(' · ') + ' (' + D.tzl + ', real limb). ' : 'No contact with the real limb from here. ')
+      + 'Moving 1 km north shifts the track by ' + (shift > 0 ? '+' : '') + shift.toFixed(2) + ' km on this chart.';
+  }
+  gzBtn.addEventListener('click', function () {
+    gzBtn.disabled = true; gzBtn.textContent = 'Loading limb…';
+    fetch(gzBtn.dataset.src).then(function (r) { return r.json(); }).then(function (j) { LIMB = j; gzBtn.hidden = true; gzSvg.hidden = false; if (lastR) drawGraze(lastR); })
+      .catch(function () { gzBtn.disabled = false; gzBtn.textContent = 'Could not load the limb profile'; });
+  });
 
   // ---- limb diagram ----
   var svg = document.getElementById('limb-svg'), slider = document.getElementById('limb-slider'), readout = document.getElementById('limb-readout');
