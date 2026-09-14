@@ -289,7 +289,19 @@
   Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{"tz":"UTC","tzl":"UTC","target":"Venus","kind":"planet","illum":0.154,"bright_pa":283.0,"elements":{"t0":"2029-10-11T01:43:33.944Z","half_hours":3.0,"deg":6,"v_earth_km_s":[-9.518733222,25.960339435,11.252099662],"era_rate_deg_per_min":0.2506844773377014,"R0":[0.701530433191,0.712636560628,-0.002045424685,-0.71263349706,0.701533415018,0.002089612548,0.002924068063,-8.28865e-06,0.999995724869],"moon_radius_km":1737.4,"target_radius_km":6051.8,"earth_a_km":6378.137,"earth_f":0.0033528106647474805,"moon":[[-161061.86630023553,10160.163959125772,77.50628193032405,-1.7626862902919858,-0.003436499130222383,0.0001221103017487573,-2.8816573888653027e-07],[-293741.0167375951,-5549.620198094026,143.89987769635718,0.7040624584522395,-0.015197506792246525,1.588455854721356e-05,1.4024085094465947e-06],[-141590.8289403655,-1405.0992607090318,69.38811073518227,0.13108979480574154,-0.006878124336137427,1.877138543665025e-05,5.474724383267472e-07]],"target":[[-52357320.31270872,312828.156295601,-207.418636384781,-0.5111217034145437,0.00035083710818394374,-0.000734140047882327,-3.400691632404112e-07],[-95114458.27289225,8575.807118503899,419.38540110042396,-0.3459359460547188,-0.0005313538697561417,-1.9643112945654194e-05,8.407988783165817e-08],[-47807404.43107147,-4792.269759585952,221.28426168575572,-0.13484008162297662,-0.000272792677693412,1.1545509799509912e-05,3.3569699684999256e-07]],"sun":[[-142344945.47919387,102752.7136372528,331.6487987324608,-0.0888780913611163,-0.00017574663863094924,-0.00024004044014203397,1.992916120075098e-07],[-41486209.044221535,-280300.0401575157,98.12407349479271,0.22857703971073007,-0.0002104533848739345,0.0006597541598178882,-1.670498227511338e-07],[-17982449.63160052,-121490.86793256331,42.61744936806447,0.09696697915345566,-9.483708238048355e-05,0.0002860929129719606,8.223142127217391e-09]],"fit_residual_arcsec":1e-05},"proj":{"lon0":-180.0,"lat1":80.0,"k":1.0,"s":2.2222222222222223,"W":800,"H":355.55555555555554},"cities":{"Sydney, AU":[-33.86785,151.20732],"Melbourne, AU":[-37.814,144.96332],"Los Angeles, US":[34.05223,-118.24368],"Brisbane, AU":[-27.46794,153.02809],"Perth, AU":[-31.95224,115.8614],"Tijuana, MX":[32.5027,-117.00371],"Phoenix, US":[33.44838,-112.07404],"Auckland, NZ":[-36.84853,174.76349],"Ciudad Juárez, MX":[31.72024,-106.46084],"Adelaide, AU":[-34.92866,138.59863],"San Diego, US":[32.71571,-117.16472],"Calgary, CA":[51.05011,-114.08529]}}</script>
 
-  
+    <details class="advanced" id="graze">
+    <summary>Advanced · graze profile against the real lunar limb</summary>
+    <p class="hint">For graze chasers. The lunar limb as it really is for your libration — LRO LOLA terrain, in km above and
+    below the mean sphere — with Venus's track drawn across it six minutes either side of each contact. Where the
+    track dips below the terrain, Venus is hidden; near a graze it blinks behind peaks.</p>
+    <div class="graze-card" id="graze-card">
+      <button class="btn" id="graze-load" type="button" data-src="/data/venus-2029-10-11-limb.json">Load the limb profile (120 KB)</button>
+      <svg id="graze-svg" viewBox="0 0 800 230" class="graze-svg" role="img" aria-label="The target's track against the lunar limb profile" hidden></svg>
+      <p class="hint" id="graze-out"></p>
+    </div>
+  </details>
+
+
 
   <h2 id="cities">City by city</h2>
   <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment Venus is fully hidden (its disc takes from the
