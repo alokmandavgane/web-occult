@@ -265,19 +265,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2027-04-15-cape-town-za@occult.alokm.com
 DTSTAMP:20260914T035318Z
-DTSTART:20270415T125801Z
+DTSTART:20270415T135740Z
 DTEND:20270415T135903Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 14:59:16 and reappears at 15:57:40 SAST\,
-  seen from Cape Town\, ZA.\nThe Moon is -4° up in the ENE · daylight\, S
- un +36°.\nTimes against the real lunar limb.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/jupiter-2027-04-15?city=Cape%
- 20Town%2C%20ZA
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 15:57:40 SAST\, seen from Cape Town\, ZA.\
+ nThe Moon rises during the occultation: only the reappearance is above the
+  horizon.\nThe Moon is 7° up in the ENE · daylight\, Sun +27°.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/jupiter-2027-04-15?city=Cape%20Town%2C%20ZA
 URL:https://occult.alokm.com/jupiter-2027-04-15?city=Cape%20Town%2C%20ZA
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

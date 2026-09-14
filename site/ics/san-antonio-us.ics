@@ -25,19 +25,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-san-antonio-us@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T081354Z
+DTSTART:20261006T090832Z
 DTEND:20261006T090934Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 03:14:51 and reappears at 04:08:32 CDT\, 
- seen from San Antonio\, US.\nThe Moon is -3° up in the ENE · dark sky.\n
- Times against the real lunar limb.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/jupiter-2026-10-06?city=San%20Antonio%2C
- %20US
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 04:08:32 CDT\, seen from San Antonio\, US.
+ \nThe Moon rises during the occultation: only the reappearance is above th
+ e horizon.\nThe Moon is 8° up in the ENE · dark sky.\nTimes against the 
+ real lunar limb.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/jupiter-2026-10-06?city=San%20Antonio%2C%20US
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=San%20Antonio%2C%20US
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

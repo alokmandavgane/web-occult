@@ -183,6 +183,7 @@ _W = {}
 
 
 def _init(now_s):
+    from occultation_event import _parse_t0
     from star_occultations import INSTRUMENTS, MonthModel
     now = datetime.fromtimestamp(now_s, timezone.utc)
     seed = json.loads((ROOT / "seed.json").read_text())
@@ -196,7 +197,8 @@ def _init(now_s):
         events.append({"slug": e["slug"], "target": d["target"]["names"]["common"], "elements": d["elements"],
                        "generated": datetime.strptime(d["generated"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc),
                        "cities": {c["name"]: c for c in d["cities"]},
-                       "rings": [np.asarray(r, dtype=float) for r in d["maps"]["world"]["region"]]})
+                       "rings": [np.asarray(r, dtype=float) for r in d["maps"]["world"]["region"]],
+                       "t0": _parse_t0(d["elements"])})
     lim = INSTRUMENTS[INSTRUMENT][1]      # the dark-limb limit: no fainter star can pass `visible` with this instrument
     first = datetime(now.year, now.month, 1) - timedelta(days=PAST_DAYS)
     yms = []
@@ -279,8 +281,7 @@ def _city_events(args):
             row = e["cities"][hit]
             if row["verdict"] != "visible" or not row.get("contacts"):
                 continue
-            con = {k: parse(v) for k, v in row["contacts"].items()}
-            alt, az, sun, exact = row["moon_alt"], row["moon_az"], row["sun_alt"], True
+            con, exact = {k: parse(v) for k, v in row["contacts"].items()}, True
             url = f"{SITE}/{e['slug']}?city={quote(hit)}"
         else:
             if not _near_region(e["rings"], lat, lon):
@@ -288,26 +289,33 @@ def _city_events(args):
             r = solve_from_elements(e["elements"], lat, lon)
             if not r["contacts"]:
                 continue
-            geom = element_geometry(e["elements"], lat, lon)
-            gs = {k: geom(m) for k, m in r["contacts_min"].items()}
-            if max(g["alt_m"] for g in gs.values()) <= 0:
-                continue
-            con = {k: parse(v) for k, v in r["contacts"].items()}
-            ref = next(k for k in ("D2", "D1", "R1", "R2") if k in gs)
-            alt, az, sun, exact = float(gs[ref]["alt_m"]), None, float(gs[ref]["alt_s"]), False
+            con, exact = {k: parse(v) for k, v in r["contacts"].items()}, False
             url = f"{SITE}/{e['slug']}?lat={lat:.4f}&lon={lon:.4f}"
-        start, end = min(con.values()), max(con.values())
+        # the Moon at each contact: it can rise or set mid-event, leaving one half below the horizon (as on the page)
+        geom = element_geometry(e["elements"], lat, lon)
+        at = {k: geom((t - e["t0"]).total_seconds() / 60.0) for k, t in con.items()}
+        if not any(float(g["alt_m"]) > 0 for g in at.values()):
+            continue
+        dk, rk = ("D2" if "D2" in con else "D1"), ("R1" if "R1" in con else "R2")
+        up_d, up_r = dk in at and float(at[dk]["alt_m"]) > 0, rk in at and float(at[rk]["alt_m"]) > 0
+        seen = "both" if up_d == up_r else "rises" if up_r else "sets"
+        keys = [k for k in ("D1", "D2", "R1", "R2") if k in con and (seen == "both" or (seen == "rises") == k.startswith("R"))]
+        start, end = con[keys[0]], con[keys[-1]]
         if end < cutoff:
             continue
-        d, rr = con.get("D2", con.get("D1")), con.get("R1", con.get("R2"))
-        parts = ([f"disappears at {hms(d)}"] if d else []) + ([f"reappears at {hms(rr)}"] if rr else [])
-        desc = (f"{e['target']} {' and '.join(parts)} {zabbr(start)}, seen from {name}.\n"
-                f"The Moon is {alt:.0f}° up{f' in the {compass(az)}' if az is not None else ''} · {sky_text(sun)}.\n"
+        g = at[rk if seen == "rises" else dk]
+        parts = ([f"disappears at {hms(con[dk])}"] if seen != "rises" and dk in con else []) + \
+                ([f"reappears at {hms(con[rk])}"] if seen != "sets" and rk in con else [])
+        half = {"both": "", "rises": "The Moon rises during the occultation: only the reappearance is above the horizon.\n",
+                "sets": "The Moon sets during the occultation: only the disappearance is above the horizon.\n"}[seen]
+        desc = (f"{e['target']} {' and '.join(parts)} {zabbr(start)}, seen from {name}.\n" + half
+                + f"The Moon is {float(g['alt_m']):.0f}° up in the {compass(float(g['az_m']))} · {sky_text(float(g['alt_s']))}.\n"
                 + ("Times against the real lunar limb.\n" if exact else "Times for the Moon's mean limb, ±2 s.\n")
                 + f"Map, timings and the view at the Moon's edge: {url}")
         out.append({"uid": f"occ-{e['slug']}-{slug}@{HOST}", "stamp": e["generated"], "start": start,
                     "end": end if end > start else start + timedelta(minutes=1),
-                    "summary": f"The Moon occults {e['target']}", "description": desc, "url": url, "alarm": True})
+                    "summary": f"The Moon occults {e['target']}" + {"both": "", "rises": " (reappearance only)", "sets": " (disappearance only)"}[seen],
+                    "description": desc, "url": url, "alarm": True})
 
     verb = {"D": "disappears", "R": "reappears"}
     items = []

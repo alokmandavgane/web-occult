@@ -51,18 +51,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-dallas-us@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T081429Z
+DTSTART:20261006T091058Z
 DTEND:20261006T091158Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 03:15:25 and reappears at 04:10:58 CDT\, 
- seen from Dallas\, US.\nThe Moon is -0° up in the ENE · dark sky.\nTimes
-  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/jupiter-2026-10-06?city=Dallas%2C%20US
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 04:10:58 CDT\, seen from Dallas\, US.\nThe
+  Moon rises during the occultation: only the reappearance is above the hor
+ izon.\nThe Moon is 10° up in the ENE · dark sky.\nTimes against the real
+  lunar limb.\nMap\, timings and the view at the Moon's edge: https://occul
+ t.alokm.com/jupiter-2026-10-06?city=Dallas%2C%20US
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Dallas%2C%20US
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

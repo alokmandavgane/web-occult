@@ -29,10 +29,10 @@ DTSTART:20260914T102001Z
 DTEND:20260914T103150Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 13:20:01 and reappears at 13:31:50 MSK\, se
- en from Saint Petersburg\, RU.\nThe Moon is 9° up · daylight\, Sun +33°
- .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=59.9386&lon
- =30.3141
+ en from Saint Petersburg\, RU.\nThe Moon is 9° up in the SSE · daylight\
+ , Sun +33°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and t
+ he view at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=
+ 59.9386&lon=30.3141
 URL:https://occult.alokm.com/venus-2026-09-14?lat=59.9386&lon=30.3141
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -437,39 +437,40 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-03-30-saint-petersburg-ru@occult.alokm.com
 DTSTAMP:20260914T040003Z
-DTSTART:20280330T034808Z
+DTSTART:20280330T044056Z
 DTEND:20280330T044141Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 06:48:51 and reappears at 07:40:56 MSK\, se
- en from Saint Petersburg\, RU.\nThe Moon is -0° up in the NE · daylight\
- , Sun +2°.\nTimes against the real lunar limb.\nMap\, timings and the vie
- w at the Moon's edge: https://occult.alokm.com/venus-2028-03-30?city=Saint
- %20Petersburg%2C%20RU
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 07:40:56 MSK\, seen from Saint Petersburg\, 
+ RU.\nThe Moon rises during the occultation: only the reappearance is above
+  the horizon.\nThe Moon is 4° up in the NE · daylight\, Sun +8°.\nTimes
+  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/venus-2028-03-30?city=Saint%20Petersburg%2C%2
+ 0RU
 URL:https://occult.alokm.com/venus-2028-03-30?city=Saint%20Petersburg%2C%20
  RU
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-04-12-saint-petersburg-ru@occult.alokm.com
 DTSTAMP:20260914T040148Z
-DTSTART:20280412T215725Z
-DTEND:20280412T230419Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 00:57:25 and reappears at 02:04:19 MSK\, 
- seen from Saint Petersburg\, RU.\nThe Moon is -4° up · dark sky.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/antares-2028-04-12?lat=59.9386&lon=30.314
- 1
+DTSTART:20280412T230419Z
+DTEND:20280412T230519Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 02:04:19 MSK\, seen from Saint Petersburg\
+ , RU.\nThe Moon rises during the occultation: only the reappearance is abo
+ ve the horizon.\nThe Moon is 0° up in the SSE · dark sky.\nTimes for the
+  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/antares-2028-04-12?lat=59.9386&lon=30.3141
 URL:https://occult.alokm.com/antares-2028-04-12?lat=59.9386&lon=30.3141
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

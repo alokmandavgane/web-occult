@@ -536,17 +536,18 @@ BEGIN:VEVENT
 UID:occ-venus-2029-10-11-phoenix-us@occult.alokm.com
 DTSTAMP:20260914T040658Z
 DTSTART:20291011T023016Z
-DTEND:20291011T032317Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:31:10 and reappears at 20:22:24 MST\, se
- en from Phoenix\, US.\nThe Moon is 6° up in the SW · dark sky.\nTimes ag
- ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/venus-2029-10-11?city=Phoenix%2C%20US
+DTEND:20291011T023110Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:31:10 MST\, seen from Phoenix\, US.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 6° up in the SW · dark sky.\nTimes against the real l
+ unar limb.\nMap\, timings and the view at the Moon's edge: https://occult.
+ alokm.com/venus-2029-10-11?city=Phoenix%2C%20US
 URL:https://occult.alokm.com/venus-2029-10-11?city=Phoenix%2C%20US
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

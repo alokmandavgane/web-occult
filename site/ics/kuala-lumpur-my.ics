@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-kuala-lumpur-my@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123741Z
-DTEND:20260914T134328Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:39:09 and reappears at 21:42:10 +08\, se
- en from Kuala Lumpur\, MY.\nThe Moon is 12° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/venus-2026-09-14?lat=3.1412&lon=101.6865
+DTEND:20260914T123909Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:39:09 +08\, seen from Kuala Lumpur\, MY.
+ \nThe Moon sets during the occultation: only the disappearance is above th
+ e horizon.\nThe Moon is 12° up in the WSW · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/venus-2026-09-14?lat=3.1412&lon=101.6865
 URL:https://occult.alokm.com/venus-2026-09-14?lat=3.1412&lon=101.6865
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,10 @@ DTSTART:20261102T212055Z
 DTEND:20261102T223714Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 05:22:39 and reappears at 06:35:22 +08\, 
- seen from Kuala Lumpur\, MY.\nThe Moon is 47° up · dark sky.\nTimes for 
- the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/jupiter-2026-11-02?lat=3.1412&lon=101.6865
+ seen from Kuala Lumpur\, MY.\nThe Moon is 47° up in the ENE · dark sky.\
+ nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=3.1412&lon=
+ 101.6865
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=3.1412&lon=101.6865
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -522,9 +524,10 @@ DTSTART:20280121T225253Z
 DTEND:20280122T002416Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:52:53 and reappears at 08:24:16 +08\, 
- seen from Kuala Lumpur\, MY.\nThe Moon is 40° up · dusk.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-01-22?lat=3.1412&lon=101.6865
+ seen from Kuala Lumpur\, MY.\nThe Moon is 40° up in the SE · dusk.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/antares-2028-01-22?lat=3.1412&lon=101.6
+ 865
 URL:https://occult.alokm.com/antares-2028-01-22?lat=3.1412&lon=101.6865
 TRANSP:TRANSPARENT
 BEGIN:VALARM

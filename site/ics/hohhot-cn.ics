@@ -414,9 +414,10 @@ DTSTART:20280330T141940Z
 DTEND:20280330T144646Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 22:19:40 and reappears at 22:46:46 CST\, 
- seen from Hohhot\, CN.\nThe Moon is 10° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=40.8106&lon=111.6522
+ seen from Hohhot\, CN.\nThe Moon is 10° up in the WNW · dark sky.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.8106&lon=111.6
+ 522
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.8106&lon=111.6522
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -429,18 +430,18 @@ BEGIN:VEVENT
 UID:occ-antares-2028-04-12-hohhot-cn@occult.alokm.com
 DTSTAMP:20260914T040148Z
 DTSTART:20280412T234642Z
-DTEND:20280413T004432Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 07:46:42 and reappears at 08:44:32 CST\, 
- seen from Hohhot\, CN.\nThe Moon is 1° up · daylight\, Sun +20°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/antares-2028-04-12?lat=40.8106&lon=111.6
- 522
+DTEND:20280412T234742Z
+SUMMARY:The Moon occults Antares (disappearance only)
+DESCRIPTION:Antares disappears at 07:46:42 CST\, seen from Hohhot\, CN.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 1° up in the SW · daylight\, Sun +20°.\nTimes for t
+ he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-04-12?lat=40.8106&lon=111.6522
 URL:https://occult.alokm.com/antares-2028-04-12?lat=40.8106&lon=111.6522
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

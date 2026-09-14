@@ -447,18 +447,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-jaisalmer@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222806Z
-DTEND:20280121T233146Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:58:06 and reappears at 05:01:46 IST\, 
- seen from Jaisalmer.\nThe Moon is -3° up in the ESE · dark sky.\nTimes a
- gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?city=Jaisalmer
+DTSTART:20280121T233146Z
+DTEND:20280121T233246Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:01:46 IST\, seen from Jaisalmer.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 9° up in the SE · dark sky.\nTimes against the real lun
+ ar limb.\nMap\, timings and the view at the Moon's edge: https://occult.al
+ okm.com/antares-2028-01-22?city=Jaisalmer
 URL:https://occult.alokm.com/antares-2028-01-22?city=Jaisalmer
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

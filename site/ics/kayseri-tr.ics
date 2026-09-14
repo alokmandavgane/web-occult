@@ -16,9 +16,10 @@ DTSTART:20260914T094802Z
 DTEND:20260914T110624Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 12:49:48 and reappears at 14:04:28 +03\, se
- en from Kayseri\, TR.\nThe Moon is 27° up · daylight\, Sun +54°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/venus-2026-09-14?lat=38.7322&lon=35.4853
+ en from Kayseri\, TR.\nThe Moon is 27° up in the SE · daylight\, Sun +54
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=38.7322&l
+ on=35.4853
 URL:https://occult.alokm.com/venus-2026-09-14?lat=38.7322&lon=35.4853
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -472,10 +473,10 @@ DTSTART:20280330T123843Z
 DTEND:20280330T140550Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 15:38:43 and reappears at 17:05:50 +03\, 
- seen from Kayseri\, TR.\nThe Moon is 75° up · daylight\, Sun +37°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=38.7322&lon=35.
- 4853
+ seen from Kayseri\, TR.\nThe Moon is 75° up in the SSE · daylight\, Sun 
+ +37°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vie
+ w at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=38.7
+ 322&lon=35.4853
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=38.7322&lon=35.4853
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -491,9 +492,10 @@ DTSTART:20280412T214225Z
 DTEND:20280412T225450Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 00:42:25 and reappears at 01:54:50 +03\, 
- seen from Kayseri\, TR.\nThe Moon is 13° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-04-12?lat=38.7322&lon=35.4853
+ seen from Kayseri\, TR.\nThe Moon is 13° up in the SE · dark sky.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?lat=38.7322&lon=35.48
+ 53
 URL:https://occult.alokm.com/antares-2028-04-12?lat=38.7322&lon=35.4853
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -505,18 +507,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mercury-2029-02-11-kayseri-tr@occult.alokm.com
 DTSTAMP:20260914T040616Z
-DTSTART:20290211T025849Z
+DTSTART:20290211T035448Z
 DTEND:20290211T035510Z
-SUMMARY:The Moon occults Mercury
-DESCRIPTION:Mercury disappears at 05:59:10 and reappears at 06:54:48 +03\, 
- seen from Kayseri\, TR.\nThe Moon is -3° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/mercury-2029-02-11?lat=38.7322&lon=35.4853
+SUMMARY:The Moon occults Mercury (reappearance only)
+DESCRIPTION:Mercury reappears at 06:54:48 +03\, seen from Kayseri\, TR.\nTh
+ e Moon rises during the occultation: only the reappearance is above the ho
+ rizon.\nThe Moon is 6° up in the ESE · dusk.\nTimes for the Moon's mean 
+ limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occu
+ lt.alokm.com/mercury-2029-02-11?lat=38.7322&lon=35.4853
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=38.7322&lon=35.4853
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mercury
+DESCRIPTION:The Moon occults Mercury (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

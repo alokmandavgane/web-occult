@@ -355,17 +355,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-weifang-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T142049Z
-DTEND:20280330T144839Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:20:49 and reappears at 22:48:39 CST\, 
- seen from Weifang\, CN.\nThe Moon is 3° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=36.7100&lon=119.1019
+DTEND:20280330T142149Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:20:49 CST\, seen from Weifang\, CN.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 3° up in the WNW · dark sky.\nTimes for the Moon's 
+ mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/alcyone-2028-03-30?lat=36.7100&lon=119.1019
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=36.7100&lon=119.1019
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

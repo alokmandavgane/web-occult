@@ -38,20 +38,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-ecatepec-de-morelos-mx@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T082103Z
+DTSTART:20261006T085458Z
 DTEND:20261006T085636Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:22:32 and reappears at 02:54:58 CST\, 
- seen from Ecatepec de Morelos\, MX.\nThe Moon is -5° up in the ENE · dar
- k sky.\nTimes against the real lunar limb.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ecatepec
- %20de%20Morelos%2C%20MX
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 02:54:58 CST\, seen from Ecatepec de Morel
+ os\, MX.\nThe Moon rises during the occultation: only the reappearance is 
+ above the horizon.\nThe Moon is 2° up in the ENE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/jupiter-2026-10-06?city=Ecatepec%20de%20Morelos%2C
+ %20MX
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ecatepec%20de%20Morelo
  s%2C%20MX
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

@@ -460,18 +460,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-mount-abu@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222715Z
-DTEND:20280121T233225Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:57:15 and reappears at 05:02:25 IST\, 
- seen from Mount Abu.\nThe Moon is -0° up in the ESE · dark sky.\nTimes a
- gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?city=Mount%20Abu
+DTSTART:20280121T233225Z
+DTEND:20280121T233325Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:02:25 IST\, seen from Mount Abu.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 12° up in the SE · dark sky.\nTimes against the real lu
+ nar limb.\nMap\, timings and the view at the Moon's edge: https://occult.a
+ lokm.com/antares-2028-01-22?city=Mount%20Abu
 URL:https://occult.alokm.com/antares-2028-01-22?city=Mount%20Abu
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

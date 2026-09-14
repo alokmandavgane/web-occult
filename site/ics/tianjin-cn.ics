@@ -26,18 +26,18 @@ BEGIN:VEVENT
 UID:occ-mars-2026-10-05-tianjin-cn@occult.alokm.com
 DTSTAMP:20260914T034451Z
 DTSTART:20261005T064930Z
-DTEND:20261005T071536Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 14:49:48 and reappears at 15:15:19 CST\, see
- n from Tianjin\, CN.\nThe Moon is 1° up in the WNW · daylight\, Sun +31
- °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/mars-2026-10-05?city=Tianjin%2C%20C
- N
+DTEND:20261005T064948Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 14:49:48 CST\, seen from Tianjin\, CN.\nThe 
+ Moon sets during the occultation: only the disappearance is above the hori
+ zon.\nThe Moon is 1° up in the WNW · daylight\, Sun +31°.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/mars-2026-10-05?city=Tianjin%2C%20CN
 URL:https://occult.alokm.com/mars-2026-10-05?city=Tianjin%2C%20CN
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -375,9 +375,10 @@ DTSTART:20280330T142214Z
 DTEND:20280330T144422Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 22:22:14 and reappears at 22:44:22 CST\, 
- seen from Tianjin\, CN.\nThe Moon is 5° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=39.1422&lon=117.1767
+ seen from Tianjin\, CN.\nThe Moon is 5° up in the WNW · dark sky.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=39.1422&lon=117.1
+ 767
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=39.1422&lon=117.1767
 TRANSP:TRANSPARENT
 BEGIN:VALARM

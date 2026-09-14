@@ -392,17 +392,18 @@ BEGIN:VEVENT
 UID:occ-mars-2027-12-29-tashkent-uz@occult.alokm.com
 DTSTAMP:20260914T035542Z
 DTSTART:20271229T125930Z
-DTEND:20271229T140224Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 17:59:41 and reappears at 19:02:15 +05\, see
- n from Tashkent\, UZ.\nThe Moon is 3° up in the WSW · dusk.\nTimes again
- st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/mars-2027-12-29?city=Tashkent%2C%20UZ
+DTEND:20271229T125941Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 17:59:41 +05\, seen from Tashkent\, UZ.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 3° up in the WSW · dusk.\nTimes against the real luna
+ r limb.\nMap\, timings and the view at the Moon's edge: https://occult.alo
+ km.com/mars-2027-12-29?city=Tashkent%2C%20UZ
 URL:https://occult.alokm.com/mars-2027-12-29?city=Tashkent%2C%20UZ
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -413,8 +414,8 @@ DTSTART:20280330T030753Z
 DTEND:20280330T034839Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 08:08:58 and reappears at 08:47:32 +05\, se
- en from Tashkent\, UZ.\nThe Moon is 2° up in the ENE · daylight\, Sun +2
- 2°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
+ en from Tashkent\, UZ.\nThe Moon is 3° up in the ENE · daylight\, Sun +2
+ 1°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
  e Moon's edge: https://occult.alokm.com/venus-2028-03-30?city=Tashkent%2C%
  20UZ
 URL:https://occult.alokm.com/venus-2028-03-30?city=Tashkent%2C%20UZ
@@ -432,9 +433,10 @@ DTSTART:20280330T134224Z
 DTEND:20280330T145438Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:42:24 and reappears at 19:54:38 +05\, 
- seen from Tashkent\, UZ.\nThe Moon is 48° up · twilight.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/alcyone-2028-03-30?lat=41.2647&lon=69.2163
+ seen from Tashkent\, UZ.\nThe Moon is 48° up in the W · twilight.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=41.2647&lon=69.21
+ 63
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=41.2647&lon=69.2163
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -450,9 +452,10 @@ DTSTART:20280412T223904Z
 DTEND:20280413T000200Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:39:04 and reappears at 05:02:00 +05\, 
- seen from Tashkent\, UZ.\nThe Moon is 22° up · dark sky.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-04-12?lat=41.2647&lon=69.2163
+ seen from Tashkent\, UZ.\nThe Moon is 22° up in the S · dark sky.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?lat=41.2647&lon=69.21
+ 63
 URL:https://occult.alokm.com/antares-2028-04-12?lat=41.2647&lon=69.2163
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -468,10 +471,10 @@ DTSTART:20290211T033531Z
 DTEND:20290211T045800Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:35:31 and reappears at 09:57:36 +05\, 
- seen from Tashkent\, UZ.\nThe Moon is 21° up · daylight\, Sun +12°.\nTi
- mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=41.2647&lon=69
- .2163
+ seen from Tashkent\, UZ.\nThe Moon is 21° up in the SE · daylight\, Sun 
+ +12°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vie
+ w at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=41.2
+ 647&lon=69.2163
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=41.2647&lon=69.2163
 TRANSP:TRANSPARENT
 BEGIN:VALARM

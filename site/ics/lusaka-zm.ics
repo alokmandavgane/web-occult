@@ -13,18 +13,18 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-lusaka-zm@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T113705Z
-DTEND:20261006T123322Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:38:08 and reappears at 14:32:26 CAT\, 
- seen from Lusaka\, ZM.\nThe Moon is 10° up in the WNW · daylight\, Sun +
- 63°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
- he Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Lusaka%2C
- %20ZM
+DTEND:20261006T113808Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 13:38:08 CAT\, seen from Lusaka\, ZM.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 10° up in the WNW · daylight\, Sun +63°.\nTimes aga
+ inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/jupiter-2026-10-06?city=Lusaka%2C%20ZM
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Lusaka%2C%20ZM
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

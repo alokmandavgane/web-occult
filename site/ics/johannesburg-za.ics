@@ -26,18 +26,19 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-johannesburg-za@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T115133Z
-DTEND:20261006T122519Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:53:11 and reappears at 14:23:43 SAST\,
-  seen from Johannesburg\, ZA.\nThe Moon is 3° up in the WNW · daylight\,
-  Sun +55°.\nTimes against the real lunar limb.\nMap\, timings and the vie
- w at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Joh
- annesburg%2C%20ZA
+DTEND:20261006T115311Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 13:53:11 SAST\, seen from Johannesburg\, 
+ ZA.\nThe Moon sets during the occultation: only the disappearance is above
+  the horizon.\nThe Moon is 3° up in the WNW · daylight\, Sun +55°.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/jupiter-2026-10-06?city=Johannesburg%2C%20Z
+ A
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Johannesburg%2C%20ZA
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

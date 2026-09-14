@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-nanning-cn@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T122942Z
-DTEND:20260914T131900Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:31:36 and reappears at 21:17:17 CST\, se
- en from Nanning\, CN.\nThe Moon is 1° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/venus-2026-09-14?lat=22.8167&lon=108.3167
+DTEND:20260914T123136Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:31:36 CST\, seen from Nanning\, CN.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 1° up in the WSW · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/venus-2026-09-14?lat=22.8167&lon=108.3167
 URL:https://occult.alokm.com/venus-2026-09-14?lat=22.8167&lon=108.3167
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -359,17 +360,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-nanning-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T142216Z
-DTEND:20280330T151543Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:22:16 and reappears at 23:15:43 CST\, 
- seen from Nanning\, CN.\nThe Moon is 5° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=22.8167&lon=108.3167
+DTEND:20280330T142316Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:22:16 CST\, seen from Nanning\, CN.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 5° up in the WNW · dark sky.\nTimes for the Moon's 
+ mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/alcyone-2028-03-30?lat=22.8167&lon=108.3167
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=22.8167&lon=108.3167
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

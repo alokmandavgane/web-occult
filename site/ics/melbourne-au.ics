@@ -55,10 +55,10 @@ DTSTART:20261102T232929Z
 DTEND:20261103T004002Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 10:30:51 and reappears at 11:38:46 AEDT\,
-  seen from Melbourne\, AU.\nThe Moon is 30° up · daylight\, Sun +49°.\n
- Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-37.8140&lon
- =144.9633
+  seen from Melbourne\, AU.\nThe Moon is 30° up in the NW · daylight\, Su
+ n +49°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the v
+ iew at the Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-3
+ 7.8140&lon=144.9633
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-37.8140&lon=144.9633
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -510,18 +510,18 @@ BEGIN:VEVENT
 UID:occ-venus-2029-01-13-melbourne-au@occult.alokm.com
 DTSTAMP:20260914T040531Z
 DTSTART:20290113T082848Z
-DTEND:20290113T092104Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:29:06 and reappears at 20:20:47 AEDT\, s
- een from Melbourne\, AU.\nThe Moon is 1° up in the WSW · daylight\, Sun 
- +13°.\nTimes against the real lunar limb.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2029-01-13?city=Melbourne%
- 2C%20AU
+DTEND:20290113T082906Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:29:06 AEDT\, seen from Melbourne\, AU.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 1° up in the WSW · daylight\, Sun +13°.\nTimes ag
+ ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
+  https://occult.alokm.com/venus-2029-01-13?city=Melbourne%2C%20AU
 URL:https://occult.alokm.com/venus-2029-01-13?city=Melbourne%2C%20AU
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

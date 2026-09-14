@@ -406,19 +406,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mars-2029-10-11-bogota-co@occult.alokm.com
 DTSTAMP:20260914T040845Z
-DTSTART:20291011T140300Z
+DTSTART:20291011T145433Z
 DTEND:20291011T145443Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 09:03:10 and reappears at 09:54:33 -05\, see
- n from Bogotá\, CO.\nThe Moon is -5° up in the ESE · daylight\, Sun +48
- °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/mars-2029-10-11?city=Bogot%C3%A1%2C
- %20CO
+SUMMARY:The Moon occults Mars (reappearance only)
+DESCRIPTION:Mars reappears at 09:54:33 -05\, seen from Bogotá\, CO.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 6° up in the ESE · daylight\, Sun +60°.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/mars-2029-10-11?city=Bogot%C3%A1%2C%20CO
 URL:https://occult.alokm.com/mars-2029-10-11?city=Bogot%C3%A1%2C%20CO
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

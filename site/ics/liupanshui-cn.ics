@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-liupanshui-cn@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123212Z
-DTEND:20260914T130402Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:35:33 and reappears at 21:00:52 CST\, se
- en from Liupanshui\, CN.\nThe Moon is 2° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/venus-2026-09-14?lat=26.5944&lon=104.8333
+DTEND:20260914T123533Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:35:33 CST\, seen from Liupanshui\, CN.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 2° up in the WSW · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/venus-2026-09-14?lat=26.5944&lon=104.8333
 URL:https://occult.alokm.com/venus-2026-09-14?lat=26.5944&lon=104.8333
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -436,17 +437,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-liupanshui-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T141944Z
-DTEND:20280330T151443Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:19:44 and reappears at 23:14:43 CST\, 
- seen from Liupanshui\, CN.\nThe Moon is 10° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/alcyone-2028-03-30?lat=26.5944&lon=104.8333
+DTEND:20280330T142044Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:19:44 CST\, seen from Liupanshui\, CN.
+ \nThe Moon sets during the occultation: only the disappearance is above th
+ e horizon.\nThe Moon is 10° up in the WNW · dark sky.\nTimes for the Moo
+ n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/alcyone-2028-03-30?lat=26.5944&lon=104.8333
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=26.5944&lon=104.8333
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -457,10 +459,10 @@ DTSTART:20280413T000935Z
 DTEND:20280413T004029Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 08:09:35 and reappears at 08:40:29 CST\, 
- seen from Liupanshui\, CN.\nThe Moon is 11° up · daylight\, Sun +19°.\n
- Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=26.5944&lon=
- 104.8333
+ seen from Liupanshui\, CN.\nThe Moon is 11° up in the SW · daylight\, Su
+ n +19°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the v
+ iew at the Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=26
+ .5944&lon=104.8333
 URL:https://occult.alokm.com/antares-2028-04-12?lat=26.5944&lon=104.8333
 TRANSP:TRANSPARENT
 BEGIN:VALARM

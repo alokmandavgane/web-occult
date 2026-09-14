@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-jakarta-id@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T130035Z
-DTEND:20260914T133232Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:03:20 and reappears at 20:29:56 WIB\, se
- en from Jakarta\, ID.\nThe Moon is 4° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/venus-2026-09-14?lat=-6.2146&lon=106.8451
+DTEND:20260914T130320Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:03:20 WIB\, seen from Jakarta\, ID.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 4° up in the WSW · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/venus-2026-09-14?lat=-6.2146&lon=106.8451
 URL:https://occult.alokm.com/venus-2026-09-14?lat=-6.2146&lon=106.8451
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,9 @@ DTSTART:20261102T213931Z
 DTEND:20261102T230929Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 04:41:08 and reappears at 06:07:48 WIB\, 
- seen from Jakarta\, ID.\nThe Moon is 52° up · dusk.\nTimes for the Moon'
- s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
- ://occult.alokm.com/jupiter-2026-11-02?lat=-6.2146&lon=106.8451
+ seen from Jakarta\, ID.\nThe Moon is 52° up in the ENE · dusk.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2146&lon=106.8451
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2146&lon=106.8451
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -561,10 +562,10 @@ DTSTART:20280121T231510Z
 DTEND:20280122T004059Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:15:10 and reappears at 07:40:59 WIB\, 
- seen from Jakarta\, ID.\nThe Moon is 54° up · daylight\, Sun +5°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.2146&lon=106.
- 8451
+ seen from Jakarta\, ID.\nThe Moon is 54° up in the SE · daylight\, Sun +
+ 5°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.214
+ 6&lon=106.8451
 URL:https://occult.alokm.com/antares-2028-01-22?lat=-6.2146&lon=106.8451
 TRANSP:TRANSPARENT
 BEGIN:VALARM

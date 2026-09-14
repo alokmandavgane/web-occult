@@ -411,18 +411,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-03-30-moscow-ru@occult.alokm.com
 DTSTAMP:20260914T040003Z
-DTSTART:20280330T033903Z
+DTSTART:20280330T043116Z
 DTEND:20280330T043200Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 06:39:46 and reappears at 07:31:16 MSK\, se
- en from Moscow\, RU.\nThe Moon is -2° up in the NE · daylight\, Sun +4°
- .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/venus-2028-03-30?city=Moscow%2C%20RU
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 07:31:16 MSK\, seen from Moscow\, RU.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 4° up in the NE · daylight\, Sun +11°.\nTimes against 
+ the real lunar limb.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/venus-2028-03-30?city=Moscow%2C%20RU
 URL:https://occult.alokm.com/venus-2028-03-30?city=Moscow%2C%20RU
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -433,10 +434,10 @@ DTSTART:20280330T130558Z
 DTEND:20280330T135249Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 16:05:58 and reappears at 16:52:49 MSK\, 
- seen from Moscow\, RU.\nThe Moon is 58° up · daylight\, Sun +23°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=55.7520&lon=37.6
- 178
+ seen from Moscow\, RU.\nThe Moon is 58° up in the S · daylight\, Sun +23
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=55.7520
+ &lon=37.6178
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=55.7520&lon=37.6178
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -452,9 +453,9 @@ DTSTART:20280412T215823Z
 DTEND:20280412T230830Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 00:58:23 and reappears at 02:08:30 MSK\, 
- seen from Moscow\, RU.\nThe Moon is 1° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-04-12?lat=55.7520&lon=37.6178
+ seen from Moscow\, RU.\nThe Moon is 1° up in the SE · dark sky.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-04-12?lat=55.7520&lon=37.6178
 URL:https://occult.alokm.com/antares-2028-04-12?lat=55.7520&lon=37.6178
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -466,18 +467,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mercury-2029-02-11-moscow-ru@occult.alokm.com
 DTSTAMP:20260914T040616Z
-DTSTART:20290211T032249Z
+DTSTART:20290211T043515Z
 DTEND:20290211T043532Z
-SUMMARY:The Moon occults Mercury
-DESCRIPTION:Mercury disappears at 06:23:05 and reappears at 07:35:15 MSK\, 
- seen from Moscow\, RU.\nThe Moon is -6° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/mercury-2029-02-11?lat=55.7520&lon=37.6178
+SUMMARY:The Moon occults Mercury (reappearance only)
+DESCRIPTION:Mercury reappears at 07:35:15 MSK\, seen from Moscow\, RU.\nThe
+  Moon rises during the occultation: only the reappearance is above the hor
+ izon.\nThe Moon is 2° up in the SE · twilight.\nTimes for the Moon's mea
+ n limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://oc
+ cult.alokm.com/mercury-2029-02-11?lat=55.7520&lon=37.6178
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=55.7520&lon=37.6178
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mercury
+DESCRIPTION:The Moon occults Mercury (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

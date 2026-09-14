@@ -431,35 +431,37 @@ BEGIN:VEVENT
 UID:occ-mars-2027-12-29-peshawar-pk@occult.alokm.com
 DTSTAMP:20260914T035542Z
 DTSTART:20271229T131556Z
-DTEND:20271229T135402Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 18:16:14 and reappears at 18:53:47 PKT\, see
- n from Peshawar\, PK.\nThe Moon is 3° up in the WSW · dark sky.\nTimes a
- gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/mars-2027-12-29?city=Peshawar%2C%20PK
+DTEND:20271229T131614Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 18:16:14 PKT\, seen from Peshawar\, PK.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 3° up in the WSW · dark sky.\nTimes against the real 
+ lunar limb.\nMap\, timings and the view at the Moon's edge: https://occult
+ .alokm.com/mars-2027-12-29?city=Peshawar%2C%20PK
 URL:https://occult.alokm.com/mars-2027-12-29?city=Peshawar%2C%20PK
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-peshawar-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223616Z
-DTEND:20280121T233112Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:36:16 and reappears at 04:31:12 PKT\, 
- seen from Peshawar\, PK.\nThe Moon is -4° up · dark sky.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-01-22?lat=34.0080&lon=71.5785
+DTSTART:20280121T233112Z
+DTEND:20280121T233212Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:31:12 PKT\, seen from Peshawar\, PK.\nT
+ he Moon rises during the occultation: only the reappearance is above the h
+ orizon.\nThe Moon is 5° up in the SE · dark sky.\nTimes for the Moon's m
+ ean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://
+ occult.alokm.com/antares-2028-01-22?lat=34.0080&lon=71.5785
 URL:https://occult.alokm.com/antares-2028-01-22?lat=34.0080&lon=71.5785
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -489,9 +491,10 @@ DTSTART:20280330T135354Z
 DTEND:20280330T150334Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:53:54 and reappears at 20:03:34 PKT\, 
- seen from Peshawar\, PK.\nThe Moon is 44° up · twilight.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/alcyone-2028-03-30?lat=34.0080&lon=71.5785
+ seen from Peshawar\, PK.\nThe Moon is 44° up in the W · twilight.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=34.0080&lon=71.57
+ 85
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=34.0080&lon=71.5785
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -507,9 +510,10 @@ DTSTART:20280412T224531Z
 DTEND:20280413T001254Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:45:31 and reappears at 05:12:54 PKT\, 
- seen from Peshawar\, PK.\nThe Moon is 29° up · dark sky.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-04-12?lat=34.0080&lon=71.5785
+ seen from Peshawar\, PK.\nThe Moon is 29° up in the S · dark sky.\nTimes
+  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
+ 's edge: https://occult.alokm.com/antares-2028-04-12?lat=34.0080&lon=71.57
+ 85
 URL:https://occult.alokm.com/antares-2028-04-12?lat=34.0080&lon=71.5785
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -525,10 +529,10 @@ DTSTART:20290211T033621Z
 DTEND:20290211T044629Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:36:51 and reappears at 09:45:58 PKT\, 
- seen from Peshawar\, PK.\nThe Moon is 28° up · daylight\, Sun +17°.\nTi
- mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=34.0080&lon=71
- .5785
+ seen from Peshawar\, PK.\nThe Moon is 28° up in the SSE · daylight\, Sun
+  +17°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
+ ew at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=34.
+ 0080&lon=71.5785
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=34.0080&lon=71.5785
 TRANSP:TRANSPARENT
 BEGIN:VALARM

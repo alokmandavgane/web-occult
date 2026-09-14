@@ -13,18 +13,18 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-harare-zw@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T113900Z
-DTEND:20261006T123304Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:40:02 and reappears at 14:32:09 CAT\, 
- seen from Harare\, ZW.\nThe Moon is 6° up in the WNW · daylight\, Sun +5
- 9°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
- e Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Harare%2C%
- 20ZW
+DTEND:20261006T114002Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 13:40:02 CAT\, seen from Harare\, ZW.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 6° up in the WNW · daylight\, Sun +59°.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/jupiter-2026-10-06?city=Harare%2C%20ZW
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Harare%2C%20ZW
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -219,7 +219,7 @@ DTEND:20270415T133528Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 14:56:49 and reappears at 15:32:58 CAT\, 
  seen from Harare\, ZW.\nThe Moon is 12° up in the ENE · daylight\, Sun +
- 38°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
+ 37°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
  he Moon's edge: https://occult.alokm.com/jupiter-2027-04-15?city=Harare%2C
  %20ZW
 URL:https://occult.alokm.com/jupiter-2027-04-15?city=Harare%2C%20ZW
@@ -408,7 +408,7 @@ DTSTART:20291011T171040Z
 DTEND:20291011T181830Z
 SUMMARY:The Moon occults Mars
 DESCRIPTION:Mars disappears at 19:10:52 and reappears at 20:18:19 CAT\, see
- n from Harare\, ZW.\nThe Moon is 36° up in the WSW · dark sky.\nTimes ag
+ n from Harare\, ZW.\nThe Moon is 35° up in the WSW · dark sky.\nTimes ag
  ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
   https://occult.alokm.com/mars-2029-10-11?city=Harare%2C%20ZW
 URL:https://occult.alokm.com/mars-2029-10-11?city=Harare%2C%20ZW

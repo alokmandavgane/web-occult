@@ -392,17 +392,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-yichang-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T141800Z
-DTEND:20280330T150645Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:18:00 and reappears at 23:06:45 CST\, 
- seen from Yichang\, CN.\nThe Moon is 6° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=30.7144&lon=111.2847
+DTEND:20280330T141900Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:18:00 CST\, seen from Yichang\, CN.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 6° up in the WNW · dark sky.\nTimes for the Moon's 
+ mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/alcyone-2028-03-30?lat=30.7144&lon=111.2847
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=30.7144&lon=111.2847
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -410,18 +411,18 @@ BEGIN:VEVENT
 UID:occ-antares-2028-04-12-yichang-cn@occult.alokm.com
 DTSTAMP:20260914T040148Z
 DTSTART:20280413T000911Z
-DTEND:20280413T004219Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 08:09:11 and reappears at 08:42:19 CST\, 
- seen from Yichang\, CN.\nThe Moon is 4° up · daylight\, Sun +25°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/antares-2028-04-12?lat=30.7144&lon=111.
- 2847
+DTEND:20280413T001011Z
+SUMMARY:The Moon occults Antares (disappearance only)
+DESCRIPTION:Antares disappears at 08:09:11 CST\, seen from Yichang\, CN.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 4° up in the SW · daylight\, Sun +25°.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/antares-2028-04-12?lat=30.7144&lon=111.2847
 URL:https://occult.alokm.com/antares-2028-04-12?lat=30.7144&lon=111.2847
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

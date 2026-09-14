@@ -16,9 +16,10 @@ DTSTART:20260914T094949Z
 DTEND:20260914T111138Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 12:51:36 and reappears at 14:09:43 +03\, se
- en from Aleppo\, SY.\nThe Moon is 30° up · daylight\, Sun +57°.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/venus-2026-09-14?lat=36.2012&lon=37.1612
+ en from Aleppo\, SY.\nThe Moon is 30° up in the SSE · daylight\, Sun +57
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=36.2012&l
+ on=37.1612
 URL:https://occult.alokm.com/venus-2026-09-14?lat=36.2012&lon=37.1612
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -427,7 +428,7 @@ DTSTART:20271229T122622Z
 DTEND:20271229T135104Z
 SUMMARY:The Moon occults Mars
 DESCRIPTION:Mars disappears at 15:26:36 and reappears at 16:50:53 +03\, see
- n from Aleppo\, SY.\nThe Moon is 28° up in the SSW · daylight\, Sun +18
+ n from Aleppo\, SY.\nThe Moon is 27° up in the SSW · daylight\, Sun +18
  °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
   Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Aleppo%2C%20SY
 URL:https://occult.alokm.com/mars-2027-12-29?city=Aleppo%2C%20SY
@@ -445,10 +446,10 @@ DTSTART:20280330T124244Z
 DTEND:20280330T140715Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 15:42:44 and reappears at 17:07:15 +03\, 
- seen from Aleppo\, SY.\nThe Moon is 78° up · daylight\, Sun +36°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=36.2012&lon=37.1
- 612
+ seen from Aleppo\, SY.\nThe Moon is 78° up in the S · daylight\, Sun +36
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=36.2012
+ &lon=37.1612
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=36.2012&lon=37.1612
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -464,9 +465,10 @@ DTSTART:20280412T214327Z
 DTEND:20280412T225601Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 00:43:27 and reappears at 01:56:01 +03\, 
- seen from Aleppo\, SY.\nThe Moon is 16° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/antares-2028-04-12?lat=36.2012&lon=37.1612
+ seen from Aleppo\, SY.\nThe Moon is 16° up in the SE · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-04-12?lat=36.2012&lon=37.161
+ 2
 URL:https://occult.alokm.com/antares-2028-04-12?lat=36.2012&lon=37.1612
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -478,18 +480,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mercury-2029-02-11-aleppo-sy@occult.alokm.com
 DTSTAMP:20260914T040616Z
-DTSTART:20290211T025752Z
+DTSTART:20290211T034945Z
 DTEND:20290211T035010Z
-SUMMARY:The Moon occults Mercury
-DESCRIPTION:Mercury disappears at 05:58:15 and reappears at 06:49:45 +03\, 
- seen from Aleppo\, SY.\nThe Moon is -1° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/mercury-2029-02-11?lat=36.2012&lon=37.1612
+SUMMARY:The Moon occults Mercury (reappearance only)
+DESCRIPTION:Mercury reappears at 06:49:45 +03\, seen from Aleppo\, SY.\nThe
+  Moon rises during the occultation: only the reappearance is above the hor
+ izon.\nThe Moon is 8° up in the ESE · dusk.\nTimes for the Moon's mean l
+ imb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occul
+ t.alokm.com/mercury-2029-02-11?lat=36.2012&lon=37.1612
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=36.2012&lon=37.1612
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mercury
+DESCRIPTION:The Moon occults Mercury (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

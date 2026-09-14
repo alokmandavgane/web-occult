@@ -435,9 +435,10 @@ DTSTART:20280330T141645Z
 DTEND:20280330T150316Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 22:16:45 and reappears at 23:03:16 CST\, 
- seen from Xi’an\, CN.\nThe Moon is 10° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/alcyone-2028-03-30?lat=34.2583&lon=108.9286
+ seen from Xi’an\, CN.\nThe Moon is 10° up in the WNW · dark sky.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=34.2583&lon=108.
+ 9286
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=34.2583&lon=108.9286
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -450,18 +451,18 @@ BEGIN:VEVENT
 UID:occ-antares-2028-04-12-xian-cn@occult.alokm.com
 DTSTAMP:20260914T040148Z
 DTSTART:20280412T235559Z
-DTEND:20280413T004615Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 07:55:59 and reappears at 08:46:15 CST\, 
- seen from Xi’an\, CN.\nThe Moon is 6° up · daylight\, Sun +20°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/antares-2028-04-12?lat=34.2583&lon=108.
- 9286
+DTEND:20280412T235659Z
+SUMMARY:The Moon occults Antares (disappearance only)
+DESCRIPTION:Antares disappears at 07:55:59 CST\, seen from Xi’an\, CN.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 6° up in the SW · daylight\, Sun +20°.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/antares-2028-04-12?lat=34.2583&lon=108.9286
 URL:https://occult.alokm.com/antares-2028-04-12?lat=34.2583&lon=108.9286
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

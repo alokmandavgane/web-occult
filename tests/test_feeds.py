@@ -91,6 +91,18 @@ def test_feed_lists_each_double_once():
     assert sum(" and its companion" in e["summary"] for e in evs) >= 1, "pick a city whose feed has a double"
 
 
+def test_feed_keeps_only_the_half_above_the_horizon():
+    """Mexico City, 6 Oct 2026: the Moon rises while Jupiter is hidden — the entry is the reappearance alone."""
+    build_feeds._init(datetime(2026, 9, 14, tzinfo=timezone.utc).timestamp())
+    seed = json.load(open(os.path.join(HERE, "..", "seed.json")))
+    lat, lon, tz = build_feeds.collect_cities(seed)["Mexico City, MX"]
+    _, _, evs = build_feeds._city_events(("Mexico City, MX", lat, lon, tz, "mexico-city-mx", []))
+    e = next(x for x in evs if x["uid"].startswith("occ-jupiter-2026-10-06-"))
+    assert e["summary"] == "The Moon occults Jupiter (reappearance only)"
+    assert e["start"] == datetime(2026, 10, 6, 8, 54, 35, tzinfo=timezone.utc)
+    assert "disappears" not in e["description"].split("\n")[0] and "-" not in e["description"].split("\n")[2].split("°")[0]
+
+
 def test_same_place_is_one_feed():
     cities = {"Delhi": [28.6519, 77.2315, "Asia/Kolkata"], "Delhi, IN": [28.6100, 77.2300, "Asia/Kolkata"],
               "Faridabad, IN": [28.4089, 77.3178, "Asia/Kolkata"], "Kowloon, HK": [22.3167, 114.1833, "Asia/Hong_Kong"],

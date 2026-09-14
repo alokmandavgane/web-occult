@@ -460,18 +460,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-rajkot@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222631Z
-DTEND:20280121T233033Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:56:31 and reappears at 05:00:33 IST\, 
- seen from Rajkot.\nThe Moon is -1° up in the ESE · dark sky.\nTimes agai
- nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-01-22?city=Rajkot
+DTSTART:20280121T233033Z
+DTEND:20280121T233133Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:00:33 IST\, seen from Rajkot.\nThe Moon
+  rises during the occultation: only the reappearance is above the horizon.
+ \nThe Moon is 11° up in the SE · dark sky.\nTimes against the real lunar
+  limb.\nMap\, timings and the view at the Moon's edge: https://occult.alok
+ m.com/antares-2028-01-22?city=Rajkot
 URL:https://occult.alokm.com/antares-2028-01-22?city=Rajkot
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

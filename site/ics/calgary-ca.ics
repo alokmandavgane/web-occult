@@ -482,17 +482,18 @@ BEGIN:VEVENT
 UID:occ-venus-2029-10-11-calgary-ca@occult.alokm.com
 DTSTAMP:20260914T040658Z
 DTSTART:20291011T015933Z
-DTEND:20291011T030725Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:00:17 and reappears at 21:06:43 CST\, se
- en from Calgary\, CA.\nThe Moon is 1° up in the SW · dusk.\nTimes agains
- t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/venus-2029-10-11?city=Calgary%2C%20CA
+DTEND:20291011T020017Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:00:17 CST\, seen from Calgary\, CA.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 1° up in the SW · dusk.\nTimes against the real lunar
+  limb.\nMap\, timings and the view at the Moon's edge: https://occult.alok
+ m.com/venus-2029-10-11?city=Calgary%2C%20CA
 URL:https://occult.alokm.com/venus-2029-10-11?city=Calgary%2C%20CA
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

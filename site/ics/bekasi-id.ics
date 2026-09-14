@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-bekasi-id@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T130050Z
-DTEND:20260914T133220Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:03:38 and reappears at 20:29:41 WIB\, se
- en from Bekasi\, ID.\nThe Moon is 4° up · dark sky.\nTimes for the Moon'
- s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
- ://occult.alokm.com/venus-2026-09-14?lat=-6.2349&lon=106.9896
+DTEND:20260914T130338Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:03:38 WIB\, seen from Bekasi\, ID.\nThe 
+ Moon sets during the occultation: only the disappearance is above the hori
+ zon.\nThe Moon is 4° up in the WSW · dark sky.\nTimes for the Moon's mea
+ n limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://oc
+ cult.alokm.com/venus-2026-09-14?lat=-6.2349&lon=106.9896
 URL:https://occult.alokm.com/venus-2026-09-14?lat=-6.2349&lon=106.9896
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,9 @@ DTSTART:20261102T213952Z
 DTEND:20261102T230949Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 04:41:29 and reappears at 06:08:08 WIB\, 
- seen from Bekasi\, ID.\nThe Moon is 52° up · dusk.\nTimes for the Moon's
-  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
- //occult.alokm.com/jupiter-2026-11-02?lat=-6.2349&lon=106.9896
+ seen from Bekasi\, ID.\nThe Moon is 52° up in the ENE · dusk.\nTimes for
+  the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's e
+ dge: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2349&lon=106.9896
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2349&lon=106.9896
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -561,10 +562,10 @@ DTSTART:20280121T231525Z
 DTEND:20280122T004130Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:15:25 and reappears at 07:41:30 WIB\, 
- seen from Bekasi\, ID.\nThe Moon is 54° up · daylight\, Sun +5°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.2349&lon=106.9
- 896
+ seen from Bekasi\, ID.\nThe Moon is 54° up in the SE · daylight\, Sun +5
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.2349
+ &lon=106.9896
 URL:https://occult.alokm.com/antares-2028-01-22?lat=-6.2349&lon=106.9896
 TRANSP:TRANSPARENT
 BEGIN:VALARM

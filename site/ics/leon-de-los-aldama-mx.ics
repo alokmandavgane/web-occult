@@ -38,20 +38,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-leon-de-los-aldama-mx@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T081801Z
+DTSTART:20261006T085921Z
 DTEND:20261006T090038Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:19:14 and reappears at 02:59:21 CST\, 
- seen from León de los Aldama\, MX.\nThe Moon is -8° up in the ENE · dar
- k sky.\nTimes against the real lunar limb.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Le%C3%B3
- n%20de%20los%20Aldama%2C%20MX
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 02:59:21 CST\, seen from León de los Alda
+ ma\, MX.\nThe Moon rises during the occultation: only the reappearance is 
+ above the horizon.\nThe Moon is 1° up in the ENE · dark sky.\nTimes agai
+ nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/jupiter-2026-10-06?city=Le%C3%B3n%20de%20los%20Ald
+ ama%2C%20MX
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Le%C3%B3n%20de%20los%2
  0Aldama%2C%20MX
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

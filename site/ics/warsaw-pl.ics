@@ -29,9 +29,10 @@ DTSTART:20260914T094246Z
 DTEND:20260914T104503Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 11:44:29 and reappears at 12:43:13 CEST\, s
- een from Warsaw\, PL.\nThe Moon is 9° up · daylight\, Sun +40°.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/venus-2026-09-14?lat=52.2298&lon=21.0118
+ een from Warsaw\, PL.\nThe Moon is 9° up in the SE · daylight\, Sun +40
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=52.2298&l
+ on=21.0118
 URL:https://occult.alokm.com/venus-2026-09-14?lat=52.2298&lon=21.0118
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -452,10 +453,10 @@ DTSTART:20280330T124015Z
 DTEND:20280330T133200Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 14:40:15 and reappears at 15:32:00 CEST\,
-  seen from Warsaw\, PL.\nThe Moon is 59° up · daylight\, Sun +36°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=52.2298&lon=21.
- 0118
+  seen from Warsaw\, PL.\nThe Moon is 59° up in the SSE · daylight\, Sun 
+ +36°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vie
+ w at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=52.2
+ 298&lon=21.0118
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=52.2298&lon=21.0118
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -467,18 +468,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-04-12-warsaw-pl@occult.alokm.com
 DTSTAMP:20260914T040148Z
-DTSTART:20280412T214240Z
-DTEND:20280412T224806Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 23:42:40 and reappears at 00:48:06 CEST\,
-  seen from Warsaw\, PL.\nThe Moon is -4° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-04-12?lat=52.2298&lon=21.0118
+DTSTART:20280412T224806Z
+DTEND:20280412T224906Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 00:48:06 CEST\, seen from Warsaw\, PL.\nTh
+ e Moon rises during the occultation: only the reappearance is above the ho
+ rizon.\nThe Moon is 3° up in the SE · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/antares-2028-04-12?lat=52.2298&lon=21.0118
 URL:https://occult.alokm.com/antares-2028-04-12?lat=52.2298&lon=21.0118
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

@@ -25,20 +25,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-santiago-de-queretaro-mx@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T081901Z
+DTSTART:20261006T085749Z
 DTEND:20261006T085912Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:20:17 and reappears at 02:57:49 CST\, 
- seen from Santiago de Querétaro\, MX.\nThe Moon is -6° up in the ENE · 
- dark sky.\nTimes against the real lunar limb.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Santi
- ago%20de%20Quer%C3%A9taro%2C%20MX
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 02:57:49 CST\, seen from Santiago de Quer
+ étaro\, MX.\nThe Moon rises during the occultation: only the reappearance
+  is above the horizon.\nThe Moon is 1° up in the ENE · dark sky.\nTimes 
+ against the real lunar limb.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/jupiter-2026-10-06?city=Santiago%20de%20Quer%C
+ 3%A9taro%2C%20MX
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Santiago%20de%20Quer%C
  3%A9taro%2C%20MX
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

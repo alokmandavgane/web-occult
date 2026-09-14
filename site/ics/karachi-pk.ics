@@ -16,9 +16,10 @@ DTSTART:20260914T112322Z
 DTEND:20260914T121533Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 16:27:30 and reappears at 17:11:35 PKT\, se
- en from Karachi\, PK.\nThe Moon is 42° up · daylight\, Sun +29°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/venus-2026-09-14?lat=24.8608&lon=67.0104
+ en from Karachi\, PK.\nThe Moon is 42° up in the SSW · daylight\, Sun +2
+ 9°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=24.8608&
+ lon=67.0104
 URL:https://occult.alokm.com/venus-2026-09-14?lat=24.8608&lon=67.0104
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -421,18 +422,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-karachi-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222702Z
-DTEND:20280121T232914Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:27:02 and reappears at 04:29:14 PKT\, 
- seen from Karachi\, PK.\nThe Moon is -5° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-01-22?lat=24.8608&lon=67.0104
+DTSTART:20280121T232914Z
+DTEND:20280121T233014Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:29:14 PKT\, seen from Karachi\, PK.\nTh
+ e Moon rises during the occultation: only the reappearance is above the ho
+ rizon.\nThe Moon is 7° up in the ESE · dark sky.\nTimes for the Moon's m
+ ean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://
+ occult.alokm.com/antares-2028-01-22?lat=24.8608&lon=67.0104
 URL:https://occult.alokm.com/antares-2028-01-22?lat=24.8608&lon=67.0104
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -443,9 +445,9 @@ DTSTART:20280330T141456Z
 DTEND:20280330T145042Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 19:14:56 and reappears at 19:50:42 PKT\, 
- seen from Karachi\, PK.\nThe Moon is 43° up · dusk.\nTimes for the Moon'
- s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
- ://occult.alokm.com/alcyone-2028-03-30?lat=24.8608&lon=67.0104
+ seen from Karachi\, PK.\nThe Moon is 43° up in the W · dusk.\nTimes for 
+ the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/alcyone-2028-03-30?lat=24.8608&lon=67.0104
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=24.8608&lon=67.0104
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -461,9 +463,10 @@ DTSTART:20280412T223918Z
 DTEND:20280413T000632Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:39:18 and reappears at 05:06:32 PKT\, 
- seen from Karachi\, PK.\nThe Moon is 39° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-04-12?lat=24.8608&lon=67.0104
+ seen from Karachi\, PK.\nThe Moon is 39° up in the S · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-04-12?lat=24.8608&lon=67.010
+ 4
 URL:https://occult.alokm.com/antares-2028-04-12?lat=24.8608&lon=67.0104
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -479,10 +482,10 @@ DTSTART:20290211T033644Z
 DTEND:20290211T035908Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:38:25 and reappears at 08:57:24 PKT\, 
- seen from Karachi\, PK.\nThe Moon is 33° up · daylight\, Sun +18°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/mercury-2029-02-11?lat=24.8608&lon=67.
- 0104
+ seen from Karachi\, PK.\nThe Moon is 33° up in the SE · daylight\, Sun +
+ 18°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=24.86
+ 08&lon=67.0104
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=24.8608&lon=67.0104
 TRANSP:TRANSPARENT
 BEGIN:VALARM

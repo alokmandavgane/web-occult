@@ -417,18 +417,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-amritsar@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223453Z
-DTEND:20280121T233226Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 04:04:53 and reappears at 05:02:26 IST\, 
- seen from Amritsar.\nThe Moon is -1° up in the ESE · dark sky.\nTimes ag
- ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/antares-2028-01-22?city=Amritsar
+DTSTART:20280121T233226Z
+DTEND:20280121T233326Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:02:26 IST\, seen from Amritsar.\nThe Mo
+ on rises during the occultation: only the reappearance is above the horizo
+ n.\nThe Moon is 9° up in the SE · dark sky.\nTimes against the real luna
+ r limb.\nMap\, timings and the view at the Moon's edge: https://occult.alo
+ km.com/antares-2028-01-22?city=Amritsar
 URL:https://occult.alokm.com/antares-2028-01-22?city=Amritsar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

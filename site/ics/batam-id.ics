@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-batam-id@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T124209Z
-DTEND:20260914T134257Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:43:40 and reappears at 20:41:37 WIB\, se
- en from Batam\, ID.\nThe Moon is 9° up · dark sky.\nTimes for the Moon's
-  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
- //occult.alokm.com/venus-2026-09-14?lat=1.1494&lon=104.0249
+DTEND:20260914T124340Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:43:40 WIB\, seen from Batam\, ID.\nThe M
+ oon sets during the occultation: only the disappearance is above the horiz
+ on.\nThe Moon is 9° up in the WSW · dark sky.\nTimes for the Moon's mean
+  limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occ
+ ult.alokm.com/venus-2026-09-14?lat=1.1494&lon=104.0249
 URL:https://occult.alokm.com/venus-2026-09-14?lat=1.1494&lon=104.0249
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,10 @@ DTSTART:20261102T212639Z
 DTEND:20261102T224632Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 04:28:22 and reappears at 05:44:42 WIB\, 
- seen from Batam\, ID.\nThe Moon is 50° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/jupiter-2026-11-02?lat=1.1494&lon=104.0249
+ seen from Batam\, ID.\nThe Moon is 50° up in the ENE · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/jupiter-2026-11-02?lat=1.1494&lon=104.024
+ 9
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=1.1494&lon=104.0249
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -496,9 +498,9 @@ DTSTART:20280121T225830Z
 DTEND:20280122T003211Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 05:58:30 and reappears at 07:32:11 WIB\, 
- seen from Batam\, ID.\nThe Moon is 44° up · twilight.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-01-22?lat=1.1494&lon=104.0249
+ seen from Batam\, ID.\nThe Moon is 44° up in the SE · twilight.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-01-22?lat=1.1494&lon=104.0249
 URL:https://occult.alokm.com/antares-2028-01-22?lat=1.1494&lon=104.0249
 TRANSP:TRANSPARENT
 BEGIN:VALARM

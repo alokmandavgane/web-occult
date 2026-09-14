@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-south-tangerang-id@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T130042Z
-DTEND:20260914T133227Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:03:29 and reappears at 20:29:50 WIB\, se
- en from South Tangerang\, ID.\nThe Moon is 4° up · dark sky.\nTimes for 
- the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/venus-2026-09-14?lat=-6.2886&lon=106.7179
+DTEND:20260914T130329Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:03:29 WIB\, seen from South Tangerang\, 
+ ID.\nThe Moon sets during the occultation: only the disappearance is above
+  the horizon.\nThe Moon is 4° up in the WSW · dark sky.\nTimes for the M
+ oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
+ ttps://occult.alokm.com/venus-2026-09-14?lat=-6.2886&lon=106.7179
 URL:https://occult.alokm.com/venus-2026-09-14?lat=-6.2886&lon=106.7179
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,10 @@ DTSTART:20261102T213919Z
 DTEND:20261102T230923Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 04:40:56 and reappears at 06:07:42 WIB\, 
- seen from South Tangerang\, ID.\nThe Moon is 52° up · dusk.\nTimes for t
- he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
- e: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2886&lon=106.7179
+ seen from South Tangerang\, ID.\nThe Moon is 52° up in the ENE · dusk.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2886&lon=
+ 106.7179
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-6.2886&lon=106.7179
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -561,10 +563,10 @@ DTSTART:20280121T231510Z
 DTEND:20280122T004028Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:15:10 and reappears at 07:40:28 WIB\, 
- seen from South Tangerang\, ID.\nThe Moon is 54° up · daylight\, Sun +5
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/antares-2028-01-22?lat=-6.2886
- &lon=106.7179
+ seen from South Tangerang\, ID.\nThe Moon is 54° up in the SE · daylight
+ \, Sun +5°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and t
+ he view at the Moon's edge: https://occult.alokm.com/antares-2028-01-22?la
+ t=-6.2886&lon=106.7179
 URL:https://occult.alokm.com/antares-2028-01-22?lat=-6.2886&lon=106.7179
 TRANSP:TRANSPARENT
 BEGIN:VALARM

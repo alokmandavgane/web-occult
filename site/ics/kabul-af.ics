@@ -431,54 +431,56 @@ BEGIN:VEVENT
 UID:occ-mars-2027-12-29-kabul-af@occult.alokm.com
 DTSTAMP:20260914T035542Z
 DTSTART:20271229T131110Z
-DTEND:20271229T135707Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 17:41:25 and reappears at 18:26:55 +0430\, s
- een from Kabul\, AF.\nThe Moon is 5° up in the WSW · dusk.\nTimes agains
- t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/mars-2027-12-29?city=Kabul%2C%20AF
+DTEND:20271229T131125Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 17:41:25 +0430\, seen from Kabul\, AF.\nThe 
+ Moon sets during the occultation: only the disappearance is above the hori
+ zon.\nThe Moon is 5° up in the WSW · dusk.\nTimes against the real lunar
+  limb.\nMap\, timings and the view at the Moon's edge: https://occult.alok
+ m.com/mars-2027-12-29?city=Kabul%2C%20AF
 URL:https://occult.alokm.com/mars-2027-12-29?city=Kabul%2C%20AF
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-kabul-af@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223540Z
-DTEND:20280121T233101Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:05:40 and reappears at 04:01:01 +0430\
- , seen from Kabul\, AF.\nThe Moon is -6° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-01-22?lat=34.5281&lon=69.1723
+DTSTART:20280121T233101Z
+DTEND:20280121T233201Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:01:01 +0430\, seen from Kabul\, AF.\nTh
+ e Moon rises during the occultation: only the reappearance is above the ho
+ rizon.\nThe Moon is 3° up in the SE · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/antares-2028-01-22?lat=34.5281&lon=69.1723
 URL:https://occult.alokm.com/antares-2028-01-22?lat=34.5281&lon=69.1723
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-03-30-kabul-af@occult.alokm.com
 DTSTAMP:20260914T040003Z
-DTSTART:20280330T030601Z
+DTSTART:20280330T033021Z
 DTEND:20280330T033157Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 07:37:37 and reappears at 08:00:21 +0430\, 
- seen from Kabul\, AF.\nThe Moon is -1° up in the ENE · daylight\, Sun +2
- 3°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
- e Moon's edge: https://occult.alokm.com/venus-2028-03-30?city=Kabul%2C%20A
- F
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 08:00:21 +0430\, seen from Kabul\, AF.\nThe 
+ Moon rises during the occultation: only the reappearance is above the hori
+ zon.\nThe Moon is 3° up in the ENE · daylight\, Sun +27°.\nTimes agains
+ t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
+ ps://occult.alokm.com/venus-2028-03-30?city=Kabul%2C%20AF
 URL:https://occult.alokm.com/venus-2028-03-30?city=Kabul%2C%20AF
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -489,9 +491,10 @@ DTSTART:20280330T135009Z
 DTEND:20280330T150105Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:20:09 and reappears at 19:31:05 +0430\
- , seen from Kabul\, AF.\nThe Moon is 47° up · twilight.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/alcyone-2028-03-30?lat=34.5281&lon=69.1723
+ , seen from Kabul\, AF.\nThe Moon is 47° up in the W · twilight.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/alcyone-2028-03-30?lat=34.5281&lon=69.172
+ 3
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=34.5281&lon=69.1723
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -507,9 +510,10 @@ DTSTART:20280412T223942Z
 DTEND:20280413T000740Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:09:42 and reappears at 04:37:40 +0430\
- , seen from Kabul\, AF.\nThe Moon is 29° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-04-12?lat=34.5281&lon=69.1723
+ , seen from Kabul\, AF.\nThe Moon is 29° up in the S · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-04-12?lat=34.5281&lon=69.172
+ 3
 URL:https://occult.alokm.com/antares-2028-04-12?lat=34.5281&lon=69.1723
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -525,10 +529,10 @@ DTSTART:20290211T033040Z
 DTEND:20290211T044348Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:01:07 and reappears at 09:13:19 +0430\
- , seen from Kabul\, AF.\nThe Moon is 26° up · daylight\, Sun +14°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/mercury-2029-02-11?lat=34.5281&lon=69.
- 1723
+ , seen from Kabul\, AF.\nThe Moon is 26° up in the SE · daylight\, Sun +
+ 14°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=34.52
+ 81&lon=69.1723
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=34.5281&lon=69.1723
 TRANSP:TRANSPARENT
 BEGIN:VALARM

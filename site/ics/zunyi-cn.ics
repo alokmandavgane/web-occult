@@ -16,9 +16,9 @@ DTSTART:20260914T123304Z
 DTEND:20260914T130159Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 20:36:42 and reappears at 20:58:32 CST\, se
- en from Zunyi\, CN.\nThe Moon is -1° up · dark sky.\nTimes for the Moon'
- s mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https
- ://occult.alokm.com/venus-2026-09-14?lat=27.6867&lon=106.9072
+ en from Zunyi\, CN.\nThe Moon is -1° up in the WSW · dark sky.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/venus-2026-09-14?lat=27.6867&lon=106.9072
 URL:https://occult.alokm.com/venus-2026-09-14?lat=27.6867&lon=106.9072
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -436,17 +436,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-zunyi-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T141903Z
-DTEND:20280330T151248Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:19:03 and reappears at 23:12:48 CST\, 
- seen from Zunyi\, CN.\nThe Moon is 8° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/alcyone-2028-03-30?lat=27.6867&lon=106.9072
+DTEND:20280330T142003Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:19:03 CST\, seen from Zunyi\, CN.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 8° up in the WNW · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/alcyone-2028-03-30?lat=27.6867&lon=106.9072
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=27.6867&lon=106.9072
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -457,10 +458,10 @@ DTSTART:20280413T001031Z
 DTEND:20280413T004050Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 08:10:31 and reappears at 08:40:50 CST\, 
- seen from Zunyi\, CN.\nThe Moon is 8° up · daylight\, Sun +21°.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/antares-2028-04-12?lat=27.6867&lon=106.90
- 72
+ seen from Zunyi\, CN.\nThe Moon is 8° up in the SW · daylight\, Sun +21
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=27.6867
+ &lon=106.9072
 URL:https://occult.alokm.com/antares-2028-04-12?lat=27.6867&lon=106.9072
 TRANSP:TRANSPARENT
 BEGIN:VALARM

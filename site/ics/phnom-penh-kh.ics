@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-phnom-penh-kh@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123212Z
-DTEND:20260914T133803Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:33:38 and reappears at 20:36:48 +07\, se
- en from Phnom Penh\, KH.\nThe Moon is 7° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/venus-2026-09-14?lat=11.5625&lon=104.9160
+DTEND:20260914T123338Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:33:38 +07\, seen from Phnom Penh\, KH.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 7° up in the WSW · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/venus-2026-09-14?lat=11.5625&lon=104.9160
 URL:https://occult.alokm.com/venus-2026-09-14?lat=11.5625&lon=104.9160
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -478,9 +479,10 @@ DTSTART:20280121T225743Z
 DTEND:20280122T002330Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 05:57:43 and reappears at 07:23:30 +07\, 
- seen from Phnom Penh\, KH.\nThe Moon is 37° up · dusk.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/antares-2028-01-22?lat=11.5625&lon=104.9160
+ seen from Phnom Penh\, KH.\nThe Moon is 37° up in the SE · dusk.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/antares-2028-01-22?lat=11.5625&lon=104.91
+ 60
 URL:https://occult.alokm.com/antares-2028-01-22?lat=11.5625&lon=104.9160
 TRANSP:TRANSPARENT
 BEGIN:VALARM

@@ -64,20 +64,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-ciudad-juarez-mx@occult.alokm.com
 DTSTAMP:20260914T034633Z
-DTSTART:20261006T081637Z
+DTSTART:20261006T090945Z
 DTEND:20261006T091042Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:17:30 and reappears at 03:09:45 MDT\, 
- seen from Ciudad Juárez\, MX.\nThe Moon is -8° up in the ENE · dark sky
- .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ciudad%20Ju%C
- 3%A1rez%2C%20MX
+SUMMARY:The Moon occults Jupiter (reappearance only)
+DESCRIPTION:Jupiter reappears at 03:09:45 MDT\, seen from Ciudad Juárez\, 
+ MX.\nThe Moon rises during the occultation: only the reappearance is above
+  the horizon.\nThe Moon is 2° up in the ENE · dark sky.\nTimes against t
+ he real lunar limb.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/jupiter-2026-10-06?city=Ciudad%20Ju%C3%A1rez%2C%20MX
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ciudad%20Ju%C3%A1rez%2
  C%20MX
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -476,19 +476,19 @@ BEGIN:VEVENT
 UID:occ-venus-2029-10-11-ciudad-juarez-mx@occult.alokm.com
 DTSTAMP:20260914T040658Z
 DTSTART:20291011T024232Z
-DTEND:20291011T031938Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:43:47 and reappears at 21:18:28 MDT\, se
- en from Ciudad Juárez\, MX.\nThe Moon is 1° up in the WSW · dark sky.\n
- Times against the real lunar limb.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/venus-2029-10-11?city=Ciudad%20Ju%C3%A1r
- ez%2C%20MX
+DTEND:20291011T024347Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:43:47 MDT\, seen from Ciudad Juárez\, M
+ X.\nThe Moon sets during the occultation: only the disappearance is above 
+ the horizon.\nThe Moon is 1° up in the WSW · dark sky.\nTimes against th
+ e real lunar limb.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/venus-2029-10-11?city=Ciudad%20Ju%C3%A1rez%2C%20MX
 URL:https://occult.alokm.com/venus-2029-10-11?city=Ciudad%20Ju%C3%A1rez%2C%
  20MX
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

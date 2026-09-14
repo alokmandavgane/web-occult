@@ -406,19 +406,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mars-2029-10-11-medellin-co@occult.alokm.com
 DTSTAMP:20260914T040845Z
-DTSTART:20291011T140356Z
+DTSTART:20291011T145317Z
 DTEND:20291011T145328Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 09:04:07 and reappears at 09:53:17 -05\, see
- n from Medellín\, CO.\nThe Moon is -7° up in the ESE · daylight\, Sun +
- 47°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
- he Moon's edge: https://occult.alokm.com/mars-2029-10-11?city=Medell%C3%AD
- n%2C%20CO
+SUMMARY:The Moon occults Mars (reappearance only)
+DESCRIPTION:Mars reappears at 09:53:17 -05\, seen from Medellín\, CO.\nThe
+  Moon rises during the occultation: only the reappearance is above the hor
+ izon.\nThe Moon is 4° up in the ESE · daylight\, Sun +58°.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/mars-2029-10-11?city=Medell%C3%ADn%2C%20CO
 URL:https://occult.alokm.com/mars-2029-10-11?city=Medell%C3%ADn%2C%20CO
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

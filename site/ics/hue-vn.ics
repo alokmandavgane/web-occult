@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-hue-vn@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123042Z
-DTEND:20260914T133145Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:32:12 and reappears at 20:30:25 +07\, se
- en from Huế\, VN.\nThe Moon is 4° up · dark sky.\nTimes for the Moon's
-  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
- //occult.alokm.com/venus-2026-09-14?lat=16.4619&lon=107.5955
+DTEND:20260914T123212Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:32:12 +07\, seen from Huế\, VN.\nThe M
+ oon sets during the occultation: only the disappearance is above the horiz
+ on.\nThe Moon is 4° up in the WSW · dark sky.\nTimes for the Moon's mean
+  limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occ
+ ult.alokm.com/venus-2026-09-14?lat=16.4619&lon=107.5955
 URL:https://occult.alokm.com/venus-2026-09-14?lat=16.4619&lon=107.5955
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -348,9 +349,10 @@ DTSTART:20280121T231202Z
 DTEND:20280122T001741Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:12:02 and reappears at 07:17:41 +07\, 
- seen from Huế\, VN.\nThe Moon is 37° up · twilight.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-01-22?lat=16.4619&lon=107.5955
+ seen from Huế\, VN.\nThe Moon is 37° up in the SE · twilight.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-01-22?lat=16.4619&lon=107.595
+ 5
 URL:https://occult.alokm.com/antares-2028-01-22?lat=16.4619&lon=107.5955
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -363,17 +365,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-hue-vn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T142835Z
-DTEND:20280330T151717Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 21:28:35 and reappears at 22:17:17 +07\, 
- seen from Huế\, VN.\nThe Moon is 1° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/alcyone-2028-03-30?lat=16.4619&lon=107.5955
+DTEND:20280330T142935Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 21:28:35 +07\, seen from Huế\, VN.\nThe
+  Moon sets during the occultation: only the disappearance is above the hor
+ izon.\nThe Moon is 1° up in the WNW · dark sky.\nTimes for the Moon's me
+ an limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://o
+ ccult.alokm.com/alcyone-2028-03-30?lat=16.4619&lon=107.5955
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=16.4619&lon=107.5955
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

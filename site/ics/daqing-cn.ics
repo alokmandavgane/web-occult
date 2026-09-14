@@ -26,17 +26,18 @@ BEGIN:VEVENT
 UID:occ-mars-2026-10-05-daqing-cn@occult.alokm.com
 DTSTAMP:20260914T034451Z
 DTSTART:20261005T062928Z
-DTEND:20261005T070727Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 14:29:40 and reappears at 15:07:16 CST\, see
- n from Daqing\, CN.\nThe Moon is 2° up in the WNW · daylight\, Sun +25°
- .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/mars-2026-10-05?city=Daqing%2C%20CN
+DTEND:20261005T062940Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 14:29:40 CST\, seen from Daqing\, CN.\nThe M
+ oon sets during the occultation: only the disappearance is above the horiz
+ on.\nThe Moon is 2° up in the WNW · daylight\, Sun +25°.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/mars-2026-10-05?city=Daqing%2C%20CN
 URL:https://occult.alokm.com/mars-2026-10-05?city=Daqing%2C%20CN
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

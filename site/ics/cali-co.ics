@@ -393,18 +393,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mars-2029-10-11-cali-co@occult.alokm.com
 DTSTAMP:20260914T040845Z
-DTSTART:20291011T140244Z
+DTSTART:20291011T145604Z
 DTEND:20291011T145614Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 09:02:54 and reappears at 09:56:04 -05\, see
- n from Cali\, CO.\nThe Moon is -7° up in the ESE · daylight\, Sun +46°.
- \nTimes against the real lunar limb.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/mars-2029-10-11?city=Cali%2C%20CO
+SUMMARY:The Moon occults Mars (reappearance only)
+DESCRIPTION:Mars reappears at 09:56:04 -05\, seen from Cali\, CO.\nThe Moon
+  rises during the occultation: only the reappearance is above the horizon.
+ \nThe Moon is 5° up in the ESE · daylight\, Sun +59°.\nTimes against th
+ e real lunar limb.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/mars-2029-10-11?city=Cali%2C%20CO
 URL:https://occult.alokm.com/mars-2029-10-11?city=Cali%2C%20CO
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

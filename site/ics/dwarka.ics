@@ -499,18 +499,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-dwarka@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222638Z
-DTEND:20280121T232913Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:56:38 and reappears at 04:59:13 IST\, 
- seen from Dwarka.\nThe Moon is -2° up in the ESE · dark sky.\nTimes agai
- nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/antares-2028-01-22?city=Dwarka
+DTSTART:20280121T232913Z
+DTEND:20280121T233013Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:59:13 IST\, seen from Dwarka.\nThe Moon
+  rises during the occultation: only the reappearance is above the horizon.
+ \nThe Moon is 10° up in the SE · dark sky.\nTimes against the real lunar
+  limb.\nMap\, timings and the view at the Moon's edge: https://occult.alok
+ m.com/antares-2028-01-22?city=Dwarka
 URL:https://occult.alokm.com/antares-2028-01-22?city=Dwarka
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

@@ -145,9 +145,35 @@ def sky_text(sun_alt):
     return "dark sky"
 
 
+def horizon_split(data, c):
+    """Which half of a 'visible' occultation a city really sees. The generator calls a city visible when the Moon is
+    up at ANY contact, so when the Moon rises or sets mid-event only one half is above the horizon (67 of 768 rows).
+    -> (seen, at): seen is 'both', 'rises' (only the reappearance) or 'sets' (only the disappearance); at maps each
+    contact to (Moon altitude, Moon azimuth, Sun altitude) from the event's elements. Twin of the JS in solve()."""
+    con = c.get("contacts") or {}
+    if c.get("verdict") != "visible" or not con:
+        return "both", {}
+    eng = str(ROOT / "engine")
+    if eng not in sys.path:
+        sys.path.insert(0, eng)
+    from occultation_event import _parse_t0, element_geometry
+    el = data["elements"]
+    geom, t0 = element_geometry(el, c["lat"], c["lon"]), _parse_t0(el)
+    at = {}
+    for k, v in con.items():
+        g = geom((parse(v) - t0).total_seconds() / 60.0)
+        at[k] = (float(g["alt_m"]), float(g["az_m"]), float(g["alt_s"]))
+    dk, rk = ("D2" if "D2" in con else "D1"), ("R1" if "R1" in con else "R2")
+    up_d, up_r = dk in at and at[dk][0] > 0, rk in at and at[rk][0] > 0
+    return ("both" if up_d == up_r else "rises" if up_r else "sets"), at
+
+
 def verdict_text(c, data):
     tname = data["target"]["names"]["common"]
     if c["verdict"] == "visible":
+        seen, _ = horizon_split(data, c)
+        if seen != "both":
+            return ("reappearance only — the Moon rises during it" if seen == "rises" else "disappearance only — the Moon sets first")
         hid = c.get("hidden_min")
         return (f"hidden {hid:.0f} min, " if hid else "") + sky_text(c["sun_alt"])
     if c["verdict"] == "miss":
@@ -161,13 +187,21 @@ def city_row(c, data, tz):
     tname = data["target"]["names"]["common"]
     name = esc(c["name"])
     if c["verdict"] == "visible" and con:
+        seen, at = horizon_split(data, c)
         d = f'{t_local(con["D2"], tz)}' if "D2" in con else "—"
         d1 = f'<small>from {t_local(con["D1"], tz, "%H:%M:%S")}</small>' if "D1" in con and "D2" in con else ""
         r = f'{t_local(con["R1"], tz)}' if "R1" in con else "—"
         r2 = f'<small>to {t_local(con["R2"], tz, "%H:%M:%S")}</small>' if "R2" in con and "R1" in con else ""
         hid = f'{c["hidden_min"]:.0f} min' if c.get("hidden_min") else "—"
+        look = look_text(c)
+        if seen == "rises":
+            d1 = "<small>Moon not yet up</small>"
+            alt, az, sun = at["R1" if "R1" in con else "R2"]
+            look = look_text({"moon_alt": alt, "moon_az": az, "sun_alt": sun}) + " · at reappearance"
+        elif seen == "sets":
+            r2 = "<small>Moon has set</small>"
         return (f'<tr class="v-visible" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
-                f'<td>{d}{d1}</td><td>{r}{r2}</td><td>{hid}</td><td>{esc(look_text(c))}</td></tr>')
+                f'<td>{d}{d1}</td><td>{r}{r2}</td><td>{hid}</td><td>{esc(look)}</td></tr>')
     if c["verdict"] == "miss":
         gap = c["sep_arcmin"] - c["moon_sd_arcmin"]
         when = t_local(c["closest"], tz, "%H:%M") if c.get("closest") else ""
@@ -493,8 +527,11 @@ def build(seed, slug):
 
     t_min_local = parse(g["t_min"]).astimezone(tz)
     day = t_min_local.strftime("%A %-d %B %Y")
-    first_d = min(parse(c["contacts"]["D1" if "D1" in c["contacts"] else "D2"]) for c in vis) if vis else None
-    last_r = max(parse(c["contacts"]["R2" if "R2" in c["contacts"] else "R1"]) for c in vis) if vis else None
+    def seen_times(c):   # the contacts with the Moon above the horizon: "watch from" shouldn't start before moonrise
+        _, at = horizon_split(data, c)
+        return [parse(v) for k, v in c["contacts"].items() if at[k][0] > 0]
+    first_d = min(min(seen_times(c)) for c in vis) if vis else None
+    last_r = max(max(seen_times(c)) for c in vis) if vis else None
     max_hidden = max((c.get("hidden_min", 0) for c in vis), default=0)
     longest = max(vis, key=lambda c: c.get("hidden_min", 0)) if vis else None
     near_miss = min(misses, key=lambda c: c["sep_arcmin"] - c["moon_sd_arcmin"]) if misses else None
@@ -607,7 +644,7 @@ def build(seed, slug):
 
     thead = (f'<tr><th>City</th><th>{tname} disappears <small>({tzl})</small></th>'
              f'<th>reappears <small>({tzl})</small></th><th>hidden</th>'
-             f'<th title="How high the Moon stands above the horizon when {esc(tname)} disappears (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look at disappearance</th></tr>')
+             f'<th title="How high the Moon stands above the horizon when {esc(tname)} disappears — or reappears, where the Moon rises during the occultation — (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look</th></tr>')
 
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}",
                 f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>', og="occ") + f"""
@@ -772,7 +809,14 @@ def build(seed, slug):
     if (keys.length) {{ verdict = keys.some(function (k) {{ return geom(contacts[k]).altm > 0; }}) ? 'visible' : 'moon_down'; }}
     else verdict = best.altm > 0 ? 'miss' : 'moon_down';
     var ref = contacts.D2 !== undefined ? contacts.D2 : (contacts.D1 !== undefined ? contacts.D1 : best.m);
-    return {{ geom: geom, contacts: contacts, closest: best, verdict: verdict, at: geom(ref), ref: ref,
+    // twin of horizon_split(): when the Moon rises or sets mid-event only one half is above the horizon
+    var dk = contacts.D2 !== undefined ? 'D2' : 'D1', rk = contacts.R1 !== undefined ? 'R1' : 'R2', seen = 'both';
+    if (verdict === 'visible') {{
+      var upD = contacts[dk] !== undefined && geom(contacts[dk]).altm > 0, upR = contacts[rk] !== undefined && geom(contacts[rk]).altm > 0;
+      seen = upD === upR ? 'both' : upR ? 'rises' : 'sets';
+      if (seen === 'rises') ref = contacts[rk];
+    }}
+    return {{ geom: geom, contacts: contacts, closest: best, verdict: verdict, at: geom(ref), ref: ref, seen: seen, dk: dk, rk: rk,
              hidden: (contacts.D2 !== undefined && contacts.R1 !== undefined) ? contacts.R1 - contacts.D2 : null }};
   }}
   function localTime(m, secs) {{ return new Date(T0 + m * 60000).toLocaleTimeString('en-GB', {{ timeZone: D.tz, hour: '2-digit', minute: '2-digit', second: secs ? '2-digit' : undefined }}); }}
@@ -789,9 +833,9 @@ def build(seed, slug):
   function tableRow(r, label) {{
     var c = r.contacts;
     if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
-      return '<tr class="yours"><td>' + label + '</td><td>' + (c.D2 !== undefined ? localTime(c.D2, true) : '—') + (c.D1 !== undefined ? '<small>from ' + localTime(c.D1, true) + '</small>' : '') +
-        '</td><td>' + (c.R1 !== undefined ? localTime(c.R1, true) : '—') + (c.R2 !== undefined ? '<small>to ' + localTime(c.R2, true) + '</small>' : '') +
-        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + lookText(r.at) + '</td></tr>';
+      return '<tr class="yours"><td>' + label + '</td><td>' + (c.D2 !== undefined ? localTime(c.D2, true) : '—') + (r.seen === 'rises' ? '<small>Moon not yet up</small>' : c.D1 !== undefined ? '<small>from ' + localTime(c.D1, true) + '</small>' : '') +
+        '</td><td>' + (c.R1 !== undefined ? localTime(c.R1, true) : '—') + (r.seen === 'sets' ? '<small>Moon has set</small>' : c.R2 !== undefined ? '<small>to ' + localTime(c.R2, true) + '</small>' : '') +
+        '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + lookText(r.at) + (r.seen === 'rises' ? ' · at reappearance' : '') + '</td></tr>';
     }}
     var gap = (r.closest.sep - r.closest.sdm) * 60;
     return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses — ' + D.target + ' passes ' + gap.toFixed(1) + '′ from the limb at ' + localTime(r.closest.m, false) : 'Moon below the horizon') +
@@ -803,12 +847,16 @@ def build(seed, slug):
     latI.value = lat.toFixed(4); lonI.value = lon.toFixed(4);
     var r = solve(lat, lon), c = r.contacts, h = '', summary;
     if (r.verdict === 'visible' || (r.verdict === 'moon_down' && Object.keys(c).length)) {{
-      h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
-      h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
+      h += fact(D.target + ' disappears', c.D2 !== undefined ? localTime(c.D2, true) : '—', r.seen === 'rises' ? 'the Moon is not up yet' : c.D1 !== undefined && c.D2 !== undefined ? 'first touch ' + localTime(c.D1, true) : '');
+      h += fact('reappears', c.R1 !== undefined ? localTime(c.R1, true) : '—', r.seen === 'sets' ? 'the Moon has set' : c.R1 !== undefined && c.R2 !== undefined ? 'fully out ' + localTime(c.R2, true) : '');
       h += fact('hidden', r.hidden !== null ? r.hidden.toFixed(1) + ' min' : '—');
-      h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + ' · at disappearance' : '');
-      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? 'Occultation visible from here (' + D.tzl + ').' : 'The Moon is below the horizon here during the occultation.') + '</div>';
-      summary = r.verdict === 'visible' && c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : (r.verdict === 'visible' ? 'grazing partial' : 'Moon below horizon');
+      h += fact('Where to look', r.at.altm > 0 ? r.at.altm.toFixed(0) + '° up in the ' + compass(r.at.azm) : 'below the horizon', r.at.altm > 0 ? skyText(r.at.alts) + (r.seen === 'rises' ? ' · at reappearance' : ' · at disappearance') : '');
+      var halfText = r.seen === 'rises' ? 'Only the reappearance is visible from here: the Moon rises during the occultation (' + D.tzl + ').'
+        : r.seen === 'sets' ? 'Only the disappearance is visible from here: the Moon sets before ' + D.target + ' comes back (' + D.tzl + ').'
+        : 'Occultation visible from here (' + D.tzl + ').';
+      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? halfText : 'The Moon is below the horizon here during the occultation.') + '</div>';
+      summary = r.verdict !== 'visible' ? 'Moon below horizon' : r.seen === 'rises' ? 'reappears ' + localTime(c[r.rk], false) : r.seen === 'sets' ? 'disappears ' + localTime(c[r.dk], false)
+        : c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'grazing partial';
       if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here — a grazing partial");
     }} else {{
       var gap = r.closest.sep - r.closest.sdm;

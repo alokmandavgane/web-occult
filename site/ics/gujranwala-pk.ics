@@ -404,18 +404,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-gujranwala-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223509Z
-DTEND:20280121T233206Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:35:09 and reappears at 04:32:06 PKT\, 
- seen from Gujranwala\, PK.\nThe Moon is -1° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?lat=32.1557&lon=74.1870
+DTSTART:20280121T233206Z
+DTEND:20280121T233306Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:32:06 PKT\, seen from Gujranwala\, PK.\
+ nThe Moon rises during the occultation: only the reappearance is above the
+  horizon.\nThe Moon is 8° up in the SE · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/antares-2028-01-22?lat=32.1557&lon=74.1870
 URL:https://occult.alokm.com/antares-2028-01-22?lat=32.1557&lon=74.1870
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -426,9 +427,9 @@ DTSTART:20280330T135944Z
 DTEND:20280330T150638Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:59:44 and reappears at 20:06:38 PKT\, 
- seen from Gujranwala\, PK.\nThe Moon is 41° up · dusk.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=32.1557&lon=74.1870
+ seen from Gujranwala\, PK.\nThe Moon is 41° up in the W · dusk.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/alcyone-2028-03-30?lat=32.1557&lon=74.1870
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=32.1557&lon=74.1870
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -444,9 +445,10 @@ DTSTART:20280412T225234Z
 DTEND:20280413T001912Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:52:34 and reappears at 05:19:12 PKT\, 
- seen from Gujranwala\, PK.\nThe Moon is 30° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-04-12?lat=32.1557&lon=74.1870
+ seen from Gujranwala\, PK.\nThe Moon is 30° up in the SSW · dark sky.\nT
+ imes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the 
+ Moon's edge: https://occult.alokm.com/antares-2028-04-12?lat=32.1557&lon=7
+ 4.1870
 URL:https://occult.alokm.com/antares-2028-04-12?lat=32.1557&lon=74.1870
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -462,10 +464,10 @@ DTSTART:20290211T034400Z
 DTEND:20290211T044436Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:44:35 and reappears at 09:43:59 PKT\, 
- seen from Gujranwala\, PK.\nThe Moon is 31° up · daylight\, Sun +21°.\n
- Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=32.1557&lon=
- 74.1870
+ seen from Gujranwala\, PK.\nThe Moon is 31° up in the SSE · daylight\, S
+ un +21°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the 
+ view at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=3
+ 2.1557&lon=74.1870
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=32.1557&lon=74.1870
 TRANSP:TRANSPARENT
 BEGIN:VALARM

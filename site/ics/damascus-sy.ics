@@ -16,10 +16,10 @@ DTSTART:20260914T094752Z
 DTEND:20260914T111409Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 12:49:34 and reappears at 14:12:17 +03\, se
- en from Damascus\, SY.\nThe Moon is 31° up · daylight\, Sun +59°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/venus-2026-09-14?lat=33.5102&lon=36.291
- 3
+ en from Damascus\, SY.\nThe Moon is 31° up in the SE · daylight\, Sun +5
+ 9°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=33.5102&
+ lon=36.2913
 URL:https://occult.alokm.com/venus-2026-09-14?lat=33.5102&lon=36.2913
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -441,7 +441,7 @@ DTSTART:20271229T122313Z
 DTEND:20271229T135115Z
 SUMMARY:The Moon occults Mars
 DESCRIPTION:Mars disappears at 15:23:27 and reappears at 16:51:03 +03\, see
- n from Damascus\, SY.\nThe Moon is 30° up in the SSW · daylight\, Sun +2
+ n from Damascus\, SY.\nThe Moon is 31° up in the SSW · daylight\, Sun +2
  1°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
  e Moon's edge: https://occult.alokm.com/mars-2027-12-29?city=Damascus%2C%2
  0SY
@@ -460,10 +460,10 @@ DTSTART:20280330T124204Z
 DTEND:20280330T140117Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 15:42:04 and reappears at 17:01:17 +03\, 
- seen from Damascus\, SY.\nThe Moon is 81° up · daylight\, Sun +38°.\nTi
- mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=33.5102&lon=36
- .2913
+ seen from Damascus\, SY.\nThe Moon is 81° up in the S · daylight\, Sun +
+ 38°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=33.51
+ 02&lon=36.2913
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=33.5102&lon=36.2913
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -479,9 +479,10 @@ DTSTART:20280412T214313Z
 DTEND:20280412T225127Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 00:43:13 and reappears at 01:51:27 +03\, 
- seen from Damascus\, SY.\nThe Moon is 17° up · dark sky.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-04-12?lat=33.5102&lon=36.2913
+ seen from Damascus\, SY.\nThe Moon is 17° up in the SE · dark sky.\nTime
+ s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
+ n's edge: https://occult.alokm.com/antares-2028-04-12?lat=33.5102&lon=36.2
+ 913
 URL:https://occult.alokm.com/antares-2028-04-12?lat=33.5102&lon=36.2913
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -493,18 +494,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mercury-2029-02-11-damascus-sy@occult.alokm.com
 DTSTAMP:20260914T040616Z
-DTSTART:20290211T025826Z
+DTSTART:20290211T033912Z
 DTEND:20290211T033943Z
-SUMMARY:The Moon occults Mercury
-DESCRIPTION:Mercury disappears at 05:58:55 and reappears at 06:39:12 +03\, 
- seen from Damascus\, SY.\nThe Moon is -0° up · dark sky.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/mercury-2029-02-11?lat=33.5102&lon=36.2913
+SUMMARY:The Moon occults Mercury (reappearance only)
+DESCRIPTION:Mercury reappears at 06:39:12 +03\, seen from Damascus\, SY.\nT
+ he Moon rises during the occultation: only the reappearance is above the h
+ orizon.\nThe Moon is 7° up in the ESE · dusk.\nTimes for the Moon's mean
+  limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occ
+ ult.alokm.com/mercury-2029-02-11?lat=33.5102&lon=36.2913
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=33.5102&lon=36.2913
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mercury
+DESCRIPTION:The Moon occults Mercury (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

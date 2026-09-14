@@ -460,18 +460,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-jodhpur@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222813Z
-DTEND:20280121T233244Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:58:13 and reappears at 05:02:44 IST\, 
- seen from Jodhpur.\nThe Moon is -1° up in the ESE · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-01-22?city=Jodhpur
+DTSTART:20280121T233244Z
+DTEND:20280121T233344Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:02:44 IST\, seen from Jodhpur.\nThe Moo
+ n rises during the occultation: only the reappearance is above the horizon
+ .\nThe Moon is 11° up in the SE · dark sky.\nTimes against the real luna
+ r limb.\nMap\, timings and the view at the Moon's edge: https://occult.alo
+ km.com/antares-2028-01-22?city=Jodhpur
 URL:https://occult.alokm.com/antares-2028-01-22?city=Jodhpur
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

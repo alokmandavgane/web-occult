@@ -393,17 +393,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-changsha-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T141850Z
-DTEND:20280330T150835Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:18:50 and reappears at 23:08:35 CST\, 
- seen from Changsha\, CN.\nThe Moon is 4° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/alcyone-2028-03-30?lat=28.1987&lon=112.9709
+DTEND:20280330T141950Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:18:50 CST\, seen from Changsha\, CN.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 4° up in the WNW · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/alcyone-2028-03-30?lat=28.1987&lon=112.9709
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=28.1987&lon=112.9709
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

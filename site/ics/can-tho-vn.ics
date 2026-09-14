@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-can-tho-vn@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123345Z
-DTEND:20260914T133938Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:35:09 and reappears at 20:38:24 +07\, se
- en from Cần Thơ\, VN.\nThe Moon is 7° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/venus-2026-09-14?lat=10.0371&lon=105.7883
+DTEND:20260914T123509Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:35:09 +07\, seen from Cần Thơ\, VN.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 7° up in the WSW · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/venus-2026-09-14?lat=10.0371&lon=105.7883
 URL:https://occult.alokm.com/venus-2026-09-14?lat=10.0371&lon=105.7883
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,10 @@ DTSTART:20261102T214323Z
 DTEND:20261102T221031Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 04:49:46 and reappears at 05:04:00 +07\, 
- seen from Cần Thơ\, VN.\nThe Moon is 59° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/jupiter-2026-11-02?lat=10.0371&lon=105.7883
+ seen from Cần Thơ\, VN.\nThe Moon is 59° up in the E · dark sky.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=10.0371&lon=105
+ .7883
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=10.0371&lon=105.7883
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -535,9 +537,10 @@ DTSTART:20280121T225902Z
 DTEND:20280122T002806Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 05:59:02 and reappears at 07:28:06 +07\, 
- seen from Cần Thơ\, VN.\nThe Moon is 39° up · twilight.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?lat=10.0371&lon=105.7883
+ seen from Cần Thơ\, VN.\nThe Moon is 39° up in the SE · twilight.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/antares-2028-01-22?lat=10.0371&lon=10
+ 5.7883
 URL:https://occult.alokm.com/antares-2028-01-22?lat=10.0371&lon=105.7883
 TRANSP:TRANSPARENT
 BEGIN:VALARM

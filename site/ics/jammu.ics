@@ -363,18 +363,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-jammu@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223636Z
-DTEND:20280121T233156Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 04:06:36 and reappears at 05:01:56 IST\, 
- seen from Jammu.\nThe Moon is -1° up in the ESE · dark sky.\nTimes again
- st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/antares-2028-01-22?city=Jammu
+DTSTART:20280121T233156Z
+DTEND:20280121T233256Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:01:56 IST\, seen from Jammu.\nThe Moon 
+ rises during the occultation: only the reappearance is above the horizon.\
+ nThe Moon is 8° up in the SE · dark sky.\nTimes against the real lunar l
+ imb.\nMap\, timings and the view at the Moon's edge: https://occult.alokm.
+ com/antares-2028-01-22?city=Jammu
 URL:https://occult.alokm.com/antares-2028-01-22?city=Jammu
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

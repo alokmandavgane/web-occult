@@ -39,17 +39,18 @@ BEGIN:VEVENT
 UID:occ-mars-2026-10-05-datong-cn@occult.alokm.com
 DTSTAMP:20260914T034451Z
 DTSTART:20261005T065044Z
-DTEND:20261005T071613Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 14:51:08 and reappears at 15:15:55 CST\, see
- n from Datong\, CN.\nThe Moon is 4° up in the WNW · daylight\, Sun +33°
- .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/mars-2026-10-05?city=Datong%2C%20CN
+DTEND:20261005T065108Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 14:51:08 CST\, seen from Datong\, CN.\nThe M
+ oon sets during the occultation: only the disappearance is above the horiz
+ on.\nThe Moon is 3° up in the WNW · daylight\, Sun +33°.\nTimes against
+  the real lunar limb.\nMap\, timings and the view at the Moon's edge: http
+ s://occult.alokm.com/mars-2026-10-05?city=Datong%2C%20CN
 URL:https://occult.alokm.com/mars-2026-10-05?city=Datong%2C%20CN
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -440,9 +441,10 @@ DTSTART:20280330T142015Z
 DTEND:20280330T144650Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 22:20:15 and reappears at 22:46:50 CST\, 
- seen from Datong\, CN.\nThe Moon is 8° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/alcyone-2028-03-30?lat=40.0936&lon=113.2914
+ seen from Datong\, CN.\nThe Moon is 8° up in the WNW · dark sky.\nTimes 
+ for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
+ s edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.0936&lon=113.29
+ 14
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.0936&lon=113.2914
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -455,18 +457,18 @@ BEGIN:VEVENT
 UID:occ-antares-2028-04-12-datong-cn@occult.alokm.com
 DTSTAMP:20260914T040148Z
 DTSTART:20280412T234942Z
-DTEND:20280413T004446Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 07:49:42 and reappears at 08:44:46 CST\, 
- seen from Datong\, CN.\nThe Moon is 0° up · daylight\, Sun +22°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/antares-2028-04-12?lat=40.0936&lon=113.2
- 914
+DTEND:20280412T235042Z
+SUMMARY:The Moon occults Antares (disappearance only)
+DESCRIPTION:Antares disappears at 07:49:42 CST\, seen from Datong\, CN.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 0° up in the SW · daylight\, Sun +22°.\nTimes for t
+ he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
+ e: https://occult.alokm.com/antares-2028-04-12?lat=40.0936&lon=113.2914
 URL:https://occult.alokm.com/antares-2028-04-12?lat=40.0936&lon=113.2914
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

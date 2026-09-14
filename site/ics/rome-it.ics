@@ -16,9 +16,10 @@ DTSTART:20260914T092719Z
 DTEND:20260914T104018Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 11:28:41 and reappears at 12:38:46 CEST\, s
- een from Rome\, IT.\nThe Moon is 9° up · daylight\, Sun +46°.\nTimes fo
- r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
- edge: https://occult.alokm.com/venus-2026-09-14?lat=41.8919&lon=12.5113
+ een from Rome\, IT.\nThe Moon is 9° up in the ESE · daylight\, Sun +46°
+ .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=41.8919&lon
+ =12.5113
 URL:https://occult.alokm.com/venus-2026-09-14?lat=41.8919&lon=12.5113
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -439,10 +440,10 @@ DTSTART:20280330T120526Z
 DTEND:20280330T131945Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 14:05:26 and reappears at 15:19:45 CEST\,
-  seen from Rome\, IT.\nThe Moon is 56° up · daylight\, Sun +51°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=41.8919&lon=12.51
- 13
+  seen from Rome\, IT.\nThe Moon is 56° up in the ESE · daylight\, Sun +5
+ 1°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=41.891
+ 9&lon=12.5113
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=41.8919&lon=12.5113
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -454,18 +455,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-04-12-rome-it@occult.alokm.com
 DTSTAMP:20260914T040148Z
-DTSTART:20280412T213820Z
-DTEND:20280412T222116Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 23:38:20 and reappears at 00:21:16 CEST\,
-  seen from Rome\, IT.\nThe Moon is -3° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-04-12?lat=41.8919&lon=12.5113
+DTSTART:20280412T222116Z
+DTEND:20280412T222216Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 00:21:16 CEST\, seen from Rome\, IT.\nThe 
+ Moon rises during the occultation: only the reappearance is above the hori
+ zon.\nThe Moon is 3° up in the SE · dark sky.\nTimes for the Moon's mean
+  limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occ
+ ult.alokm.com/antares-2028-04-12?lat=41.8919&lon=12.5113
 URL:https://occult.alokm.com/antares-2028-04-12?lat=41.8919&lon=12.5113
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

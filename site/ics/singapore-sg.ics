@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-singapore-sg@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T124149Z
-DTEND:20260914T134302Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:43:19 and reappears at 21:41:42 +08\, se
- en from Singapore\, SG.\nThe Moon is 9° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/venus-2026-09-14?lat=1.2897&lon=103.8501
+DTEND:20260914T124319Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 20:43:19 +08\, seen from Singapore\, SG.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 9° up in the WSW · dark sky.\nTimes for the Moon's 
+ mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
+ /occult.alokm.com/venus-2026-09-14?lat=1.2897&lon=103.8501
 URL:https://occult.alokm.com/venus-2026-09-14?lat=1.2897&lon=103.8501
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -99,9 +100,10 @@ DTSTART:20261102T212612Z
 DTEND:20261102T224552Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 05:27:55 and reappears at 06:44:01 +08\, 
- seen from Singapore\, SG.\nThe Moon is 50° up · dark sky.\nTimes for the
-  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/jupiter-2026-11-02?lat=1.2897&lon=103.8501
+ seen from Singapore\, SG.\nThe Moon is 50° up in the ENE · dark sky.\nTi
+ mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
+ oon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=1.2897&lon=103
+ .8501
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=1.2897&lon=103.8501
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -496,9 +498,10 @@ DTSTART:20280121T225804Z
 DTEND:20280122T003135Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:58:04 and reappears at 08:31:35 +08\, 
- seen from Singapore\, SG.\nThe Moon is 44° up · twilight.\nTimes for the
-  Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/antares-2028-01-22?lat=1.2897&lon=103.8501
+ seen from Singapore\, SG.\nThe Moon is 44° up in the SE · twilight.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/antares-2028-01-22?lat=1.2897&lon=103.
+ 8501
 URL:https://occult.alokm.com/antares-2028-01-22?lat=1.2897&lon=103.8501
 TRANSP:TRANSPARENT
 BEGIN:VALARM

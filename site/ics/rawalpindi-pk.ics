@@ -405,35 +405,37 @@ BEGIN:VEVENT
 UID:occ-mars-2027-12-29-rawalpindi-pk@occult.alokm.com
 DTSTAMP:20260914T035542Z
 DTSTART:20271229T131945Z
-DTEND:20271229T135119Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 18:20:05 and reappears at 18:50:58 PKT\, see
- n from Rawalpindi\, PK.\nThe Moon is 1° up in the WSW · dark sky.\nTimes
-  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/mars-2027-12-29?city=Rawalpindi%2C%20PK
+DTEND:20271229T132005Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 18:20:05 PKT\, seen from Rawalpindi\, PK.\nT
+ he Moon sets during the occultation: only the disappearance is above the h
+ orizon.\nThe Moon is 1° up in the WSW · dark sky.\nTimes against the rea
+ l lunar limb.\nMap\, timings and the view at the Moon's edge: https://occu
+ lt.alokm.com/mars-2027-12-29?city=Rawalpindi%2C%20PK
 URL:https://occult.alokm.com/mars-2027-12-29?city=Rawalpindi%2C%20PK
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-rawalpindi-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223637Z
-DTEND:20280121T233124Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:36:37 and reappears at 04:31:24 PKT\, 
- seen from Rawalpindi\, PK.\nThe Moon is -3° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?lat=33.5973&lon=73.0479
+DTSTART:20280121T233124Z
+DTEND:20280121T233224Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:31:24 PKT\, seen from Rawalpindi\, PK.\
+ nThe Moon rises during the occultation: only the reappearance is above the
+  horizon.\nThe Moon is 6° up in the SE · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/antares-2028-01-22?lat=33.5973&lon=73.0479
 URL:https://occult.alokm.com/antares-2028-01-22?lat=33.5973&lon=73.0479
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -463,9 +465,9 @@ DTSTART:20280330T135611Z
 DTEND:20280330T150501Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:56:11 and reappears at 20:05:01 PKT\, 
- seen from Rawalpindi\, PK.\nThe Moon is 43° up · dusk.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=33.5973&lon=73.0479
+ seen from Rawalpindi\, PK.\nThe Moon is 43° up in the W · dusk.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/alcyone-2028-03-30?lat=33.5973&lon=73.0479
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=33.5973&lon=73.0479
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -481,9 +483,10 @@ DTSTART:20280412T224909Z
 DTEND:20280413T001603Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:49:09 and reappears at 05:16:03 PKT\, 
- seen from Rawalpindi\, PK.\nThe Moon is 29° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-04-12?lat=33.5973&lon=73.0479
+ seen from Rawalpindi\, PK.\nThe Moon is 29° up in the S · dark sky.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/antares-2028-04-12?lat=33.5973&lon=73.
+ 0479
 URL:https://occult.alokm.com/antares-2028-04-12?lat=33.5973&lon=73.0479
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -499,10 +502,10 @@ DTSTART:20290211T034015Z
 DTEND:20290211T044734Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:40:46 and reappears at 09:47:01 PKT\, 
- seen from Rawalpindi\, PK.\nThe Moon is 29° up · daylight\, Sun +19°.\n
- Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=33.5973&lon=
- 73.0479
+ seen from Rawalpindi\, PK.\nThe Moon is 29° up in the SSE · daylight\, S
+ un +19°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the 
+ view at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=3
+ 3.5973&lon=73.0479
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=33.5973&lon=73.0479
 TRANSP:TRANSPARENT
 BEGIN:VALARM

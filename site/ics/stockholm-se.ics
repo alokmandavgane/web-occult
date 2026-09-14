@@ -29,10 +29,10 @@ DTSTART:20260914T095332Z
 DTEND:20260914T104040Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 11:55:41 and reappears at 12:38:25 CEST\, s
- een from Stockholm\, SE.\nThe Moon is 4° up · daylight\, Sun +33°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/venus-2026-09-14?lat=59.3294&lon=18.06
- 87
+ een from Stockholm\, SE.\nThe Moon is 4° up in the SE · daylight\, Sun +
+ 33°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=59.3294
+ &lon=18.0687
 URL:https://occult.alokm.com/venus-2026-09-14?lat=59.3294&lon=18.0687
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -474,18 +474,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-03-30-stockholm-se@occult.alokm.com
 DTSTAMP:20260914T040003Z
-DTSTART:20280330T035557Z
+DTSTART:20280330T044724Z
 DTEND:20280330T044808Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 05:56:40 and reappears at 06:47:24 CEST\, s
- een from Stockholm\, SE.\nThe Moon is -4° up in the NNE · twilight.\nTim
- es against the real lunar limb.\nMap\, timings and the view at the Moon's 
- edge: https://occult.alokm.com/venus-2028-03-30?city=Stockholm%2C%20SE
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 06:47:24 CEST\, seen from Stockholm\, SE.\nT
+ he Moon rises during the occultation: only the reappearance is above the h
+ orizon.\nThe Moon is 0° up in the NE · daylight\, Sun +3°.\nTimes again
+ st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
+ tps://occult.alokm.com/venus-2028-03-30?city=Stockholm%2C%20SE
 URL:https://occult.alokm.com/venus-2028-03-30?city=Stockholm%2C%20SE
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

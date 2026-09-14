@@ -391,18 +391,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-pathankot@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223631Z
-DTEND:20280121T233214Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 04:06:31 and reappears at 05:02:14 IST\, 
- seen from Pathankot.\nThe Moon is -0° up in the ESE · dark sky.\nTimes a
- gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?city=Pathankot
+DTSTART:20280121T233214Z
+DTEND:20280121T233314Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:02:14 IST\, seen from Pathankot.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 9° up in the SE · dark sky.\nTimes against the real lun
+ ar limb.\nMap\, timings and the view at the Moon's edge: https://occult.al
+ okm.com/antares-2028-01-22?city=Pathankot
 URL:https://occult.alokm.com/antares-2028-01-22?city=Pathankot
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

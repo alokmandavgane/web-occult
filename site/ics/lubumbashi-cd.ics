@@ -13,18 +13,18 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-lubumbashi-cd@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T113429Z
-DTEND:20261006T123207Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:35:30 and reappears at 14:31:10 CAT\, 
- seen from Lubumbashi\, CD.\nThe Moon is 12° up in the WNW · daylight\, S
- un +65°.\nTimes against the real lunar limb.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Lubum
- bashi%2C%20CD
+DTEND:20261006T113530Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 13:35:30 CAT\, seen from Lubumbashi\, CD.
+ \nThe Moon sets during the occultation: only the disappearance is above th
+ e horizon.\nThe Moon is 12° up in the WNW · daylight\, Sun +65°.\nTimes
+  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
+ ge: https://occult.alokm.com/jupiter-2026-10-06?city=Lubumbashi%2C%20CD
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Lubumbashi%2C%20CD
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

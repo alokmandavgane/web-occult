@@ -64,6 +64,12 @@ Rules that are easy to break:
   URLs carry a content hash (`?v=`): `/data` is cached a day and `/img` 30 days, and a stale month file without
   `lib` once broke the page — never drop the hash. The row HTML exists twice (`li_html` / JS `li`), and the page
   check compares them text for text.
+- **Half-visible occultations.** The generator's `verdict: "visible"` means the Moon is up at ANY contact, so when
+  it rises or sets mid-event only one half can be seen (67 of 768 visible rows in the 2026–29 seed, e.g. Mexico City
+  / Jupiter 2026-10-06 rises, Beijing / Mars 2026-10-05 sets). `horizon_split()` in build_pages (Moon altitude at
+  disappearance and reappearance from the elements) and its JS twin in `solve()` classify both / rises / sets; the
+  table, the "your location" panel, the chip and the calendar feed then show only the half above the horizon and say
+  so. `tests/test_pages.py` pins both cases.
 - **The shaded LOLA renderer is for the Moon-and-stars nights only** (`scripts/moon_render.py` → `site/js/moon.js`).
   The event pages' "At the Moon's edge" diagram was tried with it and reverted by choice: it stays a flat SVG
   crescent with a *hint* of the face — faint rim outlines of IAU-named craters ≥ 85 km

@@ -26,18 +26,18 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-pretoria-za@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T115026Z
-DTEND:20261006T122618Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:52:00 and reappears at 14:24:48 SAST\,
-  seen from Pretoria\, ZA.\nThe Moon is 4° up in the WNW · daylight\, Sun
-  +55°.\nTimes against the real lunar limb.\nMap\, timings and the view at
-  the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Pretori
- a%2C%20ZA
+DTEND:20261006T115200Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 13:52:00 SAST\, seen from Pretoria\, ZA.\
+ nThe Moon sets during the occultation: only the disappearance is above the
+  horizon.\nThe Moon is 4° up in the WNW · daylight\, Sun +55°.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/jupiter-2026-10-06?city=Pretoria%2C%20ZA
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Pretoria%2C%20ZA
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

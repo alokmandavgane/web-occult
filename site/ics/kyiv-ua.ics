@@ -29,9 +29,10 @@ DTSTART:20260914T095311Z
 DTEND:20260914T104921Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 12:55:20 and reappears at 13:47:05 EEST\, s
- een from Kyiv\, UA.\nThe Moon is 15° up · daylight\, Sun +43°.\nTimes f
- or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
-  edge: https://occult.alokm.com/venus-2026-09-14?lat=50.4547&lon=30.5238
+ een from Kyiv\, UA.\nThe Moon is 15° up in the SE · daylight\, Sun +43°
+ .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=50.4547&lon
+ =30.5238
 URL:https://occult.alokm.com/venus-2026-09-14?lat=50.4547&lon=30.5238
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -392,10 +393,10 @@ DTSTART:20280330T124452Z
 DTEND:20280330T135205Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 15:44:52 and reappears at 16:52:05 EEST\,
-  seen from Kyiv\, UA.\nThe Moon is 63° up · daylight\, Sun +32°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=50.4547&lon=30.52
- 38
+  seen from Kyiv\, UA.\nThe Moon is 63° up in the SSE · daylight\, Sun +3
+ 2°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=50.454
+ 7&lon=30.5238
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=50.4547&lon=30.5238
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -411,9 +412,9 @@ DTSTART:20280412T214616Z
 DTEND:20280412T225646Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 00:46:16 and reappears at 01:56:46 EEST\,
-  seen from Kyiv\, UA.\nThe Moon is 2° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/antares-2028-04-12?lat=50.4547&lon=30.5238
+  seen from Kyiv\, UA.\nThe Moon is 2° up in the SE · dark sky.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/antares-2028-04-12?lat=50.4547&lon=30.5238
 URL:https://occult.alokm.com/antares-2028-04-12?lat=50.4547&lon=30.5238
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -425,18 +426,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mercury-2029-02-11-kyiv-ua@occult.alokm.com
 DTSTAMP:20260914T040616Z
-DTSTART:20290211T031123Z
+DTSTART:20290211T041739Z
 DTEND:20290211T041757Z
-SUMMARY:The Moon occults Mercury
-DESCRIPTION:Mercury disappears at 05:11:40 and reappears at 06:17:39 EET\, 
- seen from Kyiv\, UA.\nThe Moon is -9° up · dark sky.\nTimes for the Moon
- 's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: http
- s://occult.alokm.com/mercury-2029-02-11?lat=50.4547&lon=30.5238
+SUMMARY:The Moon occults Mercury (reappearance only)
+DESCRIPTION:Mercury reappears at 06:17:39 EET\, seen from Kyiv\, UA.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 0° up in the ESE · dusk.\nTimes for the Moon's mean lim
+ b\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occult.
+ alokm.com/mercury-2029-02-11?lat=50.4547&lon=30.5238
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=50.4547&lon=30.5238
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mercury
+DESCRIPTION:The Moon occults Mercury (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

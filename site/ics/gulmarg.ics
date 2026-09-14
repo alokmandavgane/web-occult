@@ -388,20 +388,39 @@ URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:occ-mars-2027-12-29-gulmarg@occult.alokm.com
+DTSTAMP:20260914T035542Z
+DTSTART:20271229T132021Z
+DTEND:20271229T135047Z
+SUMMARY:The Moon occults Mars
+DESCRIPTION:Mars disappears at 18:50:41 and reappears at 19:20:27 IST\, see
+ n from Gulmarg.\nThe Moon is -0° up in the WSW · dark sky.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/mars-2027-12-29?lat=34.0484&lon=74.3805
+URL:https://occult.alokm.com/mars-2027-12-29?lat=34.0484&lon=74.3805
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Moon occults Mars
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:occ-antares-2028-01-22-gulmarg@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223829Z
-DTEND:20280121T233114Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 04:08:29 and reappears at 05:01:14 IST\, 
- seen from Gulmarg.\nThe Moon is -2° up in the ESE · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/antares-2028-01-22?city=Gulmarg
+DTSTART:20280121T233114Z
+DTEND:20280121T233214Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:01:14 IST\, seen from Gulmarg.\nThe Moo
+ n rises during the occultation: only the reappearance is above the horizon
+ .\nThe Moon is 7° up in the SE · dark sky.\nTimes against the real lunar
+  limb.\nMap\, timings and the view at the Moon's edge: https://occult.alok
+ m.com/antares-2028-01-22?city=Gulmarg
 URL:https://occult.alokm.com/antares-2028-01-22?city=Gulmarg
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -412,9 +431,10 @@ DTSTART:20280330T030903Z
 DTEND:20280330T032159Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 08:39:03 and reappears at 08:51:59 IST\, se
- en from Gulmarg.\nThe Moon is 3° up · daylight\, Sun +27°.\nTimes for t
- he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
- e: https://occult.alokm.com/venus-2028-03-30?lat=34.0484&lon=74.3805
+ en from Gulmarg.\nThe Moon is 3° up in the ENE · daylight\, Sun +27°.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/venus-2028-03-30?lat=34.0484&lon=74
+ .3805
 URL:https://occult.alokm.com/venus-2028-03-30?lat=34.0484&lon=74.3805
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -430,7 +450,7 @@ DTSTART:20280330T135654Z
 DTEND:20280330T150541Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 19:26:54 and reappears at 20:35:41 IST\, 
- seen from Gulmarg.\nThe Moon is 42° up in the W · dusk.\nTimes against t
+ seen from Gulmarg.\nThe Moon is 41° up in the W · dusk.\nTimes against t
  he real lunar limb.\nMap\, timings and the view at the Moon's edge: https:
  //occult.alokm.com/alcyone-2028-03-30?city=Gulmarg
 URL:https://occult.alokm.com/alcyone-2028-03-30?city=Gulmarg
@@ -448,7 +468,7 @@ DTSTART:20280412T225204Z
 DTEND:20280413T001816Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 04:22:04 and reappears at 05:48:16 IST\, 
- seen from Gulmarg.\nThe Moon is 28° up in the SSW · dark sky.\nTimes aga
+ seen from Gulmarg.\nThe Moon is 29° up in the SSW · dark sky.\nTimes aga
  inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
  https://occult.alokm.com/antares-2028-04-12?city=Gulmarg
 URL:https://occult.alokm.com/antares-2028-04-12?city=Gulmarg

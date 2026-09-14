@@ -340,17 +340,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-jiangmen-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T142125Z
-DTEND:20280330T151322Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:21:25 and reappears at 23:13:22 CST\, 
- seen from Jiangmen\, CN.\nThe Moon is 1° up · dark sky.\nTimes for the M
- oon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/alcyone-2028-03-30?lat=22.5833&lon=113.0833
+DTEND:20280330T142225Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:21:25 CST\, seen from Jiangmen\, CN.\n
+ The Moon sets during the occultation: only the disappearance is above the 
+ horizon.\nThe Moon is 1° up in the WNW · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/alcyone-2028-03-30?lat=22.5833&lon=113.0833
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=22.5833&lon=113.0833
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

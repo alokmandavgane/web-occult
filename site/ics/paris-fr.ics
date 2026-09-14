@@ -12,18 +12,19 @@ X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 UID:occ-venus-2026-09-14-paris-fr@occult.alokm.com
 DTSTAMP:20260914T034332Z
-DTSTART:20260914T092730Z
+DTSTART:20260914T103415Z
 DTEND:20260914T103539Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 11:28:47 and reappears at 12:34:15 CEST\, s
- een from Paris\, FR.\nThe Moon is -1° up · daylight\, Sun +36°.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/venus-2026-09-14?lat=48.8534&lon=2.3488
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 12:34:15 CEST\, seen from Paris\, FR.\nThe M
+ oon rises during the occultation: only the reappearance is above the horiz
+ on.\nThe Moon is 8° up in the SE · daylight\, Sun +42°.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/venus-2026-09-14?lat=48.8534&lon=2.3488
 URL:https://occult.alokm.com/venus-2026-09-14?lat=48.8534&lon=2.3488
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -504,10 +505,10 @@ DTSTART:20280330T122403Z
 DTEND:20280330T125455Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 14:24:03 and reappears at 14:54:55 CEST\,
-  seen from Paris\, FR.\nThe Moon is 50° up · daylight\, Sun +45°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=48.8534&lon=2.34
- 88
+  seen from Paris\, FR.\nThe Moon is 50° up in the ESE · daylight\, Sun +
+ 45°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view
+  at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=48.85
+ 34&lon=2.3488
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=48.8534&lon=2.3488
 TRANSP:TRANSPARENT
 BEGIN:VALARM

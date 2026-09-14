@@ -13,19 +13,20 @@ BEGIN:VEVENT
 UID:occ-jupiter-2026-10-06-dar-es-salaam-tz@occult.alokm.com
 DTSTAMP:20260914T034633Z
 DTSTART:20261006T113611Z
-DTEND:20261006T122255Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 14:37:17 and reappears at 15:21:53 EAT\, 
- seen from Dar es Salaam\, TZ.\nThe Moon is 2° up in the WNW · daylight\,
-  Sun +54°.\nTimes against the real lunar limb.\nMap\, timings and the vie
- w at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Dar
- %20es%20Salaam%2C%20TZ
+DTEND:20261006T113717Z
+SUMMARY:The Moon occults Jupiter (disappearance only)
+DESCRIPTION:Jupiter disappears at 14:37:17 EAT\, seen from Dar es Salaam\, 
+ TZ.\nThe Moon sets during the occultation: only the disappearance is above
+  the horizon.\nThe Moon is 2° up in the WNW · daylight\, Sun +54°.\nTim
+ es against the real lunar limb.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/jupiter-2026-10-06?city=Dar%20es%20Salaam%2
+ C%20TZ
 URL:https://occult.alokm.com/jupiter-2026-10-06?city=Dar%20es%20Salaam%2C%2
  0TZ
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
+DESCRIPTION:The Moon occults Jupiter (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

@@ -39,18 +39,18 @@ BEGIN:VEVENT
 UID:occ-mars-2026-10-05-shijiazhuang-cn@occult.alokm.com
 DTSTAMP:20260914T034451Z
 DTSTART:20261005T065453Z
-DTEND:20261005T071618Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 14:55:14 and reappears at 15:15:56 CST\, see
- n from Shijiazhuang\, CN.\nThe Moon is 1° up in the WNW · daylight\, Sun
-  +33°.\nTimes against the real lunar limb.\nMap\, timings and the view at
-  the Moon's edge: https://occult.alokm.com/mars-2026-10-05?city=Shijiazhua
- ng%2C%20CN
+DTEND:20261005T065514Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 14:55:14 CST\, seen from Shijiazhuang\, CN.\
+ nThe Moon sets during the occultation: only the disappearance is above the
+  horizon.\nThe Moon is 1° up in the WNW · daylight\, Sun +33°.\nTimes a
+ gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/mars-2026-10-05?city=Shijiazhuang%2C%20CN
 URL:https://occult.alokm.com/mars-2026-10-05?city=Shijiazhuang%2C%20CN
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -429,9 +429,10 @@ DTSTART:20280330T141924Z
 DTEND:20280330T145054Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 22:19:24 and reappears at 22:50:54 CST\, 
- seen from Shijiazhuang\, CN.\nThe Moon is 7° up · dark sky.\nTimes for t
- he Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edg
- e: https://occult.alokm.com/alcyone-2028-03-30?lat=38.0414&lon=114.4786
+ seen from Shijiazhuang\, CN.\nThe Moon is 7° up in the WNW · dark sky.\n
+ Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
+  Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=38.0414&lon=
+ 114.4786
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=38.0414&lon=114.4786
 TRANSP:TRANSPARENT
 BEGIN:VALARM

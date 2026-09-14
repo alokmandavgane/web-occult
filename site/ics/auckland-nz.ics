@@ -81,10 +81,10 @@ DTSTART:20261103T001015Z
 DTEND:20261103T003420Z
 SUMMARY:The Moon occults Jupiter
 DESCRIPTION:Jupiter disappears at 13:13:22 and reappears at 13:31:18 NZDT\,
-  seen from Auckland\, NZ.\nThe Moon is 4° up · daylight\, Sun +68°.\nTi
- mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-36.8485&lon=1
- 74.7635
+  seen from Auckland\, NZ.\nThe Moon is 4° up in the WNW · daylight\, Sun
+  +68°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
+ ew at the Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-36
+ .8485&lon=174.7635
 URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-36.8485&lon=174.7635
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -384,18 +384,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-09-15-auckland-nz@occult.alokm.com
 DTSTAMP:20260914T040348Z
-DTSTART:20280915T162214Z
+DTSTART:20280915T172521Z
 DTEND:20280915T172603Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 04:22:51 and reappears at 05:25:21 NZST\, s
- een from Auckland\, NZ.\nThe Moon is -0° up in the ENE · dark sky.\nTime
- s against the real lunar limb.\nMap\, timings and the view at the Moon's e
- dge: https://occult.alokm.com/venus-2028-09-15?city=Auckland%2C%20NZ
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 05:25:21 NZST\, seen from Auckland\, NZ.\nTh
+ e Moon rises during the occultation: only the reappearance is above the ho
+ rizon.\nThe Moon is 11° up in the ENE · dusk.\nTimes against the real lu
+ nar limb.\nMap\, timings and the view at the Moon's edge: https://occult.a
+ lokm.com/venus-2028-09-15?city=Auckland%2C%20NZ
 URL:https://occult.alokm.com/venus-2028-09-15?city=Auckland%2C%20NZ
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

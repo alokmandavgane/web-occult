@@ -13,17 +13,18 @@ BEGIN:VEVENT
 UID:occ-venus-2026-09-14-ho-chi-minh-city-vn@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T123334Z
-DTEND:20260914T133854Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 19:34:58 and reappears at 20:37:41 +07\, se
- en from Ho Chi Minh City\, VN.\nThe Moon is 6° up · dark sky.\nTimes for
-  the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's e
- dge: https://occult.alokm.com/venus-2026-09-14?lat=10.8230&lon=106.6296
+DTEND:20260914T123458Z
+SUMMARY:The Moon occults Venus (disappearance only)
+DESCRIPTION:Venus disappears at 19:34:58 +07\, seen from Ho Chi Minh City\,
+  VN.\nThe Moon sets during the occultation: only the disappearance is abov
+ e the horizon.\nThe Moon is 6° up in the WSW · dark sky.\nTimes for the 
+ Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
+ https://occult.alokm.com/venus-2026-09-14?lat=10.8230&lon=106.6296
 URL:https://occult.alokm.com/venus-2026-09-14?lat=10.8230&lon=106.6296
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -517,10 +518,10 @@ DTSTART:20280121T230136Z
 DTEND:20280122T002847Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 06:01:36 and reappears at 07:28:47 +07\, 
- seen from Ho Chi Minh City\, VN.\nThe Moon is 40° up · twilight.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/antares-2028-01-22?lat=10.8230&lon=106.62
- 96
+ seen from Ho Chi Minh City\, VN.\nThe Moon is 40° up in the SE · twiligh
+ t.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at
+  the Moon's edge: https://occult.alokm.com/antares-2028-01-22?lat=10.8230&
+ lon=106.6296
 URL:https://occult.alokm.com/antares-2028-01-22?lat=10.8230&lon=106.6296
 TRANSP:TRANSPARENT
 BEGIN:VALARM

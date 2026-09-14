@@ -392,17 +392,18 @@ BEGIN:VEVENT
 UID:occ-alcyone-2028-03-30-bozhou-cn@occult.alokm.com
 DTSTAMP:20260914T040053Z
 DTSTART:20280330T141825Z
-DTEND:20280330T145814Z
-SUMMARY:The Moon occults Alcyone
-DESCRIPTION:Alcyone disappears at 22:18:25 and reappears at 22:58:14 CST\, 
- seen from Bozhou\, CN.\nThe Moon is 4° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/alcyone-2028-03-30?lat=33.8772&lon=115.7703
+DTEND:20280330T141925Z
+SUMMARY:The Moon occults Alcyone (disappearance only)
+DESCRIPTION:Alcyone disappears at 22:18:25 CST\, seen from Bozhou\, CN.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 4° up in the WNW · dark sky.\nTimes for the Moon's m
+ ean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://
+ occult.alokm.com/alcyone-2028-03-30?lat=33.8772&lon=115.7703
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=33.8772&lon=115.7703
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Alcyone
+DESCRIPTION:The Moon occults Alcyone (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

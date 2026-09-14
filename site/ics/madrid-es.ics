@@ -25,18 +25,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2026-09-14-madrid-es@occult.alokm.com
 DTSTAMP:20260914T034332Z
-DTSTART:20260914T092726Z
+DTSTART:20260914T102133Z
 DTEND:20260914T102311Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 11:28:57 and reappears at 12:21:33 CEST\, s
- een from Madrid\, ES.\nThe Moon is -1° up · daylight\, Sun +38°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/venus-2026-09-14?lat=40.4165&lon=-3.7026
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 12:21:33 CEST\, seen from Madrid\, ES.\nThe 
+ Moon rises during the occultation: only the reappearance is above the hori
+ zon.\nThe Moon is 8° up in the ESE · daylight\, Sun +46°.\nTimes for th
+ e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
+ : https://occult.alokm.com/venus-2026-09-14?lat=40.4165&lon=-3.7026
 URL:https://occult.alokm.com/venus-2026-09-14?lat=40.4165&lon=-3.7026
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -425,10 +426,10 @@ DTSTART:20280330T115430Z
 DTEND:20280330T124628Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 13:54:30 and reappears at 14:46:28 CEST\,
-  seen from Madrid\, ES.\nThe Moon is 42° up · daylight\, Sun +53°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.4165&lon=-3.
- 7026
+  seen from Madrid\, ES.\nThe Moon is 42° up in the E · daylight\, Sun +5
+ 3°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=40.416
+ 5&lon=-3.7026
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=40.4165&lon=-3.7026
 TRANSP:TRANSPARENT
 BEGIN:VALARM

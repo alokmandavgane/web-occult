@@ -418,53 +418,56 @@ BEGIN:VEVENT
 UID:occ-mars-2027-12-29-bannu-pk@occult.alokm.com
 DTSTAMP:20260914T035542Z
 DTSTART:20271229T131742Z
-DTEND:20271229T135233Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 18:18:01 and reappears at 18:52:14 PKT\, see
- n from Bannu\, PK.\nThe Moon is 4° up in the WSW · dark sky.\nTimes agai
- nst the real lunar limb.\nMap\, timings and the view at the Moon's edge: h
- ttps://occult.alokm.com/mars-2027-12-29?city=Bannu%2C%20PK
+DTEND:20271229T131801Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 18:18:01 PKT\, seen from Bannu\, PK.\nThe Mo
+ on sets during the occultation: only the disappearance is above the horizo
+ n.\nThe Moon is 4° up in the WSW · dark sky.\nTimes against the real lun
+ ar limb.\nMap\, timings and the view at the Moon's edge: https://occult.al
+ okm.com/mars-2027-12-29?city=Bannu%2C%20PK
 URL:https://occult.alokm.com/mars-2027-12-29?city=Bannu%2C%20PK
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-bannu-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223408Z
-DTEND:20280121T233126Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:34:08 and reappears at 04:31:26 PKT\, 
- seen from Bannu\, PK.\nThe Moon is -5° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-01-22?lat=32.9853&lon=70.6040
+DTSTART:20280121T233126Z
+DTEND:20280121T233226Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:31:26 PKT\, seen from Bannu\, PK.\nThe 
+ Moon rises during the occultation: only the reappearance is above the hori
+ zon.\nThe Moon is 5° up in the SE · dark sky.\nTimes for the Moon's mean
+  limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://occ
+ ult.alokm.com/antares-2028-01-22?lat=32.9853&lon=70.6040
 URL:https://occult.alokm.com/antares-2028-01-22?lat=32.9853&lon=70.6040
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-venus-2028-03-30-bannu-pk@occult.alokm.com
 DTSTAMP:20260914T040003Z
-DTSTART:20280330T030743Z
+DTSTART:20280330T032143Z
 DTEND:20280330T032447Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 08:10:45 and reappears at 08:21:43 PKT\, se
- en from Bannu\, PK.\nThe Moon is -0° up in the ENE · daylight\, Sun +25
- °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/venus-2028-03-30?city=Bannu%2C%20PK
+SUMMARY:The Moon occults Venus (reappearance only)
+DESCRIPTION:Venus reappears at 08:21:43 PKT\, seen from Bannu\, PK.\nThe Mo
+ on rises during the occultation: only the reappearance is above the horizo
+ n.\nThe Moon is 2° up in the ENE · daylight\, Sun +27°.\nTimes against 
+ the real lunar limb.\nMap\, timings and the view at the Moon's edge: https
+ ://occult.alokm.com/venus-2028-03-30?city=Bannu%2C%20PK
 URL:https://occult.alokm.com/venus-2028-03-30?city=Bannu%2C%20PK
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
+DESCRIPTION:The Moon occults Venus (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -475,9 +478,9 @@ DTSTART:20280330T135429Z
 DTEND:20280330T150307Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:54:29 and reappears at 20:03:07 PKT\, 
- seen from Bannu\, PK.\nThe Moon is 45° up · twilight.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/alcyone-2028-03-30?lat=32.9853&lon=70.6040
+ seen from Bannu\, PK.\nThe Moon is 45° up in the W · twilight.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/alcyone-2028-03-30?lat=32.9853&lon=70.6040
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=32.9853&lon=70.6040
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -493,9 +496,9 @@ DTSTART:20280412T224334Z
 DTEND:20280413T001141Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:43:34 and reappears at 05:11:41 PKT\, 
- seen from Bannu\, PK.\nThe Moon is 30° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-04-12?lat=32.9853&lon=70.6040
+ seen from Bannu\, PK.\nThe Moon is 30° up in the S · dark sky.\nTimes fo
+ r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
+ edge: https://occult.alokm.com/antares-2028-04-12?lat=32.9853&lon=70.6040
 URL:https://occult.alokm.com/antares-2028-04-12?lat=32.9853&lon=70.6040
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -511,10 +514,10 @@ DTSTART:20290211T033349Z
 DTEND:20290211T044201Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:34:19 and reappears at 09:41:29 PKT\, 
- seen from Bannu\, PK.\nThe Moon is 28° up · daylight\, Sun +16°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/mercury-2029-02-11?lat=32.9853&lon=70.60
- 40
+ seen from Bannu\, PK.\nThe Moon is 28° up in the SE · daylight\, Sun +16
+ °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
+ t the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=32.9853
+ &lon=70.6040
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=32.9853&lon=70.6040
 TRANSP:TRANSPARENT
 BEGIN:VALARM

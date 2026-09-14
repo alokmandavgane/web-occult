@@ -429,18 +429,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-mars-2029-10-11-quito-ec@occult.alokm.com
 DTSTAMP:20260914T040845Z
-DTSTART:20291011T140323Z
+DTSTART:20291011T145824Z
 DTEND:20291011T145833Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 09:03:32 and reappears at 09:58:24 -05\, see
- n from Quito\, EC.\nThe Moon is -7° up in the ESE · daylight\, Sun +45°
- .\nTimes against the real lunar limb.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/mars-2029-10-11?city=Quito%2C%20EC
+SUMMARY:The Moon occults Mars (reappearance only)
+DESCRIPTION:Mars reappears at 09:58:24 -05\, seen from Quito\, EC.\nThe Moo
+ n rises during the occultation: only the reappearance is above the horizon
+ .\nThe Moon is 5° up in the ESE · daylight\, Sun +59°.\nTimes against t
+ he real lunar limb.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/mars-2029-10-11?city=Quito%2C%20EC
 URL:https://occult.alokm.com/mars-2029-10-11?city=Quito%2C%20EC
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

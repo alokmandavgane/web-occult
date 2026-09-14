@@ -366,6 +366,8 @@ def element_geometry(el, lat, lon):
         Rz = np.array([[np.cos(th), np.sin(th), 0], [-np.sin(th), np.cos(th), 0], [0, 0, 1]])
         RT = (Rz @ R0).T               # ITRS -> GCRS
         obs, up = RT @ r_itrs, RT @ up_itrs
+        east_g = RT @ np.array([-np.sin(lon_r), np.cos(lon_r), 0.0])
+        north_g = RT @ np.array([-np.sin(lat_r) * np.cos(lon_r), -np.sin(lat_r) * np.sin(lon_r), np.cos(lat_r)])
         v_obs = v_earth + RT @ np.cross([0, 0, omega], r_itrs)     # observer's barycentric velocity
 
         def topo_dir(coef):
@@ -388,7 +390,8 @@ def element_geometry(el, lat, lon):
         sdm = np.degrees(np.arcsin(el["moon_radius_km"] / md))
         sdt = np.degrees(np.arcsin(el["target_radius_km"] / sd_)) if el["target_radius_km"] else 0.0
         return dict(sep=sep, sdm=sdm, sdt=sdt,
-                    alt_m=np.degrees(np.arcsin(mt @ up / md)), alt_s=np.degrees(np.arcsin(su @ up / sud)))
+                    alt_m=np.degrees(np.arcsin(mt @ up / md)), alt_s=np.degrees(np.arcsin(su @ up / sud)),
+                    az_m=np.degrees(np.arctan2(um @ east_g, um @ north_g)) % 360.0)
     return geom
 
 

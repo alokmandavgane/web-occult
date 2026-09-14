@@ -472,18 +472,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-bhuj@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222637Z
-DTEND:20280121T233009Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:56:37 and reappears at 05:00:09 IST\, 
- seen from Bhuj.\nThe Moon is -2° up in the ESE · dark sky.\nTimes agains
- t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-01-22?city=Bhuj
+DTSTART:20280121T233009Z
+DTEND:20280121T233109Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:00:09 IST\, seen from Bhuj.\nThe Moon r
+ ises during the occultation: only the reappearance is above the horizon.\n
+ The Moon is 10° up in the SE · dark sky.\nTimes against the real lunar l
+ imb.\nMap\, timings and the view at the Moon's edge: https://occult.alokm.
+ com/antares-2028-01-22?city=Bhuj
 URL:https://occult.alokm.com/antares-2028-01-22?city=Bhuj
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

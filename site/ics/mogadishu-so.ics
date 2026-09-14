@@ -16,10 +16,10 @@ DTSTART:20260914T105736Z
 DTEND:20260914T121109Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 14:00:29 and reappears at 15:08:12 EAT\, se
- en from Mogadishu\, SO.\nThe Moon is 71° up · daylight\, Sun +58°.\nTim
- es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
- on's edge: https://occult.alokm.com/venus-2026-09-14?lat=2.0371&lon=45.343
- 8
+ en from Mogadishu\, SO.\nThe Moon is 71° up in the SSE · daylight\, Sun 
+ +58°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vie
+ w at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=2.0371
+ &lon=45.3438
 URL:https://occult.alokm.com/venus-2026-09-14?lat=2.0371&lon=45.3438
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -332,17 +332,18 @@ BEGIN:VEVENT
 UID:occ-mars-2029-10-11-mogadishu-so@occult.alokm.com
 DTSTAMP:20260914T040845Z
 DTSTART:20291011T173747Z
-DTEND:20291011T182410Z
-SUMMARY:The Moon occults Mars
-DESCRIPTION:Mars disappears at 20:37:59 and reappears at 21:23:58 EAT\, see
- n from Mogadishu\, SO.\nThe Moon is 9° up in the WSW · dark sky.\nTimes 
- against the real lunar limb.\nMap\, timings and the view at the Moon's edg
- e: https://occult.alokm.com/mars-2029-10-11?city=Mogadishu%2C%20SO
+DTEND:20291011T173759Z
+SUMMARY:The Moon occults Mars (disappearance only)
+DESCRIPTION:Mars disappears at 20:37:59 EAT\, seen from Mogadishu\, SO.\nTh
+ e Moon sets during the occultation: only the disappearance is above the ho
+ rizon.\nThe Moon is 9° up in the WSW · dark sky.\nTimes against the real
+  lunar limb.\nMap\, timings and the view at the Moon's edge: https://occul
+ t.alokm.com/mars-2029-10-11?city=Mogadishu%2C%20SO
 URL:https://occult.alokm.com/mars-2029-10-11?city=Mogadishu%2C%20SO
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars
+DESCRIPTION:The Moon occults Mars (disappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

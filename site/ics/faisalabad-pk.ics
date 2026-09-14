@@ -391,18 +391,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-faisalabad-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223322Z
-DTEND:20280121T233211Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:33:22 and reappears at 04:32:11 PKT\, 
- seen from Faisalabad\, PK.\nThe Moon is -2° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-01-22?lat=31.4155&lon=73.0897
+DTSTART:20280121T233211Z
+DTEND:20280121T233311Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:32:11 PKT\, seen from Faisalabad\, PK.\
+ nThe Moon rises during the occultation: only the reappearance is above the
+  horizon.\nThe Moon is 8° up in the SE · dark sky.\nTimes for the Moon's
+  mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:
+ //occult.alokm.com/antares-2028-01-22?lat=31.4155&lon=73.0897
 URL:https://occult.alokm.com/antares-2028-01-22?lat=31.4155&lon=73.0897
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -413,9 +414,9 @@ DTSTART:20280330T135959Z
 DTEND:20280330T150555Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:59:59 and reappears at 20:05:55 PKT\, 
- seen from Faisalabad\, PK.\nThe Moon is 42° up · dusk.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=31.4155&lon=73.0897
+ seen from Faisalabad\, PK.\nThe Moon is 42° up in the W · dusk.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/alcyone-2028-03-30?lat=31.4155&lon=73.0897
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=31.4155&lon=73.0897
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -431,9 +432,10 @@ DTSTART:20280412T225019Z
 DTEND:20280413T001735Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:50:19 and reappears at 05:17:35 PKT\, 
- seen from Faisalabad\, PK.\nThe Moon is 31° up · dark sky.\nTimes for th
- e Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/antares-2028-04-12?lat=31.4155&lon=73.0897
+ seen from Faisalabad\, PK.\nThe Moon is 31° up in the S · dark sky.\nTim
+ es for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Mo
+ on's edge: https://occult.alokm.com/antares-2028-04-12?lat=31.4155&lon=73.
+ 0897
 URL:https://occult.alokm.com/antares-2028-04-12?lat=31.4155&lon=73.0897
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -449,10 +451,10 @@ DTSTART:20290211T034105Z
 DTEND:20290211T044040Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:41:41 and reappears at 09:40:02 PKT\, 
- seen from Faisalabad\, PK.\nThe Moon is 31° up · daylight\, Sun +20°.\n
- Times for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=31.4155&lon=
- 73.0897
+ seen from Faisalabad\, PK.\nThe Moon is 31° up in the SSE · daylight\, S
+ un +20°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the 
+ view at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=3
+ 1.4155&lon=73.0897
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=31.4155&lon=73.0897
 TRANSP:TRANSPARENT
 BEGIN:VALARM

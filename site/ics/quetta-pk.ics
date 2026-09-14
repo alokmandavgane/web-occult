@@ -447,18 +447,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-quetta-pk@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T222948Z
-DTEND:20280121T233049Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 03:29:48 and reappears at 04:30:49 PKT\, 
- seen from Quetta\, PK.\nThe Moon is -7° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/antares-2028-01-22?lat=30.1841&lon=67.0014
+DTSTART:20280121T233049Z
+DTEND:20280121T233149Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 04:30:49 PKT\, seen from Quetta\, PK.\nThe
+  Moon rises during the occultation: only the reappearance is above the hor
+ izon.\nThe Moon is 4° up in the SE · dark sky.\nTimes for the Moon's mea
+ n limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://oc
+ cult.alokm.com/antares-2028-01-22?lat=30.1841&lon=67.0014
 URL:https://occult.alokm.com/antares-2028-01-22?lat=30.1841&lon=67.0014
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -469,9 +470,9 @@ DTSTART:20280330T135611Z
 DTEND:20280330T145846Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 18:56:11 and reappears at 19:58:46 PKT\, 
- seen from Quetta\, PK.\nThe Moon is 48° up · twilight.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/alcyone-2028-03-30?lat=30.1841&lon=67.0014
+ seen from Quetta\, PK.\nThe Moon is 48° up in the W · twilight.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/alcyone-2028-03-30?lat=30.1841&lon=67.0014
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=30.1841&lon=67.0014
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -487,9 +488,9 @@ DTSTART:20280412T223549Z
 DTEND:20280413T000530Z
 SUMMARY:The Moon occults Antares
 DESCRIPTION:Antares disappears at 03:35:49 and reappears at 05:05:30 PKT\, 
- seen from Quetta\, PK.\nThe Moon is 33° up · dark sky.\nTimes for the Mo
- on's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/antares-2028-04-12?lat=30.1841&lon=67.0014
+ seen from Quetta\, PK.\nThe Moon is 33° up in the S · dark sky.\nTimes f
+ or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
+  edge: https://occult.alokm.com/antares-2028-04-12?lat=30.1841&lon=67.0014
 URL:https://occult.alokm.com/antares-2028-04-12?lat=30.1841&lon=67.0014
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -505,10 +506,10 @@ DTSTART:20290211T032540Z
 DTEND:20290211T042651Z
 SUMMARY:The Moon occults Mercury
 DESCRIPTION:Mercury disappears at 08:26:13 and reappears at 09:26:16 PKT\, 
- seen from Quetta\, PK.\nThe Moon is 27° up · daylight\, Sun +13°.\nTime
- s for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moo
- n's edge: https://occult.alokm.com/mercury-2029-02-11?lat=30.1841&lon=67.0
- 014
+ seen from Quetta\, PK.\nThe Moon is 27° up in the SE · daylight\, Sun +1
+ 3°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/mercury-2029-02-11?lat=30.184
+ 1&lon=67.0014
 URL:https://occult.alokm.com/mercury-2029-02-11?lat=30.1841&lon=67.0014
 TRANSP:TRANSPARENT
 BEGIN:VALARM

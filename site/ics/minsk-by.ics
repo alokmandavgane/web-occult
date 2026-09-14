@@ -29,9 +29,10 @@ DTSTART:20260914T095448Z
 DTEND:20260914T104512Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 12:57:05 and reappears at 13:42:49 +03\, se
- en from Minsk\, BY.\nThe Moon is 12° up · daylight\, Sun +39°.\nTimes f
- or the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's
-  edge: https://occult.alokm.com/venus-2026-09-14?lat=53.9002&lon=27.5665
+ en from Minsk\, BY.\nThe Moon is 12° up in the SE · daylight\, Sun +39°
+ .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
+ the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=53.9002&lon
+ =27.5665
 URL:https://occult.alokm.com/venus-2026-09-14?lat=53.9002&lon=27.5665
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -427,10 +428,10 @@ DTSTART:20280330T125042Z
 DTEND:20280330T134111Z
 SUMMARY:The Moon occults Alcyone
 DESCRIPTION:Alcyone disappears at 15:50:42 and reappears at 16:41:11 +03\, 
- seen from Minsk\, BY.\nThe Moon is 59° up · daylight\, Sun +31°.\nTimes
-  for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=53.9002&lon=27.56
- 65
+ seen from Minsk\, BY.\nThe Moon is 59° up in the SSE · daylight\, Sun +3
+ 1°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
+ at the Moon's edge: https://occult.alokm.com/alcyone-2028-03-30?lat=53.900
+ 2&lon=27.5665
 URL:https://occult.alokm.com/alcyone-2028-03-30?lat=53.9002&lon=27.5665
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -442,18 +443,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-04-12-minsk-by@occult.alokm.com
 DTSTAMP:20260914T040148Z
-DTSTART:20280412T214757Z
-DTEND:20280412T225629Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 00:47:57 and reappears at 01:56:29 +03\, 
- seen from Minsk\, BY.\nThe Moon is -2° up · dark sky.\nTimes for the Moo
- n's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/antares-2028-04-12?lat=53.9002&lon=27.5665
+DTSTART:20280412T225629Z
+DTEND:20280412T225729Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 01:56:29 +03\, seen from Minsk\, BY.\nThe 
+ Moon rises during the occultation: only the reappearance is above the hori
+ zon.\nThe Moon is 4° up in the SSE · dark sky.\nTimes for the Moon's mea
+ n limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://oc
+ cult.alokm.com/antares-2028-04-12?lat=53.9002&lon=27.5665
 URL:https://occult.alokm.com/antares-2028-04-12?lat=53.9002&lon=27.5665
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

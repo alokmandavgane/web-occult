@@ -378,18 +378,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-srinagar@occult.alokm.com
 DTSTAMP:20260914T035705Z
-DTSTART:20280121T223857Z
-DTEND:20280121T233112Z
-SUMMARY:The Moon occults Antares
-DESCRIPTION:Antares disappears at 04:08:57 and reappears at 05:01:12 IST\, 
- seen from Srinagar.\nThe Moon is -1° up in the ESE · dark sky.\nTimes ag
- ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/antares-2028-01-22?city=Srinagar
+DTSTART:20280121T233112Z
+DTEND:20280121T233212Z
+SUMMARY:The Moon occults Antares (reappearance only)
+DESCRIPTION:Antares reappears at 05:01:12 IST\, seen from Srinagar.\nThe Mo
+ on rises during the occultation: only the reappearance is above the horizo
+ n.\nThe Moon is 7° up in the SE · dark sky.\nTimes against the real luna
+ r limb.\nMap\, timings and the view at the Moon's edge: https://occult.alo
+ km.com/antares-2028-01-22?city=Srinagar
 URL:https://occult.alokm.com/antares-2028-01-22?city=Srinagar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:The Moon occults Antares
+DESCRIPTION:The Moon occults Antares (reappearance only)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -400,9 +401,10 @@ DTSTART:20280330T030933Z
 DTEND:20280330T032109Z
 SUMMARY:The Moon occults Venus
 DESCRIPTION:Venus disappears at 08:39:33 and reappears at 08:51:09 IST\, se
- en from Srinagar.\nThe Moon is 3° up · daylight\, Sun +28°.\nTimes for 
- the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/venus-2028-03-30?lat=34.0837&lon=74.7973
+ en from Srinagar.\nThe Moon is 3° up in the ENE · daylight\, Sun +28°.\
+ nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
+ e Moon's edge: https://occult.alokm.com/venus-2028-03-30?lat=34.0837&lon=7
+ 4.7973
 URL:https://occult.alokm.com/venus-2028-03-30?lat=34.0837&lon=74.7973
 TRANSP:TRANSPARENT
 BEGIN:VALARM
