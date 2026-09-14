@@ -6,7 +6,7 @@ increasing to the right), row 0 = latitude +90. Pixel value = height above the 1
 HMIN_KM (0) to HMAX_KM (255). The browser takes slopes from it and lights them with the real Sun direction, so
 craters and basins shade correctly for any phase; low ground is tinted darker as a stand-in for the maria.
 
-Usage: .venv/bin/python engine/moon_texture.py [720|360] [--preview out.png]
+Usage: .venv/bin/python engine/moon_texture.py [360|720] [--preview out.png]
 """
 
 import os
@@ -64,7 +64,7 @@ def relief(width):
 
 
 def main():
-    width = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 720
+    width = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 360
     h = relief(width)
     img = np.clip(np.round((h - HMIN_KM) / (HMAX_KM - HMIN_KM) * 255), 0, 255).astype(np.uint8)
     os.makedirs(os.path.join(REPO, "site", "img"), exist_ok=True)
