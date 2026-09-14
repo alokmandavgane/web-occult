@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated seed for the occultation pages. Each entry is (object, date, audience) and nothing else — every number on a page is computed from DE431 by api/lookup/generate/occultation_event.py. Candidates come from a DE431 scan (see that script's --scan), never from a published table. `audience` picks the city list, the map framing and the display timezone. Planet events are the ones Fred Espenak's Sky Event Almanac (astropixels.com) flags 'Occn.' — our DE431 scan finds the same set plus a few within ~12° of the Sun, which are unobservable and left out. Bright-star events are included when India sees them in a dark sky.",
+  "_comment": "Curated seed for the occultation pages. Each entry is (object, date, audience) and nothing else — every number on a page is computed from DE431 by engine/occultation_event.py. Candidates come from a DE431 scan (see that script's --scan), never from a published table. `audience` picks the city list, the map framing and the display timezone. Planet events are the ones Fred Espenak's Sky Event Almanac (astropixels.com) flags 'Occn.' — our DE431 scan finds the same set plus a few within ~12° of the Sun, which are unobservable and left out. Bright-star events are included when India sees them in a dark sky.",
   "audiences": {
     "india": {
       "label": "India",
@@ -13,7 +13,7 @@
       "grid_deg": 0.125,
       "tz": "Asia/Kolkata",
       "tz_label": "IST",
-      "cities": "api/cities.json",
+      "cities": "cities/india.json",
       "featured": [
         "Delhi",
         "Mumbai",

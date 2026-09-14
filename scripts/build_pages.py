@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build site/ — the whole static site — from seed + data + geo.
 
-    data/<slug>.json    (kaalshodh: api/lookup/generate/occultation_event.py, DE431)
+    data/<slug>.json    (engine/occultation_event.py, DE431)
   + geo/<audience>.json (scripts/build_geo.py)
   + seed.json
   -> site/index.html, site/<slug>.html, site/data/<slug>.json, site/sitemap.xml,

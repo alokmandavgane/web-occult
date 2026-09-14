@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Jupiter's moons diary: one page per month from data/jupiter-moons-<year>.json
-(kaalshodh: api/lookup/generate/satellite_events.py, DE431 + JPL jup365).
+(engine/satellite_events.py, DE431 + JPL jup365 / sat441).
 
 Every event is geocentric — one UTC instant for the whole Earth — so the page prerenders
 the month's events in UTC (crawlable) and the browser turns them into local time and adds
