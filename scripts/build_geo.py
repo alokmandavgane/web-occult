@@ -2,21 +2,25 @@
 """Derive the compact map outlines the occultation pages inline as SVG.
 
 Sources are the Natural Earth files bundled with the eclipse app's map module
-(the India-compliant borders live there too) — read at build time, never
-copied into this repo. The output per audience is a few tens of KB of clipped,
-simplified rings, checked in under geo/, so the page builder needs
-no geodata and a new audience is one entry in seed.json plus a re-run.
+(the India-compliant borders live there too) — read at build time from
+OCCULT_MAP_DIR (see engine/ephem_paths.py), never copied into this repo. The
+output per audience is a few tens of KB of clipped, simplified rings, checked
+in under geo/, so the page builder needs no geodata and a new audience is one
+entry in seed.json plus a re-run.
 
 Usage:  python3 scripts/build_geo.py
 """
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "engine"))
+from ephem_paths import require_map_file  # noqa: E402
+
 SEED = ROOT / "seed.json"
 OUT = ROOT / "geo"
-SRC = Path("/Users/alokm/dev/eclipse/composemap/src/commonMain/composeResources/files")
 LAND_FINE, LAND_COARSE, BORDERS = "land_50m.geojson", "world_land.geojson", "borders.geojson"
 
 # per-audience source + simplification tolerance (deg); world uses the coarse land and no borders
@@ -159,7 +163,7 @@ def main():
     for name, cfg in seed["audiences"].items():
         land_file, tol, want_borders = DETAIL.get(name, (LAND_COARSE, 0.25, False))
         bbox = cfg["bbox"]
-        land = json.loads((SRC / land_file).read_text())
+        land = json.loads(Path(require_map_file(land_file)).read_text())
         rings = []
         for feat in land["features"]:
             for ring in rings_of(feat["geometry"]):
@@ -170,7 +174,7 @@ def main():
                         rings.append(s)
         out = {"bbox": bbox, "land": rings}
         if want_borders:
-            borders = json.loads((SRC / BORDERS).read_text())
+            borders = json.loads(Path(require_map_file(BORDERS)).read_text())
             geoms = borders["geometries"] if borders["type"] == "GeometryCollection" else [f["geometry"] for f in borders["features"]]
             blines = []
             for g in geoms:

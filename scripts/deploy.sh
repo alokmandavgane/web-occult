@@ -1,6 +1,6 @@
 #!/bin/sh
-# Push site/ to the Cloudflare Pages project "occult" (Direct Upload) from this machine.
-# No git integration, no Actions: build locally, upload with Wrangler via npx (nothing to install).
+# Manual fallback: upload site/ to the Cloudflare Pages project "occult" from this machine. Normally a push to
+# main publishes it (the project's Git integration; no Actions). Wrangler runs via npx (nothing to install).
 #
 #   ./scripts/deploy.sh            # rebuilds site/ then deploys
 #   ./scripts/deploy.sh --no-build # deploys site/ as it is

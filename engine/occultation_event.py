@@ -56,7 +56,7 @@ def limb():
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SEED = os.path.join(REPO, "seed.json")
 OUT_DIR = os.path.join(REPO, "data")
-from ephem_paths import DE431 as EPHEMERIS_FILE  # noqa: E402
+from ephem_paths import DE431 as EPHEMERIS_FILE, require_map_file  # noqa: E402
 
 R_MOON_KM = 1737.4      # IAU mean radius — the "mean limb"
 R_EARTH_KM = 6378.137
@@ -620,16 +620,13 @@ def local_circumstances(ts, eph, earth, moon, target, t_min, lat, lon, elev_m=0.
     return row
 
 
-WORLD_CITIES = "/Users/alokm/dev/eclipse/composemap/src/commonMain/composeResources/files/cities.csv"
-
-
 def load_cities(audience_cfg, region_rings):
     src = audience_cfg["cities"]
     if src == "world":
-        # the eclipse app's GeoNames extract, sorted by population: name,lat,lng,cc,tz,pop,utcoff,country
+        # the eclipse app's GeoNames extract (OCCULT_MAP_DIR), sorted by population: name,lat,lng,cc,tz,pop,utcoff,country
         import csv
         out, seen = [], set()
-        with open(WORLD_CITIES) as f:
+        with open(require_map_file("cities.csv")) as f:
             for row in csv.reader(f):
                 name, lat, lon, cc, tz, pop = row[0], float(row[1]), float(row[2]), row[3], row[4], int(row[5] or 0)
                 if pop < 1_000_000 or (name, cc) in seen:

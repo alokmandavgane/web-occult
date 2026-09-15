@@ -3,10 +3,13 @@
 Static site at occult.alokm.com (Cloudflare Pages via its Git integration on `main`; `scripts/deploy.sh` is the
 manual fallback — no GitHub Actions). See README.md for the pipeline and setup.
 
-This repo is self-contained: the engine (`engine/`), its tests, its binary inputs (`ephemeris/`, gitignored) and
-its venv (`.venv`, from `requirements.txt`). The ONE outside input is DE431, read from the kaalshodh checkout
-(`OCCULT_DE431`, default `../kaalshodh/api/de431t.bsp`) and never copied. Kaalshodh has no occult code any
-more — don't put any back there.
+This repo holds the engine (`engine/`), its tests, its binary inputs (`ephemeris/`, gitignored) and its venv
+(`.venv`, from `requirements.txt`). Two inputs live outside it and are never copied, both located by
+`engine/ephem_paths.py`: DE431 (`OCCULT_DE431`, default the kaalshodh checkout's `../kaalshodh/api/de431t.bsp`) and
+the eclipse app's map files (`OCCULT_MAP_DIR`, default `../eclipse/composemap/src/commonMain/composeResources/files`),
+read only by `scripts/build_geo.py` and for audiences with `"cities": "world"`. Kaalshodh has no occult code any
+more — don't put any back there. The repo is MIT-licensed and meant to be public: no absolute local paths, no
+credentials, and a new outside input gets an env var in `ephem_paths.py` and a line in README.md.
 
 Rules that are easy to break:
 - **The event list is hand-curated in `seed.json` and every number is computed** — never paste
