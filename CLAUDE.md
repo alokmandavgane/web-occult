@@ -155,7 +155,12 @@ Rules that are easy to break:
   (`ORBIT_FLOOR_MAS`: JPL's and MPC's paths differ by RMS 14 mas over the 44 Occult-checked events; JPL's formal σ is ~10×
   smaller — never show it alone). ~65–90 events a month; IOTA-India's Sep–Oct lists: 38 of 46 listed, the rest narrower
   than their 1σ or off India. Pages stay under ~50 KB gz by simplifying paths and the thumbnail land at draw time
-  (`path_d`, `land_svg`); the data keeps full precision. Each event's `el` (x/y polynomials of the
+  (`path_d`, `land_svg`); the data keeps full precision. `groundAt(el, tau, off)` in the shared JS is the twin of the
+  engine's `ground()` — light time to the ground point and the normal taken across the motion RELATIVE to the turning
+  Earth, three passes — and `toOffset(el, lat, lon, target)` Newton-walks to the line `target` km from the axis. The tests
+  hold both to the engine: the centre line AND both edges within 0.3 km (measured 0.07), every station within 0.2 km of
+  the offset it was asked for (measured 0.05, even walked from London). Drop the light-time term or the relative normal
+  and those move by a kilometre or more — don't simplify them away. Each event's `el` (x/y polynomials of the
   shadow axis in the fundamental plane, the star vector, the asteroid's velocity across the plane for the observer's light
   time, R0 at t0, the Sun) is what the page solves any place from: `local()`/`to_centre()` in the engine and `solve()`/
   `toCentre()` in the page JS are twins, and so are `you_html()`/`you()` with floor(x + 0.5) rounding — change them
@@ -163,13 +168,18 @@ Rules that are easy to break:
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
   the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there
   is deliberately NO page per event. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
-  OpenStreetMap tiles. On that map: the band with its 1σ lines, the whole ground track beyond the frame as a faint dotted
-  line (`worldTrack`), time labels solved in the browser at whatever spacing the zoom allows (10 s to 10 min steps, so the
-  month files' stored `ticks` are now spare), an arrow to the centre line with its distance and bearing, and a **draggable
-  pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it (`history.replaceState`) so "Copy link
-  to this spot" / Share hands a group a link to one station — a link's pin sets the page but NEVER overwrites the
-  reader's own saved `occult-loc`; only their own tap does. "Move to the centre line" walks `to_centre` down its gradient
-  (five spherical steps, lands under 50 m). Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
+  OpenStreetMap tiles. On that map: the band, filled as ten ribbons shaded by how long the star is hidden there
+  (2√(R²−d²)/v, so darkest down the middle and a graze at the edges), its 1σ lines, the whole ground track beyond the frame
+  as a faint dotted line (`worldTrack`), time labels solved in the browser at whatever spacing the zoom allows (10 s to
+  10 min steps, so the month files' stored `ticks` are now spare), an arrow to the centre line with its distance and
+  bearing, and a **draggable pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it
+  (`history.replaceState`) so "Copy link to this spot" / Share hands a group a link to one station — a link's pin sets the
+  page but NEVER overwrites the reader's own saved `occult-loc`; only their own tap does. "Suggest stations" places five
+  spots across the path at the nearest point of it (`STATION_F` = ±0.8, ±0.4, 0 of the half width), each listed with its
+  chord in seconds and clickable to become your spot: a picket fence is what turns timings into a shape. Every drawn layer
+  is `interactive: false` — only the pin and the station markers take a click, so a tap on the band itself reaches the map
+  and moves the pin (Leaflet gives a click to the topmost interactive layer and NOT to the map). "Move to the centre line"
+  is `toOffset(el, lat, lon, 0)`. Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
   drawings, shared by both pages, the way `js/moon.js` is shared. It carries: a **finder chart**
   from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
   all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a

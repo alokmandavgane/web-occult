@@ -54,6 +54,29 @@
     var de = (solve(el, lat, lon + h).d - solve(el, lat, lon - h).d) / (2 * h * 111.195 * Math.cos(lat * RAD));
     return [Math.abs(d0) / Math.hypot(dn, de), ((Math.atan2(-d0 * de, -d0 * dn) / RAD) + 360) % 360];
   }
+  function dest(lat, lon, brg, km) {        // step km along a bearing, on a sphere
+    var Re = 6371, d = km / Re, bb = brg * RAD, la = lat * RAD, lo = lon * RAD;
+    var la2 = Math.asin(Math.sin(la) * Math.cos(d) + Math.cos(la) * Math.sin(d) * Math.cos(bb));
+    var lo2 = lo + Math.atan2(Math.sin(bb) * Math.sin(d) * Math.cos(la), Math.cos(d) - Math.sin(la) * Math.sin(la2));
+    return [la2 / RAD, ((lo2 / RAD + 540) % 360) - 180];
+  }
+  function toOffset(el, lat, lon, target) {
+    // the nearest place the shadow's axis passes `target` km from (0 = the centre line), by Newton steps down the
+    // gradient of d. Over a few hundred km d is near enough linear in ground distance that five steps land inside 50 m.
+    var la = lat, lo = lon, h = 0.02, i, p;
+    for (i = 0; i < 6; i++) {
+      var err = target - solve(el, la, lo).d;
+      var dn = (solve(el, la + h, lo).d - solve(el, la - h, lo).d) / (2 * h * 111.195);
+      var de = (solve(el, la, lo + h).d - solve(el, la, lo - h).d) / (2 * h * 111.195 * Math.cos(la * RAD));
+      var g2 = dn * dn + de * de;
+      if (!isFinite(g2) || g2 < 1e-12) break;
+      var kn = err * dn / g2, ke = err * de / g2, km = Math.hypot(kn, ke);
+      if (km < 0.05) break;
+      p = dest(la, lo, ((Math.atan2(ke, kn) / RAD) + 360) % 360, km);
+      la = p[0]; lo = p[1];
+    }
+    return [la, lo];
+  }
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
@@ -143,30 +166,61 @@
     o.push('<text class="st-lbl" x="' + ((a + b) / 2).toFixed(1) + '" y="' + (yBot + 14) + '" text-anchor="middle">' + r1(dur) + ' s</text>');
     return o.join('') + '</svg>';
   }
-  function groundAt(el, tau) {
-    // where the shadow's axis meets the Earth at t0 + tau: [lat, lon], or null when it misses. The same geometry as
-    // the engine's ground(), which is what tests/test_asteroid_pages.py checks it against.
+  function groundAt(el, tau, off) {
+    // where the shadow's axis — moved `off` km across its relative motion — meets the Earth at t0 + tau: [lat, lon],
+    // or null when it misses. The twin of the engine's ground(): the light time to the ground point, and the normal
+    // taken across the motion RELATIVE to the turning Earth, both settle in three passes. off 0 is the centre line,
+    // which tests/test_asteroid_pages.py checks against the engine's own.
     var k = el.k, n1 = Math.hypot(-k[1], k[0]);
     var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]];
-    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
-    var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
+    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th), R0 = el.R0;
+    var x = poly(el.x, u), y = poly(el.y, u), vx = dpoly(el.x, u) / el.W, vy = dpoly(el.y, u) / el.W;
     function toItrs(v) {
       var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
       return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];        // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
     }
-    var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - FE);
-    var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
-    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
-    var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
-    var disc = B2 * B2 - Q * C2;
-    if (disc < 0) return null;
-    var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
+    function toGcrs(v) {
+      var q = [ct * v[0] - st * v[1], st * v[0] + ct * v[1], v[2]];
+      return [R0[0] * q[0] + R0[3] * q[1] + R0[6] * q[2], R0[1] * q[0] + R0[4] * q[1] + R0[7] * q[2], R0[2] * q[0] + R0[5] * q[1] + R0[8] * q[2]];
+    }
+    var ki = toItrs(k), sc = 1 / (1 - FE), k2 = [ki[0], ki[1], ki[2] * sc], o = off || 0;
+    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2], wx = vx, wy = vy, zeta = AE, g = null;
+    for (var it = 0; it < 3; it++) {
+      var wn = Math.hypot(wx, wy), nx = -wy / wn, ny = wx / wn;            // left of the relative motion
+      var px = x + el.vp[0] * zeta / C + o * nx, py = y + el.vp[1] * zeta / C + o * ny;
+      var b = toItrs([px * e1[0] + py * e2[0], px * e1[1] + py * e2[1], px * e1[2] + py * e2[2]]);
+      var a2 = [b[0], b[1], b[2] * sc];
+      var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
+      var disc = B2 * B2 - Q * C2;
+      if (disc < 0) return null;
+      zeta = (-B2 + Math.sqrt(disc)) / Q;
+      g = [b[0] + zeta * ki[0], b[1] + zeta * ki[1], b[2] + zeta * ki[2]];
+      var vg = toGcrs([-WE * g[1], WE * g[0], 0]);                         // the ground point's own motion
+      wx = vx - dot(vg, e1); wy = vy - dot(vg, e2);
+    }
     return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
   }
   function worldTrack(el, n) {
     var out = [];
     for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
     return out;
+  }
+  function bandRuns(el, offs, n) {
+    // the lines `offs` km either side of the axis, sampled together and cut into runs where every one of them is on
+    // the Earth: what the map fills between, to shade the band by how long the star stays hidden.
+    var runs = [], cur = null, i, j;
+    for (i = 0; i <= n; i++) {
+      var pts = [], ok = true;
+      for (j = 0; j < offs.length; j++) {
+        var p = groundAt(el, -el.W + 2 * el.W * i / n, offs[j]);
+        if (!p || (cur && Math.abs(p[1] - cur[j][cur[j].length - 1][1]) > 90)) { ok = false; break; }
+        pts.push(p);
+      }
+      if (!ok) { cur = null; continue; }
+      if (!cur) { cur = offs.map(function () { return []; }); runs.push(cur); }
+      for (j = 0; j < offs.length; j++) cur[j].push(pts[j]);
+    }
+    return runs.filter(function (r) { return r[0].length > 1; });
   }
   function worldSvg(ev, world, bbox, loc) {
     var o = ['<svg class="world" viewBox="0 0 360 180" role="img" aria-label="The whole path across the Earth">'];
@@ -223,8 +277,8 @@
     setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
   }
 
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, save: save,
-                             groundAt: groundAt, worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
+                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();

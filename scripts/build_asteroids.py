@@ -275,6 +275,14 @@ EVENT_CSS = """
                   background: color-mix(in srgb, var(--card) 86%, transparent); border: 1px solid var(--border); border-radius: 6px;
                   padding: 0 4px; white-space: nowrap; width: auto !important; height: auto !important; }
     .tick-dot { background: var(--t-ast); border-radius: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px; }
+    .stn-dot { width: 20px; height: 20px; border-radius: 50%; background: var(--c-visible); color: #fff; border: 2px solid var(--card);
+               font: 600 11px/16px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; text-align: center; cursor: pointer; }
+    .stn-panel { margin: 0.6rem 0 0; }
+    .stn-list { display: grid; gap: 0.3rem; }
+    .stn-list button { font: inherit; font-size: 0.85rem; text-align: left; color: inherit; background: var(--card);
+                       border: 1px solid var(--line); border-radius: 10px; padding: 0.35rem 0.6rem; cursor: pointer; }
+    .stn-list button:hover { border-color: var(--c-visible); }
+    .stn-list b { font-variant-numeric: tabular-nums; }
 """
 
 # ---------------------------------------------------------------------------------------------- site/js/asteroid.js
@@ -334,6 +342,29 @@ LIB_JS = r"""
     var dn = (solve(el, lat + h, lon).d - solve(el, lat - h, lon).d) / (2 * h * 111.195);
     var de = (solve(el, lat, lon + h).d - solve(el, lat, lon - h).d) / (2 * h * 111.195 * Math.cos(lat * RAD));
     return [Math.abs(d0) / Math.hypot(dn, de), ((Math.atan2(-d0 * de, -d0 * dn) / RAD) + 360) % 360];
+  }
+  function dest(lat, lon, brg, km) {        // step km along a bearing, on a sphere
+    var Re = 6371, d = km / Re, bb = brg * RAD, la = lat * RAD, lo = lon * RAD;
+    var la2 = Math.asin(Math.sin(la) * Math.cos(d) + Math.cos(la) * Math.sin(d) * Math.cos(bb));
+    var lo2 = lo + Math.atan2(Math.sin(bb) * Math.sin(d) * Math.cos(la), Math.cos(d) - Math.sin(la) * Math.sin(la2));
+    return [la2 / RAD, ((lo2 / RAD + 540) % 360) - 180];
+  }
+  function toOffset(el, lat, lon, target) {
+    // the nearest place the shadow's axis passes `target` km from (0 = the centre line), by Newton steps down the
+    // gradient of d. Over a few hundred km d is near enough linear in ground distance that five steps land inside 50 m.
+    var la = lat, lo = lon, h = 0.02, i, p;
+    for (i = 0; i < 6; i++) {
+      var err = target - solve(el, la, lo).d;
+      var dn = (solve(el, la + h, lo).d - solve(el, la - h, lo).d) / (2 * h * 111.195);
+      var de = (solve(el, la, lo + h).d - solve(el, la, lo - h).d) / (2 * h * 111.195 * Math.cos(la * RAD));
+      var g2 = dn * dn + de * de;
+      if (!isFinite(g2) || g2 < 1e-12) break;
+      var kn = err * dn / g2, ke = err * de / g2, km = Math.hypot(kn, ke);
+      if (km < 0.05) break;
+      p = dest(la, lo, ((Math.atan2(ke, kn) / RAD) + 360) % 360, km);
+      la = p[0]; lo = p[1];
+    }
+    return [la, lo];
   }
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
@@ -424,30 +455,61 @@ LIB_JS = r"""
     o.push('<text class="st-lbl" x="' + ((a + b) / 2).toFixed(1) + '" y="' + (yBot + 14) + '" text-anchor="middle">' + r1(dur) + ' s</text>');
     return o.join('') + '</svg>';
   }
-  function groundAt(el, tau) {
-    // where the shadow's axis meets the Earth at t0 + tau: [lat, lon], or null when it misses. The same geometry as
-    // the engine's ground(), which is what tests/test_asteroid_pages.py checks it against.
+  function groundAt(el, tau, off) {
+    // where the shadow's axis — moved `off` km across its relative motion — meets the Earth at t0 + tau: [lat, lon],
+    // or null when it misses. The twin of the engine's ground(): the light time to the ground point, and the normal
+    // taken across the motion RELATIVE to the turning Earth, both settle in three passes. off 0 is the centre line,
+    // which tests/test_asteroid_pages.py checks against the engine's own.
     var k = el.k, n1 = Math.hypot(-k[1], k[0]);
     var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]];
-    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
-    var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
+    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th), R0 = el.R0;
+    var x = poly(el.x, u), y = poly(el.y, u), vx = dpoly(el.x, u) / el.W, vy = dpoly(el.y, u) / el.W;
     function toItrs(v) {
       var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
       return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];        // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
     }
-    var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - FE);
-    var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
-    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
-    var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
-    var disc = B2 * B2 - Q * C2;
-    if (disc < 0) return null;
-    var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
+    function toGcrs(v) {
+      var q = [ct * v[0] - st * v[1], st * v[0] + ct * v[1], v[2]];
+      return [R0[0] * q[0] + R0[3] * q[1] + R0[6] * q[2], R0[1] * q[0] + R0[4] * q[1] + R0[7] * q[2], R0[2] * q[0] + R0[5] * q[1] + R0[8] * q[2]];
+    }
+    var ki = toItrs(k), sc = 1 / (1 - FE), k2 = [ki[0], ki[1], ki[2] * sc], o = off || 0;
+    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2], wx = vx, wy = vy, zeta = AE, g = null;
+    for (var it = 0; it < 3; it++) {
+      var wn = Math.hypot(wx, wy), nx = -wy / wn, ny = wx / wn;            // left of the relative motion
+      var px = x + el.vp[0] * zeta / C + o * nx, py = y + el.vp[1] * zeta / C + o * ny;
+      var b = toItrs([px * e1[0] + py * e2[0], px * e1[1] + py * e2[1], px * e1[2] + py * e2[2]]);
+      var a2 = [b[0], b[1], b[2] * sc];
+      var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
+      var disc = B2 * B2 - Q * C2;
+      if (disc < 0) return null;
+      zeta = (-B2 + Math.sqrt(disc)) / Q;
+      g = [b[0] + zeta * ki[0], b[1] + zeta * ki[1], b[2] + zeta * ki[2]];
+      var vg = toGcrs([-WE * g[1], WE * g[0], 0]);                         // the ground point's own motion
+      wx = vx - dot(vg, e1); wy = vy - dot(vg, e2);
+    }
     return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
   }
   function worldTrack(el, n) {
     var out = [];
     for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
     return out;
+  }
+  function bandRuns(el, offs, n) {
+    // the lines `offs` km either side of the axis, sampled together and cut into runs where every one of them is on
+    // the Earth: what the map fills between, to shade the band by how long the star stays hidden.
+    var runs = [], cur = null, i, j;
+    for (i = 0; i <= n; i++) {
+      var pts = [], ok = true;
+      for (j = 0; j < offs.length; j++) {
+        var p = groundAt(el, -el.W + 2 * el.W * i / n, offs[j]);
+        if (!p || (cur && Math.abs(p[1] - cur[j][cur[j].length - 1][1]) > 90)) { ok = false; break; }
+        pts.push(p);
+      }
+      if (!ok) { cur = null; continue; }
+      if (!cur) { cur = offs.map(function () { return []; }); runs.push(cur); }
+      for (j = 0; j < offs.length; j++) cur[j].push(pts[j]);
+    }
+    return runs.filter(function (r) { return r[0].length > 1; });
   }
   function worldSvg(ev, world, bbox, loc) {
     var o = ['<svg class="world" viewBox="0 0 360 180" role="img" aria-label="The whole path across the Earth">'];
@@ -504,8 +566,8 @@ LIB_JS = r"""
     setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
   }
 
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, save: save,
-                             groundAt: groundAt, worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
+                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();
@@ -659,7 +721,10 @@ EVENT_JS = r"""
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
   var RAD = Math.PI / 180, params = new URLSearchParams(location.search);
   var id = params.get('e') || '', ym = id.slice(0, 7);
-  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null;
+  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null, stns = null;
+  var BAND_F = [0, 0.35, 0.62, 0.82, 0.94, 1];       // the ribbons the band is shaded in, as fractions of its half width
+  var STATION_F = [-0.8, -0.4, 0, 0.4, 0.8];         // where a line of observers would stand across it
+  var stnOn = false, stnPts = [];
   var el = function (x) { return document.getElementById(x); };
   // a shared link carries a spot: it sets this page, but never overwrites the reader's own saved place
   var qlat = parseFloat(params.get('lat')), qlon = parseFloat(params.get('lon'));
@@ -691,19 +756,20 @@ EVENT_JS = r"""
     map = L.map('map', { scrollWheelZoom: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
     var c = css('--t-ast'), lines = ev.lines, group = [];
-    function poly(runs, opts) { (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
+    // nothing on the map is clickable but the pin and the stations: a tap anywhere else is a tap on the map, which moves the pin
+    function poly(runs, opts) { opts.interactive = false; (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
     // the whole track, so zooming out shows where the shadow comes from and where it goes
     var seg = [];
     A.worldTrack(ev.el, 600).forEach(function (p) {
       if (!p || (seg.length && Math.abs(p[1] - seg[seg.length - 1][1]) > 180)) {
-        if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6' }).addTo(map);
+        if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6', interactive: false }).addTo(map);
         seg = [];
       }
       if (p) seg.push(p);
     });
-    if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6' }).addTo(map);
-    if (lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
-      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22 }).addTo(map));
+    if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6', interactive: false }).addTo(map);
+    if (!shadeBand(c) && lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
+      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22, interactive: false }).addTo(map));
     }
     poly(lines.left_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
     poly(lines.right_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
@@ -712,6 +778,7 @@ EVENT_JS = r"""
     poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
     ticks = L.layerGroup().addTo(map);
     arrow = L.layerGroup().addTo(map);
+    stns = L.layerGroup().addTo(map);
     me = L.marker([LOC.lat, LOC.lon], { icon: L.divIcon({ className: 'pin-dot', iconSize: [16, 16] }), draggable: true, autoPan: true,
                                         title: 'Drag to move your spot' }).addTo(map);
     me.bindPopup('');
@@ -720,6 +787,24 @@ EVENT_JS = r"""
     map.on('moveend zoomend', timeLabels);
     var bounds = L.featureGroup(group).getBounds();
     map.fitBounds(bounds.isValid() ? bounds : L.latLngBounds([[META.bbox[1], META.bbox[0]], [META.bbox[3], META.bbox[2]]]), { padding: [16, 16] });
+  }
+
+  function shadeBand(colour) {
+    // The star is hidden longest down the middle of the path and not at all past its edges: the chord through a sphere
+    // is 2*sqrt(R^2 - d^2) long. So the band is filled as a set of ribbons either side of the centre line, each as dark
+    // as its own chord is long — the middle of the path is where you want to be, and this is how much it is worth.
+    var L = window.L, R = ev.el.R, fr = [], i, drew = 0;
+    for (i = BAND_F.length - 1; i > 0; i--) fr.push(-BAND_F[i]);
+    for (i = 0; i < BAND_F.length; i++) fr.push(BAND_F[i]);
+    A.bandRuns(ev.el, fr.map(function (f) { return f * R; }), 240).forEach(function (run) {
+      for (var j = 0; j + 1 < fr.length; j++) {
+        var mid = Math.abs(fr[j] + fr[j + 1]) / 2, chord = Math.sqrt(Math.max(0, 1 - mid * mid));
+        L.polygon([run[j].concat(run[j + 1].slice().reverse())],
+                  { color: colour, weight: 0, fillOpacity: 0.05 + 0.28 * chord, interactive: false }).addTo(map);
+        drew++;
+      }
+    });
+    return drew;
   }
 
   function timeLabels() {
@@ -745,21 +830,35 @@ EVENT_JS = r"""
     }
   }
 
-  function dest(lat, lon, brg, km) {        // step km along a bearing, on a sphere
-    var R = 6371, d = km / R, bb = brg * RAD, la = lat * RAD, lo = lon * RAD;
-    var la2 = Math.asin(Math.sin(la) * Math.cos(d) + Math.cos(la) * Math.sin(d) * Math.cos(bb));
-    var lo2 = lo + Math.atan2(Math.sin(bb) * Math.sin(d) * Math.cos(la), Math.cos(d) - Math.sin(la) * Math.sin(la2));
-    return [la2 / RAD, ((lo2 / RAD + 540) % 360) - 180];
+  function centrePoint() { return A.toOffset(ev.el, LOC.lat, LOC.lon, 0); }
+  function kmApart(a, b) {
+    var kx = 111.32 * Math.cos((a[0] + b[0]) / 2 * RAD);
+    return Math.hypot((b[0] - a[0]) * 111.32, (((b[1] - a[1] + 180) % 360) - 180) * kx);
   }
-  function centrePoint() {                  // the nearest place on the centre line, by walking down the gradient
-    var lat = LOC.lat, lon = LOC.lon;
-    for (var i = 0; i < 5; i++) {
-      var tc = A.toCentre(ev.el, lat, lon);
-      if (!isFinite(tc[0]) || tc[0] < 0.05) break;
-      var p = dest(lat, lon, tc[1], tc[0]);
-      lat = p[0]; lon = p[1];
-    }
-    return [lat, lon];
+  function drawStations() {
+    // A line of observers across the path is how a shape gets measured: each one times a different chord through the
+    // asteroid, and the chords together outline it. These are spaced across the width at the nearest point of the path.
+    if (stns) stns.clearLayers();
+    stnPts = [];
+    el('stn-panel').hidden = !stnOn;
+    if (!stnOn || !ev) return;
+    var L = window.L, R = ev.el.R, c = centrePoint(), rows = [];
+    STATION_F.forEach(function (f, i) {
+      var p = A.toOffset(ev.el, c[0], c[1], f * R), s = A.solve(ev.el, p[0], p[1]), tc = A.toCentre(ev.el, p[0], p[1]);
+      var side = (f > 0) === (ev.north_is === 'left') ? 'north' : 'south';
+      var where = Math.abs(f) < 1e-9 ? 'on the centre line' : F.r0(tc[0]) + ' km ' + side + ' of it';
+      stnPts.push(p);
+      rows.push('<button type="button" data-stn="' + i + '"><b>' + (i + 1) + '</b> ' + p[0].toFixed(4) + ', ' + p[1].toFixed(4)
+                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b></button>');
+      if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [20, 20], html: String(i + 1) }),
+                                            title: 'Station ' + (i + 1) + ' — tap to make it your spot' })
+        .bindTooltip(F.r1(s.dur) + ' s', { direction: 'top', offset: [0, -8] })
+        .on('click', function () { setLoc(p[0], p[1], 'Station ' + (i + 1)); }));
+    });
+    el('stn-list').innerHTML = rows.join('');
+    el('stn-note').textContent = 'Five spots across the path near you, about ' + F.r0(kmApart(stnPts[0], stnPts[1]))
+      + ' km apart. Each records a different chord, and together they measure the asteroid\'s shape — the point of timing one at all. '
+      + 'Tap a station to make it your spot, then send whoever takes it the link.';
   }
   function placeMe(s, tc, y) {
     if (!map) return;
@@ -776,6 +875,7 @@ EVENT_JS = r"""
         .addTo(arrow);
     }
     timeLabels();
+    drawStations();
   }
 
   function render() {
@@ -832,6 +932,17 @@ EVENT_JS = r"""
       navigator.share({ title: document.title, text: 'Asteroid occultation — my spot', url: el('spot-url').value }).catch(function () {});
     });
   }
+  el('spot-stations').addEventListener('click', function () {
+    stnOn = !stnOn;
+    el('spot-stations').textContent = stnOn ? 'Hide stations' : 'Suggest stations';
+    drawStations();
+  });
+  el('stn-list').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-stn]'), p = b && stnPts[+b.dataset.stn];
+    if (!p) return;
+    setLoc(p[0], p[1], 'Station ' + (+b.dataset.stn + 1));
+    if (map) map.panTo(p);
+  });
   el('spot-centre').addEventListener('click', function () {
     if (!ev) return;
     var p = centrePoint();
@@ -891,15 +1002,21 @@ EVENT_TEMPLATE = """
     <p class="hint" id="ev-look"></p>
   </header>
   <div id="map"></div>
-  <p class="map-note">Shaded: the path, as wide as the asteroid. Dashed either side: one standard deviation. The faint dotted
-  line is the rest of the track around the world. Labels along the centre line are the time the shadow passes there.
+  <p class="map-note">Shaded: the path, as wide as the asteroid, and darkest down the middle where the star stays hidden
+  longest — at the edges it barely blinks. Dashed either side: one standard deviation. The faint dotted line is the rest of
+  the track around the world. Labels along the centre line are the time the shadow passes there.
   <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
   <div class="spot">
     <span class="spot-coords" id="spot-coords"></span>
     <button class="btn" id="spot-centre" type="button">Move to the centre line</button>
+    <button class="btn" id="spot-stations" type="button">Suggest stations</button>
     <button class="btn" id="spot-copy" type="button">Copy link to this spot</button>
     <button class="btn" id="spot-share" type="button" hidden>Share</button>
     <input class="spot-url" id="spot-url" readonly aria-label="Link to this spot">
+  </div>
+  <div class="stn-panel" id="stn-panel" hidden>
+    <div class="stn-list" id="stn-list"></div>
+    <p class="hint" id="stn-note"></p>
   </div>
   <div class="ast-dl" id="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
   <div class="ev-panes">
