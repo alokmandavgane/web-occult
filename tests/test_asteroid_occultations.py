@@ -7,6 +7,8 @@
     38 km/s shadow: the published centre points lie within half of Occult's own 1-sigma of our centre line, as a
     rigid shift (under 1 km of spread over up to 17,000 km of path), the published limit points lie the asteroid's
     radius beyond it, and the shadow reaches and leaves the Earth within a minute of Occult's stated times.
+  * The screen: the hourly prefilter that decides which (asteroid, star) pairs are ever solved, against a plain
+    two-minute search over the same two days — nothing it finds may be missing from the screen's candidates.
   * The browser's solver: `local()` from the page's compact elements against the full model, to 0.02 km and 0.1 s.
   * The month files: unique ids, and elements that put each event's listed best point on its centre line.
 
@@ -27,6 +29,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.join(HERE, "..")
 DE431 = os.environ.get("OCCULT_DE431") or os.path.join(REPO, "..", "kaalshodh", "api", "de431t.bsp")
 needs_de431 = pytest.mark.skipif(not os.path.exists(DE431), reason="DE431 not found (set OCCULT_DE431)")
+GAIA_NPZ = os.path.join(REPO, "ephemeris", "catalog", "gaia_g12.5.npz")
+needs_gaia = pytest.mark.skipif(not os.path.exists(GAIA_NPZ), reason="Gaia catalogue not packed (run `stars`)")
+
+# Two days the month file has listed events on, for the screen test: (asteroid number, Gaia source id) that must survive.
+SCREEN_DAYS = ((2026, 9, 15), (2026, 9, 17))
+SCREEN_EVENTS = [("78", 2614110850911121024), ("13244", 2866855180766895616), ("21766", 64895512733555328)]
 
 MPC_DIANA = {"epoch_mjd": 61200.0,
              "KEP": [2.6225475578081094, 0.203533016557825, 8.6794845586997, 333.2839129211138, 153.3191772060466, 201.4250701462879],
@@ -204,6 +212,73 @@ def test_catalogue_positions_match_horizons(env):
         P, _ = dense(np.array([HORIZONS_T1]), [idx[num]])
         km = np.linalg.norm((P[0, 0] - S1 - np.array(h["pos1"])) * A.AU_KM)
         assert km < 10.0, (num, km)
+
+
+@needs_de431
+@needs_gaia
+def test_screen_keeps_every_pair_a_plain_search_finds():
+    """The month build screens every asteroid against every star on an HOURLY grid, interpolated along each hour, with
+    every star carried to the middle of the month — and only the survivors are ever solved, so a pair the screen drops
+    is an event the site never hears about. Over two days, find the pairs again the plain way: a two-minute grid, each
+    star at the window's own epoch, boxes padded well past the screen's. Everything that search finds must be among the
+    screen's candidates, and so must the events the month file actually lists for those days. The screen may keep more
+    than the plain search does — it interpolates within the hour, so it catches approaches that fall between two-minute
+    samples; extra candidates cost solving time, not events."""
+    A = _engine()
+    ctx, rows, stars, ts = A.Ctx(), A.load_orbits(), A.Stars(), None
+    ts = ctx.ts
+    jd0, jd1 = ts.utc(*SCREEN_DAYS[0]).tdb, ts.utc(*SCREEN_DAYS[1]).tdb
+    dense = A.Fleet(ctx, rows).span(jd0 - 1.0, jd1 + 1.0)
+    cands = A.screen(ctx, dense, rows, stars, jd0, jd1, log=lambda *a: None)
+
+    by_number = {r["number"]: i for i, r in enumerate(rows)}
+    for number, gaia in SCREEN_EVENTS:            # the month file's own events for these days
+        s = int(np.searchsorted(stars.source_id, gaia)) if (stars.source_id[:-1] <= stars.source_id[1:]).all() \
+            else int(np.nonzero(stars.source_id == gaia)[0][0])
+        assert stars.source_id[s] == gaia, gaia
+        assert (by_number[number], s) in cands, (number, gaia)
+
+    step, pad = 2.0 / 1440, 0.05                  # two minutes; a degree pad twenty times the screen's own
+    jds = np.arange(jd0, jd1 + 1e-9, step)
+    E = ctx.earth.at(ts.tdb_jd(jds)).position.au.T
+    R = np.array([r["R_km"] for r in rows])
+    yr = ((jd0 + jd1) / 2 - A.GAIA_EPOCH) / 365.25
+    cosd = np.maximum(np.cos(np.radians(stars.dec)), 0.02)
+    s_ra, s_de = stars.ra + stars.pmra * yr / 3.6e6 / cosd, stars.dec + stars.pmdec * yr / 3.6e6
+    found, B = [], 256
+    for b0 in range(0, len(rows), B):
+        idx = list(range(b0, min(len(rows), b0 + B)))
+        P, V = dense(jds, idx)
+        d = P - E[:, None, :]
+        d = d - V * (np.linalg.norm(d, axis=2) / A.C_AUD)[..., None]        # light time, first order
+        dist = np.linalg.norm(d, axis=2)
+        U = d / dist[..., None]
+        reach = np.degrees((A.A_E + R[idx][None, :] + 200.0) / (dist * A.AU_KM) + 1.0 * A.ASEC2RAD)
+        ra = np.degrees(np.arctan2(U[..., 1], U[..., 0])) % 360
+        dec = np.degrees(np.arcsin(np.clip(U[..., 2], -1, 1)))
+        for c, ai in enumerate(idx):
+            rd = reach[:, c].max() + pad
+            d_lo, d_hi = dec[:, c].min() - rd, dec[:, c].max() + rd
+            lo, hi = np.searchsorted(stars.dec, [d_lo, d_hi])
+            if hi <= lo:
+                continue
+            cw = max(0.02, math.cos(math.radians(max(abs(d_lo), abs(d_hi)))))
+            ref = ra[len(jds) // 2, c]
+            rel = (ra[:, c] - ref + 540) % 360 - 180
+            srel = (s_ra[lo:hi] - ref + 540) % 360 - 180
+            m = ((srel >= rel.min() - rd / cw) & (srel <= rel.max() + rd / cw)
+                 & (s_de[lo:hi] >= d_lo) & (s_de[lo:hi] <= d_hi))
+            if not m.any():
+                continue
+            k = np.nonzero(m)[0]
+            x, y = np.radians(ref + srel[k]), np.radians(s_de[lo:hi][k])
+            S = np.stack([np.cos(y) * np.cos(x), np.cos(y) * np.sin(x), np.sin(y)], 1)
+            sep = np.degrees(np.linalg.norm(S[:, None, :] - U[None, :, c, :], axis=2))
+            for j in np.nonzero((sep < reach[None, :, c]).any(axis=1))[0]:
+                found.append((ai, int(k[j] + lo), float(sep[j].min())))
+    assert len(found) > 100, len(found)          # a day of the sky: if this collapses, the search has stopped searching
+    missed = [(rows[ai]["number"], int(stars.source_id[s]), sep) for ai, s, sep in found if (ai, s) not in cands]
+    assert not missed, missed[:10]
 
 
 def test_month_files():

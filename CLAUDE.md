@@ -145,7 +145,10 @@ Rules that are easy to break:
   it (`tests/test_asteroid_occultations.py` pins both). Horizons' small bodies need the trailing semicolon —
   `COMMAND='4;'` is Vesta, `'4'` is Mars — and it rate-limits: one request at a time. Stars: Gaia DR3 to G 12.5 all-sky
   (`ephemeris/catalog/gaia_g12.5.npz`, gitignored, fetched and packed by `stars`). A month screens each track hourly against
-  Dec-sorted stars, solves every candidate in the barycentric frame (light time to the observer, deflection on star and
+  Dec-sorted stars (`screen`: hourly geocentric track, interpolated along each hour, every star carried to the middle of
+  the month — the only thing standing between a real event and never being solved, so a test re-finds two days of pairs the
+  plain way, a 2-minute grid with stars at the window's own epoch and pads 20× the screen's, and fails if the screen dropped
+  one; taking away the 200 km reach pad or the proper-motion epoch fails it), solves every candidate in the barycentric frame (light time to the observer, deflection on star and
   asteroid, aberration cancels; the star exactly as Skyfield's Star), and lists a path when (`evaluate()`, then the width
   cut in `build_month`): it passes over land (`geo/india.json`, rasterised) within 100 km of a city in `cities/india.json`
   with the star ≥ 10° up and the Sun ≤ −6°; the star fades ≥ 0.1 mag (0.05 over 10 s) for ≥ 0.3 s; and the asteroid is at

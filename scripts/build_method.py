@@ -108,6 +108,9 @@ def write_page():
          "Small-Body Database publishes, as the pages are, it differs by a few kilometres, because those elements and "
          "Horizons' own differ slightly for the same orbit solution; that is under 4 mas, well inside the uncertainty each "
          "path already carries. <i>Automated test.</i>"),
+        ("The search that decides which asteroid and star pairs are worth solving", "A plain two-minute search of the same sky",
+         "Over two days, every pair the direct search turns up is among the ones the fast search kept — and so are the events "
+         "those days are listed with. <i>Automated test.</i>"),
         ("The any-location solver on each asteroid page", "The engine's full model", "Within 0.02 km and 0.1 s. <i>Automated test.</i>"),
         ("The path drawn on each asteroid page's map and world inset", "The engine's own centre line and edges",
          "The browser traces the shadow's track over the Earth from the same compact description — the centre line and both "
