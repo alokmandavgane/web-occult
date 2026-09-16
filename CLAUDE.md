@@ -225,5 +225,5 @@ Rules that are easy to break:
   MPC states. Don't "fix" the JPL-orbit offsets toward Occult: they are differences between orbit solutions. The asteroid is a
   sphere of its SBDB diameter, and the page says so. (IOTA-India's 30 Sep Diana page shows the 15 Sep image — their slip.)
 - Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, asteroid shadows across India, and
-  Jupiter's and Saturn's moons. ISS transits are deferred.
+  Jupiter's and Saturn's moons.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.
