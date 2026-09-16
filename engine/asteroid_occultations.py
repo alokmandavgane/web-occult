@@ -1056,10 +1056,12 @@ def build_month(ym, ctx, fleet, rows, stars, audience="india", log=print):
     log(f"   {n_earth} shadows touch the Earth this month; {len(kept)} pass within {CITY_KM:g} km of a city in {aud['label']} "
         f"at night with a drop >= {DROP_MIN} mag and >= {DUR_MIN_S} s")
     orbit_sigma(ctx, rows, kept, log)
+    # the width cut needs only the uncertainty, so it comes first: no Gaia query for the finder field, and no record, for
+    # a path that is about to be dropped
+    kept = [ev for ev in kept if wide_enough(ev, rows)]
+    log(f"   {len(kept)} of them with a path at least as wide as its 1-sigma uncertainty")
     fetch_fields(kept, log=log)
     out = [event_record(ctx, ev, rows, aud) for ev in kept]
-    out = [e for e in out if e["asteroid"]["diameter_km"] >= WIDTH_OVER_SIGMA * e["sigma_km"]]
-    log(f"   {len(out)} of them with a path at least as wide as its 1-sigma uncertainty")
     out.sort(key=lambda e: e["el"]["t0"])
     return {"month": ym, "generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "audience": audience, "bbox": aud["bbox"],
@@ -1075,20 +1077,33 @@ def orbit_date():
     return dt.datetime.fromtimestamp(os.path.getmtime(ORBITS), dt.timezone.utc).strftime("%Y-%m-%d")
 
 
+def path_sigma(ev):
+    """The path's 1-sigma: across it in km, along it in seconds, and the star's own share in km. Gaia's position and
+    proper-motion error carried to the event, combined with an orbit term — the largest of JPL's formal covariance,
+    |JPL - MPC| / sqrt 2 and ORBIT_FLOOR_MAS. Needs orbit_sigma() to have run over the event first."""
+    yrs = (ev.jd0 - GAIA_EPOCH) / 365.25
+    e = {k: float(np.nan_to_num(ev.st[k], nan=0.0)) for k in ("ra_err", "dec_err", "pmra_err", "pmdec_err")}
+    sig_star_mas = math.sqrt((e["ra_err"] ** 2 + e["dec_err"] ** 2) / 2 + ((e["pmra_err"] ** 2 + e["pmdec_err"] ** 2) / 2) * yrs ** 2)
+    km_per_mas = ev.delta * AU_KM * MAS
+    sig_star_km = sig_star_mas * km_per_mas
+    orbit_km = max(ORBIT_FLOOR_MAS * km_per_mas, ev.sigma_orbit_km or 0.0, abs(ev.jpl_mpc_km or 0.0) / math.sqrt(2))
+    orbit_s = max(ORBIT_FLOOR_MAS * km_per_mas / ev.v0, ev.sigma_orbit_s or 0.0, abs(ev.jpl_mpc_s or 0.0) / math.sqrt(2))
+    return math.sqrt(orbit_km ** 2 + sig_star_km ** 2), orbit_s, sig_star_km
+
+
+def wide_enough(ev, rows):
+    """The asteroid at least as wide as its path's 1-sigma — on the rounded sigma the month file carries, so the cut
+    made here is exactly the cut the records would show."""
+    return float(rows[ev.ai]["diameter_km"]) >= WIDTH_OVER_SIGMA * round(path_sigma(ev)[0], 1)
+
+
 def event_record(ctx, ev, rows, aud):
     ts = ctx.ts
     row, st = rows[ev.ai], ev.st
     el = ev.elements()
     t0 = ts.tdb_jd(ev.jd0)
-    yrs = (ev.jd0 - GAIA_EPOCH) / 365.25
-    e = {k: float(np.nan_to_num(st[k], nan=0.0)) for k in ("ra_err", "dec_err", "pmra_err", "pmdec_err")}
-    sig_star_mas = math.sqrt((e["ra_err"] ** 2 + e["dec_err"] ** 2) / 2 + ((e["pmra_err"] ** 2 + e["pmdec_err"] ** 2) / 2) * yrs ** 2)
-    km_per_mas = ev.delta * AU_KM * MAS
-    sig_star_km = sig_star_mas * km_per_mas
     so = ev.sigma_orbit_km
-    orbit_km = max(ORBIT_FLOOR_MAS * km_per_mas, so or 0.0, abs(ev.jpl_mpc_km or 0.0) / math.sqrt(2))
-    sigma = math.sqrt(orbit_km ** 2 + sig_star_km ** 2)
-    orbit_s = max(ORBIT_FLOOR_MAS * km_per_mas / ev.v0, ev.sigma_orbit_s or 0.0, abs(ev.jpl_mpc_s or 0.0) / math.sqrt(2))
+    sigma, orbit_s, sig_star_km = path_sigma(ev)
     # ±1-sigma lines beside the limits
     extra = ev.ground([ev.R + sigma, -(ev.R + sigma)]) if sigma else None
     names = ["centre", "left", "right"]

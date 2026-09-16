@@ -168,7 +168,9 @@ Rules that are easy to break:
   asteroid, aberration cancels; the star exactly as Skyfield's Star), and lists a path when (`evaluate()`, then the width
   cut in `build_month`): it passes over land (`geo/india.json`, rasterised) within 100 km of a city in `cities/india.json`
   with the star ≥ 10° up and the Sun ≤ −6°; the star fades ≥ 0.1 mag (0.05 over 10 s) for ≥ 0.3 s; and the asteroid is at
-  least as wide as the path's 1σ. That 1σ is Gaia's position/proper-motion error ⊕ an orbit term = the largest of JPL's formal
+  least as wide as the path's 1σ — a cut made on `path_sigma()` BEFORE the finder fields are fetched or records built
+  (`wide_enough`, on the same rounded sigma the file carries): it drops about half of what reaches it (September: 129 → 65),
+  and the old order queried Gaia for every one of those — 793 of the 1,740 cached fields belong to no listed event. That 1σ is Gaia's position/proper-motion error ⊕ an orbit term = the largest of JPL's formal
   covariance (six Cholesky-displaced orbits beside the nominal; cached per solution date in `catalog/asteroid-cov.json`),
   |JPL − MPC| / √2 for that event (MPC's orbit from its API, cached in `catalog/asteroid-mpc.json`) and 10 mas
   (`ORBIT_FLOOR_MAS`: JPL's and MPC's paths differ by RMS 14 mas over the 44 Occult-checked events; JPL's formal σ is ~10×
