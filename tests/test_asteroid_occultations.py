@@ -58,6 +58,26 @@ REF = {
 }
 
 
+# JPL Horizons, fetched 2026-09-16: heliocentric ICRF vectors (CENTER='500@10', REF_PLANE='FRAME'), au and au/day, for
+# the same JPL solutions catalog/asteroids.csv carries. T0 is the catalogue's epoch; T1 is 448 days on, the end of the
+# months the site covers. None of these four is one of the four perturbers, so they are pure test particles here.
+HORIZONS_T0, HORIZONS_T1 = 2461200.5, 2461648.5
+HORIZONS = {
+    "78": {  # 78 Diana (A863 EA), JPL#133
+        "state0": [2.44196856673481, -1.75556982455064, -0.869245157302715, 0.00498642027486249, 0.00594635203172114, 0.00399825843754287],
+        "pos1": [1.52167342543679, 1.52987181002781, 1.04765446490437]},
+    "512": {  # 512 Taurinensis (A903 MC), JPL#105
+        "state0": [-0.677859047936536, -1.97767245472902, -0.647091370326794, 0.0114849809924518, -6.47196424081642e-05, -0.00183193645376462],
+        "pos1": [0.136006947042048, 1.91428577979064, 0.708211439264122]},
+    "2363": {  # 2363 Cebriones (1977 TJ3), JPL#88 — a Trojan, out at 5 au
+        "state0": [1.68574668443498, 5.1566356337303, 0.0722675119362276, -0.00656976792901498, 0.00225094891164758, -0.00209510008610907],
+        "pos1": [-1.38228930206385, 5.17555038913126, -0.822268038428063]},
+    "324": {  # 324 Bamberga (A892 DA), JPL#178 — eccentric, 0.34
+        "state0": [0.751758568939821, -1.84798837355229, -1.10169023328124, 0.00966392997632642, 0.00568844002191187, 0.00486049884471324],
+        "pos1": [-0.63737076310961, 1.98985187639471, 1.207375311444]},
+}
+
+
 def _engine():
     spec = importlib.util.spec_from_file_location("asteroid_occultations", os.path.join(REPO, "engine", "asteroid_occultations.py"))
     A = importlib.util.module_from_spec(spec)
@@ -149,6 +169,41 @@ def test_browser_solver_matches_the_full_model(env):
     for (lat, lon), (jd, d, _) in zip(pts, full):
         s = A.local(el, lat, lon)
         assert abs(s["d"] - d) < 0.02 and abs(s["tau"] - (jd - t0) * 86400) < 0.1, (lat, lon, s, d)
+
+
+@needs_de431
+def test_integrator_matches_horizons(env):
+    """The engine's own RK4 — DE431's planets and Moon, Ceres/Pallas/Vesta/Hygiea, the Sun's relativistic term — against
+    JPL's integration of the very same state, 448 days on. Both ends are heliocentric through the same ephemeris, so what
+    is left is the force model and the stepping: about a hundred metres."""
+    A, ctx, big = env
+    gm = [A.BIG[r["number"]] for r in big]
+    sun = lambda jd: np.concatenate([ctx.sun.at(ctx.ts.tdb_jd(jd)).position.au, ctx.sun.at(ctx.ts.tdb_jd(jd)).velocity.au_per_d])
+    S0, S1 = sun(HORIZONS_T0), sun(HORIZONS_T1)
+    Xb = A.orbit_states(big) + S0[None, :]
+    for num, h in HORIZONS.items():
+        X0 = np.vstack([Xb, np.array(h["state0"]) + S0])
+        _, Xs = A.integrate(ctx, X0, HORIZONS_T0, HORIZONS_T1, pidx=range(len(big)), pgm=gm)
+        km = np.linalg.norm((Xs[-1, -1, :3] - S1[:3] - np.array(h["pos1"])) * A.AU_KM)
+        assert km < 1.0, (num, km)
+
+
+@needs_de431
+def test_catalogue_positions_match_horizons(env):
+    """The pipeline as it actually runs — the whole fleet carried from the elements the Small-Body Database publishes —
+    against Horizons at the end of the months the site covers. A few kilometres remain, and they are there at the epoch
+    itself: SBDB's published osculating elements and Horizons' own for the same solution differ by about 1e-6 degrees in
+    the angles (4 km along-track for Ceres). That is under 4 mas at these distances, well inside the 10 mas the paths
+    already carry for the orbit — so don't chase it."""
+    A, ctx, _ = env
+    rows = A.load_orbits()
+    idx = {r["number"]: i for i, r in enumerate(rows)}
+    dense = A.Fleet(ctx, rows).span(HORIZONS_T0 - 1, HORIZONS_T1 + 1)
+    S1 = ctx.sun.at(ctx.ts.tdb_jd(HORIZONS_T1)).position.au
+    for num, h in HORIZONS.items():
+        P, _ = dense(np.array([HORIZONS_T1]), [idx[num]])
+        km = np.linalg.norm((P[0, 0] - S1 - np.array(h["pos1"])) * A.AU_KM)
+        assert km < 10.0, (num, km)
 
 
 def test_month_files():

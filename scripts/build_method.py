@@ -102,7 +102,15 @@ def write_page():
          "of the published times. The centre lines differ by a rigid sideways shift — a median 12 km, 0.4 of Occult's own 1σ, with the "
          "Minor Planet Center's orbits that Occult uses, and 0.7σ with JPL's, the size by which the two orbit solutions differ. "
          "<i>Automated test</i> for five of them."),
+        ("Where the asteroids are, 2026–2027", "JPL Horizons",
+         "Given JPL's own starting state, this site's integration of an asteroid stays within 0.12 km of Horizons over the "
+         "448 days the pages cover — a ten-thousandth of a second of arc. Started instead from the orbital elements the "
+         "Small-Body Database publishes, as the pages are, it differs by a few kilometres, because those elements and "
+         "Horizons' own differ slightly for the same orbit solution; that is under 4 mas, well inside the uncertainty each "
+         "path already carries. <i>Automated test.</i>"),
         ("The any-location solver on each asteroid page", "The engine's full model", "Within 0.02 km and 0.1 s. <i>Automated test.</i>"),
+        ("The path drawn on each asteroid page's world inset", "The engine's own centre line",
+         "The browser solves the shadow's track on the globe from the same compact description: within 0.2 km. <i>Automated test.</i>"),
     ]
     rows = lambda items: "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in items)
 

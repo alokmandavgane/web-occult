@@ -135,7 +135,13 @@ Rules that are easy to break:
 - **Asteroid occultations** (`engine/asteroid_occultations.py` → `data/asteroids-<YYYY-MM>.json`; `scripts/build_asteroids.py` →
   `site/asteroids-<YYYY-MM>.html`). Orbits: every asteroid of D ≥ 15 km in JPL's SBDB (`catalog/asteroids.csv`, committed, one
   epoch; `orbits` refreshes it), carried by the engine's own RK4 (DE431 planets and Moon, Ceres/Pallas/Vesta/Hygiea, the Sun's
-  GR term; nodes every 0.5 d, cubic Hermite). Horizons is not needed. Stars: Gaia DR3 to G 12.5 all-sky
+  GR term; nodes every 0.5 d, cubic Hermite). Horizons is not needed — but it is the check: from Horizons' own state the
+  integrator holds 0.12 km over the 448 days the site covers, while from SBDB's published elements (what the pipeline
+  actually uses) positions differ by up to 6 km. That offset is there at the epoch itself — SBDB's published osculating
+  elements and Horizons' own differ by ~1e-6° in the angles for the SAME solution (4 km along-track for Ceres) — so it is
+  a representation difference, not integrator error, and at ≤ 4 mas it sits well inside the 10 mas orbit floor: don't chase
+  it (`tests/test_asteroid_occultations.py` pins both). Horizons' small bodies need the trailing semicolon —
+  `COMMAND='4;'` is Vesta, `'4'` is Mars — and it rate-limits: one request at a time. Stars: Gaia DR3 to G 12.5 all-sky
   (`ephemeris/catalog/gaia_g12.5.npz`, gitignored, fetched and packed by `stars`). A month screens each track hourly against
   Dec-sorted stars, solves every candidate in the barycentric frame (light time to the observer, deflection on star and
   asteroid, aberration cancels; the star exactly as Skyfield's Star), and lists a path when (`evaluate()`, then the width
