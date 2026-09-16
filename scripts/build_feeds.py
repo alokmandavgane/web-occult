@@ -130,7 +130,7 @@ def stamp(t):
 def ics_calendar(name, tzname, events):
     L = ["BEGIN:VCALENDAR", "VERSION:2.0", f"PRODID:-//{HOST}//Occultations//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
          f"X-WR-CALNAME:{ics_text(f'Occultations from {name}')}",
-         f"X-WR-CALDESC:{ics_text(f'Lunar occultations you can see from {name}, computed by {HOST}')}",
+         f"X-WR-CALDESC:{ics_text(f'Occultations you can see from {name}, computed by {HOST}')}",
          "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
     if tzname:
         L.append(f"X-WR-TIMEZONE:{tzname}")

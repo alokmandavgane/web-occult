@@ -22,7 +22,7 @@ ACCENT = (169, 193, 240)
 COL = {"home": ACCENT, "occ": (242, 181, 74), "ms": (108, 199, 224), "ast": (240, 138, 163), "jupiter": (195, 177, 245),
        "saturn": (111, 211, 148), "calendar": ACCENT}
 TEXT = {   # kicker, title, subtitle
-    "home": ("Lunar occultations, computed", "What passes in front of what — and when you can see it",
+    "home": ("Occultations, computed", "What passes in front of what — and when you can see it",
              "Maps and times for your city, from JPL ephemerides"),
     "occ": ("Lunar occultation", "When the Moon hides a planet or a bright star",
             "Where on Earth it can be seen, and the times for your city"),

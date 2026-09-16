@@ -27,7 +27,7 @@ OUT = ROOT / "site"
 SITE = "https://occult.alokm.com"
 SITE_NAME = "Occult"
 GA_ID = "G-GD7LT48Y79"   # the alokm.com GA4 property, shared with eclipse/zsd/inc
-TAGLINE = "lunar occultations, computed"
+TAGLINE = "occultations, computed"
 
 
 def esc(s):
