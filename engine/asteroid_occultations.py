@@ -938,7 +938,8 @@ def orbit_disagreement(ctx, rows, by_ast, log=print):
 
 
 def simplify(points, tol=0.01):
-    """Douglas-Peucker on (lat, lon) degrees."""
+    """Douglas-Peucker on (lat, lon) degrees. A closed ring starts and ends at the same place, so its first baseline has
+    no direction: measure from that point instead, or the whole ring collapses to it."""
     pts = np.asarray(points)
     if len(pts) < 3:
         return pts.tolist()
@@ -951,8 +952,10 @@ def simplify(points, tol=0.01):
             continue
         a, b = pts[i], pts[j]
         ab = b - a
-        L = np.hypot(*ab) or 1e-12
-        d = np.abs(ab[0] * (pts[i + 1:j, 1] - a[1]) - ab[1] * (pts[i + 1:j, 0] - a[0])) / L
+        L = np.hypot(*ab)
+        seg = pts[i + 1:j]
+        d = (np.hypot(seg[:, 0] - a[0], seg[:, 1] - a[1]) if L < 1e-12
+             else np.abs(ab[0] * (seg[:, 1] - a[1]) - ab[1] * (seg[:, 0] - a[0])) / L)
         k = int(np.argmax(d))
         if d[k] > tol:
             keep[i + 1 + k] = True

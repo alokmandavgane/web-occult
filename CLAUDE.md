@@ -156,8 +156,13 @@ Rules that are easy to break:
   from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
   all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a
   full-width **map** with the audience's cities, the reader's pin and `ticks` (whole UTC minutes along the centre line, stored
-  as seconds from t0 so the page can show them in the reader's clock), and **KML/GPX** of the path built in the browser from
-  `lines` — no extra files, no third-party tiles. Validated against Occult4 as IOTA-India published September–October 2026 (45 events): widths to 0.5 km,
+  as seconds from t0 so the page can show them in the reader's clock), a **chord** through the asteroid's disc with the 1σ
+  lines either side of it and a **cross-section strip** of the path, a **light-curve sketch** (the drop, the duration, the
+  timing σ), a **world inset** whose ground track the JS solves from `el` alone (`worldTrack`: the axis intersected
+  with the ellipsoid, the same maths as `ground()`; `tests/test_asteroid_pages.py` pins it against the engine's own centre line
+  — sample it densely there, since near the limb the ground point races and a sparse polyline measures the sampling, not the
+  solver), and **KML/GPX** of the path built in the browser from `lines` — no extra files, no third-party tiles. The world
+  outline is one shared `site/data/world-coarse.json` (~4 KB gz) fetched when a panel first opens, never in the page. Validated against Occult4 as IOTA-India published September–October 2026 (45 events): widths to 0.5 km,
   star positions ~2 mas (Occult prints the barycentric position), Earth-crossing times to the minute, and centre lines a
   rigid sideways shift — median 0.4σ with MPC orbits (what Occult integrates), 0.7σ with JPL's. The tests pin five events with
   MPC states. Don't "fix" the JPL-orbit offsets toward Occult: they are differences between orbit solutions. The asteroid is a

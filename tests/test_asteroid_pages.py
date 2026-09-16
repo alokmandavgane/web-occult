@@ -37,7 +37,10 @@ for (const ev of input.events) for (const p of input.places) {
   const s = A.solve(ev.el, p[0], p[1]), tc = A.toCentre(ev.el, p[0], p[1]);
   out.push({ s: s, tc: tc, you: A.you(ev, s, tc) });
 }
-for (const ev of input.events.slice(0, 3)) docs.push({ id: ev.id, kml: A.kml(ev), gpx: A.gpx(ev) });
+// Densely. Where the shadow meets the Earth's limb its ground point races, so a sparse track cuts the corner and the
+// comparison measures the sampling, not the solver: at 20,000 steps the worst point of a slow, sharply turning path
+// agrees to 0.2 km, against 49 km at 4,000. The page itself draws 400 — a corner cut of a pixel or so on a world map.
+for (const ev of input.events.slice(0, 3)) docs.push({ id: ev.id, kml: A.kml(ev), gpx: A.gpx(ev), world: A.worldTrack(ev.el, 20000) });
 process.stdout.write(JSON.stringify({ rows: out, docs: docs }));
 """
 
@@ -88,3 +91,27 @@ def _check_downloads(d, docs):
         g = "{http://www.topografix.com/GPX/1/1}"
         assert len(gpx.findall(f".//{g}trk")) == runs
         assert len(gpx.findall(f".//{g}trkpt")) == pts
+        _check_world_track(ev, doc["world"])
+
+
+def _check_world_track(ev, track):
+    """The world inset solves the shadow's ground track in the browser, from the elements alone: it must retrace the
+    centre line the engine wrote (itself simplified to 0.01°, about a kilometre)."""
+    import math
+    pts = [p for p in track if p]
+    assert len(pts) > 20, ev["id"]
+    # near the Earth's limb the sub-shadow point races, so samples there are far apart: measure against every segment
+    segs = [(a, b) for a, b in zip(pts, pts[1:]) if abs(((b[1] - a[1] + 180) % 360) - 180) < 90]
+    for run in ev["lines"].get("centre") or []:
+        for lat, lon in run:
+            kx = 111.32 * math.cos(math.radians(lat))
+            best = min(_seg_km(lat, lon, a, b, kx) for a, b in segs)
+            assert best < 4.0, (ev["id"], lat, lon, best)
+
+
+def _seg_km(lat, lon, a, b, kx):
+    ax, ay = (((a[1] - lon + 180) % 360) - 180) * kx, (a[0] - lat) * 111.32
+    bx, by = (((b[1] - lon + 180) % 360) - 180) * kx, (b[0] - lat) * 111.32
+    dx, dy = bx - ax, by - ay
+    t = 0.0 if dx == dy == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / (dx * dx + dy * dy)))
+    return ((ax + t * dx) ** 2 + (ay + t * dy) ** 2) ** 0.5

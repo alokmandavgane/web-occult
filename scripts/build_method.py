@@ -145,7 +145,8 @@ def write_page():
   is listed when it passes within 100 km of one of the site's Indian cities with the star at least 10° up in a sky at least 6°
   past sunset, it is at least as wide as its uncertainty, and the star fades enough to notice — {f['ast_events']:,} so far.
   Each event also carries a finder chart — the Gaia stars within 15′ of the target down to G 14, with the asteroid's track
-  through the field hour by hour — and the path as KML or GPX to take to a station. As on the other pages, a compact description of each event lets your browser work out how close the
+  through the field hour by hour — the chord you would time across the asteroid from where you are, a sketch of the fade and
+  how long it lasts, the whole path on a world map, and the path as KML or GPX to take to a station. As on the other pages, a compact description of each event lets your browser work out how close the
   path comes to you, when, and for how long the star vanishes.</p>
   <h3>Jupiter's and Saturn's moons</h3>
   <p>Eclipses, occultations, transits and shadow transits of Jupiter's four large moons and seven of Saturn's are searched in JPL's

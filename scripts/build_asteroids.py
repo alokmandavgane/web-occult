@@ -72,7 +72,7 @@ def you_html(ev, s, tc):
     return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look
 
 
-def path_d(proj, runs, close=False, tol=0.1):
+def path_d(proj, runs, close=False, tol=0.14):
     """SVG path data for [lat, lon] runs, simplified to `tol` degrees and in whole map units (a card map is 132 px for 400
     units, so a unit is a third of a pixel and 0.08° is a third of a pixel too) — the data files keep full precision."""
     from asteroid_occultations import simplify
@@ -88,12 +88,38 @@ def path_d(proj, runs, close=False, tol=0.1):
     return "".join(parts)
 
 
+WORLD_FILE = "world-coarse.json"
+_WORLD = {}
+
+
+def world_url():
+    """A coarse world outline (rings of [lat, lon]) for the panels' inset: one small file, written once and fetched by
+    the page the first time a reader opens a panel — too big to sit in every page's HTML."""
+    if not _WORLD:
+        from asteroid_occultations import simplify
+        g = json.loads((ROOT / "geo" / "world.json").read_text())
+        rings = []
+        for r in g["land"]:
+            if max(p[0] for p in r) - min(p[0] for p in r) < 3 and max(p[1] for p in r) - min(p[1] for p in r) < 3:
+                continue
+            s = simplify([[p[1], p[0]] for p in r], 0.8)
+            if len(s) > 3:
+                rings.append([[round(la, 1), round(lo, 1)] for la, lo in s])
+        text = json.dumps(rings, separators=(",", ":"))
+        (OUT / "data").mkdir(parents=True, exist_ok=True)
+        (OUT / "data" / WORLD_FILE).write_text(text)
+        _WORLD["url"] = f"/data/{WORLD_FILE}?v={_hash(text)}"
+        print(f"wrote site/data/{WORLD_FILE}: {len(rings)} rings, {len(text) // 1024} KB")
+    return _WORLD["url"]
+
+
 def land_svg(proj, geo):
-    """The audience's land for the thumbnails: islands under half a degree dropped, outlines simplified."""
+    """The audience's land for the thumbnails: a card map is 132 px wide, so islands under a degree and detail finer
+    than about half a pixel are dropped."""
     rings = [[[la, lo] for lo, la in r] for r in geo["land"]
-             if max(p[0] for p in r) - min(p[0] for p in r) >= 0.5 or max(p[1] for p in r) - min(p[1] for p in r) >= 0.5]
-    out = f'<path class="land" d="{path_d(proj, rings, close=True, tol=0.08)}"/>'
-    b = path_d(proj, [[[la, lo] for lo, la in l] for l in geo.get("borders", [])], tol=0.08)
+             if max(p[0] for p in r) - min(p[0] for p in r) >= 1.0 or max(p[1] for p in r) - min(p[1] for p in r) >= 1.0]
+    out = f'<path class="land" d="{path_d(proj, rings, close=True, tol=0.12)}"/>'
+    b = path_d(proj, [[[la, lo] for lo, la in l] for l in geo.get("borders", [])], tol=0.12)
     return out + (f'<path class="border" d="{b}"/>' if b else "")
 
 
@@ -103,10 +129,12 @@ def card_static(ev, proj, land_id="ast-land"):
     L = ev["lines"]
     svg = [f'<svg class="ast-map" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="Path of the shadow across India">'
            f'<use href="#{land_id}"/>']
+    # the thumbnail carries the band and its edges only: the 1-sigma lines live in the panel's larger map and its
+    # cross-section, where they can be read, and they cost a busy month a kilobyte here
     if len(L.get("left", [])) == 1 and len(L.get("right", [])) == 1:
-        svg.append(f'<path class="ast-band" d="{path_d(proj, [L["left"][0] + L["right"][0][::-1]], close=True)}"/>')
-    for key, cls in (("left_1s", "ast-sig"), ("right_1s", "ast-sig"), ("left", "ast-lim"), ("right", "ast-lim"), ("centre", "ast-cl")):
-        d = path_d(proj, L.get(key, []))
+        svg.append(f'<path class="ast-band" d="{path_d(proj, [L["left"][0] + L["right"][0][::-1]], close=True, tol=0.18)}"/>')
+    for key, cls in (("left", "ast-lim"), ("right", "ast-lim"), ("centre", "ast-cl")):
+        d = path_d(proj, L.get(key, []), tol=0.18)
         if d:
             svg.append(f'<path class="{cls}" d="{d}"/>')
     svg.append('<circle class="ast-pin" r="7" cx="-20" cy="-20"/></svg>')
@@ -183,7 +211,27 @@ AST_CSS = """
     .ast-more:hover { text-decoration: underline; }
     .ast-detail { grid-column: 1 / -1; margin-top: 0.6rem; border-top: 1px dotted var(--line); padding-top: 0.7rem; }
     .ast-panes { display: grid; grid-template-columns: 300px 1fr; gap: 0.9rem; align-items: start; }
+    .ast-panes2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.9rem; margin-top: 0.8rem; align-items: start; }
     @media (max-width: 620px) { .ast-panes { grid-template-columns: 1fr; } }
+    .chord, .curve, .world, .strip { width: 100%; height: auto; display: block; }
+    .chord, .curve, .world { background: var(--sea); border-radius: 8px; }
+    .pane-cap { font-size: 0.76rem; color: var(--muted); margin-top: 0.25rem; }
+    .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; }
+    .ch-chord { stroke: var(--c-limit); stroke-width: 2.4; stroke-linecap: round; }
+    .ch-miss { stroke: var(--muted); stroke-width: 1.6; stroke-dasharray: 5 4; }
+    .ch-sig { stroke: var(--t-ast); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; fill: none; }
+    .st-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); }
+    .st-sig { fill: color-mix(in srgb, var(--t-ast) 12%, transparent); }
+    .st-axis { stroke: var(--line); stroke-width: 1; }
+    .st-you { fill: var(--c-limit); }
+    .st-lbl { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .cv-line { fill: none; stroke: var(--c-limit); stroke-width: 2; stroke-linejoin: round; }
+    .cv-line.centre { stroke: var(--muted); stroke-dasharray: 5 4; stroke-width: 1.6; }
+    .cv-axis { stroke: var(--line); stroke-width: 1; }
+    .cv-sig { fill: color-mix(in srgb, var(--c-limit) 20%, transparent); }
+    .wd-land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.3; }
+    .wd-path { fill: none; stroke: var(--t-ast); stroke-width: 1.6; }
+    .wd-frame { fill: none; stroke: var(--c-limit); stroke-width: 0.8; }
     .finder, .ast-big { width: 100%; height: auto; display: block; background: var(--sea); border-radius: 8px; }
     .fd-edge { fill: none; stroke: var(--line); stroke-width: 0.8; }
     .fd-star { fill: var(--text); }
@@ -245,7 +293,8 @@ SOLVER_JS = r"""
     var de = (solve(el, lat, lon + h).d - solve(el, lat, lon - h).d) / (2 * h * 111.195 * Math.cos(lat * RAD));
     return [Math.abs(d0) / Math.hypot(dn, de), ((Math.atan2(-d0 * de, -d0 * dn) / RAD) + 360) % 360];
   }
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx };   // tests/test_asteroid_pages.py runs these
+  // tests/test_asteroid_pages.py runs these against their Python twins and against the engine's own path lines
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, worldTrack: worldTrack };
 
   // ---------- page ----------
   var COMPASS = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
@@ -367,8 +416,115 @@ SOLVER_JS = r"""
     a.href = u; a.download = name; document.body.appendChild(a); a.click();
     setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
   }
-  function detailHtml(ev, tz) {
+  // ---------- where you sit across the path, the chord you would time, and the whole path on Earth ----------
+  function stripSvg(ev, s) {
+    var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, W = 300, H = 40, c = W / 2;
+    var span = Math.max(R + sig, Math.abs(d)) * 1.3 || 1, k = (W / 2 - 12) / span, o = [];
+    o.push('<svg class="strip" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Where you are across the path">');
+    o.push('<rect class="st-sig" x="' + (c - (R + sig) * k).toFixed(1) + '" y="8" width="' + (2 * (R + sig) * k).toFixed(1) + '" height="14"/>');
+    o.push('<rect class="st-band" x="' + (c - R * k).toFixed(1) + '" y="8" width="' + (2 * R * k).toFixed(1) + '" height="14"/>');
+    o.push('<path class="st-axis" d="M' + (c).toFixed(1) + ',4 ' + c.toFixed(1) + ',26"/>');
+    var x = c + d * k;
+    o.push('<path class="st-you" d="M' + x.toFixed(1) + ',6 ' + (x - 4).toFixed(1) + ',-1 ' + (x + 4).toFixed(1) + ',-1Z" transform="translate(0,2)"/>');
+    o.push('<text class="st-lbl" x="' + c.toFixed(1) + '" y="36" text-anchor="middle">centre</text>');
+    o.push('<text class="st-lbl" x="' + (c + R * k + 2).toFixed(1) + '" y="36">edge</text>');
+    o.push('<text class="st-lbl" x="' + x.toFixed(1) + '" y="36" text-anchor="middle" style="fill:var(--c-limit)">you</text>');
+    return o.join('') + '</svg>';
+  }
+  function chordSvg(ev, s) {
+    var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, S = 210, c = S / 2;
+    var k = (c - 18) / Math.max(R, Math.abs(d), 1), y = c - d * k, o = [];
+    o.push('<svg class="chord" viewBox="0 0 ' + S + ' ' + S + '" role="img" aria-label="Your chord across the asteroid">');
+    o.push('<circle class="ch-disc" cx="' + c + '" cy="' + c + '" r="' + (R * k).toFixed(1) + '"/>');
+    [d - sig, d + sig].forEach(function (v) {
+      o.push('<path class="ch-sig" d="M8,' + (c - v * k).toFixed(1) + ' ' + (S - 8) + ',' + (c - v * k).toFixed(1) + '"/>');
+    });
+    if (Math.abs(d) < R) {
+      var half = Math.sqrt(R * R - d * d) * k;
+      o.push('<path class="ch-chord" d="M' + (c - half).toFixed(1) + ',' + y.toFixed(1) + ' ' + (c + half).toFixed(1) + ',' + y.toFixed(1) + '"/>');
+    } else {
+      o.push('<path class="ch-miss" d="M8,' + y.toFixed(1) + ' ' + (S - 8) + ',' + y.toFixed(1) + '"/>');
+    }
+    return o.join('') + '</svg>';
+  }
+  function curveSvg(ev, s) {
+    var inside = Math.abs(s.d) <= ev.el.R, dur = inside ? s.dur : ev.dur_max_s, sig = ev.sigma_s || 0;
+    var W = 240, H = 130, x0 = 24, x1 = W - 8, span = Math.max(dur * 2.2, dur + 4 * sig, 4);
+    var xs = function (t) { return x0 + (t / span + 0.5) * (x1 - x0); }, yTop = 22, yBot = H - 26, o = [];
+    o.push('<svg class="curve" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="How the brightness drops">');
+    o.push('<path class="cv-axis" d="M' + x0 + ',' + yTop + ' ' + x0 + ',' + yBot + ' ' + x1 + ',' + yBot + '"/>');
+    o.push('<rect class="cv-sig" x="' + xs(-dur / 2 - sig).toFixed(1) + '" y="' + yTop + '" width="' + Math.max(1, (xs(-dur / 2 + sig) - xs(-dur / 2 - sig))).toFixed(1) + '" height="' + (yBot - yTop) + '"/>');
+    o.push('<rect class="cv-sig" x="' + xs(dur / 2 - sig).toFixed(1) + '" y="' + yTop + '" width="' + Math.max(1, (xs(dur / 2 + sig) - xs(dur / 2 - sig))).toFixed(1) + '" height="' + (yBot - yTop) + '"/>');
+    var a = xs(-dur / 2), b = xs(dur / 2);
+    o.push('<path class="cv-line' + (inside ? '' : ' centre') + '" d="M' + x0.toFixed(1) + ',' + yTop + ' ' + a.toFixed(1) + ',' + yTop
+           + ' ' + a.toFixed(1) + ',' + yBot + ' ' + b.toFixed(1) + ',' + yBot + ' ' + b.toFixed(1) + ',' + yTop + ' ' + x1.toFixed(1) + ',' + yTop + '"/>');
+    o.push('<text class="st-lbl" x="2" y="' + (yTop + 3) + '">' + ev.combined_mag.toFixed(1) + '</text>');
+    o.push('<text class="st-lbl" x="2" y="' + (yBot + 3) + '">' + ev.asteroid.mag.toFixed(1) + '</text>');
+    o.push('<text class="st-lbl" x="' + ((a + b) / 2).toFixed(1) + '" y="' + (yBot + 14) + '" text-anchor="middle">' + r1(dur) + ' s</text>');
+    return o.join('') + '</svg>';
+  }
+  function worldTrack(el, n) {
+    var AE = 6378.137, F = 1 / 298.257223563, k = el.k, n1 = Math.hypot(-k[1], k[0]);
+    var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]], out = [];
+    for (var i = 0; i <= n; i++) {
+      var tau = -el.W + 2 * el.W * i / n, u = tau / el.W, th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
+      var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
+      var toItrs = function (v) {
+        var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
+        return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];      // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
+      };
+      var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - F);
+      var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
+      var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
+      var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
+      var disc = B2 * B2 - Q * C2;
+      if (disc < 0) { out.push(null); continue; }
+      var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
+      out.push([Math.atan2(g[2], (1 - F) * (1 - F) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD]);
+    }
+    return out;
+  }
+  function worldSvg(ev) {
+    var o = ['<svg class="world" viewBox="0 0 360 180" role="img" aria-label="The whole path across the Earth">'];
+    (WORLD || []).forEach(function (r) {
+      o.push('<path class="wd-land" d="M' + r.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + 'Z"/>');
+    });
+    var seg = [];
+    worldTrack(ev.el, 400).forEach(function (p) {      // dense enough that the racing ends near the limb stay on the map
+      if (!p) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; return; }
+      if (seg.length) {                                   // break the line where it wraps round the map
+        var prev = +seg[seg.length - 1].split(',')[0] - 180;
+        if (Math.abs(p[1] - prev) > 180) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; }
+      }
+      seg.push((p[1] + 180).toFixed(1) + ',' + (90 - p[0]).toFixed(1));
+    });
+    if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>');
+    var B2 = META.bbox;
+    o.push('<rect class="wd-frame" x="' + (B2[0] + 180) + '" y="' + (90 - B2[3]) + '" width="' + (B2[2] - B2[0]) + '" height="' + (B2[3] - B2[1]) + '"/>');
+    var me = [(LOC.lon + 180).toFixed(1), (90 - LOC.lat).toFixed(1)];
+    o.push('<circle class="ast-pin" cx="' + me[0] + '" cy="' + me[1] + '" r="3" stroke-width="1.2"/>');
+    return o.join('') + '</svg>';
+  }
+  var WORLD = null;
+  function withWorld(done) {
+    if (WORLD) return done();
+    fetch(META.world).then(function (r) { return r.json(); }).then(function (w) { WORLD = w; done(); }).catch(function () { WORLD = []; done(); });
+  }
+  function fillWorld(det, ev) {      // the outline is one small file, fetched the first time a panel opens
+    withWorld(function () { var slot = det.querySelector('.world-pane .world'); if (slot) slot.outerHTML = worldSvg(ev); });
+  }
+  function detailHtml(ev, tz, s) {
+    var R = ev.el.R, inside = Math.abs(s.d) <= R, ground = toCentre(ev.el, LOC.lat, LOC.lon)[0];
+    var chordCap = inside ? ('Your chord: ' + r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km of the ' + r0(2 * R) + ' km disc · ' + r1(s.dur) + ' s')
+                          : ('Your line misses the ' + r0(2 * R) + ' km disc by ' + r0(Math.abs(s.d) - R) + ' km; the dashed lines are where 1σ would put it');
     return '<div class="ast-panes">' + finderSvg(ev, tz) + bigMap(ev, tz) + '</div>'
+      + '<div class="ast-panes2">'
+      + '<div>' + chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + stripSvg(ev, s)
+      + '<p class="pane-cap">' + r0(ground) + ' km from the centre line across a path ' + r0(2 * R) + ' km wide, ± ' + r0(ev.sigma_km || 0) + ' km</p></div>'
+      + '<div>' + curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
+      + ': ' + r1(ev.drop) + ' mag for ' + r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + r1(ev.sigma_s || 0) + ' s</p></div>'
+      + '<div class="world-pane"><svg class="world" viewBox="0 0 360 180" aria-hidden="true"></svg><p class="pane-cap">The whole path on Earth; the box is this map</p></div>'
+      + '</div>'
       + '<div class="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button>'
       + '<button class="btn" data-dl="gpx">GPX</button></div>'
       + '<p class="ast-note">Marks across the path are whole minutes; the dot is you. On the chart the dashed line is the asteroid\'s'
@@ -397,7 +553,7 @@ SOLVER_JS = r"""
       a.querySelector('.ast-look').textContent = y[2];
       var p = xy(LOC.lat, LOC.lon), pin = a.querySelector('.ast-pin'); pin.setAttribute('cx', p[0].toFixed(1)); pin.setAttribute('cy', p[1].toFixed(1));
       var det = a.querySelector('.ast-detail');     // an open panel follows the place; a closed one is rebuilt on opening
-      if (det && !det.hidden) { det.innerHTML = detailHtml(ev, tz); det.dataset.built = '1'; } else if (det) det.dataset.built = '';
+      if (det && !det.hidden) { det.innerHTML = detailHtml(ev, tz, s); det.dataset.built = '1'; fillWorld(det, ev); } else if (det) det.dataset.built = '';
       var near = y[0] === 'in' || y[0] === 'near'; if (near) mine++;
       a.hidden = FILTER === 'near' && !near;
       var k = dateKey(Date.parse(ev.t_geo) - 432e5, tz);
@@ -441,7 +597,11 @@ SOLVER_JS = r"""
     if (!ev) return;
     if (!det) { det = document.createElement('div'); det.className = 'ast-detail'; det.hidden = true; a.appendChild(det); }
     var open = det.hidden;
-    if (open && det.dataset.built !== '1') { det.innerHTML = detailHtml(ev, tzOf(LOC)); det.dataset.built = '1'; }
+    if (open && det.dataset.built !== '1') {
+      det.innerHTML = detailHtml(ev, tzOf(LOC), solve(ev.el, LOC.lat, LOC.lon));
+      det.dataset.built = '1';
+      fillWorld(det, ev);
+    }
     det.hidden = !open;
     b.setAttribute('aria-expanded', open ? 'true' : 'false');
     b.textContent = open ? 'Hide chart & map' : 'Chart & map';
@@ -580,7 +740,7 @@ def month_page(ym, d, cities, nav):
         ("This month", f"{d['engine']['shadows_on_earth']:,} shadows touch the Earth somewhere; {len(d['events'])} are listed")))
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     meta = {"src": f"/data/{slug}.json?v={_hash(data_json)}", "t0": f"{ym}-01T00:00:00Z", "defaultPlace": list(DEFAULT_PLACE),
-            "cities": cities, "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W}
+            "cities": cities, "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W, "world": world_url()}
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Asteroid occultations crossing India in {label}: {len(d['events'])} stars hidden by asteroids, each with a map of "
