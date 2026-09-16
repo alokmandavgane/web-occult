@@ -59,6 +59,7 @@ function dense(el, off) {
 // agrees to 0.2 km, against 49 km at 4,000. The page itself draws 400 — a corner cut of a pixel or so on a world map.
 for (const ev of input.events.slice(0, 3)) docs.push({ id: ev.id, kml: A.kml(ev), gpx: A.gpx(ev),
   tracks: { centre: A.worldTrack(ev.el, input.trackN), left: dense(ev.el, ev.el.R), right: dense(ev.el, -ev.el.R) },
+  sky: (function () { const k = A.skyRuns(ev.el, 120); return { dark: k.dark, mids: k.runs.map(function (r) { return [r.cls, r.pts[r.pts.length >> 1]]; }) }; })(),
   band: A.bandRuns(ev.el, [-ev.el.R, -ev.el.R / 2, 0, ev.el.R / 2, ev.el.R], 240).map(function (r) { return r.map(function (l) { return l.length; }); }) });
 process.stdout.write(JSON.stringify({ rows: out, docs: docs }));
 """
@@ -117,6 +118,18 @@ def _check_downloads(d, docs):
             _check_track(ev, name, doc["tracks"][name])
         for run in doc["band"]:                      # a ribbon needs its two edges sampled at the same instants
             assert len(set(run)) == 1 and run[0] > 1, (doc["id"], run)
+        _check_sky(ev, doc["sky"])
+
+
+def _check_sky(ev, sky):
+    """The map draws the track bright only where the star is up in a dark sky. The page classifies each ground point
+    from the elements, on the same rule the engine selects events with — star at least 10° up, Sun at least 6° down —
+    and every listed event crosses India at night, so a stretch of every track must come out dark."""
+    assert sky["dark"], ev["id"]
+    for cls, (lat, lon) in sky["mids"]:
+        s = local(ev["el"], lat, lon)
+        want = "low" if s["star_alt"] < 10 else "bright" if s["sun_alt"] > -6 else "dark"
+        assert want == cls, (ev["id"], lat, lon, cls, want, s["star_alt"], s["sun_alt"])
 
 
 def _check_track(ev, name, track):

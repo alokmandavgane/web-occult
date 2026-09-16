@@ -229,6 +229,7 @@ CHART_CSS = """
     .ch-sig { stroke: var(--t-ast); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; fill: none; }
     .st-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); }
     .st-sig { fill: color-mix(in srgb, var(--t-ast) 12%, transparent); }
+    .st-sig2 { fill: color-mix(in srgb, var(--t-ast) 6%, transparent); }
     .st-axis { stroke: var(--line); stroke-width: 1; }
     .st-you { fill: var(--c-limit); }
     .st-lbl { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
@@ -238,6 +239,7 @@ CHART_CSS = """
     .cv-sig { fill: color-mix(in srgb, var(--c-limit) 20%, transparent); }
     .wd-land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.3; }
     .wd-path { fill: none; stroke: var(--t-ast); stroke-width: 1.6; }
+    .wd-dim { fill: none; stroke: var(--muted); stroke-width: 1; opacity: 0.55; }
     .wd-frame { fill: none; stroke: var(--c-limit); stroke-width: 0.8; }
     .fd-edge { fill: none; stroke: var(--line); stroke-width: 0.8; }
     .fd-star { fill: var(--text); }
@@ -283,6 +285,7 @@ EVENT_CSS = """
                        border: 1px solid var(--line); border-radius: 10px; padding: 0.35rem 0.6rem; cursor: pointer; }
     .stn-list button:hover { border-color: var(--c-visible); }
     .stn-list b { font-variant-numeric: tabular-nums; }
+    .now-label { background: var(--c-limit); border-color: var(--c-limit); color: #fff; font-variant-numeric: tabular-nums; }
 """
 
 # ---------------------------------------------------------------------------------------------- site/js/asteroid.js
@@ -411,8 +414,9 @@ LIB_JS = r"""
   }
   function stripSvg(ev, s) {
     var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, W = 300, H = 40, c = W / 2;
-    var span = Math.max(R + sig, Math.abs(d)) * 1.3 || 1, k = (W / 2 - 12) / span, o = [];
+    var span = Math.max(R + 2 * sig, Math.abs(d)) * 1.2 || 1, k = (W / 2 - 12) / span, o = [];
     o.push('<svg class="strip" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Where you are across the path">');
+    o.push('<rect class="st-sig2" x="' + (c - (R + 2 * sig) * k).toFixed(1) + '" y="8" width="' + (2 * (R + 2 * sig) * k).toFixed(1) + '" height="14"/>');
     o.push('<rect class="st-sig" x="' + (c - (R + sig) * k).toFixed(1) + '" y="8" width="' + (2 * (R + sig) * k).toFixed(1) + '" height="14"/>');
     o.push('<rect class="st-band" x="' + (c - R * k).toFixed(1) + '" y="8" width="' + (2 * R * k).toFixed(1) + '" height="14"/>');
     o.push('<path class="st-axis" d="M' + (c).toFixed(1) + ',4 ' + c.toFixed(1) + ',26"/>');
@@ -489,6 +493,26 @@ LIB_JS = r"""
     }
     return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
   }
+  function skyRuns(el, n) {
+    // The shadow crosses half the world, but only part of that stretch is worth standing in: solve() at each ground
+    // point gives the star's and the Sun's altitude at the instant the shadow arrives there, on the site's own rule
+    // (star at least 10 degrees up, Sun at least 6 degrees down). Runs are cut where the class changes, sharing the
+    // point between them so the drawn line has no gap, and `dark` is the stretch that is worth standing in.
+    var runs = [], cur = null, dark = null, i;
+    for (i = 0; i <= n; i++) {
+      var tau = -el.W + 2 * el.W * i / n, g = groundAt(el, tau, 0);
+      if (!g) { cur = null; continue; }
+      var q = solve(el, g[0], g[1]), cls = q.star_alt < 10 ? 'low' : q.sun_alt > -6 ? 'bright' : 'dark';
+      var last = cur && cur.pts[cur.pts.length - 1], wrap = last && Math.abs(g[1] - last[1]) > 90;
+      if (!cur || wrap || cur.cls !== cls) {
+        cur = { cls: cls, pts: last && !wrap ? [last] : [] };
+        runs.push(cur);
+      }
+      cur.pts.push(g);
+      if (cls === 'dark') dark = dark ? [dark[0], tau] : [tau, tau];
+    }
+    return { runs: runs.filter(function (r) { return r.pts.length > 1; }), dark: dark };
+  }
   function worldTrack(el, n) {
     var out = [];
     for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
@@ -516,16 +540,10 @@ LIB_JS = r"""
     (world || []).forEach(function (r) {
       o.push('<path class="wd-land" d="M' + r.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + 'Z"/>');
     });
-    var seg = [];
-    worldTrack(ev.el, 400).forEach(function (p) {      // dense enough that the racing ends near the limb stay on the map
-      if (!p) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; return; }
-      if (seg.length) {                                   // break the line where it wraps round the map
-        var prev = +seg[seg.length - 1].split(',')[0] - 180;
-        if (Math.abs(p[1] - prev) > 180) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; }
-      }
-      seg.push((p[1] + 180).toFixed(1) + ',' + (90 - p[0]).toFixed(1));
+    skyRuns(ev.el, 300).runs.forEach(function (r) {    // dense enough that the racing ends near the limb stay on the map
+      o.push('<path class="' + (r.cls === 'dark' ? 'wd-path' : 'wd-dim') + '" d="M'
+             + r.pts.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + '"/>');
     });
-    if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>');
     if (bbox) o.push('<rect class="wd-frame" x="' + (bbox[0] + 180) + '" y="' + (90 - bbox[3]) + '" width="' + (bbox[2] - bbox[0]) + '" height="' + (bbox[3] - bbox[1]) + '"/>');
     if (loc) o.push('<circle class="ast-pin" cx="' + (loc.lon + 180).toFixed(1) + '" cy="' + (90 - loc.lat).toFixed(1) + '" r="3" stroke-width="1.2"/>');
     return o.join('') + '</svg>';
@@ -567,7 +585,7 @@ LIB_JS = r"""
   }
 
   window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
-                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, skyRuns: skyRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();
@@ -721,7 +739,7 @@ EVENT_JS = r"""
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
   var RAD = Math.PI / 180, params = new URLSearchParams(location.search);
   var id = params.get('e') || '', ym = id.slice(0, 7);
-  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null, stns = null;
+  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null, stns = null, SKY = null, play = null;
   var BAND_F = [0, 0.35, 0.62, 0.82, 0.94, 1];       // the ribbons the band is shaded in, as fractions of its half width
   var STATION_F = [-0.8, -0.4, 0, 0.4, 0.8];         // where a line of observers would stand across it
   var stnOn = false, stnPts = [];
@@ -758,19 +776,23 @@ EVENT_JS = r"""
     var c = css('--t-ast'), lines = ev.lines, group = [];
     // nothing on the map is clickable but the pin and the stations: a tap anywhere else is a tap on the map, which moves the pin
     function poly(runs, opts) { opts.interactive = false; (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
-    // the whole track, so zooming out shows where the shadow comes from and where it goes
-    var seg = [];
-    A.worldTrack(ev.el, 600).forEach(function (p) {
-      if (!p || (seg.length && Math.abs(p[1] - seg[seg.length - 1][1]) > 180)) {
-        if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6', interactive: false }).addTo(map);
-        seg = [];
-      }
-      if (p) seg.push(p);
+    // the whole track, so zooming out shows where the shadow comes from and where it goes — bright only where the
+    // star is up in a dark sky, faint where the Sun is up or the star too low to time
+    SKY = A.skyRuns(ev.el, 300);
+    SKY.runs.forEach(function (r) {
+      L.polyline(r.pts, { color: r.cls === 'dark' ? c : css('--muted'), weight: r.cls === 'dark' ? 1.6 : 1,
+                          opacity: r.cls === 'dark' ? 0.55 : r.cls === 'bright' ? 0.3 : 0.18,
+                          dashArray: '2 6', interactive: false }).addTo(map);
     });
-    if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6', interactive: false }).addTo(map);
     if (!shadeBand(c) && lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
       group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22, interactive: false }).addTo(map));
     }
+    var sig = ev.sigma_km || 0;
+    if (sig) [ev.el.R + 2 * sig, -(ev.el.R + 2 * sig)].forEach(function (o) {   // 2σ: the page draws it from the elements
+      A.bandRuns(ev.el, [o], 400).forEach(function (r) {
+        L.polyline(r[0], { color: c, weight: 1, opacity: 0.4, dashArray: '2 7', interactive: false }).addTo(map);
+      });
+    });
     poly(lines.left_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
     poly(lines.right_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
     poly(lines.left, { color: c, weight: 3 });
@@ -878,6 +900,37 @@ EVENT_JS = r"""
     drawStations();
   }
 
+  function stopPlay() {
+    if (!play) return;
+    cancelAnimationFrame(play.raf);
+    play.layer.remove();
+    play = null;
+    el('spot-play').textContent = '▶ Play the shadow';
+  }
+  function startPlay() {
+    // the bar is the line of places whose mid-event is happening right then — the shadow's own cross-section, edge to
+    // edge, sweeping the path at about 70 times life size
+    if (!map || !ev) return;
+    var L = window.L, W = ev.el.W, t0 = Date.parse(ev.el.t0), tz = tzOf(LOC), R = ev.el.R, span = 9000;
+    play = { layer: L.layerGroup().addTo(map), raf: 0, f: 0, last: 0 };
+    el('spot-play').textContent = '■ Stop';
+    function frame(now) {
+      if (!play) return;                                     // a frame already queued when Stop was pressed
+      play.f += Math.min(100, now - (play.last || now)) / span;    // by elapsed time, clamped: a hidden tab stops rAF,
+      play.last = now;                                             // and on the way back it should pick up, not jump to the end
+      if (play.f >= 1) return stopPlay();
+      var tau = -W + 2 * W * play.f, bar = [A.groundAt(ev.el, tau, R), A.groundAt(ev.el, tau, 0), A.groundAt(ev.el, tau, -R)].filter(Boolean);
+      play.layer.clearLayers();
+      if (bar.length > 1) {
+        play.layer.addLayer(L.polyline(bar, { color: css('--c-limit'), weight: 5, opacity: 0.85, interactive: false }));
+        play.layer.addLayer(L.marker(bar[bar.length >> 1], { interactive: false, zIndexOffset: 500,
+          icon: L.divIcon({ className: 'tick-label now-label', iconSize: null, html: F.t(t0 + tau * 1000, tz) }) }));
+      }
+      play.raf = requestAnimationFrame(frame);
+    }
+    play.raf = requestAnimationFrame(frame);
+  }
+
   function render() {
     if (!ev) return;
     var tz = tzOf(LOC), s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc);
@@ -907,6 +960,11 @@ EVENT_JS = r"""
       + '<p class="pane-cap">Across the path: the band is the shadow, the paler edge its 1σ.</p>';
     el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
       + ': ' + F.r1(ev.drop) + ' mag for ' + F.r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + F.r1(ev.sigma_s || 0) + ' s</p>';
+    var dark = SKY && SKY.dark, t0 = Date.parse(ev.el.t0);
+    el('sky-note').textContent = dark
+      ? 'Along the track the star is at least 10° up in a sky past twilight between ' + F.t(t0 + dark[0] * 1000, tz) + ' and '
+        + F.t(t0 + dark[1] * 1000, tz) + ' — the brighter stretch of the dotted line. Elsewhere the Sun is up or the star too low to time.'
+      : '';
     el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
     if (!world) fetch(META.world).then(function (r) { return r.json(); }).then(function (w) {
       world = w; el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
@@ -932,6 +990,7 @@ EVENT_JS = r"""
       navigator.share({ title: document.title, text: 'Asteroid occultation — my spot', url: el('spot-url').value }).catch(function () {});
     });
   }
+  el('spot-play').addEventListener('click', function () { if (play) stopPlay(); else startPlay(); });
   el('spot-stations').addEventListener('click', function () {
     stnOn = !stnOn;
     el('spot-stations').textContent = stnOn ? 'Hide stations' : 'Suggest stations';
@@ -1003,13 +1062,15 @@ EVENT_TEMPLATE = """
   </header>
   <div id="map"></div>
   <p class="map-note">Shaded: the path, as wide as the asteroid, and darkest down the middle where the star stays hidden
-  longest — at the edges it barely blinks. Dashed either side: one standard deviation. The faint dotted line is the rest of
-  the track around the world. Labels along the centre line are the time the shadow passes there.
+  longest — at the edges it barely blinks. Dashed either side: one standard deviation, and beyond it the finer dashes are two.
+  The dotted line is the rest of the track around the world. Labels along the centre line are the time the shadow passes there.
   <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
+  <p class="map-note" id="sky-note"></p>
   <div class="spot">
     <span class="spot-coords" id="spot-coords"></span>
     <button class="btn" id="spot-centre" type="button">Move to the centre line</button>
     <button class="btn" id="spot-stations" type="button">Suggest stations</button>
+    <button class="btn" id="spot-play" type="button">▶ Play the shadow</button>
     <button class="btn" id="spot-copy" type="button">Copy link to this spot</button>
     <button class="btn" id="spot-share" type="button" hidden>Share</button>
     <input class="spot-url" id="spot-url" readonly aria-label="Link to this spot">

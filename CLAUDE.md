@@ -170,9 +170,15 @@ Rules that are easy to break:
   is deliberately NO page per event. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
   OpenStreetMap tiles. On that map: the band, filled as ten ribbons shaded by how long the star is hidden there
   (2√(R²−d²)/v, so darkest down the middle and a graze at the edges), its 1σ lines, the whole ground track beyond the frame
-  as a faint dotted line (`worldTrack`), time labels solved in the browser at whatever spacing the zoom allows (10 s to
-  10 min steps, so the month files' stored `ticks` are now spare), an arrow to the centre line with its distance and
-  bearing, and a **draggable pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it
+  as a dotted line, drawn bright only where the star is at least 10° up in a sky past twilight (`skyRuns`, the engine's
+  own selection rule, classified in the browser by solving each ground point) and faint elsewhere, with a caption naming
+  that stretch in the reader's clock; the 2σ edges, which the page derives itself from `sigma_km` now that `groundAt`
+  takes an offset (nothing new in the data); time labels solved in the browser at whatever spacing the zoom allows (10 s
+  to 10 min steps, so the month files' stored `ticks` are now spare); "▶ Play the shadow", nine seconds for the whole
+  crossing, sweeping the bar of places whose mid-event is happening then (`groundAt` at +R, 0, −R) — it advances by
+  elapsed time clamped to 100 ms a frame, so a hidden tab (rAF stops) resumes instead of jumping to the end, and a frame
+  queued when Stop is pressed returns on `if (!play)`; an arrow to the centre line with its distance and
+  bearing; and a **draggable pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it
   (`history.replaceState`) so "Copy link to this spot" / Share hands a group a link to one station — a link's pin sets the
   page but NEVER overwrites the reader's own saved `occult-loc`; only their own tap does. "Suggest stations" places five
   spots across the path at the nearest point of it (`STATION_F` = ±0.8, ±0.4, 0 of the half width), each listed with its

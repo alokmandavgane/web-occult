@@ -122,8 +122,9 @@
   }
   function stripSvg(ev, s) {
     var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, W = 300, H = 40, c = W / 2;
-    var span = Math.max(R + sig, Math.abs(d)) * 1.3 || 1, k = (W / 2 - 12) / span, o = [];
+    var span = Math.max(R + 2 * sig, Math.abs(d)) * 1.2 || 1, k = (W / 2 - 12) / span, o = [];
     o.push('<svg class="strip" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Where you are across the path">');
+    o.push('<rect class="st-sig2" x="' + (c - (R + 2 * sig) * k).toFixed(1) + '" y="8" width="' + (2 * (R + 2 * sig) * k).toFixed(1) + '" height="14"/>');
     o.push('<rect class="st-sig" x="' + (c - (R + sig) * k).toFixed(1) + '" y="8" width="' + (2 * (R + sig) * k).toFixed(1) + '" height="14"/>');
     o.push('<rect class="st-band" x="' + (c - R * k).toFixed(1) + '" y="8" width="' + (2 * R * k).toFixed(1) + '" height="14"/>');
     o.push('<path class="st-axis" d="M' + (c).toFixed(1) + ',4 ' + c.toFixed(1) + ',26"/>');
@@ -200,6 +201,26 @@
     }
     return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
   }
+  function skyRuns(el, n) {
+    // The shadow crosses half the world, but only part of that stretch is worth standing in: solve() at each ground
+    // point gives the star's and the Sun's altitude at the instant the shadow arrives there, on the site's own rule
+    // (star at least 10 degrees up, Sun at least 6 degrees down). Runs are cut where the class changes, sharing the
+    // point between them so the drawn line has no gap, and `dark` is the stretch that is worth standing in.
+    var runs = [], cur = null, dark = null, i;
+    for (i = 0; i <= n; i++) {
+      var tau = -el.W + 2 * el.W * i / n, g = groundAt(el, tau, 0);
+      if (!g) { cur = null; continue; }
+      var q = solve(el, g[0], g[1]), cls = q.star_alt < 10 ? 'low' : q.sun_alt > -6 ? 'bright' : 'dark';
+      var last = cur && cur.pts[cur.pts.length - 1], wrap = last && Math.abs(g[1] - last[1]) > 90;
+      if (!cur || wrap || cur.cls !== cls) {
+        cur = { cls: cls, pts: last && !wrap ? [last] : [] };
+        runs.push(cur);
+      }
+      cur.pts.push(g);
+      if (cls === 'dark') dark = dark ? [dark[0], tau] : [tau, tau];
+    }
+    return { runs: runs.filter(function (r) { return r.pts.length > 1; }), dark: dark };
+  }
   function worldTrack(el, n) {
     var out = [];
     for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
@@ -227,16 +248,10 @@
     (world || []).forEach(function (r) {
       o.push('<path class="wd-land" d="M' + r.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + 'Z"/>');
     });
-    var seg = [];
-    worldTrack(ev.el, 400).forEach(function (p) {      // dense enough that the racing ends near the limb stay on the map
-      if (!p) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; return; }
-      if (seg.length) {                                   // break the line where it wraps round the map
-        var prev = +seg[seg.length - 1].split(',')[0] - 180;
-        if (Math.abs(p[1] - prev) > 180) { if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>'); seg = []; }
-      }
-      seg.push((p[1] + 180).toFixed(1) + ',' + (90 - p[0]).toFixed(1));
+    skyRuns(ev.el, 300).runs.forEach(function (r) {    // dense enough that the racing ends near the limb stay on the map
+      o.push('<path class="' + (r.cls === 'dark' ? 'wd-path' : 'wd-dim') + '" d="M'
+             + r.pts.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + '"/>');
     });
-    if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>');
     if (bbox) o.push('<rect class="wd-frame" x="' + (bbox[0] + 180) + '" y="' + (90 - bbox[3]) + '" width="' + (bbox[2] - bbox[0]) + '" height="' + (bbox[3] - bbox[1]) + '"/>');
     if (loc) o.push('<circle class="ast-pin" cx="' + (loc.lon + 180).toFixed(1) + '" cy="' + (90 - loc.lat).toFixed(1) + '" r="3" stroke-width="1.2"/>');
     return o.join('') + '</svg>';
@@ -278,7 +293,7 @@
   }
 
   window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
-                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+                             groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, skyRuns: skyRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();

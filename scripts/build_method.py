@@ -158,7 +158,9 @@ def write_page():
   how long it lasts, the whole path on a world map, and the path as KML or GPX to take to a station. Opening an event from a
   month page hands all of that to a single page, which draws the one you asked for and puts its path on a street map, shaded
   darkest down the middle where the star stays hidden longest: drop a pin anywhere to see what that spot gets, share the link
-  to it, or let the page pick a line of five stations across the path — the spread that measures the asteroid's shape. As on the other pages, a compact description of each event lets your browser work out how close the
+  to it, or let the page pick a line of five stations across the path — the spread that measures the asteroid's shape. The
+  rest of the track around the world is drawn too, bright only over the stretch where the star is up in a dark sky, and the
+  shadow will play across it if you ask. As on the other pages, a compact description of each event lets your browser work out how close the
   path comes to you, when, and for how long the star vanishes.</p>
   <h3>Jupiter's and Saturn's moons</h3>
   <p>Eclipses, occultations, transits and shadow transits of Jupiter's four large moons and seven of Saturn's are searched in JPL's
