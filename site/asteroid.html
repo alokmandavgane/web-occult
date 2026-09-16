@@ -273,6 +273,12 @@
     .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
     .ev-verdict.v-chance { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
+    #map:fullscreen { width: 100%; height: 100%; margin: 0; border: 0; border-radius: 0; }
+    #map:-webkit-full-screen { width: 100%; height: 100%; margin: 0; border: 0; border-radius: 0; }
+    #map.map-max { position: fixed; inset: 0; z-index: 2000; width: 100vw; height: 100vh; height: 100dvh; margin: 0; border: 0; border-radius: 0; }
+    html.map-max-open, html.map-max-open body { overflow: hidden; }
+    .leaflet-bar a.map-full { display: flex; align-items: center; justify-content: center; }
+    .map-full svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
     .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
     .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
     .map-note { font-size: 0.78rem; color: var(--muted); }
@@ -443,6 +449,7 @@
     if (!L) { el('map').innerHTML = '<p class="map-note" style="padding:1rem">The map needs JavaScript from cdnjs; the drawings below work without it.</p>'; return; }
     map = L.map('map', { scrollWheelZoom: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+    fullScreenControl(L);
     var c = css('--t-ast'), lines = ev.lines, group = [];
     // nothing on the map is clickable but the pin and the stations: a tap anywhere else is a tap on the map, which moves the pin
     function poly(runs, opts) { opts.interactive = false; (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
@@ -496,6 +503,51 @@
       }
     });
     return drew;
+  }
+
+  var FULL_ON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg>';
+  var FULL_OFF = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2v4H2M14 6h-4V2M10 14v-4h4M2 10h4v4"/></svg>';
+  function fullScreenControl(L) {
+    // Real fullscreen where the browser has it; where it doesn't — an iPhone allows it only for video — the map simply
+    // covers the window. Either way the wheel zooms while it is big, and Esc or the button brings it back.
+    var m = el('map'), btn;
+    function native() { return document.fullscreenElement || document.webkitFullscreenElement; }
+    function isBig() { return !!native() || m.classList.contains('map-max'); }
+    function changed() {
+      var big = isBig();
+      btn.innerHTML = big ? FULL_OFF : FULL_ON;
+      btn.title = big ? 'Exit full screen' : 'Full screen';
+      btn.setAttribute('aria-label', btn.title);
+      big ? map.scrollWheelZoom.enable() : map.scrollWheelZoom.disable();
+      setTimeout(function () { map.invalidateSize(); timeLabels(); }, 60);
+    }
+    function cover(on) {
+      m.classList.toggle('map-max', on);
+      document.documentElement.classList.toggle('map-max-open', on);
+      changed();
+    }
+    function toggle() {
+      if (native()) return (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+      if (m.classList.contains('map-max')) return cover(false);
+      var req = m.requestFullscreen || m.webkitRequestFullscreen;
+      var p = req ? req.call(m) : null;
+      if (!req) cover(true);
+      else if (p && p.catch) p.catch(function () { cover(true); });
+    }
+    var Full = L.Control.extend({ options: { position: 'topleft' }, onAdd: function () {
+      var bar = L.DomUtil.create('div', 'leaflet-bar');
+      btn = L.DomUtil.create('a', 'map-full', bar);
+      btn.href = '#';
+      btn.setAttribute('role', 'button');
+      L.DomEvent.disableClickPropagation(bar);                   // a tap on the button must not move the pin
+      L.DomEvent.on(btn, 'click', function (e) { L.DomEvent.preventDefault(e); toggle(); });
+      return bar;
+    } });
+    map.addControl(new Full());
+    changed();
+    document.addEventListener('fullscreenchange', changed);
+    document.addEventListener('webkitfullscreenchange', changed);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && m.classList.contains('map-max')) cover(false); });
   }
 
   function timeLabels() {

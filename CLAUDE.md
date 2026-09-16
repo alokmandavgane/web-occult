@@ -211,7 +211,11 @@ Rules that are easy to break:
   chord in seconds and clickable to become your spot: a picket fence is what turns timings into a shape. Every drawn layer
   is `interactive: false` — only the pin and the station markers take a click, so a tap on the band itself reaches the map
   and moves the pin (Leaflet gives a click to the topmost interactive layer and NOT to the map). "Move to the centre line"
-  is `toOffset(el, lat, lon, 0)`. There is deliberately no arrow or label from the pin to the centre line: it was tried,
+  is `toOffset(el, lat, lon, 0)`. A full-screen button sits under the zoom control (`fullScreenControl`): the Fullscreen
+  API where there is one, and where there isn't — iPhone Safari allows it only for video — `.map-max` makes the map cover
+  the window; either way the wheel zooms while it is big, Esc restores it, and the button's click is stopped from reaching
+  the map (it would move the pin). A script's click is not a user gesture, so testing it from JS exercises the cover
+  fallback, never the native path. There is deliberately no arrow or label from the pin to the centre line: it was tried,
   permanently labelled "N km SSE to the centre line", and removed as clutter — the distance is already in the verdict, the
   pin's popup and the facts table. Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
   drawings, shared by both pages, the way `js/moon.js` is shared. It carries: a **finder chart**
