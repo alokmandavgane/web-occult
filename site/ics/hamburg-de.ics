@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:star-cff224d6225d-hamburg-de@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T014347Z
-DTEND:20260908T014547Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:43:47 at the dark limb C
- EST\, seen from Hamburg\, DE.\nThe Moon is 7° up in the ENE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-hamburg-de@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T093535Z

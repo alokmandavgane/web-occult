@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:star-5a5c98c6d48c-izmir-tr@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T011155Z
-DTEND:20260908T011355Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:11:55 at the dark limb +
- 03\, seen from İzmir\, TR.\nThe Moon is 8° up in the ENE · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-izmir-tr@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T093626Z

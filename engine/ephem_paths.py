@@ -7,6 +7,9 @@
                sat441.bsp   JPL Saturn satellites, 630 MB    (same place)
                lola/        LRO LOLA LDEM_64 + LDEM_16 (PDS) and the NAIF lunar-orientation kernels
                             moon_pa_de421_1900-2050.bpc, pck00010.tpc, moon_080317.tf
+               catalog/gaia_g12.5/, gaia_g12.5.npz   Gaia DR3 to G 12.5, all sky (~5 M stars, 470 MB of pieces),
+                            fetched from the ESA archive by `engine/asteroid_occultations.py stars`; only the asteroid
+                            months read it (the Moon-and-stars catalogue is catalog/moonband.csv)
   MAP_DIR    the eclipse app's map files. Set OCCULT_MAP_DIR; the default is an eclipse checkout beside this repo.
                land_50m.geojson, world_land.geojson   Natural Earth land, 50m and 110m       scripts/build_geo.py
                borders.geojson                        international borders, India-compliant  scripts/build_geo.py

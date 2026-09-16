@@ -112,7 +112,7 @@ Rules that are easy to break:
   Charter, Georgia). No web fonts, no image or font requests — keep the site's weight where it is. The mark
   (`MARK_SVG`, favicon `FAVICON`) is a crescent with a star just off its dark limb.
 - **Link previews and install** (`scripts/build_og.py`, run first by the main build): one 1200×630 Open Graph image
-  per kind of page (`OG` in build_pages: home, occultations, moon-stars, jupiter, saturn, calendar), linked by
+  per kind of page (`OG` in build_pages: home, occultations, moon-stars, asteroids, jupiter, saturn, calendar), linked by
   `head(..., og=key)` with a content-hash `?v=`; plus the app icons (192, 512, maskable 512, apple-touch 180).
   Drawn with Pillow (in requirements) from macOS system fonts; without them the committed PNGs stay. Only
   previewers and installers fetch these — pages never load them. `site/manifest.webmanifest` is written by
@@ -125,10 +125,40 @@ Rules that are easy to break:
   changes (limb, refraction, rings, visibility rule).
 - **Home page** (`build_index` in `scripts/build_pages.py`): one identity per kind of event — `KINDS` (what it is,
   what you need, how often, what each page holds), `ICONS` (inline SVG) and a colour token (`--t-occ` amber,
-  `--t-ms` cyan, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section
+  `--t-ms` cyan, `--t-ast` rose, `--t-jup` violet, `--t-sat` green, light and dark). A "Coming up" tile per kind, then one section
   per kind: occultations as a list (first five, "Show all"), the monthly features as year rows of month links. Which
   occultation is next and which month is current are prerendered from the build date and corrected in the browser by
   the reader's clock (`INDEX_JS`). A new kind of event = one `KINDS` entry, one icon, one colour, one section.
-- Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, and Jupiter's and Saturn's moons. Asteroid
-  occultations and ISS transits are deferred.
+- **Asteroid occultations** (`engine/asteroid_occultations.py` → `data/asteroids-<YYYY-MM>.json`; `scripts/build_asteroids.py` →
+  `site/asteroids-<YYYY-MM>.html`). Orbits: every asteroid of D ≥ 15 km in JPL's SBDB (`catalog/asteroids.csv`, committed, one
+  epoch; `orbits` refreshes it), carried by the engine's own RK4 (DE431 planets and Moon, Ceres/Pallas/Vesta/Hygiea, the Sun's
+  GR term; nodes every 0.5 d, cubic Hermite). Horizons is not needed. Stars: Gaia DR3 to G 12.5 all-sky
+  (`ephemeris/catalog/gaia_g12.5.npz`, gitignored, fetched and packed by `stars`). A month screens each track hourly against
+  Dec-sorted stars, solves every candidate in the barycentric frame (light time to the observer, deflection on star and
+  asteroid, aberration cancels; the star exactly as Skyfield's Star), and lists a path when (`evaluate()`, then the width
+  cut in `build_month`): it passes over land (`geo/india.json`, rasterised) within 100 km of a city in `cities/india.json`
+  with the star ≥ 10° up and the Sun ≤ −6°; the star fades ≥ 0.1 mag (0.05 over 10 s) for ≥ 0.3 s; and the asteroid is at
+  least as wide as the path's 1σ. That 1σ is Gaia's position/proper-motion error ⊕ an orbit term = the largest of JPL's formal
+  covariance (six Cholesky-displaced orbits beside the nominal; cached per solution date in `catalog/asteroid-cov.json`),
+  |JPL − MPC| / √2 for that event (MPC's orbit from its API, cached in `catalog/asteroid-mpc.json`) and 10 mas
+  (`ORBIT_FLOOR_MAS`: JPL's and MPC's paths differ by RMS 14 mas over the 44 Occult-checked events; JPL's formal σ is ~10×
+  smaller — never show it alone). ~65–90 events a month; IOTA-India's Sep–Oct lists: 38 of 46 listed, the rest narrower
+  than their 1σ or off India. Pages stay under ~50 KB gz by simplifying paths and the thumbnail land at draw time
+  (`path_d`, `land_svg`); the data keeps full precision. Each event's `el` (x/y polynomials of the
+  shadow axis in the fundamental plane, the star vector, the asteroid's velocity across the plane for the observer's light
+  time, R0 at t0, the Sun) is what the page solves any place from: `local()`/`to_centre()` in the engine and `solve()`/
+  `toCentre()` in the page JS are twins, and so are `you_html()`/`you()` with floor(x + 0.5) rounding — change them
+  TOGETHER. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
+  northern one. Each card can expand (JS only, nothing prerendered — the month file is already fetched): a **finder chart**
+  from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
+  all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a
+  full-width **map** with the audience's cities, the reader's pin and `ticks` (whole UTC minutes along the centre line, stored
+  as seconds from t0 so the page can show them in the reader's clock), and **KML/GPX** of the path built in the browser from
+  `lines` — no extra files, no third-party tiles. Validated against Occult4 as IOTA-India published September–October 2026 (45 events): widths to 0.5 km,
+  star positions ~2 mas (Occult prints the barycentric position), Earth-crossing times to the minute, and centre lines a
+  rigid sideways shift — median 0.4σ with MPC orbits (what Occult integrates), 0.7σ with JPL's. The tests pin five events with
+  MPC states. Don't "fix" the JPL-orbit offsets toward Occult: they are differences between orbit solutions. The asteroid is a
+  sphere of its SBDB diameter, and the page says so. (IOTA-India's 30 Sep Diana page shows the 15 Sep image — their slip.)
+- Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, asteroid shadows across India, and
+  Jupiter's and Saturn's moons. ISS transits are deferred.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

@@ -2,7 +2,7 @@
  "id": "/",
  "name": "Occult — lunar occultations, computed",
  "short_name": "Occult",
- "description": "Lunar occultations of planets and stars, and the eclipses, transits and mutual events of Jupiter's and Saturn's moons — where on Earth they can be seen and when, computed from JPL ephemerides.",
+ "description": "Lunar occultations of planets and stars, asteroid shadows crossing India, and the eclipses, transits and mutual events of Jupiter's and Saturn's moons — where on Earth they can be seen and when, computed from JPL ephemerides.",
  "start_url": "/",
  "scope": "/",
  "display": "standalone",
@@ -50,6 +50,17 @@
    "name": "The Moon and the stars",
    "short_name": "Moon & stars",
    "url": "/#moon-stars",
+   "icons": [
+    {
+     "src": "/icons/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Asteroid occultations",
+   "short_name": "Asteroids",
+   "url": "/#asteroids",
    "icons": [
     {
      "src": "/icons/icon-192.png",

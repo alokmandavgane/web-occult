@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Budapest
 BEGIN:VEVENT
-UID:star-3f44f650412f-budapest-hu@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T013457Z
-DTEND:20260908T013657Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:34:57 at the dark limb C
- EST\, seen from Budapest\, HU.\nThe Moon is 9° up in the ENE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-budapest-hu@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T093435Z

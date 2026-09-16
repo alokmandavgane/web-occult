@@ -389,6 +389,7 @@ OG = {   # link-preview image per kind of page: key -> (file in site/og/, alt te
     "home": ("home.png", "Occult: what passes in front of what, and when you can see it"),
     "occ": ("occultations.png", "Lunar occultations: the Moon passing in front of planets and bright stars"),
     "ms": ("moon-stars.png", "The Moon and the stars: every star the Moon hides, for your location"),
+    "ast": ("asteroids.png", "Asteroid occultations: a star blinks out as an asteroid's shadow crosses India"),
     "jupiter": ("jupiter.png", "Jupiter's moons: eclipses, transits, shadows and the Great Red Spot"),
     "saturn": ("saturn.png", "Saturn's moons: eclipses, transits and shadows"),
     "calendar": ("calendar.png", "Occultations in your calendar: one feed per city"),
@@ -1072,9 +1073,9 @@ def build(seed, slug):
 
 
 INDEX_CSS = """
-    :root { --t-occ: #a4600c; --t-ms: #1b6f86; --t-jup: #6a44a8; --t-sat: #2f7a55; }
-    @media (prefers-color-scheme: dark) { :root { --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-jup: #c3b1f5; --t-sat: #6fd394; } }
-    .t-occ { --tc: var(--t-occ); } .t-ms { --tc: var(--t-ms); } .t-jup { --tc: var(--t-jup); } .t-sat { --tc: var(--t-sat); }
+    :root { --t-occ: #a4600c; --t-ms: #1b6f86; --t-ast: #a8324e; --t-jup: #6a44a8; --t-sat: #2f7a55; }
+    @media (prefers-color-scheme: dark) { :root { --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-ast: #f08aa3; --t-jup: #c3b1f5; --t-sat: #6fd394; } }
+    .t-occ { --tc: var(--t-occ); } .t-ms { --tc: var(--t-ms); } .t-ast { --tc: var(--t-ast); } .t-jup { --tc: var(--t-jup); } .t-sat { --tc: var(--t-sat); }
     .home-h1 { margin-bottom: 0.3rem; }
     .typenav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.2rem; }
     .typenav a { display: inline-flex; align-items: center; gap: 0.4rem; border: 1px solid var(--line); border-radius: 999px;
@@ -1142,6 +1143,10 @@ ICONS = {
     "sat": '<svg viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="20" rx="17" ry="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/>'
            '<circle cx="20" cy="20" r="7.5" fill="currentColor"/><path d="M3 20a17 4.2 0 0 0 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>'
            '<circle cx="34" cy="10" r="1.8" fill="currentColor"/></svg>',
+    # a lumpy asteroid in front of a star, and the narrow band of its shadow
+    "ast": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M3 30.5l34-9M5 37l34-9" stroke="currentColor" stroke-width="1.4" opacity=".55"/>'
+           '<path d="M10.5 12.2c2.4-4.6 8.2-6.3 12.6-4.4 3.9 1.7 5.6 5.9 4.3 9.8-1.2 3.8-5.1 6.4-9.3 6.1-3.2-.2-5.4-1.3-7-3.5-1.5-2.2-1.9-5.4-.6-8z" fill="currentColor"/>'
+           '<circle cx="33.5" cy="6.5" r="2.4" fill="currentColor"/><path d="M33.5 1.5v10M28.5 6.5h10" stroke="currentColor" stroke-width="1"/></svg>',
 }
 
 KINDS = [
@@ -1151,6 +1156,9 @@ KINDS = [
     ("ms", "moon-stars", "The Moon and the stars", "Moon & stars",
      "Every night the Moon slides over fainter stars. A star doesn't fade — it switches off at one edge and back on at the other. Computed for your own place.",
      [("You need", "binoculars or a small telescope"), ("How often", "about one a night"), ("Each page", "a month calendar and every event for your location")]),
+    ("ast", "asteroids", "Asteroid occultations", "Asteroids",
+     "An asteroid slips in front of a star and its shadow — as wide as the asteroid — sweeps a narrow path across the Earth. Inside it the star blinks out for a few seconds; a few kilometres outside, nothing.",
+     [("You need", "a telescope of 100 mm or more, ideally a camera"), ("How often", "two or three paths over India a night"), ("Each page", "a month of paths across India, each mapped, with how close it passes you")]),
     ("jup", "jupiter", "Jupiter's moons", "Jupiter",
      "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face — and the Great Red Spot turns to face us every ten hours.",
      [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a live diagram of the moons")]),
@@ -1184,7 +1192,7 @@ INDEX_JS = r"""
   }
   // month links: this month highlighted, earlier months dimmed; tiles follow this month
   document.querySelectorAll('.mo').forEach(function (li) { if (li.dataset.ym === ym) li.classList.add('current'); else if (li.dataset.ym < ym) li.classList.add('past'); });
-  ['ms', 'jup', 'sat'].forEach(function (k) {
+  ['ms', 'ast', 'jup', 'sat'].forEach(function (k) {
     var tile = document.getElementById('tile-' + k), pill = document.querySelector('#kind-' + k + ' .mo[data-ym="' + ym + '"]');
     if (!tile || !pill || tile.dataset.ym === ym) return;
     tile.setAttribute('href', pill.querySelector('a').getAttribute('href'));
@@ -1197,7 +1205,7 @@ INDEX_JS = r"""
 """
 
 
-def build_index(seed, built, jup=(), ms=()):
+def build_index(seed, built, jup=(), ms=(), ast=()):
     """The front door: a 'coming up' tile for each kind of event, then one section per kind, each saying
     what it is, what you need and how often, with its own colour and icon. Clock-dependent choices (next
     occultation, this month) are prerendered from the build date and corrected by the reader's clock."""
@@ -1212,6 +1220,7 @@ def build_index(seed, built, jup=(), ms=()):
         return [(f"{e['year']}-{e['month']:02d}", e["slug"], e["label"], detail(e)) for e in entries]
     months = {
         "ms": monthly(ms, lambda e: f"{e['n']} occultations on {e.get('nights', '?')} nights from New Delhi with a small telescope"),
+        "ast": monthly(ast, lambda e: f"{e['n']} paths across India at night · {e['mine']} over New Delhi"),
         "jup": monthly([j for j in jup if j.get("planet", "jupiter") == "jupiter"],
                        lambda e: f"{e['n']} events" + (f" · {e['n_mutual']} mutual" if e["n_mutual"] else "")),
         "sat": monthly([j for j in jup if j.get("planet") == "saturn"],
@@ -1262,7 +1271,8 @@ def build_index(seed, built, jup=(), ms=()):
                      f'<span class="tile-kicker">Next lunar occultation</span>'
                      f'<span class="tile-title">The Moon occults {esc(nxt["target"])}</span>'
                      f'<span class="tile-detail">{esc(nxt["when"].strftime("%a %-d %b %Y"))} · {esc(nxt["audience"])}</span></a>')
-    for k, kicker in (("ms", "Moon & stars · this month"), ("jup", "Jupiter's moons · this month"), ("sat", "Saturn's moons · this month")):
+    for k, kicker in (("ms", "Moon & stars · this month"), ("ast", "Asteroids · this month"), ("jup", "Jupiter's moons · this month"),
+                      ("sat", "Saturn's moons · this month")):
         cur = current(months[k])
         if cur:
             tiles.append(f'<a class="tile t-{k}" id="tile-{k}" href="/{cur[1]}" data-ym="{cur[0]}">{ICONS[k]}'
@@ -1280,19 +1290,19 @@ def build_index(seed, built, jup=(), ms=()):
     if built:
         sections.append(section("occ", f'<ul class="evlist" id="evlist">{rows}</ul>'
                                        f'<p class="ev-more"><button class="btn" id="ev-more" type="button">Show all events</button></p>'))
-    for k in ("ms", "jup", "sat"):
+    for k in ("ms", "ast", "jup", "sat"):
         if months[k]:
             cur = current(months[k])
             sections.append(section(k, f'<p class="this-month">This month: <a href="/{cur[1]}">{esc(cur[2])}</a> — {esc(cur[3])}</p>'
                                        + year_rows(months[k])))
 
     nav = "".join(f'<a class="t-{k[0]}" href="#{k[1]}">{ICONS[k[0]]}{esc(k[3])}</a>' for k in KINDS if (k[0] == "occ" and built) or months.get(k[0]))
-    desc = ("Lunar occultations of planets and stars, and the eclipses, transits and mutual events of Jupiter's and Saturn's "
-            "moons — where on Earth they can be seen and when, computed from JPL ephemerides.")
+    desc = ("Lunar occultations of planets and stars, asteroid shadows crossing India, and the eclipses, transits and mutual "
+            "events of Jupiter's and Saturn's moons — where on Earth they can be seen and when, computed from JPL ephemerides.")
     page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
 <main class="wrap">
   <h1 class="home-h1">What passes in front of what — and when you can see it</h1>
-  <p class="sub">Four kinds of sky events, computed from JPL ephemerides for where you are.</p>
+  <p class="sub">Five kinds of sky events, computed from JPL ephemerides for where you are.</p>
   <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
   <h2>Coming up</h2>
   <div class="upnext">{"".join(tiles)}</div>
@@ -1300,7 +1310,7 @@ def build_index(seed, built, jup=(), ms=()):
   {"".join(sections)}
   <section class="kind" id="method"><h2>How these are made</h2>
   <p class="method">Every time, line and diagram here is computed, not copied: planets, the Moon and the Sun from the JPL DE431
-  ephemeris, Jupiter's and Saturn's moons from JPL's satellite ephemerides, stars from Gaia DR3 and Hipparcos-2, and the
+  ephemeris, Jupiter's and Saturn's moons from JPL's satellite ephemerides, asteroids from JPL's Small-Body Database, stars from Gaia DR3 and Hipparcos-2, and the
   Moon's mountains from NASA's LRO laser altimeter. The lunar-occultation list is chosen by hand; each page links the data it
   was built from. <a href="/method">How this is computed, and what it was checked against →</a></p></section>
 </main>
@@ -1310,8 +1320,8 @@ def build_index(seed, built, jup=(), ms=()):
 </html>
 """
     (OUT / "index.html").write_text(page)
-    urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7"), ("/method", "monthly", "0.6")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms]
-    sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7"), ("/method", "monthly", "0.6")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms] + [(f"/{a['slug']}", "monthly", "0.6") for a in ast]
+    sm =['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
     sm.append("</urlset>\n")
@@ -1323,6 +1333,7 @@ def build_index(seed, built, jup=(), ms=()):
              {"src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]
     shortcuts = [{"name": name, "short_name": short, "url": url, "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192"}]}
                  for name, short, url in (("Calendar feeds", "Calendar", "/calendar"), ("The Moon and the stars", "Moon & stars", "/#moon-stars"),
+                                          ("Asteroid occultations", "Asteroids", "/#asteroids"),
                                           ("Jupiter's moons", "Jupiter", "/#jupiter"), ("Saturn's moons", "Saturn", "/#saturn"))]
     (OUT / "manifest.webmanifest").write_text(json.dumps({
         "id": "/", "name": f"{SITE_NAME} — {TAGLINE}", "short_name": SITE_NAME, "description": desc,
@@ -1345,6 +1356,7 @@ def build_index(seed, built, jup=(), ms=()):
 
 
 if __name__ == "__main__":
+    import build_asteroids
     import build_feeds
     import build_jupiter
     import build_moonstars
@@ -1357,7 +1369,8 @@ if __name__ == "__main__":
     cities_sorted = build_feeds.collect_cities(seed)
     jup = build_jupiter.build_all(cities_sorted, "jupiter") + build_jupiter.build_all(cities_sorted, "saturn")
     ms = build_moonstars.build_all(cities_sorted)
+    ast = build_asteroids.build_all(cities_sorted)
     build_feeds.build_all(seed, cities_sorted)
     import build_method
     build_method.write_page()      # after the feeds: it counts them
-    build_index(seed, built, jup, ms)
+    build_index(seed, built, jup, ms, ast)

@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Moscow
 BEGIN:VEVENT
-UID:star-55cf2de6fd05-saint-petersburg-ru@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T015129Z
-DTEND:20260908T015329Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 04:51:29 at the dark limb M
- SK\, seen from Saint Petersburg\, RU.\nThe Moon is 21° up in the E · dus
- k. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-saint-petersburg-ru@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T102001Z

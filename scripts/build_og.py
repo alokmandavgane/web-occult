@@ -19,7 +19,7 @@ MUTED = (154, 160, 174)
 LIT = (239, 231, 206)
 DARK = (30, 36, 52)
 ACCENT = (169, 193, 240)
-COL = {"home": ACCENT, "occ": (242, 181, 74), "ms": (108, 199, 224), "jupiter": (195, 177, 245),
+COL = {"home": ACCENT, "occ": (242, 181, 74), "ms": (108, 199, 224), "ast": (240, 138, 163), "jupiter": (195, 177, 245),
        "saturn": (111, 211, 148), "calendar": ACCENT}
 TEXT = {   # kicker, title, subtitle
     "home": ("Lunar occultations, computed", "What passes in front of what — and when you can see it",
@@ -28,6 +28,8 @@ TEXT = {   # kicker, title, subtitle
             "Where on Earth it can be seen, and the times for your city"),
     "ms": ("The Moon and the stars", "Every star the Moon hides this month",
            "Disappearance and reappearance times for where you are"),
+    "ast": ("Asteroid occultations", "A star blinks out as an asteroid's shadow crosses India",
+            "A map of every path, and how close it passes you"),
     "jupiter": ("Jupiter's moons", "Eclipses, transits and shadows, night by night",
                 "Io, Europa, Ganymede, Callisto — and the Great Red Spot"),
     "saturn": ("Saturn's moons", "Titan and company hide, transit and cast shadows",
@@ -168,6 +170,30 @@ def _art(key, img):
                                         width=3 * S if on else 2 * S, fill=(c[0] // 5, c[1] // 5, c[2] // 5) if on else None)
                     if on:
                         d.ellipse([x0 + cell / 2 - 7 * S, y0 + cell / 2 - 7 * S, x0 + cell / 2 + 7 * S, y0 + cell / 2 + 7 * S], fill=c)
+    elif key == "ast":
+        # the shadow's narrow band across a dark Earth, a lumpy asteroid and the star it hides
+        from PIL import Image
+        band = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        bd = ImageDraw.Draw(band)
+        bd.polygon([(640 * S, 520 * S), (1200 * S, 350 * S), (1200 * S, 410 * S), (640 * S, 580 * S)], fill=c + (60,))
+        bd.line([(640 * S, 520 * S), (1200 * S, 350 * S)], fill=c + (200,), width=4 * S)
+        bd.line([(640 * S, 580 * S), (1200 * S, 410 * S)], fill=c + (200,), width=4 * S)
+        img.alpha_composite(band)
+        d = ImageDraw.Draw(img)
+        sx, sy = 1015 * S, 150 * S
+        _glow(img, sx, sy, 70 * S, INK, 120)
+        d = ImageDraw.Draw(img)
+        _star(d, sx, sy, 26 * S, INK)
+        ax, ay, ar = 905 * S, 250 * S, 95 * S
+        pts = []
+        for j in range(24):
+            th = 2 * 3.14159265 * j / 24
+            rr = ar * (1 + 0.16 * __import__("math").sin(3 * th + 0.7) + 0.09 * __import__("math").cos(5 * th))
+            pts.append((ax + rr * __import__("math").cos(th) * 1.25, ay + rr * __import__("math").sin(th)))
+        d.polygon(pts, fill=DARK, outline=(92, 98, 116))
+        for fx, fy, fr in ((-0.35, -0.2, 0.16), (0.3, 0.25, 0.12), (0.55, -0.35, 0.08)):
+            x, y, rr = ax + fx * ar, ay + fy * ar, fr * ar
+            d.ellipse([x - rr, y - rr, x + rr, y + rr], outline=(70, 76, 94), width=3 * S)
     elif key == "jupiter":
         r, cx = 108 * S, 985 * S
         _glow(img, cx, cy, int(r * 1.5), c, 40)

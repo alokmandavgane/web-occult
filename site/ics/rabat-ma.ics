@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Casablanca
 BEGIN:VEVENT
-UID:star-c129ceb0e5b9-rabat-ma@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T041754Z
-DTEND:20260908T041954Z
-SUMMARY:The Moon hides 39 Cnc · mag 6.4
-DESCRIPTION:39 Cnc (magnitude 6.4) reappears at 05:17:54 at the dark limb +
- 01\, seen from Rabat\, MA.\nThe Moon is 14° up in the ENE · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-rabat-ma@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T094418Z

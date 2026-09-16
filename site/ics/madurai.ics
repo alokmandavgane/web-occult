@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-18e1b90fd30a-madurai@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T232509Z
-DTEND:20260908T232709Z
-SUMMARY:The Moon hides HR 3736 · mag 6.3
-DESCRIPTION:HR 3736 (magnitude 6.3) reappears at 04:55:09 at the dark limb 
- IST\, seen from Madurai.\nThe Moon is 8° up in the ENE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-madurai@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T115651Z

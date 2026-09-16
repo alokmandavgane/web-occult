@@ -42,7 +42,11 @@ def facts():
         fs = sorted(glob.glob(str(ROOT / "data" / f"{p}-moons-*.json")))
         sat[p] = (sum(len(json.loads(open(f).read())["events"]) for f in fs), fs[0][-9:-5] if fs else "", fs[-1][-9:-5] if fs else "")
     grs = json.loads((ROOT / "catalog" / "grs.json").read_text())
+    ast = sorted(p.split("asteroids-")[1][:7] for p in glob.glob(str(ROOT / "data" / "asteroids-*.json")))
     return {
+        "ast_from": _ym(ast[0]) if ast else "", "ast_to": _ym(ast[-1]) if ast else "",
+        "ast_events": sum(len(json.loads((ROOT / "data" / f"asteroids-{ym}.json").read_text())["events"]) for ym in ast),
+        "n_asteroids": sum(1 for _ in open(ROOT / "catalog" / "asteroids.csv")) - 1,
         "n_events": len(evs), "first": evs[0]["date"][:4], "last": evs[-1]["date"][:4], "delta_t": dt_s, "dt_year": nxt["date"][:4],
         "n_stars": sum(1 for _ in open(ROOT / "catalog" / "moonband.csv")) - 1,
         "ms_from": _ym(ms[0]) if ms else "", "ms_to": _ym(ms[-1]) if ms else "",
@@ -66,7 +70,11 @@ def write_page():
         ("Which way the Moon faces (libration)", "NAIF's lunar orientation kernels (the DE421 principal-axes frame)"),
         ("Stars", f"ESA <b>Gaia DR3</b> to magnitude G 9.5 in the band the Moon crosses, <b>Hipparcos-2</b> for the brightest stars and "
                   f"those Gaia cannot solve, names from the <b>Yale Bright Star Catalogue</b> — {f['n_stars']:,} stars, each carried "
-                  f"to the date with its proper motion, parallax and radial velocity"),
+                  f"to the date with its proper motion, parallax and radial velocity; for asteroid occultations, Gaia DR3 over "
+                  f"the whole sky to G 12.5, about five million stars, and a 15′ field around each target to G 14 for the "
+                  f"finder charts"),
+        ("Asteroids", f"NASA JPL's <b>Small-Body Database</b>: the orbits and diameters of the {f['n_asteroids']:,} asteroids of "
+                      f"15 km and more, and each orbit's uncertainty"),
         ("Planets' poles and rotation", "The IAU Working Group on Cartographic Coordinates and Rotational Elements"),
         ("Earth's rotation (ΔT)", f"Skyfield's tables and their projection forward: ΔT ≈ {f['delta_t']:.0f} s in {f['dt_year']}"),
         ("The Great Red Spot's longitude", f"An observation, not an ephemeris: {g['lon_II']:g}° (System II) on {grs_date}, drifting "
@@ -89,6 +97,12 @@ def write_page():
         ("The star-occultation solver your browser runs", "Direct Skyfield searches at random places", "Within 0.5 s. <i>Automated test.</i>"),
         ("The any-location solver on each event page", "The engine's own contact search for every listed city",
          "The compact description sits on the Moon's edge to within 0.05″ at every contact; the build refuses to publish otherwise."),
+        ("Asteroid occultation paths, September–October 2026: 45 events", "Occult4, as published by IOTA-India",
+         "Path widths within 0.5 km; star positions within about 2 mas; the shadow reaching and leaving the Earth within a minute "
+         "of the published times. The centre lines differ by a rigid sideways shift — a median 12 km, 0.4 of Occult's own 1σ, with the "
+         "Minor Planet Center's orbits that Occult uses, and 0.7σ with JPL's, the size by which the two orbit solutions differ. "
+         "<i>Automated test</i> for five of them."),
+        ("The any-location solver on each asteroid page", "The engine's full model", "Within 0.02 km and 0.1 s. <i>Automated test.</i>"),
     ]
     rows = lambda items: "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in items)
 
@@ -120,6 +134,19 @@ def write_page():
   Moon can cover somewhere that month. Your browser finds every occultation for your location. Whether you'll see one follows a
   stated rule of thumb for each instrument — how faint a star can be at the dark and at the bright edge of the Moon, less in
   moonglare and twilight, with the Moon at least 5° up. The rule is printed on each page.</p>
+  <h3>Asteroid occultations</h3>
+  <p>Each month from {f['ast_from']} to {f['ast_to']}, every one of the {f['n_asteroids']:,} orbits is carried through the month by the
+  site's own integrator — the planets and the Moon from DE431, the pulls of Ceres, Pallas, Vesta and Hygiea, and the Sun's
+  relativistic term — and every Gaia star within reach of each asteroid's shadow is tested. For each shadow that touches the
+  Earth the engine traces the centre line and the two edges, a band exactly as wide as the asteroid, and the lines one standard
+  deviation beyond them. That deviation combines the star's Gaia uncertainty with the orbit's, taken as the largest of JPL's
+  formal covariance, the gap between JPL's and the Minor Planet Center's orbits for that very event (divided by √2), and 10 mas —
+  independent orbit solutions for these asteroids disagree by about that much, and JPL's formal figures are far smaller. A path
+  is listed when it passes within 100 km of one of the site's Indian cities with the star at least 10° up in a sky at least 6°
+  past sunset, it is at least as wide as its uncertainty, and the star fades enough to notice — {f['ast_events']:,} so far.
+  Each event also carries a finder chart — the Gaia stars within 15′ of the target down to G 14, with the asteroid's track
+  through the field hour by hour — and the path as KML or GPX to take to a station. As on the other pages, a compact description of each event lets your browser work out how close the
+  path comes to you, when, and for how long the star vanishes.</p>
   <h3>Jupiter's and Saturn's moons</h3>
   <p>Eclipses, occultations, transits and shadow transits of Jupiter's four large moons and seven of Saturn's are searched in JPL's
   satellite ephemerides, with the planet as a flattened globe and its shadow as a cone — {jn:,} events for Jupiter and {sn:,} for
@@ -153,7 +180,14 @@ def write_page():
     modelled, so “behind Saturn” means behind the globe. The configuration diagrams are pictures, good to about a tenth of a
     planet's radius; the times come from JPL.</li>
     <li><b>The Great Red Spot.</b> Its times are only as good as its assumed longitude: each degree off moves them by 1.65 minutes.</li>
-    <li><b>The list.</b> The lunar occultations are a hand-picked selection, not every one that happens.</li>
+    <li><b>An asteroid's shape.</b> Each asteroid is a sphere of its catalogue diameter. Real ones are lumpy and tumbling, so the
+    true shadow can be narrower or wider than the band drawn — which is what timing an occultation from several places measures.</li>
+    <li><b>An asteroid path's position.</b> Orbits and star positions are uncertain by a few milliarcseconds, which moves a path
+    sideways by kilometres to tens of kilometres; the dashed 1σ lines show by how much. Observers near an edge should expect
+    either outcome. A star Gaia flags as hard to fit (high RUWE) is often double, and may fade in steps or not at all.</li>
+    <li><b>The list.</b> The lunar occultations are a hand-picked selection, not every one that happens. The asteroid list keeps
+    only paths near Indian cities at night that are at least as wide as their uncertainty, for asteroids of 15 km and more and
+    stars to G 12.5.</li>
   </ul>
 
   <h2 id="about">About</h2>

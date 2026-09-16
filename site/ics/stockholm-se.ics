@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Stockholm
 BEGIN:VEVENT
-UID:star-9c089ecd4e9f-stockholm-se@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260908T014916Z
-DTEND:20260908T015116Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:49:16 at the dark limb C
- EST\, seen from Stockholm\, SE.\nThe Moon is 14° up in the ENE · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-venus-2026-09-14-stockholm-se@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T095332Z
