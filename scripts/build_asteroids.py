@@ -759,9 +759,25 @@ EVENT_JS = r"""
     el('back').href = '/asteroids-' + ym;
     el('back').textContent = '‹ ' + META.monthLabels[ym];
     document.title = '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a star · Occult';
+    describe();
     drawMap();
     render();
   }).catch(fail);
+
+  function describe() {
+    // one page serves every event, so the crawler needs telling which one this is — and told to ignore the pin in the
+    // URL, or every spot anyone ever shared would be a page of its own
+    var url = location.origin + location.pathname.replace(/\.html$/, '') + '?e=' + encodeURIComponent(id);   // as the sitemap lists it
+    var d = '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a magnitude ' + F.r1(ev.star.v) + ' star on '
+          + ev.el.t0.slice(0, 10) + ': the path across India on a map, how close it passes you, the finder chart, the chord you '
+          + 'would time, and the path as KML.';
+    [['link[rel="canonical"]', 'href', url], ['meta[name="description"]', 'content', d],
+     ['meta[property="og:url"]', 'content', url], ['meta[property="og:title"]', 'content', document.title],
+     ['meta[property="og:description"]', 'content', d]].forEach(function (r) {
+      var n = document.querySelector(r[0]);
+      if (n) n.setAttribute(r[1], r[2]);
+    });
+  }
 
   function fail() {
     el('ev-main').innerHTML = '<h1>Event not found</h1><p class="sub">That occultation is not on the site.</p>'
@@ -1211,7 +1227,8 @@ def month_page(ym, d, cities_all, nav):
     print(f"wrote site/{slug}.html: {len(d['events'])} events, {mine} over {name}")
     nxt = d["events"][0] if d["events"] else None
     return {"slug": slug, "label": label, "year": y, "month": mo, "n": len(d["events"]), "mine": mine, "planet": "asteroids",
-            "nights": len(groups), "first": nxt["asteroid"]["name"] if nxt else None, "src": src}
+            "nights": len(groups), "first": nxt["asteroid"]["name"] if nxt else None, "src": src,
+            "ids": [e["id"] for e in d["events"]]}
 
 
 def build_all(cities, only=None):

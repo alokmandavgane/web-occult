@@ -1321,6 +1321,8 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
 """
     (OUT / "index.html").write_text(page)
     urls = [("/", "weekly", "1.0"), ("/calendar", "monthly", "0.7"), ("/method", "monthly", "0.6")] + [(f"/{b['slug']}", "weekly", "0.8") for b in built] + [(f"/{j['slug']}", "monthly", "0.6") for j in jup] + [(f"/{m['slug']}", "monthly", "0.6") for m in ms] + [(f"/{a['slug']}", "monthly", "0.6") for a in ast]
+    # every asteroid event is its own page at /asteroid?e=<id> — one file, but a crawler has no way to guess the ids
+    urls += [(f"/asteroid?e={i}", "monthly", "0.5") for a in ast for i in a.get("ids", ())]
     sm =['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for path, freq, pri in urls:
         sm.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")

@@ -174,7 +174,11 @@ Rules that are easy to break:
   TOGETHER. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
   the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there
-  is deliberately NO page per event. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
+  is deliberately NO page per event — but the sitemap lists every one of them (`ids` off each month page's return, ~950 URLs
+  of 1,070), since a crawler cannot guess an id, and on load the page rewrites `<link rel="canonical">`, the description and
+  `og:url` to `/asteroid?e=<id>` — the id ALONE: strip `.html` and never include the pin, or every spot anyone shared would
+  claim to be a page of its own. A bogus id leaves the generic canonical alone. Social scrapers don't run JS, so shared links
+  still preview as the generic asteroid card; only renderers (Google) see the per-event head. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
   OpenStreetMap tiles. On that map: the band, filled as ten ribbons shaded by how long the star is hidden there
   (2√(R²−d²)/v, so darkest down the middle and a graze at the edges), its 1σ lines, the whole ground track beyond the frame
   as a dotted line, drawn bright only where the star is at least 10° up in a sky past twilight (`skyRuns`, the engine's
