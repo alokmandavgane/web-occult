@@ -5,7 +5,7 @@
   + geo/<audience>.json (scripts/build_geo.py)
   + seed.json
   -> site/index.html, site/<slug>.html, site/data/<slug>.json, site/sitemap.xml,
-     site/404.html, site/robots.txt, site/_headers
+     site/404.html, site/robots.txt, site/_headers, site/sw.js
 
 Static by construction: the maps are inline SVG, the city table is in the HTML,
 nothing is fetched. A crawler sees the whole page; a reader costs nothing to
@@ -397,6 +397,77 @@ OG = {   # link-preview image per kind of page: key -> (file in site/og/, alt te
 _OG_V = {}
 
 
+SW_JS = r"""
+/* occult.alokm.com — the site kept for the field. Someone who drives out to a path is in the one place with no signal,
+   so once a page has been opened it opens again without one: the HTML, the shared JS, the month's data, Leaflet, and
+   whatever map tiles were already looked at. Pages and data go to the network first, so an online reader always gets
+   the current build and the cache is only the fallback; the pinned Leaflet files and the tiles never change, so they
+   come from the cache first. Analytics is left alone. To switch all this off for good, ship an sw.js whose install
+   handler is self.registration.unregister(). */
+var ASSETS = 'occult-__VER__', TILES = 'occult-tiles', TILE_MAX = 600, CORE = __CORE__;
+
+self.addEventListener('install', function (e) {
+  // one by one, and a failure is allowed: a single missing file must not leave a reader with no offline site at all
+  e.waitUntil(caches.open(ASSETS).then(function (c) {
+    return Promise.all(CORE.map(function (u) { return c.add(u).catch(function () {}); }));
+  }).then(function () { return self.skipWaiting(); }));
+});
+self.addEventListener('activate', function (e) {
+  e.waitUntil(caches.keys().then(function (ks) {
+    return Promise.all(ks.map(function (k) { return k === ASSETS || k === TILES ? null : caches.delete(k); }));
+  }).then(function () { return self.clients.claim(); }));
+});
+function keep(name, req, res, cap) {
+  if (!res || (!res.ok && res.type !== 'opaque')) return res;      // a tile comes back opaque: no status to read, still worth keeping
+  var copy = res.clone();
+  caches.open(name).then(function (c) {
+    c.put(req, copy);
+    if (cap) c.keys().then(function (ks) { for (var i = 0; i < ks.length - cap; i++) c.delete(ks[i]); });
+  });
+  return res;
+}
+function page(r, u) {
+  var bare = new Request(u.origin + u.pathname);                   // one entry per page, not one per event or pinned spot
+  return fetch(r).then(function (res) { return keep(ASSETS, bare, res); })
+    .catch(function () { return caches.match(bare).then(function (c) { return c || caches.match('/'); }); });
+}
+function fresh(r) {                                                // cache first, then catch up behind
+  return caches.match(r).then(function (c) {
+    var net = fetch(r).then(function (res) { return keep(ASSETS, r, res); }).catch(function () { return c; });
+    return c || net;
+  });
+}
+function fixed(r, name, cap) {
+  return caches.match(r).then(function (c) { return c || fetch(r).then(function (res) { return keep(name, r, res, cap); }); });
+}
+self.addEventListener('fetch', function (e) {
+  var r = e.request, u = new URL(r.url);
+  if (r.method !== 'GET' || u.protocol.slice(0, 4) !== 'http' || u.hostname.indexOf('google') >= 0) return;
+  if (u.hostname === 'tile.openstreetmap.org') return e.respondWith(fixed(r, TILES, TILE_MAX));
+  if (u.hostname === 'cdnjs.cloudflare.com') return e.respondWith(fixed(r, ASSETS));
+  if (u.origin !== location.origin) return;
+  e.respondWith(r.mode === 'navigate' ? page(r, u) : fresh(r));
+});
+"""
+
+
+def write_sw():
+    """site/sw.js. The precache is the deep-link target and the two files it always needs; everything else is kept as
+    the reader goes, which is what makes a month's data and its tiles there in the field. The cache name carries a hash
+    of the worker and its list, so a build that changes neither leaves a reader's cache (and their tiles) alone."""
+    import hashlib
+
+    core = ["/", "/asteroid"]
+    try:
+        import build_asteroids as ba
+        core += [f"/js/asteroid.js?v={ba.lib_url()}", ba.world_url()]
+    except Exception as e:                      # no asteroid data built: the rest of the site still caches fine
+        print(f"  sw.js: asteroid core skipped ({e})")
+    body = SW_JS.replace("__CORE__", json.dumps(core))
+    (OUT / "sw.js").write_text(body.replace("__VER__", hashlib.sha1(body.encode()).hexdigest()[:10]))
+    return core
+
+
 def og_url(key):
     """Absolute URL with a content hash, so a redrawn image is a new URL to link-preview caches."""
     if key not in _OG_V:
@@ -446,6 +517,7 @@ def head(title, desc, path, extra="", og="home"):
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="{SITE_NAME}">
+  <script>if('serviceWorker'in navigator)addEventListener('load',function(){{navigator.serviceWorker.register('/sw.js')}});</script>
   <style>{BASE_CSS}</style>
   {extra}
 </head>
@@ -1342,8 +1414,10 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
         "start_url": "/", "scope": "/", "display": "standalone", "lang": "en", "dir": "ltr",
         "background_color": "#0c0f17", "theme_color": "#0c0f17", "categories": ["education", "utilities"],
         "icons": icons, "shortcuts": shortcuts}, ensure_ascii=False, indent=1) + "\n")
+    write_sw()
     # Cloudflare Pages: unhashed text stays short-lived; KML/GPX download; images long-lived (URLs carry ?v= hashes)
     (OUT / "_headers").write_text("/*\n  Cache-Control: public, max-age=3600\n/data/*\n  Cache-Control: public, max-age=86400\n"
+                                  "/sw.js\n  Cache-Control: no-cache\n"
                                   "/kml/*\n  Cache-Control: public, max-age=86400\n  Content-Disposition: attachment\n"
                                   "/img/*\n  Cache-Control: public, max-age=2592000\n"
                                   "/og/*\n  Cache-Control: public, max-age=2592000\n"
@@ -1354,7 +1428,7 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
 <main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
 <p><a href="/">All events</a></p></main>{FOOTER}</body></html>
 """)
-    print(f"wrote site/index.html, sitemap.xml ({len(urls)} urls), robots.txt, _headers, 404.html")
+    print(f"wrote site/index.html, sitemap.xml ({len(urls)} urls), robots.txt, _headers, sw.js, 404.html")
 
 
 if __name__ == "__main__":

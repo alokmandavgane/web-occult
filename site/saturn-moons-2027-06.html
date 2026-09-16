@@ -26,6 +26,7 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
+  <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
   <style>
     /* Almanac paper by day, night sky by night; lapis / moonlight accent. System fonts only: no web fonts, no requests. */
     :root { color-scheme: light dark;

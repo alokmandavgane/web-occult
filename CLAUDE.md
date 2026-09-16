@@ -102,7 +102,8 @@ Rules that are easy to break:
   city or an alias is listed, else `solve_from_elements` for cities in or near the world visibility region) and the
   star occultations visible in BINOCULARS for the next 12 months. The star path screens on the solver's 2-minute
   grid and then runs `MonthModel.events` on the survivors; `tests/test_feeds.py` fails if the screen ever drops an
-  event the full solve keeps. Asteroid shadows are in as well (`asteroid_events`): `asteroid_occultations.local` per event
+  event the full solve keeps. Asteroid shadows are in as well (`asteroid_events`, linking to `/asteroid?e=<id>` — the map, the pin and the
+  download, not the month list): `asteroid_occultations.local` per event
   from the month files, kept when the place is inside the path or within its 1σ margin with the star ≥ `AST_ALT_MIN` up and the
   Sun ≤ `AST_SUN_MAX` — about 30 a year for an Indian city, half inside the path, and the summary says which;
   the VALARM lead is per event, not the shared `ALARM_MIN`: inside the path you are already standing in the right place, so 30
@@ -125,7 +126,18 @@ Rules that are easy to break:
   `head(..., og=key)` with a content-hash `?v=`; plus the app icons (192, 512, maskable 512, apple-touch 180).
   Drawn with Pillow (in requirements) from macOS system fonts; without them the committed PNGs stay. Only
   previewers and installers fetch these — pages never load them. `site/manifest.webmanifest` is written by
-  `build_index` (standalone, night colours, shortcuts to /calendar and the home sections). No service worker yet.
+  `build_index` (standalone, night colours, shortcuts to /calendar and the home sections).
+- **Offline** (`SW_JS` in `scripts/build_pages.py` → `site/sw.js`, written by `build_index`; registered from `head()` so
+  every page does it). The point is the asteroid chaser standing in a field 40 km from home with no signal: once a page has
+  been opened it opens again without one. Pages and same-origin files are network-first / cache-fallback (an online reader
+  always gets the current build); the SRI-pinned Leaflet files and OSM tiles are cache-first, tiles in their own
+  `occult-tiles` cache capped at 600 so a deploy never throws them away. Navigations are cached under origin + pathname
+  with the query stripped — otherwise every `?e=<id>&lat=&lon=` would be its own copy of the same HTML. Precache is
+  `/`, `/asteroid`, the shared JS and the world outline, added ONE BY ONE with failures tolerated (a single bad `?v=`
+  must not leave a reader with no offline site; locally `/asteroid` fails, since only Cloudflare serves it extensionless).
+  Analytics is never intercepted. The asset cache is named for a hash of the worker and its list, so a build that changes
+  neither leaves a reader's caches alone. `_headers` gives `/sw.js` `Cache-Control: no-cache` — a cached worker can never
+  be replaced. **Kill switch**: ship an `sw.js` whose install handler is `self.registration.unregister()`.
 - **"How this is computed"** (`scripts/build_method.py` → `site/method.html`, run after the feeds; linked from the
   footer and the home page): the inputs, how each kind of page is made, a "Checked against" table and "What is
   approximate". Counts (events, catalogue stars, months, satellite events, feeds, ΔT, the GRS longitude) are read

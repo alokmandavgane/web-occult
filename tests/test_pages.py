@@ -68,3 +68,28 @@ def test_sitemap_lists_every_asteroid_event():
     assert "&" not in xml.replace("&amp;", ""), "a bare ampersand would make the sitemap invalid XML"
     page = open(os.path.join(site, "asteroid.html")).read()
     assert "'?e=' + encodeURIComponent(id)" in page and "rel=\"canonical\"" in page
+
+
+def test_service_worker_is_wired_up():
+    """The site is read in fields with no signal, so every page registers a worker that keeps what it fetched. What can
+    go wrong quietly: a precached URL that 404s (a stale ?v= hash), a page that never registers the worker, or a worker
+    served from cache so a fix can never reach anyone."""
+    site = os.path.join(HERE, "..", "site")
+    sw = os.path.join(site, "sw.js")
+    if not os.path.exists(sw):
+        import pytest
+        pytest.skip("site not built")
+    js = open(sw).read()
+    assert "__VER__" not in js and "__CORE__" not in js, "the worker's placeholders were left unfilled"
+    core = json.loads(re.search(r"CORE = (\[[^\]]*\])", js).group(1))
+    assert "/" in core and "/asteroid" in core
+    for u in core:
+        if u in ("/", "/asteroid"):
+            continue                                   # served without their .html by Cloudflare, not present as paths
+        f = os.path.join(site, u.split("?")[0].lstrip("/"))
+        assert os.path.exists(f), u
+        assert u in open(os.path.join(site, "asteroid.html")).read(), f"{u} is not the URL the page itself asks for"
+    for page in ("index.html", "asteroid.html", "calendar.html"):
+        assert "navigator.serviceWorker.register('/sw.js')" in open(os.path.join(site, page)).read(), page
+    headers = open(os.path.join(site, "_headers")).read()
+    assert "/sw.js\n  Cache-Control: no-cache" in headers, "a cached worker cannot be replaced"

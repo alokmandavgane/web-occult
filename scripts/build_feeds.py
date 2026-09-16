@@ -404,7 +404,7 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
         ground, brg = to_centre(a["el"], lat, lon)
         inside = abs(s["d"]) <= R
         who = f"({a['ast']['number']}) {a['ast']['name']}"
-        url = f"{SITE}/asteroids-{a['ym']}#{a['id']}"
+        url = f"{SITE}/asteroid?e={a['id']}"        # the page with the map, the pin and the download, not the month list
         edge = 0.0 if inside else ground * (abs(s["d"]) - R) / abs(s["d"])
         where = (f"You are inside the path, {ground:.0f} km from its centre line: the star vanishes for up to {s['dur']:.1f} s."
                  if inside else
@@ -415,7 +415,7 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
                 f"{compass(s['star_az'])} · {sky_text(s['sun_alt'])}.\n"
                 f"It fades {a['drop']:.1f} magnitudes for up to {a['dur']:.1f} s on the centre line, and the path is "
                 f"{a['ast']['diameter_km']:.0f} km wide, give or take {sig:.0f} km.\n"
-                f"Finder chart, the map and the path as KML: {url}")
+                f"The map, the finder chart and the path as KML: {url}")
         out.append({"uid": f"ast-{a['id']}-{slug}@{HOST}", "stamp": a["gen"], "start": t - timedelta(minutes=5),
                     "end": t + timedelta(minutes=5), "url": url, "alarm": asteroid_alarm(edge), "description": desc,
                     "summary": f"{who} hides a mag {a['star']['v']:.1f} star" + ("" if inside else " (just outside the path)")})

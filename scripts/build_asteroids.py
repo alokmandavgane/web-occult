@@ -1106,7 +1106,9 @@ EVENT_TEMPLATE = """
   <div class="table-wrap"><table class="ev-facts"><tbody id="ev-facts"></tbody></table></div>
   <p class="method">Everything here is computed for the place in the chip above: the time is when the shadow passes closest
   to you, and the chord and fade are what you would record there. The asteroid is a sphere of its catalogue diameter, so a
-  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.</p>
+  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.
+  Once you have opened this page it stays on your phone — the times, the charts, the path and the map tiles you looked at —
+  so it still works where you are going, which is usually somewhere without a signal.</p>
   <noscript><p class="method">This page draws itself in the browser. Without JavaScript, the month pages list every event
   with its path and times.</p></noscript>
   <script type="application/json" id="ast-meta">__META__</script>

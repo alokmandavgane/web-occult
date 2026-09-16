@@ -53,6 +53,10 @@ def test_asteroid_feed_entries_are_the_paths_that_reach_the_place():
     assert on_path, "New Delhi should see some asteroid occultations in a month"
     for e in on_path:
         assert e["alarm"] and e["start"] < e["end"] and e["url"].startswith("https://")
+        # the reminder has to land on the page with the map, the pin and the download — not on a list of sixty events
+        rid = e["uid"].split("@")[0][len("ast-"):-len("-test")]
+        assert e["url"].endswith(f"/asteroid?e={rid}"), e["url"]
+        assert e["url"] in e["description"]
         assert ("inside the path" in e["description"]) != ("just outside the path" in e["summary"])
 
 

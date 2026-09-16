@@ -2,6 +2,8 @@
   Cache-Control: public, max-age=3600
 /data/*
   Cache-Control: public, max-age=86400
+/sw.js
+  Cache-Control: no-cache
 /kml/*
   Cache-Control: public, max-age=86400
   Content-Disposition: attachment
