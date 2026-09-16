@@ -59,6 +59,10 @@ python3.11 -m venv .venv && .venv/bin/pip install -r requirements.txt
     it (~340 MB). Only the asteroid months read it.
   - `catalog/fields/<gaia id>.json` — the star field around each asteroid target (Gaia to G 14 within 15′), fetched as
     events are found and baked into the month file for the pages' finder charts.
+- **DAMIT** (astro.troja.mff.cuni.cz/projects/damit, CC BY 4.0) — `engine/asteroid_shapes.py` caches its model tables
+  and the shapes of the asteroids that have events in `ephemeris/damit/` (a few MB) and bakes each event's outline into
+  the month file; `engine/asteroid_shapes.py month <YYYY-MM>...` refreshes outlines without re-running a month, and
+  `engine/asteroid_shapes.py check 2:102 216:1826` fetches the light curves the orientation test needs.
 - **JPL's Small-Body Database API** (ssd-api.jpl.nasa.gov) — read into the committed `catalog/asteroids.csv` and
   `catalog/asteroid-cov.json`, so an asteroid month rebuilds offline once those exist.
 - **Map files** — `OCCULT_MAP_DIR`, default `../eclipse/composemap/src/commonMain/composeResources/files` (the map
@@ -110,6 +114,8 @@ The code is MIT-licensed (`LICENSE`). The numbers and maps come from these sourc
   and the Small-Body Database (asteroid orbits, diameters and covariances)
 - NASA LRO LOLA lunar topography (PDS Geosciences Node)
 - ESA Gaia DR3 (credit ESA/Gaia/DPAC), Hipparcos-2, and the Yale Bright Star Catalogue (CDS V/50)
+- DAMIT asteroid shape models (Ďurech, Sidorin & Kaasalainen 2010, A&A 513, A46; CC BY 4.0), each credited on the page
+  that draws it
 - The IAU Gazetteer of Planetary Nomenclature (USGS)
 - Natural Earth (public domain) and GeoNames (CC BY 4.0)
 - The Great Red Spot's longitude: Sky & Telescope / JUPOS observations (`catalog/grs.json` records the source)

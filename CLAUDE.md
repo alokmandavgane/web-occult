@@ -233,6 +233,25 @@ Rules that are easy to break:
   rigid sideways shift — median 0.4σ with MPC orbits (what Occult integrates), 0.7σ with JPL's. The tests pin five events with
   MPC states. Don't "fix" the JPL-orbit offsets toward Occult: they are differences between orbit solutions. The asteroid is a
   sphere of its SBDB diameter, and the page says so. (IOTA-India's 30 Sep Diana page shows the 15 Sep image — their slip.)
+- **Asteroid shapes (DAMIT, stage 1: shown, not used)** (`engine/asteroid_shapes.py`; cache `ephemeris/damit/`, gitignored).
+  Every path, time, duration, verdict, width cut and feed entry is still the SBDB-diameter sphere. Where DAMIT has a model
+  worth drawing, the month file carries `shape` — `{model, q, pole, period_h, hull}`, the outline in the fundamental plane's
+  e1/e2 km from the asteroid's centre, scaled to the volume of SBDB's sphere — and the event page's chord diagram draws it
+  over a dashed sphere with the reader's chord across it and "N km across the path, not 2R" when those differ by >15%.
+  `choose()`: DAMIT's own 0–5 quality scale, ≥ 2 (unrated models rank 2.5), only the best-rated tier, and only if that tier
+  agrees on the pole within 30° — quality 1 is "sparse data, large errors in shape and pole", and most single-pole
+  asteroids only have those, so 98 of 947 events have a shape, not the ~224 a no-quality rule gives. Orientation is DAMIT's
+  documented `Rz(λ)·Ry(90°−β)·Rz(φ0 + 2π/P·(t−t0) + ½υ(t−t0)²)` at the event's TT minus the light time. Two checks, both
+  mutation-tested: `lightcurve()` rebuilds DAMIT's own photometry from the shape (Pallas 1.6%, Kleopatra 3.4%; reversed spin
+  2–3× worse, quarter-turn phase 3–11× worse — needs `asteroid_shapes.py check 2:102 216:1826`), and a synthetic spike model
+  must point where textbook ecliptic→RA/Dec trigonometry says (catches R vs Rᵀ, a mirrored outline, the obliquity's sign —
+  the light curves cannot see a mirror). On the page the chord is clipped from the line through `q` along `v` — the place's
+  offset from the axis and the shadow's motion, which `local()`/`solve()` now return as twins — never by rotating the
+  outline, so it cannot be mirrored; `q · leftnormal(v) = d` is tested wherever the closest approach falls inside the window
+  (a place thousands of km off gets a clamped time, and the identity rightly fails there). `shape_record()` reads only the
+  record's stored fields, so `asteroid_shapes.py month <ym>` backfills exactly what a fresh `asteroid_occultations.py month`
+  writes (checked byte-for-byte on September). Stage 2 — silhouette paths and durations — changes the twins, the width cut
+  and the uncertainty model, and should wait until these orientations have been seen to hold against real observed chords.
 - Scope now: lunar occultations of planets and bright stars, stars to G 9.5 per location, asteroid shadows across India, and
   Jupiter's and Saturn's moons.
 - Analytics is the shared alokm.com GA4 property (`G-GD7LT48Y79`, same as eclipse/zsd/inc), emitted by `head()` in the builder. No other third-party JS. Text pages should stay under ~50 KB gzipped.

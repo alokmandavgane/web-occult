@@ -11,6 +11,10 @@
     two-minute search over the same two days — nothing it finds may be missing from the screen's candidates.
   * The browser's solver: `local()` from the page's compact elements against the full model, to 0.02 km and 0.1 s.
   * The month files: unique ids, and elements that put each event's listed best point on its centre line.
+  * DAMIT's orientation formula, as the shapes module implements it, against DAMIT's own photometry: the documented
+    convention must rebuild the light curves of Pallas (nearly round) and Kleopatra (a dog-bone) far better than a
+    reversed spin or a quarter-turn phase error would. And every outline in the month files is a convex polygon about
+    the size of the asteroid, from a model DAMIT rates 2 or better.
 
 The reference values are a few published points per event, used only to check — never as input.
 The engine tests need DE431 (OCCULT_DE431, default ../kaalshodh/api/de431t.bsp) and skip without it.
@@ -21,6 +25,7 @@ import importlib.util
 import json
 import math
 import os
+import sys
 
 import numpy as np
 import pytest
@@ -297,3 +302,84 @@ def test_month_files():
             assert abs(s["d"]) < 1.5, (ev["id"], s["d"])
             assert abs(s["star_alt"] - b["star_alt"]) < 0.5, (ev["id"], s["star_alt"], b["star_alt"])
             assert ev["lines"]["centre"], ev["id"]
+            sh = ev.get("shape")
+            if sh:
+                _check_outline(ev, sh)
+
+
+def _check_outline(ev, sh):
+    """A DAMIT outline as the month file carries it: convex and counter-clockwise in e1/e2 (the hull of a projection),
+    centred on the asteroid, and — scaled to the volume of SBDB's sphere — with a silhouette area near that sphere's."""
+    h = np.array(sh["hull"])
+    assert 8 <= len(h) <= 64, (ev["id"], len(h))
+    nxt = np.roll(h, -1, axis=0)
+    e, f = nxt - h, np.roll(nxt, -1, axis=0) - nxt
+    turns = e[:, 0] * f[:, 1] - e[:, 1] * f[:, 0]
+    assert (turns > -0.05 * ev["asteroid"]["diameter_km"]).all(), (ev["id"], "outline is not convex")
+    area = 0.5 * float(np.sum(h[:, 0] * nxt[:, 1] - nxt[:, 0] * h[:, 1]))
+    assert area > 0, (ev["id"], "outline runs clockwise")
+    ratio = 2 * math.sqrt(area / math.pi) / ev["asteroid"]["diameter_km"]
+    assert 0.8 < ratio < 1.3, (ev["id"], ratio)
+    assert abs(h.mean(axis=0)).max() < 0.35 * ev["asteroid"]["diameter_km"], (ev["id"], "outline is off its centre")
+    assert sh["q"] is None or sh["q"] >= 2, (ev["id"], sh["q"])
+
+
+DAMIT_CHECKS = [("2", "102"), ("216", "1826")]      # Pallas, nearly round; Kleopatra, a dog-bone
+
+
+def test_damit_orientation_reproduces_its_light_curves():
+    """The formula that turns a DAMIT model to the way it faces at an event is the one thing in the shape pipeline that can
+    be wrong without anything looking wrong. DAMIT's light curves carry, for every point, the Sun's and the Earth's
+    directions in the asteroid-centred ecliptic frame, so the same formula can rebuild them from the shape alone. The
+    documented convention has to fit — and a reversed spin, or a model a quarter-turn out of phase, has to fit clearly
+    worse, or the check would not be telling us anything. Needs `engine/asteroid_shapes.py check 2:102 216:1826`."""
+    sys.path.insert(0, os.path.join(REPO, "engine"))
+    import asteroid_shapes as S
+    models = {m["id"]: m for ms in S.load_models().values() for m in ms}
+    if not all(mid in models and os.path.exists(S.shape_path(mid)) and S.load_lightcurves(n) for n, mid in DAMIT_CHECKS):
+        pytest.skip("DAMIT check models not cached (engine/asteroid_shapes.py check 2:102 216:1826)")
+    for number, mid in DAMIT_CHECKS:
+        m, (V, F), lcs = models[mid], S.load_shape(mid), S.load_lightcurves(number)
+
+        def rms(**wrong):
+            out = []
+            for pts in lcs:
+                sim, obs = S.lightcurve(m, V, F, pts, **wrong), pts[:, 1]
+                out.append(np.sqrt(np.mean((obs / obs.mean() - sim / sim.mean()) ** 2)))
+            return float(np.median(out))
+
+        ok, reversed_spin, quarter_turn = rms(), rms(spin=-1.0), rms(phase_deg=90.0)
+        assert ok < 0.05, (number, ok)                               # measured 0.016 (Pallas), 0.034 (Kleopatra)
+        assert reversed_spin > 1.6 * ok, (number, ok, reversed_spin)  # 2.0x, 3.1x
+        assert quarter_turn > 2.0 * ok, (number, ok, quarter_turn)    # 2.7x, 11x
+
+
+def test_outline_points_where_spherical_astronomy_says():
+    """The light curves pin the body -> ecliptic rotation, but not what happens after it: the turn into equatorial axes
+    and the projection onto the fundamental plane. A mirrored or rotated outline would look perfectly plausible. So: a
+    made-up model, an octahedron drawn out into a long spike along its own +x axis, spin axis at the ecliptic pole, seen
+    at its own epoch — its spike then points at ecliptic longitude λ. The outline's tip has to lie in the direction the
+    textbook formulas put that point on the sky (ecliptic -> RA/Dec by spherical trigonometry) projected onto east and
+    north worked out from the star's RA and Dec — a separate route from the matrix and cross products the pipeline uses,
+    for a star in each quarter of the sky."""
+    sys.path.insert(0, os.path.join(REPO, "engine"))
+    import asteroid_shapes as S
+    V = np.array([[8.0, 0, 0], [-1.0, 0, 0], [0, 1.0, 0], [0, -1.0, 0], [0, 0, 1.0], [0, 0, -1.0]])
+    F = np.array([[0, 2, 4], [2, 1, 4], [1, 3, 4], [3, 0, 4], [2, 0, 5], [1, 2, 5], [3, 1, 5], [0, 3, 5]])
+    eps = math.radians(84381.448 / 3600.0)
+    for lam_deg in (70.0, 205.0):
+        m = {"lambda": str(lam_deg), "beta": "90", "period": "5.0", "jd0": "2461000.5", "phi0": "0", "yorp": ""}
+        lam = math.radians(lam_deg)
+        ra = math.atan2(math.sin(lam) * math.cos(eps), math.cos(lam))
+        de = math.asin(math.sin(eps) * math.sin(lam))
+        D = np.array([math.cos(de) * math.cos(ra), math.cos(de) * math.sin(ra), math.sin(de)])
+        for ra_k, de_k in ((40.0, 10.0), (130.0, -35.0), (250.0, 55.0), (330.0, -5.0)):
+            a, d = math.radians(ra_k), math.radians(de_k)
+            k = [math.cos(d) * math.cos(a), math.cos(d) * math.sin(a), math.sin(d)]
+            east = np.array([-math.sin(a), math.cos(a), 0.0])
+            north = np.array([-math.sin(d) * math.cos(a), -math.sin(d) * math.sin(a), math.cos(d)])
+            want = math.degrees(math.atan2(D @ north, D @ east))
+            hull = S.silhouette(m, V, F, 2461000.5, k, 20.0)
+            tip = max(hull, key=lambda p: math.hypot(*p))
+            got = math.degrees(math.atan2(tip[1], tip[0]))
+            assert abs((got - want + 180) % 360 - 180) < 1.0, (lam_deg, ra_k, de_k, got, want)

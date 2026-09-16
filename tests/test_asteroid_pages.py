@@ -2,10 +2,12 @@
 `local()` / `to_centre()` number for number, and `you()` against `you_html()` text for text — for every event of every
 month file at a handful of places, inside and far outside the paths. The drawings that solve their own geometry are
 checked against the engine's lines too: the centre line and both edges the page traces from the elements against the
-ones the engine wrote, and the spots `toOffset()` walks to against the offset they were asked for. Data files only;
-skips without node."""
+ones the engine wrote, and the spots `toOffset()` walks to against the offset they were asked for. Where an event has a
+DAMIT outline, the chord the page draws across it is checked against an independent clip of the same line. Data files
+only; skips without node."""
 import glob
 import json
+import math
 import os
 import shutil
 import subprocess
@@ -50,7 +52,15 @@ for (const ev of input.events) for (const p of input.places) {
   out.push({ s: s, tc: tc, you: A.you(ev, s, tc), off: off });
 }
 // the verdict's three outside bands, at places put there on purpose: half a sigma past the edge, one and a half, two and a half
-const bands = [];
+const bands = [], chords = [];
+for (const ev of input.events) {                  // tracks across DAMIT outlines: the centre line and halfway to each edge
+  if (!ev.shape) continue;
+  const c = A.toOffset(ev.el, input.places[0][0], input.places[0][1], 0);
+  for (const f of [0, 0.5, -0.5]) {
+    const q = A.toOffset(ev.el, c[0], c[1], f * ev.el.R), s = A.solve(ev.el, q[0], q[1]), sc = A.shapeChord(ev, s);
+    chords.push({ id: ev.id, lat: q[0], lon: q[1], km: sc.km, sec: sc.s, across: sc.across });
+  }
+}
 for (const ev of input.events) {
   const sig = ev.sigma_km || 0;
   if (sig < 1) continue;
@@ -72,7 +82,7 @@ for (const ev of input.events.slice(0, 3)) docs.push({ id: ev.id, kml: A.kml(ev)
   tracks: { centre: A.worldTrack(ev.el, input.trackN), left: dense(ev.el, ev.el.R), right: dense(ev.el, -ev.el.R) },
   sky: (function () { const k = A.skyRuns(ev.el, 120); return { dark: k.dark, mids: k.runs.map(function (r) { return [r.cls, r.pts[r.pts.length >> 1]]; }) }; })(),
   band: A.bandRuns(ev.el, [-ev.el.R, -ev.el.R / 2, 0, ev.el.R / 2, ev.el.R], 240).map(function (r) { return r.map(function (l) { return l.length; }); }) });
-process.stdout.write(JSON.stringify({ rows: out, docs: docs, bands: bands }));
+process.stdout.write(JSON.stringify({ rows: out, docs: docs, bands: bands, chords: chords }));
 """
 
 
@@ -90,6 +100,7 @@ def test_js_twins_match_python(path):
     got = json.loads(res.stdout)
     _check_downloads(d, got["docs"])
     _check_bands(d, got["bands"])
+    _check_chords(d, got["chords"])
     js = iter(got["rows"])
     for ev in d["events"]:
         for lat, lon in PLACES:
@@ -97,10 +108,57 @@ def test_js_twins_match_python(path):
             s, tc = local(ev["el"], lat, lon), to_centre(ev["el"], lat, lon)
             for key in ("tau", "d", "speed", "dur", "star_alt", "star_az", "sun_alt"):
                 assert abs(j["s"][key] - s[key]) < 1e-6 * max(1.0, abs(s[key])), (ev["id"], lat, lon, key, j["s"][key], s[key])
+            for key in ("q", "v"):
+                for a, b in zip(j["s"][key], s[key]):
+                    assert abs(a - b) < 1e-6 * max(1.0, abs(b)), (ev["id"], lat, lon, key, j["s"][key], s[key])
+            # the vectors an outline is placed with must say what d already says: the place sits d to the left of the motion.
+            # That holds at a true closest approach; a place so far off that it falls outside the event's window gets a
+            # clamped time, q no longer square to v, and no outline anywhere near it
+            vn = math.hypot(*s["v"])
+            assert abs(math.hypot(*s["q"]) - abs(s["d"])) < 1e-6 * max(1.0, abs(s["d"])), (ev["id"], lat, lon)
+            if abs(s["tau"]) < ev["el"]["W"] - 1e-6:
+                assert abs((s["q"][0] * -s["v"][1] + s["q"][1] * s["v"][0]) / vn - s["d"]) < 1e-3 * max(1.0, abs(s["d"])), (ev["id"], lat, lon)
             assert abs(j["tc"][0] - tc[0]) < 1e-6 * max(1.0, tc[0]) and abs(((j["tc"][1] - tc[1] + 180) % 360) - 180) < 1e-6, (ev["id"], j["tc"], tc)
             assert list(ba.you_html(ev, s, tc)) == j["you"], (ev["id"], lat, lon)
             # every suggested station stands where it says it does: 50 m, even walked from 5,000 km away
             assert max(abs(v) for v in j["off"]) < 0.2, (ev["id"], lat, lon, j["off"])
+
+
+def _check_chords(d, chords):
+    """The page's chord across a DAMIT outline, against a clip of the same line done another way (Cyrus-Beck, against
+    each edge's inward normal) from the engine's own q and v. The outline and q, v share e1/e2 — `basis(k)` is the frame
+    `local()` builds — so the only thing left to get wrong is the clip."""
+    from asteroid_occultations import basis
+    by_id = {e["id"]: e for e in d["events"]}
+    for c in chords:
+        ev = by_id[c["id"]]
+        s = local(ev["el"], c["lat"], c["lon"])
+        k = ev["el"]["k"]
+        e1, e2 = basis(k)
+        n1 = math.hypot(-k[1], k[0])
+        assert abs(e1[0] + k[1] / n1) < 1e-12 and abs(e1[1] - k[0] / n1) < 1e-12, "basis() is not local()'s frame"
+        vn = math.hypot(*s["v"])
+        u = (s["v"][0] / vn, s["v"][1] / vn)
+        lo, hi = -1e9, 1e9
+        h = ev["shape"]["hull"]
+        for a, b in zip(h, h[1:] + h[:1]):
+            nrm = (-(b[1] - a[1]), b[0] - a[0])                       # inward, for a counter-clockwise outline
+            num = nrm[0] * (s["q"][0] - a[0]) + nrm[1] * (s["q"][1] - a[1])
+            den = nrm[0] * u[0] + nrm[1] * u[1]
+            if abs(den) < 1e-12:
+                if num < 0:
+                    lo, hi = 1, 0
+                continue
+            t = -num / den
+            lo, hi = (max(lo, t), hi) if den > 0 else (lo, min(hi, t))
+        want = max(0.0, hi - lo)
+        w = [(-u[1]) * p[0] + u[0] * p[1] for p in h]                  # the outline's extent across the path
+        assert abs(c["across"] - (max(w) - min(w))) < 0.01, (c["id"], c["across"], max(w) - min(w))
+        assert abs(c["km"] - want) < 0.01 + 1e-6 * want, (c["id"], c["km"], want)
+        assert abs(c["sec"] - want / s["speed"]) < 1e-3 + 1e-6 * want, (c["id"], c["sec"])
+    if chords:
+        across = [c["km"] for c in chords[::3]]                     # the centre-line track of each shaped event
+        assert all(k > 0 for k in across), "a centre line that misses its own asteroid's outline"
 
 
 def _check_bands(d, bands):

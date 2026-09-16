@@ -633,8 +633,10 @@ def _dpoly(c, u):
 
 def local(el, lat, lon):
     """Twin of the page's JS `solve()`: closest approach of the shadow axis to a place, from the elements.
-    Returns seconds from t0, signed distance (km, fundamental plane), relative speed, duration (0 outside), and the
-    star's and Sun's altitude and the star's azimuth there at that moment."""
+    Returns seconds from t0, signed distance (km, fundamental plane), relative speed, duration (0 outside), the star's
+    and Sun's altitude and the star's azimuth there at that moment — and, in the fundamental plane's e1/e2 km, `q` the place's
+    offset from the shadow's axis and `v` the shadow's motion past it (km/s), which a model outline needs: q · (left normal
+    of v) is d."""
     la, lo = math.radians(lat), math.radians(lon)
     r = itrs_point(lat, lon)
     up = [math.cos(la) * math.cos(lo), math.cos(la) * math.sin(lo), math.sin(la)]
@@ -682,7 +684,8 @@ def local(el, lat, lon):
     return {"tau": tau, "d": sgn * d, "speed": speed, "dur": 2 * math.sqrt(R * R - d * d) / speed if d < R else 0.0,
             "star_alt": math.degrees(math.asin(max(-1.0, min(1.0, dot(k, upg))))),
             "star_az": (math.degrees(math.atan2(dot(k, eg), dot(k, ng))) + 360) % 360,
-            "sun_alt": math.degrees(math.asin(max(-1.0, min(1.0, dot(el["sun"], upg)))))}
+            "sun_alt": math.degrees(math.asin(max(-1.0, min(1.0, dot(el["sun"], upg))))),
+            "q": [-px, -py], "v": [wx, wy]}
 
 
 def to_centre(el, lat, lon, h=0.02):
@@ -1061,7 +1064,11 @@ def build_month(ym, ctx, fleet, rows, stars, audience="india", log=print):
     kept = [ev for ev in kept if wide_enough(ev, rows)]
     log(f"   {len(kept)} of them with a path at least as wide as its 1-sigma uncertainty")
     fetch_fields(kept, log=log)
+    import asteroid_shapes
+    asteroid_shapes.prepare([rows[ev.ai]["number"] for ev in kept], log)
     out = [event_record(ctx, ev, rows, aud) for ev in kept]
+    for rec in out:                      # from the record's own fields, exactly as `asteroid_shapes.py month` backfills them
+        rec["shape"] = asteroid_shapes.shape_record(rec)
     out.sort(key=lambda e: e["el"]["t0"])
     return {"month": ym, "generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "audience": audience, "bbox": aud["bbox"],

@@ -5,7 +5,7 @@
    the current build and the cache is only the fallback; the pinned Leaflet files and the tiles never change, so they
    come from the cache first. Analytics is left alone. To switch all this off for good, ship an sw.js whose install
    handler is self.registration.unregister(). */
-var ASSETS = 'occult-d63fac66fb', TILES = 'occult-tiles', TILE_MAX = 600, CORE = ["/", "/asteroid", "/js/asteroid.js?v=9ae69ae30d", "/data/world-coarse.json?v=48d12d25ba"];
+var ASSETS = 'occult-ec2b623776', TILES = 'occult-tiles', TILE_MAX = 600, CORE = ["/", "/asteroid", "/js/asteroid.js?v=8ad3586254", "/data/world-coarse.json?v=48d12d25ba"];
 
 self.addEventListener('install', function (e) {
   // one by one, and a failure is allowed: a single missing file must not leave a reader with no offline site at all

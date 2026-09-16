@@ -47,6 +47,7 @@ def facts():
         "ast_from": _ym(ast[0]) if ast else "", "ast_to": _ym(ast[-1]) if ast else "",
         "ast_events": sum(len(json.loads((ROOT / "data" / f"asteroids-{ym}.json").read_text())["events"]) for ym in ast),
         "n_asteroids": sum(1 for _ in open(ROOT / "catalog" / "asteroids.csv")) - 1,
+        "n_shapes": sum(1 for ym in ast for e in json.loads((ROOT / "data" / f"asteroids-{ym}.json").read_text())["events"] if e.get("shape")),
         "n_events": len(evs), "first": evs[0]["date"][:4], "last": evs[-1]["date"][:4], "delta_t": dt_s, "dt_year": nxt["date"][:4],
         "n_stars": sum(1 for _ in open(ROOT / "catalog" / "moonband.csv")) - 1,
         "ms_from": _ym(ms[0]) if ms else "", "ms_to": _ym(ms[-1]) if ms else "",
@@ -75,6 +76,9 @@ def write_page():
                   f"finder charts"),
         ("Asteroids", f"NASA JPL's <b>Small-Body Database</b>: the orbits and diameters of the {f['n_asteroids']:,} asteroids of "
                       f"15 km and more, and each orbit's uncertainty"),
+        ("Asteroid shapes", "<b>DAMIT</b>, the Database of Asteroid Models from Inversion Techniques (Astronomical Institute of "
+                            "Charles University; Ďurech, Sidorin &amp; Kaasalainen 2010), CC BY 4.0: shapes, spin axes and periods "
+                            "worked out from how each asteroid's brightness changes as it turns"),
         ("Planets' poles and rotation", "The IAU Working Group on Cartographic Coordinates and Rotational Elements"),
         ("Earth's rotation (ΔT)", f"Skyfield's tables and their projection forward: ΔT ≈ {f['delta_t']:.0f} s in {f['dt_year']}"),
         ("The Great Red Spot's longitude", f"An observation, not an ephemeris: {g['lon_II']:g}° (System II) on {grs_date}, drifting "
@@ -112,6 +116,12 @@ def write_page():
          "Over two days, every pair the direct search turns up is among the ones the fast search kept — and so are the events "
          "those days are listed with. <i>Automated test.</i>"),
         ("The any-location solver on each asteroid page", "The engine's full model", "Within 0.02 km and 0.1 s. <i>Automated test.</i>"),
+        ("The formula that turns a DAMIT shape to the way it faces at an event", "DAMIT's own light curves",
+         "Rebuilt from the shape alone: 54 light curves of Pallas to 1.6% and 34 of the dog-bone Kleopatra to 3.4%. A reversed "
+         "spin fits 2–3 times worse and a quarter-turn phase error 3–11 times worse, so the check can tell. <i>Automated test.</i>"),
+        ("Where that shape then sits on the sky", "Textbook spherical astronomy",
+         "A made-up spike-shaped model points where the classical ecliptic-to-equatorial formulas say, for stars in all four "
+         "quarters of the sky; mirroring the outline or getting the obliquity's sign wrong fails it. <i>Automated test.</i>"),
         ("The path drawn on each asteroid page's map and world inset", "The engine's own centre line and edges",
          "The browser traces the shadow's track over the Earth from the same compact description — the centre line and both "
          "edges of the band, light time and the turning Earth included: within 0.1 km. <i>Automated test.</i>"),
@@ -199,8 +209,12 @@ def write_page():
     modelled, so “behind Saturn” means behind the globe. The configuration diagrams are pictures, good to about a tenth of a
     planet's radius; the times come from JPL.</li>
     <li><b>The Great Red Spot.</b> Its times are only as good as its assumed longitude: each degree off moves them by 1.65 minutes.</li>
-    <li><b>An asteroid's shape.</b> Each asteroid is a sphere of its catalogue diameter. Real ones are lumpy and tumbling, so the
-    true shadow can be narrower or wider than the band drawn — which is what timing an occultation from several places measures.</li>
+    <li><b>An asteroid's shape.</b> Every path, time and duration is worked out for a sphere of the asteroid's catalogue
+    diameter. Real ones are lumpy, so the true shadow can be narrower or wider than the band drawn — which is what timing an
+    occultation from several places measures. Where DAMIT has a model it rates 2 or better on its own 0–5 scale, with its pole
+    settled, the event page draws that shape as it will be turned, with your chord across it — {f['n_shapes']} of the
+    {f['ast_events']:,} events. Those shapes are convex (dents and craters are not in them), sized to the catalogue diameter,
+    and turned using a rotation period carried forward from the light curves, often across decades. They are shown, not used.</li>
     <li><b>An asteroid path's position.</b> Orbits and star positions are uncertain by a few milliarcseconds, which moves a path
     sideways by kilometres to tens of kilometres; the dashed 1σ lines show by how much. Observers near an edge should expect
     either outcome. A star Gaia flags as hard to fit (high RUWE) is often double, and may fade in steps or not at all.</li>

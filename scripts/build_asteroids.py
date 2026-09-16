@@ -227,7 +227,8 @@ CHART_CSS = """
     .chord, .curve, .world, .strip, .finder { width: 100%; height: auto; display: block; }
     .chord, .curve, .world, .finder { background: var(--sea); border-radius: 8px; }
     .pane-cap { font-size: 0.76rem; color: var(--muted); margin-top: 0.25rem; }
-    .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; }
+    .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; stroke-linejoin: round; }
+    .ch-sphere { fill: none; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
     .ch-chord { stroke: var(--c-limit); stroke-width: 2.4; stroke-linecap: round; }
     .ch-miss { stroke: var(--muted); stroke-width: 1.6; stroke-dasharray: 5 4; }
     .ch-sig { stroke: var(--t-ast); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; fill: none; }
@@ -349,7 +350,7 @@ LIB_JS = r"""
     var ug = G(tau, up), eg = G(tau, east), ng = G(tau, north);
     return { tau: tau, d: sgn * d, speed: speed, dur: d < R ? 2 * Math.sqrt(R * R - d * d) / speed : 0,
              star_alt: Math.asin(clamp(dot(k, ug))) / RAD, star_az: ((Math.atan2(dot(k, eg), dot(k, ng)) / RAD) + 360) % 360,
-             sun_alt: Math.asin(clamp(dot(el.sun, ug))) / RAD };
+             sun_alt: Math.asin(clamp(dot(el.sun, ug))) / RAD, q: [-s[0], -s[1]], v: [s[2], s[3]] };
   }
   function toCentre(el, lat, lon) {   // twin of to_centre()
     var h = 0.02, d0 = solve(el, lat, lon).d;
@@ -379,6 +380,24 @@ LIB_JS = r"""
       la = p[0]; lo = p[1];
     }
     return [la, lo];
+  }
+  function shapeChord(ev, s) {
+    // The place's track across DAMIT's outline: the line through q along the shadow's motion v, clipped by the (convex)
+    // hull, all in the fundamental plane's e1/e2 km — no rotation, so no way to mirror it. null when there is no shape.
+    var h = ev.shape && ev.shape.hull;
+    if (!h) return null;
+    var n = Math.hypot(s.v[0], s.v[1]), ux = s.v[0] / n, uy = s.v[1] / n, wx = -uy, wy = ux;
+    var w0 = s.q[0] * wx + s.q[1] * wy, lo = Infinity, hi = -Infinity, wlo = Infinity, whi = -Infinity;
+    for (var i = 0; i < h.length; i++) {
+      var hw = h[i][0] * wx + h[i][1] * wy;
+      wlo = Math.min(wlo, hw); whi = Math.max(whi, hw);
+      var a = h[i], b = h[(i + 1) % h.length], aw = a[0] * wx + a[1] * wy - w0, bw = b[0] * wx + b[1] * wy - w0;
+      if ((aw <= 0) === (bw <= 0)) continue;
+      var au = a[0] * ux + a[1] * uy, bu = b[0] * ux + b[1] * uy, u = au + (bu - au) * aw / (aw - bw);
+      lo = Math.min(lo, u); hi = Math.max(hi, u);
+    }
+    var km = hi > lo ? hi - lo : 0;
+    return { km: km, s: km / s.speed, u: [lo, hi], frame: [ux, uy, wx, wy], across: whi - wlo };
   }
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
@@ -440,14 +459,26 @@ LIB_JS = r"""
     return o.join('') + '</svg>';
   }
   function chordSvg(ev, s) {
-    var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, S = 210, c = S / 2;
-    var k = (c - 18) / Math.max(R, Math.abs(d), 1), y = c - d * k, o = [];
+    var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, S = 210, c = S / 2, sc = shapeChord(ev, s), h = sc && ev.shape.hull;
+    var ext = h ? Math.max.apply(null, h.map(function (p) { return Math.hypot(p[0], p[1]); })) : 0;
+    var k = (c - 18) / Math.max(R, Math.abs(d), ext, 1), y = c - d * k, o = [];
     o.push('<svg class="chord" viewBox="0 0 ' + S + ' ' + S + '" role="img" aria-label="Your chord across the asteroid">');
-    o.push('<circle class="ch-disc" cx="' + c + '" cy="' + c + '" r="' + (R * k).toFixed(1) + '"/>');
+    if (h) {
+      // across = along the motion (u), up = left of it (w): the same frame d is measured in, so your line sits at w = d
+      var f = sc.frame;
+      o.push('<circle class="ch-sphere" cx="' + c + '" cy="' + c + '" r="' + (R * k).toFixed(1) + '"/>');
+      o.push('<path class="ch-disc" d="M' + h.map(function (p) {
+        return (c + (p[0] * f[0] + p[1] * f[1]) * k).toFixed(1) + ',' + (c - (p[0] * f[2] + p[1] * f[3]) * k).toFixed(1);
+      }).join(' ') + 'Z"/>');
+    } else {
+      o.push('<circle class="ch-disc" cx="' + c + '" cy="' + c + '" r="' + (R * k).toFixed(1) + '"/>');
+    }
     [d - sig, d + sig].forEach(function (v) {
       o.push('<path class="ch-sig" d="M8,' + (c - v * k).toFixed(1) + ' ' + (S - 8) + ',' + (c - v * k).toFixed(1) + '"/>');
     });
-    if (Math.abs(d) < R) {
+    if (sc && sc.km > 0) {
+      o.push('<path class="ch-chord" d="M' + (c + sc.u[0] * k).toFixed(1) + ',' + y.toFixed(1) + ' ' + (c + sc.u[1] * k).toFixed(1) + ',' + y.toFixed(1) + '"/>');
+    } else if (!sc && Math.abs(d) < R) {
       var half = Math.sqrt(R * R - d * d) * k;
       o.push('<path class="ch-chord" d="M' + (c - half).toFixed(1) + ',' + y.toFixed(1) + ' ' + (c + half).toFixed(1) + ',' + y.toFixed(1) + '"/>');
     } else {
@@ -598,7 +629,7 @@ LIB_JS = r"""
 
   window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
                              groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, skyRuns: skyRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
-                             chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
+                             chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines, shapeChord: shapeChord,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();
 """
@@ -1020,6 +1051,18 @@ EVENT_JS = r"""
     el('ev-facts').innerHTML = rows.map(function (r) { return '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>'; }).join('');
     var chordCap = inside ? ('Your chord: ' + F.r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km of the ' + F.r0(2 * R) + ' km disc · ' + F.r1(s.dur) + ' s')
                           : ('Your line misses the ' + F.r0(2 * R) + ' km disc by ' + F.r0(Math.abs(s.d) - R) + ' km; the dashed lines are where 1σ would put it');
+    var sc = A.shapeChord(ev, s), sh = ev.shape;
+    if (sc) {
+      chordCap = (inside ? 'On the ' + F.r0(2 * R) + ' km sphere the times use (dashed): ' + F.r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km, ' + F.r1(s.dur) + ' s. '
+                         : 'The ' + F.r0(2 * R) + ' km sphere the times use (dashed) misses your line. ')
+        + (sc.km > 0 ? 'Across the shape it will actually turn to you: ' + F.r0(sc.km) + ' km, ' + F.r1(sc.s) + ' s.'
+                     : 'The shape, as it will be turned, misses it too.')
+        + (Math.abs(sc.across - 2 * R) > 0.15 * 2 * R
+           ? ' Turned that way it is ' + F.r0(sc.across) + ' km across the path, not ' + F.r0(2 * R) + ': the real path may be '
+             + (sc.across > 2 * R ? 'wider' : 'narrower') + ' than the map shows.' : '')
+        + ' <a href="https://astro.troja.mff.cuni.cz/projects/damit/asteroid_models/view/' + sh.model + '">DAMIT model ' + sh.model + '</a>'
+        + (sh.q != null ? ', quality ' + sh.q : '') + ' (Ďurech et al., CC BY 4.0) — the dashed lines are 1σ.';
+    }
     el('pane-finder').innerHTML = A.finderSvg(ev, tz) + '<p class="pane-cap">The field 24 hours around the event; the star is ringed.</p>';
     el('pane-chord').innerHTML = A.chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + A.stripSvg(ev, s)
       + '<p class="pane-cap">Across the path: the band is the shadow, the paler edge its 1σ.</p>';
