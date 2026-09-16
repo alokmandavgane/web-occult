@@ -1271,5 +1271,7 @@ def build_all(cities, only=None):
 
 if __name__ == "__main__":
     import build_feeds
+    import build_pages
     seed = json.loads((ROOT / "seed.json").read_text())
     build_all(build_feeds.collect_cities(seed), only=sys.argv[1:] or None)
+    build_pages.write_sw()      # the worker precaches this library by its hash: built alone, it would go stale
