@@ -45,7 +45,10 @@ INSTRUMENT = "binoculars"
 STAR_MONTHS = 12
 PAST_DAYS = 7
 HOST = SITE.split("://", 1)[1]
-ALARM_MIN = 30          # a reminder before the hand-picked events and the asteroid shadows
+ALARM_MIN = 30          # a reminder before an event you can watch from where you already are
+AST_DRIVE_KMH = 45.0    # a night drive to the path, with a telescope in the back
+AST_PACK_MIN = 45.0     # pack it, and at the other end find an 11th-magnitude star and get the clock right
+AST_ALARM_MAX = 180     # past three hours a reminder is not a reminder any more
 AST_ALT_MIN, AST_SUN_MAX, AST_PAD_DEG = 10.0, -6.0, 3.0    # when an asteroid path is worth a place's calendar
 
 
@@ -139,7 +142,9 @@ def ics_calendar(name, tzname, events):
               f"DTEND:{stamp(ev['end'])}", f"SUMMARY:{ics_text(ev['summary'])}", f"DESCRIPTION:{ics_text(ev['description'])}",
               f"URL:{ev['url']}", "TRANSP:TRANSPARENT"]
         if ev.get("alarm"):
-            L += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{ics_text(ev['summary'])}", f"TRIGGER:-PT{ALARM_MIN}M", "END:VALARM"]
+            lead = ALARM_MIN if ev["alarm"] is True else int(ev["alarm"])    # True = the standard lead, else minutes
+            L += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{ics_text(ev['summary'])}",
+                  f"TRIGGER:-PT{lead}M", "END:VALARM"]
         L.append("END:VEVENT")
     L.append("END:VCALENDAR")
     return "\r\n".join(fold(x) for x in L) + "\r\n"
@@ -331,7 +336,7 @@ def _city_events(args):
         out.append({"uid": f"occ-{e['slug']}-{slug}@{HOST}", "stamp": e["generated"], "start": start,
                     "end": end if end > start else start + timedelta(minutes=1),
                     "summary": f"The Moon occults {e['target']}" + {"both": "", "rises": " (reappearance only)", "sets": " (disappearance only)"}[seen],
-                    "description": desc, "url": url, "alarm": True})
+                    "description": desc, "url": url, "alarm": ALARM_MIN})
 
     verb = {"D": "disappears", "R": "reappears"}
     items = []
@@ -369,6 +374,16 @@ def _city_events(args):
     return name, slug, out
 
 
+def asteroid_alarm(edge_km):
+    """How long before a shadow the reminder is worth having. Inside the path you are already standing where you need
+    to be, so it is the usual lead. Outside it you have to decide to go, pack a telescope, drive to the edge and set up
+    in the dark — and a reminder that arrives after the moment you should have left is no reminder at all."""
+    if edge_km <= 0:
+        return ALARM_MIN
+    want = ALARM_MIN + AST_PACK_MIN + 60.0 * edge_km / AST_DRIVE_KMH
+    return int(min(AST_ALARM_MAX, 15 * math.ceil(want / 15)))
+
+
 def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
     """The asteroid shadows that reach this place: inside the path, or within the 1-sigma margin where a chord from
     the edge is the most valuable observation of all."""
@@ -390,9 +405,10 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
         inside = abs(s["d"]) <= R
         who = f"({a['ast']['number']}) {a['ast']['name']}"
         url = f"{SITE}/asteroids-{a['ym']}#{a['id']}"
+        edge = 0.0 if inside else ground * (abs(s["d"]) - R) / abs(s["d"])
         where = (f"You are inside the path, {ground:.0f} km from its centre line: the star vanishes for up to {s['dur']:.1f} s."
                  if inside else
-                 f"The predicted edge passes {ground * (abs(s['d']) - R) / abs(s['d']):.0f} km to the {compass(brg)}, so a miss is "
+                 f"The predicted edge passes {edge:.0f} km to the {compass(brg)}, so a miss is "
                  f"likely — but a chord from near the edge is the most valuable observation of all.")
         desc = (f"{who} hides a magnitude {a['star']['v']:.1f} star, seen from {name}.\n{where}\n"
                 f"Closest approach {hms(t)} {zabbr(t)}, give or take {a['sigma_s']:.0f} s. The star is {s['star_alt']:.0f}° up in the "
@@ -401,7 +417,7 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
                 f"{a['ast']['diameter_km']:.0f} km wide, give or take {sig:.0f} km.\n"
                 f"Finder chart, the map and the path as KML: {url}")
         out.append({"uid": f"ast-{a['id']}-{slug}@{HOST}", "stamp": a["gen"], "start": t - timedelta(minutes=5),
-                    "end": t + timedelta(minutes=5), "url": url, "alarm": True, "description": desc,
+                    "end": t + timedelta(minutes=5), "url": url, "alarm": asteroid_alarm(edge), "description": desc,
                     "summary": f"{who} hides a mag {a['star']['v']:.1f} star" + ("" if inside else " (just outside the path)")})
     return out
 
@@ -514,7 +530,8 @@ def write_page(rows):
   Moon is and where, and a link to the full page. Asteroid shadows are in too, when the path crosses your town or comes within
   its margin of error and the star is at least {AST_ALT_MIN:.0f}° up in a dark sky — for a town in India, two or three a month,
   about half of them inside the path. Each says how far you are from the centre line and links the finder chart and the path
-  to drive to. Jupiter's and
+  to drive to. When the path passes to one side of you, the reminder comes early enough to act on — {ALARM_MIN} minutes if you
+  can watch from where you are, and for a drive to the edge, that plus the packing and the driving, up to {AST_ALARM_MAX // 60} hours. Jupiter's and
   Saturn's moons are not included: they have several events a night. Times are computed from the JPL DE431 ephemeris, as on the
   rest of the site.</p>
   <h2>Adding it</h2>

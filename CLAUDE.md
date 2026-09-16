@@ -104,7 +104,11 @@ Rules that are easy to break:
   grid and then runs `MonthModel.events` on the survivors; `tests/test_feeds.py` fails if the screen ever drops an
   event the full solve keeps. Asteroid shadows are in as well (`asteroid_events`): `asteroid_occultations.local` per event
   from the month files, kept when the place is inside the path or within its 1σ margin with the star ≥ `AST_ALT_MIN` up and the
-  Sun ≤ `AST_SUN_MAX` — about 30 a year for an Indian city, half inside the path, and the summary says which; places outside the
+  Sun ≤ `AST_SUN_MAX` — about 30 a year for an Indian city, half inside the path, and the summary says which;
+  the VALARM lead is per event, not the shared `ALARM_MIN`: inside the path you are already standing in the right place, so 30
+  minutes; outside it `asteroid_alarm(edge_km)` adds `AST_PACK_MIN` and the drive at `AST_DRIVE_KMH` (rounded up to a quarter
+  hour, capped at `AST_ALARM_MAX`), because a reminder that arrives after the moment you should have left is no reminder —
+  90 to 180 minutes in practice. An event dict may carry `alarm: True` for the standard lead or a number of minutes; places outside the
   audience bbox (+`AST_PAD_DEG`) skip the solve. Prefilter stars by the chosen instrument's dark-limb limit — using the faintest
   instrument's limit once made the build 6x slower. One entry per double star: the catalogue's `double` column (ADS
   number, else HR) groups components, and `merge_doubles` folds those within an hour into the brightest's entry

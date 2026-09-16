@@ -56,6 +56,29 @@ def test_asteroid_feed_entries_are_the_paths_that_reach_the_place():
         assert ("inside the path" in e["description"]) != ("just outside the path" in e["summary"])
 
 
+def test_asteroid_reminders_leave_time_to_drive():
+    """Half an hour's notice is right for a shadow that crosses your own roof and useless for one whose edge is 30 km
+    away: by then the moment to leave has passed. Inside the path the lead stays the standard one; outside it, it
+    covers deciding, packing and the drive to the edge, and it never runs past the cap."""
+    import build_feeds as bf
+    from asteroid_occultations import to_centre
+    d, recs, on_path, local = _asteroid_feed(*PLACES[0])          # New Delhi
+    by_id = {r["id"]: r for r in recs}
+    inside_n = outside_n = 0
+    for e in on_path:
+        r = by_id[e["uid"].split("@")[0][len("ast-"):-len("-test")]]
+        s, R = local(r["el"], *PLACES[0]), r["el"]["R"]
+        if abs(s["d"]) <= R:
+            assert e["alarm"] == bf.ALARM_MIN, r["id"]
+            inside_n += 1
+            continue
+        edge = to_centre(r["el"], *PLACES[0])[0] * (abs(s["d"]) - R) / abs(s["d"])
+        assert bf.ALARM_MIN < e["alarm"] <= bf.AST_ALARM_MAX, (r["id"], edge, e["alarm"])
+        assert e["alarm"] >= min(bf.AST_ALARM_MAX, bf.ALARM_MIN + bf.AST_PACK_MIN + 60 * edge / bf.AST_DRIVE_KMH), (r["id"], edge)
+        outside_n += 1
+    assert inside_n and outside_n, (inside_n, outside_n)
+
+
 def test_asteroid_entries_stop_at_the_frame():
     _, _, london, _ = _asteroid_feed(*PLACES[2])                   # far outside the audience's map: no solve, no entries
     assert london == []
