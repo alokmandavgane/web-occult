@@ -163,8 +163,13 @@ Rules that are easy to break:
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
   the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there
   is deliberately NO page per event. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
-  OpenStreetMap tiles, for a slippy map of the path with its 1σ lines, minute ticks and a tap-to-move pin — everything
-  else on it is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
+  OpenStreetMap tiles. On that map: the band with its 1σ lines, the whole ground track beyond the frame as a faint dotted
+  line (`worldTrack`), time labels solved in the browser at whatever spacing the zoom allows (10 s to 10 min steps, so the
+  month files' stored `ticks` are now spare), an arrow to the centre line with its distance and bearing, and a **draggable
+  pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it (`history.replaceState`) so "Copy link
+  to this spot" / Share hands a group a link to one station — a link's pin sets the page but NEVER overwrites the
+  reader's own saved `occult-loc`; only their own tap does. "Move to the centre line" walks `to_centre` down its gradient
+  (five spherical steps, lands under 50 m). Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
   drawings, shared by both pages, the way `js/moon.js` is shared. It carries: a **finder chart**
   from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
   all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a

@@ -264,6 +264,17 @@ EVENT_CSS = """
     .ast-dl { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
     .ast-dl .btn { font-size: 0.82rem; }
     .ev-miss { color: var(--muted); }
+    .spot { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.6rem; margin: 0.6rem 0 0; }
+    .spot .btn { font-size: 0.82rem; }
+    .spot-coords { font-variant-numeric: tabular-nums; font-weight: 600; }
+    .spot-url { flex: 1 1 15rem; min-width: 0; font: inherit; font-size: 0.78rem; padding: 0.3rem 0.5rem; border-radius: 8px;
+                border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+    .pin-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--c-limit); border: 3px solid var(--card);
+               box-shadow: 0 0 0 1px var(--c-limit); cursor: grab; }
+    .tick-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; color: var(--text);
+                  background: color-mix(in srgb, var(--card) 86%, transparent); border: 1px solid var(--border); border-radius: 6px;
+                  padding: 0 4px; white-space: nowrap; width: auto !important; height: auto !important; }
+    .tick-dot { background: var(--t-ast); border-radius: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px; }
 """
 
 # ---------------------------------------------------------------------------------------------- site/js/asteroid.js
@@ -413,25 +424,29 @@ LIB_JS = r"""
     o.push('<text class="st-lbl" x="' + ((a + b) / 2).toFixed(1) + '" y="' + (yBot + 14) + '" text-anchor="middle">' + r1(dur) + ' s</text>');
     return o.join('') + '</svg>';
   }
-  function worldTrack(el, n) {
-    var F = FE, k = el.k, n1 = Math.hypot(-k[1], k[0]);
-    var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]], out = [];
-    for (var i = 0; i <= n; i++) {
-      var tau = -el.W + 2 * el.W * i / n, u = tau / el.W, th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
-      var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
-      var toItrs = function (v) {
-        var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
-        return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];      // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
-      };
-      var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - F);
-      var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
-      var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
-      var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
-      var disc = B2 * B2 - Q * C2;
-      if (disc < 0) { out.push(null); continue; }
-      var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
-      out.push([Math.atan2(g[2], (1 - F) * (1 - F) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD]);
+  function groundAt(el, tau) {
+    // where the shadow's axis meets the Earth at t0 + tau: [lat, lon], or null when it misses. The same geometry as
+    // the engine's ground(), which is what tests/test_asteroid_pages.py checks it against.
+    var k = el.k, n1 = Math.hypot(-k[1], k[0]);
+    var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]];
+    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
+    var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
+    function toItrs(v) {
+      var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
+      return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];        // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
     }
+    var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - FE);
+    var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
+    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
+    var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
+    var disc = B2 * B2 - Q * C2;
+    if (disc < 0) return null;
+    var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
+    return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
+  }
+  function worldTrack(el, n) {
+    var out = [];
+    for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
     return out;
   }
   function worldSvg(ev, world, bbox, loc) {
@@ -490,7 +505,7 @@ LIB_JS = r"""
   }
 
   window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, save: save,
-                             worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+                             groundAt: groundAt, worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();
@@ -642,10 +657,14 @@ __JS__
 EVENT_JS = r"""
 (function () {
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
-  var id = new URLSearchParams(location.search).get('e') || '', ym = id.slice(0, 7);
-  var ev = null, LOC = null, map = null, layers = null, world = null;
+  var RAD = Math.PI / 180, params = new URLSearchParams(location.search);
+  var id = params.get('e') || '', ym = id.slice(0, 7);
+  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null;
   var el = function (x) { return document.getElementById(x); };
-  try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {}
+  // a shared link carries a spot: it sets this page, but never overwrites the reader's own saved place
+  var qlat = parseFloat(params.get('lat')), qlon = parseFloat(params.get('lon'));
+  if (isFinite(qlat) && isFinite(qlon)) LOC = { lat: qlat, lon: qlon, label: 'Pinned spot' };
+  if (!LOC) { try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {} }
   if (!LOC) LOC = { lat: META.defaultPlace[1], lon: META.defaultPlace[2], label: META.defaultPlace[0] };
   function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
   function css(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#a8324e'; }
@@ -673,6 +692,16 @@ EVENT_JS = r"""
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
     var c = css('--t-ast'), lines = ev.lines, group = [];
     function poly(runs, opts) { (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
+    // the whole track, so zooming out shows where the shadow comes from and where it goes
+    var seg = [];
+    A.worldTrack(ev.el, 600).forEach(function (p) {
+      if (!p || (seg.length && Math.abs(p[1] - seg[seg.length - 1][1]) > 180)) {
+        if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6' }).addTo(map);
+        seg = [];
+      }
+      if (p) seg.push(p);
+    });
+    if (seg.length > 1) L.polyline(seg, { color: c, weight: 1, opacity: 0.4, dashArray: '2 6' }).addTo(map);
     if (lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
       group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22 }).addTo(map));
     }
@@ -681,23 +710,72 @@ EVENT_JS = r"""
     poly(lines.left, { color: c, weight: 3 });
     poly(lines.right, { color: c, weight: 3 });
     poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
-    (ev.ticks || []).forEach(function (t) {
-      L.circleMarker([t[0], t[1]], { radius: 3, color: c, weight: 1, fillOpacity: 1 })
-        .bindTooltip(F.hm(Date.parse(ev.el.t0) + t[2] * 1000, tzOf(LOC)), { permanent: false })
-        .addTo(map);
-    });
+    ticks = L.layerGroup().addTo(map);
+    arrow = L.layerGroup().addTo(map);
+    me = L.marker([LOC.lat, LOC.lon], { icon: L.divIcon({ className: 'pin-dot', iconSize: [16, 16] }), draggable: true, autoPan: true,
+                                        title: 'Drag to move your spot' }).addTo(map);
+    me.bindPopup('');
+    me.on('dragend', function () { var p = me.getLatLng(); setLoc(p.lat, p.lng, 'Pinned spot'); });
+    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng, 'Pinned spot'); me.openPopup(); });
+    map.on('moveend zoomend', timeLabels);
     var bounds = L.featureGroup(group).getBounds();
     map.fitBounds(bounds.isValid() ? bounds : L.latLngBounds([[META.bbox[1], META.bbox[0]], [META.bbox[3], META.bbox[2]]]), { padding: [16, 16] });
-    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng); });
-    layers = { me: null };
   }
 
-  function placeMe() {
+  function timeLabels() {
+    // the time the shadow reaches each place along the centre line, solved here rather than stored: as many labels as
+    // the zoom has room for, on round steps of ten seconds to ten minutes
+    if (!map || !ticks) return;
+    ticks.clearLayers();
+    var L = window.L, t0 = Date.parse(ev.el.t0), t0s = Math.round(t0 / 1000), W = ev.el.W, tz = tzOf(LOC), b = map.getBounds();
+    var g0 = A.groundAt(ev.el, 0), g1 = A.groundAt(ev.el, 60);
+    if (!g0 || !g1) return;
+    var pxMin = map.latLngToContainerPoint(g0).distanceTo(map.latLngToContainerPoint(g1)) || 1, step = 60, best = 1e9;
+    [10, 20, 30, 60, 120, 300, 600].forEach(function (s) { var d = Math.abs(pxMin * s / 60 - 130); if (d < best) { best = d; step = s; } });
+    var first = Math.ceil((t0s - W) / step) * step, last = 0;
+    for (var u = first; u <= t0s + W; u += step) {
+      var g = A.groundAt(ev.el, u - t0s);
+      if (!g || !b.contains([g[0], g[1]])) continue;
+      var px = map.latLngToContainerPoint(g);
+      if (last && px.distanceTo(last) < 80) continue;
+      last = px;
+      ticks.addLayer(L.marker(g, { icon: L.divIcon({ className: 'tick-dot', iconSize: [6, 6] }), interactive: false }));
+      ticks.addLayer(L.marker(g, { interactive: false, icon: L.divIcon({ className: 'tick-label', iconSize: null,
+        html: step < 60 ? F.t(u * 1000, tz) : F.hm(u * 1000, tz) }) }));
+    }
+  }
+
+  function dest(lat, lon, brg, km) {        // step km along a bearing, on a sphere
+    var R = 6371, d = km / R, bb = brg * RAD, la = lat * RAD, lo = lon * RAD;
+    var la2 = Math.asin(Math.sin(la) * Math.cos(d) + Math.cos(la) * Math.sin(d) * Math.cos(bb));
+    var lo2 = lo + Math.atan2(Math.sin(bb) * Math.sin(d) * Math.cos(la), Math.cos(d) - Math.sin(la) * Math.sin(la2));
+    return [la2 / RAD, ((lo2 / RAD + 540) % 360) - 180];
+  }
+  function centrePoint() {                  // the nearest place on the centre line, by walking down the gradient
+    var lat = LOC.lat, lon = LOC.lon;
+    for (var i = 0; i < 5; i++) {
+      var tc = A.toCentre(ev.el, lat, lon);
+      if (!isFinite(tc[0]) || tc[0] < 0.05) break;
+      var p = dest(lat, lon, tc[1], tc[0]);
+      lat = p[0]; lon = p[1];
+    }
+    return [lat, lon];
+  }
+  function placeMe(s, tc, y) {
     if (!map) return;
     var L = window.L;
-    if (layers.me) map.removeLayer(layers.me);
-    layers.me = L.circleMarker([LOC.lat, LOC.lon], { radius: 7, color: css('--c-limit'), weight: 2, fillColor: css('--c-limit'), fillOpacity: 0.6 })
-      .bindPopup(LOC.label).addTo(map);
+    me.setLatLng([LOC.lat, LOC.lon]);
+    var t = Date.parse(ev.el.t0) + s.tau * 1000, tz = tzOf(LOC), inside = Math.abs(s.d) <= ev.el.R;
+    me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + '<br>'
+      + y[1] + '<br><span class="hint">' + y[2] + '</span>');
+    arrow.clearLayers();
+    if (tc[0] > 1) {
+      var target = centrePoint();
+      L.polyline([[LOC.lat, LOC.lon], target], { color: css('--c-limit'), weight: 2, dashArray: '5 5', interactive: false })
+        .bindTooltip(F.r0(tc[0]) + ' km ' + F.compass(tc[1]) + ' to the centre line', { permanent: true, direction: 'center', className: 'tick-label' })
+        .addTo(arrow);
+    }
+    timeLabels();
   }
 
   function render() {
@@ -733,8 +811,33 @@ EVENT_JS = r"""
     if (!world) fetch(META.world).then(function (r) { return r.json(); }).then(function (w) {
       world = w; el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
     }).catch(function () { world = []; });
-    placeMe();
+    placeMe(s, tc, y);
+    syncUrl();
   }
+
+  function syncUrl() {
+    var q = '?e=' + encodeURIComponent(id) + '&lat=' + LOC.lat.toFixed(4) + '&lon=' + LOC.lon.toFixed(4);
+    try { history.replaceState(null, '', q); } catch (e) {}
+    el('spot-coords').textContent = LOC.lat.toFixed(4) + ', ' + LOC.lon.toFixed(4);
+    el('spot-url').value = location.origin + location.pathname + q;
+  }
+  el('spot-copy').addEventListener('click', function () {
+    var b = el('spot-copy'), done = function () { b.textContent = 'Link copied'; setTimeout(function () { b.textContent = 'Copy link to this spot'; }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText(el('spot-url').value).then(done, function () { el('spot-url').select(); });
+    else { el('spot-url').select(); document.execCommand('copy'); done(); }
+  });
+  if (navigator.share) {
+    el('spot-share').hidden = false;
+    el('spot-share').addEventListener('click', function () {
+      navigator.share({ title: document.title, text: 'Asteroid occultation — my spot', url: el('spot-url').value }).catch(function () {});
+    });
+  }
+  el('spot-centre').addEventListener('click', function () {
+    if (!ev) return;
+    var p = centrePoint();
+    setLoc(p[0], p[1], 'On the centre line');
+    if (map) map.panTo(p);
+  });
 
   document.getElementById('ast-dl').addEventListener('click', function (e) {
     var b = e.target.closest('[data-dl]');
@@ -788,8 +891,16 @@ EVENT_TEMPLATE = """
     <p class="hint" id="ev-look"></p>
   </header>
   <div id="map"></div>
-  <p class="map-note">Shaded: the path, as wide as the asteroid. Dashed either side: one standard deviation. Dots along the
-  centre line are whole minutes — hover for the time. Tap the map to move your position.</p>
+  <p class="map-note">Shaded: the path, as wide as the asteroid. Dashed either side: one standard deviation. The faint dotted
+  line is the rest of the track around the world. Labels along the centre line are the time the shadow passes there.
+  <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
+  <div class="spot">
+    <span class="spot-coords" id="spot-coords"></span>
+    <button class="btn" id="spot-centre" type="button">Move to the centre line</button>
+    <button class="btn" id="spot-copy" type="button">Copy link to this spot</button>
+    <button class="btn" id="spot-share" type="button" hidden>Share</button>
+    <input class="spot-url" id="spot-url" readonly aria-label="Link to this spot">
+  </div>
   <div class="ast-dl" id="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
   <div class="ev-panes">
     <div id="pane-finder"></div>

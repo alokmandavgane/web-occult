@@ -143,25 +143,29 @@
     o.push('<text class="st-lbl" x="' + ((a + b) / 2).toFixed(1) + '" y="' + (yBot + 14) + '" text-anchor="middle">' + r1(dur) + ' s</text>');
     return o.join('') + '</svg>';
   }
-  function worldTrack(el, n) {
-    var F = FE, k = el.k, n1 = Math.hypot(-k[1], k[0]);
-    var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]], out = [];
-    for (var i = 0; i <= n; i++) {
-      var tau = -el.W + 2 * el.W * i / n, u = tau / el.W, th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
-      var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
-      var toItrs = function (v) {
-        var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
-        return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];      // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
-      };
-      var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - F);
-      var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
-      var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
-      var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
-      var disc = B2 * B2 - Q * C2;
-      if (disc < 0) { out.push(null); continue; }
-      var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
-      out.push([Math.atan2(g[2], (1 - F) * (1 - F) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD]);
+  function groundAt(el, tau) {
+    // where the shadow's axis meets the Earth at t0 + tau: [lat, lon], or null when it misses. The same geometry as
+    // the engine's ground(), which is what tests/test_asteroid_pages.py checks it against.
+    var k = el.k, n1 = Math.hypot(-k[1], k[0]);
+    var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]];
+    var u = Math.max(-1, Math.min(1, tau / el.W)), th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
+    var x = poly(el.x, u), y = poly(el.y, u), R0 = el.R0;
+    function toItrs(v) {
+      var p = [R0[0] * v[0] + R0[1] * v[1] + R0[2] * v[2], R0[3] * v[0] + R0[4] * v[1] + R0[5] * v[2], R0[6] * v[0] + R0[7] * v[1] + R0[8] * v[2]];
+      return [ct * p[0] + st * p[1], -st * p[0] + ct * p[1], p[2]];        // Rz(-theta) R0: GCRS -> ITRS at t0 + tau
     }
+    var b = toItrs([x * e1[0] + y * e2[0], x * e1[1] + y * e2[1], x * e1[2] + y * e2[2]]), ki = toItrs(k), sc = 1 / (1 - FE);
+    var a2 = [b[0], b[1], b[2] * sc], k2 = [ki[0], ki[1], ki[2] * sc];
+    var Q = k2[0] * k2[0] + k2[1] * k2[1] + k2[2] * k2[2];
+    var B2 = a2[0] * k2[0] + a2[1] * k2[1] + a2[2] * k2[2], C2 = a2[0] * a2[0] + a2[1] * a2[1] + a2[2] * a2[2] - AE * AE;
+    var disc = B2 * B2 - Q * C2;
+    if (disc < 0) return null;
+    var lam = (-B2 + Math.sqrt(disc)) / Q, g = [b[0] + lam * ki[0], b[1] + lam * ki[1], b[2] + lam * ki[2]];
+    return [Math.atan2(g[2], (1 - FE) * (1 - FE) * Math.hypot(g[0], g[1])) / RAD, Math.atan2(g[1], g[0]) / RAD];
+  }
+  function worldTrack(el, n) {
+    var out = [];
+    for (var i = 0; i <= n; i++) out.push(groundAt(el, -el.W + 2 * el.W * i / n));
     return out;
   }
   function worldSvg(ev, world, bbox, loc) {
@@ -220,7 +224,7 @@
   }
 
   window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, save: save,
-                             worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+                             groundAt: groundAt, worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
 })();
