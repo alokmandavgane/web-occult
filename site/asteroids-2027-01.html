@@ -218,6 +218,7 @@
     .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
            border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
     .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
+    .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
     .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
     .ast-map .land { stroke-width: 0.5; } .ast-map .border { stroke-width: 0.5; }
     .ast-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); stroke: none; }
@@ -305,7 +306,7 @@
   basic analytics. <a href="/method">How this is computed</a> · <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 
-<script src="/js/asteroid.js?v=a8b93a188c"></script>
+<script src="/js/asteroid.js?v=9ae69ae30d"></script>
 <script>
 
 (function () {

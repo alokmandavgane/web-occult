@@ -77,6 +77,9 @@ def you_html(ev, s, tc):
     if d <= R + sig:
         return "near", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
                         f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look
+    if d <= R + 2 * sig:
+        return "chance", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
+                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look
     return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look
 
 
@@ -198,6 +201,7 @@ AST_CSS = """
     .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
            border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
     .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
+    .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
     .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
     .ast-map .land { stroke-width: 0.5; } .ast-map .border { stroke-width: 0.5; }
     .ast-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); stroke: none; }
@@ -255,6 +259,7 @@ EVENT_CSS = """
     .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
     .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
     .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
+    .ev-verdict.v-chance { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
     .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
     .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
@@ -376,6 +381,7 @@ LIB_JS = r"""
     var edge = d > 0 ? ground * (d - R) / d : 0;
     if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look];
     if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look];
+    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look];
     return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look];
   }
 

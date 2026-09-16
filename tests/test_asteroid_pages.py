@@ -49,6 +49,17 @@ for (const ev of input.events) for (const p of input.places) {
   });
   out.push({ s: s, tc: tc, you: A.you(ev, s, tc), off: off });
 }
+// the verdict's three outside bands, at places put there on purpose: half a sigma past the edge, one and a half, two and a half
+const bands = [];
+for (const ev of input.events) {
+  const sig = ev.sigma_km || 0;
+  if (sig < 1) continue;
+  const c = A.toOffset(ev.el, input.places[0][0], input.places[0][1], 0);
+  for (const k of [0.5, 1.5, 2.5]) {
+    const q = A.toOffset(ev.el, c[0], c[1], ev.el.R + k * sig), s = A.solve(ev.el, q[0], q[1]), tc = A.toCentre(ev.el, q[0], q[1]);
+    bands.push({ id: ev.id, k: k, lat: q[0], lon: q[1], you: A.you(ev, s, tc) });
+  }
+}
 function dense(el, off) {
   const n = input.trackN, o = [];
   for (let i = 0; i <= n; i++) o.push(A.groundAt(el, -el.W + 2 * el.W * i / n, off));
@@ -61,7 +72,7 @@ for (const ev of input.events.slice(0, 3)) docs.push({ id: ev.id, kml: A.kml(ev)
   tracks: { centre: A.worldTrack(ev.el, input.trackN), left: dense(ev.el, ev.el.R), right: dense(ev.el, -ev.el.R) },
   sky: (function () { const k = A.skyRuns(ev.el, 120); return { dark: k.dark, mids: k.runs.map(function (r) { return [r.cls, r.pts[r.pts.length >> 1]]; }) }; })(),
   band: A.bandRuns(ev.el, [-ev.el.R, -ev.el.R / 2, 0, ev.el.R / 2, ev.el.R], 240).map(function (r) { return r.map(function (l) { return l.length; }); }) });
-process.stdout.write(JSON.stringify({ rows: out, docs: docs }));
+process.stdout.write(JSON.stringify({ rows: out, docs: docs, bands: bands }));
 """
 
 
@@ -78,6 +89,7 @@ def test_js_twins_match_python(path):
     assert res.returncode == 0, res.stderr[-2000:]
     got = json.loads(res.stdout)
     _check_downloads(d, got["docs"])
+    _check_bands(d, got["bands"])
     js = iter(got["rows"])
     for ev in d["events"]:
         for lat, lon in PLACES:
@@ -89,6 +101,22 @@ def test_js_twins_match_python(path):
             assert list(ba.you_html(ev, s, tc)) == j["you"], (ev["id"], lat, lon)
             # every suggested station stands where it says it does: 50 m, even walked from 5,000 km away
             assert max(abs(v) for v in j["off"]) < 0.2, (ev["id"], lat, lon, j["off"])
+
+
+def _check_bands(d, bands):
+    """The verdict outside the path comes in three bands — within 1σ worth watching, within 2σ a long shot, beyond that
+    a plain miss — and the text is written twice. Places chosen at 0.5, 1.5 and 2.5σ past the edge land one in each, and
+    the two halves must agree word for word there, since the fixed test places rarely fall between 1σ and 2σ."""
+    by_id = {e["id"]: e for e in d["events"]}
+    want = {0.5: "near", 1.5: "chance", 2.5: "out"}
+    assert bands, "no event with a sigma to test"
+    for b in bands:
+        ev = by_id[b["id"]]
+        s, tc = local(ev["el"], b["lat"], b["lon"]), to_centre(ev["el"], b["lat"], b["lon"])
+        py = list(ba.you_html(ev, s, tc))
+        assert py == b["you"], (b["id"], b["k"], py, b["you"])
+        if s["star_alt"] >= 0:
+            assert py[0] == want[b["k"]], (b["id"], b["k"], py[0])
 
 
 def _check_downloads(d, docs):

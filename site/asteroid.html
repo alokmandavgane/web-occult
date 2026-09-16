@@ -218,6 +218,7 @@
     .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
            border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
     .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
+    .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
     .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
     .ast-map .land { stroke-width: 0.5; } .ast-map .border { stroke-width: 0.5; }
     .ast-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); stroke: none; }
@@ -270,6 +271,7 @@
     .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
     .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
     .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
+    .ev-verdict.v-chance { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
     .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
     .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
@@ -384,7 +386,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous"></script>
-<script src="/js/asteroid.js?v=a8b93a188c"></script>
+<script src="/js/asteroid.js?v=9ae69ae30d"></script>
 <script>
 
 (function () {

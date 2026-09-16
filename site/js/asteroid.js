@@ -84,6 +84,7 @@
     var edge = d > 0 ? ground * (d - R) / d : 0;
     if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look];
     if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look];
+    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look];
     return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look];
   }
 
