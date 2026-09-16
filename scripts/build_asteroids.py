@@ -745,7 +745,7 @@ EVENT_JS = r"""
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
   var RAD = Math.PI / 180, params = new URLSearchParams(location.search);
   var id = params.get('e') || '', ym = id.slice(0, 7);
-  var ev = null, LOC = null, map = null, me = null, ticks = null, arrow = null, world = null, stns = null, SKY = null, play = null;
+  var ev = null, LOC = null, map = null, me = null, ticks = null, world = null, stns = null, SKY = null, play = null;
   var BAND_F = [0, 0.35, 0.62, 0.82, 0.94, 1];       // the ribbons the band is shaded in, as fractions of its half width
   var STATION_F = [-0.8, -0.4, 0, 0.4, 0.8];         // where a line of observers would stand across it
   var stnOn = false, stnPts = [];
@@ -821,7 +821,6 @@ EVENT_JS = r"""
     poly(lines.right, { color: c, weight: 3 });
     poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
     ticks = L.layerGroup().addTo(map);
-    arrow = L.layerGroup().addTo(map);
     stns = L.layerGroup().addTo(map);
     me = L.marker([LOC.lat, LOC.lon], { icon: L.divIcon({ className: 'pin-dot', iconSize: [16, 16] }), draggable: true, autoPan: true,
                                         title: 'Drag to move your spot' }).addTo(map);
@@ -906,18 +905,10 @@ EVENT_JS = r"""
   }
   function placeMe(s, tc, y) {
     if (!map) return;
-    var L = window.L;
     me.setLatLng([LOC.lat, LOC.lon]);
     var t = Date.parse(ev.el.t0) + s.tau * 1000, tz = tzOf(LOC), inside = Math.abs(s.d) <= ev.el.R;
     me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + '<br>'
       + y[1] + '<br><span class="hint">' + y[2] + '</span>');
-    arrow.clearLayers();
-    if (tc[0] > 1) {
-      var target = centrePoint();
-      L.polyline([[LOC.lat, LOC.lon], target], { color: css('--c-limit'), weight: 2, dashArray: '5 5', interactive: false })
-        .bindTooltip(F.r0(tc[0]) + ' km ' + F.compass(tc[1]) + ' to the centre line', { permanent: true, direction: 'center', className: 'tick-label' })
-        .addTo(arrow);
-    }
     timeLabels();
     drawStations();
   }

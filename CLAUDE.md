@@ -202,15 +202,16 @@ Rules that are easy to break:
   to 10 min steps, so the month files' stored `ticks` are now spare); "▶ Play the shadow", nine seconds for the whole
   crossing, sweeping the bar of places whose mid-event is happening then (`groundAt` at +R, 0, −R) — it advances by
   elapsed time clamped to 100 ms a frame, so a hidden tab (rAF stops) resumes instead of jumping to the end, and a frame
-  queued when Stop is pressed returns on `if (!play)`; an arrow to the centre line with its distance and
-  bearing; and a **draggable pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it
+  queued when Stop is pressed returns on `if (!play)`; and a **draggable pin**: tap or drag to put your spot anywhere, and `?e=<id>&lat=&lon=` follows it
   (`history.replaceState`) so "Copy link to this spot" / Share hands a group a link to one station — a link's pin sets the
   page but NEVER overwrites the reader's own saved `occult-loc`; only their own tap does. "Suggest stations" places five
   spots across the path at the nearest point of it (`STATION_F` = ±0.8, ±0.4, 0 of the half width), each listed with its
   chord in seconds and clickable to become your spot: a picket fence is what turns timings into a shape. Every drawn layer
   is `interactive: false` — only the pin and the station markers take a click, so a tap on the band itself reaches the map
   and moves the pin (Leaflet gives a click to the topmost interactive layer and NOT to the map). "Move to the centre line"
-  is `toOffset(el, lat, lon, 0)`. Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
+  is `toOffset(el, lat, lon, 0)`. There is deliberately no arrow or label from the pin to the centre line: it was tried,
+  permanently labelled "N km SSE to the centre line", and removed as clutter — the distance is already in the verdict, the
+  pin's popup and the facts table. Everything else on the page is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
   drawings, shared by both pages, the way `js/moon.js` is shared. It carries: a **finder chart**
   from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
   all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a
