@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google tag (gtag.js) — shared property with alokm.com, eclipse/zsd/inc. Plain multi-page
+       site, so the automatic page_view is right here (the Compose apps disable it and publish their own). -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GD7LT48Y79"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GD7LT48Y79');</script>
+  <title>Asteroid occultation · Occult</title>
+  <meta name="description" content="Everything for one asteroid occultation: the path on a map, how close it passes you, the finder chart, the chord you would time, how far the star fades, and the path as KML.">
+  <link rel="canonical" href="https://occult.alokm.com/asteroid">
+  <meta property="og:title" content="Asteroid occultation · Occult">
+  <meta property="og:description" content="Everything for one asteroid occultation: the path on a map, how close it passes you, the finder chart, the chord you would time, how far the star fades, and the path as KML.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://occult.alokm.com/asteroid">
+  <meta property="og:site_name" content="Occult">
+  <meta property="og:image" content="https://occult.alokm.com/og/asteroids.png?v=4499934eeb">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Asteroid occultations: a star blinks out as an asteroid&#x27;s shadow crosses India">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0f17" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%230c0f17%22/%3E%3Cmask%20id%3D%22m%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23fff%22/%3E%3Ccircle%20cx%3D%2219.5%22%20cy%3D%2213.5%22%20r%3D%229.5%22%20fill%3D%22%23000%22/%3E%3C/mask%3E%3Ccircle%20cx%3D%2214.5%22%20cy%3D%2217.5%22%20r%3D%2210.5%22%20fill%3D%22%23ece8dd%22%20mask%3D%22url%28%23m%29%22/%3E%3Ccircle%20cx%3D%2225.5%22%20cy%3D%227.5%22%20r%3D%222.3%22%20fill%3D%22%23f2b54a%22/%3E%3C/svg%3E">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Occult">
+  <style>
+    /* Almanac paper by day, night sky by night; lapis / moonlight accent. System fonts only: no web fonts, no requests. */
+    :root { color-scheme: light dark;
+            --bg: #f6f3ec; --card: #fffdf8; --card-2: #f0ebe0; --border: #e5dfd2; --line: #d5cdbb;
+            --text: #1c1a16; --muted: #6f685b; --accent: #2f5597;
+            --sea: #eaeef0; --land: #e3ddcf; --land-line: #c8bfad;
+            --c-visible: #2f7a3e; --c-miss: #b83a2e; --c-down: #a39e92; --c-limit: #c26a0a; --c-night: #6a4bb0;
+            --region: rgba(47,85,151,0.18); --region-line: rgba(47,85,151,0.55); --night: rgba(106,75,176,0.18);
+            --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Charter, Georgia, serif; }
+    @media (prefers-color-scheme: dark) { :root {
+            --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50;
+            --text: #ece8dd; --muted: #9aa0ae; --accent: #a9c1f0;
+            --sea: #090c13; --land: #1c2230; --land-line: #343d52;
+            --c-visible: #6fd394; --c-miss: #f08a7e; --c-down: #6b7180; --c-limit: #f2b54a; --c-night: #c3b4f5;
+            --region: rgba(169,193,240,0.18); --region-line: rgba(169,193,240,0.55); --night: rgba(195,180,245,0.2); } }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-text-size-adjust: 100%; }
+    body { background: radial-gradient(ellipse 900px 420px at 88% -180px, color-mix(in srgb, var(--accent) 10%, transparent), transparent 72%) no-repeat, var(--bg);
+           color: var(--text); line-height: 1.55; padding-bottom: 4rem;
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+           font-feature-settings: "tnum"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header.site { padding: 1.1rem 1rem; }
+    .site-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; max-width: 860px; margin: 0 auto; }
+    .brand { font-weight: 700; font-size: 1.1rem; color: var(--text); letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 0.45rem; }
+    .brand:hover { text-decoration: none; }
+    .brand svg { width: 1.1em; height: 1.1em; }
+    .tagline { color: var(--muted); font-size: 0.85rem; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
+    h1 { font-family: var(--serif); font-size: clamp(1.7rem, 4.2vw, 2.35rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.005em; margin: 1.6rem 0 0.35rem; }
+    .sub { color: var(--muted); }
+    h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; }
+    p { margin: 0.55rem 0; }
+    .lead { font-size: 1.1rem; margin-top: 1rem; }
+    .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.6rem; margin: 1.2rem 0; }
+    .fact { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 0.9rem; }
+    .facts-main { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 1.1rem; }
+    .facts-main .fact { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+    .facts-main .fact-value { font-size: 1.45rem; white-space: nowrap; }
+    .meta { color: var(--muted); font-size: 0.88rem; }
+    .fact-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+    .fact-value { font-size: 1.3rem; font-weight: 700; margin-top: 0.15rem; letter-spacing: -0.01em; }
+    .fact-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+    .map-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem; }
+    .occ-svg { width: 100%; height: auto; display: block; border-radius: 8px; }
+    .occ-inset { max-width: 420px; margin: 0.6rem auto 0; }
+    .sea { fill: var(--sea); }
+    .land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.8; }
+    .border { fill: none; stroke: var(--land-line); stroke-width: 0.7; }
+    .region { fill: var(--region); stroke: var(--region-line); stroke-width: 1; }
+    .night { fill: var(--night); stroke: none; }
+    .limit { fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+    .limit-north, .limit-south { stroke: var(--c-limit); }
+    .limit-horizon { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 5 4; }
+    .limit-grid { stroke: var(--c-limit); stroke-width: 1; opacity: 0.35; stroke-dasharray: 3 3; }
+    .frame { fill: none; stroke: var(--c-limit); stroke-width: 1.2; }
+    .city { stroke: var(--card); stroke-width: 1; }
+    .city-visible { fill: var(--c-visible); }
+    .city-miss { fill: var(--c-miss); }
+    .city-moon_down { fill: var(--c-down); }
+    .city-label { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); paint-order: stroke; stroke: var(--card); stroke-width: 3px; stroke-linejoin: round; }
+    .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; font-size: 0.82rem; color: var(--muted); margin: 0.7rem 0.2rem 0.1rem; }
+    .legend span::before { content: ''; display: inline-block; width: 0.8em; height: 0.8em; border-radius: 50%; margin-right: 0.4em; vertical-align: -0.05em; }
+    .lg-region::before { background: var(--region-line); border-radius: 2px !important; }
+    .lg-night::before { background: var(--c-night); opacity: 0.6; border-radius: 2px !important; }
+    .lg-limit::before { background: var(--c-limit); height: 0.25em !important; vertical-align: 0.25em !important; }
+    .lg-visible::before { background: var(--c-visible); }
+    .lg-miss::before { background: var(--c-miss); }
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--border); border-radius: 14px; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); white-space: nowrap; vertical-align: top; }
+    tbody tr:last-child td { border-bottom: 0; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
+    th small { font-weight: 400; text-transform: none; letter-spacing: 0; }
+    td small { display: block; color: var(--muted); font-size: 0.75rem; }
+    tr.v-miss td { color: var(--muted); }
+    tr.v-miss td:first-child { color: var(--c-miss); }
+    tr.v-visible td:first-child { color: var(--c-visible); font-weight: 600; }
+    tr.v-down td { color: var(--c-down); }
+    tr.nearest td { background: rgba(217,119,6,0.12); }
+    details { border-top: 1px solid var(--border); }
+    summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; padding: 0.6rem 0.75rem; }
+    .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .method { font-size: 0.85rem; color: var(--muted); }
+    .limb-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; max-width: 480px; margin: 0.6rem auto; }
+    .limb-controls { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.9rem; }
+    .limb-controls select { font: inherit; padding: 0.3rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 60vw; }
+    .limb-readout { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+    .limb-svg { width: 100%; height: auto; display: block; margin: 0.5rem 0; }
+    .limb-svg .disc-dark { fill: #2a2f3a; }
+    .limb-svg .disc-bright { fill: #f2e9c9; }
+    .limb-svg .disc-edge { fill: none; stroke: var(--line); stroke-width: 1; }
+    .limb-svg .crater { fill: none; stroke-width: 0.8; stroke-linejoin: round; }
+    .limb-svg .crater-night { stroke: #aab3c5; opacity: 0.16; }
+    .limb-svg .crater-day { stroke: #7d6e4c; opacity: 0.4; }
+    .limb-svg .track { fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 4 3; }
+    .limb-svg .track-hidden { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.35; }
+    .limb-svg .contact { fill: var(--c-limit); }
+    .limb-svg .target { fill: #fff; stroke: var(--accent); stroke-width: 1.2; }
+    .limb-svg .lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .limb-svg .miss-note { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--c-miss); }
+    input[type=range] { width: 100%; accent-color: var(--accent); }
+    details.advanced { border: 1px dashed var(--line); border-radius: 12px; padding: 0 0.8rem; margin: 1.2rem 0 0; }
+    details.advanced summary { color: var(--muted); font-size: 0.85rem; padding: 0.55rem 0; }
+    details.advanced[open] summary { color: var(--accent); }
+    details.advanced .graze-card { margin-bottom: 0.8rem; }
+    .graze-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; }
+    .graze-svg { width: 100%; height: auto; display: block; }
+    .gz-sky { fill: var(--sea); }
+    .gz-terrain { fill: #6b7280; opacity: 0.85; }
+    .gz-mean { stroke: var(--muted); stroke-width: 0.8; stroke-dasharray: 3 3; }
+    .gz-star { fill: none; stroke: var(--c-limit); stroke-width: 2; }
+    .gz-disc { fill: var(--c-limit); opacity: 0.2; }
+    .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
+    .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
+    .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+    .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+    .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
+    .subnav-links::-webkit-scrollbar { display: none; }
+    .subnav-links a { color: var(--muted); font-size: 0.85rem; padding: 0.3rem 0.55rem; border-radius: 999px; white-space: nowrap; }
+    .subnav-links a:hover { text-decoration: none; color: var(--text); }
+    .subnav-links a.active { color: var(--text); background: var(--card-2); }
+    .chip { display: inline-flex; align-items: center; gap: 0.4rem; max-width: 55vw; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem 0.3rem 0.5rem; font: inherit; font-size: 0.85rem; color: var(--text); cursor: pointer; white-space: nowrap; overflow: hidden; }
+    .chip:hover { border-color: var(--accent); }
+    .chip-pin { font-size: 0.9em; }
+    .chip-sub { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; }
+    .chip-sub:empty { display: none; }
+    .sheet { border: 1px solid var(--border); border-radius: 16px; background: var(--card); color: var(--text); padding: 0; max-width: 420px; width: calc(100% - 2rem); }
+    .sheet::backdrop { background: rgba(0,0,0,0.45); }
+    .sheet-body { padding: 1rem 1.1rem 1.1rem; display: grid; gap: 0.7rem; }
+    .sheet-title { font-weight: 700; font-size: 1.05rem; }
+    .sheet-hint { color: var(--muted); font-size: 0.82rem; margin: 0; }
+    .sheet label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; }
+    .sheet select { flex: 1; }
+    .btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    @media (max-width: 600px) { .sheet { margin: auto 0 0; width: 100%; max-width: none; border-radius: 16px 16px 0 0; } }
+    .hint { color: var(--muted); font-size: 0.85rem; }
+    tr.yours td { background: color-mix(in srgb, var(--c-limit) 14%, transparent); }
+    tr.yours td:first-child { color: var(--c-limit); font-weight: 600; }
+    .loc-row { display: flex; flex-wrap: wrap; gap: 0.5rem 0.8rem; align-items: center; font-size: 0.9rem; }
+    .loc-row input { font: inherit; width: 7.5rem; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+    .loc-row select { font: inherit; padding: 0.35rem 0.5rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); max-width: 45vw; }
+    .loc-result { margin: 0.4rem 0 0.6rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; }
+    .loc-result .fact-value { font-size: 1.15rem; }
+    .loc-result .verdict { grid-column: 1 / -1; font-weight: 600; }
+    .loc-result .verdict.miss { color: var(--c-miss); } .loc-result .verdict.visible { color: var(--c-visible); } .loc-result .verdict.moon_down { color: var(--c-down); }
+    #main-map { cursor: crosshair; }
+    .pin-ring { fill: none; stroke: var(--c-limit); stroke-width: 2; } .pin-dot { fill: var(--c-limit); }
+    .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
+    .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
+    .event-card:hover { border-color: var(--accent); text-decoration: none; }
+    .event-card .when { color: var(--muted); font-size: 0.85rem; }
+    .event-card .what { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; margin: 0.15rem 0; }
+    .event-card .note { color: var(--muted); font-size: 0.92rem; }
+    .event-list-months { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+    .event-list-months .event-card .what { font-size: 1rem; }
+    footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
+    /* character: serif display lines, the mark's star in the limit colour, quiet focus and selection */
+    .brand, .night-head h3, .feed-city, .sheet-title, .event-card .what { font-family: var(--serif); letter-spacing: 0; }
+    .brand { font-size: 1.2rem; }
+    .brand .mark-star { fill: var(--c-limit); }
+    h2 { letter-spacing: 0.12em; }
+    ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+    footer { border-top-style: dotted; }
+</style>
+  <style>
+    :root { --t-ast: #a8324e; }
+    @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; } }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
+    .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
+    .chipbox input { accent-color: var(--t-ast); }
+    .chipbox:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
+    .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 0.9rem 0 1.2rem; }
+    .cal-wd { font-size: 0.68rem; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: 0.06em; }
+    .cal-cell { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0 5px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--muted); min-height: 50px; }
+    .cal-cell.empty { background: none; border: 0; }
+    .cal-cell.has { color: var(--text); border-color: color-mix(in srgb, var(--t-ast) 55%, var(--border)); }
+    .cal-cell.mine { background: color-mix(in srgb, var(--t-ast) 16%, var(--card)); }
+    a.cal-cell:hover { text-decoration: none; border-color: var(--t-ast); }
+    .cal-d { font-size: 0.78rem; font-weight: 600; line-height: 1; }
+    .cal-n { font-size: 0.75rem; font-weight: 700; color: var(--t-ast); min-height: 0.9rem; line-height: 0.9rem; }
+    .night { margin: 1.4rem 0 0; scroll-margin-top: 72px; }
+    .night-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.3rem 0.8rem; flex-wrap: wrap; border-bottom: 1px solid var(--border); padding-bottom: 0.2rem; }
+    .night-head h3 { font-size: 1.05rem; margin: 0; }
+    .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
+           border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
+    .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
+    .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
+    .ast-map .land { stroke-width: 0.5; } .ast-map .border { stroke-width: 0.5; }
+    .ast-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); stroke: none; }
+    .ast-lim { fill: none; stroke: var(--t-ast); stroke-width: 2.2; stroke-linejoin: round; }
+    .ast-sig { fill: none; stroke: var(--t-ast); stroke-width: 1.4; stroke-dasharray: 5 4; opacity: 0.75; }
+    .ast-cl { fill: none; stroke: var(--t-ast); stroke-width: 0.9; opacity: 0.8; }
+    .ast-pin { fill: var(--c-limit); stroke: var(--card); stroke-width: 2.5; }
+    .ast-time { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+    .ast-top small { color: var(--muted); white-space: nowrap; }
+    .ast-name { font-family: var(--serif); }
+    .ast-star { white-space: nowrap; }
+    .ast-you { font-size: 0.92rem; margin-top: 0.1rem; }
+    .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
+    .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
+    .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
+    .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
+    @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
+    .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
+
+    .chord, .curve, .world, .strip, .finder { width: 100%; height: auto; display: block; }
+    .chord, .curve, .world, .finder { background: var(--sea); border-radius: 8px; }
+    .pane-cap { font-size: 0.76rem; color: var(--muted); margin-top: 0.25rem; }
+    .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; }
+    .ch-chord { stroke: var(--c-limit); stroke-width: 2.4; stroke-linecap: round; }
+    .ch-miss { stroke: var(--muted); stroke-width: 1.6; stroke-dasharray: 5 4; }
+    .ch-sig { stroke: var(--t-ast); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; fill: none; }
+    .st-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); }
+    .st-sig { fill: color-mix(in srgb, var(--t-ast) 12%, transparent); }
+    .st-axis { stroke: var(--line); stroke-width: 1; }
+    .st-you { fill: var(--c-limit); }
+    .st-lbl { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .cv-line { fill: none; stroke: var(--c-limit); stroke-width: 2; stroke-linejoin: round; }
+    .cv-line.centre { stroke: var(--muted); stroke-dasharray: 5 4; stroke-width: 1.6; }
+    .cv-axis { stroke: var(--line); stroke-width: 1; }
+    .cv-sig { fill: color-mix(in srgb, var(--c-limit) 20%, transparent); }
+    .wd-land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.3; }
+    .wd-path { fill: none; stroke: var(--t-ast); stroke-width: 1.6; }
+    .wd-frame { fill: none; stroke: var(--c-limit); stroke-width: 0.8; }
+    .fd-edge { fill: none; stroke: var(--line); stroke-width: 0.8; }
+    .fd-star { fill: var(--text); }
+    .fd-target { fill: none; stroke: var(--c-limit); stroke-width: 1.6; }
+    .fd-track { fill: none; stroke: var(--t-ast); stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .fd-tick { fill: var(--t-ast); }
+    .fd-lbl { font: 500 8px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .fd-cap { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+
+    .ev-head { margin: 1.2rem 0 0.2rem; }
+    .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
+    .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
+    .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
+    #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
+    .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
+    .map-note { font-size: 0.78rem; color: var(--muted); }
+    .ev-panes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 1.2rem 0 0; align-items: start; }
+    .ev-facts { width: 100%; font-size: 0.9rem; }
+    .ev-facts th { width: 42%; color: var(--muted); font-weight: 500; text-transform: none; letter-spacing: 0; font-size: 0.85rem; }
+    .ev-facts td, .ev-facts th { padding: 0.3rem 0.6rem; white-space: normal; }
+    .ast-dl { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+    .ast-dl .btn { font-size: 0.82rem; }
+    .ev-miss { color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="site-row">
+    <a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><mask id="mark-cut"><rect width="32" height="32" fill="#fff"/><circle cx="19.5" cy="13.5" r="9.5" fill="#000"/></mask><circle cx="14.5" cy="17.5" r="10.5" fill="currentColor" mask="url(#mark-cut)"/><circle class="mark-star" cx="25.5" cy="7.5" r="2.3"/></svg>Occult</a>
+    <span class="tagline">lunar occultations, computed</span>
+  </div>
+</header>
+
+<nav class="subnav">
+  <div class="subnav-row">
+    <div class="subnav-links"><a id="back" href="/#asteroids">‹ All months</a></div>
+    <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">New Delhi</span></button>
+  </div>
+</nav>
+<dialog id="loc-sheet" class="sheet" aria-label="Location">
+  <form method="dialog" class="sheet-body">
+    <div class="sheet-title">Location</div>
+    <label>City <select id="loc-city"><option value="">—</option><option value="Agartala">Agartala</option><option value="Agra">Agra</option><option value="Ahmedabad">Ahmedabad</option><option value="Aizawl">Aizawl</option><option value="Ajmer">Ajmer</option><option value="Akola">Akola</option><option value="Allahabad">Allahabad</option><option value="Almora">Almora</option><option value="Ambala">Ambala</option><option value="Amritsar">Amritsar</option><option value="Anand">Anand</option><option value="Asansol">Asansol</option><option value="Aurangabad">Aurangabad</option><option value="Ayodhya">Ayodhya</option><option value="Balasore">Balasore</option><option value="Bangalore">Bangalore</option><option value="Bankura">Bankura</option><option value="Bareilly">Bareilly</option><option value="Bauxar">Bauxar</option><option value="Belgaon">Belgaon</option><option value="Berhampur">Berhampur</option><option value="Bhagalpur">Bhagalpur</option><option value="Bharatpur">Bharatpur</option><option value="Bhavnagar">Bhavnagar</option><option value="Bhopal">Bhopal</option><option value="Bhubaneswar">Bhubaneswar</option><option value="Bhuj">Bhuj</option><option value="Bijapur">Bijapur</option><option value="Bikaner">Bikaner</option><option value="Bilaspur">Bilaspur</option><option value="Bokaro">Bokaro</option><option value="Cannanore">Cannanore</option><option value="Champa">Champa</option><option value="Chandigarh">Chandigarh</option><option value="Chennai">Chennai</option><option value="Chittoor (A.P.)">Chittoor (A.P.)</option><option value="Chittorgarh">Chittorgarh</option><option value="Cochin">Cochin</option><option value="Coimbatore">Coimbatore</option><option value="Cooch Bihar">Cooch Bihar</option><option value="Cuddalore">Cuddalore</option><option value="Cuttack">Cuttack</option><option value="Darjeeling">Darjeeling</option><option value="Dehradun">Dehradun</option><option value="Delhi">Delhi</option><option value="Dhanbad">Dhanbad</option><option value="Diamond Harbour">Diamond Harbour</option><option value="Dibrugarh">Dibrugarh</option><option value="Dimapur">Dimapur</option><option value="Diu">Diu</option><option value="Durg">Durg</option><option value="Dwarka">Dwarka</option><option value="Etawah">Etawah</option><option value="Faizabad">Faizabad</option><option value="Ferozpur">Ferozpur</option><option value="Gandhinagar">Gandhinagar</option><option value="Gangtok">Gangtok</option><option value="Gaya">Gaya</option><option value="Gopalpur">Gopalpur</option><option value="Gorakhpur">Gorakhpur</option><option value="Gulmarg">Gulmarg</option><option value="Gurgaon">Gurgaon</option><option value="Guwahati">Guwahati</option><option value="Gwalior">Gwalior</option><option value="Haridwar">Haridwar</option><option value="Hassan">Hassan</option><option value="Hubli">Hubli</option><option value="Hyderabad">Hyderabad</option><option value="Imphal">Imphal</option><option value="Indore">Indore</option><option value="Itanagar">Itanagar</option><option value="Jabalpur">Jabalpur</option><option value="Jaipur">Jaipur</option><option value="Jaisalmer">Jaisalmer</option><option value="Jalandhar">Jalandhar</option><option value="Jalpaiguri">Jalpaiguri</option><option value="Jammu">Jammu</option><option value="Jamshedpur">Jamshedpur</option><option value="Jhansi">Jhansi</option><option value="Jodhpur">Jodhpur</option><option value="Jorhat">Jorhat</option><option value="Kanpur">Kanpur</option><option value="Kanyakumari">Kanyakumari</option><option value="Kavalur">Kavalur</option><option value="Kharagpur">Kharagpur</option><option value="Kohima">Kohima</option><option value="Kolhapur">Kolhapur</option><option value="Kolkata">Kolkata</option><option value="Koraput">Koraput</option><option value="Kota">Kota</option><option value="Kozhikode">Kozhikode</option><option value="Kurnool">Kurnool</option><option value="Lucknow">Lucknow</option><option value="Ludhiana">Ludhiana</option><option value="Machilipatnam">Machilipatnam</option><option value="Madurai">Madurai</option><option value="Mangalore">Mangalore</option><option value="Mathura">Mathura</option><option value="Meerut">Meerut</option><option value="Midnapore">Midnapore</option><option value="Mount Abu">Mount Abu</option><option value="Mumbai">Mumbai</option><option value="Murshidabad">Murshidabad</option><option value="Mussoorie">Mussoorie</option><option value="Muzaffarpur">Muzaffarpur</option><option value="Mysore">Mysore</option><option value="Nagpur">Nagpur</option><option value="Nainital">Nainital</option><option value="Nalgonda">Nalgonda</option><option value="Nashik">Nashik</option><option value="Nellore">Nellore</option><option value="Nowgong">Nowgong</option><option value="Panaji">Panaji</option><option value="Pantnagar">Pantnagar</option><option value="Paradeep">Paradeep</option><option value="Pathankot">Pathankot</option><option value="Patna">Patna</option><option value="Pondicherry">Pondicherry</option><option value="Port Blair">Port Blair</option><option value="Pune">Pune</option><option value="Puri">Puri</option><option value="Raipur">Raipur</option><option value="Rajkot">Rajkot</option><option value="Rameswaram">Rameswaram</option><option value="Ranchi">Ranchi</option><option value="Roorkee">Roorkee</option><option value="Rourkela">Rourkela</option><option value="Salem">Salem</option><option value="Shillong">Shillong</option><option value="Shimla">Shimla</option><option value="Silchar">Silchar</option><option value="Sriharikota">Sriharikota</option><option value="Srinagar">Srinagar</option><option value="Surat">Surat</option><option value="Thanjavur">Thanjavur</option><option value="Tezpur">Tezpur</option><option value="Thiruvananthapuram">Thiruvananthapuram</option><option value="Tiruchirappalli">Tiruchirappalli</option><option value="Tirupati">Tirupati</option><option value="Udaipur">Udaipur</option><option value="Ujjain">Ujjain</option><option value="Vadodara">Vadodara</option><option value="Varanasi">Varanasi</option><option value="Vellore">Vellore</option><option value="Vijayawada">Vijayawada</option><option value="Visakhapatnam">Visakhapatnam</option></select></label>
+    <div class="loc-row">
+      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
+      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
+    </div>
+    <div class="loc-row">
+      <button class="btn btn-primary" id="loc-go" type="button">Apply</button>
+      <button class="btn" id="loc-geo" type="button">Use my location</button>
+      <button class="btn" value="cancel">Close</button>
+    </div>
+  </form>
+</dialog>
+<main class="wrap" id="ev-main">
+  <header class="ev-head">
+    <p class="sub" id="ev-when">Loading…</p>
+    <h1 id="ev-title">Asteroid occultation</h1>
+    <p class="ev-verdict" id="ev-verdict"></p>
+    <p class="hint" id="ev-look"></p>
+  </header>
+  <div id="map"></div>
+  <p class="map-note">Shaded: the path, as wide as the asteroid. Dashed either side: one standard deviation. Dots along the
+  centre line are whole minutes — hover for the time. Tap the map to move your position.</p>
+  <div class="ast-dl" id="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
+  <div class="ev-panes">
+    <div id="pane-finder"></div>
+    <div id="pane-chord"></div>
+    <div id="pane-curve"></div>
+    <div id="pane-world"></div>
+  </div>
+  <h2>The numbers</h2>
+  <div class="table-wrap"><table class="ev-facts"><tbody id="ev-facts"></tbody></table></div>
+  <p class="method">Everything here is computed for the place in the chip above: the time is when the shadow passes closest
+  to you, and the chord and fade are what you would record there. The asteroid is a sphere of its catalogue diameter, so a
+  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.</p>
+  <noscript><p class="method">This page draws itself in the browser. Without JavaScript, the month pages list every event
+  with its path and times.</p></noscript>
+  <script type="application/json" id="ast-meta">{"months":{"2026-09":"/data/asteroids-2026-09.json?v=ef02d42545","2026-10":"/data/asteroids-2026-10.json?v=af83da4252","2026-11":"/data/asteroids-2026-11.json?v=ac176886a1","2026-12":"/data/asteroids-2026-12.json?v=b74659f717","2027-01":"/data/asteroids-2027-01.json?v=ffc3d81986","2027-02":"/data/asteroids-2027-02.json?v=27cbd6cac1","2027-03":"/data/asteroids-2027-03.json?v=da27eaaf03","2027-04":"/data/asteroids-2027-04.json?v=e701450cde","2027-05":"/data/asteroids-2027-05.json?v=a958354205","2027-06":"/data/asteroids-2027-06.json?v=2102a759cf","2027-07":"/data/asteroids-2027-07.json?v=f537875647","2027-08":"/data/asteroids-2027-08.json?v=08a8f0c7b5"},"monthLabels":{"2026-09":"September 2026","2026-10":"October 2026","2026-11":"November 2026","2026-12":"December 2026","2027-01":"January 2027","2027-02":"February 2027","2027-03":"March 2027","2027-04":"April 2027","2027-05":"May 2027","2027-06":"June 2027","2027-07":"July 2027","2027-08":"August 2027"},"cities":{"Agartala":[23.831,91.287,"Asia/Kolkata"],"Agra":[27.177,78.008,"Asia/Kolkata"],"Ahmedabad":[23.023,72.571,"Asia/Kolkata"],"Aizawl":[23.727,92.718,"Asia/Kolkata"],"Ajmer":[26.45,74.64,"Asia/Kolkata"],"Akola":[20.7,77.008,"Asia/Kolkata"],"Allahabad":[25.436,81.846,"Asia/Kolkata"],"Almora":[29.597,79.659,"Asia/Kolkata"],"Ambala":[30.378,76.777,"Asia/Kolkata"],"Amritsar":[31.634,74.872,"Asia/Kolkata"],"Anand":[22.564,72.929,"Asia/Kolkata"],"Asansol":[23.689,86.966,"Asia/Kolkata"],"Aurangabad":[19.876,75.343,"Asia/Kolkata"],"Ayodhya":[26.792,82.2,"Asia/Kolkata"],"Balasore":[21.493,86.913,"Asia/Kolkata"],"Bangalore":[12.972,77.595,"Asia/Kolkata"],"Bankura":[23.232,87.065,"Asia/Kolkata"],"Bareilly":[28.367,79.43,"Asia/Kolkata"],"Bauxar":[25.565,83.978,"Asia/Kolkata"],"Belgaon":[15.85,74.498,"Asia/Kolkata"],"Berhampur":[19.315,84.794,"Asia/Kolkata"],"Bhagalpur":[25.242,86.984,"Asia/Kolkata"],"Bharatpur":[27.215,77.503,"Asia/Kolkata"],"Bhavnagar":[21.765,72.152,"Asia/Kolkata"],"Bhopal":[23.26,77.413,"Asia/Kolkata"],"Bhubaneswar":[20.296,85.825,"Asia/Kolkata"],"Bhuj":[23.242,69.667,"Asia/Kolkata"],"Bijapur":[16.83,75.71,"Asia/Kolkata"],"Bikaner":[28.023,73.312,"Asia/Kolkata"],"Bilaspur":[22.08,82.141,"Asia/Kolkata"],"Bokaro":[23.669,86.151,"Asia/Kolkata"],"Cannanore":[11.874,75.37,"Asia/Kolkata"],"Champa":[22.035,82.658,"Asia/Kolkata"],"Chandigarh":[30.733,76.779,"Asia/Kolkata"],"Chennai":[13.083,80.271,"Asia/Kolkata"],"Chittoor (A.P.)":[13.217,79.1,"Asia/Kolkata"],"Chittorgarh":[24.889,74.627,"Asia/Kolkata"],"Cochin":[9.931,76.267,"Asia/Kolkata"],"Coimbatore":[11.017,76.956,"Asia/Kolkata"],"Cooch Bihar":[26.345,89.448,"Asia/Kolkata"],"Cuddalore":[11.748,79.771,"Asia/Kolkata"],"Cuttack":[20.462,85.883,"Asia/Kolkata"],"Darjeeling":[27.041,88.266,"Asia/Kolkata"],"Dehradun":[30.317,78.032,"Asia/Kolkata"],"Delhi":[28.614,77.209,"Asia/Kolkata"],"Dhanbad":[23.796,86.43,"Asia/Kolkata"],"Diamond Harbour":[22.191,88.187,"Asia/Kolkata"],"Dibrugarh":[27.473,94.912,"Asia/Kolkata"],"Dimapur":[25.907,93.727,"Asia/Kolkata"],"Diu":[20.714,70.987,"Asia/Kolkata"],"Durg":[21.19,81.285,"Asia/Kolkata"],"Dwarka":[22.239,68.968,"Asia/Kolkata"],"Etawah":[26.786,79.015,"Asia/Kolkata"],"Faizabad":[26.773,82.145,"Asia/Kolkata"],"Ferozpur":[30.933,74.614,"Asia/Kolkata"],"Gandhinagar":[23.216,72.637,"Asia/Kolkata"],"Gangtok":[27.339,88.606,"Asia/Kolkata"],"Gaya":[24.796,84.999,"Asia/Kolkata"],"Gopalpur":[19.259,84.905,"Asia/Kolkata"],"Gorakhpur":[26.761,83.373,"Asia/Kolkata"],"Gulmarg":[34.048,74.38,"Asia/Kolkata"],"Gurgaon":[28.459,77.027,"Asia/Kolkata"],"Guwahati":[26.145,91.736,"Asia/Kolkata"],"Gwalior":[26.218,78.183,"Asia/Kolkata"],"Haridwar":[29.946,78.164,"Asia/Kolkata"],"Hassan":[13.007,76.1,"Asia/Kolkata"],"Hubli":[15.365,75.124,"Asia/Kolkata"],"Hyderabad":[17.385,78.487,"Asia/Kolkata"],"Imphal":[24.817,93.937,"Asia/Kolkata"],"Indore":[22.72,75.858,"Asia/Kolkata"],"Itanagar":[27.084,93.605,"Asia/Kolkata"],"Jabalpur":[23.181,79.986,"Asia/Kolkata"],"Jaipur":[26.912,75.787,"Asia/Kolkata"],"Jaisalmer":[26.916,70.908,"Asia/Kolkata"],"Jalandhar":[31.326,75.576,"Asia/Kolkata"],"Jalpaiguri":[26.517,88.733,"Asia/Kolkata"],"Jammu":[32.727,74.857,"Asia/Kolkata"],"Jamshedpur":[22.805,86.203,"Asia/Kolkata"],"Jhansi":[25.448,78.569,"Asia/Kolkata"],"Jodhpur":[26.239,73.024,"Asia/Kolkata"],"Jorhat":[26.751,94.204,"Asia/Kolkata"],"Kanpur":[26.45,80.332,"Asia/Kolkata"],"Kanyakumari":[8.088,77.538,"Asia/Kolkata"],"Kavalur":[12.577,78.831,"Asia/Kolkata"],"Kharagpur":[22.346,87.232,"Asia/Kolkata"],"Kohima":[25.675,94.109,"Asia/Kolkata"],"Kolhapur":[16.705,74.243,"Asia/Kolkata"],"Kolkata":[22.573,88.364,"Asia/Kolkata"],"Koraput":[18.814,82.712,"Asia/Kolkata"],"Kota":[25.214,75.865,"Asia/Kolkata"],"Kozhikode":[11.259,75.78,"Asia/Kolkata"],"Kurnool":[15.828,78.037,"Asia/Kolkata"],"Lucknow":[26.847,80.946,"Asia/Kolkata"],"Ludhiana":[30.901,75.857,"Asia/Kolkata"],"Machilipatnam":[16.188,81.139,"Asia/Kolkata"],"Madurai":[9.925,78.12,"Asia/Kolkata"],"Mangalore":[12.914,74.856,"Asia/Kolkata"],"Mathura":[27.492,77.674,"Asia/Kolkata"],"Meerut":[28.985,77.706,"Asia/Kolkata"],"Midnapore":[22.426,87.32,"Asia/Kolkata"],"Mount Abu":[24.593,72.716,"Asia/Kolkata"],"Mumbai":[19.076,72.878,"Asia/Kolkata"],"Murshidabad":[24.174,88.27,"Asia/Kolkata"],"Mussoorie":[30.46,78.064,"Asia/Kolkata"],"Muzaffarpur":[26.121,85.365,"Asia/Kolkata"],"Mysore":[12.296,76.639,"Asia/Kolkata"],"Nagpur":[21.146,79.088,"Asia/Kolkata"],"Nainital":[29.392,79.454,"Asia/Kolkata"],"Nalgonda":[17.058,79.269,"Asia/Kolkata"],"Nashik":[19.997,73.79,"Asia/Kolkata"],"Nellore":[14.443,79.987,"Asia/Kolkata"],"Nowgong":[26.349,92.684,"Asia/Kolkata"],"Panaji":[15.491,73.828,"Asia/Kolkata"],"Pantnagar":[29.021,79.474,"Asia/Kolkata"],"Paradeep":[20.317,86.611,"Asia/Kolkata"],"Pathankot":[32.275,75.652,"Asia/Kolkata"],"Patna":[25.609,85.138,"Asia/Kolkata"],"Pondicherry":[11.942,79.808,"Asia/Kolkata"],"Port Blair":[11.623,92.727,"Asia/Kolkata"],"Pune":[18.52,73.857,"Asia/Kolkata"],"Puri":[19.814,85.831,"Asia/Kolkata"],"Raipur":[21.251,81.63,"Asia/Kolkata"],"Rajkot":[22.304,70.802,"Asia/Kolkata"],"Rameswaram":[9.288,79.313,"Asia/Kolkata"],"Ranchi":[23.344,85.31,"Asia/Kolkata"],"Roorkee":[29.854,77.888,"Asia/Kolkata"],"Rourkela":[22.26,84.854,"Asia/Kolkata"],"Salem":[11.664,78.146,"Asia/Kolkata"],"Shillong":[25.579,91.893,"Asia/Kolkata"],"Shimla":[31.105,77.173,"Asia/Kolkata"],"Silchar":[24.833,92.779,"Asia/Kolkata"],"Sriharikota":[13.72,80.23,"Asia/Kolkata"],"Srinagar":[34.084,74.797,"Asia/Kolkata"],"Surat":[21.17,72.831,"Asia/Kolkata"],"Thanjavur":[10.787,79.138,"Asia/Kolkata"],"Tezpur":[26.634,92.801,"Asia/Kolkata"],"Thiruvananthapuram":[8.524,76.937,"Asia/Kolkata"],"Tiruchirappalli":[10.79,78.705,"Asia/Kolkata"],"Tirupati":[13.629,79.419,"Asia/Kolkata"],"Udaipur":[24.585,73.713,"Asia/Kolkata"],"Ujjain":[23.177,75.788,"Asia/Kolkata"],"Vadodara":[22.307,73.181,"Asia/Kolkata"],"Varanasi":[25.318,82.974,"Asia/Kolkata"],"Vellore":[12.916,79.132,"Asia/Kolkata"],"Vijayawada":[16.506,80.648,"Asia/Kolkata"],"Visakhapatnam":[17.687,83.219,"Asia/Kolkata"]},"bbox":[66.0,4.0,98.0,38.0],"defaultPlace":["New Delhi",28.6139,77.209,"Asia/Kolkata"],"world":"/data/world-coarse.json?v=48d12d25ba"}</script>
+</main>
+
+<footer>
+  <p>Computed from the JPL DE431 ephemeris, for the Moon's mean limb. Static pages; no tracking beyond
+  basic analytics. <a href="/method">How this is computed</a> · <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous"></script>
+<script src="/js/asteroid.js?v=2e6802a022"></script>
+<script>
+
+(function () {
+  var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
+  var id = new URLSearchParams(location.search).get('e') || '', ym = id.slice(0, 7);
+  var ev = null, LOC = null, map = null, layers = null, world = null;
+  var el = function (x) { return document.getElementById(x); };
+  try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {}
+  if (!LOC) LOC = { lat: META.defaultPlace[1], lon: META.defaultPlace[2], label: META.defaultPlace[0] };
+  function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
+  function css(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#a8324e'; }
+
+  if (!META.months[ym]) return fail();
+  fetch(META.months[ym]).then(function (r) { return r.json(); }).then(function (d) {
+    ev = (d.events || []).filter(function (x) { return x.id === id; })[0];
+    if (!ev) return fail();
+    el('back').href = '/asteroids-' + ym;
+    el('back').textContent = '‹ ' + META.monthLabels[ym];
+    document.title = '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a star · Occult';
+    drawMap();
+    render();
+  }).catch(fail);
+
+  function fail() {
+    el('ev-main').innerHTML = '<h1>Event not found</h1><p class="sub">That occultation is not on the site.</p>'
+      + '<p><a href="/#asteroids">All asteroid months →</a></p>';
+  }
+
+  function drawMap() {
+    var L = window.L;
+    if (!L) { el('map').innerHTML = '<p class="map-note" style="padding:1rem">The map needs JavaScript from cdnjs; the drawings below work without it.</p>'; return; }
+    map = L.map('map', { scrollWheelZoom: false });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+    var c = css('--t-ast'), lines = ev.lines, group = [];
+    function poly(runs, opts) { (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
+    if (lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
+      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22 }).addTo(map));
+    }
+    poly(lines.left_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
+    poly(lines.right_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
+    poly(lines.left, { color: c, weight: 3 });
+    poly(lines.right, { color: c, weight: 3 });
+    poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
+    (ev.ticks || []).forEach(function (t) {
+      L.circleMarker([t[0], t[1]], { radius: 3, color: c, weight: 1, fillOpacity: 1 })
+        .bindTooltip(F.hm(Date.parse(ev.el.t0) + t[2] * 1000, tzOf(LOC)), { permanent: false })
+        .addTo(map);
+    });
+    var bounds = L.featureGroup(group).getBounds();
+    map.fitBounds(bounds.isValid() ? bounds : L.latLngBounds([[META.bbox[1], META.bbox[0]], [META.bbox[3], META.bbox[2]]]), { padding: [16, 16] });
+    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng); });
+    layers = { me: null };
+  }
+
+  function placeMe() {
+    if (!map) return;
+    var L = window.L;
+    if (layers.me) map.removeLayer(layers.me);
+    layers.me = L.circleMarker([LOC.lat, LOC.lon], { radius: 7, color: css('--c-limit'), weight: 2, fillColor: css('--c-limit'), fillOpacity: 0.6 })
+      .bindPopup(LOC.label).addTo(map);
+  }
+
+  function render() {
+    if (!ev) return;
+    var tz = tzOf(LOC), s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc);
+    var t = Date.parse(ev.el.t0) + s.tau * 1000, a = ev.asteroid, st = ev.star, R = ev.el.R, inside = Math.abs(s.d) <= R;
+    el('chip-name').textContent = LOC.label;
+    el('ev-title').textContent = '(' + a.number + ') ' + a.name + ' hides a magnitude ' + F.r1(st.v) + ' star';
+    el('ev-when').textContent = F.date(t, tz) + ' · ' + F.t(t, tz) + ' at ' + LOC.label + (ev.sigma_s ? ' ± ' + F.r1(ev.sigma_s) + ' s' : '');
+    var verdict = el('ev-verdict');
+    verdict.className = 'ev-verdict v-' + y[0];
+    verdict.textContent = y[1];
+    el('ev-look').textContent = y[2];
+    var rows = [
+      ['Asteroid', '(' + a.number + ') ' + a.name + ' · ' + F.r0(a.diameter_km) + ' km across · magnitude ' + F.r1(a.mag) + ' · ' + F.r1(a.dist_au) + ' au away'],
+      ['Star', 'Gaia DR3 ' + st.gaia + ' · magnitude ' + F.r1(st.v) + ' (G ' + F.r1(st.g) + ')' + (st.ruwe && st.ruwe > 1.4 ? ' · RUWE ' + st.ruwe + ', may be double' : '')],
+      ['The fade', F.r1(ev.drop) + ' magnitudes, to ' + F.r1(ev.combined_mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
+      ['From here', inside ? F.r1(s.dur) + ' s, ' + F.r0(tc[0]) + ' km from the centre line' : 'outside the path, ' + F.r0(tc[0]) + ' km from the centre line'],
+      ['The path', F.r0(2 * R) + ' km wide, ± ' + F.r0(ev.sigma_km || 0) + ' km (1σ) · shadow at ' + F.r1(ev.speed_kms) + ' km/s'],
+      ['The sky here', 'star ' + F.r0(s.star_alt) + '° up in the ' + F.compass(s.star_az) + ' · ' + F.sky(s.sun_alt)
+        + ' · Moon ' + F.r0(ev.moon_illum * 100) + '% lit, ' + F.r0(ev.moon_sep) + '° away'],
+      ['Geocentric', ev.t_geo.replace('T', ' ').replace('Z', ' UTC') + ' · shadow on the Earth ' + ev.earth[0].slice(11, 19) + '–' + ev.earth[1].slice(11, 19) + ' UTC']
+    ];
+    el('ev-facts').innerHTML = rows.map(function (r) { return '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>'; }).join('');
+    var chordCap = inside ? ('Your chord: ' + F.r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km of the ' + F.r0(2 * R) + ' km disc · ' + F.r1(s.dur) + ' s')
+                          : ('Your line misses the ' + F.r0(2 * R) + ' km disc by ' + F.r0(Math.abs(s.d) - R) + ' km; the dashed lines are where 1σ would put it');
+    el('pane-finder').innerHTML = A.finderSvg(ev, tz) + '<p class="pane-cap">The field 24 hours around the event; the star is ringed.</p>';
+    el('pane-chord').innerHTML = A.chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + A.stripSvg(ev, s)
+      + '<p class="pane-cap">Across the path: the band is the shadow, the paler edge its 1σ.</p>';
+    el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
+      + ': ' + F.r1(ev.drop) + ' mag for ' + F.r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + F.r1(ev.sigma_s || 0) + ' s</p>';
+    el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
+    if (!world) fetch(META.world).then(function (r) { return r.json(); }).then(function (w) {
+      world = w; el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
+    }).catch(function () { world = []; });
+    placeMe();
+  }
+
+  document.getElementById('ast-dl').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-dl]');
+    if (!b || !ev) return;
+    A.save(ev.id + '.' + b.dataset.dl, b.dataset.dl === 'kml' ? A.kml(ev) : A.gpx(ev),
+           b.dataset.dl === 'kml' ? 'application/vnd.google-earth.kml+xml' : 'application/gpx+xml');
+  });
+  var sheet = el('loc-sheet'), latI = el('loc-lat'), lonI = el('loc-lon'), sel = el('loc-city');
+  function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
+    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    render(); }
+  el('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
+  sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
+  el('loc-go').addEventListener('click', function () { setLoc(latI.value, lonI.value); sheet.close(); });
+  sel.addEventListener('change', function () { var c = META.cities[sel.value]; if (c) { setLoc(c[0], c[1], sel.value); sheet.close(); } });
+  var geo = el('loc-geo'); if (!navigator.geolocation) geo.hidden = true;
+  geo.addEventListener('click', function () { geo.disabled = true; geo.textContent = 'Locating…';
+    navigator.geolocation.getCurrentPosition(function (p) { geo.disabled = false; geo.textContent = 'Use my location'; setLoc(p.coords.latitude, p.coords.longitude); sheet.close(); },
+      function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
+})();
+
+</script>
+</body>
+</html>

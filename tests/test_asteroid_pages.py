@@ -52,7 +52,7 @@ def test_js_twins_match_python(path):
         pytest.skip("no asteroid month files")
     d = json.load(open(path))
     meta = {"t0": d["month"] + "-01T00:00:00Z", "defaultPlace": list(ba.DEFAULT_PLACE), "cities": {}, "bbox": d["bbox"], "lat0": 22, "mapW": ba.MAP_W, "src": ""}
-    payload = json.dumps({"js": ba.SOLVER_JS, "meta": meta, "events": d["events"], "places": PLACES})
+    payload = json.dumps({"js": ba.LIB_JS, "meta": meta, "events": d["events"], "places": PLACES})
     res = subprocess.run(["node", "-e", HARNESS], input=payload, capture_output=True, text=True, timeout=300)
     assert res.returncode == 0, res.stderr[-2000:]
     got = json.loads(res.stdout)

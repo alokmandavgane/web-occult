@@ -113,7 +113,9 @@ Rules that are easy to break:
 - **Look** (`BASE_CSS` in `scripts/build_pages.py`): almanac paper by day (`--bg #f6f3ec`), night sky by night
   (`#0c0f17`), lapis / moonlight accent, headings in a SYSTEM serif stack (`--serif`: Iowan Old Style, Palatino,
   Charter, Georgia). No web fonts, no image or font requests — keep the site's weight where it is. The mark
-  (`MARK_SVG`, favicon `FAVICON`) is a crescent with a star just off its dark limb.
+  (`MARK_SVG`, favicon `FAVICON`) is a crescent with a star just off its dark limb. The ONE exception to "no outside
+  requests" is `site/asteroid.html`, which loads Leaflet from cdnjs (SRI-pinned) and OpenStreetMap tiles for its slippy
+  map; every other page still fetches nothing but its own data.
 - **Link previews and install** (`scripts/build_og.py`, run first by the main build): one 1200×630 Open Graph image
   per kind of page (`OG` in build_pages: home, occultations, moon-stars, asteroids, jupiter, saturn, calendar), linked by
   `head(..., og=key)` with a content-hash `?v=`; plus the app icons (192, 512, maskable 512, apple-touch 180).
@@ -158,7 +160,12 @@ Rules that are easy to break:
   time, R0 at t0, the Sun) is what the page solves any place from: `local()`/`to_centre()` in the engine and `solve()`/
   `toCentre()` in the page JS are twins, and so are `you_html()`/`you()` with floor(x + 0.5) rounding — change them
   TOGETHER. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
-  northern one. Each card can expand (JS only, nothing prerendered — the month file is already fetched): a **finder chart**
+  northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
+  the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there
+  is deliberately NO page per event. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
+  OpenStreetMap tiles, for a slippy map of the path with its 1σ lines, minute ticks and a tap-to-move pin — everything
+  else on it is drawn from the data. `site/js/asteroid.js` (`LIB_JS`, ~5.6 KB gz, hashed `?v=`) is the solver and the
+  drawings, shared by both pages, the way `js/moon.js` is shared. It carries: a **finder chart**
   from `field` (Gaia to G 14 within 15′ of the target, the brightest 200, plus the asteroid's track hour by hour over ±12 h,
   all in hundredths of an arcminute from the star; fields cached per star in `ephemeris/catalog/fields/`, gitignored), a
   full-width **map** with the audience's cities, the reader's pin and `ticks` (whole UTC minutes along the centre line, stored
@@ -167,8 +174,8 @@ Rules that are easy to break:
   timing σ), a **world inset** whose ground track the JS solves from `el` alone (`worldTrack`: the axis intersected
   with the ellipsoid, the same maths as `ground()`; `tests/test_asteroid_pages.py` pins it against the engine's own centre line
   — sample it densely there, since near the limb the ground point races and a sparse polyline measures the sampling, not the
-  solver), and **KML/GPX** of the path built in the browser from `lines` — no extra files, no third-party tiles. The world
-  outline is one shared `site/data/world-coarse.json` (~4 KB gz) fetched when a panel first opens, never in the page. Validated against Occult4 as IOTA-India published September–October 2026 (45 events): widths to 0.5 km,
+  solver), and **KML/GPX** of the path built in the browser from `lines` — no extra files. The world outline is one shared
+  `site/data/world-coarse.json` (~4 KB gz) the event page fetches, never in the page itself. Validated against Occult4 as IOTA-India published September–October 2026 (45 events): widths to 0.5 km,
   star positions ~2 mas (Occult prints the barycentric position), Earth-crossing times to the minute, and centre lines a
   rigid sideways shift — median 0.4σ with MPC orbits (what Occult integrates), 0.7σ with JPL's. The tests pin five events with
   MPC states. Don't "fix" the JPL-orbit offsets toward Occult: they are differences between orbit solutions. The asteroid is a

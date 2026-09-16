@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Asteroid occultations: one page per month listing every asteroid shadow that crosses India at night, with a small
 map of its path and — for the reader's own place — how far the path passes, when, and for how long the star vanishes.
+Tapping one opens site/asteroid.html, ONE page that draws any event from its id (`/asteroid?e=<event id>`): a slippy
+map of the path, the finder chart, the chord you would time, the fade, the whole path on Earth, and the KML to drive by.
 
   data/asteroids-<YYYY-MM>.json   engine/asteroid_occultations.py (DE431 + JPL orbits + Gaia DR3)
-  -> site/asteroids-<YYYY-MM>.html, site/data/asteroids-<YYYY-MM>.json
+  -> site/asteroids-<YYYY-MM>.html, site/asteroid.html, site/js/asteroid.js, site/data/asteroids-<YYYY-MM>.json
 
-The JS `solve()` / `toCentre()` in SOLVER_JS are the twins of `local()` / `to_centre()` in the engine, and `you()` is
-the twin of `you_html()` here, with the same rounding (floor(x + 0.5)) — change them TOGETHER. The page prerenders
-New Delhi; the browser recomputes for the chosen place and regroups the nights in its timezone.
+`LIB_JS` (site/js/asteroid.js, shared by both pages) holds the twins: `solve()` / `toCentre()` mirror `local()` /
+`to_centre()` in the engine, and `you()` mirrors `you_html()` here, with the same rounding (floor(x + 0.5)) — change
+them TOGETHER. The month page prerenders New Delhi; the browser recomputes for the chosen place.
+
+The event page is the site's only third-party request: Leaflet from cdnjs (with integrity hashes) and OpenStreetMap
+tiles. Everything else it draws itself, and the month pages stay self-contained.
 """
 
 import json
@@ -26,6 +31,9 @@ DEFAULT_PLACE = ("New Delhi", 28.6139, 77.2090, "Asia/Kolkata")
 COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 MAP_W = 400
+LEAFLET = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4"
+LEAFLET_JS_SRI = "sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
+LEAFLET_CSS_SRI = "sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
 
 
 def _hash(content):
@@ -93,8 +101,8 @@ _WORLD = {}
 
 
 def world_url():
-    """A coarse world outline (rings of [lat, lon]) for the panels' inset: one small file, written once and fetched by
-    the page the first time a reader opens a panel — too big to sit in every page's HTML."""
+    """A coarse world outline (rings of [lat, lon]) for the world inset: one small file, written once and fetched by the
+    event page — too big to sit in every page's HTML."""
     if not _WORLD:
         from asteroid_occultations import simplify
         g = json.loads((ROOT / "geo" / "world.json").read_text())
@@ -129,8 +137,7 @@ def card_static(ev, proj, land_id="ast-land"):
     L = ev["lines"]
     svg = [f'<svg class="ast-map" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="Path of the shadow across India">'
            f'<use href="#{land_id}"/>']
-    # the thumbnail carries the band and its edges only: the 1-sigma lines live in the panel's larger map and its
-    # cross-section, where they can be read, and they cost a busy month a kilobyte here
+    # the thumbnail carries the band and its edges only: the 1-sigma lines live on the event page, where they can be read
     if len(L.get("left", [])) == 1 and len(L.get("right", [])) == 1:
         svg.append(f'<path class="ast-band" d="{path_d(proj, [L["left"][0] + L["right"][0][::-1]], close=True, tol=0.18)}"/>')
     for key, cls in (("left", "ast-lim"), ("right", "ast-lim"), ("centre", "ast-cl")):
@@ -157,8 +164,7 @@ def card_html(ev, proj, s, tc, tz):
     svg, title, facts = card_static(ev, proj)
     cls, what, look = you_html(ev, s, tc)
     t = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) + timedelta(seconds=s["tau"])
-    # the panel itself is built by the JS on first open — the prerender only carries the button
-    more = '<button class="ast-more" type="button" aria-expanded="false">Chart &amp; map</button>' if ev.get("field") else ""
+    more = f'<a class="ast-more" href="/asteroid?e={esc(ev["id"])}">Map, finder chart &amp; download →</a>'
     return (f'<article class="ast v-{cls}" id="{esc(ev["id"])}" data-id="{esc(ev["id"])}">{svg}<div class="ast-body">'
             f'<div class="ast-top"><span class="ast-time">{t.astimezone(tz).strftime("%H:%M:%S")}</span> {title}</div>'
             f'<div class="ast-you">{what}</div><div class="ast-look">{look}</div>'
@@ -207,14 +213,15 @@ AST_CSS = """
     .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
     .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
-    .ast-more { margin-top: 0.4rem; background: none; border: 0; padding: 0; font: inherit; font-size: 0.78rem; color: var(--t-ast); cursor: pointer; }
-    .ast-more:hover { text-decoration: underline; }
-    .ast-detail { grid-column: 1 / -1; margin-top: 0.6rem; border-top: 1px dotted var(--line); padding-top: 0.7rem; }
-    .ast-panes { display: grid; grid-template-columns: 300px 1fr; gap: 0.9rem; align-items: start; }
-    .ast-panes2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.9rem; margin-top: 0.8rem; align-items: start; }
-    @media (max-width: 620px) { .ast-panes { grid-template-columns: 1fr; } }
-    .chord, .curve, .world, .strip { width: 100%; height: auto; display: block; }
-    .chord, .curve, .world { background: var(--sea); border-radius: 8px; }
+    .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
+    @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
+    .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
+"""
+
+# the drawings, shared by both pages
+CHART_CSS = """
+    .chord, .curve, .world, .strip, .finder { width: 100%; height: auto; display: block; }
+    .chord, .curve, .world, .finder { background: var(--sea); border-radius: 8px; }
     .pane-cap { font-size: 0.76rem; color: var(--muted); margin-top: 0.25rem; }
     .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; }
     .ch-chord { stroke: var(--c-limit); stroke-width: 2.4; stroke-linecap: round; }
@@ -232,31 +239,55 @@ AST_CSS = """
     .wd-land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.3; }
     .wd-path { fill: none; stroke: var(--t-ast); stroke-width: 1.6; }
     .wd-frame { fill: none; stroke: var(--c-limit); stroke-width: 0.8; }
-    .finder, .ast-big { width: 100%; height: auto; display: block; background: var(--sea); border-radius: 8px; }
     .fd-edge { fill: none; stroke: var(--line); stroke-width: 0.8; }
     .fd-star { fill: var(--text); }
     .fd-target { fill: none; stroke: var(--c-limit); stroke-width: 1.6; }
     .fd-track { fill: none; stroke: var(--t-ast); stroke-width: 1.2; stroke-dasharray: 4 3; }
     .fd-tick { fill: var(--t-ast); }
-    .fd-lbl, .bm-lbl { font: 500 8px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
+    .fd-lbl { font: 500 8px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .fd-cap { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
-    .bm-city { fill: var(--muted); opacity: 0.55; }
-    .bm-tick { stroke: var(--t-ast); stroke-width: 1; opacity: 0.8; }
-    .ast-dl { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
-    .ast-dl .btn { font-size: 0.78rem; padding: 0.25rem 0.7rem; }
-    .ast-note { font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem; }
-    @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
-    .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
 """
 
-SOLVER_JS = r"""
+EVENT_CSS = """
+    .ev-head { margin: 1.2rem 0 0.2rem; }
+    .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
+    .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
+    .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
+    #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
+    .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
+    .map-note { font-size: 0.78rem; color: var(--muted); }
+    .ev-panes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 1.2rem 0 0; align-items: start; }
+    .ev-facts { width: 100%; font-size: 0.9rem; }
+    .ev-facts th { width: 42%; color: var(--muted); font-weight: 500; text-transform: none; letter-spacing: 0; font-size: 0.85rem; }
+    .ev-facts td, .ev-facts th { padding: 0.3rem 0.6rem; white-space: normal; }
+    .ast-dl { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+    .ast-dl .btn { font-size: 0.82rem; }
+    .ev-miss { color: var(--muted); }
+"""
+
+# ---------------------------------------------------------------------------------------------- site/js/asteroid.js
+
+LIB_JS = r"""
+/* occult.alokm.com — asteroid occultations: the solver both pages run, and the drawings they show.
+   solve() / toCentre() / you() are twins of local() / to_centre() / you_html() in the engine and its builder;
+   tests/test_asteroid_pages.py runs them against each other. Keep the rounding (floor(x + 0.5)) identical. */
 (function () {
-  var META = JSON.parse(document.getElementById('ast-meta').textContent);
   var C = 299792.458, AE = 6378.137, FE = 1 / 298.257223563, RAD = Math.PI / 180, WE = 360.98564736629 * RAD / 86400;
+  var COMPASS = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
   function dot(a, b) { return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]; }
   function clamp(x) { return Math.max(-1, Math.min(1, x)); }
   function poly(c, u) { var v = 0; for (var i = c.length - 1; i >= 0; i--) v = v * u + c[i]; return v; }
   function dpoly(c, u) { var v = 0; for (var i = c.length - 1; i > 0; i--) v = v * u + i * c[i]; return v; }
+  function compass(az) { return COMPASS[Math.floor((az + 11.25) / 22.5) % 16]; }
+  function r0(x) { return Math.floor(x + 0.5); }
+  function r1(x) { return (Math.floor(x * 10 + 0.5) / 10).toFixed(1); }
+  function sky(a) { return a > 0 ? 'daylight' : a > -6 ? 'twilight' : a > -12 ? 'dusk' : 'dark sky'; }
+  function fmt(ms, tz, opts) { try { return new Date(ms).toLocaleString('en-GB', Object.assign({ timeZone: tz }, opts)); } catch (e) { return new Date(ms).toLocaleString('en-GB', opts); } }
+  function fT(ms, tz) { return fmt(ms, tz, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }); }
+  function fHM(ms, tz) { return fT(ms, tz).slice(0, 5); }
+  function fDate(ms, tz) { return fmt(ms, tz, { weekday: 'short', day: 'numeric', month: 'long', year: 'numeric' }).replace(',', ''); }
+
   // ---------- twin of local() (engine/asteroid_occultations.py) ----------
   function solve(el, lat, lon) {
     var la = lat * RAD, lo = lon * RAD, e2 = FE * (2 - FE), N = AE / Math.sqrt(1 - e2 * Math.sin(la) * Math.sin(la));
@@ -293,15 +324,6 @@ SOLVER_JS = r"""
     var de = (solve(el, lat, lon + h).d - solve(el, lat, lon - h).d) / (2 * h * 111.195 * Math.cos(lat * RAD));
     return [Math.abs(d0) / Math.hypot(dn, de), ((Math.atan2(-d0 * de, -d0 * dn) / RAD) + 360) % 360];
   }
-  // tests/test_asteroid_pages.py runs these against their Python twins and against the engine's own path lines
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, worldTrack: worldTrack };
-
-  // ---------- page ----------
-  var COMPASS = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
-  function compass(az) { return COMPASS[Math.floor((az + 11.25) / 22.5) % 16]; }
-  function r0(x) { return Math.floor(x + 0.5); }
-  function r1(x) { return (Math.floor(x * 10 + 0.5) / 10).toFixed(1); }
-  function sky(a) { return a > 0 ? 'daylight' : a > -6 ? 'twilight' : a > -12 ? 'dusk' : 'dark sky'; }
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
@@ -311,17 +333,8 @@ SOLVER_JS = r"""
     if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look];
     return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look];
   }
-  function fmt(ms, tz, opts) { try { return new Date(ms).toLocaleString('en-GB', Object.assign({ timeZone: tz }, opts)); } catch (e) { return new Date(ms).toLocaleString('en-GB', opts); } }
-  function fT(ms, tz) { return fmt(ms, tz, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }); }
-  function tzLabel(tz) { try { return new Intl.DateTimeFormat('en-GB', { timeZone: tz, timeZoneName: 'short' }).formatToParts(new Date(Date.parse(META.t0) + 864e6)).filter(function (p) { return p.type === 'timeZoneName'; })[0].value; } catch (e) { return tz; } }
-  function dateKey(ms, tz) { try { return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms)); } catch (e) { return new Date(ms).toISOString().slice(0, 10); } }
-  function keyLabel(k) { var p = k.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12)).toLocaleDateString('en-GB', { timeZone: 'UTC', weekday: 'short', day: 'numeric', month: 'short' }).replace(',', ''); }
-  var B = META.bbox, K = Math.cos(META.lat0 * RAD), SC = META.mapW / ((B[2] - B[0]) * K);
-  function xy(lat, lon) { return [(lon - B[0]) * K * SC, (B[3] - lat) * SC]; }
 
-  // ---------- the expanded panel: finder chart, the path over India, and the path to take with you ----------
-  var byId = {};
-  function fHM(ms, tz) { return fT(ms, tz).slice(0, 5); }
+  // ---------- the drawings ----------
   function finderSvg(ev, tz) {
     var f = ev.field;
     if (!f) return '';
@@ -354,69 +367,6 @@ SOLVER_JS = r"""
     out.push('<text class="fd-cap" x="6" y="' + (S - 6) + '">' + (2 * f.r) + '′ field · stars to G ' + f.lim + ' · N up, E left · track ' + (2 * f.track_h) + ' h</text>');
     return out.join('') + '</svg>';
   }
-  function bigMap(ev, tz) {
-    var W = META.mapW, H = (B[3] - B[1]) * SC, L = ev.lines, t0 = Date.parse(ev.el.t0), out = [];
-    function d(runs, close) {
-      return (runs || []).map(function (r) {
-        return 'M' + r.map(function (q) { var p = xy(q[0], q[1]); return p[0].toFixed(1) + ',' + p[1].toFixed(1); }).join(' ') + (close ? 'Z' : '');
-      }).join('');
-    }
-    out.push('<svg class="ast-big" viewBox="0 0 ' + W + ' ' + H.toFixed(0) + '" role="img" aria-label="The shadow path across India"><use href="#ast-land"/>');
-    Object.keys(META.cities).forEach(function (n) {
-      var c = META.cities[n], q = xy(c[0], c[1]);
-      if (q[0] >= 0 && q[0] <= W && q[1] >= 0 && q[1] <= H) out.push('<circle class="bm-city" cx="' + q[0].toFixed(1) + '" cy="' + q[1].toFixed(1) + '" r="1.6"/>');
-    });
-    if (L.left && L.left.length === 1 && L.right && L.right.length === 1) out.push('<path class="ast-band" d="' + d([L.left[0].concat(L.right[0].slice().reverse())], true) + '"/>');
-    ['left_1s', 'right_1s'].forEach(function (k) { if (L[k]) out.push('<path class="ast-sig" d="' + d(L[k]) + '"/>'); });
-    ['left', 'right'].forEach(function (k) { if (L[k]) out.push('<path class="ast-lim" d="' + d(L[k]) + '"/>'); });
-    if (L.centre) out.push('<path class="ast-cl" d="' + d(L.centre) + '"/>');
-    var ticks = ev.ticks || [];
-    ticks.forEach(function (t, i) {
-      var nb = ticks[i + 1] || ticks[i - 1];
-      if (!nb) return;
-      var q = xy(t[0], t[1]), r = xy(nb[0], nb[1]), dx = r[0] - q[0], dy = r[1] - q[1], n = Math.hypot(dx, dy) || 1;
-      var ux = -dy / n * 5, uy = dx / n * 5;
-      out.push('<path class="bm-tick" d="M' + (q[0] - ux).toFixed(1) + ',' + (q[1] - uy).toFixed(1) + ' ' + (q[0] + ux).toFixed(1) + ',' + (q[1] + uy).toFixed(1) + '"/>');
-      if (i % 2 === 0) out.push('<text class="bm-lbl" x="' + (q[0] + ux + 2).toFixed(1) + '" y="' + (q[1] + uy + 3).toFixed(1) + '">' + fHM(t0 + t[2] * 1000, tz) + '</text>');
-    });
-    var me = xy(LOC.lat, LOC.lon);
-    out.push('<circle class="ast-pin" cx="' + me[0].toFixed(1) + '" cy="' + me[1].toFixed(1) + '" r="5"/>');
-    return out.join('') + '</svg>';
-  }
-  function xml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function pathLines(ev) {
-    var L = ev.lines, n = ev.north_is === 'left' ? 'left' : 'right', s = n === 'left' ? 'right' : 'left';
-    return [['Centre line', L.centre], ['North edge', L[n]], ['South edge', L[s]], ['North 1 sigma', L[n + '_1s']], ['South 1 sigma', L[s + '_1s']]]
-      .filter(function (r) { return r[1] && r[1].length; });
-  }
-  function evTitle(ev) { return '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides Gaia DR3 ' + ev.star.gaia + ' — ' + ev.el.t0; }
-  function kml(ev) {
-    var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2"><Document>', '<name>' + xml(evTitle(ev)) + '</name>',
-             '<Style id="p"><LineStyle><color>ffa38af0</color><width>3</width></LineStyle></Style>'];
-    pathLines(ev).forEach(function (l) {
-      l[1].forEach(function (run) {
-        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#p</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
-               + run.map(function (q) { return q[1] + ',' + q[0] + ',0'; }).join(' ') + '</coordinates></LineString></Placemark>');
-      });
-    });
-    return t.join('\n') + '\n</Document></kml>\n';
-  }
-  function gpx(ev) {
-    var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="occult.alokm.com" xmlns="http://www.topografix.com/GPX/1/1">',
-             '<metadata><name>' + xml(evTitle(ev)) + '</name></metadata>'];
-    pathLines(ev).forEach(function (l) {
-      l[1].forEach(function (run) {
-        t.push('<trk><name>' + xml(l[0]) + '</name><trkseg>' + run.map(function (q) { return '<trkpt lat="' + q[0] + '" lon="' + q[1] + '"/>'; }).join('') + '</trkseg></trk>');
-      });
-    });
-    return t.join('\n') + '\n</gpx>\n';
-  }
-  function save(name, text, type) {
-    var b = new Blob([text], { type: type }), u = URL.createObjectURL(b), a = document.createElement('a');
-    a.href = u; a.download = name; document.body.appendChild(a); a.click();
-    setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
-  }
-  // ---------- where you sit across the path, the chord you would time, and the whole path on Earth ----------
   function stripSvg(ev, s) {
     var R = ev.el.R, sig = ev.sigma_km || 0, d = s.d, W = 300, H = 40, c = W / 2;
     var span = Math.max(R + sig, Math.abs(d)) * 1.3 || 1, k = (W / 2 - 12) / span, o = [];
@@ -464,7 +414,7 @@ SOLVER_JS = r"""
     return o.join('') + '</svg>';
   }
   function worldTrack(el, n) {
-    var AE = 6378.137, F = 1 / 298.257223563, k = el.k, n1 = Math.hypot(-k[1], k[0]);
+    var F = FE, k = el.k, n1 = Math.hypot(-k[1], k[0]);
     var e1 = [-k[1] / n1, k[0] / n1, 0], e2 = [k[1] * e1[2] - k[2] * e1[1], k[2] * e1[0] - k[0] * e1[2], k[0] * e1[1] - k[1] * e1[0]], out = [];
     for (var i = 0; i <= n; i++) {
       var tau = -el.W + 2 * el.W * i / n, u = tau / el.W, th = WE * tau, ct = Math.cos(th), st = Math.sin(th);
@@ -484,9 +434,9 @@ SOLVER_JS = r"""
     }
     return out;
   }
-  function worldSvg(ev) {
+  function worldSvg(ev, world, bbox, loc) {
     var o = ['<svg class="world" viewBox="0 0 360 180" role="img" aria-label="The whole path across the Earth">'];
-    (WORLD || []).forEach(function (r) {
+    (world || []).forEach(function (r) {
       o.push('<path class="wd-land" d="M' + r.map(function (q) { return (q[1] + 180).toFixed(1) + ',' + (90 - q[0]).toFixed(1); }).join(' ') + 'Z"/>');
     });
     var seg = [];
@@ -499,37 +449,64 @@ SOLVER_JS = r"""
       seg.push((p[1] + 180).toFixed(1) + ',' + (90 - p[0]).toFixed(1));
     });
     if (seg.length > 1) o.push('<path class="wd-path" d="M' + seg.join(' ') + '"/>');
-    var B2 = META.bbox;
-    o.push('<rect class="wd-frame" x="' + (B2[0] + 180) + '" y="' + (90 - B2[3]) + '" width="' + (B2[2] - B2[0]) + '" height="' + (B2[3] - B2[1]) + '"/>');
-    var me = [(LOC.lon + 180).toFixed(1), (90 - LOC.lat).toFixed(1)];
-    o.push('<circle class="ast-pin" cx="' + me[0] + '" cy="' + me[1] + '" r="3" stroke-width="1.2"/>');
+    if (bbox) o.push('<rect class="wd-frame" x="' + (bbox[0] + 180) + '" y="' + (90 - bbox[3]) + '" width="' + (bbox[2] - bbox[0]) + '" height="' + (bbox[3] - bbox[1]) + '"/>');
+    if (loc) o.push('<circle class="ast-pin" cx="' + (loc.lon + 180).toFixed(1) + '" cy="' + (90 - loc.lat).toFixed(1) + '" r="3" stroke-width="1.2"/>');
     return o.join('') + '</svg>';
   }
-  var WORLD = null;
-  function withWorld(done) {
-    if (WORLD) return done();
-    fetch(META.world).then(function (r) { return r.json(); }).then(function (w) { WORLD = w; done(); }).catch(function () { WORLD = []; done(); });
+
+  // ---------- the path, to take with you ----------
+  function xml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function pathLines(ev) {
+    var L = ev.lines, n = ev.north_is === 'left' ? 'left' : 'right', s = n === 'left' ? 'right' : 'left';
+    return [['Centre line', L.centre], ['North edge', L[n]], ['South edge', L[s]], ['North 1 sigma', L[n + '_1s']], ['South 1 sigma', L[s + '_1s']]]
+      .filter(function (r) { return r[1] && r[1].length; });
   }
-  function fillWorld(det, ev) {      // the outline is one small file, fetched the first time a panel opens
-    withWorld(function () { var slot = det.querySelector('.world-pane .world'); if (slot) slot.outerHTML = worldSvg(ev); });
+  function evTitle(ev) { return '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides Gaia DR3 ' + ev.star.gaia + ' — ' + ev.el.t0; }
+  function kml(ev) {
+    var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2"><Document>', '<name>' + xml(evTitle(ev)) + '</name>',
+             '<Style id="p"><LineStyle><color>ffa38af0</color><width>3</width></LineStyle></Style>'];
+    pathLines(ev).forEach(function (l) {
+      l[1].forEach(function (run) {
+        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#p</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
+               + run.map(function (q) { return q[1] + ',' + q[0] + ',0'; }).join(' ') + '</coordinates></LineString></Placemark>');
+      });
+    });
+    return t.join('\n') + '\n</Document></kml>\n';
   }
-  function detailHtml(ev, tz, s) {
-    var R = ev.el.R, inside = Math.abs(s.d) <= R, ground = toCentre(ev.el, LOC.lat, LOC.lon)[0];
-    var chordCap = inside ? ('Your chord: ' + r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km of the ' + r0(2 * R) + ' km disc · ' + r1(s.dur) + ' s')
-                          : ('Your line misses the ' + r0(2 * R) + ' km disc by ' + r0(Math.abs(s.d) - R) + ' km; the dashed lines are where 1σ would put it');
-    return '<div class="ast-panes">' + finderSvg(ev, tz) + bigMap(ev, tz) + '</div>'
-      + '<div class="ast-panes2">'
-      + '<div>' + chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + stripSvg(ev, s)
-      + '<p class="pane-cap">' + r0(ground) + ' km from the centre line across a path ' + r0(2 * R) + ' km wide, ± ' + r0(ev.sigma_km || 0) + ' km</p></div>'
-      + '<div>' + curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
-      + ': ' + r1(ev.drop) + ' mag for ' + r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + r1(ev.sigma_s || 0) + ' s</p></div>'
-      + '<div class="world-pane"><svg class="world" viewBox="0 0 360 180" aria-hidden="true"></svg><p class="pane-cap">The whole path on Earth; the box is this map</p></div>'
-      + '</div>'
-      + '<div class="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button>'
-      + '<button class="btn" data-dl="gpx">GPX</button></div>'
-      + '<p class="ast-note">Marks across the path are whole minutes; the dot is you. On the chart the dashed line is the asteroid\'s'
-      + ' track through the field, ticked every three hours, ending on the star.</p>';
+  function gpx(ev) {
+    var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="occult.alokm.com" xmlns="http://www.topografix.com/GPX/1/1">',
+             '<metadata><name>' + xml(evTitle(ev)) + '</name></metadata>'];
+    pathLines(ev).forEach(function (l) {
+      l[1].forEach(function (run) {
+        t.push('<trk><name>' + xml(l[0]) + '</name><trkseg>' + run.map(function (q) { return '<trkpt lat="' + q[0] + '" lon="' + q[1] + '"/>'; }).join('') + '</trkseg></trk>');
+      });
+    });
+    return t.join('\n') + '\n</gpx>\n';
   }
+  function save(name, text, type) {
+    var b = new Blob([text], { type: type }), u = URL.createObjectURL(b), a = document.createElement('a');
+    a.href = u; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
+  }
+
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, you: you, kml: kml, gpx: gpx, save: save,
+                             worldTrack: worldTrack, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
+                             chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines,
+                             fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
+})();
+"""
+
+# ---------------------------------------------------------------------------------------------- the month page
+
+MONTH_JS = r"""
+(function () {
+  var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent);
+  var RAD = Math.PI / 180, F = A.fmt;
+  function tzLabel(tz) { try { return new Intl.DateTimeFormat('en-GB', { timeZone: tz, timeZoneName: 'short' }).formatToParts(new Date(Date.parse(META.t0) + 864e6)).filter(function (p) { return p.type === 'timeZoneName'; })[0].value; } catch (e) { return tz; } }
+  function dateKey(ms, tz) { try { return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms)); } catch (e) { return new Date(ms).toISOString().slice(0, 10); } }
+  function keyLabel(k) { var p = k.split('-'); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12)).toLocaleDateString('en-GB', { timeZone: 'UTC', weekday: 'short', day: 'numeric', month: 'short' }).replace(',', ''); }
+  var B = META.bbox, K = Math.cos(META.lat0 * RAD), SC = META.mapW / ((B[2] - B[0]) * K);
+  function xy(lat, lon) { return [(lon - B[0]) * K * SC, (B[3] - lat) * SC]; }
 
   var data = null, LOC = null, FILTER = 'all';
   try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {}
@@ -544,16 +521,13 @@ SOLVER_JS = r"""
     if (!data) return;
     var tz = tzOf(LOC), groups = {}, order = [], mine = 0;
     data.events.forEach(function (ev) {
-      var s = solve(ev.el, LOC.lat, LOC.lon), tc = toCentre(ev.el, LOC.lat, LOC.lon), y = you(ev, s, tc), a = cards[ev.id];
+      var s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc), a = cards[ev.id];
       if (!a) return;
-      byId[ev.id] = ev;
       a.className = 'ast v-' + y[0];
-      a.querySelector('.ast-time').textContent = fT(Date.parse(ev.el.t0) + s.tau * 1000, tz);
+      a.querySelector('.ast-time').textContent = F.t(Date.parse(ev.el.t0) + s.tau * 1000, tz);
       a.querySelector('.ast-you').textContent = y[1];
       a.querySelector('.ast-look').textContent = y[2];
       var p = xy(LOC.lat, LOC.lon), pin = a.querySelector('.ast-pin'); pin.setAttribute('cx', p[0].toFixed(1)); pin.setAttribute('cy', p[1].toFixed(1));
-      var det = a.querySelector('.ast-detail');     // an open panel follows the place; a closed one is rebuilt on opening
-      if (det && !det.hidden) { det.innerHTML = detailHtml(ev, tz, s); det.dataset.built = '1'; fillWorld(det, ev); } else if (det) det.dataset.built = '';
       var near = y[0] === 'in' || y[0] === 'near'; if (near) mine++;
       a.hidden = FILTER === 'near' && !near;
       var k = dateKey(Date.parse(ev.t_geo) - 432e5, tz);
@@ -583,29 +557,6 @@ SOLVER_JS = r"""
     document.getElementById('chip-name').textContent = LOC.label;
     countLine.textContent = data.events.length + ' asteroid occultations cross India at night this month · ' + mine + ' pass over ' + LOC.label + ' (inside the path or within its 1σ margin)';
   }
-  nightsEl.addEventListener('click', function (e) {
-    var dl = e.target.closest('[data-dl]');
-    if (dl) {
-      var evd = byId[dl.closest('article.ast').dataset.id];
-      if (evd) save(evd.id + '.' + dl.dataset.dl, dl.dataset.dl === 'kml' ? kml(evd) : gpx(evd),
-                    dl.dataset.dl === 'kml' ? 'application/vnd.google-earth.kml+xml' : 'application/gpx+xml');
-      return;
-    }
-    var b = e.target.closest('.ast-more');
-    if (!b) return;
-    var a = b.closest('article.ast'), ev = byId[a.dataset.id], det = a.querySelector('.ast-detail');
-    if (!ev) return;
-    if (!det) { det = document.createElement('div'); det.className = 'ast-detail'; det.hidden = true; a.appendChild(det); }
-    var open = det.hidden;
-    if (open && det.dataset.built !== '1') {
-      det.innerHTML = detailHtml(ev, tzOf(LOC), solve(ev.el, LOC.lat, LOC.lon));
-      det.dataset.built = '1';
-      fillWorld(det, ev);
-    }
-    det.hidden = !open;
-    b.setAttribute('aria-expanded', open ? 'true' : 'false');
-    b.textContent = open ? 'Hide chart & map' : 'Chart & map';
-  });
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
     LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
@@ -651,13 +602,14 @@ TEMPLATE = """
   <p class="sub">Stars hidden by asteroids, on paths across India</p>
   <p class="lead">An asteroid too small to see passes in front of a star, and its shadow — exactly as wide as the asteroid —
   races across the Earth. Inside that band the star blinks out for a few seconds; a few kilometres outside it, nothing
-  happens. Each card maps the path and says how close it comes to you.</p>
+  happens. Each card maps the path and says how close it comes to you; open one for the map, the finder chart and the path
+  to drive to.</p>
   <div class="filters" id="ast-filter"><label class="chipbox"><input type="radio" name="f" value="all" checked> All over India</label>
     <label class="chipbox"><input type="radio" name="f" value="near"> Only paths over me</label></div>
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="ast-cal" aria-label="The month at a glance">__CAL__</div>
   <p class="hint">Times in <span id="tz-label">__TZL__</span>, for the moment the shadow passes closest to you. A night runs from
-  noon to noon. On each map the shaded band is the path, the dashed lines its 1σ uncertainty and the dot is you.</p>
+  noon to noon. On each map the shaded band is the path and the dot is you.</p>
   <div id="ast-nights">__NIGHTS__</div>
   <h2>Reading the list</h2>
   <p class="method">A card turns <b style="color:var(--c-visible)">green</b> when you are inside the predicted path and
@@ -677,6 +629,187 @@ TEMPLATE = """
   <script type="application/json" id="ast-meta">__META__</script>
 </main>
 __FOOTER__
+<script src="/js/asteroid.js?v=__LIBV__"></script>
+<script>
+__JS__
+</script>
+</body>
+</html>
+"""
+
+# ---------------------------------------------------------------------------------------------- the event page
+
+EVENT_JS = r"""
+(function () {
+  var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
+  var id = new URLSearchParams(location.search).get('e') || '', ym = id.slice(0, 7);
+  var ev = null, LOC = null, map = null, layers = null, world = null;
+  var el = function (x) { return document.getElementById(x); };
+  try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {}
+  if (!LOC) LOC = { lat: META.defaultPlace[1], lon: META.defaultPlace[2], label: META.defaultPlace[0] };
+  function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
+  function css(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim() || '#a8324e'; }
+
+  if (!META.months[ym]) return fail();
+  fetch(META.months[ym]).then(function (r) { return r.json(); }).then(function (d) {
+    ev = (d.events || []).filter(function (x) { return x.id === id; })[0];
+    if (!ev) return fail();
+    el('back').href = '/asteroids-' + ym;
+    el('back').textContent = '‹ ' + META.monthLabels[ym];
+    document.title = '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a star · Occult';
+    drawMap();
+    render();
+  }).catch(fail);
+
+  function fail() {
+    el('ev-main').innerHTML = '<h1>Event not found</h1><p class="sub">That occultation is not on the site.</p>'
+      + '<p><a href="/#asteroids">All asteroid months →</a></p>';
+  }
+
+  function drawMap() {
+    var L = window.L;
+    if (!L) { el('map').innerHTML = '<p class="map-note" style="padding:1rem">The map needs JavaScript from cdnjs; the drawings below work without it.</p>'; return; }
+    map = L.map('map', { scrollWheelZoom: false });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+    var c = css('--t-ast'), lines = ev.lines, group = [];
+    function poly(runs, opts) { (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
+    if (lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
+      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22 }).addTo(map));
+    }
+    poly(lines.left_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
+    poly(lines.right_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
+    poly(lines.left, { color: c, weight: 3 });
+    poly(lines.right, { color: c, weight: 3 });
+    poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
+    (ev.ticks || []).forEach(function (t) {
+      L.circleMarker([t[0], t[1]], { radius: 3, color: c, weight: 1, fillOpacity: 1 })
+        .bindTooltip(F.hm(Date.parse(ev.el.t0) + t[2] * 1000, tzOf(LOC)), { permanent: false })
+        .addTo(map);
+    });
+    var bounds = L.featureGroup(group).getBounds();
+    map.fitBounds(bounds.isValid() ? bounds : L.latLngBounds([[META.bbox[1], META.bbox[0]], [META.bbox[3], META.bbox[2]]]), { padding: [16, 16] });
+    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng); });
+    layers = { me: null };
+  }
+
+  function placeMe() {
+    if (!map) return;
+    var L = window.L;
+    if (layers.me) map.removeLayer(layers.me);
+    layers.me = L.circleMarker([LOC.lat, LOC.lon], { radius: 7, color: css('--c-limit'), weight: 2, fillColor: css('--c-limit'), fillOpacity: 0.6 })
+      .bindPopup(LOC.label).addTo(map);
+  }
+
+  function render() {
+    if (!ev) return;
+    var tz = tzOf(LOC), s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc);
+    var t = Date.parse(ev.el.t0) + s.tau * 1000, a = ev.asteroid, st = ev.star, R = ev.el.R, inside = Math.abs(s.d) <= R;
+    el('chip-name').textContent = LOC.label;
+    el('ev-title').textContent = '(' + a.number + ') ' + a.name + ' hides a magnitude ' + F.r1(st.v) + ' star';
+    el('ev-when').textContent = F.date(t, tz) + ' · ' + F.t(t, tz) + ' at ' + LOC.label + (ev.sigma_s ? ' ± ' + F.r1(ev.sigma_s) + ' s' : '');
+    var verdict = el('ev-verdict');
+    verdict.className = 'ev-verdict v-' + y[0];
+    verdict.textContent = y[1];
+    el('ev-look').textContent = y[2];
+    var rows = [
+      ['Asteroid', '(' + a.number + ') ' + a.name + ' · ' + F.r0(a.diameter_km) + ' km across · magnitude ' + F.r1(a.mag) + ' · ' + F.r1(a.dist_au) + ' au away'],
+      ['Star', 'Gaia DR3 ' + st.gaia + ' · magnitude ' + F.r1(st.v) + ' (G ' + F.r1(st.g) + ')' + (st.ruwe && st.ruwe > 1.4 ? ' · RUWE ' + st.ruwe + ', may be double' : '')],
+      ['The fade', F.r1(ev.drop) + ' magnitudes, to ' + F.r1(ev.combined_mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
+      ['From here', inside ? F.r1(s.dur) + ' s, ' + F.r0(tc[0]) + ' km from the centre line' : 'outside the path, ' + F.r0(tc[0]) + ' km from the centre line'],
+      ['The path', F.r0(2 * R) + ' km wide, ± ' + F.r0(ev.sigma_km || 0) + ' km (1σ) · shadow at ' + F.r1(ev.speed_kms) + ' km/s'],
+      ['The sky here', 'star ' + F.r0(s.star_alt) + '° up in the ' + F.compass(s.star_az) + ' · ' + F.sky(s.sun_alt)
+        + ' · Moon ' + F.r0(ev.moon_illum * 100) + '% lit, ' + F.r0(ev.moon_sep) + '° away'],
+      ['Geocentric', ev.t_geo.replace('T', ' ').replace('Z', ' UTC') + ' · shadow on the Earth ' + ev.earth[0].slice(11, 19) + '–' + ev.earth[1].slice(11, 19) + ' UTC']
+    ];
+    el('ev-facts').innerHTML = rows.map(function (r) { return '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>'; }).join('');
+    var chordCap = inside ? ('Your chord: ' + F.r0(2 * Math.sqrt(R * R - s.d * s.d)) + ' km of the ' + F.r0(2 * R) + ' km disc · ' + F.r1(s.dur) + ' s')
+                          : ('Your line misses the ' + F.r0(2 * R) + ' km disc by ' + F.r0(Math.abs(s.d) - R) + ' km; the dashed lines are where 1σ would put it');
+    el('pane-finder').innerHTML = A.finderSvg(ev, tz) + '<p class="pane-cap">The field 24 hours around the event; the star is ringed.</p>';
+    el('pane-chord').innerHTML = A.chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + A.stripSvg(ev, s)
+      + '<p class="pane-cap">Across the path: the band is the shadow, the paler edge its 1σ.</p>';
+    el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
+      + ': ' + F.r1(ev.drop) + ' mag for ' + F.r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + F.r1(ev.sigma_s || 0) + ' s</p>';
+    el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
+    if (!world) fetch(META.world).then(function (r) { return r.json(); }).then(function (w) {
+      world = w; el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
+    }).catch(function () { world = []; });
+    placeMe();
+  }
+
+  document.getElementById('ast-dl').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-dl]');
+    if (!b || !ev) return;
+    A.save(ev.id + '.' + b.dataset.dl, b.dataset.dl === 'kml' ? A.kml(ev) : A.gpx(ev),
+           b.dataset.dl === 'kml' ? 'application/vnd.google-earth.kml+xml' : 'application/gpx+xml');
+  });
+  var sheet = el('loc-sheet'), latI = el('loc-lat'), lonI = el('loc-lon'), sel = el('loc-city');
+  function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
+    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    render(); }
+  el('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
+  sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
+  el('loc-go').addEventListener('click', function () { setLoc(latI.value, lonI.value); sheet.close(); });
+  sel.addEventListener('change', function () { var c = META.cities[sel.value]; if (c) { setLoc(c[0], c[1], sel.value); sheet.close(); } });
+  var geo = el('loc-geo'); if (!navigator.geolocation) geo.hidden = true;
+  geo.addEventListener('click', function () { geo.disabled = true; geo.textContent = 'Locating…';
+    navigator.geolocation.getCurrentPosition(function (p) { geo.disabled = false; geo.textContent = 'Use my location'; setLoc(p.coords.latitude, p.coords.longitude); sheet.close(); },
+      function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
+})();
+"""
+
+EVENT_TEMPLATE = """
+<nav class="subnav">
+  <div class="subnav-row">
+    <div class="subnav-links"><a id="back" href="/#asteroids">‹ All months</a></div>
+    <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">__PLACE__</span></button>
+  </div>
+</nav>
+<dialog id="loc-sheet" class="sheet" aria-label="Location">
+  <form method="dialog" class="sheet-body">
+    <div class="sheet-title">Location</div>
+    <label>City <select id="loc-city"><option value="">—</option>__CITY_OPTS__</select></label>
+    <div class="loc-row">
+      <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
+      <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
+    </div>
+    <div class="loc-row">
+      <button class="btn btn-primary" id="loc-go" type="button">Apply</button>
+      <button class="btn" id="loc-geo" type="button">Use my location</button>
+      <button class="btn" value="cancel">Close</button>
+    </div>
+  </form>
+</dialog>
+<main class="wrap" id="ev-main">
+  <header class="ev-head">
+    <p class="sub" id="ev-when">Loading…</p>
+    <h1 id="ev-title">Asteroid occultation</h1>
+    <p class="ev-verdict" id="ev-verdict"></p>
+    <p class="hint" id="ev-look"></p>
+  </header>
+  <div id="map"></div>
+  <p class="map-note">Shaded: the path, as wide as the asteroid. Dashed either side: one standard deviation. Dots along the
+  centre line are whole minutes — hover for the time. Tap the map to move your position.</p>
+  <div class="ast-dl" id="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
+  <div class="ev-panes">
+    <div id="pane-finder"></div>
+    <div id="pane-chord"></div>
+    <div id="pane-curve"></div>
+    <div id="pane-world"></div>
+  </div>
+  <h2>The numbers</h2>
+  <div class="table-wrap"><table class="ev-facts"><tbody id="ev-facts"></tbody></table></div>
+  <p class="method">Everything here is computed for the place in the chip above: the time is when the shadow passes closest
+  to you, and the chord and fade are what you would record there. The asteroid is a sphere of its catalogue diameter, so a
+  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.</p>
+  <noscript><p class="method">This page draws itself in the browser. Without JavaScript, the month pages list every event
+  with its path and times.</p></noscript>
+  <script type="application/json" id="ast-meta">__META__</script>
+</main>
+__FOOTER__
+<link rel="stylesheet" href="__LEAFLET_CSS__" integrity="__LEAFLET_CSS_SRI__" crossorigin="anonymous">
+<script src="__LEAFLET_JS__" integrity="__LEAFLET_JS_SRI__" crossorigin="anonymous"></script>
+<script src="/js/asteroid.js?v=__LIBV__"></script>
 <script>
 __JS__
 </script>
@@ -685,7 +818,33 @@ __JS__
 """
 
 
-def month_page(ym, d, cities, nav):
+def lib_url():
+    (OUT / "js").mkdir(parents=True, exist_ok=True)
+    (OUT / "js" / "asteroid.js").write_text(LIB_JS)
+    return _hash(LIB_JS)
+
+
+def event_page(months, cities, aud, geo):
+    """site/asteroid.html: one page that draws any event, chosen by `?e=<id>`."""
+    desc = ("Everything for one asteroid occultation: the path on a map, how close it passes you, the finder chart, the chord "
+            "you would time, how far the star fades, and the path as KML.")
+    meta = {"months": {ym: url for ym, url in months.items()}, "monthLabels": {ym: f"{MONTHS[int(ym[5:]) - 1]} {ym[:4]}" for ym in months},
+            "cities": cities, "bbox": geo["bbox"], "defaultPlace": list(DEFAULT_PLACE), "world": world_url()}
+    page = head(f"Asteroid occultation · {SITE_NAME}", desc, "/asteroid",
+                extra=f"<style>{AST_CSS}{CHART_CSS}{EVENT_CSS}</style>", og="ast")
+    body = EVENT_TEMPLATE
+    for k, v in {"__PLACE__": esc(DEFAULT_PLACE[0]),
+                 "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in cities),
+                 "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
+                 "__FOOTER__": FOOTER, "__JS__": EVENT_JS, "__LIBV__": lib_url(),
+                 "__LEAFLET_CSS__": f"{LEAFLET}/leaflet.css", "__LEAFLET_CSS_SRI__": LEAFLET_CSS_SRI,
+                 "__LEAFLET_JS__": f"{LEAFLET}/leaflet.js", "__LEAFLET_JS_SRI__": LEAFLET_JS_SRI}.items():
+        body = body.replace(k, v)
+    (OUT / "asteroid.html").write_text(page + body)
+    print(f"wrote site/asteroid.html (one page for every event) and site/js/asteroid.js")
+
+
+def month_page(ym, d, cities_all, nav):
     from asteroid_occultations import local, to_centre
     y, mo = (int(x) for x in ym.split("-"))
     label = f"{MONTHS[mo - 1]} {y}"
@@ -739,8 +898,9 @@ def month_page(ym, d, cities, nav):
                         f"({rules['drop_min_long']:g} for events over {rules['long_s']:g} s) for at least {rules['dur_min_s']:g} s"),
         ("This month", f"{d['engine']['shadows_on_earth']:,} shadows touch the Earth somewhere; {len(d['events'])} are listed")))
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
-    meta = {"src": f"/data/{slug}.json?v={_hash(data_json)}", "t0": f"{ym}-01T00:00:00Z", "defaultPlace": list(DEFAULT_PLACE),
-            "cities": cities, "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W, "world": world_url()}
+    src = f"/data/{slug}.json?v={_hash(data_json)}"
+    meta = {"src": src, "t0": f"{ym}-01T00:00:00Z", "defaultPlace": list(DEFAULT_PLACE),
+            "cities": cities, "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W}
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Asteroid occultations crossing India in {label}: {len(d['events'])} stars hidden by asteroids, each with a map of "
@@ -754,7 +914,7 @@ def month_page(ym, d, cities, nav):
                  "__CAL__": "".join(cells), "__NIGHTS__": "".join(nights) or '<p class="hint">No asteroid shadows cross India at night this month.</p>',
                  "__RULES__": rules_html, "__ORBITS__": esc(d["engine"]["orbits"]),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
-                 "__FOOTER__": FOOTER, "__JS__": SOLVER_JS}.items():
+                 "__FOOTER__": FOOTER, "__JS__": MONTH_JS, "__LIBV__": lib_url()}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(page + body)
     (OUT / "data").mkdir(exist_ok=True)
@@ -762,7 +922,7 @@ def month_page(ym, d, cities, nav):
     print(f"wrote site/{slug}.html: {len(d['events'])} events, {mine} over {name}")
     nxt = d["events"][0] if d["events"] else None
     return {"slug": slug, "label": label, "year": y, "month": mo, "n": len(d["events"]), "mine": mine, "planet": "asteroids",
-            "nights": len(groups), "first": nxt["asteroid"]["name"] if nxt else None}
+            "nights": len(groups), "first": nxt["asteroid"]["name"] if nxt else None, "src": src}
 
 
 def build_all(cities, only=None):
@@ -778,6 +938,20 @@ def build_all(cities, only=None):
         if i < len(yms) - 1:
             nav["next"], nav["next_label"] = f"asteroids-{yms[i + 1]}", MONTHS[int(yms[i + 1][5:]) - 1][:3]
         built.append(month_page(ym, json.loads((ROOT / "data" / f"asteroids-{ym}.json").read_text()), cities, nav))
+    if built:
+        seed = json.loads((ROOT / "seed.json").read_text())
+        d0 = json.loads((ROOT / "data" / f"asteroids-{yms[0]}.json").read_text())
+        aud = seed["audiences"][d0["audience"]]
+        geo = json.loads((ROOT / "geo" / f"{d0['audience']}.json").read_text())
+        city_list = {c["name"]: [round(c["lat"], 3), round(c["lon"], 3), c.get("tz") or aud["tz"]]
+                     for c in json.loads((ROOT / aud["cities"]).read_text())}
+        # every month the event page may be asked for, whichever month it was built with
+        all_files = sorted((ROOT / "data").glob("asteroids-*.json"))
+        months = {}
+        for f in all_files:
+            ym = f.stem[len("asteroids-"):]
+            months[ym] = f"/data/asteroids-{ym}.json?v={_hash(f.read_text())}"
+        event_page(months, city_list, aud, geo)
     return built
 
 
