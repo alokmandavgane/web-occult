@@ -10,6 +10,70 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-12-1246-chaka-833792-agra@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260912T191027Z
+DTEND:20260912T192027Z
+SUMMARY:(1246) Chaka hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(1246) Chaka hides a magnitude 11.8 star\, seen from Agra.\nThe
+  predicted edge passes 7 km to the NW\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 00:45:27 IST\, give or take 2 s. The star is 24° up in the ENE · d
+ ark sky.\nIt fades 3.3 magnitudes for up to 1.1 s on the centre line\, and
+  the path is 18 km wide\, give or take 13 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-12-124
+ 6-chaka-833792
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-12-1246-chaka-833792
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1246) Chaka hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-299-thora-571648-agra@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T161137Z
+DTEND:20260928T162137Z
+SUMMARY:(299) Thora hides a mag 12.8 star
+DESCRIPTION:(299) Thora hides a magnitude 12.8 star\, seen from Agra.\nYou 
+ are inside the path\, 10 km from its centre line: the star vanishes for up
+  to 0.2 s.\nClosest approach 21:46:37 IST\, give or take 1 s. The star is 
+ 26° up in the SW · dark sky.\nIt fades 3.1 magnitudes for up to 1.3 s on
+  the centre line\, and the path is 16 km wide\, give or take 15 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2026-09#2026-09-28-299-thora-571648
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-299-thora-571648
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(299) Thora hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-agra@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230853Z
+DTEND:20260928T231853Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Agra.\nYou ar
+ e inside the path\, 196 km from its centre line: the star vanishes for up 
+ to 39.2 s.\nClosest approach 04:43:53 IST\, give or take 1 s. The star is 
+ 60° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s on
+  the centre line\, and the path is 939 km wide\, give or take 19 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-58e2008d7a7b-agra@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162718Z
@@ -49,6 +113,51 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-13-778-theobalda-311168-agra@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261013T230425Z
+DTEND:20261013T231425Z
+SUMMARY:(778) Theobalda hides a mag 12.5 star
+DESCRIPTION:(778) Theobalda hides a magnitude 12.5 star\, seen from Agra.\n
+ You are inside the path\, 15 km from its centre line: the star vanishes fo
+ r up to 3.9 s.\nClosest approach 04:39:25 IST\, give or take 2 s. The star
+  is 22° up in the WNW · dark sky.\nIt fades 1.7 magnitudes for up to 4.6
+  s on the centre line\, and the path is 55 km wide\, give or take 24 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-10#2026-10-13-778-theobalda-311168
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-13-778-theobalda-311
+ 168
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(778) Theobalda hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-19-8560-tsubaki-620736-agra@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261019T160234Z
+DTEND:20261019T161234Z
+SUMMARY:(8560) Tsubaki hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(8560) Tsubaki hides a magnitude 12.2 star\, seen from Agra.\nT
+ he predicted edge passes 11 km to the NNW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 21:37:34 IST\, give or take 2 s. The star is 30° up in the ENE 
+ · dark sky.\nIt fades 5.3 magnitudes for up to 2.0 s on the centre line\,
+  and the path is 19 km wide\, give or take 16 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-19
+ -8560-tsubaki-620736
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-19-8560-tsubaki-6207
+ 36
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(8560) Tsubaki hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-c380a5ba1bec-agra@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T130936Z
@@ -73,6 +182,28 @@ DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:12:29 at the dark limb
  alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-agra@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130017Z
+DTEND:20261101T131017Z
+SUMMARY:(921) Jovita hides a mag 13.3 star (just outside the path)
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Agra.\nThe
+  predicted edge passes 27 km to the S\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 18:35:17 IST\, give or take 1 s. The star is 46° up in the SW · da
+ rk sky.\nIt fades 2.2 magnitudes for up to 1.8 s on the centre line\, and 
+ the path is 55 km wide\, give or take 32 km.\nFinder chart\, the map and t
+ he path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-
+ jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-834f0938899a-agra@occult.alokm.com
@@ -127,6 +258,28 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-25-23129-23129-448768-agra@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261125T221653Z
+DTEND:20261125T222653Z
+SUMMARY:(23129) 23129 hides a mag 12.9 star
+DESCRIPTION:(23129) 23129 hides a magnitude 12.9 star\, seen from Agra.\nYo
+ u are inside the path\, 2 km from its centre line: the star vanishes for u
+ p to 1.4 s.\nClosest approach 03:51:53 IST\, give or take 1 s. The star is
+  31° up in the W · dark sky.\nIt fades 3.1 magnitudes for up to 1.4 s on
+  the centre line\, and the path is 20 km wide\, give or take 13 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2026-11#2026-11-25-23129-23129-448768
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-25-23129-23129-44876
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(23129) 23129 hides a mag 12.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-dc64eb04a8d4-agra@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T161943Z
@@ -166,6 +319,49 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-01-4003-schumann-034432-agra@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261201T004342Z
+DTEND:20261201T005342Z
+SUMMARY:(4003) Schumann hides a mag 10.2 star
+DESCRIPTION:(4003) Schumann hides a magnitude 10.2 star\, seen from Agra.\n
+ You are inside the path\, 10 km from its centre line: the star vanishes fo
+ r up to 3.4 s.\nClosest approach 06:18:42 IST\, give or take 2 s. The star
+  is 42° up in the W · dusk.\nIt fades 7.0 magnitudes for up to 4.0 s on 
+ the centre line\, and the path is 36 km wide\, give or take 21 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 026-12#2026-12-01-4003-schumann-034432
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-01-4003-schumann-034
+ 432
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4003) Schumann hides a mag 10.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-04-460-scania-784192-agra@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261204T163746Z
+DTEND:20261204T164746Z
+SUMMARY:(460) Scania hides a mag 12.4 star
+DESCRIPTION:(460) Scania hides a magnitude 12.4 star\, seen from Agra.\nYou
+  are inside the path\, 7 km from its centre line: the star vanishes for up
+  to 1.6 s.\nClosest approach 22:12:46 IST\, give or take 1 s. The star is 
+ 38° up in the E · dark sky.\nIt fades 2.4 magnitudes for up to 2.0 s on 
+ the centre line\, and the path is 20 km wide\, give or take 12 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 026-12#2026-12-04-460-scania-784192
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-04-460-scania-784192
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(460) Scania hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2011e94250ec-agra@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T134335Z
@@ -177,6 +373,29 @@ DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:13:35 at the dark limb
  .alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-21-3089-oujianquan-204864-agra@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261221T191005Z
+DTEND:20261221T192005Z
+SUMMARY:(3089) Oujianquan hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(3089) Oujianquan hides a magnitude 12.3 star\, seen from Agra.
+ \nThe predicted edge passes 18 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 00:45:05 IST\, give or take 1 s. The star is 72° up in the W
+ SW · dark sky.\nIt fades 4.2 magnitudes for up to 2.2 s on the centre lin
+ e\, and the path is 36 km wide\, give or take 18 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12
+ -21-3089-oujianquan-204864
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-21-3089-oujianquan-2
+ 04864
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3089) Oujianquan hides a mag 12.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e3548ba2b2ed-agra@occult.alokm.com
@@ -203,6 +422,28 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:59:28 at the dark limb I
  lokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-09-4709-ennomos-956480-agra@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270109T130706Z
+DTEND:20270109T131706Z
+SUMMARY:(4709) Ennomos hides a mag 12.5 star
+DESCRIPTION:(4709) Ennomos hides a magnitude 12.5 star\, seen from Agra.\nY
+ ou are inside the path\, 42 km from its centre line: the star vanishes for
+  up to 3.4 s.\nClosest approach 18:42:06 IST\, give or take 7 s. The star 
+ is 34° up in the E · dark sky.\nIt fades 3.5 magnitudes for up to 5.7 s 
+ on the centre line\, and the path is 91 km wide\, give or take 32 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-01#2027-01-09-4709-ennomos-956480
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-09-4709-ennomos-9564
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4709) Ennomos hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-055bbe0f66a2-agra@occult.alokm.com
@@ -309,6 +550,28 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-104-klymene-773824-agra@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T185702Z
+DTEND:20270222T190702Z
+SUMMARY:(104) Klymene hides a mag 12.6 star
+DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Agra.\nYo
+ u are inside the path\, 37 km from its centre line: the star vanishes for 
+ up to 8.8 s.\nClosest approach 00:32:02 IST\, give or take 2 s. The star i
+ s 75° up in the SSE · dark sky.\nIt fades 0.7 magnitudes for up to 10.8 
+ s on the centre line\, and the path is 137 km wide\, give or take 14 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-02#2027-02-22-104-klymene-773824
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-104-klymene-77382
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(104) Klymene hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a61f89070a31-agra@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T200650Z
@@ -322,6 +585,72 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-19-686-gersuind-867200-agra@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270319T161718Z
+DTEND:20270319T162718Z
+SUMMARY:(686) Gersuind hides a mag 12.1 star
+DESCRIPTION:(686) Gersuind hides a magnitude 12.1 star\, seen from Agra.\nY
+ ou are inside the path\, 22 km from its centre line: the star vanishes for
+  up to 1.1 s.\nClosest approach 21:52:18 IST\, give or take 1 s. The star 
+ is 13° up in the WNW · dark sky.\nIt fades 3.0 magnitudes for up to 1.7 
+ s on the centre line\, and the path is 55 km wide\, give or take 22 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-03#2027-03-19-686-gersuind-867200
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-19-686-gersuind-8672
+ 00
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(686) Gersuind hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-02-566-stereoskopia-156096-agra@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270402T134832Z
+DTEND:20270402T135832Z
+SUMMARY:(566) Stereoskopia hides a mag 11.5 star
+DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Agra
+ .\nYou are inside the path\, 68 km from its centre line: the star vanishes
+  for up to 4.6 s.\nClosest approach 19:23:32 IST\, give or take 1 s. The s
+ tar is 67° up in the W · dusk.\nIt fades 2.9 magnitudes for up to 7.7 s 
+ on the centre line\, and the path is 167 km wide\, give or take 24 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-04#2027-04-02-566-stereoskopia-156096
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-02-566-stereoskopia-
+ 156096
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(566) Stereoskopia hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-04-627-charis-834368-agra@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T195655Z
+DTEND:20270404T200655Z
+SUMMARY:(627) Charis hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(627) Charis hides a magnitude 12.5 star\, seen from Agra.\nThe
+  predicted edge passes 16 km to the S\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 01:31:55 IST\, give or take 2 s. The star is 18° up in the ESE · d
+ ark sky.\nIt fades 2.7 magnitudes for up to 3.7 s on the centre line\, and
+  the path is 38 km wide\, give or take 18 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-04-627
+ -charis-834368
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-627-charis-834368
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(627) Charis hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-df72381a77f4-agra@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T140750Z
@@ -333,6 +662,95 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:37:50 at the dark limb
  alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-24-4967-glia-725440-agra@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270424T161149Z
+DTEND:20270424T162149Z
+SUMMARY:(4967) Glia hides a mag 9.9 star
+DESCRIPTION:(4967) Glia hides a magnitude 9.9 star\, seen from Agra.\nYou a
+ re inside the path\, 4 km from its centre line: the star vanishes for up t
+ o 1.0 s.\nClosest approach 21:46:49 IST\, give or take 1 s. The star is 19
+ ° up in the WNW · dark sky.\nIt fades 7.8 magnitudes for up to 1.0 s on 
+ the centre line\, and the path is 30 km wide\, give or take 26 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-04#2027-04-24-4967-glia-725440
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-24-4967-glia-725440
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4967) Glia hides a mag 9.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-01-829-academia-095104-agra@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270501T191124Z
+DTEND:20270501T192124Z
+SUMMARY:(829) Academia hides a mag 12.5 star
+DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Agra.\nY
+ ou are inside the path\, 17 km from its centre line: the star vanishes for
+  up to 3.6 s.\nClosest approach 00:46:24 IST\, give or take 1 s. The star 
+ is 29° up in the SSE · dark sky.\nIt fades 2.9 magnitudes for up to 4.0 
+ s on the centre line\, and the path is 43 km wide\, give or take 34 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-01-829-academia-095104
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-01-829-academia-0951
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(829) Academia hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-05-538-friederike-078464-agra@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270505T205849Z
+DTEND:20270505T210849Z
+SUMMARY:(538) Friederike hides a mag 11.4 star (just outside the path)
+DESCRIPTION:(538) Friederike hides a magnitude 11.4 star\, seen from Agra.\
+ nThe predicted edge passes 7 km to the NNE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 02:33:49 IST\, give or take 2 s. The star is 49° up in the SSW
+  · dark sky.\nIt fades 3.3 magnitudes for up to 5.6 s on the centre line\
+ , and the path is 71 km wide\, give or take 22 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-0
+ 5-538-friederike-078464
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-05-538-friederike-07
+ 8464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(538) Friederike hides a mag 11.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-17-675-ludmilla-666240-agra@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270517T183803Z
+DTEND:20270517T184803Z
+SUMMARY:(675) Ludmilla hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(675) Ludmilla hides a magnitude 12.7 star\, seen from Agra.\nT
+ he predicted edge passes 17 km to the NNE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 00:13:03 IST\, give or take 3 s. The star is 25° up in the SE 
+ · dark sky.\nIt fades 1.1 magnitudes for up to 9.6 s on the centre line\,
+  and the path is 76 km wide\, give or take 20 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-17
+ -675-ludmilla-666240
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-17-675-ludmilla-6662
+ 40
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(675) Ludmilla hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-fc40f7848ab7-agra@occult.alokm.com
@@ -387,6 +805,28 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-10-895-helio-828800-agra@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270610T192958Z
+DTEND:20270610T193958Z
+SUMMARY:(895) Helio hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(895) Helio hides a magnitude 12.7 star\, seen from Agra.\nThe 
+ predicted edge passes 79 km to the SSW\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 01:04:58 IST\, give or take 1 s. The star is 47° up in the SSE · 
+ dark sky.\nIt fades 1.4 magnitudes for up to 7.2 s on the centre line\, an
+ d the path is 110 km wide\, give or take 82 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-10-8
+ 95-helio-828800
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-10-895-helio-828800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(895) Helio hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a583c2cd9e6d-agra@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T153409Z
@@ -426,6 +866,29 @@ URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-08-03-708-raphaela-174464-agra@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270803T223726Z
+DTEND:20270803T224726Z
+SUMMARY:(708) Raphaela hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(708) Raphaela hides a magnitude 11.3 star\, seen from Agra.\nT
+ he predicted edge passes 8 km to the SSE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 04:12:26 IST\, give or take 1 s. The star is 58° up in the E · 
+ dark sky.\nIt fades 4.9 magnitudes for up to 1.1 s on the centre line\, an
+ d the path is 21 km wide\, give or take 20 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-03-70
+ 8-raphaela-174464
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-03-708-raphaela-1744
+ 64
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(708) Raphaela hides a mag 11.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-65ed17c37405-agra@occult.alokm.com
 DTSTAMP:20270801T000000Z
 DTSTART:20270806T153752Z
@@ -450,6 +913,27 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:28:46 at the dark limb
  lokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-12-795-fini-257280-agra@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270812T142404Z
+DTEND:20270812T143404Z
+SUMMARY:(795) Fini hides a mag 11.4 star
+DESCRIPTION:(795) Fini hides a magnitude 11.4 star\, seen from Agra.\nYou a
+ re inside the path\, 19 km from its centre line: the star vanishes for up 
+ to 8.1 s.\nClosest approach 19:59:04 IST\, give or take 2 s. The star is 1
+ 7° up in the S · dark sky.\nIt fades 3.5 magnitudes for up to 8.3 s on t
+ he centre line\, and the path is 85 km wide\, give or take 16 km.\nFinder 
+ chart\, the map and the path as KML: https://occult.alokm.com/asteroids-20
+ 27-08#2027-08-12-795-fini-257280
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-12-795-fini-257280
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(795) Fini hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-agra@occult.alokm.com

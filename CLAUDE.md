@@ -102,7 +102,10 @@ Rules that are easy to break:
   city or an alias is listed, else `solve_from_elements` for cities in or near the world visibility region) and the
   star occultations visible in BINOCULARS for the next 12 months. The star path screens on the solver's 2-minute
   grid and then runs `MonthModel.events` on the survivors; `tests/test_feeds.py` fails if the screen ever drops an
-  event the full solve keeps. Prefilter stars by the chosen instrument's dark-limb limit — using the faintest
+  event the full solve keeps. Asteroid shadows are in as well (`asteroid_events`): `asteroid_occultations.local` per event
+  from the month files, kept when the place is inside the path or within its 1σ margin with the star ≥ `AST_ALT_MIN` up and the
+  Sun ≤ `AST_SUN_MAX` — about 30 a year for an Indian city, half inside the path, and the summary says which; places outside the
+  audience bbox (+`AST_PAD_DEG`) skip the solve. Prefilter stars by the chosen instrument's dark-limb limit — using the faintest
   instrument's limit once made the build 6x slower. One entry per double star: the catalogue's `double` column (ADS
   number, else HR) groups components, and `merge_doubles` folds those within an hour into the brightest's entry
   (its UID, spanning both, naming the companion). Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come

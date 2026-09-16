@@ -16,6 +16,49 @@ from star_occultations import INSTRUMENTS, MonthModel, visible  # noqa: E402
 
 MONTHS = ["2026-10", "2027-03"]
 PLACES = [(28.6139, 77.2090), (19.0760, 72.8777), (51.5072, -0.1276), (-33.8688, 151.2093)]
+UTC = lambda t: t.strftime("%H:%M:%S")
+
+
+def _asteroid_feed(lat, lon):
+    """build_feeds.asteroid_events for one place, over the first asteroid month, with _init's own record shape."""
+    import glob
+
+    import build_feeds as bf
+    from asteroid_occultations import local
+    paths = sorted(glob.glob(os.path.join(HERE, "..", "data", "asteroids-*.json")))
+    if not paths:
+        pytest.skip("no asteroid month files")
+    d = json.load(open(paths[0]))
+    recs = []
+    for ev in d["events"]:
+        t0 = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        recs.append({"ym": d["month"], "bbox": d["bbox"], "gen": t0, "t0": t0, "id": ev["id"], "el": ev["el"],
+                     "sigma_km": ev["sigma_km"], "sigma_s": ev["sigma_s"], "ast": ev["asteroid"], "star": ev["star"],
+                     "drop": ev["drop"], "dur": ev["dur_max_s"]})
+    bf._W.update(asteroids=recs)
+    cutoff = datetime(2000, 1, 1, tzinfo=timezone.utc)
+    return d, recs, bf.asteroid_events("Test", "test", lat, lon, UTC, lambda t: "UTC", cutoff), local
+
+
+def test_asteroid_feed_entries_are_the_paths_that_reach_the_place():
+    """Every entry is a path over the place (or within its 1σ), and every path over it that is up in a dark sky is an entry."""
+    import build_feeds as bf
+    d, recs, on_path, local = _asteroid_feed(*PLACES[0])          # New Delhi
+    ids = {e["uid"].split("@")[0][len("ast-"):-len("-test")] for e in on_path}
+    for r in recs:
+        s = local(r["el"], *PLACES[0])
+        reach = abs(s["d"]) <= r["el"]["R"] + (r["sigma_km"] or 0)
+        want = reach and s["star_alt"] >= bf.AST_ALT_MIN and s["sun_alt"] <= bf.AST_SUN_MAX
+        assert (r["id"] in ids) == want, (r["id"], s["d"], r["el"]["R"], r["sigma_km"], s["star_alt"], s["sun_alt"])
+    assert on_path, "New Delhi should see some asteroid occultations in a month"
+    for e in on_path:
+        assert e["alarm"] and e["start"] < e["end"] and e["url"].startswith("https://")
+        assert ("inside the path" in e["description"]) != ("just outside the path" in e["summary"])
+
+
+def test_asteroid_entries_stop_at_the_frame():
+    _, _, london, _ = _asteroid_feed(*PLACES[2])                   # far outside the audience's map: no solve, no entries
+    assert london == []
 
 
 def _visible_set(model, stars, lat, lon):

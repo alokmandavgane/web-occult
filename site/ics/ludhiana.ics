@@ -49,6 +49,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-20-584-semiramis-053696-ludhiana@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261019T235914Z
+DTEND:20261020T000914Z
+SUMMARY:(584) Semiramis hides a mag 10.3 star
+DESCRIPTION:(584) Semiramis hides a magnitude 10.3 star\, seen from Ludhian
+ a.\nYou are inside the path\, 16 km from its centre line: the star vanishe
+ s for up to 1.5 s.\nClosest approach 05:34:14 IST\, give or take 1 s. The 
+ star is 46° up in the ESE · dark sky.\nIt fades 3.4 magnitudes for up to
+  1.8 s on the centre line\, and the path is 54 km wide\, give or take 21 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2026-10#2026-10-20-584-semiramis-053696
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-20-584-semiramis-053
+ 696
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(584) Semiramis hides a mag 10.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-0a2e03933427-ludhiana@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T131835Z
@@ -75,6 +97,72 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-31-1323-tugela-632128-ludhiana@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261031T123051Z
+DTEND:20261031T124051Z
+SUMMARY:(1323) Tugela hides a mag 12.5 star
+DESCRIPTION:(1323) Tugela hides a magnitude 12.5 star\, seen from Ludhiana.
+ \nYou are inside the path\, 59 km from its centre line: the star vanishes 
+ for up to 1.0 s.\nClosest approach 18:05:51 IST\, give or take 1 s. The st
+ ar is 13° up in the SSW · dusk.\nIt fades 3.5 magnitudes for up to 2.1 s
+  on the centre line\, and the path is 78 km wide\, give or take 27 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-10#2026-10-31-1323-tugela-632128
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-31-1323-tugela-63212
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1323) Tugela hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-01-142-polana-886464-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T123825Z
+DTEND:20261101T124825Z
+SUMMARY:(142) Polana hides a mag 11.0 star
+DESCRIPTION:(142) Polana hides a magnitude 11.0 star\, seen from Ludhiana.\
+ nYou are inside the path\, 4 km from its centre line: the star vanishes fo
+ r up to 1.3 s.\nClosest approach 18:13:25 IST\, give or take 1 s. The star
+  is 19° up in the SW · dusk.\nIt fades 4.5 magnitudes for up to 1.3 s on
+  the centre line\, and the path is 55 km wide\, give or take 21 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2026-11#2026-11-01-142-polana-886464
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-142-polana-886464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(142) Polana hides a mag 11.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-01-30705-idaios-704960-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T213145Z
+DTEND:20261101T214145Z
+SUMMARY:(30705) Idaios hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(30705) Idaios hides a magnitude 12.8 star\, seen from Ludhiana
+ .\nThe predicted edge passes 36 km to the NNE\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 03:06:45 IST\, give or take 2 s. The star is 67° up in the 
+ WNW · dark sky.\nIt fades 4.6 magnitudes for up to 2.7 s on the centre li
+ ne\, and the path is 45 km wide\, give or take 36 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-1
+ 1-01-30705-idaios-704960
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-30705-idaios-7049
+ 60
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(30705) Idaios hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-5b8c3443c57c-ludhiana@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T201947Z
@@ -99,6 +187,72 @@ DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:26:30 at the dark limb I
  alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-1911-schubart-238336-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T130037Z
+DTEND:20261112T131037Z
+SUMMARY:(1911) Schubart hides a mag 10.7 star
+DESCRIPTION:(1911) Schubart hides a magnitude 10.7 star\, seen from Ludhian
+ a.\nYou are inside the path\, 20 km from its centre line: the star vanishe
+ s for up to 2.1 s.\nClosest approach 18:35:37 IST\, give or take 1 s. The 
+ star is 27° up in the SW · dark sky.\nIt fades 6.9 magnitudes for up to 
+ 2.3 s on the centre line\, and the path is 67 km wide\, give or take 37 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-11#2026-11-12-1911-schubart-238336
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-1911-schubart-238
+ 336
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1911) Schubart hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-13-3179-beruti-311104-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261113T000020Z
+DTEND:20261113T001020Z
+SUMMARY:(3179) Beruti hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(3179) Beruti hides a magnitude 12.0 star\, seen from Ludhiana.
+ \nThe predicted edge passes 20 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 05:35:20 IST\, give or take 1 s. The star is 55° up in the S
+ E · dark sky.\nIt fades 5.4 magnitudes for up to 0.8 s on the centre line
+ \, and the path is 21 km wide\, give or take 20 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-
+ 13-3179-beruti-311104
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-13-3179-beruti-31110
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3179) Beruti hides a mag 12.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-16-59-elpis-114880-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261116T190255Z
+DTEND:20261116T191255Z
+SUMMARY:(59) Elpis hides a mag 12.9 star
+DESCRIPTION:(59) Elpis hides a magnitude 12.9 star\, seen from Ludhiana.\nY
+ ou are inside the path\, 46 km from its centre line: the star vanishes for
+  up to 24.4 s.\nClosest approach 00:37:55 IST\, give or take 2 s. The star
+  is 51° up in the ESE · dark sky.\nIt fades 0.4 magnitudes for up to 28.
+ 6 s on the centre line\, and the path is 165 km wide\, give or take 27 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-16-59-elpis-114880
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-16-59-elpis-114880
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(59) Elpis hides a mag 12.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e86efccedf4c-ludhiana@occult.alokm.com
@@ -140,6 +294,50 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-22-1571-cesco-399296-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261222T182229Z
+DTEND:20261222T183229Z
+SUMMARY:(1571) Cesco hides a mag 11.2 star
+DESCRIPTION:(1571) Cesco hides a magnitude 11.2 star\, seen from Ludhiana.\
+ nYou are inside the path\, 7 km from its centre line: the star vanishes fo
+ r up to 0.9 s.\nClosest approach 23:57:29 IST\, give or take 1 s. The star
+  is 86° up in the ENE · dark sky.\nIt fades 4.3 magnitudes for up to 1.4
+  s on the centre line\, and the path is 18 km wide\, give or take 13 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-12#2026-12-22-1571-cesco-399296
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-22-1571-cesco-399296
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1571) Cesco hides a mag 11.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-25-1263-varsavia-993152-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261225T131153Z
+DTEND:20261225T132153Z
+SUMMARY:(1263) Varsavia hides a mag 9.6 star (just outside the path)
+DESCRIPTION:(1263) Varsavia hides a magnitude 9.6 star\, seen from Ludhiana
+ .\nThe predicted edge passes 29 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 18:46:53 IST\, give or take 1 s. The star is 25° up in the 
+ WSW · dark sky.\nIt fades 6.4 magnitudes for up to 1.3 s on the centre li
+ ne\, and the path is 49 km wide\, give or take 25 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-1
+ 2-25-1263-varsavia-993152
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-25-1263-varsavia-993
+ 152
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1263) Varsavia hides a mag 9.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-aecaac6c11c7-ludhiana@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261228T002122Z
@@ -166,6 +364,73 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-19-1378-leonce-488256-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270119T001019Z
+DTEND:20270119T002019Z
+SUMMARY:(1378) Leonce hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(1378) Leonce hides a magnitude 12.3 star\, seen from Ludhiana.
+ \nThe predicted edge passes 8 km to the NE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 05:45:19 IST\, give or take 2 s. The star is 17° up in the WNW
+  · dark sky.\nIt fades 3.6 magnitudes for up to 1.7 s on the centre line\
+ , and the path is 21 km wide\, give or take 20 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-1
+ 9-1378-leonce-488256
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-19-1378-leonce-48825
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1378) Leonce hides a mag 12.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-20-444-gyptis-733440-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270120T144006Z
+DTEND:20270120T145006Z
+SUMMARY:(444) Gyptis hides a mag 12.3 star
+DESCRIPTION:(444) Gyptis hides a magnitude 12.3 star\, seen from Ludhiana.\
+ nYou are inside the path\, 27 km from its centre line: the star vanishes f
+ or up to 10.6 s.\nClosest approach 20:15:06 IST\, give or take 1 s. The st
+ ar is 30° up in the ESE · dark sky.\nIt fades 0.8 magnitudes for up to 1
+ 1.4 s on the centre line\, and the path is 159 km wide\, give or take 15 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-01#2027-01-20-444-gyptis-733440
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-20-444-gyptis-733440
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(444) Gyptis hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-21-400-ducrosa-012160-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270121T201529Z
+DTEND:20270121T202529Z
+SUMMARY:(400) Ducrosa hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(400) Ducrosa hides a magnitude 12.7 star\, seen from Ludhiana.
+ \nThe predicted edge passes 0 km to the N\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 01:50:29 IST\, give or take 3 s. The star is 35° up in the WNW 
+ · dark sky.\nIt fades 3.3 magnitudes for up to 4.3 s on the centre line\,
+  and the path is 36 km wide\, give or take 18 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-21
+ -400-ducrosa-012160
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-21-400-ducrosa-01216
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(400) Ducrosa hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-8600769084b1-ludhiana@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270124T222545Z
@@ -179,6 +444,74 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-03-906-repsolda-610688-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270203T130026Z
+DTEND:20270203T131026Z
+SUMMARY:(906) Repsolda hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(906) Repsolda hides a magnitude 11.8 star\, seen from Ludhiana
+ .\nThe predicted edge passes 18 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 18:35:26 IST\, give or take 1 s. The star is 50° up in the 
+ SW · dusk.\nIt fades 3.3 magnitudes for up to 2.0 s on the centre line\, 
+ and the path is 66 km wide\, give or take 23 km.\nFinder chart\, the map a
+ nd the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-03-
+ 906-repsolda-610688
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-03-906-repsolda-6106
+ 88
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(906) Repsolda hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-11-410-chloris-726272-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270211T221954Z
+DTEND:20270211T222954Z
+SUMMARY:(410) Chloris hides a mag 9.7 star
+DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Ludhiana.\
+ nYou are inside the path\, 44 km from its centre line: the star vanishes f
+ or up to 6.1 s.\nClosest approach 03:54:54 IST\, give or take 1 s. The sta
+ r is 42° up in the W · dark sky.\nIt fades 3.3 magnitudes for up to 8.1 
+ s on the centre line\, and the path is 119 km wide\, give or take 21 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-02#2027-02-11-410-chloris-726272
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-11-410-chloris-72627
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(410) Chloris hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-12-1281-jeanne-685184-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270212T003806Z
+DTEND:20270212T004806Z
+SUMMARY:(1281) Jeanne hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(1281) Jeanne hides a magnitude 12.1 star\, seen from Ludhiana.
+ \nThe predicted edge passes 24 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 06:13:06 IST\, give or take 0 s. The star is 21° up in the S
+ E · dark sky.\nIt fades 4.4 magnitudes for up to 0.6 s on the centre line
+ \, and the path is 26 km wide\, give or take 19 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-
+ 12-1281-jeanne-685184
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-12-1281-jeanne-68518
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1281) Jeanne hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1e23358aa0a6-ludhiana@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270214T170428Z
@@ -190,6 +523,28 @@ DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:34:28 at the dark limb
  t.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-15-55-pandora-306240-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270215T002807Z
+DTEND:20270215T003807Z
+SUMMARY:(55) Pandora hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(55) Pandora hides a magnitude 10.5 star\, seen from Ludhiana.\
+ nThe predicted edge passes 3 km to the NNE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 06:03:07 IST\, give or take 1 s. The star is 18° up in the SE 
+ · dark sky.\nIt fades 3.2 magnitudes for up to 2.5 s on the centre line\,
+  and the path is 85 km wide\, give or take 24 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-15
+ -55-pandora-306240
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-15-55-pandora-306240
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(55) Pandora hides a mag 10.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-35d3b63ca18d-ludhiana@occult.alokm.com
@@ -232,6 +587,227 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-23-1639-bower-221248-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T223252Z
+DTEND:20270223T224252Z
+SUMMARY:(1639) Bower hides a mag 11.0 star (just outside the path)
+DESCRIPTION:(1639) Bower hides a magnitude 11.0 star\, seen from Ludhiana.\
+ nThe predicted edge passes 19 km to the NNE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 04:07:52 IST\, give or take 1 s. The star is 20° up in the WN
+ W · dark sky.\nIt fades 3.6 magnitudes for up to 4.5 s on the centre line
+ \, and the path is 36 km wide\, give or take 34 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-
+ 23-1639-bower-221248
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-1639-bower-221248
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1639) Bower hides a mag 11.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-28-39-laetitia-186304-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T180700Z
+DTEND:20270228T181700Z
+SUMMARY:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Ludhiana.
+ \nYou are inside the path\, 120 km from its centre line: the star vanishes
+  for up to 9.8 s.\nClosest approach 23:42:00 IST\, give or take 4 s. The s
+ tar is 18° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 
+ 30.8 s on the centre line\, and the path is 179 km wide\, give or take 30 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-02#2027-02-28-39-laetitia-186304
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-39-laetitia-18630
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-13-940-kordula-671872-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270313T171408Z
+DTEND:20270313T172408Z
+SUMMARY:(940) Kordula hides a mag 11.7 star
+DESCRIPTION:(940) Kordula hides a magnitude 11.7 star\, seen from Ludhiana.
+ \nYou are inside the path\, 22 km from its centre line: the star vanishes 
+ for up to 2.9 s.\nClosest approach 22:49:08 IST\, give or take 1 s. The st
+ ar is 20° up in the WNW · dark sky.\nIt fades 3.9 magnitudes for up to 3
+ .5 s on the centre line\, and the path is 80 km wide\, give or take 25 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-03#2027-03-13-940-kordula-671872
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-13-940-kordula-67187
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(940) Kordula hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-29-59-elpis-313728-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270329T133840Z
+DTEND:20270329T134840Z
+SUMMARY:(59) Elpis hides a mag 12.1 star
+DESCRIPTION:(59) Elpis hides a magnitude 12.1 star\, seen from Ludhiana.\nY
+ ou are inside the path\, 27 km from its centre line: the star vanishes for
+  up to 7.3 s.\nClosest approach 19:13:40 IST\, give or take 1 s. The star 
+ is 68° up in the SW · dusk.\nIt fades 1.6 magnitudes for up to 7.5 s on 
+ the centre line\, and the path is 165 km wide\, give or take 19 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2027-03#2027-03-29-59-elpis-313728
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-29-59-elpis-313728
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(59) Elpis hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-30-868-lova-000256-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270330T175325Z
+DTEND:20270330T180325Z
+SUMMARY:(868) Lova hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(868) Lova hides a magnitude 10.7 star\, seen from Ludhiana.\nT
+ he predicted edge passes 8 km to the SSW\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 23:28:25 IST\, give or take 1 s. The star is 19° up in the WNW 
+ · dark sky.\nIt fades 4.8 magnitudes for up to 2.3 s on the centre line\,
+  and the path is 51 km wide\, give or take 27 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-30
+ -868-lova-000256
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-30-868-lova-000256
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-2967-vladisvyat-149952-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T202720Z
+DTEND:20270414T203720Z
+SUMMARY:(2967) Vladisvyat hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(2967) Vladisvyat hides a magnitude 12.8 star\, seen from Ludhi
+ ana.\nThe predicted edge passes 25 km to the WSW\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 02:02:20 IST\, give or take 2 s. The star is 15° up in t
+ he SSE · dark sky.\nIt fades 4.3 magnitudes for up to 3.7 s on the centre
+  line\, and the path is 33 km wide\, give or take 31 km.\nFinder chart\, t
+ he map and the path as KML: https://occult.alokm.com/asteroids-2027-04#202
+ 7-04-14-2967-vladisvyat-149952
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-2967-vladisvyat-1
+ 49952
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2967) Vladisvyat hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-218-bianca-074816-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T231250Z
+DTEND:20270414T232250Z
+SUMMARY:(218) Bianca hides a mag 11.3 star
+DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Ludhiana.\
+ nYou are inside the path\, 20 km from its centre line: the star vanishes f
+ or up to 5.2 s.\nClosest approach 04:47:50 IST\, give or take 4 s. The sta
+ r is 24° up in the W · dark sky.\nIt fades 1.0 magnitudes for up to 5.6 
+ s on the centre line\, and the path is 61 km wide\, give or take 18 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-04#2027-04-14-218-bianca-074816
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-bianca-074816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(218) Bianca hides a mag 11.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-21-2258-viipuri-103680-ludhiana@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270421T224157Z
+DTEND:20270421T225157Z
+SUMMARY:(2258) Viipuri hides a mag 10.8 star (just outside the path)
+DESCRIPTION:(2258) Viipuri hides a magnitude 10.8 star\, seen from Ludhiana
+ .\nThe predicted edge passes 38 km to the N\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 04:16:57 IST\, give or take 1 s. The star is 15° up in the ES
+ E · dark sky.\nIt fades 7.0 magnitudes for up to 0.8 s on the centre line
+ \, and the path is 26 km wide\, give or take 24 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-
+ 21-2258-viipuri-103680
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-21-2258-viipuri-1036
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2258) Viipuri hides a mag 10.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-03-1107-lictoria-568512-ludhiana@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270503T232607Z
+DTEND:20270503T233607Z
+SUMMARY:(1107) Lictoria hides a mag 9.6 star
+DESCRIPTION:(1107) Lictoria hides a magnitude 9.6 star\, seen from Ludhiana
+ .\nYou are inside the path\, 2 km from its centre line: the star vanishes 
+ for up to 41.2 s.\nClosest approach 05:01:07 IST\, give or take 10 s. The 
+ star is 39° up in the S · dusk.\nIt fades 6.0 magnitudes for up to 34.3 
+ s on the centre line\, and the path is 79 km wide\, give or take 27 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-03-1107-lictoria-568512
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-03-1107-lictoria-568
+ 512
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1107) Lictoria hides a mag 9.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-17-3094-chukokkala-064704-ludhiana@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270517T170548Z
+DTEND:20270517T171548Z
+SUMMARY:(3094) Chukokkala hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(3094) Chukokkala hides a magnitude 12.9 star\, seen from Ludhi
+ ana.\nThe predicted edge passes 9 km to the SSW\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 22:40:48 IST\, give or take 7 s. The star is 28° up in th
+ e ESE · dark sky.\nIt fades 3.2 magnitudes for up to 2.8 s on the centre 
+ line\, and the path is 23 km wide\, give or take 20 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027
+ -05-17-3094-chukokkala-064704
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-17-3094-chukokkala-0
+ 64704
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3094) Chukokkala hides a mag 12.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-b0961529c067-ludhiana@occult.alokm.com
 DTSTAMP:20270501T000000Z
 DTSTART:20270520T172455Z
@@ -257,6 +833,29 @@ DESCRIPTION:3 Sgr (magnitude 4.6) reappears at 22:40:50 at the dark limb IS
  .alokm.com/moon-stars-2027-05
 URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-29-81-terpsichore-356288-ludhiana@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270529T200534Z
+DTEND:20270529T201534Z
+SUMMARY:(81) Terpsichore hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(81) Terpsichore hides a magnitude 12.8 star\, seen from Ludhia
+ na.\nThe predicted edge passes 35 km to the SSE\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 01:40:34 IST\, give or take 4 s. The star is 24° up in th
+ e SSE · dark sky.\nIt fades 1.3 magnitudes for up to 10.9 s on the centre
+  line\, and the path is 118 km wide\, give or take 17 km.\nFinder chart\, 
+ the map and the path as KML: https://occult.alokm.com/asteroids-2027-05#20
+ 27-05-29-81-terpsichore-356288
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-29-81-terpsichore-35
+ 6288
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(81) Terpsichore hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0d4d5118a4cc-ludhiana@occult.alokm.com
@@ -296,6 +895,29 @@ DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:15:13 at the dark limb
  lt.alokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-23-1669-dagmar-190592-ludhiana@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270623T173603Z
+DTEND:20270623T174603Z
+SUMMARY:(1669) Dagmar hides a mag 9.1 star (just outside the path)
+DESCRIPTION:(1669) Dagmar hides a magnitude 9.1 star\, seen from Ludhiana.\
+ nThe predicted edge passes 11 km to the N\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 23:11:03 IST\, give or take 16 s. The star is 35° up in the SSW
+  · dark sky.\nIt fades 6.3 magnitudes for up to 9.1 s on the centre line\
+ , and the path is 42 km wide\, give or take 15 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-2
+ 3-1669-dagmar-190592
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-23-1669-dagmar-19059
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1669) Dagmar hides a mag 9.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-60d6c48810b5-ludhiana@occult.alokm.com
@@ -348,6 +970,28 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:33:05 at the dark limb
  lt.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-10-321-florentina-933504-ludhiana@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270810T185718Z
+DTEND:20270810T190718Z
+SUMMARY:(321) Florentina hides a mag 12.6 star
+DESCRIPTION:(321) Florentina hides a magnitude 12.6 star\, seen from Ludhia
+ na.\nYou are inside the path\, 21 km from its centre line: the star vanish
+ es for up to 3.5 s.\nClosest approach 00:32:18 IST\, give or take 7 s. The
+  star is 16° up in the SW · dark sky.\nIt fades 2.5 magnitudes for up to
+  7.2 s on the centre line\, and the path is 28 km wide\, give or take 24 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-08#2027-08-10-321-florentina-933504
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-10-321-florentina-93
+ 3504
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(321) Florentina hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-b53a24d15403-ludhiana@occult.alokm.com

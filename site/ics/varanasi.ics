@@ -10,6 +10,48 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-27-505-cava-112256-varanasi@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260927T194838Z
+DTEND:20260927T195838Z
+SUMMARY:(505) Cava hides a mag 12.0 star
+DESCRIPTION:(505) Cava hides a magnitude 12.0 star\, seen from Varanasi.\nY
+ ou are inside the path\, 59 km from its centre line: the star vanishes for
+  up to 9.9 s.\nClosest approach 01:23:38 IST\, give or take 2 s. The star 
+ is 61° up in the SSE · dark sky.\nIt fades 0.7 magnitudes for up to 25.4
+  s on the centre line\, and the path is 115 km wide\, give or take 9 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-09#2026-09-27-505-cava-112256
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-27-505-cava-112256
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(505) Cava hides a mag 12.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-varanasi@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230910Z
+DTEND:20260928T231910Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Varanasi.\nYo
+ u are inside the path\, 127 km from its centre line: the star vanishes for
+  up to 41.5 s.\nClosest approach 04:44:10 IST\, give or take 1 s. The star
+  is 65° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 
+ s on the centre line\, and the path is 939 km wide\, give or take 19 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-0f15b195b516-varanasi@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T161453Z
@@ -60,6 +102,95 @@ DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:08:09 at the dark limb I
  alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-08-152-atala-784704-varanasi@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261008T213603Z
+DTEND:20261008T214603Z
+SUMMARY:(152) Atala hides a mag 11.3 star
+DESCRIPTION:(152) Atala hides a magnitude 11.3 star\, seen from Varanasi.\n
+ You are inside the path\, 15 km from its centre line: the star vanishes fo
+ r up to 2.5 s.\nClosest approach 03:11:03 IST\, give or take 1 s. The star
+  is 47° up in the ENE · dark sky.\nIt fades 2.7 magnitudes for up to 2.9
+  s on the centre line\, and the path is 59 km wide\, give or take 20 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-10#2026-10-08-152-atala-784704
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-08-152-atala-784704
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(152) Atala hides a mag 11.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-09-1145-robelmonte-768768-varanasi@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261009T211405Z
+DTEND:20261009T212405Z
+SUMMARY:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(1145) Robelmonte hides a magnitude 11.6 star\, seen from Varan
+ asi.\nThe predicted edge passes 12 km to the SSE\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 02:49:05 IST\, give or take 1 s. The star is 30° up in t
+ he ENE · dark sky.\nIt fades 5.2 magnitudes for up to 0.9 s on the centre
+  line\, and the path is 24 km wide\, give or take 20 km.\nFinder chart\, t
+ he map and the path as KML: https://occult.alokm.com/asteroids-2026-10#202
+ 6-10-09-1145-robelmonte-768768
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-09-1145-robelmonte-7
+ 68768
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-11-15638-15638-090304-varanasi@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261011T224946Z
+DTEND:20261011T225946Z
+SUMMARY:(15638) 15638 hides a mag 7.4 star (just outside the path)
+DESCRIPTION:(15638) 15638 hides a magnitude 7.4 star\, seen from Varanasi.\
+ nThe predicted edge passes 11 km to the NNW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 04:24:46 IST\, give or take 2 s. The star is 25° up in the WS
+ W · dark sky.\nIt fades 9.0 magnitudes for up to 2.6 s on the centre line
+ \, and the path is 32 km wide\, give or take 17 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-
+ 11-15638-15638-090304
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-11-15638-15638-09030
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(15638) 15638 hides a mag 7.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-13-778-theobalda-311168-varanasi@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261013T230410Z
+DTEND:20261013T231410Z
+SUMMARY:(778) Theobalda hides a mag 12.5 star
+DESCRIPTION:(778) Theobalda hides a magnitude 12.5 star\, seen from Varanas
+ i.\nYou are inside the path\, 1 km from its centre line: the star vanishes
+  for up to 4.6 s.\nClosest approach 04:39:10 IST\, give or take 2 s. The s
+ tar is 17° up in the WNW · dark sky.\nIt fades 1.7 magnitudes for up to 
+ 4.6 s on the centre line\, and the path is 55 km wide\, give or take 24 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-10#2026-10-13-778-theobalda-311168
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-13-778-theobalda-311
+ 168
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(778) Theobalda hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-dfa2bffe4ad0-varanasi@occult.alokm.com
@@ -114,6 +245,28 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-12-780-armenia-852928-varanasi@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T132742Z
+DTEND:20261112T133742Z
+SUMMARY:(780) Armenia hides a mag 12.8 star
+DESCRIPTION:(780) Armenia hides a magnitude 12.8 star\, seen from Varanasi.
+ \nYou are inside the path\, 47 km from its centre line: the star vanishes 
+ for up to 2.7 s.\nClosest approach 19:02:42 IST\, give or take 1 s. The st
+ ar is 19° up in the WSW · dark sky.\nIt fades 2.3 magnitudes for up to 3
+ .3 s on the centre line\, and the path is 126 km wide\, give or take 26 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-11#2026-11-12-780-armenia-852928
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-780-armenia-85292
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(780) Armenia hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a6f081bd4d31-varanasi@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145850Z
@@ -138,6 +291,49 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:39:07 at the dark limb
  cult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-21-1409-isko-322560-varanasi@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261121T133659Z
+DTEND:20261121T134659Z
+SUMMARY:(1409) Isko hides a mag 12.4 star
+DESCRIPTION:(1409) Isko hides a magnitude 12.4 star\, seen from Varanasi.\n
+ You are inside the path\, 6 km from its centre line: the star vanishes for
+  up to 0.9 s.\nClosest approach 19:11:59 IST\, give or take 1 s. The star 
+ is 20° up in the WSW · dark sky.\nIt fades 4.2 magnitudes for up to 1.0 
+ s on the centre line\, and the path is 36 km wide\, give or take 23 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-21-1409-isko-322560
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-21-1409-isko-322560
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1409) Isko hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-25-23129-23129-448768-varanasi@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261125T221631Z
+DTEND:20261125T222631Z
+SUMMARY:(23129) 23129 hides a mag 12.9 star
+DESCRIPTION:(23129) 23129 hides a magnitude 12.9 star\, seen from Varanasi.
+ \nYou are inside the path\, 6 km from its centre line: the star vanishes f
+ or up to 1.2 s.\nClosest approach 03:51:31 IST\, give or take 1 s. The sta
+ r is 27° up in the W · dark sky.\nIt fades 3.1 magnitudes for up to 1.4 
+ s on the centre line\, and the path is 20 km wide\, give or take 13 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-25-23129-23129-448768
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-25-23129-23129-44876
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(23129) 23129 hides a mag 12.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-8935a9a9e12f-varanasi@occult.alokm.com
@@ -179,6 +375,51 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-06-1007-pawlowia-992064-varanasi@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261206T192413Z
+DTEND:20261206T193413Z
+SUMMARY:(1007) Pawlowia hides a mag 11.7 star
+DESCRIPTION:(1007) Pawlowia hides a magnitude 11.7 star\, seen from Varanas
+ i.\nYou are inside the path\, 9 km from its centre line: the star vanishes
+  for up to 0.6 s.\nClosest approach 00:59:13 IST\, give or take 1 s. The s
+ tar is 84° up in the E · dark sky.\nIt fades 3.4 magnitudes for up to 1.
+ 9 s on the centre line\, and the path is 18 km wide\, give or take 12 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-12#2026-12-06-1007-pawlowia-992064
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-06-1007-pawlowia-992
+ 064
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1007) Pawlowia hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-07-15637-15637-264448-varanasi@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261207T172349Z
+DTEND:20261207T173349Z
+SUMMARY:(15637) 15637 hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(15637) 15637 hides a magnitude 12.4 star\, seen from Varanasi.
+ \nThe predicted edge passes 7 km to the NNW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 22:58:49 IST\, give or take 1 s. The star is 61° up in the ES
+ E · dark sky.\nIt fades 5.2 magnitudes for up to 1.2 s on the centre line
+ \, and the path is 18 km wide\, give or take 17 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-
+ 07-15637-15637-264448
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-07-15637-15637-26444
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(15637) 15637 hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2d1f08e1a0d4-varanasi@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T134054Z
@@ -216,6 +457,28 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:11:26 at the dark limb I
  lokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-21-3650-kunming-230080-varanasi@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270121T002717Z
+DTEND:20270121T003717Z
+SUMMARY:(3650) Kunming hides a mag 10.8 star
+DESCRIPTION:(3650) Kunming hides a magnitude 10.8 star\, seen from Varanasi
+ .\nYou are inside the path\, 0 km from its centre line: the star vanishes 
+ for up to 0.7 s.\nClosest approach 06:02:17 IST\, give or take 1 s. The st
+ ar is 27° up in the SE · dusk.\nIt fades 6.8 magnitudes for up to 0.7 s 
+ on the centre line\, and the path is 27 km wide\, give or take 25 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-01#2027-01-21-3650-kunming-230080
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-21-3650-kunming-2300
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3650) Kunming hides a mag 10.8 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e5ee80acd48d-varanasi@occult.alokm.com
@@ -270,6 +533,28 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-11-410-chloris-726272-varanasi@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270211T221909Z
+DTEND:20270211T222909Z
+SUMMARY:(410) Chloris hides a mag 9.7 star
+DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Varanasi.\
+ nYou are inside the path\, 66 km from its centre line: the star vanishes f
+ or up to 2.1 s.\nClosest approach 03:54:09 IST\, give or take 1 s. The sta
+ r is 35° up in the WNW · dark sky.\nIt fades 3.3 magnitudes for up to 8.
+ 1 s on the centre line\, and the path is 119 km wide\, give or take 21 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-11-410-chloris-726272
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-11-410-chloris-72627
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(410) Chloris hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-cdae157a12fc-varanasi@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270214T172318Z
@@ -322,6 +607,51 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-104-klymene-773824-varanasi@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T185621Z
+DTEND:20270222T190621Z
+SUMMARY:(104) Klymene hides a mag 12.6 star
+DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Varanasi.
+ \nYou are inside the path\, 60 km from its centre line: the star vanishes 
+ for up to 5.4 s.\nClosest approach 00:31:21 IST\, give or take 2 s. The st
+ ar is 77° up in the S · dark sky.\nIt fades 0.7 magnitudes for up to 10.
+ 8 s on the centre line\, and the path is 137 km wide\, give or take 14 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-22-104-klymene-773824
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-104-klymene-77382
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(104) Klymene hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-varanasi@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181516Z
+DTEND:20270223T182516Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Varana
+ si.\nThe predicted edge passes 51 km to the W\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 23:50:16 IST\, give or take 3 s. The star is 31° up in the 
+ E · dark sky.\nIt fades 2.9 magnitudes for up to 20.1 s on the centre lin
+ e\, and the path is 108 km wide\, give or take 59 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-0
+ 2-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-038eeb206641-varanasi@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T200707Z
@@ -333,6 +663,29 @@ DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:37:07 at the dark limb
  lt.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-28-39-laetitia-186304-varanasi@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T180536Z
+DTEND:20270228T181536Z
+SUMMARY:(39) Laetitia hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Varanasi.
+ \nThe predicted edge passes 0 km to the NE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 23:40:36 IST\, give or take 4 s. The star is 26° up in the ESE
+  · dark sky.\nIt fades 0.3 magnitudes for up to 30.8 s on the centre line
+ \, and the path is 179 km wide\, give or take 30 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02
+ -28-39-laetitia-186304
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-39-laetitia-18630
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-6038d67cb336-varanasi@occult.alokm.com
@@ -348,6 +701,73 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-21-868-lova-967040-varanasi@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270321T165219Z
+DTEND:20270321T170219Z
+SUMMARY:(868) Lova hides a mag 10.8 star (just outside the path)
+DESCRIPTION:(868) Lova hides a magnitude 10.8 star\, seen from Varanasi.\nT
+ he predicted edge passes 18 km to the SSW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 22:27:19 IST\, give or take 1 s. The star is 30° up in the WNW 
+ · dark sky.\nIt fades 4.6 magnitudes for up to 2.7 s on the centre line\,
+  and the path is 51 km wide\, give or take 26 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-21
+ -868-lova-967040
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-21-868-lova-967040
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 10.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-24-11-parthenope-070656-varanasi@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270324T222332Z
+DTEND:20270324T223332Z
+SUMMARY:(11) Parthenope hides a mag 11.5 star
+DESCRIPTION:(11) Parthenope hides a magnitude 11.5 star\, seen from Varanas
+ i.\nYou are inside the path\, 77 km from its centre line: the star vanishe
+ s for up to 4.5 s.\nClosest approach 03:58:32 IST\, give or take 1 s. The 
+ star is 35° up in the SE · dark sky.\nIt fades 0.7 magnitudes for up to 
+ 7.1 s on the centre line\, and the path is 143 km wide\, give or take 16 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-03#2027-03-24-11-parthenope-070656
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-24-11-parthenope-070
+ 656
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-06-4959-niinoama-200576-varanasi@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270406T165723Z
+DTEND:20270406T170723Z
+SUMMARY:(4959) Niinoama hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(4959) Niinoama hides a magnitude 11.2 star\, seen from Varanas
+ i.\nThe predicted edge passes 13 km to the SSW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 22:32:23 IST\, give or take 1 s. The star is 23° up in the
+  WNW · dark sky.\nIt fades 5.8 magnitudes for up to 1.8 s on the centre l
+ ine\, and the path is 36 km wide\, give or take 35 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-
+ 04-06-4959-niinoama-200576
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-06-4959-niinoama-200
+ 576
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4959) Niinoama hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-032a016c78cf-varanasi@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T142048Z
@@ -359,6 +779,70 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:50:48 at the dark limb
  cult.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-218-bianca-074816-varanasi@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T231145Z
+DTEND:20270414T232145Z
+SUMMARY:(218) Bianca hides a mag 11.3 star
+DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Varanasi.\
+ nYou are inside the path\, 4 km from its centre line: the star vanishes fo
+ r up to 5.5 s.\nClosest approach 04:46:45 IST\, give or take 4 s. The star
+  is 18° up in the W · dusk.\nIt fades 1.0 magnitudes for up to 5.6 s on 
+ the centre line\, and the path is 61 km wide\, give or take 18 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-04#2027-04-14-218-bianca-074816
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-bianca-074816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(218) Bianca hides a mag 11.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-17-284-amalia-349632-varanasi@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270417T222259Z
+DTEND:20270417T223259Z
+SUMMARY:(284) Amalia hides a mag 10.9 star
+DESCRIPTION:(284) Amalia hides a magnitude 10.9 star\, seen from Varanasi.\
+ nYou are inside the path\, 1 km from its centre line: the star vanishes fo
+ r up to 2.4 s.\nClosest approach 03:57:59 IST\, give or take 0 s. The star
+  is 37° up in the SE · dark sky.\nIt fades 3.2 magnitudes for up to 2.3 
+ s on the centre line\, and the path is 53 km wide\, give or take 13 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-04#2027-04-17-284-amalia-349632
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-17-284-amalia-349632
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(284) Amalia hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-17-675-ludmilla-666240-varanasi@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270517T183725Z
+DTEND:20270517T184725Z
+SUMMARY:(675) Ludmilla hides a mag 12.7 star
+DESCRIPTION:(675) Ludmilla hides a magnitude 12.7 star\, seen from Varanasi
+ .\nYou are inside the path\, 17 km from its centre line: the star vanishes
+  for up to 8.5 s.\nClosest approach 00:12:25 IST\, give or take 3 s. The s
+ tar is 29° up in the SE · dark sky.\nIt fades 1.1 magnitudes for up to 9
+ .6 s on the centre line\, and the path is 76 km wide\, give or take 20 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-05#2027-05-17-675-ludmilla-666240
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-17-675-ludmilla-6662
+ 40
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(675) Ludmilla hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2d8ba4470a1c-varanasi@occult.alokm.com
@@ -401,6 +885,28 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-07-888-parysatis-925056-varanasi@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270607T183103Z
+DTEND:20270607T184103Z
+SUMMARY:(888) Parysatis hides a mag 12.5 star
+DESCRIPTION:(888) Parysatis hides a magnitude 12.5 star\, seen from Varanas
+ i.\nYou are inside the path\, 24 km from its centre line: the star vanishe
+ s for up to 2.1 s.\nClosest approach 00:06:03 IST\, give or take 1 s. The 
+ star is 47° up in the SSE · dark sky.\nIt fades 1.8 magnitudes for up to
+  3.7 s on the centre line\, and the path is 45 km wide\, give or take 16 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-06#2027-06-07-888-parysatis-925056
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-07-888-parysatis-925
+ 056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(888) Parysatis hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-085870f0069e-varanasi@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270608T140453Z
@@ -412,6 +918,28 @@ DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 19:34:53 at the dark limb
  his month\, for anywhere: https://occult.alokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-09-595-polyxena-356736-varanasi@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270609T141151Z
+DTEND:20270609T142151Z
+SUMMARY:(595) Polyxena hides a mag 11.2 star
+DESCRIPTION:(595) Polyxena hides a magnitude 11.2 star\, seen from Varanasi
+ .\nYou are inside the path\, 26 km from its centre line: the star vanishes
+  for up to 6.7 s.\nClosest approach 19:46:51 IST\, give or take 3 s. The s
+ tar is 12° up in the SE · dark sky.\nIt fades 1.6 magnitudes for up to 7
+ .5 s on the centre line\, and the path is 91 km wide\, give or take 25 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-06#2027-06-09-595-polyxena-356736
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-09-595-polyxena-3567
+ 36
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(595) Polyxena hides a mag 11.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-d1e97469b7f6-varanasi@occult.alokm.com
@@ -427,6 +955,29 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-25-743-eugenisis-377088-varanasi@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270625T194615Z
+DTEND:20270625T195615Z
+SUMMARY:(743) Eugenisis hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(743) Eugenisis hides a magnitude 12.4 star\, seen from Varanas
+ i.\nThe predicted edge passes 4 km to the ESE\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 01:21:15 IST\, give or take 3 s. The star is 40° up in the 
+ ESE · dark sky.\nIt fades 2.8 magnitudes for up to 10.6 s on the centre l
+ ine\, and the path is 51 km wide\, give or take 16 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-
+ 06-25-743-eugenisis-377088
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-25-743-eugenisis-377
+ 088
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(743) Eugenisis hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1bfc71fe8819-varanasi@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T213420Z
@@ -440,6 +991,96 @@ URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-21-3925-tret-yakov-321472-varanasi@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270721T212616Z
+DTEND:20270721T213616Z
+SUMMARY:(3925) Tret'yakov hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(3925) Tret'yakov hides a magnitude 12.7 star\, seen from Varan
+ asi.\nThe predicted edge passes 6 km to the SSE\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 03:01:16 IST\, give or take 3 s. The star is 49° up in th
+ e SW · dark sky.\nIt fades 2.5 magnitudes for up to 5.1 s on the centre l
+ ine\, and the path is 51 km wide\, give or take 13 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-
+ 07-21-3925-tret-yakov-321472
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-21-3925-tret-yakov-3
+ 21472
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3925) Tret'yakov hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-23-991-mcdonalda-085824-varanasi@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270723T161712Z
+DTEND:20270723T162712Z
+SUMMARY:(991) McDonalda hides a mag 11.4 star
+DESCRIPTION:(991) McDonalda hides a magnitude 11.4 star\, seen from Varanas
+ i.\nYou are inside the path\, 30 km from its centre line: the star vanishe
+ s for up to 1.0 s.\nClosest approach 21:52:12 IST\, give or take 3 s. The 
+ star is 36° up in the SSE · dark sky.\nIt fades 3.5 magnitudes for up to
+  4.2 s on the centre line\, and the path is 39 km wide\, give or take 12 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-07#2027-07-23-991-mcdonalda-085824
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-23-991-mcdonalda-085
+ 824
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(991) McDonalda hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-02-1845-helewalda-396928-varanasi@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270802T163129Z
+DTEND:20270802T164129Z
+SUMMARY:(1845) Helewalda hides a mag 12.6 star (just outside the path)
+DESCRIPTION:(1845) Helewalda hides a magnitude 12.6 star\, seen from Varana
+ si.\nThe predicted edge passes 2 km to the NNW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 22:06:29 IST\, give or take 1 s. The star is 49° up in the
+  S · dark sky.\nIt fades 3.4 magnitudes for up to 1.7 s on the centre lin
+ e\, and the path is 20 km wide\, give or take 16 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08
+ -02-1845-helewalda-396928
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-02-1845-helewalda-39
+ 6928
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1845) Helewalda hides a mag 12.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-03-539-pamina-034752-varanasi@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270803T201223Z
+DTEND:20270803T202223Z
+SUMMARY:(539) Pamina hides a mag 8.1 star (just outside the path)
+DESCRIPTION:(539) Pamina hides a magnitude 8.1 star\, seen from Varanasi.\n
+ The predicted edge passes 22 km to the NNW\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 01:47:23 IST\, give or take 1 s. The star is 24° up in the ENE
+  · dark sky.\nIt fades 6.7 magnitudes for up to 2.5 s on the centre line\
+ , and the path is 68 km wide\, give or take 21 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-0
+ 3-539-pamina-034752
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-03-539-pamina-034752
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(539) Pamina hides a mag 8.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-20ce35bf80c5-varanasi@occult.alokm.com
 DTSTAMP:20270801T000000Z
 DTSTART:20270810T175918Z
@@ -451,6 +1092,49 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:29:18 at the dark limb
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-19-433-eros-374592-varanasi@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270819T202125Z
+DTEND:20270819T203125Z
+SUMMARY:(433) Eros hides a mag 12.2 star
+DESCRIPTION:(433) Eros hides a magnitude 12.2 star\, seen from Varanasi.\nY
+ ou are inside the path\, 3 km from its centre line: the star vanishes for 
+ up to 0.4 s.\nClosest approach 01:56:25 IST\, give or take 0 s. The star i
+ s 13° up in the ENE · dark sky.\nIt fades 1.2 magnitudes for up to 0.4 s
+  on the centre line\, and the path is 17 km wide\, give or take 11 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-08#2027-08-19-433-eros-374592
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-19-433-eros-374592
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(433) Eros hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-26-2025-nortia-628288-varanasi@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270826T205955Z
+DTEND:20270826T210955Z
+SUMMARY:(2025) Nortia hides a mag 10.3 star
+DESCRIPTION:(2025) Nortia hides a magnitude 10.3 star\, seen from Varanasi.
+ \nYou are inside the path\, 9 km from its centre line: the star vanishes f
+ or up to 3.3 s.\nClosest approach 02:34:55 IST\, give or take 1 s. The sta
+ r is 50° up in the SW · dark sky.\nIt fades 4.7 magnitudes for up to 3.7
+  s on the centre line\, and the path is 43 km wide\, give or take 22 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-08#2027-08-26-2025-nortia-628288
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-26-2025-nortia-62828
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2025) Nortia hides a mag 10.3 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-varanasi@occult.alokm.com

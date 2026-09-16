@@ -10,6 +10,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-10-1832-mrkos-239232-durg@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260910T152742Z
+DTEND:20260910T153742Z
+SUMMARY:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1832) Mrkos hides a magnitude 12.5 star\, seen from Durg.\nThe
+  predicted edge passes 5 km to the W\, so a miss is likely — but a chord
+  from near the edge is the most valuable observation of all.\nClosest appr
+ oach 21:02:42 IST\, give or take 10 s. The star is 44° up in the SSW · d
+ ark sky.\nIt fades 4.1 magnitudes for up to 6.6 s on the centre line\, and
+  the path is 29 km wide\, give or take 28 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-10-183
+ 2-mrkos-239232
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-10-1832-mrkos-239232
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:occ-venus-2026-09-14-durg@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T120546Z
@@ -54,6 +76,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-05-804-hispania-333696-durg@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261005T144928Z
+DTEND:20261005T145928Z
+SUMMARY:(804) Hispania hides a mag 9.9 star
+DESCRIPTION:(804) Hispania hides a magnitude 9.9 star\, seen from Durg.\nYo
+ u are inside the path\, 23 km from its centre line: the star vanishes for 
+ up to 4.7 s.\nClosest approach 20:24:28 IST\, give or take 1 s. The star i
+ s 12° up in the SW · dark sky.\nIt fades 3.2 magnitudes for up to 4.9 s 
+ on the centre line\, and the path is 138 km wide\, give or take 19 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-10#2026-10-05-804-hispania-333696
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-05-804-hispania-3336
+ 96
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(804) Hispania hides a mag 9.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-fc6b0aa8f7ae-durg@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T130016Z
@@ -80,6 +124,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-02-354-eleonora-881728-durg@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261102T145319Z
+DTEND:20261102T150319Z
+SUMMARY:(354) Eleonora hides a mag 11.8 star
+DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Durg.\nY
+ ou are inside the path\, 17 km from its centre line: the star vanishes for
+  up to 13.3 s.\nClosest approach 20:28:19 IST\, give or take 2 s. The star
+  is 41° up in the SSW · dark sky.\nIt fades 0.7 magnitudes for up to 13.
+ 1 s on the centre line\, and the path is 149 km wide\, give or take 21 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-02-354-eleonora-881728
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-02-354-eleonora-8817
+ 28
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(354) Eleonora hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-31ac4d4cb798-durg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202740Z
@@ -91,6 +157,28 @@ DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:57:40 at the dark limb I
  km.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-04-449-hamburga-017216-durg@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261104T163540Z
+DTEND:20261104T164540Z
+SUMMARY:(449) Hamburga hides a mag 12.6 star
+DESCRIPTION:(449) Hamburga hides a magnitude 12.6 star\, seen from Durg.\nY
+ ou are inside the path\, 51 km from its centre line: the star vanishes for
+  up to 7.4 s.\nClosest approach 22:10:40 IST\, give or take 4 s. The star 
+ is 15° up in the ENE · dark sky.\nIt fades 1.4 magnitudes for up to 31.1
+  s on the centre line\, and the path is 86 km wide\, give or take 17 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-04-449-hamburga-017216
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-04-449-hamburga-0172
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(449) Hamburga hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0b65be0d6e6e-durg@occult.alokm.com
@@ -119,6 +207,27 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-20-1209-pumma-768640-durg@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261120T151544Z
+DTEND:20261120T152544Z
+SUMMARY:(1209) Pumma hides a mag 14.4 star
+DESCRIPTION:(1209) Pumma hides a magnitude 14.4 star\, seen from Durg.\nYou
+  are inside the path\, 0 km from its centre line: the star vanishes for up
+  to 2.2 s.\nClosest approach 20:50:44 IST\, give or take 2 s. The star is 
+ 20° up in the ENE · dark sky.\nIt fades 2.0 magnitudes for up to 2.2 s o
+ n the centre line\, and the path is 27 km wide\, give or take 21 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2026-11#2026-11-20-1209-pumma-768640
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-20-1209-pumma-768640
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1209) Pumma hides a mag 14.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-d0fbd8debe71-durg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T163654Z
@@ -130,6 +239,28 @@ DESCRIPTION:57 Gem (magnitude 5.0) reappears at 22:06:54 at the dark limb I
  lokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-27-762-pulcova-076416-durg@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261127T182228Z
+DTEND:20261127T183228Z
+SUMMARY:(762) Pulcova hides a mag 11.5 star
+DESCRIPTION:(762) Pulcova hides a magnitude 11.5 star\, seen from Durg.\nYo
+ u are inside the path\, 28 km from its centre line: the star vanishes for 
+ up to 10.6 s.\nClosest approach 23:57:28 IST\, give or take 1 s. The star 
+ is 67° up in the NW · dark sky.\nIt fades 1.7 magnitudes for up to 11.7 
+ s on the centre line\, and the path is 147 km wide\, give or take 15 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-27-762-pulcova-076416
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-27-762-pulcova-07641
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(762) Pulcova hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-625d4928307d-durg@occult.alokm.com
@@ -156,6 +287,50 @@ DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:45:02 at the dark limb I
  okm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-02-741-botolphia-194816-durg@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261202T124210Z
+DTEND:20261202T125210Z
+SUMMARY:(741) Botolphia hides a mag 12.1 star
+DESCRIPTION:(741) Botolphia hides a magnitude 12.1 star\, seen from Durg.\n
+ You are inside the path\, 5 km from its centre line: the star vanishes for
+  up to 0.7 s.\nClosest approach 18:17:10 IST\, give or take 1 s. The star 
+ is 12° up in the WSW · dark sky.\nIt fades 3.7 magnitudes for up to 0.7 
+ s on the centre line\, and the path is 30 km wide\, give or take 27 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-12#2026-12-02-741-botolphia-194816
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-02-741-botolphia-194
+ 816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(741) Botolphia hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-05-581-tauntonia-500480-durg@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261205T204452Z
+DTEND:20261205T205452Z
+SUMMARY:(581) Tauntonia hides a mag 11.2 star
+DESCRIPTION:(581) Tauntonia hides a magnitude 11.2 star\, seen from Durg.\n
+ You are inside the path\, 3 km from its centre line: the star vanishes for
+  up to 4.1 s.\nClosest approach 02:19:52 IST\, give or take 2 s. The star 
+ is 66° up in the WSW · dark sky.\nIt fades 3.4 magnitudes for up to 4.2 
+ s on the centre line\, and the path is 61 km wide\, give or take 31 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-12#2026-12-05-581-tauntonia-500480
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-05-581-tauntonia-500
+ 480
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(581) Tauntonia hides a mag 11.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-05cd80b8e232-durg@occult.alokm.com
@@ -195,6 +370,137 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:11:08 at the dark limb I
  .com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-01-1241-dysona-713856-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270101T141938Z
+DTEND:20270101T142938Z
+SUMMARY:(1241) Dysona hides a mag 12.6 star
+DESCRIPTION:(1241) Dysona hides a magnitude 12.6 star\, seen from Durg.\nYo
+ u are inside the path\, 35 km from its centre line: the star vanishes for 
+ up to 2.3 s.\nClosest approach 19:54:38 IST\, give or take 1 s. The star i
+ s 47° up in the NE · dark sky.\nIt fades 2.6 magnitudes for up to 5.0 s 
+ on the centre line\, and the path is 79 km wide\, give or take 19 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-01#2027-01-01-1241-dysona-713856
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-01-1241-dysona-71385
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1241) Dysona hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-01-331-etheridgea-218304-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270101T220344Z
+DTEND:20270101T221344Z
+SUMMARY:(331) Etheridgea hides a mag 12.5 star
+DESCRIPTION:(331) Etheridgea hides a magnitude 12.5 star\, seen from Durg.\
+ nYou are inside the path\, 34 km from its centre line: the star vanishes f
+ or up to 2.9 s.\nClosest approach 03:38:44 IST\, give or take 2 s. The sta
+ r is 23° up in the WNW · dark sky.\nIt fades 2.1 magnitudes for up to 6.
+ 7 s on the centre line\, and the path is 75 km wide\, give or take 22 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-01#2027-01-01-331-etheridgea-218304
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-01-331-etheridgea-21
+ 8304
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(331) Etheridgea hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-02-924-toni-373888-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270102T181218Z
+DTEND:20270102T182218Z
+SUMMARY:(924) Toni hides a mag 11.0 star (just outside the path)
+DESCRIPTION:(924) Toni hides a magnitude 11.0 star\, seen from Durg.\nThe p
+ redicted edge passes 16 km to the SSW\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 23:47:18 IST\, give or take 2 s. The star is 41° up in the E · dar
+ k sky.\nIt fades 3.7 magnitudes for up to 12.3 s on the centre line\, and 
+ the path is 85 km wide\, give or take 38 km.\nFinder chart\, the map and t
+ he path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-02-924-
+ toni-373888
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-02-924-toni-373888
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(924) Toni hides a mag 11.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-04-5374-hokutosei-865024-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270104T141415Z
+DTEND:20270104T142415Z
+SUMMARY:(5374) Hokutosei hides a mag 12.3 star
+DESCRIPTION:(5374) Hokutosei hides a magnitude 12.3 star\, seen from Durg.\
+ nYou are inside the path\, 2 km from its centre line: the star vanishes fo
+ r up to 1.7 s.\nClosest approach 19:49:15 IST\, give or take 1 s. The star
+  is 45° up in the W · dark sky.\nIt fades 5.6 magnitudes for up to 1.7 s
+  on the centre line\, and the path is 39 km wide\, give or take 26 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-01#2027-01-04-5374-hokutosei-865024
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-04-5374-hokutosei-86
+ 5024
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(5374) Hokutosei hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-16-61-danae-670080-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270116T185220Z
+DTEND:20270116T190220Z
+SUMMARY:(61) Danae hides a mag 8.7 star
+DESCRIPTION:(61) Danae hides a magnitude 8.7 star\, seen from Durg.\nYou ar
+ e inside the path\, 49 km from its centre line: the star vanishes for up t
+ o 2.1 s.\nClosest approach 00:27:20 IST\, give or take 1 s. The star is 54
+ ° up in the NW · dark sky.\nIt fades 3.9 magnitudes for up to 6.8 s on t
+ he centre line\, and the path is 86 km wide\, give or take 18 km.\nFinder 
+ chart\, the map and the path as KML: https://occult.alokm.com/asteroids-20
+ 27-01#2027-01-16-61-danae-670080
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-16-61-danae-670080
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(61) Danae hides a mag 8.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-21-4959-niinoama-980288-durg@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270121T133451Z
+DTEND:20270121T134451Z
+SUMMARY:(4959) Niinoama hides a mag 11.4 star
+DESCRIPTION:(4959) Niinoama hides a magnitude 11.4 star\, seen from Durg.\n
+ You are inside the path\, 14 km from its centre line: the star vanishes fo
+ r up to 2.0 s.\nClosest approach 19:09:51 IST\, give or take 1 s. The star
+  is 43° up in the E · dark sky.\nIt fades 4.5 magnitudes for up to 3.1 s
+  on the centre line\, and the path is 36 km wide\, give or take 33 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-01#2027-01-21-4959-niinoama-980288
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-21-4959-niinoama-980
+ 288
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4959) Niinoama hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-930ad8b5e7e0-durg@occult.alokm.com
@@ -249,6 +555,27 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-02-148-gallia-767616-durg@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270201T235339Z
+DTEND:20270202T000339Z
+SUMMARY:(148) Gallia hides a mag 11.8 star
+DESCRIPTION:(148) Gallia hides a magnitude 11.8 star\, seen from Durg.\nYou
+  are inside the path\, 7 km from its centre line: the star vanishes for up
+  to 2.3 s.\nClosest approach 05:28:39 IST\, give or take 1 s. The star is 
+ 16° up in the ESE · dark sky.\nIt fades 1.9 magnitudes for up to 2.3 s o
+ n the centre line\, and the path is 98 km wide\, give or take 28 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2027-02#2027-02-02-148-gallia-767616
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-02-148-gallia-767616
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(148) Gallia hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-c6bff6a78f8e-durg@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270214T152113Z
@@ -301,6 +628,28 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-durg@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181350Z
+DTEND:20270223T182350Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Durg.\
+ nYou are inside the path\, 44 km from its centre line: the star vanishes f
+ or up to 18.6 s.\nClosest approach 23:48:50 IST\, give or take 3 s. The st
+ ar is 29° up in the E · dark sky.\nIt fades 2.9 magnitudes for up to 20.
+ 1 s on the centre line\, and the path is 108 km wide\, give or take 59 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-e279252bde05-durg@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T201258Z
@@ -340,6 +689,51 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-04-11-parthenope-387584-durg@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T225951Z
+DTEND:20270404T230951Z
+SUMMARY:(11) Parthenope hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(11) Parthenope hides a magnitude 11.9 star\, seen from Durg.\n
+ The predicted edge passes 17 km to the N\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 04:34:51 IST\, give or take 1 s. The star is 46° up in the SSE 
+ · dark sky.\nIt fades 0.5 magnitudes for up to 8.9 s on the centre line\,
+  and the path is 143 km wide\, give or take 15 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-0
+ 4-11-parthenope-387584
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-11-parthenope-387
+ 584
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-07-3310-patsy-994880-durg@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270407T171330Z
+DTEND:20270407T172330Z
+SUMMARY:(3310) Patsy hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(3310) Patsy hides a magnitude 12.8 star\, seen from Durg.\nThe
+  predicted edge passes 4 km to the SSW\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 22:48:30 IST\, give or take 1 s. The star is 12° up in the WNW · 
+ dark sky.\nIt fades 4.1 magnitudes for up to 1.0 s on the centre line\, an
+ d the path is 24 km wide\, give or take 24 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-07-33
+ 10-patsy-994880
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-07-3310-patsy-994880
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3310) Patsy hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-46a0646ac225-durg@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T142308Z
@@ -351,6 +745,73 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:53:08 at the dark limb
  lokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-25-151-abundantia-792192-durg@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270425T165645Z
+DTEND:20270425T170645Z
+SUMMARY:(151) Abundantia hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(151) Abundantia hides a magnitude 10.7 star\, seen from Durg.\
+ nThe predicted edge passes 20 km to the NE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 22:31:45 IST\, give or take 1 s. The star is 42° up in the WNW
+  · dark sky.\nIt fades 3.5 magnitudes for up to 3.0 s on the centre line\
+ , and the path is 39 km wide\, give or take 18 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-2
+ 5-151-abundantia-792192
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-25-151-abundantia-79
+ 2192
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(151) Abundantia hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-09-65-cybele-529920-durg@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270509T214413Z
+DTEND:20270509T215413Z
+SUMMARY:(65) Cybele hides a mag 11.5 star (just outside the path)
+DESCRIPTION:(65) Cybele hides a magnitude 11.5 star\, seen from Durg.\nThe 
+ predicted edge passes 8 km to the NNE\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 03:19:13 IST\, give or take 4 s. The star is 49° up in the SSW · d
+ ark sky.\nIt fades 0.8 magnitudes for up to 46.3 s on the centre line\, an
+ d the path is 237 km wide\, give or take 15 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-09-6
+ 5-cybele-529920
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-09-65-cybele-529920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(65) Cybele hides a mag 11.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-14-709-fringilla-895424-durg@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270514T214807Z
+DTEND:20270514T215807Z
+SUMMARY:(709) Fringilla hides a mag 11.1 star
+DESCRIPTION:(709) Fringilla hides a magnitude 11.1 star\, seen from Durg.\n
+ You are inside the path\, 28 km from its centre line: the star vanishes fo
+ r up to 8.0 s.\nClosest approach 03:23:07 IST\, give or take 3 s. The star
+  is 16° up in the SSW · dark sky.\nIt fades 2.7 magnitudes for up to 8.9
+  s on the centre line\, and the path is 95 km wide\, give or take 14 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-05#2027-05-14-709-fringilla-895424
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-14-709-fringilla-895
+ 424
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(709) Fringilla hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-05046634c8b3-durg@occult.alokm.com
@@ -392,6 +853,27 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-03-1049-gotho-843392-durg@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270603T141020Z
+DTEND:20270603T142020Z
+SUMMARY:(1049) Gotho hides a mag 12.3 star
+DESCRIPTION:(1049) Gotho hides a magnitude 12.3 star\, seen from Durg.\nYou
+  are inside the path\, 21 km from its centre line: the star vanishes for u
+ p to 3.4 s.\nClosest approach 19:45:20 IST\, give or take 2 s. The star is
+  26° up in the SSE · dark sky.\nIt fades 3.6 magnitudes for up to 4.7 s 
+ on the centre line\, and the path is 56 km wide\, give or take 18 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-06#2027-06-03-1049-gotho-843392
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-03-1049-gotho-843392
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1049) Gotho hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-c6110cade39d-durg@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270608T135445Z
@@ -431,6 +913,163 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-24-432-pythia-721984-durg@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270624T210312Z
+DTEND:20270624T211312Z
+SUMMARY:(432) Pythia hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(432) Pythia hides a magnitude 12.8 star\, seen from Durg.\nThe
+  predicted edge passes 13 km to the SSE\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 02:38:12 IST\, give or take 1 s. The star is 20° up in the WSW ·
+  dark sky.\nIt fades 0.3 magnitudes for up to 6.0 s on the centre line\, a
+ nd the path is 47 km wide\, give or take 20 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-24-4
+ 32-pythia-721984
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-24-432-pythia-721984
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(432) Pythia hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-25-930-westphalia-972544-durg@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270625T173832Z
+DTEND:20270625T174832Z
+SUMMARY:(930) Westphalia hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(930) Westphalia hides a magnitude 10.5 star\, seen from Durg.\
+ nThe predicted edge passes 8 km to the NNE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 23:13:32 IST\, give or take 4 s. The star is 12° up in the SE 
+ · dark sky.\nIt fades 3.8 magnitudes for up to 8.2 s on the centre line\,
+  and the path is 35 km wide\, give or take 24 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-25
+ -930-westphalia-972544
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-25-930-westphalia-97
+ 2544
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(930) Westphalia hides a mag 10.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-25-743-eugenisis-377088-durg@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270625T194430Z
+DTEND:20270625T195430Z
+SUMMARY:(743) Eugenisis hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(743) Eugenisis hides a magnitude 12.4 star\, seen from Durg.\n
+ The predicted edge passes 12 km to the NW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 01:19:30 IST\, give or take 3 s. The star is 40° up in the ESE 
+ · dark sky.\nIt fades 2.8 magnitudes for up to 10.6 s on the centre line\
+ , and the path is 51 km wide\, give or take 16 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-2
+ 5-743-eugenisis-377088
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-25-743-eugenisis-377
+ 088
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(743) Eugenisis hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-26-67-asia-611328-durg@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270626T150130Z
+DTEND:20270626T151130Z
+SUMMARY:(67) Asia hides a mag 12.7 star
+DESCRIPTION:(67) Asia hides a magnitude 12.7 star\, seen from Durg.\nYou ar
+ e inside the path\, 18 km from its centre line: the star vanishes for up t
+ o 6.6 s.\nClosest approach 20:36:30 IST\, give or take 1 s. The star is 24
+ ° up in the ESE · dark sky.\nIt fades 0.1 magnitudes for up to 8.5 s on 
+ the centre line\, and the path is 56 km wide\, give or take 30 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-06#2027-06-26-67-asia-611328
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-26-67-asia-611328
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(67) Asia hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-03-792-metcalfia-146048-durg@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270703T224612Z
+DTEND:20270703T225612Z
+SUMMARY:(792) Metcalfia hides a mag 12.2 star
+DESCRIPTION:(792) Metcalfia hides a magnitude 12.2 star\, seen from Durg.\n
+ You are inside the path\, 3 km from its centre line: the star vanishes for
+  up to 5.3 s.\nClosest approach 04:21:12 IST\, give or take 2 s. The star 
+ is 39° up in the SW · dark sky.\nIt fades 2.5 magnitudes for up to 5.5 s
+  on the centre line\, and the path is 62 km wide\, give or take 32 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-07#2027-07-03-792-metcalfia-146048
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-03-792-metcalfia-146
+ 048
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(792) Metcalfia hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-05-17109-17109-570112-durg@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270705T150014Z
+DTEND:20270705T151014Z
+SUMMARY:(17109) 17109 hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(17109) 17109 hides a magnitude 12.3 star\, seen from Durg.\nTh
+ e predicted edge passes 11 km to the NNE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 20:35:14 IST\, give or take 2 s. The star is 32° up in the SE ·
+  dark sky.\nIt fades 3.8 magnitudes for up to 2.7 s on the centre line\, a
+ nd the path is 27 km wide\, give or take 11 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-05-1
+ 7109-17109-570112
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-05-17109-17109-57011
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(17109) 17109 hides a mag 12.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-08-790-pretoria-589696-durg@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270708T164656Z
+DTEND:20270708T165656Z
+SUMMARY:(790) Pretoria hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(790) Pretoria hides a magnitude 12.9 star\, seen from Durg.\nT
+ he predicted edge passes 3 km to the NNE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 22:21:56 IST\, give or take 6 s. The star is 57° up in the SSE 
+ · dark sky.\nIt fades 0.5 magnitudes for up to 14.1 s on the centre line\
+ , and the path is 170 km wide\, give or take 58 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-
+ 08-790-pretoria-589696
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-08-790-pretoria-5896
+ 96
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(790) Pretoria hides a mag 12.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-830866825efc-durg@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T213846Z
@@ -442,6 +1081,73 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:08:46 at the dark limb
  alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-18-24362-24362-079872-durg@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270718T175145Z
+DTEND:20270718T180145Z
+SUMMARY:(24362) 24362 hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(24362) 24362 hides a magnitude 12.5 star\, seen from Durg.\nTh
+ e predicted edge passes 6 km to the S\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 23:26:45 IST\, give or take 3 s. The star is 54° up in the SSE · d
+ ark sky.\nIt fades 4.7 magnitudes for up to 1.4 s on the centre line\, and
+  the path is 17 km wide\, give or take 14 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-18-243
+ 62-24362-079872
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-18-24362-24362-07987
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(24362) 24362 hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-22-1715-salli-684032-durg@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270722T150252Z
+DTEND:20270722T151252Z
+SUMMARY:(1715) Salli hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1715) Salli hides a magnitude 12.5 star\, seen from Durg.\nThe
+  predicted edge passes 29 km to the NNE\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 20:37:52 IST\, give or take 0 s. The star is 23° up in the W · d
+ ark sky.\nIt fades 4.1 magnitudes for up to 0.7 s on the centre line\, and
+  the path is 24 km wide\, give or take 19 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-22-171
+ 5-salli-684032
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-22-1715-salli-684032
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1715) Salli hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-03-11-parthenope-963840-durg@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270803T150711Z
+DTEND:20270803T151711Z
+SUMMARY:(11) Parthenope hides a mag 12.1 star
+DESCRIPTION:(11) Parthenope hides a magnitude 12.1 star\, seen from Durg.\n
+ You are inside the path\, 68 km from its centre line: the star vanishes fo
+ r up to 23.3 s.\nClosest approach 20:42:11 IST\, give or take 2 s. The sta
+ r is 46° up in the SSE · dark sky.\nIt fades 0.1 magnitudes for up to 35
+ .5 s on the centre line\, and the path is 143 km wide\, give or take 25 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-08#2027-08-03-11-parthenope-963840
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-03-11-parthenope-963
+ 840
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-20ce35bf80c5-durg@occult.alokm.com

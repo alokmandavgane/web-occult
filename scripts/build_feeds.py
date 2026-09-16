@@ -10,6 +10,10 @@ A feed holds what is worth an entry in someone's calendar, seen from that city:
     STAR_MONTHS months: exactly the rows the Moon & stars page lists for that city with binoculars. A cheap screen
     on the solver's 2-minute grid picks the candidates, then `MonthModel.events` solves them exactly
     (tests/test_feeds.py checks the screen never drops an event the full solve keeps).
+  - the asteroid shadows that pass over the city: `asteroid_occultations.local` from each event's elements, kept when
+    the place is inside the path or within its 1-sigma margin, with the star at least AST_ALT_MIN up and the sky dark.
+    About thirty a year for a place in India, half of them inside the path — the entry says which, and links the
+    finder chart and the path as KML.
 Jupiter's and Saturn's moon events are left out: several a night is not a calendar anyone keeps.
 
 Feeds are static, as fresh as the last deploy: events from PAST_DAYS ago onward. DTSTAMP comes from the data,
@@ -41,7 +45,8 @@ INSTRUMENT = "binoculars"
 STAR_MONTHS = 12
 PAST_DAYS = 7
 HOST = SITE.split("://", 1)[1]
-ALARM_MIN = 30          # a reminder before the hand-picked events only
+ALARM_MIN = 30          # a reminder before the hand-picked events and the asteroid shadows
+AST_ALT_MIN, AST_SUN_MAX, AST_PAD_DEG = 10.0, -6.0, 3.0    # when an asteroid path is worth a place's calendar
 
 
 # ------------------------------------------------------------------------------------------ cities
@@ -215,7 +220,18 @@ def _init(now_s):
                            [s for s in MonthModel.star_list(d) if s[1] <= lim]))
     with open(ROOT / "catalog" / "moonband.csv", newline="") as f:          # labels are unique in the catalogue
         double = {r["label"]: r["double"] for r in csv.DictReader(f) if r["double"]}
-    _W.update(now=now, events=events, months=months, double=double)
+    asteroids = []
+    for path in sorted((ROOT / "data").glob("asteroids-*.json")):
+        d = json.loads(path.read_text())
+        gen = datetime.strptime(d["generated"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        for ev in d["events"]:
+            t0 = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            if t0 < now - timedelta(days=PAST_DAYS):
+                continue
+            asteroids.append({"ym": d["month"], "bbox": d["bbox"], "gen": gen, "t0": t0, "id": ev["id"], "el": ev["el"],
+                              "sigma_km": ev["sigma_km"], "sigma_s": ev["sigma_s"], "ast": ev["asteroid"],
+                              "star": ev["star"], "drop": ev["drop"], "dur": ev["dur_max_s"]})
+    _W.update(now=now, events=events, months=months, double=double, asteroids=asteroids)
 
 
 def merge_doubles(items, window=timedelta(hours=1)):
@@ -348,8 +364,46 @@ def _city_events(args):
             items.append({"key": _W["double"].get(ev["label"], ev["label"]), "vmag": ev["vmag"], "short": label, "rec": rec,
                           "line": f"Its companion {label} (magnitude {ev['vmag']:.1f}) {what}."})
     out += merge_doubles(items)
+    out += asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff)
     out.sort(key=lambda x: (x["start"], x["uid"]))
     return name, slug, out
+
+
+def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
+    """The asteroid shadows that reach this place: inside the path, or within the 1-sigma margin where a chord from
+    the edge is the most valuable observation of all."""
+    from asteroid_occultations import local, to_centre
+    from build_moonstars import compass, sky_text
+    out = []
+    for a in _W["asteroids"]:
+        lon0, lat0, lon1, lat1 = a["bbox"]
+        if not (lon0 - AST_PAD_DEG <= lon <= lon1 + AST_PAD_DEG and lat0 - AST_PAD_DEG <= lat <= lat1 + AST_PAD_DEG):
+            continue
+        R, sig = a["el"]["R"], a["sigma_km"] or 0.0
+        s = local(a["el"], lat, lon)
+        if abs(s["d"]) > R + sig or s["star_alt"] < AST_ALT_MIN or s["sun_alt"] > AST_SUN_MAX:
+            continue
+        t = a["t0"] + timedelta(seconds=s["tau"])
+        if t < cutoff:
+            continue
+        ground, brg = to_centre(a["el"], lat, lon)
+        inside = abs(s["d"]) <= R
+        who = f"({a['ast']['number']}) {a['ast']['name']}"
+        url = f"{SITE}/asteroids-{a['ym']}#{a['id']}"
+        where = (f"You are inside the path, {ground:.0f} km from its centre line: the star vanishes for up to {s['dur']:.1f} s."
+                 if inside else
+                 f"The predicted edge passes {ground * (abs(s['d']) - R) / abs(s['d']):.0f} km to the {compass(brg)}, so a miss is "
+                 f"likely — but a chord from near the edge is the most valuable observation of all.")
+        desc = (f"{who} hides a magnitude {a['star']['v']:.1f} star, seen from {name}.\n{where}\n"
+                f"Closest approach {hms(t)} {zabbr(t)}, give or take {a['sigma_s']:.0f} s. The star is {s['star_alt']:.0f}° up in the "
+                f"{compass(s['star_az'])} · {sky_text(s['sun_alt'])}.\n"
+                f"It fades {a['drop']:.1f} magnitudes for up to {a['dur']:.1f} s on the centre line, and the path is "
+                f"{a['ast']['diameter_km']:.0f} km wide, give or take {sig:.0f} km.\n"
+                f"Finder chart, the map and the path as KML: {url}")
+        out.append({"uid": f"ast-{a['id']}-{slug}@{HOST}", "stamp": a["gen"], "start": t - timedelta(minutes=5),
+                    "end": t + timedelta(minutes=5), "url": url, "alarm": True, "description": desc,
+                    "summary": f"{who} hides a mag {a['star']['v']:.1f} star" + ("" if inside else " (just outside the path)")})
+    return out
 
 
 # ------------------------------------------------------------------------------------------ the page
@@ -431,7 +485,8 @@ def write_page(rows):
     cities = [[n, s, lat, lon, k] for n, s, lat, lon, k in rows]
     opts = "".join(f'<option value="{i}">{esc(c[0])}</option>' for i, c in enumerate(cities))
     cities_json = json.dumps(cities, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    desc = "Subscribe to the lunar occultations you can see from your city: planets, bright stars and stars within reach of binoculars."
+    desc = ("Subscribe to the occultations you can see from your city: the Moon hiding planets and stars, and the asteroid "
+            "shadows whose paths cross your town.")
     body = f"""
 <main class="wrap" data-x="">
   <h1>Occultations in your calendar</h1>
@@ -456,8 +511,12 @@ def write_page(rows):
   <p class="method">Every lunar occultation on this site's list that the city can see — planets and bright stars, with a reminder
   {ALARM_MIN} minutes before — and every occultation of a star bright enough for binoculars over the next {STAR_MONTHS} months,
   with the Moon at least 5° up and the sky dark enough. Each entry gives the disappearance and reappearance times, how high the
-  Moon is and where, and a link to the full page. Jupiter's and Saturn's moons are not included: they have several events a
-  night. Times are computed from the JPL DE431 ephemeris, as on the rest of the site.</p>
+  Moon is and where, and a link to the full page. Asteroid shadows are in too, when the path crosses your town or comes within
+  its margin of error and the star is at least {AST_ALT_MIN:.0f}° up in a dark sky — for a town in India, two or three a month,
+  about half of them inside the path. Each says how far you are from the centre line and links the finder chart and the path
+  to drive to. Jupiter's and
+  Saturn's moons are not included: they have several events a night. Times are computed from the JPL DE431 ephemeris, as on the
+  rest of the site.</p>
   <h2>Adding it</h2>
   <p class="method"><b>iPhone, iPad, Mac:</b> tap Subscribe. <b>Google Calendar and Android:</b> use “Add to Google Calendar” on a
   computer; the calendar then appears on your phone. <b>Outlook:</b> Add calendar → Subscribe from web, and paste the link.

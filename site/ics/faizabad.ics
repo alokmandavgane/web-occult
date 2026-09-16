@@ -10,6 +10,49 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-10-1832-mrkos-239232-faizabad@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260910T152916Z
+DTEND:20260910T153916Z
+SUMMARY:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1832) Mrkos hides a magnitude 12.5 star\, seen from Faizabad.\
+ nThe predicted edge passes 19 km to the W\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 21:04:16 IST\, give or take 10 s. The star is 39° up in the SSW
+  · dark sky.\nIt fades 4.1 magnitudes for up to 6.6 s on the centre line\
+ , and the path is 29 km wide\, give or take 28 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-1
+ 0-1832-mrkos-239232
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-10-1832-mrkos-239232
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-faizabad@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230908Z
+DTEND:20260928T231908Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Faizabad.\nYo
+ u are inside the path\, 50 km from its centre line: the star vanishes for 
+ up to 42.8 s.\nClosest approach 04:44:08 IST\, give or take 1 s. The star 
+ is 64° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s
+  on the centre line\, and the path is 939 km wide\, give or take 19 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-34825fb71a6e-faizabad@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162207Z
@@ -88,6 +131,27 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-faizabad@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130029Z
+DTEND:20261101T131029Z
+SUMMARY:(921) Jovita hides a mag 13.3 star
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Faizabad.\
+ nYou are inside the path\, 21 km from its centre line: the star vanishes f
+ or up to 1.4 s.\nClosest approach 18:35:29 IST\, give or take 1 s. The sta
+ r is 43° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8
+  s on the centre line\, and the path is 55 km wide\, give or take 32 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-01-921-jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-20aa5266e317-faizabad@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202658Z
@@ -114,6 +178,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-13-16194-roderick-432064-faizabad@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261113T140102Z
+DTEND:20261113T141102Z
+SUMMARY:(16194) Roderick hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(16194) Roderick hides a magnitude 11.9 star\, seen from Faizab
+ ad.\nThe predicted edge passes 19 km to the NNW\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 19:36:02 IST\, give or take 1 s. The star is 30° up in th
+ e ESE · dark sky.\nIt fades 6.1 magnitudes for up to 1.3 s on the centre 
+ line\, and the path is 19 km wide\, give or take 18 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026
+ -11-13-16194-roderick-432064
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-13-16194-roderick-43
+ 2064
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(16194) Roderick hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2406bac40ee1-faizabad@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T150046Z
@@ -138,6 +225,72 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:41:35 at the dark limb
  cult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-20-1574-meyer-317888-faizabad@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261120T184043Z
+DTEND:20261120T185043Z
+SUMMARY:(1574) Meyer hides a mag 12.6 star
+DESCRIPTION:(1574) Meyer hides a magnitude 12.6 star\, seen from Faizabad.\
+ nYou are inside the path\, 18 km from its centre line: the star vanishes f
+ or up to 2.9 s.\nClosest approach 00:15:43 IST\, give or take 2 s. The sta
+ r is 83° up in the SW · dark sky.\nIt fades 2.4 magnitudes for up to 3.8
+  s on the centre line\, and the path is 58 km wide\, give or take 18 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-20-1574-meyer-317888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-20-1574-meyer-317888
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1574) Meyer hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-23-762-pulcova-301888-faizabad@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261123T164511Z
+DTEND:20261123T165511Z
+SUMMARY:(762) Pulcova hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(762) Pulcova hides a magnitude 12.1 star\, seen from Faizabad.
+ \nThe predicted edge passes 12 km to the SSE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 22:20:11 IST\, give or take 1 s. The star is 79° up in the N
+ NE · dark sky.\nIt fades 1.2 magnitudes for up to 11.4 s on the centre li
+ ne\, and the path is 147 km wide\, give or take 15 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-
+ 11-23-762-pulcova-301888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-23-762-pulcova-30188
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(762) Pulcova hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-24-8188-okegaya-677440-faizabad@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261124T224252Z
+DTEND:20261124T225252Z
+SUMMARY:(8188) Okegaya hides a mag 11.1 star
+DESCRIPTION:(8188) Okegaya hides a magnitude 11.1 star\, seen from Faizabad
+ .\nYou are inside the path\, 9 km from its centre line: the star vanishes 
+ for up to 1.6 s.\nClosest approach 04:17:52 IST\, give or take 4 s. The st
+ ar is 82° up in the SSE · dark sky.\nIt fades 6.5 magnitudes for up to 3
+ .2 s on the centre line\, and the path is 20 km wide\, give or take 17 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-24-8188-okegaya-677440
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-24-8188-okegaya-6774
+ 40
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(8188) Okegaya hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2fbf307edce4-faizabad@occult.alokm.com
@@ -179,6 +332,49 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-06-224-oceana-933056-faizabad@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261206T162202Z
+DTEND:20261206T163202Z
+SUMMARY:(224) Oceana hides a mag 10.2 star
+DESCRIPTION:(224) Oceana hides a magnitude 10.2 star\, seen from Faizabad.\
+ nYou are inside the path\, 9 km from its centre line: the star vanishes fo
+ r up to 4.5 s.\nClosest approach 21:57:02 IST\, give or take 1 s. The star
+  is 77° up in the ENE · dark sky.\nIt fades 2.5 magnitudes for up to 4.8
+  s on the centre line\, and the path is 58 km wide\, give or take 17 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-12#2026-12-06-224-oceana-933056
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-06-224-oceana-933056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(224) Oceana hides a mag 10.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-08-1686-de-sitter-271296-faizabad@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261208T161158Z
+DTEND:20261208T162158Z
+SUMMARY:(1686) De Sitter hides a mag 11.7 star
+DESCRIPTION:(1686) De Sitter hides a magnitude 11.7 star\, seen from Faizab
+ ad.\nYou are inside the path\, 3 km from its centre line: the star vanishe
+ s for up to 1.9 s.\nClosest approach 21:46:58 IST\, give or take 1 s. The 
+ star is 52° up in the E · dark sky.\nIt fades 4.6 magnitudes for up to 2
+ .0 s on the centre line\, and the path is 30 km wide\, give or take 18 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-12#2026-12-08-1686-de-sitter-271296
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-08-1686-de-sitter-27
+ 1296
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1686) De Sitter hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-322daf5cdf07-faizabad@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T134210Z
@@ -190,6 +386,49 @@ DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:12:10 at the dark limb
  ult.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-13-868-lova-388160-faizabad@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261213T213146Z
+DTEND:20261213T214146Z
+SUMMARY:(868) Lova hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(868) Lova hides a magnitude 12.5 star\, seen from Faizabad.\nT
+ he predicted edge passes 8 km to the NNE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 03:06:46 IST\, give or take 2 s. The star is 54° up in the W · 
+ dark sky.\nIt fades 1.4 magnitudes for up to 5.0 s on the centre line\, an
+ d the path is 51 km wide\, give or take 14 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-13-86
+ 8-lova-388160
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-13-868-lova-388160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-24-799-gudula-366848-faizabad@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261224T154852Z
+DTEND:20261224T155852Z
+SUMMARY:(799) Gudula hides a mag 11.9 star
+DESCRIPTION:(799) Gudula hides a magnitude 11.9 star\, seen from Faizabad.\
+ nYou are inside the path\, 3 km from its centre line: the star vanishes fo
+ r up to 2.2 s.\nClosest approach 21:23:52 IST\, give or take 1 s. The star
+  is 27° up in the WSW · dark sky.\nIt fades 3.4 magnitudes for up to 2.2
+  s on the centre line\, and the path is 47 km wide\, give or take 18 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-12#2026-12-24-799-gudula-366848
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-24-799-gudula-366848
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(799) Gudula hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-6de8cc66fec0-faizabad@occult.alokm.com
@@ -205,6 +444,29 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-20-1132-hollandia-071040-faizabad@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270120T132726Z
+DTEND:20270120T133726Z
+SUMMARY:(1132) Hollandia hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1132) Hollandia hides a magnitude 12.5 star\, seen from Faizab
+ ad.\nThe predicted edge passes 3 km to the NNW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 19:02:26 IST\, give or take 1 s. The star is 57° up in the
+  WSW · dark sky.\nIt fades 4.0 magnitudes for up to 1.1 s on the centre l
+ ine\, and the path is 27 km wide\, give or take 19 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-
+ 01-20-1132-hollandia-071040
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-20-1132-hollandia-07
+ 1040
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1132) Hollandia hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-806744f00208-faizabad@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270121T142215Z
@@ -216,6 +478,27 @@ DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:52:15 at the dark limb
  t.alokm.com/moon-stars-2027-01
 URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-22-3037-alku-499520-faizabad@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270122T163212Z
+DTEND:20270122T164212Z
+SUMMARY:(3037) Alku hides a mag 12.8 star
+DESCRIPTION:(3037) Alku hides a magnitude 12.8 star\, seen from Faizabad.\n
+ You are inside the path\, 7 km from its centre line: the star vanishes for
+  up to 2.5 s.\nClosest approach 22:07:12 IST\, give or take 1 s. The star 
+ is 83° up in the ESE · dark sky.\nIt fades 2.1 magnitudes for up to 2.9 
+ s on the centre line\, and the path is 30 km wide\, give or take 20 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-01#2027-01-22-3037-alku-499520
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-22-3037-alku-499520
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3037) Alku hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-51bbbe428649-faizabad@occult.alokm.com
@@ -255,6 +538,51 @@ DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:20:51 at the dark limb I
  .alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-06-54-alexandra-102144-faizabad@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270206T195750Z
+DTEND:20270206T200750Z
+SUMMARY:(54) Alexandra hides a mag 11.1 star (just outside the path)
+DESCRIPTION:(54) Alexandra hides a magnitude 11.1 star\, seen from Faizabad
+ .\nThe predicted edge passes 1 km to the NE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 01:32:50 IST\, give or take 1 s. The star is 13° up in the SE
+  · dark sky.\nIt fades 2.1 magnitudes for up to 9.5 s on the centre line\
+ , and the path is 160 km wide\, give or take 18 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-
+ 06-54-alexandra-102144
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-06-54-alexandra-1021
+ 44
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(54) Alexandra hides a mag 11.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-11-410-chloris-726272-faizabad@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270211T221918Z
+DTEND:20270211T222918Z
+SUMMARY:(410) Chloris hides a mag 9.7 star
+DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Faizabad.\
+ nYou are inside the path\, 5 km from its centre line: the star vanishes fo
+ r up to 8.0 s.\nClosest approach 03:54:18 IST\, give or take 1 s. The star
+  is 36° up in the WNW · dark sky.\nIt fades 3.3 magnitudes for up to 8.1
+  s on the centre line\, and the path is 119 km wide\, give or take 21 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-02#2027-02-11-410-chloris-726272
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-11-410-chloris-72627
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(410) Chloris hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-138ea4dcce54-faizabad@occult.alokm.com
@@ -310,6 +638,50 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-104-klymene-773824-faizabad@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T185631Z
+DTEND:20270222T190631Z
+SUMMARY:(104) Klymene hides a mag 12.6 star
+DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Faizabad.
+ \nYou are inside the path\, 62 km from its centre line: the star vanishes 
+ for up to 5.0 s.\nClosest approach 00:31:31 IST\, give or take 2 s. The st
+ ar is 76° up in the S · dark sky.\nIt fades 0.7 magnitudes for up to 10.
+ 8 s on the centre line\, and the path is 137 km wide\, give or take 14 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-22-104-klymene-773824
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-104-klymene-77382
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(104) Klymene hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-faizabad@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181545Z
+DTEND:20270223T182545Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Faizab
+ ad.\nYou are inside the path\, 97 km from its centre line: the star vanish
+ es for up to 7.9 s.\nClosest approach 23:50:45 IST\, give or take 3 s. The
+  star is 30° up in the E · dark sky.\nIt fades 2.9 magnitudes for up to 
+ 20.1 s on the centre line\, and the path is 108 km wide\, give or take 59 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-02#2027-02-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-238bc70cfffc-faizabad@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T200454Z
@@ -321,6 +693,28 @@ DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:34:54 at the dark limb
  lt.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-28-39-laetitia-186304-faizabad@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T180558Z
+DTEND:20270228T181558Z
+SUMMARY:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Faizabad.
+ \nYou are inside the path\, 72 km from its centre line: the star vanishes 
+ for up to 25.2 s.\nClosest approach 23:40:58 IST\, give or take 4 s. The s
+ tar is 25° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 
+ 30.8 s on the centre line\, and the path is 179 km wide\, give or take 30 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-02#2027-02-28-39-laetitia-186304
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-39-laetitia-18630
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-6038d67cb336-faizabad@occult.alokm.com
@@ -336,6 +730,75 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-07-10555-tagaharue-337536-faizabad@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270307T164257Z
+DTEND:20270307T165257Z
+SUMMARY:(10555) Tagaharue hides a mag 11.1 star (just outside the path)
+DESCRIPTION:(10555) Tagaharue hides a magnitude 11.1 star\, seen from Faiza
+ bad.\nThe predicted edge passes 12 km to the S\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 22:17:57 IST\, give or take 2 s. The star is 59° up in the
+  E · dark sky.\nIt fades 5.8 magnitudes for up to 1.2 s on the centre lin
+ e\, and the path is 16 km wide\, give or take 15 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03
+ -07-10555-tagaharue-337536
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-07-10555-tagaharue-3
+ 37536
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(10555) Tagaharue hides a mag 11.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-02-566-stereoskopia-156096-faizabad@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270402T134849Z
+DTEND:20270402T135849Z
+SUMMARY:(566) Stereoskopia hides a mag 11.5 star
+DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Faiz
+ abad.\nYou are inside the path\, 28 km from its centre line: the star vani
+ shes for up to 7.4 s.\nClosest approach 19:23:49 IST\, give or take 1 s. T
+ he star is 63° up in the W · dark sky.\nIt fades 2.9 magnitudes for up t
+ o 7.7 s on the centre line\, and the path is 167 km wide\, give or take 24
+  km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com
+ /asteroids-2027-04#2027-04-02-566-stereoskopia-156096
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-02-566-stereoskopia-
+ 156096
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(566) Stereoskopia hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-13-2932-kempchinsky-013056-faizabad@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270413T224826Z
+DTEND:20270413T225826Z
+SUMMARY:(2932) Kempchinsky hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(2932) Kempchinsky hides a magnitude 12.9 star\, seen from Faiz
+ abad.\nThe predicted edge passes 34 km to the S\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 04:23:26 IST\, give or take 7 s. The star is 41° up in th
+ e SSE · dark sky.\nIt fades 5.1 magnitudes for up to 3.5 s on the centre 
+ line\, and the path is 29 km wide\, give or take 24 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027
+ -04-13-2932-kempchinsky-013056
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-13-2932-kempchinsky-
+ 013056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2932) Kempchinsky hides a mag 12.9 star (just outside the path
+ )
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-8a92389a7fa2-faizabad@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T141725Z
@@ -347,6 +810,72 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:47:25 at the dark limb
  cult.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-218-bianca-074816-faizabad@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T231200Z
+DTEND:20270414T232200Z
+SUMMARY:(218) Bianca hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Faizabad.\
+ nThe predicted edge passes 13 km to the SW\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 04:47:00 IST\, give or take 4 s. The star is 19° up in the W 
+ · dusk.\nIt fades 1.0 magnitudes for up to 5.6 s on the centre line\, and
+  the path is 61 km wide\, give or take 18 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-14-218
+ -bianca-074816
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-bianca-074816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(218) Bianca hides a mag 11.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-01-829-academia-095104-faizabad@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270501T191048Z
+DTEND:20270501T192048Z
+SUMMARY:(829) Academia hides a mag 12.5 star
+DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Faizabad
+ .\nYou are inside the path\, 11 km from its centre line: the star vanishes
+  for up to 3.8 s.\nClosest approach 00:45:48 IST\, give or take 1 s. The s
+ tar is 30° up in the S · dark sky.\nIt fades 2.9 magnitudes for up to 4.
+ 0 s on the centre line\, and the path is 43 km wide\, give or take 34 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-05#2027-05-01-829-academia-095104
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-01-829-academia-0951
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(829) Academia hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-05-538-friederike-078464-faizabad@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270505T205818Z
+DTEND:20270505T210818Z
+SUMMARY:(538) Friederike hides a mag 11.4 star
+DESCRIPTION:(538) Friederike hides a magnitude 11.4 star\, seen from Faizab
+ ad.\nYou are inside the path\, 14 km from its centre line: the star vanish
+ es for up to 5.2 s.\nClosest approach 02:33:18 IST\, give or take 2 s. The
+  star is 47° up in the SSW · dark sky.\nIt fades 3.3 magnitudes for up t
+ o 5.6 s on the centre line\, and the path is 71 km wide\, give or take 22 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-05#2027-05-05-538-friederike-078464
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-05-538-friederike-07
+ 8464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(538) Friederike hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-215911a9207e-faizabad@occult.alokm.com
@@ -389,6 +918,74 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-06-240-vanadis-855616-faizabad@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270706T211032Z
+DTEND:20270706T212032Z
+SUMMARY:(240) Vanadis hides a mag 11.8 star
+DESCRIPTION:(240) Vanadis hides a magnitude 11.8 star\, seen from Faizabad.
+ \nYou are inside the path\, 16 km from its centre line: the star vanishes 
+ for up to 6.2 s.\nClosest approach 02:45:32 IST\, give or take 1 s. The st
+ ar is 25° up in the SW · dark sky.\nIt fades 1.6 magnitudes for up to 6.
+ 6 s on the centre line\, and the path is 88 km wide\, give or take 14 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-07#2027-07-06-240-vanadis-855616
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-06-240-vanadis-85561
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(240) Vanadis hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-06-416-vaticana-756608-faizabad@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270706T230948Z
+DTEND:20270706T231948Z
+SUMMARY:(416) Vaticana hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(416) Vaticana hides a magnitude 12.4 star\, seen from Faizabad
+ .\nThe predicted edge passes 2 km to the ESE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 04:44:48 IST\, give or take 1 s. The star is 23° up in the S
+ SW · dusk.\nIt fades 0.3 magnitudes for up to 11.9 s on the centre line\,
+  and the path is 85 km wide\, give or take 24 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-06
+ -416-vaticana-756608
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-06-416-vaticana-7566
+ 08
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(416) Vaticana hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-09-40-harmonia-819840-faizabad@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270709T161930Z
+DTEND:20270709T162930Z
+SUMMARY:(40) Harmonia hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(40) Harmonia hides a magnitude 11.9 star\, seen from Faizabad.
+ \nThe predicted edge passes 1 km to the W\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 21:54:30 IST\, give or take 4 s. The star is 40° up in the SW 
+ · dark sky.\nIt fades 0.3 magnitudes for up to 38.8 s on the centre line\
+ , and the path is 111 km wide\, give or take 12 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-
+ 09-40-harmonia-819840
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-09-40-harmonia-81984
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(40) Harmonia hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2585b23dbfd8-faizabad@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T213134Z
@@ -400,6 +997,29 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:01:34 at the dark limb
  lt.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-19-671-carnegia-628864-faizabad@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270719T154931Z
+DTEND:20270719T155931Z
+SUMMARY:(671) Carnegia hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(671) Carnegia hides a magnitude 11.6 star\, seen from Faizabad
+ .\nThe predicted edge passes 30 km to the NNE\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 21:24:31 IST\, give or take 2 s. The star is 15° up in the 
+ SE · dark sky.\nIt fades 3.5 magnitudes for up to 4.7 s on the centre lin
+ e\, and the path is 61 km wide\, give or take 28 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07
+ -19-671-carnegia-628864
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-19-671-carnegia-6288
+ 64
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(671) Carnegia hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-20ce35bf80c5-faizabad@occult.alokm.com

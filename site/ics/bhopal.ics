@@ -10,6 +10,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-10-7394-xanthomalitia-499136-bhopal@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260910T215039Z
+DTEND:20260910T220039Z
+SUMMARY:(7394) Xanthomalitia hides a mag 12.8 star
+DESCRIPTION:(7394) Xanthomalitia hides a magnitude 12.8 star\, seen from Bh
+ opal.\nYou are inside the path\, 1 km from its centre line: the star vanis
+ hes for up to 1.2 s.\nClosest approach 03:25:39 IST\, give or take 1 s. Th
+ e star is 25° up in the E · dark sky.\nIt fades 5.3 magnitudes for up to
+  1.2 s on the centre line\, and the path is 32 km wide\, give or take 31 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2026-09#2026-09-10-7394-xanthomalitia-499136
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-10-7394-xanthomaliti
+ a-499136
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(7394) Xanthomalitia hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:occ-venus-2026-09-14-bhopal@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T115939Z
@@ -24,6 +46,27 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-bhopal@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230845Z
+DTEND:20260928T231845Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Bhopal.\nYou 
+ are inside the path\, 209 km from its centre line: the star vanishes for u
+ p to 38.6 s.\nClosest approach 04:43:45 IST\, give or take 1 s. The star i
+ s 59° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s 
+ on the centre line\, and the path is 939 km wide\, give or take 19 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -54,6 +97,29 @@ URL:https://occult.alokm.com/moon-stars-2026-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-01-852-wladilena-994304-bhopal@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261001T212758Z
+DTEND:20261001T213758Z
+SUMMARY:(852) Wladilena hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(852) Wladilena hides a magnitude 12.2 star\, seen from Bhopal.
+ \nThe predicted edge passes 5 km to the E\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 03:02:58 IST\, give or take 1 s. The star is 64° up in the NE 
+ · dark sky.\nIt fades 2.3 magnitudes for up to 2.2 s on the centre line\,
+  and the path is 27 km wide\, give or take 14 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-01
+ -852-wladilena-994304
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-01-852-wladilena-994
+ 304
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(852) Wladilena hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-3d35e63d57cf-bhopal@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261004T202421Z
@@ -65,6 +131,74 @@ DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:54:21 at the dark limb
  t.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-06-17171-17171-838592-bhopal@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261006T211111Z
+DTEND:20261006T212111Z
+SUMMARY:(17171) 17171 hides a mag 10.9 star
+DESCRIPTION:(17171) 17171 hides a magnitude 10.9 star\, seen from Bhopal.\n
+ You are inside the path\, 15 km from its centre line: the star vanishes fo
+ r up to 3.0 s.\nClosest approach 02:46:11 IST\, give or take 7 s. The star
+  is 48° up in the NE · dark sky.\nIt fades 7.6 magnitudes for up to 4.3 
+ s on the centre line\, and the path is 41 km wide\, give or take 37 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-10#2026-10-06-17171-17171-838592
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-06-17171-17171-83859
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(17171) 17171 hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-08-1321-majuba-168704-bhopal@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261008T172540Z
+DTEND:20261008T173540Z
+SUMMARY:(1321) Majuba hides a mag 11.1 star (just outside the path)
+DESCRIPTION:(1321) Majuba hides a magnitude 11.1 star\, seen from Bhopal.\n
+ The predicted edge passes 12 km to the SSE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 23:00:40 IST\, give or take 1 s. The star is 68° up in the E 
+ · dark sky.\nIt fades 3.1 magnitudes for up to 3.2 s on the centre line\,
+  and the path is 37 km wide\, give or take 33 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-08
+ -1321-majuba-168704
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-08-1321-majuba-16870
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1321) Majuba hides a mag 11.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-09-1145-robelmonte-768768-bhopal@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261009T211353Z
+DTEND:20261009T212353Z
+SUMMARY:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(1145) Robelmonte hides a magnitude 11.6 star\, seen from Bhopa
+ l.\nThe predicted edge passes 4 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 02:48:53 IST\, give or take 1 s. The star is 24° up in the 
+ ENE · dark sky.\nIt fades 5.2 magnitudes for up to 0.9 s on the centre li
+ ne\, and the path is 24 km wide\, give or take 20 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-1
+ 0-09-1145-robelmonte-768768
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-09-1145-robelmonte-7
+ 68768
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-cdbb3decbdff-bhopal@occult.alokm.com
@@ -93,6 +227,27 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-28-4973-showa-390720-bhopal@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261028T201850Z
+DTEND:20261028T202850Z
+SUMMARY:(4973) Showa hides a mag 12.5 star
+DESCRIPTION:(4973) Showa hides a magnitude 12.5 star\, seen from Bhopal.\nY
+ ou are inside the path\, 6 km from its centre line: the star vanishes for 
+ up to 2.5 s.\nClosest approach 01:53:50 IST\, give or take 2 s. The star i
+ s 43° up in the NE · dark sky.\nIt fades 4.8 magnitudes for up to 2.7 s 
+ on the centre line\, and the path is 28 km wide\, give or take 20 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2026-10#2026-10-28-4973-showa-390720
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-28-4973-showa-390720
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4973) Showa hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-84d713bda452-bhopal@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202527Z
@@ -119,6 +274,75 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-05-1984-fedynskij-598656-bhopal@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261105T224732Z
+DTEND:20261105T225732Z
+SUMMARY:(1984) Fedynskij hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(1984) Fedynskij hides a magnitude 12.7 star\, seen from Bhopal
+ .\nThe predicted edge passes 7 km to the NNW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 04:22:32 IST\, give or take 2 s. The star is 70° up in the W
+ SW · dark sky.\nIt fades 3.7 magnitudes for up to 5.1 s on the centre lin
+ e\, and the path is 36 km wide\, give or take 17 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11
+ -05-1984-fedynskij-598656
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-05-1984-fedynskij-59
+ 8656
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1984) Fedynskij hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-06-2330-ontake-223872-bhopal@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261106T215048Z
+DTEND:20261106T220048Z
+SUMMARY:(2330) Ontake hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(2330) Ontake hides a magnitude 12.4 star\, seen from Bhopal.\n
+ The predicted edge passes 15 km to the SSE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 03:25:48 IST\, give or take 2 s. The star is 76° up in the SW 
+ · dark sky.\nIt fades 4.6 magnitudes for up to 4.1 s on the centre line\,
+  and the path is 33 km wide\, give or take 26 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-06
+ -2330-ontake-223872
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-06-2330-ontake-22387
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2330) Ontake hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-780-armenia-852928-bhopal@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T132737Z
+DTEND:20261112T133737Z
+SUMMARY:(780) Armenia hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(780) Armenia hides a magnitude 12.8 star\, seen from Bhopal.\n
+ The predicted edge passes 6 km to the N\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 19:02:37 IST\, give or take 1 s. The star is 25° up in the WSW ·
+  dark sky.\nIt fades 2.3 magnitudes for up to 3.3 s on the centre line\, a
+ nd the path is 126 km wide\, give or take 26 km.\nFinder chart\, the map a
+ nd the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-12-
+ 780-armenia-852928
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-780-armenia-85292
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(780) Armenia hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-07172256d3e7-bhopal@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145552Z
@@ -143,6 +367,50 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:36:29 at the dark limb
  lt.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-21-1409-isko-322560-bhopal@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261121T133652Z
+DTEND:20261121T134652Z
+SUMMARY:(1409) Isko hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(1409) Isko hides a magnitude 12.4 star\, seen from Bhopal.\nTh
+ e predicted edge passes 1 km to the NNW\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 19:11:52 IST\, give or take 1 s. The star is 25° up in the SW · 
+ dark sky.\nIt fades 4.2 magnitudes for up to 1.0 s on the centre line\, an
+ d the path is 36 km wide\, give or take 23 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-21-14
+ 09-isko-322560
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-21-1409-isko-322560
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1409) Isko hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-23-762-pulcova-301888-bhopal@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261123T164556Z
+DTEND:20261123T165556Z
+SUMMARY:(762) Pulcova hides a mag 12.1 star
+DESCRIPTION:(762) Pulcova hides a magnitude 12.1 star\, seen from Bhopal.\n
+ You are inside the path\, 13 km from its centre line: the star vanishes fo
+ r up to 10.9 s.\nClosest approach 22:20:56 IST\, give or take 1 s. The sta
+ r is 74° up in the NE · dark sky.\nIt fades 1.2 magnitudes for up to 11.
+ 4 s on the centre line\, and the path is 147 km wide\, give or take 15 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-23-762-pulcova-301888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-23-762-pulcova-30188
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(762) Pulcova hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2fbf307edce4-bhopal@occult.alokm.com
@@ -184,6 +452,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-07-15637-15637-264448-bhopal@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261207T172426Z
+DTEND:20261207T173426Z
+SUMMARY:(15637) 15637 hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(15637) 15637 hides a magnitude 12.4 star\, seen from Bhopal.\n
+ The predicted edge passes 7 km to the SSE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 22:59:26 IST\, give or take 1 s. The star is 56° up in the E ·
+  dark sky.\nIt fades 5.2 magnitudes for up to 1.2 s on the centre line\, a
+ nd the path is 18 km wide\, give or take 17 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-07-1
+ 5637-15637-264448
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-07-15637-15637-26444
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(15637) 15637 hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-77f8c3eb8772-bhopal@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T133919Z
@@ -195,6 +486,28 @@ DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:09:19 at the dark limb
  lt.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-16-4932-texstapa-694272-bhopal@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261216T163813Z
+DTEND:20261216T164813Z
+SUMMARY:(4932) Texstapa hides a mag 12.0 star
+DESCRIPTION:(4932) Texstapa hides a magnitude 12.0 star\, seen from Bhopal.
+ \nYou are inside the path\, 0 km from its centre line: the star vanishes f
+ or up to 2.1 s.\nClosest approach 22:13:13 IST\, give or take 1 s. The sta
+ r is 41° up in the E · dark sky.\nIt fades 4.7 magnitudes for up to 2.1 
+ s on the centre line\, and the path is 26 km wide\, give or take 15 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-12#2026-12-16-4932-texstapa-694272
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-16-4932-texstapa-694
+ 272
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4932) Texstapa hides a mag 12.0 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-4a6016d00d0a-bhopal@occult.alokm.com
@@ -221,6 +534,29 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:59:48 at the dark limb I
  .alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-01-331-etheridgea-218304-bhopal@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270101T220401Z
+DTEND:20270101T221401Z
+SUMMARY:(331) Etheridgea hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(331) Etheridgea hides a magnitude 12.5 star\, seen from Bhopal
+ .\nThe predicted edge passes 20 km to the SSW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 03:39:01 IST\, give or take 2 s. The star is 27° up in the 
+ WNW · dark sky.\nIt fades 2.1 magnitudes for up to 6.7 s on the centre li
+ ne\, and the path is 75 km wide\, give or take 22 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-0
+ 1-01-331-etheridgea-218304
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-01-331-etheridgea-21
+ 8304
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(331) Etheridgea hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-97c9f52d4af1-bhopal@occult.alokm.com
@@ -262,6 +598,29 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-08-4522-britastra-845632-bhopal@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270208T152140Z
+DTEND:20270208T153140Z
+SUMMARY:(4522) Britastra hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(4522) Britastra hides a magnitude 11.2 star\, seen from Bhopal
+ .\nThe predicted edge passes 7 km to the NNW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 20:56:40 IST\, give or take 0 s. The star is 19° up in the W
+ SW · dark sky.\nIt fades 6.0 magnitudes for up to 0.6 s on the centre lin
+ e\, and the path is 21 km wide\, give or take 19 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02
+ -08-4522-britastra-845632
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-08-4522-britastra-84
+ 5632
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4522) Britastra hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-35d3b63ca18d-bhopal@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270216T171258Z
@@ -301,6 +660,50 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-4772-frankdrake-815808-bhopal@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T222714Z
+DTEND:20270222T223714Z
+SUMMARY:(4772) Frankdrake hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(4772) Frankdrake hides a magnitude 12.9 star\, seen from Bhopa
+ l.\nThe predicted edge passes 3 km to the SSW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 04:02:14 IST\, give or take 1 s. The star is 11° up in the 
+ ESE · dark sky.\nIt fades 5.4 magnitudes for up to 0.8 s on the centre li
+ ne\, and the path is 28 km wide\, give or take 27 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-0
+ 2-22-4772-frankdrake-815808
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-4772-frankdrake-8
+ 15808
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4772) Frankdrake hides a mag 12.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-23-497-iva-724224-bhopal@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T003909Z
+DTEND:20270223T004909Z
+SUMMARY:(497) Iva hides a mag 12.3 star
+DESCRIPTION:(497) Iva hides a magnitude 12.3 star\, seen from Bhopal.\nYou 
+ are inside the path\, 17 km from its centre line: the star vanishes for up
+  to 0.7 s.\nClosest approach 06:14:09 IST\, give or take 1 s. The star is 
+ 12° up in the ESE · dusk.\nIt fades 2.8 magnitudes for up to 0.9 s on th
+ e centre line\, and the path is 41 km wide\, give or take 24 km.\nFinder c
+ hart\, the map and the path as KML: https://occult.alokm.com/asteroids-202
+ 7-02#2027-02-23-497-iva-724224
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-497-iva-724224
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(497) Iva hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-6a1e3d9cbd51-bhopal@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T201112Z
@@ -312,6 +715,71 @@ DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:41:12 at the dark limb
  .alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-01-798-ruth-618176-bhopal@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270301T225811Z
+DTEND:20270301T230811Z
+SUMMARY:(798) Ruth hides a mag 12.8 star
+DESCRIPTION:(798) Ruth hides a magnitude 12.8 star\, seen from Bhopal.\nYou
+  are inside the path\, 18 km from its centre line: the star vanishes for u
+ p to 2.2 s.\nClosest approach 04:33:11 IST\, give or take 3 s. The star is
+  41° up in the SSE · dark sky.\nIt fades 2.5 magnitudes for up to 2.7 s 
+ on the centre line\, and the path is 43 km wide\, give or take 20 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-03#2027-03-01-798-ruth-618176
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-01-798-ruth-618176
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(798) Ruth hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-07-909-ulla-963904-bhopal@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270307T170632Z
+DTEND:20270307T171632Z
+SUMMARY:(909) Ulla hides a mag 7.5 star (just outside the path)
+DESCRIPTION:(909) Ulla hides a magnitude 7.5 star\, seen from Bhopal.\nThe 
+ predicted edge passes 38 km to the NNE\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 22:41:32 IST\, give or take 2 s. The star is 15° up in the E · da
+ rk sky.\nIt fades 7.4 magnitudes for up to 10.5 s on the centre line\, and
+  the path is 116 km wide\, give or take 66 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-07-90
+ 9-ulla-963904
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-07-909-ulla-963904
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(909) Ulla hides a mag 7.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-09-756-lilliana-309632-bhopal@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270309T144448Z
+DTEND:20270309T145448Z
+SUMMARY:(756) Lilliana hides a mag 10.9 star
+DESCRIPTION:(756) Lilliana hides a magnitude 10.9 star\, seen from Bhopal.\
+ nYou are inside the path\, 15 km from its centre line: the star vanishes f
+ or up to 2.3 s.\nClosest approach 20:19:48 IST\, give or take 1 s. The sta
+ r is 37° up in the W · dark sky.\nIt fades 5.6 magnitudes for up to 2.6 
+ s on the centre line\, and the path is 65 km wide\, give or take 28 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-03#2027-03-09-756-lilliana-309632
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-09-756-lilliana-3096
+ 32
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(756) Lilliana hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-d66be966eb55-bhopal@occult.alokm.com
@@ -327,6 +795,29 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-04-11-parthenope-387584-bhopal@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T225930Z
+DTEND:20270404T230930Z
+SUMMARY:(11) Parthenope hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(11) Parthenope hides a magnitude 11.9 star\, seen from Bhopal.
+ \nThe predicted edge passes 10 km to the S\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 04:34:30 IST\, give or take 1 s. The star is 42° up in the SSE
+  · dark sky.\nIt fades 0.5 magnitudes for up to 8.9 s on the centre line\
+ , and the path is 143 km wide\, give or take 15 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-
+ 04-11-parthenope-387584
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-11-parthenope-387
+ 584
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-5957eff10c41-bhopal@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T141208Z
@@ -338,6 +829,117 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:42:08 at the dark limb
  lt.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-2967-vladisvyat-149952-bhopal@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T202802Z
+DTEND:20270414T203802Z
+SUMMARY:(2967) Vladisvyat hides a mag 12.8 star
+DESCRIPTION:(2967) Vladisvyat hides a magnitude 12.8 star\, seen from Bhopa
+ l.\nYou are inside the path\, 21 km from its centre line: the star vanishe
+ s for up to 0.5 s.\nClosest approach 02:03:02 IST\, give or take 2 s. The 
+ star is 23° up in the SSE · dark sky.\nIt fades 4.3 magnitudes for up to
+  3.7 s on the centre line\, and the path is 33 km wide\, give or take 31 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-04#2027-04-14-2967-vladisvyat-149952
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-2967-vladisvyat-1
+ 49952
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2967) Vladisvyat hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-06-1039-sonneberga-364672-bhopal@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270506T160022Z
+DTEND:20270506T161022Z
+SUMMARY:(1039) Sonneberga hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(1039) Sonneberga hides a magnitude 11.7 star\, seen from Bhopa
+ l.\nThe predicted edge passes 13 km to the N\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 21:35:22 IST\, give or take 3 s. The star is 62° up in the S
+ W · dark sky.\nIt fades 4.4 magnitudes for up to 6.9 s on the centre line
+ \, and the path is 34 km wide\, give or take 26 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-
+ 06-1039-sonneberga-364672
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-06-1039-sonneberga-3
+ 64672
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1039) Sonneberga hides a mag 11.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-09-65-cybele-529920-bhopal@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270509T214532Z
+DTEND:20270509T215532Z
+SUMMARY:(65) Cybele hides a mag 11.5 star
+DESCRIPTION:(65) Cybele hides a magnitude 11.5 star\, seen from Bhopal.\nYo
+ u are inside the path\, 36 km from its centre line: the star vanishes for 
+ up to 41.7 s.\nClosest approach 03:20:32 IST\, give or take 4 s. The star 
+ is 48° up in the S · dark sky.\nIt fades 0.8 magnitudes for up to 46.3 s
+  on the centre line\, and the path is 237 km wide\, give or take 15 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-09-65-cybele-529920
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-09-65-cybele-529920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(65) Cybele hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-13-40-harmonia-749760-bhopal@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270513T231458Z
+DTEND:20270513T232458Z
+SUMMARY:(40) Harmonia hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(40) Harmonia hides a magnitude 11.8 star\, seen from Bhopal.\n
+ The predicted edge passes 8 km to the NNW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 04:49:58 IST\, give or take 1 s. The star is 18° up in the WSW 
+ · dusk.\nIt fades 0.1 magnitudes for up to 11.0 s on the centre line\, an
+ d the path is 111 km wide\, give or take 10 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-13-4
+ 0-harmonia-749760
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-13-40-harmonia-74976
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(40) Harmonia hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-14-292-ludovica-246016-bhopal@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270514T220949Z
+DTEND:20270514T221949Z
+SUMMARY:(292) Ludovica hides a mag 12.2 star
+DESCRIPTION:(292) Ludovica hides a magnitude 12.2 star\, seen from Bhopal.\
+ nYou are inside the path\, 14 km from its centre line: the star vanishes f
+ or up to 1.5 s.\nClosest approach 03:44:49 IST\, give or take 1 s. The sta
+ r is 23° up in the SW · dark sky.\nIt fades 1.5 magnitudes for up to 2.5
+  s on the centre line\, and the path is 31 km wide\, give or take 28 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-05#2027-05-14-292-ludovica-246016
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-14-292-ludovica-2460
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(292) Ludovica hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-ceba73ccc2d9-bhopal@occult.alokm.com
@@ -380,6 +982,28 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-01-339-dorothea-965120-bhopal@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270601T164017Z
+DTEND:20270601T165017Z
+SUMMARY:(339) Dorothea hides a mag 13.2 star
+DESCRIPTION:(339) Dorothea hides a magnitude 13.2 star\, seen from Bhopal.\
+ nYou are inside the path\, 17 km from its centre line: the star vanishes f
+ or up to 3.0 s.\nClosest approach 22:15:17 IST\, give or take 3 s. The sta
+ r is 28° up in the ESE · dark sky.\nIt fades 1.1 magnitudes for up to 4.
+ 6 s on the centre line\, and the path is 44 km wide\, give or take 14 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-06#2027-06-01-339-dorothea-965120
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-01-339-dorothea-9651
+ 20
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(339) Dorothea hides a mag 13.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-92d8868abb84-bhopal@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270609T172057Z
@@ -391,6 +1015,50 @@ DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:57 at the dark limb
  lokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-17-3631-sigyn-651200-bhopal@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270617T180538Z
+DTEND:20270617T181538Z
+SUMMARY:(3631) Sigyn hides a mag 9.8 star
+DESCRIPTION:(3631) Sigyn hides a magnitude 9.8 star\, seen from Bhopal.\nYo
+ u are inside the path\, 19 km from its centre line: the star vanishes for 
+ up to 2.0 s.\nClosest approach 23:40:38 IST\, give or take 2 s. The star i
+ s 49° up in the SE · dark sky.\nIt fades 5.7 magnitudes for up to 4.0 s 
+ on the centre line\, and the path is 39 km wide\, give or take 14 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-06#2027-06-17-3631-sigyn-651200
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-17-3631-sigyn-651200
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3631) Sigyn hides a mag 9.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-18-3495-colchagua-812224-bhopal@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270618T230212Z
+DTEND:20270618T231212Z
+SUMMARY:(3495) Colchagua hides a mag 10.0 star (just outside the path)
+DESCRIPTION:(3495) Colchagua hides a magnitude 10.0 star\, seen from Bhopal
+ .\nThe predicted edge passes 15 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 04:37:12 IST\, give or take 4 s. The star is 32° up in the 
+ SW · dark sky.\nIt fades 6.1 magnitudes for up to 2.9 s on the centre lin
+ e\, and the path is 26 km wide\, give or take 14 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06
+ -18-3495-colchagua-812224
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-18-3495-colchagua-81
+ 2224
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3495) Colchagua hides a mag 10.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0608a0c39793-bhopal@occult.alokm.com
@@ -406,6 +1074,51 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-05-17109-17109-570112-bhopal@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270705T150038Z
+DTEND:20270705T151038Z
+SUMMARY:(17109) 17109 hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(17109) 17109 hides a magnitude 12.3 star\, seen from Bhopal.\n
+ The predicted edge passes 1 km to the SSW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 20:35:38 IST\, give or take 2 s. The star is 28° up in the SE 
+ · dark sky.\nIt fades 3.8 magnitudes for up to 2.7 s on the centre line\,
+  and the path is 27 km wide\, give or take 11 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-05
+ -17109-17109-570112
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-05-17109-17109-57011
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(17109) 17109 hides a mag 12.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-08-790-pretoria-589696-bhopal@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270708T164728Z
+DTEND:20270708T165728Z
+SUMMARY:(790) Pretoria hides a mag 12.9 star
+DESCRIPTION:(790) Pretoria hides a magnitude 12.9 star\, seen from Bhopal.\
+ nYou are inside the path\, 40 km from its centre line: the star vanishes f
+ or up to 12.3 s.\nClosest approach 22:22:28 IST\, give or take 6 s. The st
+ ar is 53° up in the SE · dark sky.\nIt fades 0.5 magnitudes for up to 14
+ .1 s on the centre line\, and the path is 170 km wide\, give or take 58 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-07#2027-07-08-790-pretoria-589696
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-08-790-pretoria-5896
+ 96
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(790) Pretoria hides a mag 12.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-7b730e5bb248-bhopal@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270710T174625Z
@@ -419,6 +1132,27 @@ URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-12-88-thisbe-546112-bhopal@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270712T180220Z
+DTEND:20270712T181220Z
+SUMMARY:(88) Thisbe hides a mag 11.3 star
+DESCRIPTION:(88) Thisbe hides a magnitude 11.3 star\, seen from Bhopal.\nYo
+ u are inside the path\, 132 km from its centre line: the star vanishes for
+  up to 25.3 s.\nClosest approach 23:37:20 IST\, give or take 4 s. The star
+  is 39° up in the SSW · dark sky.\nIt fades 0.5 magnitudes for up to 38.
+ 3 s on the centre line\, and the path is 232 km wide\, give or take 11 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-07#2027-07-12-88-thisbe-546112
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-12-88-thisbe-546112
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(88) Thisbe hides a mag 11.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2399d5cda20b-bhopal@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T213002Z
@@ -430,6 +1164,49 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:00:02 at the dark limb
  t.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-22-1715-salli-684032-bhopal@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270722T150242Z
+DTEND:20270722T151242Z
+SUMMARY:(1715) Salli hides a mag 12.5 star
+DESCRIPTION:(1715) Salli hides a magnitude 12.5 star\, seen from Bhopal.\nY
+ ou are inside the path\, 14 km from its centre line: the star vanishes for
+  up to 0.5 s.\nClosest approach 20:37:42 IST\, give or take 0 s. The star 
+ is 26° up in the WSW · dark sky.\nIt fades 4.1 magnitudes for up to 0.7 
+ s on the centre line\, and the path is 24 km wide\, give or take 19 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-07#2027-07-22-1715-salli-684032
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-22-1715-salli-684032
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1715) Salli hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-03-539-pamina-034752-bhopal@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270803T201215Z
+DTEND:20270803T202215Z
+SUMMARY:(539) Pamina hides a mag 8.1 star (just outside the path)
+DESCRIPTION:(539) Pamina hides a magnitude 8.1 star\, seen from Bhopal.\nTh
+ e predicted edge passes 12 km to the SSE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 01:47:15 IST\, give or take 1 s. The star is 19° up in the ENE 
+ · dark sky.\nIt fades 6.7 magnitudes for up to 2.5 s on the centre line\,
+  and the path is 68 km wide\, give or take 21 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-03
+ -539-pamina-034752
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-03-539-pamina-034752
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(539) Pamina hides a mag 8.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e49c39e5d256-bhopal@occult.alokm.com

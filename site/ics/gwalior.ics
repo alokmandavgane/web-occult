@@ -10,6 +10,50 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-28-1918-aiguillon-377920-gwalior@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T205249Z
+DTEND:20260928T210249Z
+SUMMARY:(1918) Aiguillon hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(1918) Aiguillon hides a magnitude 11.2 star\, seen from Gwalio
+ r.\nThe predicted edge passes 2 km to the N\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 02:27:49 IST\, give or take 1 s. The star is 33° up in the E 
+ · dark sky.\nIt fades 6.1 magnitudes for up to 1.0 s on the centre line\,
+  and the path is 20 km wide\, give or take 19 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-28
+ -1918-aiguillon-377920
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1918-aiguillon-37
+ 7920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1918) Aiguillon hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-gwalior@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230852Z
+DTEND:20260928T231852Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Gwalior.\nYou
+  are inside the path\, 88 km from its centre line: the star vanishes for u
+ p to 42.3 s.\nClosest approach 04:43:52 IST\, give or take 1 s. The star i
+ s 60° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s 
+ on the centre line\, and the path is 939 km wide\, give or take 19 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1765b7b80bc0-gwalior@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162454Z
@@ -49,6 +93,51 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-06-17171-17171-838592-gwalior@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261006T211140Z
+DTEND:20261006T212140Z
+SUMMARY:(17171) 17171 hides a mag 10.9 star (just outside the path)
+DESCRIPTION:(17171) 17171 hides a magnitude 10.9 star\, seen from Gwalior.\
+ nThe predicted edge passes 15 km to the ESE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 02:46:40 IST\, give or take 7 s. The star is 51° up in the NE
+  · dark sky.\nIt fades 7.6 magnitudes for up to 4.3 s on the centre line\
+ , and the path is 41 km wide\, give or take 37 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-0
+ 6-17171-17171-838592
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-06-17171-17171-83859
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(17171) 17171 hides a mag 10.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-16-15161-15161-317248-gwalior@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261016T224123Z
+DTEND:20261016T225123Z
+SUMMARY:(15161) 15161 hides a mag 10.9 star
+DESCRIPTION:(15161) 15161 hides a magnitude 10.9 star\, seen from Gwalior.\
+ nYou are inside the path\, 11 km from its centre line: the star vanishes f
+ or up to 1.8 s.\nClosest approach 04:16:23 IST\, give or take 2 s. The sta
+ r is 57° up in the ESE · dark sky.\nIt fades 7.1 magnitudes for up to 2.
+ 2 s on the centre line\, and the path is 36 km wide\, give or take 26 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-10#2026-10-16-15161-15161-317248
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-16-15161-15161-31724
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(15161) 15161 hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-b81c897d75aa-gwalior@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T130715Z
@@ -75,6 +164,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-gwalior@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130018Z
+DTEND:20261101T131018Z
+SUMMARY:(921) Jovita hides a mag 13.3 star (just outside the path)
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Gwalior.\n
+ The predicted edge passes 11 km to the N\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 18:35:18 IST\, give or take 1 s. The star is 46° up in the SW ·
+  dark sky.\nIt fades 2.2 magnitudes for up to 1.8 s on the centre line\, a
+ nd the path is 55 km wide\, give or take 32 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-01-9
+ 21-jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-834f0938899a-gwalior@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202451Z
@@ -99,6 +210,28 @@ DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:20:34 at the dark limb I
  lokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-13-16194-roderick-432064-gwalior@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261113T140117Z
+DTEND:20261113T141117Z
+SUMMARY:(16194) Roderick hides a mag 11.9 star
+DESCRIPTION:(16194) Roderick hides a magnitude 11.9 star\, seen from Gwalio
+ r.\nYou are inside the path\, 2 km from its centre line: the star vanishes
+  for up to 1.3 s.\nClosest approach 19:36:17 IST\, give or take 1 s. The s
+ tar is 26° up in the ESE · dark sky.\nIt fades 6.1 magnitudes for up to 
+ 1.3 s on the centre line\, and the path is 19 km wide\, give or take 18 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-11#2026-11-13-16194-roderick-432064
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-13-16194-roderick-43
+ 2064
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(16194) Roderick hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2406bac40ee1-gwalior@occult.alokm.com
@@ -166,6 +299,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-06-923-herluga-453376-gwalior@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261206T205459Z
+DTEND:20261206T210459Z
+SUMMARY:(923) Herluga hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(923) Herluga hides a magnitude 12.8 star\, seen from Gwalior.\
+ nThe predicted edge passes 15 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 02:29:59 IST\, give or take 1 s. The star is 13° up in the ES
+ E · dark sky.\nIt fades 4.4 magnitudes for up to 1.5 s on the centre line
+ \, and the path is 35 km wide\, give or take 22 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-
+ 06-923-herluga-453376
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-06-923-herluga-45337
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(923) Herluga hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-322daf5cdf07-gwalior@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T134221Z
@@ -177,6 +333,29 @@ DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:12:21 at the dark limb
  ult.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-19-631-philippina-878208-gwalior@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261219T213257Z
+DTEND:20261219T214257Z
+SUMMARY:(631) Philippina hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(631) Philippina hides a magnitude 12.5 star\, seen from Gwalio
+ r.\nThe predicted edge passes 8 km to the S\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 03:07:57 IST\, give or take 1 s. The star is 23° up in the W 
+ · dark sky.\nIt fades 0.8 magnitudes for up to 4.8 s on the centre line\,
+  and the path is 50 km wide\, give or take 13 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-19
+ -631-philippina-878208
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-19-631-philippina-87
+ 8208
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(631) Philippina hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-85bb1b75d4b2-gwalior@occult.alokm.com
@@ -203,6 +382,51 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 06:00:37 at the dark limb I
  t.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-09-4709-ennomos-956480-gwalior@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270109T130710Z
+DTEND:20270109T131710Z
+SUMMARY:(4709) Ennomos hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(4709) Ennomos hides a magnitude 12.5 star\, seen from Gwalior.
+ \nThe predicted edge passes 9 km to the NNW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 18:42:10 IST\, give or take 7 s. The star is 35° up in the E 
+ · dark sky.\nIt fades 3.5 magnitudes for up to 5.7 s on the centre line\,
+  and the path is 91 km wide\, give or take 32 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-09
+ -4709-ennomos-956480
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-09-4709-ennomos-9564
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4709) Ennomos hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-18-446-aeternitas-572800-gwalior@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270118T185218Z
+DTEND:20270118T190218Z
+SUMMARY:(446) Aeternitas hides a mag 12.3 star
+DESCRIPTION:(446) Aeternitas hides a magnitude 12.3 star\, seen from Gwalio
+ r.\nYou are inside the path\, 6 km from its centre line: the star vanishes
+  for up to 4.3 s.\nClosest approach 00:27:18 IST\, give or take 1 s. The s
+ tar is 61° up in the E · dark sky.\nIt fades 1.6 magnitudes for up to 4.
+ 5 s on the centre line\, and the path is 54 km wide\, give or take 16 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-01#2027-01-18-446-aeternitas-572800
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-18-446-aeternitas-57
+ 2800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(446) Aeternitas hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e5ee80acd48d-gwalior@occult.alokm.com
@@ -309,6 +533,93 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-28-300-geraldina-346816-gwalior@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T225218Z
+DTEND:20270228T230218Z
+SUMMARY:(300) Geraldina hides a mag 12.2 star
+DESCRIPTION:(300) Geraldina hides a magnitude 12.2 star\, seen from Gwalior
+ .\nYou are inside the path\, 36 km from its centre line: the star vanishes
+  for up to 1.3 s.\nClosest approach 04:27:18 IST\, give or take 1 s. The s
+ tar is 18° up in the SE · dark sky.\nIt fades 3.7 magnitudes for up to 2
+ .3 s on the centre line\, and the path is 67 km wide\, give or take 26 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-28-300-geraldina-346816
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-300-geraldina-346
+ 816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(300) Geraldina hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-07-10555-tagaharue-337536-gwalior@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270307T164323Z
+DTEND:20270307T165323Z
+SUMMARY:(10555) Tagaharue hides a mag 11.1 star
+DESCRIPTION:(10555) Tagaharue hides a magnitude 11.1 star\, seen from Gwali
+ or.\nYou are inside the path\, 3 km from its centre line: the star vanishe
+ s for up to 1.1 s.\nClosest approach 22:18:23 IST\, give or take 2 s. The 
+ star is 55° up in the E · dark sky.\nIt fades 5.8 magnitudes for up to 1
+ .2 s on the centre line\, and the path is 16 km wide\, give or take 15 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-03#2027-03-07-10555-tagaharue-337536
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-07-10555-tagaharue-3
+ 37536
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(10555) Tagaharue hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-21-868-lova-967040-gwalior@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270321T165206Z
+DTEND:20270321T170206Z
+SUMMARY:(868) Lova hides a mag 10.8 star
+DESCRIPTION:(868) Lova hides a magnitude 10.8 star\, seen from Gwalior.\nYo
+ u are inside the path\, 10 km from its centre line: the star vanishes for 
+ up to 2.5 s.\nClosest approach 22:27:06 IST\, give or take 1 s. The star i
+ s 34° up in the W · dark sky.\nIt fades 4.6 magnitudes for up to 2.7 s o
+ n the centre line\, and the path is 51 km wide\, give or take 26 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2027-03#2027-03-21-868-lova-967040
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-21-868-lova-967040
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 10.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-24-11-parthenope-070656-gwalior@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270324T222313Z
+DTEND:20270324T223313Z
+SUMMARY:(11) Parthenope hides a mag 11.5 star
+DESCRIPTION:(11) Parthenope hides a magnitude 11.5 star\, seen from Gwalior
+ .\nYou are inside the path\, 85 km from its centre line: the star vanishes
+  for up to 3.6 s.\nClosest approach 03:58:13 IST\, give or take 1 s. The s
+ tar is 31° up in the SE · dark sky.\nIt fades 0.7 magnitudes for up to 7
+ .1 s on the centre line\, and the path is 143 km wide\, give or take 16 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-03#2027-03-24-11-parthenope-070656
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-24-11-parthenope-070
+ 656
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-ac736cd127b1-gwalior@occult.alokm.com
 DTSTAMP:20270301T000000Z
 DTSTART:20270326T221849Z
@@ -322,6 +633,29 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-06-4959-niinoama-200576-gwalior@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270406T165713Z
+DTEND:20270406T170713Z
+SUMMARY:(4959) Niinoama hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(4959) Niinoama hides a magnitude 11.2 star\, seen from Gwalior
+ .\nThe predicted edge passes 9 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 22:32:13 IST\, give or take 1 s. The star is 28° up in the W
+ NW · dark sky.\nIt fades 5.8 magnitudes for up to 1.8 s on the centre lin
+ e\, and the path is 36 km wide\, give or take 35 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04
+ -06-4959-niinoama-200576
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-06-4959-niinoama-200
+ 576
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4959) Niinoama hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a81c6424842b-gwalior@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T140922Z
@@ -333,6 +667,52 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:39:22 at the dark limb
  lt.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-01-829-academia-095104-gwalior@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270501T191124Z
+DTEND:20270501T192124Z
+SUMMARY:(829) Academia hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Gwalior.
+ \nThe predicted edge passes 46 km to the N\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 00:46:24 IST\, give or take 1 s. The star is 30° up in the SSE
+  · dark sky.\nIt fades 2.9 magnitudes for up to 4.0 s on the centre line\
+ , and the path is 43 km wide\, give or take 34 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-0
+ 1-829-academia-095104
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-01-829-academia-0951
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(829) Academia hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-08-578-happelia-818304-gwalior@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270508T204658Z
+DTEND:20270508T205658Z
+SUMMARY:(578) Happelia hides a mag 13.3 star (just outside the path)
+DESCRIPTION:(578) Happelia hides a magnitude 13.3 star\, seen from Gwalior.
+ \nThe predicted edge passes 1 km to the SE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 02:21:58 IST\, give or take 4 s. The star is 35° up in the S 
+ · dark sky.\nIt fades 0.6 magnitudes for up to 13.4 s on the centre line\
+ , and the path is 69 km wide\, give or take 10 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-0
+ 8-578-happelia-818304
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-08-578-happelia-8183
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(578) Happelia hides a mag 13.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-b9a774633e7b-gwalior@occult.alokm.com
@@ -375,6 +755,28 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-05-29-1035-amata-925376-gwalior@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270529T172120Z
+DTEND:20270529T173120Z
+SUMMARY:(1035) Amata hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(1035) Amata hides a magnitude 11.6 star\, seen from Gwalior.\n
+ The predicted edge passes 28 km to the SW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 22:56:20 IST\, give or take 1 s. The star is 14° up in the WNW 
+ · dark sky.\nIt fades 5.6 magnitudes for up to 2.2 s on the centre line\,
+  and the path is 56 km wide\, give or take 29 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-29
+ -1035-amata-925376
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-29-1035-amata-925376
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1035) Amata hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-92d8868abb84-gwalior@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270609T172056Z
@@ -386,6 +788,27 @@ DESCRIPTION:19 Leo (magnitude 6.5) disappears at 22:50:56 at the dark limb
  alokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-10-895-helio-828800-gwalior@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270610T192955Z
+DTEND:20270610T193955Z
+SUMMARY:(895) Helio hides a mag 12.7 star
+DESCRIPTION:(895) Helio hides a magnitude 12.7 star\, seen from Gwalior.\nY
+ ou are inside the path\, 59 km from its centre line: the star vanishes for
+  up to 2.0 s.\nClosest approach 01:04:55 IST\, give or take 1 s. The star 
+ is 48° up in the SSE · dark sky.\nIt fades 1.4 magnitudes for up to 7.2 
+ s on the centre line\, and the path is 110 km wide\, give or take 82 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-06#2027-06-10-895-helio-828800
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-10-895-helio-828800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(895) Helio hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-753959302de5-gwalior@occult.alokm.com
@@ -414,6 +837,51 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-10-4170-semmelweis-177344-gwalior@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270710T194346Z
+DTEND:20270710T195346Z
+SUMMARY:(4170) Semmelweis hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(4170) Semmelweis hides a magnitude 12.0 star\, seen from Gwali
+ or.\nThe predicted edge passes 3 km to the NNW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 01:18:46 IST\, give or take 2 s. The star is 52° up in the
+  SSW · dark sky.\nIt fades 3.6 magnitudes for up to 1.6 s on the centre l
+ ine\, and the path is 17 km wide\, give or take 13 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-
+ 07-10-4170-semmelweis-177344
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-10-4170-semmelweis-1
+ 77344
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4170) Semmelweis hides a mag 12.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-12-88-thisbe-546112-gwalior@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270712T180230Z
+DTEND:20270712T181230Z
+SUMMARY:(88) Thisbe hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(88) Thisbe hides a magnitude 11.3 star\, seen from Gwalior.\nT
+ he predicted edge passes 6 km to the SSW\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 23:37:30 IST\, give or take 4 s. The star is 36° up in the SSW 
+ · dark sky.\nIt fades 0.5 magnitudes for up to 38.3 s on the centre line\
+ , and the path is 232 km wide\, give or take 11 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-
+ 12-88-thisbe-546112
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-12-88-thisbe-546112
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(88) Thisbe hides a mag 11.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-69953fd89414-gwalior@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T212753Z
@@ -425,6 +893,49 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:57:53 at the dark limb
  lt.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-01-1519-kajaani-468288-gwalior@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270801T203954Z
+DTEND:20270801T204954Z
+SUMMARY:(1519) Kajaani hides a mag 12.2 star
+DESCRIPTION:(1519) Kajaani hides a magnitude 12.2 star\, seen from Gwalior.
+ \nYou are inside the path\, 18 km from its centre line: the star vanishes 
+ for up to 0.7 s.\nClosest approach 02:14:54 IST\, give or take 1 s. The st
+ ar is 28° up in the E · dark sky.\nIt fades 4.3 magnitudes for up to 1.3
+  s on the centre line\, and the path is 31 km wide\, give or take 18 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-08#2027-08-01-1519-kajaani-468288
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-01-1519-kajaani-4682
+ 88
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1519) Kajaani hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-02-2020-ukko-007936-gwalior@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270802T201427Z
+DTEND:20270802T202427Z
+SUMMARY:(2020) Ukko hides a mag 5.9 star
+DESCRIPTION:(2020) Ukko hides a magnitude 5.9 star\, seen from Gwalior.\nYo
+ u are inside the path\, 1 km from its centre line: the star vanishes for u
+ p to 1.3 s.\nClosest approach 01:49:27 IST\, give or take 1 s. The star is
+  46° up in the SSW · dark sky.\nIt fades 10.0 magnitudes for up to 1.4 s
+  on the centre line\, and the path is 19 km wide\, give or take 16 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-08#2027-08-02-2020-ukko-007936
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-02-2020-ukko-007936
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2020) Ukko hides a mag 5.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-db09b4171ec3-gwalior@occult.alokm.com
@@ -451,6 +962,28 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:28:20 at the dark limb
  t.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-29-1633-chimay-339904-gwalior@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270829T181010Z
+DTEND:20270829T182010Z
+SUMMARY:(1633) Chimay hides a mag 11.5 star
+DESCRIPTION:(1633) Chimay hides a magnitude 11.5 star\, seen from Gwalior.\
+ nYou are inside the path\, 23 km from its centre line: the star vanishes f
+ or up to 0.7 s.\nClosest approach 23:45:10 IST\, give or take 1 s. The sta
+ r is 51° up in the SSE · dark sky.\nIt fades 4.1 magnitudes for up to 2.
+ 6 s on the centre line\, and the path is 37 km wide\, give or take 36 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-08#2027-08-29-1633-chimay-339904
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-29-1633-chimay-33990
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1633) Chimay hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-gwalior@occult.alokm.com

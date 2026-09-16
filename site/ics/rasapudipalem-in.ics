@@ -10,6 +10,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-13-2444-lederle-717440-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260913T175931Z
+DTEND:20260913T180931Z
+SUMMARY:(2444) Lederle hides a mag 14.5 star (just outside the path)
+DESCRIPTION:(2444) Lederle hides a magnitude 14.5 star\, seen from Rasapūd
+ ipalem\, IN.\nThe predicted edge passes 3 km to the NNW\, so a miss is lik
+ ely — but a chord from near the edge is the most valuable observation of
+  all.\nClosest approach 23:34:31 IST\, give or take 5 s. The star is 13° 
+ up in the WSW · dark sky.\nIt fades 2.8 magnitudes for up to 4.3 s on the
+  centre line\, and the path is 30 km wide\, give or take 18 km.\nFinder ch
+ art\, the map and the path as KML: https://occult.alokm.com/asteroids-2026
+ -09#2026-09-13-2444-lederle-717440
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-13-2444-lederle-7174
+ 40
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2444) Lederle hides a mag 14.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:occ-venus-2026-09-14-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T120715Z
@@ -42,6 +65,28 @@ URL:https://occult.alokm.com/moon-stars-2026-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-11-2258-viipuri-067520-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261011T131906Z
+DTEND:20261011T132906Z
+SUMMARY:(2258) Viipuri hides a mag 12.7 star
+DESCRIPTION:(2258) Viipuri hides a magnitude 12.7 star\, seen from Rasapūd
+ ipalem\, IN.\nYou are inside the path\, 5 km from its centre line: the sta
+ r vanishes for up to 0.8 s.\nClosest approach 18:54:06 IST\, give or take 
+ 1 s. The star is 28° up in the SW · dark sky.\nIt fades 5.2 magnitudes f
+ or up to 0.8 s on the centre line\, and the path is 26 km wide\, give or t
+ ake 24 km.\nFinder chart\, the map and the path as KML: https://occult.alo
+ km.com/asteroids-2026-10#2026-10-11-2258-viipuri-067520
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-11-2258-viipuri-0675
+ 20
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2258) Viipuri hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-7c6dd91d489c-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T125738Z
@@ -66,6 +111,50 @@ DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:08:52 at the dark limb
  https://occult.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-27-544-jetta-858368-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261027T184300Z
+DTEND:20261027T185300Z
+SUMMARY:(544) Jetta hides a mag 10.4 star (just outside the path)
+DESCRIPTION:(544) Jetta hides a magnitude 10.4 star\, seen from Rasapūdipa
+ lem\, IN.\nThe predicted edge passes 11 km to the NNW\, so a miss is likel
+ y — but a chord from near the edge is the most valuable observation of a
+ ll.\nClosest approach 00:18:00 IST\, give or take 2 s. The star is 21° up
+  in the ENE · dark sky.\nIt fades 5.1 magnitudes for up to 3.2 s on the c
+ entre line\, and the path is 27 km wide\, give or take 19 km.\nFinder char
+ t\, the map and the path as KML: https://occult.alokm.com/asteroids-2026-1
+ 0#2026-10-27-544-jetta-858368
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-27-544-jetta-858368
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(544) Jetta hides a mag 10.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-02-543-charlotte-588672-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261102T140201Z
+DTEND:20261102T141201Z
+SUMMARY:(543) Charlotte hides a mag 12.1 star
+DESCRIPTION:(543) Charlotte hides a magnitude 12.1 star\, seen from Rasapū
+ dipalem\, IN.\nYou are inside the path\, 7 km from its centre line: the st
+ ar vanishes for up to 1.4 s.\nClosest approach 19:37:01 IST\, give or take
+  1 s. The star is 17° up in the WSW · dark sky.\nIt fades 3.6 magnitudes
+  for up to 1.4 s on the centre line\, and the path is 46 km wide\, give or
+  take 35 km.\nFinder chart\, the map and the path as KML: https://occult.a
+ lokm.com/asteroids-2026-11#2026-11-02-543-charlotte-588672
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-02-543-charlotte-588
+ 672
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(543) Charlotte hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-b9abb53f66a5-rasapudipalem-in@occult.alokm.com
@@ -105,6 +194,27 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:31:20 at the dark limb
   https://occult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-24-2220-hicks-669568-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261124T193233Z
+DTEND:20261124T194233Z
+SUMMARY:(2220) Hicks hides a mag 12.4 star
+DESCRIPTION:(2220) Hicks hides a magnitude 12.4 star\, seen from Rasapūdip
+ alem\, IN.\nYou are inside the path\, 6 km from its centre line: the star 
+ vanishes for up to 1.9 s.\nClosest approach 01:07:33 IST\, give or take 3 
+ s. The star is 64° up in the ENE · dark sky.\nIt fades 5.0 magnitudes fo
+ r up to 3.1 s on the centre line\, and the path is 16 km wide\, give or ta
+ ke 16 km.\nFinder chart\, the map and the path as KML: https://occult.alok
+ m.com/asteroids-2026-11#2026-11-24-2220-hicks-669568
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-24-2220-hicks-669568
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2220) Hicks hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-f2af40b53f19-rasapudipalem-in@occult.alokm.com
@@ -159,6 +269,29 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-21-1208-troilus-183296-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261221T133412Z
+DTEND:20261221T134412Z
+SUMMARY:(1208) Troilus hides a mag 11.5 star (just outside the path)
+DESCRIPTION:(1208) Troilus hides a magnitude 11.5 star\, seen from Rasapūd
+ ipalem\, IN.\nThe predicted edge passes 7 km to the SE\, so a miss is like
+ ly — but a chord from near the edge is the most valuable observation of 
+ all.\nClosest approach 19:09:12 IST\, give or take 3 s. The star is 34° u
+ p in the NE · dark sky.\nIt fades 4.8 magnitudes for up to 5.3 s on the c
+ entre line\, and the path is 100 km wide\, give or take 32 km.\nFinder cha
+ rt\, the map and the path as KML: https://occult.alokm.com/asteroids-2026-
+ 12#2026-12-21-1208-troilus-183296
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-21-1208-troilus-1832
+ 96
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1208) Troilus hides a mag 11.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-cbbef4623876-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261223T204634Z
@@ -170,6 +303,115 @@ DESCRIPTION:136 Tau (magnitude 4.6) disappears at 02:16:34 at the dark limb
   https://occult.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-29-884-priamus-004096-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261229T192609Z
+DTEND:20261229T193609Z
+SUMMARY:(884) Priamus hides a mag 11.9 star
+DESCRIPTION:(884) Priamus hides a magnitude 11.9 star\, seen from Rasapūdi
+ palem\, IN.\nYou are inside the path\, 51 km from its centre line: the sta
+ r vanishes for up to 1.3 s.\nClosest approach 01:01:09 IST\, give or take 
+ 2 s. The star is 59° up in the WNW · dark sky.\nIt fades 4.3 magnitudes 
+ for up to 5.6 s on the centre line\, and the path is 101 km wide\, give or
+  take 35 km.\nFinder chart\, the map and the path as KML: https://occult.a
+ lokm.com/asteroids-2026-12#2026-12-29-884-priamus-004096
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-29-884-priamus-00409
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(884) Priamus hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-29-7-iris-960384-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261229T225949Z
+DTEND:20261229T230949Z
+SUMMARY:(7) Iris hides a mag 12.6 star
+DESCRIPTION:(7) Iris hides a magnitude 12.6 star\, seen from Rasapūdipalem
+ \, IN.\nYou are inside the path\, 85 km from its centre line: the star van
+ ishes for up to 3.2 s.\nClosest approach 04:34:49 IST\, give or take 1 s. 
+ The star is 18° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for u
+ p to 5.6 s on the centre line\, and the path is 200 km wide\, give or take
+  26 km.\nFinder chart\, the map and the path as KML: https://occult.alokm.
+ com/asteroids-2026-12#2026-12-29-7-iris-960384
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-29-7-iris-960384
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(7) Iris hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-09-5832-martaprincipe-076288-rasapudipalem-in@occult.alokm.
+ com
+DTSTAMP:20260916T023421Z
+DTSTART:20270109T125529Z
+DTEND:20270109T130529Z
+SUMMARY:(5832) Martaprincipe hides a mag 11.8 star
+DESCRIPTION:(5832) Martaprincipe hides a magnitude 11.8 star\, seen from Ra
+ sapūdipalem\, IN.\nYou are inside the path\, 3 km from its centre line: t
+ he star vanishes for up to 1.2 s.\nClosest approach 18:30:29 IST\, give or
+  take 1 s. The star is 56° up in the SSE · dark sky.\nIt fades 5.0 magni
+ tudes for up to 1.3 s on the centre line\, and the path is 24 km wide\, gi
+ ve or take 14 km.\nFinder chart\, the map and the path as KML: https://occ
+ ult.alokm.com/asteroids-2027-01#2027-01-09-5832-martaprincipe-076288
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-09-5832-martaprincip
+ e-076288
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(5832) Martaprincipe hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-17-4201-orosz-652864-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270117T175817Z
+DTEND:20270117T180817Z
+SUMMARY:(4201) Orosz hides a mag 12.6 star (just outside the path)
+DESCRIPTION:(4201) Orosz hides a magnitude 12.6 star\, seen from Rasapūdip
+ alem\, IN.\nThe predicted edge passes 11 km to the S\, so a miss is likely
+  — but a chord from near the edge is the most valuable observation of al
+ l.\nClosest approach 23:33:17 IST\, give or take 2 s. The star is 61° up 
+ in the W · dark sky.\nIt fades 4.9 magnitudes for up to 2.9 s on the cent
+ re line\, and the path is 33 km wide\, give or take 22 km.\nFinder chart\,
+  the map and the path as KML: https://occult.alokm.com/asteroids-2027-01#2
+ 027-01-17-4201-orosz-652864
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-17-4201-orosz-652864
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4201) Orosz hides a mag 12.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-18-444-gyptis-036416-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270118T163349Z
+DTEND:20270118T164349Z
+SUMMARY:(444) Gyptis hides a mag 12.5 star
+DESCRIPTION:(444) Gyptis hides a magnitude 12.5 star\, seen from Rasapūdip
+ alem\, IN.\nYou are inside the path\, 78 km from its centre line: the star
+  vanishes for up to 3.0 s.\nClosest approach 22:08:49 IST\, give or take 1
+  s. The star is 63° up in the ESE · dark sky.\nIt fades 0.7 magnitudes f
+ or up to 11.4 s on the centre line\, and the path is 159 km wide\, give or
+  take 15 km.\nFinder chart\, the map and the path as KML: https://occult.a
+ lokm.com/asteroids-2027-01#2027-01-18-444-gyptis-036416
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-18-444-gyptis-036416
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(444) Gyptis hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-3ed41c8318d7-rasapudipalem-in@occult.alokm.com
@@ -211,6 +453,76 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-30-76-freia-818368-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270130T163433Z
+DTEND:20270130T164433Z
+SUMMARY:(76) Freia hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(76) Freia hides a magnitude 11.6 star\, seen from Rasapūdipal
+ em\, IN.\nThe predicted edge passes 23 km to the N\, so a miss is likely 
+ — but a chord from near the edge is the most valuable observation of all
+ .\nClosest approach 22:09:33 IST\, give or take 5 s. The star is 84° up i
+ n the WNW · dark sky.\nIt fades 1.3 magnitudes for up to 22.5 s on the ce
+ ntre line\, and the path is 145 km wide\, give or take 33 km.\nFinder char
+ t\, the map and the path as KML: https://occult.alokm.com/asteroids-2027-0
+ 1#2027-01-30-76-freia-818368
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-30-76-freia-818368
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(76) Freia hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-30-834-burnhamia-919936-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270130T174245Z
+DTEND:20270130T175245Z
+SUMMARY:(834) Burnhamia hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(834) Burnhamia hides a magnitude 12.4 star\, seen from Rasapū
+ dipalem\, IN.\nThe predicted edge passes 18 km to the SSW\, so a miss is l
+ ikely — but a chord from near the edge is the most valuable observation 
+ of all.\nClosest approach 23:17:45 IST\, give or take 3 s. The star is 36
+ ° up in the ESE · dark sky.\nIt fades 2.5 magnitudes for up to 9.1 s on 
+ the centre line\, and the path is 61 km wide\, give or take 34 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-01#2027-01-30-834-burnhamia-919936
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-30-834-burnhamia-919
+ 936
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(834) Burnhamia hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-01-14962-masanoriabe-567616-rasapudipalem-in@occult.alokm.c
+ om
+DTSTAMP:20260916T023549Z
+DTSTART:20270201T173807Z
+DTEND:20270201T174807Z
+SUMMARY:(14962) Masanoriabe hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(14962) Masanoriabe hides a magnitude 12.0 star\, seen from Ras
+ apūdipalem\, IN.\nThe predicted edge passes 10 km to the NNE\, so a miss 
+ is likely — but a chord from near the edge is the most valuable observat
+ ion of all.\nClosest approach 23:13:07 IST\, give or take 2 s. The star is
+  60° up in the SSE · dark sky.\nIt fades 5.2 magnitudes for up to 1.9 s 
+ on the centre line\, and the path is 26 km wide\, give or take 16 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-02#2027-02-01-14962-masanoriabe-567616
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-01-14962-masanoriabe
+ -567616
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(14962) Masanoriabe hides a mag 12.0 star (just outside the pat
+ h)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-504067d2f1a7-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270201T224427Z
@@ -222,6 +534,50 @@ DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:14:27 at the dark limb I
  tps://occult.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-04-2982-muriel-701056-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270204T204130Z
+DTEND:20270204T205130Z
+SUMMARY:(2982) Muriel hides a mag 9.3 star (just outside the path)
+DESCRIPTION:(2982) Muriel hides a magnitude 9.3 star\, seen from Rasapūdip
+ alem\, IN.\nThe predicted edge passes 11 km to the SSW\, so a miss is like
+ ly — but a chord from near the edge is the most valuable observation of 
+ all.\nClosest approach 02:16:30 IST\, give or take 4 s. The star is 83° u
+ p in the ESE · dark sky.\nIt fades 7.3 magnitudes for up to 1.9 s on the 
+ centre line\, and the path is 15 km wide\, give or take 15 km.\nFinder cha
+ rt\, the map and the path as KML: https://occult.alokm.com/asteroids-2027-
+ 02#2027-02-04-2982-muriel-701056
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-04-2982-muriel-70105
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2982) Muriel hides a mag 9.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-10-444-gyptis-187456-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270210T140034Z
+DTEND:20270210T141034Z
+SUMMARY:(444) Gyptis hides a mag 9.7 star
+DESCRIPTION:(444) Gyptis hides a magnitude 9.7 star\, seen from Rasapūdipa
+ lem\, IN.\nYou are inside the path\, 78 km from its centre line: the star 
+ vanishes for up to 3.4 s.\nClosest approach 19:35:34 IST\, give or take 1 
+ s. The star is 53° up in the E · dark sky.\nIt fades 3.1 magnitudes for 
+ up to 14.6 s on the centre line\, and the path is 159 km wide\, give or ta
+ ke 19 km.\nFinder chart\, the map and the path as KML: https://occult.alok
+ m.com/asteroids-2027-02#2027-02-10-444-gyptis-187456
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-10-444-gyptis-187456
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(444) Gyptis hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-630877f80917-rasapudipalem-in@occult.alokm.com
@@ -289,6 +645,29 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181240Z
+DTEND:20270223T182240Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Rasap
+ ūdipalem\, IN.\nThe predicted edge passes 77 km to the W\, so a miss is l
+ ikely — but a chord from near the edge is the most valuable observation 
+ of all.\nClosest approach 23:47:40 IST\, give or take 3 s. The star is 31
+ ° up in the E · dark sky.\nIt fades 2.9 magnitudes for up to 20.1 s on t
+ he centre line\, and the path is 108 km wide\, give or take 59 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-02#2027-02-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-fa2060f8a07e-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T201629Z
@@ -354,6 +733,51 @@ URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-22-3132-landgraf-613760-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270422T180612Z
+DTEND:20270422T181612Z
+SUMMARY:(3132) Landgraf hides a mag 12.6 star (just outside the path)
+DESCRIPTION:(3132) Landgraf hides a magnitude 12.6 star\, seen from Rasapū
+ dipalem\, IN.\nThe predicted edge passes 10 km to the NNE\, so a miss is l
+ ikely — but a chord from near the edge is the most valuable observation 
+ of all.\nClosest approach 23:41:12 IST\, give or take 4 s. The star is 64
+ ° up in the SSE · dark sky.\nIt fades 4.2 magnitudes for up to 2.4 s on 
+ the centre line\, and the path is 36 km wide\, give or take 18 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-04#2027-04-22-3132-landgraf-613760
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-22-3132-landgraf-613
+ 760
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3132) Landgraf hides a mag 12.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-25-1557-roehla-377792-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270425T165219Z
+DTEND:20270425T170219Z
+SUMMARY:(1557) Roehla hides a mag 12.8 star
+DESCRIPTION:(1557) Roehla hides a magnitude 12.8 star\, seen from Rasapūdi
+ palem\, IN.\nYou are inside the path\, 4 km from its centre line: the star
+  vanishes for up to 1.3 s.\nClosest approach 22:27:19 IST\, give or take 2
+  s. The star is 39° up in the SSE · dark sky.\nIt fades 3.4 magnitudes f
+ or up to 1.4 s on the centre line\, and the path is 19 km wide\, give or t
+ ake 16 km.\nFinder chart\, the map and the path as KML: https://occult.alo
+ km.com/asteroids-2027-04#2027-04-25-1557-roehla-377792
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-25-1557-roehla-37779
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1557) Roehla hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1b927da0776c-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20270501T000000Z
 DTSTART:20270520T150653Z
@@ -379,6 +803,28 @@ DESCRIPTION:π Sco (magnitude 2.8) disappears at 23:18:55 at the bright lim
  -stars-2027-05
 URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-05-578-happelia-876928-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270605T195736Z
+DTEND:20270605T200736Z
+SUMMARY:(578) Happelia hides a mag 12.3 star
+DESCRIPTION:(578) Happelia hides a magnitude 12.3 star\, seen from Rasapūd
+ ipalem\, IN.\nYou are inside the path\, 9 km from its centre line: the sta
+ r vanishes for up to 7.7 s.\nClosest approach 01:32:36 IST\, give or take 
+ 2 s. The star is 36° up in the SSW · dark sky.\nIt fades 0.7 magnitudes 
+ for up to 8.2 s on the centre line\, and the path is 69 km wide\, give or 
+ take 9 km.\nFinder chart\, the map and the path as KML: https://occult.alo
+ km.com/asteroids-2027-06#2027-06-05-578-happelia-876928
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-05-578-happelia-8769
+ 28
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(578) Happelia hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-6c0b8f845048-rasapudipalem-in@occult.alokm.com
@@ -407,6 +853,51 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-27-81-terpsichore-790400-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270627T142104Z
+DTEND:20270627T143104Z
+SUMMARY:(81) Terpsichore hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(81) Terpsichore hides a magnitude 12.4 star\, seen from Rasap
+ ūdipalem\, IN.\nThe predicted edge passes 16 km to the SW\, so a miss is 
+ likely — but a chord from near the edge is the most valuable observation
+  of all.\nClosest approach 19:56:04 IST\, give or take 3 s. The star is 15
+ ° up in the SE · dark sky.\nIt fades 1.3 magnitudes for up to 8.3 s on t
+ he centre line\, and the path is 118 km wide\, give or take 16 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 027-06#2027-06-27-81-terpsichore-790400
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-27-81-terpsichore-79
+ 0400
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(81) Terpsichore hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-09-40-harmonia-819840-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270709T162457Z
+DTEND:20270709T163457Z
+SUMMARY:(40) Harmonia hides a mag 11.9 star
+DESCRIPTION:(40) Harmonia hides a magnitude 11.9 star\, seen from Rasapūdi
+ palem\, IN.\nYou are inside the path\, 18 km from its centre line: the sta
+ r vanishes for up to 40.7 s.\nClosest approach 21:59:57 IST\, give or take
+  4 s. The star is 45° up in the SW · dark sky.\nIt fades 0.3 magnitudes 
+ for up to 38.8 s on the centre line\, and the path is 111 km wide\, give o
+ r take 12 km.\nFinder chart\, the map and the path as KML: https://occult.
+ alokm.com/asteroids-2027-07#2027-07-09-40-harmonia-819840
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-09-40-harmonia-81984
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(40) Harmonia hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-437730c89735-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T215332Z
@@ -418,6 +909,27 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:23:32 at the dark limb
  https://occult.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-21-199-byblis-690688-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270721T201909Z
+DTEND:20270721T202909Z
+SUMMARY:(199) Byblis hides a mag 11.9 star
+DESCRIPTION:(199) Byblis hides a magnitude 11.9 star\, seen from Rasapūdip
+ alem\, IN.\nYou are inside the path\, 9 km from its centre line: the star 
+ vanishes for up to 6.5 s.\nClosest approach 01:54:09 IST\, give or take 2 
+ s. The star is 30° up in the ESE · dark sky.\nIt fades 2.4 magnitudes fo
+ r up to 6.5 s on the centre line\, and the path is 76 km wide\, give or ta
+ ke 20 km.\nFinder chart\, the map and the path as KML: https://occult.alok
+ m.com/asteroids-2027-07#2027-07-21-199-byblis-690688
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-21-199-byblis-690688
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(199) Byblis hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0cca2370514b-rasapudipalem-in@occult.alokm.com
@@ -433,6 +945,31 @@ URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-08-06-10263-vadimsimona-752896-rasapudipalem-in@occult.alokm.c
+ om
+DTSTAMP:20260916T024447Z
+DTSTART:20270806T162136Z
+DTEND:20270806T163136Z
+SUMMARY:(10263) Vadimsimona hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(10263) Vadimsimona hides a magnitude 12.2 star\, seen from Ras
+ apūdipalem\, IN.\nThe predicted edge passes 0 km to the SSE\, so a miss i
+ s likely — but a chord from near the edge is the most valuable observati
+ on of all.\nClosest approach 21:56:36 IST\, give or take 2 s. The star is 
+ 64° up in the SSE · dark sky.\nIt fades 5.7 magnitudes for up to 1.3 s o
+ n the centre line\, and the path is 16 km wide\, give or take 15 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2027-08#2027-08-06-10263-vadimsimona-752896
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-06-10263-vadimsimona
+ -752896
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(10263) Vadimsimona hides a mag 12.2 star (just outside the pat
+ h)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a0851cbd7984-rasapudipalem-in@occult.alokm.com
 DTSTAMP:20270801T000000Z
 DTSTART:20270810T180117Z
@@ -444,6 +981,28 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:31:17 at the dark limb
  https://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-20-1095-tulipa-006784-rasapudipalem-in@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270820T142114Z
+DTEND:20270820T143114Z
+SUMMARY:(1095) Tulipa hides a mag 12.4 star
+DESCRIPTION:(1095) Tulipa hides a magnitude 12.4 star\, seen from Rasapūdi
+ palem\, IN.\nYou are inside the path\, 15 km from its centre line: the sta
+ r vanishes for up to 1.5 s.\nClosest approach 19:56:14 IST\, give or take 
+ 3 s. The star is 51° up in the SE · dark sky.\nIt fades 2.9 magnitudes f
+ or up to 3.0 s on the centre line\, and the path is 28 km wide\, give or t
+ ake 16 km.\nFinder chart\, the map and the path as KML: https://occult.alo
+ km.com/asteroids-2027-08#2027-08-20-1095-tulipa-006784
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-20-1095-tulipa-00678
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1095) Tulipa hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-rasapudipalem-in@occult.alokm.com

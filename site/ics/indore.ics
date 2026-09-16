@@ -10,6 +10,30 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-10-7394-xanthomalitia-499136-indore@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260910T215036Z
+DTEND:20260910T220036Z
+SUMMARY:(7394) Xanthomalitia hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(7394) Xanthomalitia hides a magnitude 12.8 star\, seen from In
+ dore.\nThe predicted edge passes 18 km to the N\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 03:25:36 IST\, give or take 1 s. The star is 23° up in th
+ e E · dark sky.\nIt fades 5.3 magnitudes for up to 1.2 s on the centre li
+ ne\, and the path is 32 km wide\, give or take 31 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-0
+ 9-10-7394-xanthomalitia-499136
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-10-7394-xanthomaliti
+ a-499136
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(7394) Xanthomalitia hides a mag 12.8 star (just outside the pa
+ th)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:occ-venus-2026-09-14-indore@occult.alokm.com
 DTSTAMP:20260914T034332Z
 DTSTART:20260914T115348Z
@@ -24,6 +48,49 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:The Moon occults Venus
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-26-455-bruchsalia-091520-indore@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260926T175116Z
+DTEND:20260926T180116Z
+SUMMARY:(455) Bruchsalia hides a mag 12.4 star
+DESCRIPTION:(455) Bruchsalia hides a magnitude 12.4 star\, seen from Indore
+ .\nYou are inside the path\, 4 km from its centre line: the star vanishes 
+ for up to 7.9 s.\nClosest approach 23:26:16 IST\, give or take 1 s. The st
+ ar is 11° up in the SW · dark sky.\nIt fades 0.7 magnitudes for up to 7.
+ 9 s on the centre line\, and the path is 89 km wide\, give or take 16 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-09#2026-09-26-455-bruchsalia-091520
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-26-455-bruchsalia-09
+ 1520
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(455) Bruchsalia hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-indore@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230838Z
+DTEND:20260928T231838Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Indore.\nYou 
+ are inside the path\, 224 km from its centre line: the star vanishes for u
+ p to 37.8 s.\nClosest approach 04:43:38 IST\, give or take 1 s. The star i
+ s 58° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s 
+ on the centre line\, and the path is 939 km wide\, give or take 19 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -54,6 +121,29 @@ URL:https://occult.alokm.com/moon-stars-2026-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-01-1434-margot-589376-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261001T133350Z
+DTEND:20261001T134350Z
+SUMMARY:(1434) Margot hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(1434) Margot hides a magnitude 11.3 star\, seen from Indore.\n
+ The predicted edge passes 18 km to the N\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 19:08:50 IST\, give or take 1 s. The star is 46° up in the SSW 
+ · dark sky.\nIt fades 4.6 magnitudes for up to 1.2 s on the centre line\,
+  and the path is 27 km wide\, give or take 20 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-01
+ -1434-margot-589376
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-01-1434-margot-58937
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1434) Margot hides a mag 11.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-9ccb67a85082-indore@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261004T202348Z
@@ -65,6 +155,73 @@ DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:53:48 at the dark limb
  t.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-08-1321-majuba-168704-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261008T172553Z
+DTEND:20261008T173553Z
+SUMMARY:(1321) Majuba hides a mag 11.1 star (just outside the path)
+DESCRIPTION:(1321) Majuba hides a magnitude 11.1 star\, seen from Indore.\n
+ The predicted edge passes 10 km to the SSE\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 23:00:53 IST\, give or take 1 s. The star is 66° up in the E 
+ · dark sky.\nIt fades 3.1 magnitudes for up to 3.2 s on the centre line\,
+  and the path is 37 km wide\, give or take 33 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-08
+ -1321-majuba-168704
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-08-1321-majuba-16870
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1321) Majuba hides a mag 11.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-09-1145-robelmonte-768768-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261009T211351Z
+DTEND:20261009T212351Z
+SUMMARY:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(1145) Robelmonte hides a magnitude 11.6 star\, seen from Indor
+ e.\nThe predicted edge passes 8 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 02:48:51 IST\, give or take 1 s. The star is 23° up in the 
+ ENE · dark sky.\nIt fades 5.2 magnitudes for up to 0.9 s on the centre li
+ ne\, and the path is 24 km wide\, give or take 20 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-1
+ 0-09-1145-robelmonte-768768
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-09-1145-robelmonte-7
+ 68768
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1145) Robelmonte hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-13-456-abnoba-969664-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261013T133630Z
+DTEND:20261013T134630Z
+SUMMARY:(456) Abnoba hides a mag 10.5 star
+DESCRIPTION:(456) Abnoba hides a magnitude 10.5 star\, seen from Indore.\nY
+ ou are inside the path\, 1 km from its centre line: the star vanishes for 
+ up to 3.1 s.\nClosest approach 19:11:30 IST\, give or take 1 s. The star i
+ s 65° up in the S · dark sky.\nIt fades 3.6 magnitudes for up to 3.0 s o
+ n the centre line\, and the path is 38 km wide\, give or take 32 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2026-10#2026-10-13-456-abnoba-969664
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-13-456-abnoba-969664
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(456) Abnoba hides a mag 10.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e298743e8776-indore@occult.alokm.com
@@ -93,6 +250,52 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-25-1458-mineura-305920-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261025T172620Z
+DTEND:20261025T173620Z
+SUMMARY:(1458) Mineura hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(1458) Mineura hides a magnitude 12.7 star\, seen from Indore.\
+ nThe predicted edge passes 16 km to the SSE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 23:01:20 IST\, give or take 1 s. The star is 12° up in the WS
+ W · dark sky.\nIt fades 3.2 magnitudes for up to 0.8 s on the centre line
+ \, and the path is 17 km wide\, give or take 17 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-
+ 25-1458-mineura-305920
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-25-1458-mineura-3059
+ 20
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1458) Mineura hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-30-3044-saltykov-335360-indore@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261030T145546Z
+DTEND:20261030T150546Z
+SUMMARY:(3044) Saltykov hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(3044) Saltykov hides a magnitude 11.9 star\, seen from Indore.
+ \nThe predicted edge passes 0 km to the S\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 20:30:46 IST\, give or take 1 s. The star is 45° up in the WSW 
+ · dark sky.\nIt fades 4.9 magnitudes for up to 1.1 s on the centre line\,
+  and the path is 25 km wide\, give or take 16 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-30
+ -3044-saltykov-335360
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-30-3044-saltykov-335
+ 360
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3044) Saltykov hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-834f0938899a-indore@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202451Z
@@ -104,6 +307,28 @@ DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:51 at the dark limb I
  lokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-06-2330-ontake-223872-indore@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261106T215108Z
+DTEND:20261106T220108Z
+SUMMARY:(2330) Ontake hides a mag 12.4 star
+DESCRIPTION:(2330) Ontake hides a magnitude 12.4 star\, seen from Indore.\n
+ You are inside the path\, 13 km from its centre line: the star vanishes fo
+ r up to 2.5 s.\nClosest approach 03:26:08 IST\, give or take 2 s. The star
+  is 78° up in the SW · dark sky.\nIt fades 4.6 magnitudes for up to 4.1 
+ s on the centre line\, and the path is 33 km wide\, give or take 26 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-06-2330-ontake-223872
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-06-2330-ontake-22387
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2330) Ontake hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0b65be0d6e6e-indore@occult.alokm.com
@@ -130,6 +355,50 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:35:40 at the dark limb
  lt.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-21-1409-isko-322560-indore@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261121T133650Z
+DTEND:20261121T134650Z
+SUMMARY:(1409) Isko hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(1409) Isko hides a magnitude 12.4 star\, seen from Indore.\nTh
+ e predicted edge passes 7 km to the NNW\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 19:11:50 IST\, give or take 1 s. The star is 27° up in the SW · 
+ dark sky.\nIt fades 4.2 magnitudes for up to 1.0 s on the centre line\, an
+ d the path is 36 km wide\, give or take 23 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-21-14
+ 09-isko-322560
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-21-1409-isko-322560
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1409) Isko hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-23-762-pulcova-301888-indore@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261123T164608Z
+DTEND:20261123T165608Z
+SUMMARY:(762) Pulcova hides a mag 12.1 star
+DESCRIPTION:(762) Pulcova hides a magnitude 12.1 star\, seen from Indore.\n
+ You are inside the path\, 52 km from its centre line: the star vanishes fo
+ r up to 7.9 s.\nClosest approach 22:21:08 IST\, give or take 1 s. The star
+  is 72° up in the NE · dark sky.\nIt fades 1.2 magnitudes for up to 11.4
+  s on the centre line\, and the path is 147 km wide\, give or take 15 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-11#2026-11-23-762-pulcova-301888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-23-762-pulcova-30188
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(762) Pulcova hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-df95125d8c5f-indore@occult.alokm.com
@@ -171,6 +440,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-05-581-tauntonia-500480-indore@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261205T204530Z
+DTEND:20261205T205530Z
+SUMMARY:(581) Tauntonia hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(581) Tauntonia hides a magnitude 11.2 star\, seen from Indore.
+ \nThe predicted edge passes 13 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 02:20:30 IST\, give or take 2 s. The star is 70° up in the W
+ SW · dark sky.\nIt fades 3.4 magnitudes for up to 4.2 s on the centre lin
+ e\, and the path is 61 km wide\, give or take 31 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12
+ -05-581-tauntonia-500480
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-05-581-tauntonia-500
+ 480
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(581) Tauntonia hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-05cd80b8e232-indore@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T133844Z
@@ -197,6 +489,28 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-27-1271-isergina-240064-indore@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261227T170355Z
+DTEND:20261227T171355Z
+SUMMARY:(1271) Isergina hides a mag 12.4 star
+DESCRIPTION:(1271) Isergina hides a magnitude 12.4 star\, seen from Indore.
+ \nYou are inside the path\, 15 km from its centre line: the star vanishes 
+ for up to 3.0 s.\nClosest approach 22:38:55 IST\, give or take 2 s. The st
+ ar is 73° up in the ESE · dark sky.\nIt fades 2.4 magnitudes for up to 4
+ .0 s on the centre line\, and the path is 48 km wide\, give or take 31 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-12#2026-12-27-1271-isergina-240064
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-27-1271-isergina-240
+ 064
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1271) Isergina hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a34454078b29-indore@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261228T002418Z
@@ -221,6 +535,29 @@ DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:37:44 at the dark limb
  t.alokm.com/moon-stars-2027-01
 URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-23-3024-hainan-170240-indore@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270123T140014Z
+DTEND:20270123T141014Z
+SUMMARY:(3024) Hainan hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(3024) Hainan hides a magnitude 12.1 star\, seen from Indore.\n
+ The predicted edge passes 18 km to the NW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 19:35:14 IST\, give or take 2 s. The star is 48° up in the NE 
+ · dark sky.\nIt fades 4.3 magnitudes for up to 3.5 s on the centre line\,
+  and the path is 37 km wide\, give or take 18 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-23
+ -3024-hainan-170240
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-23-3024-hainan-17024
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3024) Hainan hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2d3db749b857-indore@occult.alokm.com
@@ -301,6 +638,28 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-09-756-lilliana-309632-indore@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270309T144444Z
+DTEND:20270309T145444Z
+SUMMARY:(756) Lilliana hides a mag 10.9 star
+DESCRIPTION:(756) Lilliana hides a magnitude 10.9 star\, seen from Indore.\
+ nYou are inside the path\, 30 km from its centre line: the star vanishes f
+ or up to 1.0 s.\nClosest approach 20:19:44 IST\, give or take 1 s. The sta
+ r is 39° up in the W · dark sky.\nIt fades 5.6 magnitudes for up to 2.6 
+ s on the centre line\, and the path is 65 km wide\, give or take 28 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-03#2027-03-09-756-lilliana-309632
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-09-756-lilliana-3096
+ 32
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(756) Lilliana hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-eacceaae9bbc-indore@occult.alokm.com
 DTSTAMP:20270301T000000Z
 DTSTART:20270326T223454Z
@@ -314,6 +673,28 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-04-11-parthenope-387584-indore@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T225920Z
+DTEND:20270404T230920Z
+SUMMARY:(11) Parthenope hides a mag 11.9 star
+DESCRIPTION:(11) Parthenope hides a magnitude 11.9 star\, seen from Indore.
+ \nYou are inside the path\, 39 km from its centre line: the star vanishes 
+ for up to 8.3 s.\nClosest approach 04:34:20 IST\, give or take 1 s. The st
+ ar is 42° up in the SSE · dark sky.\nIt fades 0.5 magnitudes for up to 8
+ .9 s on the centre line\, and the path is 143 km wide\, give or take 15 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-04#2027-04-04-11-parthenope-387584
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-11-parthenope-387
+ 584
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11) Parthenope hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a12cef6a1167-indore@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T141004Z
@@ -325,6 +706,49 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:40:04 at the dark limb
  lt.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-09-65-cybele-529920-indore@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270509T214558Z
+DTEND:20270509T215558Z
+SUMMARY:(65) Cybele hides a mag 11.5 star
+DESCRIPTION:(65) Cybele hides a magnitude 11.5 star\, seen from Indore.\nYo
+ u are inside the path\, 134 km from its centre line: the star vanishes for
+  up to 22.8 s.\nClosest approach 03:20:58 IST\, give or take 4 s. The star
+  is 49° up in the S · dark sky.\nIt fades 0.8 magnitudes for up to 46.3 
+ s on the centre line\, and the path is 237 km wide\, give or take 15 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-05#2027-05-09-65-cybele-529920
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-09-65-cybele-529920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(65) Cybele hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-14-292-ludovica-246016-indore@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270514T220957Z
+DTEND:20270514T221957Z
+SUMMARY:(292) Ludovica hides a mag 12.2 star
+DESCRIPTION:(292) Ludovica hides a magnitude 12.2 star\, seen from Indore.\
+ nYou are inside the path\, 18 km from its centre line: the star vanishes f
+ or up to 0.5 s.\nClosest approach 03:44:57 IST\, give or take 1 s. The sta
+ r is 25° up in the SW · dark sky.\nIt fades 1.5 magnitudes for up to 2.5
+  s on the centre line\, and the path is 31 km wide\, give or take 28 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-05#2027-05-14-292-ludovica-246016
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-14-292-ludovica-2460
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(292) Ludovica hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-4e99b6927bb0-indore@occult.alokm.com
@@ -367,6 +791,30 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-05-28-1463-nordenmarkia-506560-indore@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270528T162030Z
+DTEND:20270528T163030Z
+SUMMARY:(1463) Nordenmarkia hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(1463) Nordenmarkia hides a magnitude 12.4 star\, seen from Ind
+ ore.\nThe predicted edge passes 14 km to the SSW\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 21:55:30 IST\, give or take 1 s. The star is 20° up in t
+ he WNW · dark sky.\nIt fades 4.4 magnitudes for up to 1.2 s on the centre
+  line\, and the path is 37 km wide\, give or take 25 km.\nFinder chart\, t
+ he map and the path as KML: https://occult.alokm.com/asteroids-2027-05#202
+ 7-05-28-1463-nordenmarkia-506560
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-28-1463-nordenmarkia
+ -506560
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1463) Nordenmarkia hides a mag 12.4 star (just outside the pat
+ h)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-92d8868abb84-indore@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270609T172045Z
@@ -380,6 +828,29 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-18-3495-colchagua-812224-indore@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270618T230224Z
+DTEND:20270618T231224Z
+SUMMARY:(3495) Colchagua hides a mag 10.0 star (just outside the path)
+DESCRIPTION:(3495) Colchagua hides a magnitude 10.0 star\, seen from Indore
+ .\nThe predicted edge passes 2 km to the NNW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 04:37:24 IST\, give or take 4 s. The star is 33° up in the S
+ W · dark sky.\nIt fades 6.1 magnitudes for up to 2.9 s on the centre line
+ \, and the path is 26 km wide\, give or take 14 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-
+ 18-3495-colchagua-812224
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-18-3495-colchagua-81
+ 2224
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3495) Colchagua hides a mag 10.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-847b5c1dfec9-indore@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T224701Z
@@ -391,6 +862,73 @@ DESCRIPTION:χ1 Sgr (magnitude 4.9) reappears at 04:17:01 at the dark limb
  .alokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-23-3631-sigyn-376000-indore@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270623T194124Z
+DTEND:20270623T195124Z
+SUMMARY:(3631) Sigyn hides a mag 13.0 star (just outside the path)
+DESCRIPTION:(3631) Sigyn hides a magnitude 13.0 star\, seen from Indore.\nT
+ he predicted edge passes 10 km to the SSE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 01:16:24 IST\, give or take 2 s. The star is 62° up in the S ·
+  dark sky.\nIt fades 2.5 magnitudes for up to 3.6 s on the centre line\, a
+ nd the path is 39 km wide\, give or take 14 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-23-3
+ 631-sigyn-376000
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-23-3631-sigyn-376000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3631) Sigyn hides a mag 13.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-26-67-asia-611328-indore@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270626T150202Z
+DTEND:20270626T151202Z
+SUMMARY:(67) Asia hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(67) Asia hides a magnitude 12.7 star\, seen from Indore.\nThe 
+ predicted edge passes 22 km to the SSW\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 20:37:02 IST\, give or take 1 s. The star is 19° up in the ESE · 
+ dark sky.\nIt fades 0.1 magnitudes for up to 8.5 s on the centre line\, an
+ d the path is 56 km wide\, give or take 30 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-26-67
+ -asia-611328
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-26-67-asia-611328
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(67) Asia hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-26-1254-erfordia-976000-indore@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270626T201609Z
+DTEND:20270626T202609Z
+SUMMARY:(1254) Erfordia hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(1254) Erfordia hides a magnitude 11.7 star\, seen from Indore.
+ \nThe predicted edge passes 27 km to the S\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 01:51:09 IST\, give or take 3 s. The star is 33° up in the SSW
+  · dark sky.\nIt fades 3.5 magnitudes for up to 4.1 s on the centre line\
+ , and the path is 52 km wide\, give or take 19 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06-2
+ 6-1254-erfordia-976000
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-26-1254-erfordia-976
+ 000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1254) Erfordia hides a mag 11.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-7b730e5bb248-indore@occult.alokm.com

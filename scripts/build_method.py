@@ -157,8 +157,9 @@ def write_page():
   the spot's longitude, using DE431 and the IAU pole. The longitude itself is measured by observers and drifts, so the site carries
   it forward only until {grs_until} and shows no transits after that until it is updated.</p>
   <h3>Calendar feeds</h3>
-  <p>The same calculations for each of {f['n_feeds']} cities: the chosen lunar occultations the city can see, and the star occultations
-  visible there in binoculars over the next twelve months.</p>
+  <p>The same calculations for each of {f['n_feeds']} cities: the chosen lunar occultations the city can see, the star occultations
+  visible there in binoculars over the next twelve months, and the asteroid shadows whose path crosses the city or comes within
+  its margin of error — with the star up in a dark sky, and each entry saying how far the centre line passes.</p>
 
   <h2 id="checks">Checked against</h2>
   <p>Comparisons with independent predictions, and the checks that tie the browser's calculations to the engine's. Those marked

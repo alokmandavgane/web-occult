@@ -10,6 +10,49 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-12-1246-chaka-833792-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260912T191027Z
+DTEND:20260912T192027Z
+SUMMARY:(1246) Chaka hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(1246) Chaka hides a magnitude 11.8 star\, seen from Bharatpur.
+ \nThe predicted edge passes 12 km to the SE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 00:45:27 IST\, give or take 2 s. The star is 24° up in the EN
+ E · dark sky.\nIt fades 3.3 magnitudes for up to 1.1 s on the centre line
+ \, and the path is 18 km wide\, give or take 13 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-
+ 12-1246-chaka-833792
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-12-1246-chaka-833792
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1246) Chaka hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230851Z
+DTEND:20260928T231851Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Bharatpur.\nY
+ ou are inside the path\, 213 km from its centre line: the star vanishes fo
+ r up to 38.5 s.\nClosest approach 04:43:51 IST\, give or take 1 s. The sta
+ r is 60° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3
+  s on the centre line\, and the path is 939 km wide\, give or take 19 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-58e2008d7a7b-bharatpur@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162728Z
@@ -36,6 +79,29 @@ URL:https://occult.alokm.com/moon-stars-2026-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-01-852-wladilena-994304-bharatpur@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261001T212833Z
+DTEND:20261001T213833Z
+SUMMARY:(852) Wladilena hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(852) Wladilena hides a magnitude 12.2 star\, seen from Bharatp
+ ur.\nThe predicted edge passes 5 km to the E\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 03:03:33 IST\, give or take 1 s. The star is 66° up in the E
+ NE · dark sky.\nIt fades 2.3 magnitudes for up to 2.2 s on the centre lin
+ e\, and the path is 27 km wide\, give or take 14 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10
+ -01-852-wladilena-994304
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-01-852-wladilena-994
+ 304
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(852) Wladilena hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1779a1e2ed42-bharatpur@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261004T203057Z
@@ -47,6 +113,50 @@ DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:00:57 at the dark limb
  cult.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-13-778-theobalda-311168-bharatpur@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261013T230427Z
+DTEND:20261013T231427Z
+SUMMARY:(778) Theobalda hides a mag 12.5 star
+DESCRIPTION:(778) Theobalda hides a magnitude 12.5 star\, seen from Bharatp
+ ur.\nYou are inside the path\, 1 km from its centre line: the star vanishe
+ s for up to 4.6 s.\nClosest approach 04:39:27 IST\, give or take 2 s. The 
+ star is 22° up in the WNW · dark sky.\nIt fades 1.7 magnitudes for up to
+  4.6 s on the centre line\, and the path is 55 km wide\, give or take 24 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2026-10#2026-10-13-778-theobalda-311168
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-13-778-theobalda-311
+ 168
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(778) Theobalda hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-19-8560-tsubaki-620736-bharatpur@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261019T160237Z
+DTEND:20261019T161237Z
+SUMMARY:(8560) Tsubaki hides a mag 12.2 star
+DESCRIPTION:(8560) Tsubaki hides a magnitude 12.2 star\, seen from Bharatpu
+ r.\nYou are inside the path\, 1 km from its centre line: the star vanishes
+  for up to 2.0 s.\nClosest approach 21:37:37 IST\, give or take 2 s. The s
+ tar is 30° up in the ENE · dark sky.\nIt fades 5.3 magnitudes for up to 
+ 2.0 s on the centre line\, and the path is 19 km wide\, give or take 16 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-10#2026-10-19-8560-tsubaki-620736
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-19-8560-tsubaki-6207
+ 36
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(8560) Tsubaki hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-c380a5ba1bec-bharatpur@occult.alokm.com
@@ -75,6 +185,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130015Z
+DTEND:20261101T131015Z
+SUMMARY:(921) Jovita hides a mag 13.3 star (just outside the path)
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Bharatpur.
+ \nThe predicted edge passes 31 km to the S\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 18:35:15 IST\, give or take 1 s. The star is 46° up in the SW 
+ · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 s on the centre line\,
+  and the path is 55 km wide\, give or take 32 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-01
+ -921-jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-f49f70121e65-bharatpur@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202356Z
@@ -99,6 +231,29 @@ DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:22:10 at the dark limb I
  .alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-15-1323-tugela-968448-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261115T123433Z
+DTEND:20261115T124433Z
+SUMMARY:(1323) Tugela hides a mag 12.6 star (just outside the path)
+DESCRIPTION:(1323) Tugela hides a magnitude 12.6 star\, seen from Bharatpur
+ .\nThe predicted edge passes 17 km to the NW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 18:09:33 IST\, give or take 1 s. The star is 10° up in the S
+ W · dusk.\nIt fades 3.5 magnitudes for up to 1.9 s on the centre line\, a
+ nd the path is 78 km wide\, give or take 28 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-15-1
+ 323-tugela-968448
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-15-1323-tugela-96844
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1323) Tugela hides a mag 12.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-fb5f360ffc27-bharatpur@occult.alokm.com
@@ -127,6 +282,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-25-23129-23129-448768-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261125T221654Z
+DTEND:20261125T222654Z
+SUMMARY:(23129) 23129 hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(23129) 23129 hides a magnitude 12.9 star\, seen from Bharatpur
+ .\nThe predicted edge passes 6 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 03:51:54 IST\, give or take 1 s. The star is 32° up in the W
+  · dark sky.\nIt fades 3.1 magnitudes for up to 1.4 s on the centre line\
+ , and the path is 20 km wide\, give or take 13 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-2
+ 5-23129-23129-448768
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-25-23129-23129-44876
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(23129) 23129 hides a mag 12.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-c3ea22ab57a4-bharatpur@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T202817Z
@@ -151,6 +329,50 @@ DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:29:22 at the dark limb I
  lt.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-01-4003-schumann-034432-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261201T004345Z
+DTEND:20261201T005345Z
+SUMMARY:(4003) Schumann hides a mag 10.2 star
+DESCRIPTION:(4003) Schumann hides a magnitude 10.2 star\, seen from Bharatp
+ ur.\nYou are inside the path\, 6 km from its centre line: the star vanishe
+ s for up to 3.7 s.\nClosest approach 06:18:45 IST\, give or take 2 s. The 
+ star is 42° up in the W · dusk.\nIt fades 7.0 magnitudes for up to 4.0 s
+  on the centre line\, and the path is 36 km wide\, give or take 21 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-12#2026-12-01-4003-schumann-034432
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-01-4003-schumann-034
+ 432
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4003) Schumann hides a mag 10.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-04-460-scania-784192-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261204T163748Z
+DTEND:20261204T164748Z
+SUMMARY:(460) Scania hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(460) Scania hides a magnitude 12.4 star\, seen from Bharatpur.
+ \nThe predicted edge passes 3 km to the SSE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 22:12:48 IST\, give or take 1 s. The star is 37° up in the E 
+ · dark sky.\nIt fades 2.4 magnitudes for up to 2.0 s on the centre line\,
+  and the path is 20 km wide\, give or take 12 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-04
+ -460-scania-784192
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-04-460-scania-784192
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(460) Scania hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2011e94250ec-bharatpur@occult.alokm.com
@@ -190,6 +412,29 @@ DESCRIPTION:31 Leo (magnitude 4.5) reappears at 05:58:16 at the dark limb I
  ult.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-09-4709-ennomos-956480-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270109T130708Z
+DTEND:20270109T131708Z
+SUMMARY:(4709) Ennomos hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(4709) Ennomos hides a magnitude 12.5 star\, seen from Bharatpu
+ r.\nThe predicted edge passes 13 km to the SSE\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 18:42:08 IST\, give or take 7 s. The star is 34° up in the
+  E · dark sky.\nIt fades 3.5 magnitudes for up to 5.7 s on the centre lin
+ e\, and the path is 91 km wide\, give or take 32 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01
+ -09-4709-ennomos-956480
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-09-4709-ennomos-9564
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4709) Ennomos hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-5c085aa06528-bharatpur@occult.alokm.com
@@ -297,6 +542,28 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-104-klymene-773824-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T185705Z
+DTEND:20270222T190705Z
+SUMMARY:(104) Klymene hides a mag 12.6 star
+DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Bharatpur
+ .\nYou are inside the path\, 50 km from its centre line: the star vanishes
+  for up to 7.3 s.\nClosest approach 00:32:05 IST\, give or take 2 s. The s
+ tar is 75° up in the SSE · dark sky.\nIt fades 0.7 magnitudes for up to 
+ 10.8 s on the centre line\, and the path is 137 km wide\, give or take 14 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-02#2027-02-22-104-klymene-773824
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-104-klymene-77382
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(104) Klymene hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-038eeb206641-bharatpur@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T200702Z
@@ -310,6 +577,73 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-19-686-gersuind-867200-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270319T161718Z
+DTEND:20270319T162718Z
+SUMMARY:(686) Gersuind hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(686) Gersuind hides a magnitude 12.1 star\, seen from Bharatpu
+ r.\nThe predicted edge passes 2 km to the NNE\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 21:52:18 IST\, give or take 1 s. The star is 13° up in the 
+ WNW · dark sky.\nIt fades 3.0 magnitudes for up to 1.7 s on the centre li
+ ne\, and the path is 55 km wide\, give or take 22 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-0
+ 3-19-686-gersuind-867200
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-19-686-gersuind-8672
+ 00
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(686) Gersuind hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-02-566-stereoskopia-156096-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270402T134830Z
+DTEND:20270402T135830Z
+SUMMARY:(566) Stereoskopia hides a mag 11.5 star
+DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Bhar
+ atpur.\nYou are inside the path\, 73 km from its centre line: the star van
+ ishes for up to 3.9 s.\nClosest approach 19:23:30 IST\, give or take 1 s. 
+ The star is 67° up in the W · dusk.\nIt fades 2.9 magnitudes for up to 7
+ .7 s on the centre line\, and the path is 167 km wide\, give or take 24 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-04#2027-04-02-566-stereoskopia-156096
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-02-566-stereoskopia-
+ 156096
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(566) Stereoskopia hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-04-627-charis-834368-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T195653Z
+DTEND:20270404T200653Z
+SUMMARY:(627) Charis hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(627) Charis hides a magnitude 12.5 star\, seen from Bharatpur.
+ \nThe predicted edge passes 12 km to the S\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 01:31:53 IST\, give or take 2 s. The star is 18° up in the ESE
+  · dark sky.\nIt fades 2.7 magnitudes for up to 3.7 s on the centre line\
+ , and the path is 38 km wide\, give or take 18 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-0
+ 4-627-charis-834368
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-627-charis-834368
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(627) Charis hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-96c1e2c09e35-bharatpur@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T140641Z
@@ -321,6 +655,73 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:36:41 at the dark limb
  cult.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-24-4967-glia-725440-bharatpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270424T161149Z
+DTEND:20270424T162149Z
+SUMMARY:(4967) Glia hides a mag 9.9 star (just outside the path)
+DESCRIPTION:(4967) Glia hides a magnitude 9.9 star\, seen from Bharatpur.\n
+ The predicted edge passes 0 km to the NNE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 21:46:49 IST\, give or take 1 s. The star is 20° up in the WNW 
+ · dark sky.\nIt fades 7.8 magnitudes for up to 1.0 s on the centre line\,
+  and the path is 30 km wide\, give or take 26 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-24
+ -4967-glia-725440
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-24-4967-glia-725440
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4967) Glia hides a mag 9.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-01-829-academia-095104-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270501T191129Z
+DTEND:20270501T192129Z
+SUMMARY:(829) Academia hides a mag 12.5 star
+DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Bharatpu
+ r.\nYou are inside the path\, 17 km from its centre line: the star vanishe
+ s for up to 3.6 s.\nClosest approach 00:46:29 IST\, give or take 1 s. The 
+ star is 29° up in the SSE · dark sky.\nIt fades 2.9 magnitudes for up to
+  4.0 s on the centre line\, and the path is 43 km wide\, give or take 34 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-05#2027-05-01-829-academia-095104
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-01-829-academia-0951
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(829) Academia hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-05-538-friederike-078464-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270505T205853Z
+DTEND:20270505T210853Z
+SUMMARY:(538) Friederike hides a mag 11.4 star (just outside the path)
+DESCRIPTION:(538) Friederike hides a magnitude 11.4 star\, seen from Bharat
+ pur.\nThe predicted edge passes 17 km to the NNE\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 02:33:53 IST\, give or take 2 s. The star is 49° up in t
+ he SSW · dark sky.\nIt fades 3.3 magnitudes for up to 5.6 s on the centre
+  line\, and the path is 71 km wide\, give or take 22 km.\nFinder chart\, t
+ he map and the path as KML: https://occult.alokm.com/asteroids-2027-05#202
+ 7-05-05-538-friederike-078464
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-05-538-friederike-07
+ 8464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(538) Friederike hides a mag 11.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-834e5ff4ddfa-bharatpur@occult.alokm.com
@@ -376,6 +777,28 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-10-895-helio-828800-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270610T193001Z
+DTEND:20270610T194001Z
+SUMMARY:(895) Helio hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(895) Helio hides a magnitude 12.7 star\, seen from Bharatpur.\
+ nThe predicted edge passes 56 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 01:05:01 IST\, give or take 1 s. The star is 46° up in the SS
+ E · dark sky.\nIt fades 1.4 magnitudes for up to 7.2 s on the centre line
+ \, and the path is 110 km wide\, give or take 82 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-06#2027-06
+ -10-895-helio-828800
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-10-895-helio-828800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(895) Helio hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-0608a0c39793-bharatpur@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T224955Z
@@ -426,6 +849,27 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:28:44 at the dark limb
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-12-795-fini-257280-bharatpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270812T142400Z
+DTEND:20270812T143400Z
+SUMMARY:(795) Fini hides a mag 11.4 star
+DESCRIPTION:(795) Fini hides a magnitude 11.4 star\, seen from Bharatpur.\n
+ You are inside the path\, 27 km from its centre line: the star vanishes fo
+ r up to 7.6 s.\nClosest approach 19:59:00 IST\, give or take 2 s. The star
+  is 17° up in the S · dark sky.\nIt fades 3.5 magnitudes for up to 8.3 s
+  on the centre line\, and the path is 85 km wide\, give or take 16 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-08#2027-08-12-795-fini-257280
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-12-795-fini-257280
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(795) Fini hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-bharatpur@occult.alokm.com

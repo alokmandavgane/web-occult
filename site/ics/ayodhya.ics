@@ -10,6 +10,49 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-10-1832-mrkos-239232-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260910T152916Z
+DTEND:20260910T153916Z
+SUMMARY:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1832) Mrkos hides a magnitude 12.5 star\, seen from Ayodhya.\n
+ The predicted edge passes 24 km to the W\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 21:04:16 IST\, give or take 10 s. The star is 38° up in the SSW 
+ · dark sky.\nIt fades 4.1 magnitudes for up to 6.6 s on the centre line\,
+  and the path is 29 km wide\, give or take 28 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-10
+ -1832-mrkos-239232
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-10-1832-mrkos-239232
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1832) Mrkos hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230908Z
+DTEND:20260928T231908Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Ayodhya.\nYou
+  are inside the path\, 51 km from its centre line: the star vanishes for u
+ p to 42.8 s.\nClosest approach 04:44:08 IST\, give or take 1 s. The star i
+ s 64° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s 
+ on the centre line\, and the path is 939 km wide\, give or take 19 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-34825fb71a6e-ayodhya@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162206Z
@@ -88,6 +131,27 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130029Z
+DTEND:20261101T131029Z
+SUMMARY:(921) Jovita hides a mag 13.3 star
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Ayodhya.\n
+ You are inside the path\, 23 km from its centre line: the star vanishes fo
+ r up to 1.3 s.\nClosest approach 18:35:29 IST\, give or take 1 s. The star
+  is 43° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 
+ s on the centre line\, and the path is 55 km wide\, give or take 32 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-01-921-jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-20aa5266e317-ayodhya@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202659Z
@@ -112,6 +176,29 @@ DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:23:25 at the dark limb I
  alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-13-16194-roderick-432064-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261113T140101Z
+DTEND:20261113T141101Z
+SUMMARY:(16194) Roderick hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(16194) Roderick hides a magnitude 11.9 star\, seen from Ayodhy
+ a.\nThe predicted edge passes 19 km to the NNW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 19:36:01 IST\, give or take 1 s. The star is 30° up in the
+  ESE · dark sky.\nIt fades 6.1 magnitudes for up to 1.3 s on the centre l
+ ine\, and the path is 19 km wide\, give or take 18 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-
+ 11-13-16194-roderick-432064
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-13-16194-roderick-43
+ 2064
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(16194) Roderick hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2406bac40ee1-ayodhya@occult.alokm.com
@@ -140,6 +227,72 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-20-1574-meyer-317888-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261120T184042Z
+DTEND:20261120T185042Z
+SUMMARY:(1574) Meyer hides a mag 12.6 star
+DESCRIPTION:(1574) Meyer hides a magnitude 12.6 star\, seen from Ayodhya.\n
+ You are inside the path\, 18 km from its centre line: the star vanishes fo
+ r up to 2.9 s.\nClosest approach 00:15:42 IST\, give or take 2 s. The star
+  is 83° up in the SW · dark sky.\nIt fades 2.4 magnitudes for up to 3.8 
+ s on the centre line\, and the path is 58 km wide\, give or take 18 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-20-1574-meyer-317888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-20-1574-meyer-317888
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1574) Meyer hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-23-762-pulcova-301888-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261123T164511Z
+DTEND:20261123T165511Z
+SUMMARY:(762) Pulcova hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(762) Pulcova hides a magnitude 12.1 star\, seen from Ayodhya.\
+ nThe predicted edge passes 11 km to the SSE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 22:20:11 IST\, give or take 1 s. The star is 79° up in the NN
+ E · dark sky.\nIt fades 1.2 magnitudes for up to 11.4 s on the centre lin
+ e\, and the path is 147 km wide\, give or take 15 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-1
+ 1-23-762-pulcova-301888
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-23-762-pulcova-30188
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(762) Pulcova hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-24-8188-okegaya-677440-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261124T224253Z
+DTEND:20261124T225253Z
+SUMMARY:(8188) Okegaya hides a mag 11.1 star
+DESCRIPTION:(8188) Okegaya hides a magnitude 11.1 star\, seen from Ayodhya.
+ \nYou are inside the path\, 8 km from its centre line: the star vanishes f
+ or up to 2.1 s.\nClosest approach 04:17:53 IST\, give or take 4 s. The sta
+ r is 82° up in the SSE · dark sky.\nIt fades 6.5 magnitudes for up to 3.
+ 2 s on the centre line\, and the path is 20 km wide\, give or take 17 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-11#2026-11-24-8188-okegaya-677440
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-24-8188-okegaya-6774
+ 40
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(8188) Okegaya hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-1e3f47023572-ayodhya@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T163100Z
@@ -166,6 +319,29 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-30-3316-herzberg-317248-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261130T221114Z
+DTEND:20261130T222114Z
+SUMMARY:(3316) Herzberg hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(3316) Herzberg hides a magnitude 11.8 star\, seen from Ayodhya
+ .\nThe predicted edge passes 16 km to the N\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 03:46:14 IST\, give or take 1 s. The star is 52° up in the WS
+ W · dark sky.\nIt fades 5.1 magnitudes for up to 1.4 s on the centre line
+ \, and the path is 17 km wide\, give or take 16 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-
+ 30-3316-herzberg-317248
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-30-3316-herzberg-317
+ 248
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3316) Herzberg hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-af4513961450-ayodhya@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261130T230700Z
@@ -177,6 +353,49 @@ DESCRIPTION:44 Leo (magnitude 5.6) reappears at 04:37:00 at the dark limb I
  .alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-06-224-oceana-933056-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261206T162201Z
+DTEND:20261206T163201Z
+SUMMARY:(224) Oceana hides a mag 10.2 star
+DESCRIPTION:(224) Oceana hides a magnitude 10.2 star\, seen from Ayodhya.\n
+ You are inside the path\, 9 km from its centre line: the star vanishes for
+  up to 4.5 s.\nClosest approach 21:57:01 IST\, give or take 1 s. The star 
+ is 77° up in the ENE · dark sky.\nIt fades 2.5 magnitudes for up to 4.8 
+ s on the centre line\, and the path is 58 km wide\, give or take 17 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-12#2026-12-06-224-oceana-933056
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-06-224-oceana-933056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(224) Oceana hides a mag 10.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-08-1686-de-sitter-271296-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261208T161158Z
+DTEND:20261208T162158Z
+SUMMARY:(1686) De Sitter hides a mag 11.7 star
+DESCRIPTION:(1686) De Sitter hides a magnitude 11.7 star\, seen from Ayodhy
+ a.\nYou are inside the path\, 3 km from its centre line: the star vanishes
+  for up to 1.9 s.\nClosest approach 21:46:58 IST\, give or take 1 s. The s
+ tar is 52° up in the E · dark sky.\nIt fades 4.6 magnitudes for up to 2.
+ 0 s on the centre line\, and the path is 30 km wide\, give or take 18 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-12#2026-12-08-1686-de-sitter-271296
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-08-1686-de-sitter-27
+ 1296
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1686) De Sitter hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-322daf5cdf07-ayodhya@occult.alokm.com
@@ -192,6 +411,49 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-13-868-lova-388160-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261213T213145Z
+DTEND:20261213T214145Z
+SUMMARY:(868) Lova hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(868) Lova hides a magnitude 12.5 star\, seen from Ayodhya.\nTh
+ e predicted edge passes 4 km to the NNE\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 03:06:45 IST\, give or take 2 s. The star is 54° up in the W · d
+ ark sky.\nIt fades 1.4 magnitudes for up to 5.0 s on the centre line\, and
+  the path is 51 km wide\, give or take 14 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-13-868
+ -lova-388160
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-13-868-lova-388160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-24-799-gudula-366848-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261224T154852Z
+DTEND:20261224T155852Z
+SUMMARY:(799) Gudula hides a mag 11.9 star
+DESCRIPTION:(799) Gudula hides a magnitude 11.9 star\, seen from Ayodhya.\n
+ You are inside the path\, 4 km from its centre line: the star vanishes for
+  up to 2.2 s.\nClosest approach 21:23:52 IST\, give or take 1 s. The star 
+ is 27° up in the WSW · dark sky.\nIt fades 3.4 magnitudes for up to 2.2 
+ s on the centre line\, and the path is 47 km wide\, give or take 18 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-12#2026-12-24-799-gudula-366848
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-24-799-gudula-366848
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(799) Gudula hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-6de8cc66fec0-ayodhya@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261228T003821Z
@@ -205,6 +467,29 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-20-1132-hollandia-071040-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270120T132726Z
+DTEND:20270120T133726Z
+SUMMARY:(1132) Hollandia hides a mag 12.5 star (just outside the path)
+DESCRIPTION:(1132) Hollandia hides a magnitude 12.5 star\, seen from Ayodhy
+ a.\nThe predicted edge passes 3 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 19:02:26 IST\, give or take 1 s. The star is 57° up in the 
+ WSW · dark sky.\nIt fades 4.0 magnitudes for up to 1.1 s on the centre li
+ ne\, and the path is 27 km wide\, give or take 19 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-0
+ 1-20-1132-hollandia-071040
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-20-1132-hollandia-07
+ 1040
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1132) Hollandia hides a mag 12.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-806744f00208-ayodhya@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270121T142221Z
@@ -216,6 +501,27 @@ DESCRIPTION:57 Gem (magnitude 5.0) disappears at 19:52:21 at the dark limb
  .alokm.com/moon-stars-2027-01
 URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-22-3037-alku-499520-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270122T163212Z
+DTEND:20270122T164212Z
+SUMMARY:(3037) Alku hides a mag 12.8 star
+DESCRIPTION:(3037) Alku hides a magnitude 12.8 star\, seen from Ayodhya.\nY
+ ou are inside the path\, 2 km from its centre line: the star vanishes for 
+ up to 2.8 s.\nClosest approach 22:07:12 IST\, give or take 1 s. The star i
+ s 83° up in the ESE · dark sky.\nIt fades 2.1 magnitudes for up to 2.9 s
+  on the centre line\, and the path is 30 km wide\, give or take 20 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-01#2027-01-22-3037-alku-499520
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-22-3037-alku-499520
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3037) Alku hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-51bbbe428649-ayodhya@occult.alokm.com
@@ -255,6 +561,50 @@ DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:20:54 at the dark limb I
  alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-06-54-alexandra-102144-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270206T195750Z
+DTEND:20270206T200750Z
+SUMMARY:(54) Alexandra hides a mag 11.1 star
+DESCRIPTION:(54) Alexandra hides a magnitude 11.1 star\, seen from Ayodhya.
+ \nYou are inside the path\, 77 km from its centre line: the star vanishes 
+ for up to 2.9 s.\nClosest approach 01:32:50 IST\, give or take 1 s. The st
+ ar is 13° up in the SE · dark sky.\nIt fades 2.1 magnitudes for up to 9.
+ 5 s on the centre line\, and the path is 160 km wide\, give or take 18 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-06-54-alexandra-102144
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-06-54-alexandra-1021
+ 44
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(54) Alexandra hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-11-410-chloris-726272-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270211T221918Z
+DTEND:20270211T222918Z
+SUMMARY:(410) Chloris hides a mag 9.7 star
+DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Ayodhya.\n
+ You are inside the path\, 10 km from its centre line: the star vanishes fo
+ r up to 7.9 s.\nClosest approach 03:54:18 IST\, give or take 1 s. The star
+  is 36° up in the WNW · dark sky.\nIt fades 3.3 magnitudes for up to 8.1
+  s on the centre line\, and the path is 119 km wide\, give or take 21 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-02#2027-02-11-410-chloris-726272
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-11-410-chloris-72627
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(410) Chloris hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-138ea4dcce54-ayodhya@occult.alokm.com
@@ -309,6 +659,50 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-22-104-klymene-773824-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270222T185631Z
+DTEND:20270222T190631Z
+SUMMARY:(104) Klymene hides a mag 12.6 star
+DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Ayodhya.\
+ nYou are inside the path\, 66 km from its centre line: the star vanishes f
+ or up to 3.7 s.\nClosest approach 00:31:31 IST\, give or take 2 s. The sta
+ r is 76° up in the S · dark sky.\nIt fades 0.7 magnitudes for up to 10.8
+  s on the centre line\, and the path is 137 km wide\, give or take 14 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-02#2027-02-22-104-klymene-773824
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-22-104-klymene-77382
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(104) Klymene hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181546Z
+DTEND:20270223T182546Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Ayodhy
+ a.\nYou are inside the path\, 102 km from its centre line: the star vanish
+ es for up to 4.5 s.\nClosest approach 23:50:46 IST\, give or take 3 s. The
+  star is 30° up in the E · dark sky.\nIt fades 2.9 magnitudes for up to 
+ 20.1 s on the centre line\, and the path is 108 km wide\, give or take 59 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-02#2027-02-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-238bc70cfffc-ayodhya@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270227T200449Z
@@ -320,6 +714,28 @@ DESCRIPTION:HR 6001 (magnitude 5.3) reappears at 01:34:49 at the dark limb
  t.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-28-39-laetitia-186304-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T180559Z
+DTEND:20270228T181559Z
+SUMMARY:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Ayodhya.\
+ nYou are inside the path\, 67 km from its centre line: the star vanishes f
+ or up to 26.0 s.\nClosest approach 23:40:59 IST\, give or take 4 s. The st
+ ar is 25° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 3
+ 0.8 s on the centre line\, and the path is 179 km wide\, give or take 30 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-02#2027-02-28-39-laetitia-186304
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-39-laetitia-18630
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-6038d67cb336-ayodhya@occult.alokm.com
@@ -335,6 +751,75 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-07-10555-tagaharue-337536-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270307T164257Z
+DTEND:20270307T165257Z
+SUMMARY:(10555) Tagaharue hides a mag 11.1 star (just outside the path)
+DESCRIPTION:(10555) Tagaharue hides a magnitude 11.1 star\, seen from Ayodh
+ ya.\nThe predicted edge passes 14 km to the S\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 22:17:57 IST\, give or take 2 s. The star is 59° up in the 
+ E · dark sky.\nIt fades 5.8 magnitudes for up to 1.2 s on the centre line
+ \, and the path is 16 km wide\, give or take 15 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-
+ 07-10555-tagaharue-337536
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-07-10555-tagaharue-3
+ 37536
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(10555) Tagaharue hides a mag 11.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-02-566-stereoskopia-156096-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270402T134850Z
+DTEND:20270402T135850Z
+SUMMARY:(566) Stereoskopia hides a mag 11.5 star
+DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Ayod
+ hya.\nYou are inside the path\, 24 km from its centre line: the star vanis
+ hes for up to 7.5 s.\nClosest approach 19:23:50 IST\, give or take 1 s. Th
+ e star is 63° up in the W · dark sky.\nIt fades 2.9 magnitudes for up to
+  7.7 s on the centre line\, and the path is 167 km wide\, give or take 24 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-04#2027-04-02-566-stereoskopia-156096
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-02-566-stereoskopia-
+ 156096
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(566) Stereoskopia hides a mag 11.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-13-2932-kempchinsky-013056-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270413T224827Z
+DTEND:20270413T225827Z
+SUMMARY:(2932) Kempchinsky hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(2932) Kempchinsky hides a magnitude 12.9 star\, seen from Ayod
+ hya.\nThe predicted edge passes 35 km to the S\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 04:23:27 IST\, give or take 7 s. The star is 41° up in the
+  SSE · dark sky.\nIt fades 5.1 magnitudes for up to 3.5 s on the centre l
+ ine\, and the path is 29 km wide\, give or take 24 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-
+ 04-13-2932-kempchinsky-013056
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-13-2932-kempchinsky-
+ 013056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2932) Kempchinsky hides a mag 12.9 star (just outside the path
+ )
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-8a92389a7fa2-ayodhya@occult.alokm.com
 DTSTAMP:20270401T000000Z
 DTSTART:20270414T141731Z
@@ -346,6 +831,72 @@ DESCRIPTION:HR 3264 (magnitude 5.8) disappears at 19:47:31 at the dark limb
  ult.alokm.com/moon-stars-2027-04
 URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-218-bianca-074816-ayodhya@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T231200Z
+DTEND:20270414T232200Z
+SUMMARY:(218) Bianca hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Ayodhya.\n
+ The predicted edge passes 18 km to the SW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 04:47:00 IST\, give or take 4 s. The star is 19° up in the W ·
+  dusk.\nIt fades 1.0 magnitudes for up to 5.6 s on the centre line\, and t
+ he path is 61 km wide\, give or take 18 km.\nFinder chart\, the map and th
+ e path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-b
+ ianca-074816
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-bianca-074816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(218) Bianca hides a mag 11.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-01-829-academia-095104-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270501T191047Z
+DTEND:20270501T192047Z
+SUMMARY:(829) Academia hides a mag 12.5 star
+DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Ayodhya.
+ \nYou are inside the path\, 9 km from its centre line: the star vanishes f
+ or up to 3.8 s.\nClosest approach 00:45:47 IST\, give or take 1 s. The sta
+ r is 30° up in the S · dark sky.\nIt fades 2.9 magnitudes for up to 4.0 
+ s on the centre line\, and the path is 43 km wide\, give or take 34 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-01-829-academia-095104
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-01-829-academia-0951
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(829) Academia hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-05-538-friederike-078464-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270505T205818Z
+DTEND:20270505T210818Z
+SUMMARY:(538) Friederike hides a mag 11.4 star
+DESCRIPTION:(538) Friederike hides a magnitude 11.4 star\, seen from Ayodhy
+ a.\nYou are inside the path\, 17 km from its centre line: the star vanishe
+ s for up to 5.1 s.\nClosest approach 02:33:18 IST\, give or take 2 s. The 
+ star is 47° up in the SSW · dark sky.\nIt fades 3.3 magnitudes for up to
+  5.6 s on the centre line\, and the path is 71 km wide\, give or take 22 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-05#2027-05-05-538-friederike-078464
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-05-538-friederike-07
+ 8464
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(538) Friederike hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-215911a9207e-ayodhya@occult.alokm.com
@@ -388,6 +939,73 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-06-240-vanadis-855616-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270706T211032Z
+DTEND:20270706T212032Z
+SUMMARY:(240) Vanadis hides a mag 11.8 star
+DESCRIPTION:(240) Vanadis hides a magnitude 11.8 star\, seen from Ayodhya.\
+ nYou are inside the path\, 16 km from its centre line: the star vanishes f
+ or up to 6.1 s.\nClosest approach 02:45:32 IST\, give or take 1 s. The sta
+ r is 25° up in the SW · dark sky.\nIt fades 1.6 magnitudes for up to 6.6
+  s on the centre line\, and the path is 88 km wide\, give or take 14 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-07#2027-07-06-240-vanadis-855616
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-06-240-vanadis-85561
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(240) Vanadis hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-06-416-vaticana-756608-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270706T230948Z
+DTEND:20270706T231948Z
+SUMMARY:(416) Vaticana hides a mag 12.4 star
+DESCRIPTION:(416) Vaticana hides a magnitude 12.4 star\, seen from Ayodhya.
+ \nYou are inside the path\, 41 km from its centre line: the star vanishes 
+ for up to 3.6 s.\nClosest approach 04:44:48 IST\, give or take 1 s. The st
+ ar is 23° up in the SSW · dusk.\nIt fades 0.3 magnitudes for up to 11.9 
+ s on the centre line\, and the path is 85 km wide\, give or take 24 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-07#2027-07-06-416-vaticana-756608
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-06-416-vaticana-7566
+ 08
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(416) Vaticana hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-09-40-harmonia-819840-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270709T161930Z
+DTEND:20270709T162930Z
+SUMMARY:(40) Harmonia hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(40) Harmonia hides a magnitude 11.9 star\, seen from Ayodhya.\
+ nThe predicted edge passes 6 km to the W\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 21:54:30 IST\, give or take 4 s. The star is 40° up in the SW ·
+  dark sky.\nIt fades 0.3 magnitudes for up to 38.8 s on the centre line\, 
+ and the path is 111 km wide\, give or take 12 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-09
+ -40-harmonia-819840
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-09-40-harmonia-81984
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(40) Harmonia hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2585b23dbfd8-ayodhya@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T213136Z
@@ -399,6 +1017,29 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 03:01:36 at the dark limb
  t.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-19-671-carnegia-628864-ayodhya@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270719T154930Z
+DTEND:20270719T155930Z
+SUMMARY:(671) Carnegia hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(671) Carnegia hides a magnitude 11.6 star\, seen from Ayodhya.
+ \nThe predicted edge passes 26 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 21:24:30 IST\, give or take 2 s. The star is 15° up in the S
+ E · dark sky.\nIt fades 3.5 magnitudes for up to 4.7 s on the centre line
+ \, and the path is 61 km wide\, give or take 28 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-
+ 19-671-carnegia-628864
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-19-671-carnegia-6288
+ 64
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(671) Carnegia hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-20ce35bf80c5-ayodhya@occult.alokm.com

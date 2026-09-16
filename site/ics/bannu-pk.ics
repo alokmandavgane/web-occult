@@ -10,6 +10,29 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Karachi
 BEGIN:VEVENT
+UID:ast-2026-09-13-4209-briggs-439936-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260913T212350Z
+DTEND:20260913T213350Z
+SUMMARY:(4209) Briggs hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(4209) Briggs hides a magnitude 12.8 star\, seen from Bannu\, P
+ K.\nThe predicted edge passes 11 km to the W\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 02:28:50 PKT\, give or take 1 s. The star is 63° up in the N
+ E · dark sky.\nIt fades 4.2 magnitudes for up to 2.4 s on the centre line
+ \, and the path is 31 km wide\, give or take 20 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-
+ 13-4209-briggs-439936
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-13-4209-briggs-43993
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4209) Briggs hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-6c6521713047-bannu-pk@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260923T212933Z
@@ -62,6 +85,113 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-06-1244-deira-094272-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261006T191212Z
+DTEND:20261006T192212Z
+SUMMARY:(1244) Deira hides a mag 11.7 star
+DESCRIPTION:(1244) Deira hides a magnitude 11.7 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 14 km from its centre line: the star vanishes
+  for up to 2.6 s.\nClosest approach 00:17:12 PKT\, give or take 2 s. The s
+ tar is 38° up in the WSW · dark sky.\nIt fades 4.0 magnitudes for up to 
+ 5.4 s on the centre line\, and the path is 32 km wide\, give or take 13 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-10#2026-10-06-1244-deira-094272
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-06-1244-deira-094272
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1244) Deira hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-07-11509-thersilochos-086080-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261007T002057Z
+DTEND:20261007T003057Z
+SUMMARY:(11509) Thersilochos hides a mag 11.4 star
+DESCRIPTION:(11509) Thersilochos hides a magnitude 11.4 star\, seen from Ba
+ nnu\, PK.\nYou are inside the path\, 24 km from its centre line: the star 
+ vanishes for up to 1.4 s.\nClosest approach 05:25:57 PKT\, give or take 4 
+ s. The star is 66° up in the S · dusk.\nIt fades 6.6 magnitudes for up t
+ o 4.3 s on the centre line\, and the path is 50 km wide\, give or take 38 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2026-10#2026-10-07-11509-thersilochos-086080
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-07-11509-thersilocho
+ s-086080
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(11509) Thersilochos hides a mag 11.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-08-51-nemausa-971072-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261008T144107Z
+DTEND:20261008T145107Z
+SUMMARY:(51) Nemausa hides a mag 12.7 star
+DESCRIPTION:(51) Nemausa hides a magnitude 12.7 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 30 km from its centre line: the star vanishes
+  for up to 5.6 s.\nClosest approach 19:46:07 PKT\, give or take 1 s. The s
+ tar is 32° up in the SW · dark sky.\nIt fades 0.8 magnitudes for up to 5
+ .8 s on the centre line\, and the path is 138 km wide\, give or take 17 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-10#2026-10-08-51-nemausa-971072
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-08-51-nemausa-971072
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(51) Nemausa hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-13-13244-dannymeyer-799360-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261013T190752Z
+DTEND:20261013T191752Z
+SUMMARY:(13244) Dannymeyer hides a mag 10.3 star
+DESCRIPTION:(13244) Dannymeyer hides a magnitude 10.3 star\, seen from Bann
+ u\, PK.\nYou are inside the path\, 14 km from its centre line: the star va
+ nishes for up to 1.3 s.\nClosest approach 00:12:52 PKT\, give or take 1 s.
+  The star is 64° up in the W · dark sky.\nIt fades 6.4 magnitudes for up
+  to 2.6 s on the centre line\, and the path is 32 km wide\, give or take 1
+ 7 km.\nFinder chart\, the map and the path as KML: https://occult.alokm.co
+ m/asteroids-2026-10#2026-10-13-13244-dannymeyer-799360
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-13-13244-dannymeyer-
+ 799360
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(13244) Dannymeyer hides a mag 10.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-18-921-jovita-210112-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261018T144500Z
+DTEND:20261018T145500Z
+SUMMARY:(921) Jovita hides a mag 12.4 star
+DESCRIPTION:(921) Jovita hides a magnitude 12.4 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 12 km from its centre line: the star vanishes
+  for up to 2.0 s.\nClosest approach 19:50:00 PKT\, give or take 1 s. The s
+ tar is 36° up in the SW · dark sky.\nIt fades 3.0 magnitudes for up to 2
+ .0 s on the centre line\, and the path is 55 km wide\, give or take 32 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-10#2026-10-18-921-jovita-210112
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-18-921-jovita-210112
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-e90986642989-bannu-pk@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261021T134554Z
@@ -75,6 +205,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-30705-idaios-704960-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T213215Z
+DTEND:20261101T214215Z
+SUMMARY:(30705) Idaios hides a mag 12.8 star
+DESCRIPTION:(30705) Idaios hides a magnitude 12.8 star\, seen from Bannu\, 
+ PK.\nYou are inside the path\, 8 km from its centre line: the star vanishe
+ s for up to 2.5 s.\nClosest approach 02:37:15 PKT\, give or take 2 s. The 
+ star is 72° up in the W · dark sky.\nIt fades 4.6 magnitudes for up to 2
+ .7 s on the centre line\, and the path is 45 km wide\, give or take 36 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-01-30705-idaios-704960
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-30705-idaios-7049
+ 60
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(30705) Idaios hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-e6922ed4eeeb-bannu-pk@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T201315Z
@@ -86,6 +238,72 @@ DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:13:15 at the dark limb P
  ult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-04-4004-list-ev-238720-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261104T211249Z
+DTEND:20261104T212249Z
+SUMMARY:(4004) List'ev hides a mag 10.9 star (just outside the path)
+DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Bannu\, 
+ PK.\nThe predicted edge passes 7 km to the SW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 02:17:49 PKT\, give or take 1 s. The star is 83° up in the 
+ N · dark sky.\nIt fades 5.6 magnitudes for up to 2.5 s on the centre line
+ \, and the path is 25 km wide\, give or take 14 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-
+ 04-4004-list-ev-238720
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-04-4004-list-ev-2387
+ 20
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4004) List'ev hides a mag 10.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-37-fides-411008-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T142034Z
+DTEND:20261112T143034Z
+SUMMARY:(37) Fides hides a mag 10.6 star
+DESCRIPTION:(37) Fides hides a magnitude 10.6 star\, seen from Bannu\, PK.\
+ nYou are inside the path\, 41 km from its centre line: the star vanishes f
+ or up to 2.8 s.\nClosest approach 19:25:34 PKT\, give or take 1 s. The sta
+ r is 17° up in the SW · dark sky.\nIt fades 2.4 magnitudes for up to 3.5
+  s on the centre line\, and the path is 108 km wide\, give or take 23 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-11#2026-11-12-37-fides-411008
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-37-fides-411008
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(37) Fides hides a mag 10.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-18-5167-joeharms-636608-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261118T181008Z
+DTEND:20261118T182008Z
+SUMMARY:(5167) Joeharms hides a mag 12.2 star
+DESCRIPTION:(5167) Joeharms hides a magnitude 12.2 star\, seen from Bannu\,
+  PK.\nYou are inside the path\, 8 km from its centre line: the star vanish
+ es for up to 0.3 s.\nClosest approach 23:15:08 PKT\, give or take 1 s. The
+  star is 56° up in the ENE · dark sky.\nIt fades 5.1 magnitudes for up t
+ o 1.3 s on the centre line\, and the path is 17 km wide\, give or take 16 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2026-11#2026-11-18-5167-joeharms-636608
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-18-5167-joeharms-636
+ 608
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(5167) Joeharms hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-d7019a735a67-bannu-pk@occult.alokm.com
@@ -112,6 +330,28 @@ DESCRIPTION:44 Leo (magnitude 5.6) reappears at 03:41:02 at the dark limb P
  cult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-13-3061-cook-016384-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261213T232442Z
+DTEND:20261213T233442Z
+SUMMARY:(3061) Cook hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(3061) Cook hides a magnitude 12.2 star\, seen from Bannu\, PK.
+ \nThe predicted edge passes 15 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 04:29:42 PKT\, give or take 2 s. The star is 43° up in the W
+  · dark sky.\nIt fades 4.5 magnitudes for up to 1.6 s on the centre line\
+ , and the path is 23 km wide\, give or take 16 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-1
+ 3-3061-cook-016384
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-13-3061-cook-016384
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3061) Cook hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-761f047e8c24-bannu-pk@occult.alokm.com
@@ -166,6 +406,49 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-16-283-emma-081408-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270116T183130Z
+DTEND:20270116T184130Z
+SUMMARY:(283) Emma hides a mag 10.8 star
+DESCRIPTION:(283) Emma hides a magnitude 10.8 star\, seen from Bannu\, PK.\
+ nYou are inside the path\, 3 km from its centre line: the star vanishes fo
+ r up to 9.2 s.\nClosest approach 23:36:30 PKT\, give or take 1 s. The star
+  is 60° up in the ESE · dark sky.\nIt fades 2.8 magnitudes for up to 9.4
+  s on the centre line\, and the path is 132 km wide\, give or take 19 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-01#2027-01-16-283-emma-081408
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-16-283-emma-081408
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(283) Emma hides a mag 10.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-21-3650-kunming-230080-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270121T002701Z
+DTEND:20270121T003701Z
+SUMMARY:(3650) Kunming hides a mag 10.8 star
+DESCRIPTION:(3650) Kunming hides a magnitude 10.8 star\, seen from Bannu\, 
+ PK.\nYou are inside the path\, 7 km from its centre line: the star vanishe
+ s for up to 0.6 s.\nClosest approach 05:32:01 PKT\, give or take 1 s. The 
+ star is 14° up in the SE · dark sky.\nIt fades 6.8 magnitudes for up to 
+ 0.7 s on the centre line\, and the path is 27 km wide\, give or take 25 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-01#2027-01-21-3650-kunming-230080
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-21-3650-kunming-2300
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3650) Kunming hides a mag 10.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-5534ae4a2d12-bannu-pk@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270124T221735Z
@@ -177,6 +460,29 @@ DESCRIPTION:48 Leo (magnitude 5.1) reappears at 03:17:35 at the dark limb P
  cult.alokm.com/moon-stars-2027-01
 URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-12-1281-jeanne-685184-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270212T003802Z
+DTEND:20270212T004802Z
+SUMMARY:(1281) Jeanne hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(1281) Jeanne hides a magnitude 12.1 star\, seen from Bannu\, P
+ K.\nThe predicted edge passes 27 km to the SSW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 05:43:02 PKT\, give or take 0 s. The star is 17° up in the
+  SE · dark sky.\nIt fades 4.4 magnitudes for up to 0.6 s on the centre li
+ ne\, and the path is 26 km wide\, give or take 19 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-0
+ 2-12-1281-jeanne-685184
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-12-1281-jeanne-68518
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1281) Jeanne hides a mag 12.1 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-51a054716b32-bannu-pk@occult.alokm.com
@@ -232,6 +538,49 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-23-1639-bower-221248-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T223322Z
+DTEND:20270223T224322Z
+SUMMARY:(1639) Bower hides a mag 11.0 star (just outside the path)
+DESCRIPTION:(1639) Bower hides a magnitude 11.0 star\, seen from Bannu\, PK
+ .\nThe predicted edge passes 21 km to the SSW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 03:38:22 PKT\, give or take 1 s. The star is 25° up in the 
+ W · dark sky.\nIt fades 3.6 magnitudes for up to 4.5 s on the centre line
+ \, and the path is 36 km wide\, give or take 34 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-
+ 23-1639-bower-221248
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-1639-bower-221248
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1639) Bower hides a mag 11.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-10-245-vera-352640-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270310T160717Z
+DTEND:20270310T161717Z
+SUMMARY:(245) Vera hides a mag 12.4 star
+DESCRIPTION:(245) Vera hides a magnitude 12.4 star\, seen from Bannu\, PK.\
+ nYou are inside the path\, 15 km from its centre line: the star vanishes f
+ or up to 5.7 s.\nClosest approach 21:12:17 PKT\, give or take 3 s. The sta
+ r is 61° up in the ESE · dark sky.\nIt fades 1.1 magnitudes for up to 6.
+ 4 s on the centre line\, and the path is 76 km wide\, give or take 26 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-03#2027-03-10-245-vera-352640
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-10-245-vera-352640
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(245) Vera hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-35aa9ea3d1da-bannu-pk@occult.alokm.com
 DTSTAMP:20270301T000000Z
 DTSTART:20270312T151613Z
@@ -243,6 +592,95 @@ DESCRIPTION:26 Ari (magnitude 6.1) disappears at 20:16:13 at the dark limb
  ult.alokm.com/moon-stars-2027-03
 URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-13-940-kordula-671872-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270313T171358Z
+DTEND:20270313T172358Z
+SUMMARY:(940) Kordula hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(940) Kordula hides a magnitude 11.7 star\, seen from Bannu\, P
+ K.\nThe predicted edge passes 20 km to the SSW\, so a miss is likely — b
+ ut a chord from near the edge is the most valuable observation of all.\nCl
+ osest approach 22:18:58 PKT\, give or take 1 s. The star is 25° up in the
+  WNW · dark sky.\nIt fades 3.9 magnitudes for up to 3.5 s on the centre l
+ ine\, and the path is 80 km wide\, give or take 25 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-
+ 03-13-940-kordula-671872
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-13-940-kordula-67187
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(940) Kordula hides a mag 11.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-30-868-lova-000256-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270330T175315Z
+DTEND:20270330T180315Z
+SUMMARY:(868) Lova hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(868) Lova hides a magnitude 10.7 star\, seen from Bannu\, PK.\
+ nThe predicted edge passes 21 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 22:58:15 PKT\, give or take 1 s. The star is 24° up in the WN
+ W · dark sky.\nIt fades 4.8 magnitudes for up to 2.3 s on the centre line
+ \, and the path is 51 km wide\, give or take 27 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-
+ 30-868-lova-000256
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-30-868-lova-000256
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-03-1107-lictoria-568512-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270503T232143Z
+DTEND:20270503T233143Z
+SUMMARY:(1107) Lictoria hides a mag 9.6 star
+DESCRIPTION:(1107) Lictoria hides a magnitude 9.6 star\, seen from Bannu\, 
+ PK.\nYou are inside the path\, 31 km from its centre line: the star vanish
+ es for up to 35.1 s.\nClosest approach 04:26:43 PKT\, give or take 10 s. T
+ he star is 37° up in the S · dark sky.\nIt fades 6.0 magnitudes for up t
+ o 34.3 s on the centre line\, and the path is 79 km wide\, give or take 27
+  km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com
+ /asteroids-2027-05#2027-05-03-1107-lictoria-568512
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-03-1107-lictoria-568
+ 512
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1107) Lictoria hides a mag 9.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-05-447-valentine-906048-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270505T232752Z
+DTEND:20270505T233752Z
+SUMMARY:(447) Valentine hides a mag 10.9 star
+DESCRIPTION:(447) Valentine hides a magnitude 10.9 star\, seen from Bannu\,
+  PK.\nYou are inside the path\, 50 km from its centre line: the star vanis
+ hes for up to 7.8 s.\nClosest approach 04:32:52 PKT\, give or take 4 s. Th
+ e star is 33° up in the SSE · dusk.\nIt fades 3.6 magnitudes for up to 1
+ 0.5 s on the centre line\, and the path is 85 km wide\, give or take 19 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-05#2027-05-05-447-valentine-906048
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-05-447-valentine-906
+ 048
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(447) Valentine hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-0639ad853aab-bannu-pk@occult.alokm.com
@@ -285,6 +723,49 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-05-28-319-leona-735488-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270528T162408Z
+DTEND:20270528T163408Z
+SUMMARY:(319) Leona hides a mag 10.6 star (just outside the path)
+DESCRIPTION:(319) Leona hides a magnitude 10.6 star\, seen from Bannu\, PK.
+ \nThe predicted edge passes 27 km to the NNE\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 21:29:08 PKT\, give or take 2 s. The star is 20° up in the E
+ SE · dark sky.\nIt fades 5.5 magnitudes for up to 3.3 s on the centre lin
+ e\, and the path is 50 km wide\, give or take 35 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05
+ -28-319-leona-735488
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-28-319-leona-735488
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(319) Leona hides a mag 10.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-29-1035-amata-925376-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270529T172057Z
+DTEND:20270529T173057Z
+SUMMARY:(1035) Amata hides a mag 11.6 star
+DESCRIPTION:(1035) Amata hides a magnitude 11.6 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 36 km from its centre line: the star vanishes
+  for up to 1.5 s.\nClosest approach 22:25:57 PKT\, give or take 1 s. The s
+ tar is 23° up in the WNW · dark sky.\nIt fades 5.6 magnitudes for up to 
+ 2.2 s on the centre line\, and the path is 56 km wide\, give or take 29 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-05#2027-05-29-1035-amata-925376
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-29-1035-amata-925376
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1035) Amata hides a mag 11.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-45343ab7aed2-bannu-pk@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270606T151038Z
@@ -311,6 +792,27 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-18-2214-carol-493440-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270618T183024Z
+DTEND:20270618T184024Z
+SUMMARY:(2214) Carol hides a mag 12.3 star
+DESCRIPTION:(2214) Carol hides a magnitude 12.3 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 7 km from its centre line: the star vanishes 
+ for up to 2.4 s.\nClosest approach 23:35:24 PKT\, give or take 3 s. The st
+ ar is 55° up in the SSW · dark sky.\nIt fades 3.6 magnitudes for up to 2
+ .8 s on the centre line\, and the path is 26 km wide\, give or take 24 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-06#2027-06-18-2214-carol-493440
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-18-2214-carol-493440
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2214) Carol hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-83a2a8bcf663-bannu-pk@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T223039Z
@@ -324,6 +826,27 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-24-189-phthia-788800-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270624T164435Z
+DTEND:20270624T165435Z
+SUMMARY:(189) Phthia hides a mag 12.2 star
+DESCRIPTION:(189) Phthia hides a magnitude 12.2 star\, seen from Bannu\, PK
+ .\nYou are inside the path\, 3 km from its centre line: the star vanishes 
+ for up to 4.7 s.\nClosest approach 21:49:35 PKT\, give or take 1 s. The st
+ ar is 16° up in the ESE · dark sky.\nIt fades 1.1 magnitudes for up to 4
+ .9 s on the centre line\, and the path is 38 km wide\, give or take 18 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-06#2027-06-24-189-phthia-788800
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-24-189-phthia-788800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(189) Phthia hides a mag 12.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-5ca2c05c771b-bannu-pk@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270710T174040Z
@@ -335,6 +858,28 @@ DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 22:40:40 at the dark limb
  ccult.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-16-1724-vladimir-495488-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270716T180012Z
+DTEND:20270716T181012Z
+SUMMARY:(1724) Vladimir hides a mag 12.6 star
+DESCRIPTION:(1724) Vladimir hides a magnitude 12.6 star\, seen from Bannu\,
+  PK.\nYou are inside the path\, 18 km from its centre line: the star vanis
+ hes for up to 2.3 s.\nClosest approach 23:05:12 PKT\, give or take 1 s. Th
+ e star is 45° up in the SSE · dark sky.\nIt fades 3.0 magnitudes for up 
+ to 3.1 s on the centre line\, and the path is 38 km wide\, give or take 14
+  km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com
+ /asteroids-2027-07#2027-07-16-1724-vladimir-495488
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-16-1724-vladimir-495
+ 488
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1724) Vladimir hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-bd9a151ee91d-bannu-pk@occult.alokm.com
@@ -400,6 +945,28 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 04:33:32 at the dark limb P
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-24-1792-reni-338816-bannu-pk@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270824T234011Z
+DTEND:20270824T235011Z
+SUMMARY:(1792) Reni hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(1792) Reni hides a magnitude 12.2 star\, seen from Bannu\, PK.
+ \nThe predicted edge passes 11 km to the NNW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 04:45:11 PKT\, give or take 1 s. The star is 50° up in the E
+  · dark sky.\nIt fades 4.2 magnitudes for up to 0.8 s on the centre line\
+ , and the path is 24 km wide\, give or take 16 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-2
+ 4-1792-reni-338816
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-24-1792-reni-338816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1792) Reni hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-7672dd678eb9-bannu-pk@occult.alokm.com

@@ -28,6 +28,27 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-shillong@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230947Z
+DTEND:20260928T231947Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Shillong.\nYo
+ u are inside the path\, 280 km from its centre line: the star vanishes for
+  up to 34.7 s.\nClosest approach 04:44:47 IST\, give or take 1 s. The star
+  is 73° up in the E · dusk.\nIt fades 0.1 magnitudes for up to 42.3 s on
+  the centre line\, and the path is 939 km wide\, give or take 19 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-392f1c6ccd32-shillong@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162025Z
@@ -67,6 +88,28 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-15-2448-sholokhov-448896-shillong@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261015T225630Z
+DTEND:20261015T230630Z
+SUMMARY:(2448) Sholokhov hides a mag 10.7 star
+DESCRIPTION:(2448) Sholokhov hides a magnitude 10.7 star\, seen from Shillo
+ ng.\nYou are inside the path\, 9 km from its centre line: the star vanishe
+ s for up to 0.7 s.\nClosest approach 04:31:30 IST\, give or take 1 s. The 
+ star is 11° up in the E · dusk.\nIt fades 5.6 magnitudes for up to 0.8 s
+  on the centre line\, and the path is 39 km wide\, give or take 35 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-10#2026-10-15-2448-sholokhov-448896
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-15-2448-sholokhov-44
+ 8896
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2448) Sholokhov hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-217ec92d9828-shillong@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T132916Z
@@ -91,6 +134,52 @@ DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:40:23 at the dark limb
  t.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-01-30705-idaios-704960-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T213018Z
+DTEND:20261101T214018Z
+SUMMARY:(30705) Idaios hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(30705) Idaios hides a magnitude 12.8 star\, seen from Shillong
+ .\nThe predicted edge passes 22 km to the SSW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 03:05:18 IST\, give or take 2 s. The star is 53° up in the 
+ WNW · dark sky.\nIt fades 4.6 magnitudes for up to 2.7 s on the centre li
+ ne\, and the path is 45 km wide\, give or take 36 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-1
+ 1-01-30705-idaios-704960
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-30705-idaios-7049
+ 60
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(30705) Idaios hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-02-354-eleonora-881728-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261102T145434Z
+DTEND:20261102T150434Z
+SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Shillong
+ .\nThe predicted edge passes 11 km to the SSE\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 20:29:34 IST\, give or take 2 s. The star is 31° up in the 
+ SW · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 s on the centre li
+ ne\, and the path is 149 km wide\, give or take 21 km.\nFinder chart\, the
+  map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-
+ 11-02-354-eleonora-881728
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-02-354-eleonora-8817
+ 28
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-8b579dd6b892-shillong@occult.alokm.com
@@ -119,6 +208,97 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-05-1984-fedynskij-598656-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261105T224436Z
+DTEND:20261105T225436Z
+SUMMARY:(1984) Fedynskij hides a mag 12.7 star
+DESCRIPTION:(1984) Fedynskij hides a magnitude 12.7 star\, seen from Shillo
+ ng.\nYou are inside the path\, 7 km from its centre line: the star vanishe
+ s for up to 4.4 s.\nClosest approach 04:19:36 IST\, give or take 2 s. The 
+ star is 57° up in the W · dark sky.\nIt fades 3.7 magnitudes for up to 5
+ .1 s on the centre line\, and the path is 36 km wide\, give or take 17 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2026-11#2026-11-05-1984-fedynskij-598656
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-05-1984-fedynskij-59
+ 8656
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1984) Fedynskij hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-06-2330-ontake-223872-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261106T214801Z
+DTEND:20261106T215801Z
+SUMMARY:(2330) Ontake hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(2330) Ontake hides a magnitude 12.4 star\, seen from Shillong.
+ \nThe predicted edge passes 15 km to the N\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 03:23:01 IST\, give or take 2 s. The star is 65° up in the WSW
+  · dark sky.\nIt fades 4.6 magnitudes for up to 4.1 s on the centre line\
+ , and the path is 33 km wide\, give or take 26 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-0
+ 6-2330-ontake-223872
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-06-2330-ontake-22387
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2330) Ontake hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-10-4980-magomaev-478976-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261110T143938Z
+DTEND:20261110T144938Z
+SUMMARY:(4980) Magomaev hides a mag 11.4 star (just outside the path)
+DESCRIPTION:(4980) Magomaev hides a magnitude 11.4 star\, seen from Shillon
+ g.\nThe predicted edge passes 8 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 20:14:38 IST\, give or take 2 s. The star is 50° up in the 
+ E · dark sky.\nIt fades 4.8 magnitudes for up to 1.6 s on the centre line
+ \, and the path is 17 km wide\, give or take 13 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-11-
+ 10-4980-magomaev-478976
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-10-4980-magomaev-478
+ 976
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4980) Magomaev hides a mag 11.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-780-armenia-852928-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T132752Z
+DTEND:20261112T133752Z
+SUMMARY:(780) Armenia hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(780) Armenia hides a magnitude 12.8 star\, seen from Shillong.
+ \nThe predicted edge passes 25 km to the NNW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 19:02:52 IST\, give or take 1 s. The star is 12° up in the W
+ SW · dark sky.\nIt fades 2.3 magnitudes for up to 3.3 s on the centre lin
+ e\, and the path is 126 km wide\, give or take 26 km.\nFinder chart\, the 
+ map and the path as KML: https://occult.alokm.com/asteroids-2026-11#2026-1
+ 1-12-780-armenia-852928
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-780-armenia-85292
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(780) Armenia hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-330d88035812-shillong@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145947Z
@@ -143,6 +323,27 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:38:41 at the dark limb
  ult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-18-799-gudula-360000-shillong@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261118T152622Z
+DTEND:20261118T153622Z
+SUMMARY:(799) Gudula hides a mag 8.2 star
+DESCRIPTION:(799) Gudula hides a magnitude 8.2 star\, seen from Shillong.\n
+ You are inside the path\, 8 km from its centre line: the star vanishes for
+  up to 6.8 s.\nClosest approach 21:01:22 IST\, give or take 2 s. The star 
+ is 44° up in the SW · dark sky.\nIt fades 6.6 magnitudes for up to 6.8 s
+  on the centre line\, and the path is 47 km wide\, give or take 14 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2026-11#2026-11-18-799-gudula-360000
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-18-799-gudula-360000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(799) Gudula hides a mag 8.2 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-f53934d4da68-shillong@occult.alokm.com
@@ -184,6 +385,93 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-13-1520-imatra-313344-shillong@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261213T211002Z
+DTEND:20261213T212002Z
+SUMMARY:(1520) Imatra hides a mag 9.2 star (just outside the path)
+DESCRIPTION:(1520) Imatra hides a magnitude 9.2 star\, seen from Shillong.\
+ nThe predicted edge passes 8 km to the S\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 02:45:02 IST\, give or take 1 s. The star is 51° up in the W · 
+ dark sky.\nIt fades 5.7 magnitudes for up to 3.8 s on the centre line\, an
+ d the path is 53 km wide\, give or take 15 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-13-15
+ 20-imatra-313344
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-13-1520-imatra-31334
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1520) Imatra hides a mag 9.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-27-1721-wells-005376-shillong@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261227T170943Z
+DTEND:20261227T171943Z
+SUMMARY:(1721) Wells hides a mag 11.9 star
+DESCRIPTION:(1721) Wells hides a magnitude 11.9 star\, seen from Shillong.\
+ nYou are inside the path\, 19 km from its centre line: the star vanishes f
+ or up to 2.4 s.\nClosest approach 22:44:43 IST\, give or take 1 s. The sta
+ r is 63° up in the NW · dark sky.\nIt fades 4.0 magnitudes for up to 3.9
+  s on the centre line\, and the path is 44 km wide\, give or take 16 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-12#2026-12-27-1721-wells-005376
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-27-1721-wells-005376
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1721) Wells hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-29-101-helena-272192-shillong@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261229T115447Z
+DTEND:20261229T120447Z
+SUMMARY:(101) Helena hides a mag 13.3 star
+DESCRIPTION:(101) Helena hides a magnitude 13.3 star\, seen from Shillong.\
+ nYou are inside the path\, 7 km from its centre line: the star vanishes fo
+ r up to 5.9 s.\nClosest approach 17:29:47 IST\, give or take 3 s. The star
+  is 81° up in the SE · dusk.\nIt fades 0.5 magnitudes for up to 5.8 s on
+  the centre line\, and the path is 66 km wide\, give or take 14 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2026-12#2026-12-29-101-helena-272192
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-29-101-helena-272192
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(101) Helena hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-13-1548-palomaa-042048-shillong@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270113T121736Z
+DTEND:20270113T122736Z
+SUMMARY:(1548) Palomaa hides a mag 7.0 star
+DESCRIPTION:(1548) Palomaa hides a magnitude 7.0 star\, seen from Shillong.
+ \nYou are inside the path\, 10 km from its centre line: the star vanishes 
+ for up to 2.4 s.\nClosest approach 17:52:36 IST\, give or take 2 s. The st
+ ar is 51° up in the ESE · dark sky.\nIt fades 9.5 magnitudes for up to 3
+ .3 s on the centre line\, and the path is 31 km wide\, give or take 16 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-01#2027-01-13-1548-palomaa-042048
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-13-1548-palomaa-0420
+ 48
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1548) Palomaa hides a mag 7.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-d6c4a8768d9e-shillong@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270121T142830Z
@@ -210,6 +498,29 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-26-1340-yvette-128320-shillong@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270126T233644Z
+DTEND:20270126T234644Z
+SUMMARY:(1340) Yvette hides a mag 10.3 star (just outside the path)
+DESCRIPTION:(1340) Yvette hides a magnitude 10.3 star\, seen from Shillong.
+ \nThe predicted edge passes 22 km to the SSW\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 05:11:44 IST\, give or take 2 s. The star is 46° up in the S
+ SE · dark sky.\nIt fades 6.4 magnitudes for up to 1.3 s on the centre lin
+ e\, and the path is 29 km wide\, give or take 20 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01
+ -26-1340-yvette-128320
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-26-1340-yvette-12832
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1340) Yvette hides a mag 10.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-ef6072e2ba26-shillong@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270201T225808Z
@@ -221,6 +532,28 @@ DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:28:08 at the dark limb I
  t.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-05-2008-konstitutsiya-697600-shillong@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270205T122916Z
+DTEND:20270205T123916Z
+SUMMARY:(2008) Konstitutsiya hides a mag 12.6 star
+DESCRIPTION:(2008) Konstitutsiya hides a magnitude 12.6 star\, seen from Sh
+ illong.\nYou are inside the path\, 7 km from its centre line: the star van
+ ishes for up to 4.4 s.\nClosest approach 18:04:16 IST\, give or take 4 s. 
+ The star is 45° up in the NE · dark sky.\nIt fades 3.2 magnitudes for up
+  to 4.6 s on the centre line\, and the path is 52 km wide\, give or take 4
+ 0 km.\nFinder chart\, the map and the path as KML: https://occult.alokm.co
+ m/asteroids-2027-02#2027-02-05-2008-konstitutsiya-697600
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-05-2008-konstitutsiy
+ a-697600
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2008) Konstitutsiya hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-138ea4dcce54-shillong@occult.alokm.com
@@ -236,6 +569,51 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-15-416-vaticana-430080-shillong@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270215T225310Z
+DTEND:20270215T230310Z
+SUMMARY:(416) Vaticana hides a mag 12.1 star
+DESCRIPTION:(416) Vaticana hides a magnitude 12.1 star\, seen from Shillong
+ .\nYou are inside the path\, 22 km from its centre line: the star vanishes
+  for up to 1.9 s.\nClosest approach 04:28:10 IST\, give or take 1 s. The s
+ tar is 15° up in the SE · dark sky.\nIt fades 0.9 magnitudes for up to 2
+ .1 s on the centre line\, and the path is 85 km wide\, give or take 31 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-15-416-vaticana-430080
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-15-416-vaticana-4300
+ 80
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(416) Vaticana hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-15-20-massalia-812160-shillong@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270215T232513Z
+DTEND:20270215T233513Z
+SUMMARY:(20) Massalia hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(20) Massalia hides a magnitude 11.6 star\, seen from Shillong.
+ \nThe predicted edge passes 6 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 05:00:13 IST\, give or take 1 s. The star is 24° up in the SE
+  · dark sky.\nIt fades 1.0 magnitudes for up to 3.9 s on the centre line\
+ , and the path is 136 km wide\, give or take 24 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02-
+ 15-20-massalia-812160
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-15-20-massalia-81216
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(20) Massalia hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-34e8d1d85c94-shillong@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270216T174640Z
@@ -249,6 +627,29 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-19-2563-boyarchuk-918848-shillong@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270219T125505Z
+DTEND:20270219T130505Z
+SUMMARY:(2563) Boyarchuk hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(2563) Boyarchuk hides a magnitude 11.9 star\, seen from Shillo
+ ng.\nThe predicted edge passes 7 km to the S\, so a miss is likely — but
+  a chord from near the edge is the most valuable observation of all.\nClos
+ est approach 18:30:05 IST\, give or take 1 s. The star is 70° up in the W
+ SW · dark sky.\nIt fades 5.8 magnitudes for up to 1.4 s on the centre lin
+ e\, and the path is 24 km wide\, give or take 24 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027-02
+ -19-2563-boyarchuk-918848
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-19-2563-boyarchuk-91
+ 8848
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2563) Boyarchuk hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-d13f65ae2339-shillong@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270220T215422Z
@@ -260,6 +661,28 @@ DESCRIPTION:31 Leo (magnitude 4.5) disappears at 03:24:22 at the dark limb
  on this month\, for anywhere: https://occult.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-26-758-mancunia-202176-shillong@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270226T212606Z
+DTEND:20270226T213606Z
+SUMMARY:(758) Mancunia hides a mag 11.8 star
+DESCRIPTION:(758) Mancunia hides a magnitude 11.8 star\, seen from Shillong
+ .\nYou are inside the path\, 6 km from its centre line: the star vanishes 
+ for up to 3.0 s.\nClosest approach 03:01:06 IST\, give or take 1 s. The st
+ ar is 10° up in the ESE · dark sky.\nIt fades 3.2 magnitudes for up to 3
+ .0 s on the centre line\, and the path is 89 km wide\, give or take 29 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-02#2027-02-26-758-mancunia-202176
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-26-758-mancunia-2021
+ 76
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(758) Mancunia hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-e12a6e2b3369-shillong@occult.alokm.com
@@ -286,6 +709,117 @@ DESCRIPTION:HR 7103 (magnitude 6.3) reappears at 03:46:28 at the dark limb
  lt.alokm.com/moon-stars-2027-03
 URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-15-27226-27226-989440-shillong@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270315T154547Z
+DTEND:20270315T155547Z
+SUMMARY:(27226) 27226 hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(27226) 27226 hides a magnitude 12.0 star\, seen from Shillong.
+ \nThe predicted edge passes 16 km to the NW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 21:20:47 IST\, give or take 3 s. The star is 62° up in the W 
+ · dark sky.\nIt fades 5.6 magnitudes for up to 4.2 s on the centre line\,
+  and the path is 23 km wide\, give or take 19 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-15
+ -27226-27226-989440
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-15-27226-27226-98944
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(27226) 27226 hides a mag 12.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-15-426-hippo-854912-shillong@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270315T170754Z
+DTEND:20270315T171754Z
+SUMMARY:(426) Hippo hides a mag 12.5 star
+DESCRIPTION:(426) Hippo hides a magnitude 12.5 star\, seen from Shillong.\n
+ You are inside the path\, 82 km from its centre line: the star vanishes fo
+ r up to 4.5 s.\nClosest approach 22:42:54 IST\, give or take 1 s. The star
+  is 27° up in the WNW · dark sky.\nIt fades 1.5 magnitudes for up to 8.8
+  s on the centre line\, and the path is 138 km wide\, give or take 18 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-03#2027-03-15-426-hippo-854912
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-15-426-hippo-854912
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(426) Hippo hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-02-566-stereoskopia-156096-shillong@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270402T134928Z
+DTEND:20270402T135928Z
+SUMMARY:(566) Stereoskopia hides a mag 11.5 star (just outside the path)
+DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Shil
+ long.\nThe predicted edge passes 5 km to the SSW\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 19:24:28 IST\, give or take 1 s. The star is 54° up in t
+ he W · dark sky.\nIt fades 2.9 magnitudes for up to 7.7 s on the centre l
+ ine\, and the path is 167 km wide\, give or take 24 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027
+ -04-02-566-stereoskopia-156096
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-02-566-stereoskopia-
+ 156096
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(566) Stereoskopia hides a mag 11.5 star (just outside the path
+ )
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-04-627-charis-834368-shillong@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270404T195816Z
+DTEND:20270404T200816Z
+SUMMARY:(627) Charis hides a mag 12.5 star
+DESCRIPTION:(627) Charis hides a magnitude 12.5 star\, seen from Shillong.\
+ nYou are inside the path\, 20 km from its centre line: the star vanishes f
+ or up to 2.6 s.\nClosest approach 01:33:16 IST\, give or take 2 s. The sta
+ r is 30° up in the SE · dark sky.\nIt fades 2.7 magnitudes for up to 3.7
+  s on the centre line\, and the path is 38 km wide\, give or take 18 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-04#2027-04-04-627-charis-834368
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-04-627-charis-834368
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(627) Charis hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-10-659-nestor-635008-shillong@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270410T162404Z
+DTEND:20270410T163404Z
+SUMMARY:(659) Nestor hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(659) Nestor hides a magnitude 10.5 star\, seen from Shillong.\
+ nThe predicted edge passes 61 km to the NNE\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 21:59:04 IST\, give or take 3 s. The star is 57° up in the SS
+ E · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 s on the centre line
+ \, and the path is 112 km wide\, give or take 65 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-04#2027-04
+ -10-659-nestor-635008
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-10-659-nestor-635008
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(659) Nestor hides a mag 10.5 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-35673897dac2-shillong@occult.alokm.com
@@ -327,6 +861,90 @@ URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-19-573-recha-601024-shillong@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270419T132533Z
+DTEND:20270419T133533Z
+SUMMARY:(573) Recha hides a mag 12.4 star
+DESCRIPTION:(573) Recha hides a magnitude 12.4 star\, seen from Shillong.\n
+ You are inside the path\, 11 km from its centre line: the star vanishes fo
+ r up to 1.2 s.\nClosest approach 19:00:33 IST\, give or take 1 s. The star
+  is 36° up in the WNW · dark sky.\nIt fades 3.0 magnitudes for up to 1.4
+  s on the centre line\, and the path is 48 km wide\, give or take 25 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-04#2027-04-19-573-recha-601024
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-19-573-recha-601024
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(573) Recha hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-19-791-ani-753216-shillong@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270419T154336Z
+DTEND:20270419T155336Z
+SUMMARY:(791) Ani hides a mag 11.8 star
+DESCRIPTION:(791) Ani hides a magnitude 11.8 star\, seen from Shillong.\nYo
+ u are inside the path\, 0 km from its centre line: the star vanishes for u
+ p to 4.4 s.\nClosest approach 21:18:36 IST\, give or take 1 s. The star is
+  16° up in the WNW · dark sky.\nIt fades 4.0 magnitudes for up to 4.4 s 
+ on the centre line\, and the path is 117 km wide\, give or take 28 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-04#2027-04-19-791-ani-753216
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-19-791-ani-753216
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(791) Ani hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-11-1049-gotho-674688-shillong@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270511T172505Z
+DTEND:20270511T173505Z
+SUMMARY:(1049) Gotho hides a mag 13.3 star
+DESCRIPTION:(1049) Gotho hides a magnitude 13.3 star\, seen from Shillong.\
+ nYou are inside the path\, 13 km from its centre line: the star vanishes f
+ or up to 3.6 s.\nClosest approach 23:00:05 IST\, give or take 1 s. The sta
+ r is 27° up in the S · dark sky.\nIt fades 2.5 magnitudes for up to 3.9 
+ s on the centre line\, and the path is 56 km wide\, give or take 18 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-11-1049-gotho-674688
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-11-1049-gotho-674688
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1049) Gotho hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-17-283-emma-285504-shillong@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270517T134741Z
+DTEND:20270517T135741Z
+SUMMARY:(283) Emma hides a mag 10.2 star
+DESCRIPTION:(283) Emma hides a magnitude 10.2 star\, seen from Shillong.\nY
+ ou are inside the path\, 8 km from its centre line: the star vanishes for 
+ up to 5.7 s.\nClosest approach 19:22:41 IST\, give or take 1 s. The star i
+ s 47° up in the W · dark sky.\nIt fades 4.9 magnitudes for up to 5.6 s o
+ n the centre line\, and the path is 132 km wide\, give or take 28 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-05#2027-05-17-283-emma-285504
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-17-283-emma-285504
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(283) Emma hides a mag 10.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-eaa53503f4de-shillong@occult.alokm.com
 DTSTAMP:20270501T000000Z
 DTSTART:20270520T180407Z
@@ -354,6 +972,28 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-15-595-polyxena-774272-shillong@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270615T155734Z
+DTEND:20270615T160734Z
+SUMMARY:(595) Polyxena hides a mag 11.8 star
+DESCRIPTION:(595) Polyxena hides a magnitude 11.8 star\, seen from Shillong
+ .\nYou are inside the path\, 91 km from its centre line: the star vanishes
+  for up to 4.0 s.\nClosest approach 21:32:34 IST\, give or take 4 s. The s
+ tar is 24° up in the S · dark sky.\nIt fades 1.2 magnitudes for up to 8.
+ 2 s on the centre line\, and the path is 91 km wide\, give or take 22 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-06#2027-06-15-595-polyxena-774272
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-15-595-polyxena-7742
+ 72
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(595) Polyxena hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-aa8a089d0d1c-shillong@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T155351Z
@@ -365,6 +1005,28 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) reappears at 21:23:51 at the dark limb I
  t.alokm.com/moon-stars-2027-06
 URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-11-339-dorothea-373504-shillong@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270711T151033Z
+DTEND:20270711T152033Z
+SUMMARY:(339) Dorothea hides a mag 11.9 star
+DESCRIPTION:(339) Dorothea hides a magnitude 11.9 star\, seen from Shillong
+ .\nYou are inside the path\, 11 km from its centre line: the star vanishes
+  for up to 4.1 s.\nClosest approach 20:45:33 IST\, give or take 3 s. The s
+ tar is 53° up in the SSE · dark sky.\nIt fades 2.0 magnitudes for up to 
+ 4.7 s on the centre line\, and the path is 44 km wide\, give or take 14 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-07#2027-07-11-339-dorothea-373504
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-11-339-dorothea-3735
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(339) Dorothea hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-5fba97d238f2-shillong@occult.alokm.com

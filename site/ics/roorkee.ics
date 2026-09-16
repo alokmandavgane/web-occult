@@ -10,6 +10,72 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-18-934-thuringia-180672-roorkee@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260918T211135Z
+DTEND:20260918T212135Z
+SUMMARY:(934) Thuringia hides a mag 10.8 star
+DESCRIPTION:(934) Thuringia hides a magnitude 10.8 star\, seen from Roorkee
+ .\nYou are inside the path\, 25 km from its centre line: the star vanishes
+  for up to 0.7 s.\nClosest approach 02:46:35 IST\, give or take 1 s. The s
+ tar is 10° up in the ENE · dark sky.\nIt fades 4.7 magnitudes for up to 
+ 1.6 s on the centre line\, and the path is 54 km wide\, give or take 21 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-09#2026-09-18-934-thuringia-180672
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-18-934-thuringia-180
+ 672
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(934) Thuringia hides a mag 10.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-27-165-loreley-444608-roorkee@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260927T162614Z
+DTEND:20260927T163614Z
+SUMMARY:(165) Loreley hides a mag 12.6 star
+DESCRIPTION:(165) Loreley hides a magnitude 12.6 star\, seen from Roorkee.\
+ nYou are inside the path\, 48 km from its centre line: the star vanishes f
+ or up to 12.0 s.\nClosest approach 22:01:14 IST\, give or take 1 s. The st
+ ar is 61° up in the ESE · dark sky.\nIt fades 0.6 magnitudes for up to 1
+ 4.2 s on the centre line\, and the path is 180 km wide\, give or take 15 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2026-09#2026-09-27-165-loreley-444608
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-27-165-loreley-44460
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(165) Loreley hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-roorkee@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230857Z
+DTEND:20260928T231857Z
+SUMMARY:(1) Ceres hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Roorkee.\nThe
+  predicted edge passes 8 km to the SSE\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 04:43:57 IST\, give or take 1 s. The star is 60° up in the E · da
+ rk sky.\nIt fades 0.1 magnitudes for up to 42.3 s on the centre line\, and
+  the path is 939 km wide\, give or take 19 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-
+ ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-ca72ec7d9126-roorkee@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T163120Z
@@ -36,6 +102,29 @@ URL:https://occult.alokm.com/moon-stars-2026-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-01-852-wladilena-994304-roorkee@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261001T212857Z
+DTEND:20261001T213857Z
+SUMMARY:(852) Wladilena hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(852) Wladilena hides a magnitude 12.2 star\, seen from Roorkee
+ .\nThe predicted edge passes 4 km to the W\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 03:03:57 IST\, give or take 1 s. The star is 68° up in the ENE
+  · dark sky.\nIt fades 2.3 magnitudes for up to 2.2 s on the centre line\
+ , and the path is 27 km wide\, give or take 14 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2026-10#2026-10-0
+ 1-852-wladilena-994304
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-01-852-wladilena-994
+ 304
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(852) Wladilena hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a67a6c42bad5-roorkee@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261004T203428Z
@@ -47,6 +136,49 @@ DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:04:28 at the dark limb
  lt.alokm.com/moon-stars-2026-10
 URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-11-4317-garibaldi-161088-roorkee@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261010T235408Z
+DTEND:20261011T000408Z
+SUMMARY:(4317) Garibaldi hides a mag 11.2 star
+DESCRIPTION:(4317) Garibaldi hides a magnitude 11.2 star\, seen from Roorke
+ e.\nYou are inside the path\, 6 km from its centre line: the star vanishes
+  for up to 1.9 s.\nClosest approach 05:29:08 IST\, give or take 1 s. The s
+ tar is 73° up in the E · dusk.\nIt fades 6.0 magnitudes for up to 1.9 s 
+ on the centre line\, and the path is 39 km wide\, give or take 25 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2026-10#2026-10-11-4317-garibaldi-161088
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-11-4317-garibaldi-16
+ 1088
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4317) Garibaldi hides a mag 11.2 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-10-14-51-nemausa-076480-roorkee@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261014T155849Z
+DTEND:20261014T160849Z
+SUMMARY:(51) Nemausa hides a mag 12.3 star
+DESCRIPTION:(51) Nemausa hides a magnitude 12.3 star\, seen from Roorkee.\n
+ You are inside the path\, 1 km from its centre line: the star vanishes for
+  up to 5.4 s.\nClosest approach 21:33:49 IST\, give or take 1 s. The star 
+ is 13° up in the WSW · dark sky.\nIt fades 1.1 magnitudes for up to 5.3 
+ s on the centre line\, and the path is 138 km wide\, give or take 18 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-10#2026-10-14-51-nemausa-076480
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-14-51-nemausa-076480
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(51) Nemausa hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-adcc2ee61a92-roorkee@occult.alokm.com
@@ -101,6 +233,50 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-06-1014-semphyra-949824-roorkee@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261106T172732Z
+DTEND:20261106T173732Z
+SUMMARY:(1014) Semphyra hides a mag 12.6 star
+DESCRIPTION:(1014) Semphyra hides a magnitude 12.6 star\, seen from Roorkee
+ .\nYou are inside the path\, 8 km from its centre line: the star vanishes 
+ for up to 1.3 s.\nClosest approach 23:02:32 IST\, give or take 2 s. The st
+ ar is 49° up in the E · dark sky.\nIt fades 3.0 magnitudes for up to 2.7
+  s on the centre line\, and the path is 17 km wide\, give or take 11 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-06-1014-semphyra-949824
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-06-1014-semphyra-949
+ 824
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1014) Semphyra hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-6057-robbia-589824-roorkee@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T185747Z
+DTEND:20261112T190747Z
+SUMMARY:(6057) Robbia hides a mag 12.6 star
+DESCRIPTION:(6057) Robbia hides a magnitude 12.6 star\, seen from Roorkee.\
+ nYou are inside the path\, 9 km from its centre line: the star vanishes fo
+ r up to 2.0 s.\nClosest approach 00:32:47 IST\, give or take 1 s. The star
+  is 55° up in the SSE · dark sky.\nIt fades 4.3 magnitudes for up to 2.4
+  s on the centre line\, and the path is 29 km wide\, give or take 16 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-12-6057-robbia-589824
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-6057-robbia-58982
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(6057) Robbia hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-5051db3589a2-roorkee@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T150934Z
@@ -125,6 +301,28 @@ DESCRIPTION:HR 8083 (magnitude 6.2) disappears at 21:52:42 at the dark limb
  ult.alokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-22-529-preziosa-127424-roorkee@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261122T134311Z
+DTEND:20261122T135311Z
+SUMMARY:(529) Preziosa hides a mag 12.0 star
+DESCRIPTION:(529) Preziosa hides a magnitude 12.0 star\, seen from Roorkee.
+ \nYou are inside the path\, 3 km from its centre line: the star vanishes f
+ or up to 1.0 s.\nClosest approach 19:18:11 IST\, give or take 1 s. The sta
+ r is 18° up in the SW · dark sky.\nIt fades 3.8 magnitudes for up to 1.0
+  s on the centre line\, and the path is 32 km wide\, give or take 28 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-11#2026-11-22-529-preziosa-127424
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-22-529-preziosa-1274
+ 24
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(529) Preziosa hides a mag 12.0 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-c3ea22ab57a4-roorkee@occult.alokm.com
@@ -153,6 +351,51 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-04-1984-fedynskij-166656-roorkee@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261204T134436Z
+DTEND:20261204T135436Z
+SUMMARY:(1984) Fedynskij hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(1984) Fedynskij hides a magnitude 11.7 star\, seen from Roorke
+ e.\nThe predicted edge passes 2 km to the NNW\, so a miss is likely — bu
+ t a chord from near the edge is the most valuable observation of all.\nClo
+ sest approach 19:19:36 IST\, give or take 1 s. The star is 15° up in the 
+ E · dark sky.\nIt fades 4.1 magnitudes for up to 2.7 s on the centre line
+ \, and the path is 36 km wide\, give or take 16 km.\nFinder chart\, the ma
+ p and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-
+ 04-1984-fedynskij-166656
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-04-1984-fedynskij-16
+ 6656
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1984) Fedynskij hides a mag 11.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-08-2363-cebriones-584960-roorkee@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261208T153101Z
+DTEND:20261208T154101Z
+SUMMARY:(2363) Cebriones hides a mag 11.0 star
+DESCRIPTION:(2363) Cebriones hides a magnitude 11.0 star\, seen from Roorke
+ e.\nYou are inside the path\, 74 km from its centre line: the star vanishe
+ s for up to 1.7 s.\nClosest approach 21:06:01 IST\, give or take 4 s. The 
+ star is 22° up in the ESE · dark sky.\nIt fades 5.4 magnitudes for up to
+  5.0 s on the centre line\, and the path is 96 km wide\, give or take 33 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2026-12#2026-12-08-2363-cebriones-584960
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-08-2363-cebriones-58
+ 4960
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2363) Cebriones hides a mag 11.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-416221ecb422-roorkee@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261212T134750Z
@@ -164,6 +407,28 @@ DESCRIPTION:HR 7643 (magnitude 6.0) disappears at 19:17:50 at the dark limb
  lt.alokm.com/moon-stars-2026-12
 URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-16-533-sara-009728-roorkee@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261216T191444Z
+DTEND:20261216T192444Z
+SUMMARY:(533) Sara hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(533) Sara hides a magnitude 12.2 star\, seen from Roorkee.\nTh
+ e predicted edge passes 19 km to the S\, so a miss is likely — but a cho
+ rd from near the edge is the most valuable observation of all.\nClosest ap
+ proach 00:49:44 IST\, give or take 2 s. The star is 14° up in the E · da
+ rk sky.\nIt fades 3.1 magnitudes for up to 2.3 s on the centre line\, and 
+ the path is 31 km wide\, give or take 19 km.\nFinder chart\, the map and t
+ he path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-16-533-
+ sara-009728
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-16-533-sara-009728
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(533) Sara hides a mag 12.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-c58ef5570c7d-roorkee@occult.alokm.com
@@ -179,6 +444,30 @@ URL:https://occult.alokm.com/moon-stars-2026-12
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-09-7635-carolinesmith-618496-roorkee@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270109T124859Z
+DTEND:20270109T125859Z
+SUMMARY:(7635) Carolinesmith hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(7635) Carolinesmith hides a magnitude 12.2 star\, seen from Ro
+ orkee.\nThe predicted edge passes 7 km to the NW\, so a miss is likely —
+  but a chord from near the edge is the most valuable observation of all.\n
+ Closest approach 18:23:59 IST\, give or take 1 s. The star is 56° up in t
+ he SSW · dusk.\nIt fades 5.3 magnitudes for up to 1.1 s on the centre lin
+ e\, and the path is 24 km wide\, give or take 20 km.\nFinder chart\, the m
+ ap and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01
+ -09-7635-carolinesmith-618496
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-09-7635-carolinesmit
+ h-618496
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(7635) Carolinesmith hides a mag 12.2 star (just outside the pa
+ th)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2d053a0866c2-roorkee@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270112T143904Z
@@ -190,6 +479,71 @@ DESCRIPTION:HR 8716 (magnitude 5.9) disappears at 20:09:04 at the dark limb
  ult.alokm.com/moon-stars-2027-01
 URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-19-1378-leonce-488256-roorkee@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270119T001013Z
+DTEND:20270119T002013Z
+SUMMARY:(1378) Leonce hides a mag 12.3 star
+DESCRIPTION:(1378) Leonce hides a magnitude 12.3 star\, seen from Roorkee.\
+ nYou are inside the path\, 9 km from its centre line: the star vanishes fo
+ r up to 1.2 s.\nClosest approach 05:45:13 IST\, give or take 2 s. The star
+  is 15° up in the WNW · dark sky.\nIt fades 3.6 magnitudes for up to 1.7
+  s on the centre line\, and the path is 21 km wide\, give or take 20 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-01#2027-01-19-1378-leonce-488256
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-19-1378-leonce-48825
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1378) Leonce hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-20-444-gyptis-733440-roorkee@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270120T144001Z
+DTEND:20270120T145001Z
+SUMMARY:(444) Gyptis hides a mag 12.3 star
+DESCRIPTION:(444) Gyptis hides a magnitude 12.3 star\, seen from Roorkee.\n
+ You are inside the path\, 79 km from its centre line: the star vanishes fo
+ r up to 3.3 s.\nClosest approach 20:15:01 IST\, give or take 1 s. The star
+  is 32° up in the ESE · dark sky.\nIt fades 0.8 magnitudes for up to 11.
+ 4 s on the centre line\, and the path is 159 km wide\, give or take 15 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-01#2027-01-20-444-gyptis-733440
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-20-444-gyptis-733440
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(444) Gyptis hides a mag 12.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-22-3037-alku-499520-roorkee@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270122T163303Z
+DTEND:20270122T164303Z
+SUMMARY:(3037) Alku hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(3037) Alku hides a magnitude 12.8 star\, seen from Roorkee.\nT
+ he predicted edge passes 12 km to the NE\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 22:08:03 IST\, give or take 1 s. The star is 79° up in the ESE 
+ · dark sky.\nIt fades 2.1 magnitudes for up to 2.9 s on the centre line\,
+  and the path is 30 km wide\, give or take 20 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-22
+ -3037-alku-499520
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-22-3037-alku-499520
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3037) Alku hides a mag 12.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-16ca01efe9b9-roorkee@occult.alokm.com
@@ -218,6 +572,28 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-11-410-chloris-726272-roorkee@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270211T221944Z
+DTEND:20270211T222944Z
+SUMMARY:(410) Chloris hides a mag 9.7 star
+DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Roorkee.\n
+ You are inside the path\, 5 km from its centre line: the star vanishes for
+  up to 8.0 s.\nClosest approach 03:54:44 IST\, give or take 1 s. The star 
+ is 40° up in the W · dark sky.\nIt fades 3.3 magnitudes for up to 8.1 s 
+ on the centre line\, and the path is 119 km wide\, give or take 21 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-02#2027-02-11-410-chloris-726272
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-11-410-chloris-72627
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(410) Chloris hides a mag 9.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-96a3ca4dc1ea-roorkee@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270214T170813Z
@@ -229,6 +605,49 @@ DESCRIPTION:18 Tau (magnitude 5.7) disappears at 22:38:13 at the dark limb
  lt.alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-15-55-pandora-306240-roorkee@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270215T002810Z
+DTEND:20270215T003810Z
+SUMMARY:(55) Pandora hides a mag 10.5 star
+DESCRIPTION:(55) Pandora hides a magnitude 10.5 star\, seen from Roorkee.\n
+ You are inside the path\, 57 km from its centre line: the star vanishes fo
+ r up to 0.9 s.\nClosest approach 06:03:10 IST\, give or take 1 s. The star
+  is 20° up in the SE · dark sky.\nIt fades 3.2 magnitudes for up to 2.5 
+ s on the centre line\, and the path is 85 km wide\, give or take 24 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-02#2027-02-15-55-pandora-306240
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-15-55-pandora-306240
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(55) Pandora hides a mag 10.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-15-20-massalia-812160-roorkee@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270215T232455Z
+DTEND:20270215T233455Z
+SUMMARY:(20) Massalia hides a mag 11.6 star
+DESCRIPTION:(20) Massalia hides a magnitude 11.6 star\, seen from Roorkee.\
+ nYou are inside the path\, 15 km from its centre line: the star vanishes f
+ or up to 3.8 s.\nClosest approach 04:59:55 IST\, give or take 1 s. The sta
+ r is 11° up in the SE · dark sky.\nIt fades 1.0 magnitudes for up to 3.9
+  s on the centre line\, and the path is 136 km wide\, give or take 24 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-02#2027-02-15-20-massalia-812160
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-15-20-massalia-81216
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(20) Massalia hides a mag 11.6 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-36560a4bb3a2-roorkee@occult.alokm.com
@@ -270,6 +689,182 @@ URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-02-23-786-bredichina-243776-roorkee@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270223T181646Z
+DTEND:20270223T182646Z
+SUMMARY:(786) Bredichina hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Roorke
+ e.\nThe predicted edge passes 121 km to the ENE\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 23:51:46 IST\, give or take 3 s. The star is 26° up in th
+ e E · dark sky.\nIt fades 2.9 magnitudes for up to 20.1 s on the centre l
+ ine\, and the path is 108 km wide\, give or take 59 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2027-02#2027
+ -02-23-786-bredichina-243776
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-23-786-bredichina-24
+ 3776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(786) Bredichina hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-28-39-laetitia-186304-roorkee@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270228T180645Z
+DTEND:20270228T181645Z
+SUMMARY:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Roorkee.\
+ nYou are inside the path\, 95 km from its centre line: the star vanishes f
+ or up to 20.3 s.\nClosest approach 23:41:45 IST\, give or take 4 s. The st
+ ar is 20° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 3
+ 0.8 s on the centre line\, and the path is 179 km wide\, give or take 30 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-02#2027-02-28-39-laetitia-186304
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-28-39-laetitia-18630
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-13-940-kordula-671872-roorkee@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270313T171412Z
+DTEND:20270313T172412Z
+SUMMARY:(940) Kordula hides a mag 11.7 star
+DESCRIPTION:(940) Kordula hides a magnitude 11.7 star\, seen from Roorkee.\
+ nYou are inside the path\, 13 km from its centre line: the star vanishes f
+ or up to 3.3 s.\nClosest approach 22:49:12 IST\, give or take 1 s. The sta
+ r is 18° up in the WNW · dark sky.\nIt fades 3.9 magnitudes for up to 3.
+ 5 s on the centre line\, and the path is 80 km wide\, give or take 25 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-03#2027-03-13-940-kordula-671872
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-13-940-kordula-67187
+ 2
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(940) Kordula hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-23-4045-lowengrub-438400-roorkee@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270323T211037Z
+DTEND:20270323T212037Z
+SUMMARY:(4045) Lowengrub hides a mag 13.3 star
+DESCRIPTION:(4045) Lowengrub hides a magnitude 13.3 star\, seen from Roorke
+ e.\nYou are inside the path\, 15 km from its centre line: the star vanishe
+ s for up to 1.2 s.\nClosest approach 02:45:37 IST\, give or take 3 s. The 
+ star is 16° up in the ESE · dark sky.\nIt fades 4.4 magnitudes for up to
+  1.4 s on the centre line\, and the path is 31 km wide\, give or take 26 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-03#2027-03-23-4045-lowengrub-438400
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-23-4045-lowengrub-43
+ 8400
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4045) Lowengrub hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-30-868-lova-000256-roorkee@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270330T175329Z
+DTEND:20270330T180329Z
+SUMMARY:(868) Lova hides a mag 10.7 star
+DESCRIPTION:(868) Lova hides a magnitude 10.7 star\, seen from Roorkee.\nYo
+ u are inside the path\, 9 km from its centre line: the star vanishes for u
+ p to 2.2 s.\nClosest approach 23:28:29 IST\, give or take 1 s. The star is
+  17° up in the WNW · dark sky.\nIt fades 4.8 magnitudes for up to 2.3 s 
+ on the centre line\, and the path is 51 km wide\, give or take 27 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-03#2027-03-30-868-lova-000256
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-30-868-lova-000256
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(868) Lova hides a mag 10.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-14-218-bianca-074816-roorkee@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270414T231236Z
+DTEND:20270414T232236Z
+SUMMARY:(218) Bianca hides a mag 11.3 star
+DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Roorkee.\n
+ You are inside the path\, 47 km from its centre line: the star vanishes fo
+ r up to 4.0 s.\nClosest approach 04:47:36 IST\, give or take 4 s. The star
+  is 22° up in the W · dark sky.\nIt fades 1.0 magnitudes for up to 5.6 s
+  on the centre line\, and the path is 61 km wide\, give or take 18 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-04#2027-04-14-218-bianca-074816
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-14-218-bianca-074816
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(218) Bianca hides a mag 11.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-03-1107-lictoria-568512-roorkee@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270503T232756Z
+DTEND:20270503T233756Z
+SUMMARY:(1107) Lictoria hides a mag 9.6 star
+DESCRIPTION:(1107) Lictoria hides a magnitude 9.6 star\, seen from Roorkee.
+ \nYou are inside the path\, 44 km from its centre line: the star vanishes 
+ for up to 28.1 s.\nClosest approach 05:02:56 IST\, give or take 10 s. The 
+ star is 40° up in the S · dusk.\nIt fades 6.0 magnitudes for up to 34.3 
+ s on the centre line\, and the path is 79 km wide\, give or take 27 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-05#2027-05-03-1107-lictoria-568512
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-03-1107-lictoria-568
+ 512
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1107) Lictoria hides a mag 9.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-17-3094-chukokkala-064704-roorkee@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270517T170535Z
+DTEND:20270517T171535Z
+SUMMARY:(3094) Chukokkala hides a mag 12.9 star (just outside the path)
+DESCRIPTION:(3094) Chukokkala hides a magnitude 12.9 star\, seen from Roork
+ ee.\nThe predicted edge passes 11 km to the NNE\, so a miss is likely — 
+ but a chord from near the edge is the most valuable observation of all.\nC
+ losest approach 22:40:35 IST\, give or take 7 s. The star is 30° up in th
+ e ESE · dark sky.\nIt fades 3.2 magnitudes for up to 2.8 s on the centre 
+ line\, and the path is 23 km wide\, give or take 20 km.\nFinder chart\, th
+ e map and the path as KML: https://occult.alokm.com/asteroids-2027-05#2027
+ -05-17-3094-chukokkala-064704
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-17-3094-chukokkala-0
+ 64704
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3094) Chukokkala hides a mag 12.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-2946de711cc9-roorkee@occult.alokm.com
 DTSTAMP:20270501T000000Z
 DTSTART:20270520T172852Z
@@ -297,6 +892,50 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-05-28-578-happelia-446144-roorkee@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270528T182451Z
+DTEND:20270528T183451Z
+SUMMARY:(578) Happelia hides a mag 12.8 star
+DESCRIPTION:(578) Happelia hides a magnitude 12.8 star\, seen from Roorkee.
+ \nYou are inside the path\, 9 km from its centre line: the star vanishes f
+ or up to 8.0 s.\nClosest approach 23:59:51 IST\, give or take 2 s. The sta
+ r is 29° up in the SSE · dark sky.\nIt fades 0.5 magnitudes for up to 8.
+ 5 s on the centre line\, and the path is 69 km wide\, give or take 9 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-05#2027-05-28-578-happelia-446144
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-28-578-happelia-4461
+ 44
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(578) Happelia hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-29-81-terpsichore-356288-roorkee@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270529T200519Z
+DTEND:20270529T201519Z
+SUMMARY:(81) Terpsichore hides a mag 12.8 star
+DESCRIPTION:(81) Terpsichore hides a magnitude 12.8 star\, seen from Roorke
+ e.\nYou are inside the path\, 11 km from its centre line: the star vanishe
+ s for up to 10.5 s.\nClosest approach 01:40:19 IST\, give or take 4 s. The
+  star is 25° up in the S · dark sky.\nIt fades 1.3 magnitudes for up to 
+ 10.9 s on the centre line\, and the path is 118 km wide\, give or take 17 
+ km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/
+ asteroids-2027-05#2027-05-29-81-terpsichore-356288
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-29-81-terpsichore-35
+ 6288
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(81) Terpsichore hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-dcd696b91e5e-roorkee@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270609T172316Z
@@ -310,6 +949,48 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-07-02-78-diana-005632-roorkee@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270702T224900Z
+DTEND:20270702T225900Z
+SUMMARY:(78) Diana hides a mag 11.1 star
+DESCRIPTION:(78) Diana hides a magnitude 11.1 star\, seen from Roorkee.\nYo
+ u are inside the path\, 31 km from its centre line: the star vanishes for 
+ up to 2.8 s.\nClosest approach 04:24:00 IST\, give or take 1 s. The star i
+ s 31° up in the ENE · dusk.\nIt fades 2.8 magnitudes for up to 3.1 s on 
+ the centre line\, and the path is 121 km wide\, give or take 22 km.\nFinde
+ r chart\, the map and the path as KML: https://occult.alokm.com/asteroids-
+ 2027-07#2027-07-02-78-diana-005632
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-02-78-diana-005632
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(78) Diana hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-08-1127-mimi-987008-roorkee@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270708T182104Z
+DTEND:20270708T183104Z
+SUMMARY:(1127) Mimi hides a mag 12.6 star
+DESCRIPTION:(1127) Mimi hides a magnitude 12.6 star\, seen from Roorkee.\nY
+ ou are inside the path\, 11 km from its centre line: the star vanishes for
+  up to 2.9 s.\nClosest approach 23:56:04 IST\, give or take 1 s. The star 
+ is 48° up in the SSW · dark sky.\nIt fades 2.4 magnitudes for up to 3.2 
+ s on the centre line\, and the path is 46 km wide\, give or take 14 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-07#2027-07-08-1127-mimi-987008
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-08-1127-mimi-987008
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1127) Mimi hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-c0745856a5da-roorkee@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270716T212438Z
@@ -321,6 +1002,51 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 02:54:38 at the dark limb
  lt.alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-19-671-carnegia-628864-roorkee@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270719T154938Z
+DTEND:20270719T155938Z
+SUMMARY:(671) Carnegia hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(671) Carnegia hides a magnitude 11.6 star\, seen from Roorkee.
+ \nThe predicted edge passes 5 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 21:24:38 IST\, give or take 2 s. The star is 10° up in the SE
+  · dark sky.\nIt fades 3.5 magnitudes for up to 4.7 s on the centre line\
+ , and the path is 61 km wide\, give or take 28 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-1
+ 9-671-carnegia-628864
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-19-671-carnegia-6288
+ 64
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(671) Carnegia hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-23-5263-arrius-937024-roorkee@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270723T152214Z
+DTEND:20270723T153214Z
+SUMMARY:(5263) Arrius hides a mag 11.1 star
+DESCRIPTION:(5263) Arrius hides a magnitude 11.1 star\, seen from Roorkee.\
+ nYou are inside the path\, 3 km from its centre line: the star vanishes fo
+ r up to 2.1 s.\nClosest approach 20:57:14 IST\, give or take 3 s. The star
+  is 26° up in the E · dark sky.\nIt fades 5.5 magnitudes for up to 2.1 s
+  on the centre line\, and the path is 26 km wide\, give or take 20 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-07#2027-07-23-5263-arrius-937024
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-23-5263-arrius-93702
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(5263) Arrius hides a mag 11.1 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-9c5c8c5d0f43-roorkee@occult.alokm.com
@@ -347,6 +1073,29 @@ DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 23:30:50 at the dark limb
  t.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-25-2217-eltigen-610624-roorkee@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270825T163104Z
+DTEND:20270825T164104Z
+SUMMARY:(2217) Eltigen hides a mag 10.7 star (just outside the path)
+DESCRIPTION:(2217) Eltigen hides a magnitude 10.7 star\, seen from Roorkee.
+ \nThe predicted edge passes 2 km to the NNW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 22:06:04 IST\, give or take 1 s. The star is 35° up in the SE
+  · dark sky.\nIt fades 4.3 magnitudes for up to 2.9 s on the centre line\
+ , and the path is 29 km wide\, give or take 12 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-2
+ 5-2217-eltigen-610624
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-25-2217-eltigen-6106
+ 24
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2217) Eltigen hides a mag 10.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-roorkee@occult.alokm.com

@@ -10,6 +10,50 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
+UID:ast-2026-09-28-1918-aiguillon-377920-tezpur@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T205336Z
+DTEND:20260928T210336Z
+SUMMARY:(1918) Aiguillon hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(1918) Aiguillon hides a magnitude 11.2 star\, seen from Tezpur
+ .\nThe predicted edge passes 18 km to the S\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 02:28:36 IST\, give or take 1 s. The star is 46° up in the E 
+ · dark sky.\nIt fades 6.1 magnitudes for up to 1.0 s on the centre line\,
+  and the path is 20 km wide\, give or take 19 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-09#2026-09-28
+ -1918-aiguillon-377920
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1918-aiguillon-37
+ 7920
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1918) Aiguillon hides a mag 11.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-09-28-1-ceres-708160-tezpur@occult.alokm.com
+DTSTAMP:20260916T024622Z
+DTSTART:20260928T230952Z
+DTEND:20260928T231952Z
+SUMMARY:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Tezpur.\nYou 
+ are inside the path\, 181 km from its centre line: the star vanishes for u
+ p to 39.8 s.\nClosest approach 04:44:52 IST\, give or take 1 s. The star i
+ s 74° up in the E · dusk.\nIt fades 0.1 magnitudes for up to 42.3 s on t
+ he centre line\, and the path is 939 km wide\, give or take 19 km.\nFinder
+  chart\, the map and the path as KML: https://occult.alokm.com/asteroids-2
+ 026-09#2026-09-28-1-ceres-708160
+URL:https://occult.alokm.com/asteroids-2026-09#2026-09-28-1-ceres-708160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1) Ceres hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-a1eb643dc7dd-tezpur@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260930T162233Z
@@ -49,6 +93,27 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-10-14-51-nemausa-506048-tezpur@occult.alokm.com
+DTSTAMP:20260916T022913Z
+DTSTART:20261014T115728Z
+DTEND:20261014T120728Z
+SUMMARY:(51) Nemausa hides a mag 12.4 star
+DESCRIPTION:(51) Nemausa hides a magnitude 12.4 star\, seen from Tezpur.\nY
+ ou are inside the path\, 83 km from its centre line: the star vanishes for
+  up to 2.6 s.\nClosest approach 17:32:28 IST\, give or take 1 s. The star 
+ is 44° up in the SSW · dusk.\nIt fades 1.0 magnitudes for up to 5.4 s on
+  the centre line\, and the path is 138 km wide\, give or take 18 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2026-10#2026-10-14-51-nemausa-506048
+URL:https://occult.alokm.com/asteroids-2026-10#2026-10-14-51-nemausa-506048
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(51) Nemausa hides a mag 12.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-4576bfb7c1f7-tezpur@occult.alokm.com
 DTSTAMP:20261001T000000Z
 DTSTART:20261020T133230Z
@@ -75,6 +140,27 @@ URL:https://occult.alokm.com/moon-stars-2026-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-01-921-jovita-807744-tezpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261101T130056Z
+DTEND:20261101T131056Z
+SUMMARY:(921) Jovita hides a mag 13.3 star
+DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Tezpur.\nY
+ ou are inside the path\, 10 km from its centre line: the star vanishes for
+  up to 1.7 s.\nClosest approach 18:35:56 IST\, give or take 1 s. The star 
+ is 36° up in the WSW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 
+ s on the centre line\, and the path is 55 km wide\, give or take 32 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2026-11#2026-11-01-921-jovita-807744
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-01-921-jovita-807744
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(921) Jovita hides a mag 13.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-8b579dd6b892-tezpur@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T203557Z
@@ -88,6 +174,28 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-11-04-449-hamburga-017216-tezpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261104T163852Z
+DTEND:20261104T164852Z
+SUMMARY:(449) Hamburga hides a mag 12.6 star
+DESCRIPTION:(449) Hamburga hides a magnitude 12.6 star\, seen from Tezpur.\
+ nYou are inside the path\, 38 km from its centre line: the star vanishes f
+ or up to 21.9 s.\nClosest approach 22:13:52 IST\, give or take 4 s. The st
+ ar is 27° up in the ENE · dark sky.\nIt fades 1.4 magnitudes for up to 3
+ 1.1 s on the centre line\, and the path is 86 km wide\, give or take 17 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2026-11#2026-11-04-449-hamburga-017216
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-04-449-hamburga-0172
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(449) Hamburga hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-6d3898a5b950-tezpur@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T220149Z
@@ -99,6 +207,50 @@ DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:31:49 at the dark limb I
  lokm.com/moon-stars-2026-11
 URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-12-780-armenia-852928-tezpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261112T132752Z
+DTEND:20261112T133752Z
+SUMMARY:(780) Armenia hides a mag 12.8 star
+DESCRIPTION:(780) Armenia hides a magnitude 12.8 star\, seen from Tezpur.\n
+ You are inside the path\, 12 km from its centre line: the star vanishes fo
+ r up to 3.3 s.\nClosest approach 19:02:52 IST\, give or take 1 s. The star
+  is 10° up in the WSW · dark sky.\nIt fades 2.3 magnitudes for up to 3.3
+  s on the centre line\, and the path is 126 km wide\, give or take 26 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2026-11#2026-11-12-780-armenia-852928
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-12-780-armenia-85292
+ 8
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(780) Armenia hides a mag 12.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-11-13-3024-hainan-451840-tezpur@occult.alokm.com
+DTSTAMP:20260916T023050Z
+DTSTART:20261113T213128Z
+DTEND:20261113T214128Z
+SUMMARY:(3024) Hainan hides a mag 11.8 star
+DESCRIPTION:(3024) Hainan hides a magnitude 11.8 star\, seen from Tezpur.\n
+ You are inside the path\, 4 km from its centre line: the star vanishes for
+  up to 4.5 s.\nClosest approach 03:06:28 IST\, give or take 2 s. The star 
+ is 77° up in the N · dark sky.\nIt fades 4.7 magnitudes for up to 4.6 s 
+ on the centre line\, and the path is 37 km wide\, give or take 19 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2026-11#2026-11-13-3024-hainan-451840
+URL:https://occult.alokm.com/asteroids-2026-11#2026-11-13-3024-hainan-45184
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3024) Hainan hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-2406bac40ee1-tezpur@occult.alokm.com
@@ -166,6 +318,115 @@ URL:https://occult.alokm.com/moon-stars-2026-11
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2026-12-24-3139-shantou-308032-tezpur@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261224T181512Z
+DTEND:20261224T182512Z
+SUMMARY:(3139) Shantou hides a mag 12.0 star
+DESCRIPTION:(3139) Shantou hides a magnitude 12.0 star\, seen from Tezpur.\
+ nYou are inside the path\, 7 km from its centre line: the star vanishes fo
+ r up to 2.3 s.\nClosest approach 23:50:12 IST\, give or take 1 s. The star
+  is 67° up in the WSW · dark sky.\nIt fades 3.5 magnitudes for up to 2.5
+  s on the centre line\, and the path is 37 km wide\, give or take 16 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2026-12#2026-12-24-3139-shantou-308032
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-24-3139-shantou-3080
+ 32
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3139) Shantou hides a mag 12.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2026-12-27-1721-wells-005376-tezpur@occult.alokm.com
+DTSTAMP:20260916T023237Z
+DTSTART:20261227T170931Z
+DTEND:20261227T171931Z
+SUMMARY:(1721) Wells hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(1721) Wells hides a magnitude 11.9 star\, seen from Tezpur.\nT
+ he predicted edge passes 15 km to the SSE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 22:44:31 IST\, give or take 1 s. The star is 63° up in the NW 
+ · dark sky.\nIt fades 4.0 magnitudes for up to 3.9 s on the centre line\,
+  and the path is 44 km wide\, give or take 16 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2026-12#2026-12-27
+ -1721-wells-005376
+URL:https://occult.alokm.com/asteroids-2026-12#2026-12-27-1721-wells-005376
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1721) Wells hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-01-5889-mickiewicz-095936-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270101T202909Z
+DTEND:20270101T203909Z
+SUMMARY:(5889) Mickiewicz hides a mag 11.8 star
+DESCRIPTION:(5889) Mickiewicz hides a magnitude 11.8 star\, seen from Tezpu
+ r.\nYou are inside the path\, 14 km from its centre line: the star vanishe
+ s for up to 0.4 s.\nClosest approach 02:04:09 IST\, give or take 2 s. The 
+ star is 27° up in the ESE · dark sky.\nIt fades 5.9 magnitudes for up to
+  1.2 s on the centre line\, and the path is 26 km wide\, give or take 19 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-01#2027-01-01-5889-mickiewicz-095936
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-01-5889-mickiewicz-0
+ 95936
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(5889) Mickiewicz hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-14-266-aline-417280-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270114T210338Z
+DTEND:20270114T211338Z
+SUMMARY:(266) Aline hides a mag 11.9 star
+DESCRIPTION:(266) Aline hides a magnitude 11.9 star\, seen from Tezpur.\nYo
+ u are inside the path\, 44 km from its centre line: the star vanishes for 
+ up to 8.1 s.\nClosest approach 02:38:38 IST\, give or take 4 s. The star i
+ s 42° up in the SSE · dark sky.\nIt fades 2.5 magnitudes for up to 13.0 
+ s on the centre line\, and the path is 109 km wide\, give or take 25 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-01#2027-01-14-266-aline-417280
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-14-266-aline-417280
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(266) Aline hides a mag 11.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-15-324-bamberga-193216-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270115T120302Z
+DTEND:20270115T121302Z
+SUMMARY:(324) Bamberga hides a mag 10.9 star
+DESCRIPTION:(324) Bamberga hides a magnitude 10.9 star\, seen from Tezpur.\
+ nYou are inside the path\, 66 km from its centre line: the star vanishes f
+ or up to 4.5 s.\nClosest approach 17:38:02 IST\, give or take 0 s. The sta
+ r is 45° up in the WSW · dusk.\nIt fades 1.0 magnitudes for up to 5.5 s 
+ on the centre line\, and the path is 221 km wide\, give or take 20 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-01#2027-01-15-324-bamberga-193216
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-15-324-bamberga-1932
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(324) Bamberga hides a mag 10.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-7b3b46ba5584-tezpur@occult.alokm.com
 DTSTAMP:20270101T000000Z
 DTSTART:20270121T143231Z
@@ -192,6 +453,72 @@ URL:https://occult.alokm.com/moon-stars-2027-01
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-01-28-1517-beograd-296128-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270127T235832Z
+DTEND:20270128T000832Z
+SUMMARY:(1517) Beograd hides a mag 11.8 star
+DESCRIPTION:(1517) Beograd hides a magnitude 11.8 star\, seen from Tezpur.\
+ nYou are inside the path\, 8 km from its centre line: the star vanishes fo
+ r up to 2.9 s.\nClosest approach 05:33:32 IST\, give or take 1 s. The star
+  is 14° up in the WNW · dusk.\nIt fades 3.5 magnitudes for up to 3.1 s o
+ n the centre line\, and the path is 40 km wide\, give or take 13 km.\nFind
+ er chart\, the map and the path as KML: https://occult.alokm.com/asteroids
+ -2027-01#2027-01-28-1517-beograd-296128
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-28-1517-beograd-2961
+ 28
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1517) Beograd hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-28-167-urda-876800-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270128T152451Z
+DTEND:20270128T153451Z
+SUMMARY:(167) Urda hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(167) Urda hides a magnitude 12.4 star\, seen from Tezpur.\nThe
+  predicted edge passes 15 km to the S\, so a miss is likely — but a chor
+ d from near the edge is the most valuable observation of all.\nClosest app
+ roach 20:59:51 IST\, give or take 1 s. The star is 23° up in the W · dar
+ k sky.\nIt fades 2.7 magnitudes for up to 1.7 s on the centre line\, and t
+ he path is 40 km wide\, give or take 32 km.\nFinder chart\, the map and th
+ e path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-28-167-u
+ rda-876800
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-28-167-urda-876800
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(167) Urda hides a mag 12.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-01-30-1731-smuts-137152-tezpur@occult.alokm.com
+DTSTAMP:20260916T023421Z
+DTSTART:20270130T000338Z
+DTEND:20270130T001338Z
+SUMMARY:(1731) Smuts hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(1731) Smuts hides a magnitude 11.9 star\, seen from Tezpur.\nT
+ he predicted edge passes 13 km to the SSW\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 05:38:38 IST\, give or take 1 s. The star is 23° up in the SE 
+ · dusk.\nIt fades 4.7 magnitudes for up to 1.3 s on the centre line\, and
+  the path is 55 km wide\, give or take 28 km.\nFinder chart\, the map and 
+ the path as KML: https://occult.alokm.com/asteroids-2027-01#2027-01-30-173
+ 1-smuts-137152
+URL:https://occult.alokm.com/asteroids-2027-01#2027-01-30-1731-smuts-137152
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1731) Smuts hides a mag 11.9 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-ef6072e2ba26-tezpur@occult.alokm.com
 DTSTAMP:20270201T000000Z
 DTSTART:20270201T225856Z
@@ -203,6 +530,50 @@ DESCRIPTION:43 Oph (magnitude 5.3) reappears at 04:28:56 at the dark limb I
  alokm.com/moon-stars-2027-02
 URL:https://occult.alokm.com/moon-stars-2027-02
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-05-2008-konstitutsiya-697600-tezpur@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270205T122907Z
+DTEND:20270205T123907Z
+SUMMARY:(2008) Konstitutsiya hides a mag 12.6 star
+DESCRIPTION:(2008) Konstitutsiya hides a magnitude 12.6 star\, seen from Te
+ zpur.\nYou are inside the path\, 21 km from its centre line: the star vani
+ shes for up to 2.7 s.\nClosest approach 18:04:07 IST\, give or take 4 s. T
+ he star is 47° up in the NE · dark sky.\nIt fades 3.2 magnitudes for up 
+ to 4.6 s on the centre line\, and the path is 52 km wide\, give or take 40
+  km.\nFinder chart\, the map and the path as KML: https://occult.alokm.com
+ /asteroids-2027-02#2027-02-05-2008-konstitutsiya-697600
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-05-2008-konstitutsiy
+ a-697600
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2008) Konstitutsiya hides a mag 12.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-02-08-1154-astronomia-888000-tezpur@occult.alokm.com
+DTSTAMP:20260916T023549Z
+DTSTART:20270208T220224Z
+DTEND:20270208T221224Z
+SUMMARY:(1154) Astronomia hides a mag 11.0 star
+DESCRIPTION:(1154) Astronomia hides a magnitude 11.0 star\, seen from Tezpu
+ r.\nYou are inside the path\, 11 km from its centre line: the star vanishe
+ s for up to 3.7 s.\nClosest approach 03:37:24 IST\, give or take 1 s. The 
+ star is 24° up in the WNW · dark sky.\nIt fades 4.8 magnitudes for up to
+  3.9 s on the centre line\, and the path is 56 km wide\, give or take 22 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-02#2027-02-08-1154-astronomia-888000
+URL:https://occult.alokm.com/asteroids-2027-02#2027-02-08-1154-astronomia-8
+ 88000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1154) Astronomia hides a mag 11.0 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-deb6a3818734-tezpur@occult.alokm.com
@@ -270,6 +641,73 @@ URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-03-04-1241-dysona-062464-tezpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270304T121826Z
+DTEND:20270304T122826Z
+SUMMARY:(1241) Dysona hides a mag 10.0 star (just outside the path)
+DESCRIPTION:(1241) Dysona hides a magnitude 10.0 star\, seen from Tezpur.\n
+ The predicted edge passes 12 km to the NE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 17:53:26 IST\, give or take 2 s. The star is 75° up in the N ·
+  dusk.\nIt fades 5.9 magnitudes for up to 4.9 s on the centre line\, and t
+ he path is 79 km wide\, give or take 24 km.\nFinder chart\, the map and th
+ e path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-04-1241-
+ dysona-062464
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-04-1241-dysona-06246
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1241) Dysona hides a mag 10.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-15-27226-27226-989440-tezpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270315T154614Z
+DTEND:20270315T155614Z
+SUMMARY:(27226) 27226 hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(27226) 27226 hides a magnitude 12.0 star\, seen from Tezpur.\n
+ The predicted edge passes 3 km to the NW\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 21:21:14 IST\, give or take 3 s. The star is 61° up in the W · 
+ dark sky.\nIt fades 5.6 magnitudes for up to 4.2 s on the centre line\, an
+ d the path is 23 km wide\, give or take 19 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-15-27
+ 226-27226-989440
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-15-27226-27226-98944
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(27226) 27226 hides a mag 12.0 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-15-426-hippo-854912-tezpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270315T170747Z
+DTEND:20270315T171747Z
+SUMMARY:(426) Hippo hides a mag 12.5 star
+DESCRIPTION:(426) Hippo hides a magnitude 12.5 star\, seen from Tezpur.\nYo
+ u are inside the path\, 61 km from its centre line: the star vanishes for 
+ up to 6.9 s.\nClosest approach 22:42:47 IST\, give or take 1 s. The star i
+ s 26° up in the WNW · dark sky.\nIt fades 1.5 magnitudes for up to 8.8 s
+  on the centre line\, and the path is 138 km wide\, give or take 18 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-03#2027-03-15-426-hippo-854912
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-15-426-hippo-854912
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(426) Hippo hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-3d7079e09c17-tezpur@occult.alokm.com
 DTSTAMP:20270301T000000Z
 DTSTART:20270318T200147Z
@@ -281,6 +719,71 @@ DESCRIPTION:δ Cnc (magnitude 4.1) disappears at 01:31:47 at the dark limb
  t.alokm.com/moon-stars-2027-03
 URL:https://occult.alokm.com/moon-stars-2027-03
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-20-1724-vladimir-897088-tezpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270320T213602Z
+DTEND:20270320T214602Z
+SUMMARY:(1724) Vladimir hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(1724) Vladimir hides a magnitude 12.3 star\, seen from Tezpur.
+ \nThe predicted edge passes 8 km to the N\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 03:11:02 IST\, give or take 1 s. The star is 24° up in the ESE 
+ · dark sky.\nIt fades 4.9 magnitudes for up to 1.4 s on the centre line\,
+  and the path is 38 km wide\, give or take 22 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-03#2027-03-20
+ -1724-vladimir-897088
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-20-1724-vladimir-897
+ 088
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1724) Vladimir hides a mag 12.3 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-03-25-15-eunomia-804736-tezpur@occult.alokm.com
+DTSTAMP:20260916T023721Z
+DTSTART:20270325T204656Z
+DTEND:20270325T205656Z
+SUMMARY:(15) Eunomia hides a mag 13.4 star
+DESCRIPTION:(15) Eunomia hides a magnitude 13.4 star\, seen from Tezpur.\nY
+ ou are inside the path\, 145 km from its centre line: the star vanishes fo
+ r up to 4.3 s.\nClosest approach 02:21:56 IST\, give or take 2 s. The star
+  is 22° up in the SSE · dark sky.\nIt fades 0.1 magnitudes for up to 22.
+ 1 s on the centre line\, and the path is 232 km wide\, give or take 20 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-03#2027-03-25-15-eunomia-804736
+URL:https://occult.alokm.com/asteroids-2027-03#2027-03-25-15-eunomia-804736
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(15) Eunomia hides a mag 13.4 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-10-659-nestor-635008-tezpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270410T162400Z
+DTEND:20270410T163400Z
+SUMMARY:(659) Nestor hides a mag 10.5 star
+DESCRIPTION:(659) Nestor hides a magnitude 10.5 star\, seen from Tezpur.\nY
+ ou are inside the path\, 20 km from its centre line: the star vanishes for
+  up to 6.0 s.\nClosest approach 21:59:00 IST\, give or take 3 s. The star 
+ is 57° up in the SSE · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 
+ s on the centre line\, and the path is 112 km wide\, give or take 65 km.\n
+ Finder chart\, the map and the path as KML: https://occult.alokm.com/aster
+ oids-2027-04#2027-04-10-659-nestor-635008
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-10-659-nestor-635008
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(659) Nestor hides a mag 10.5 star
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-bed4c346ccd0-tezpur@occult.alokm.com
@@ -322,6 +825,117 @@ URL:https://occult.alokm.com/moon-stars-2027-04
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-04-17-183-istria-463232-tezpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270417T153707Z
+DTEND:20270417T154707Z
+SUMMARY:(183) Istria hides a mag 12.1 star
+DESCRIPTION:(183) Istria hides a magnitude 12.1 star\, seen from Tezpur.\nY
+ ou are inside the path\, 13 km from its centre line: the star vanishes for
+  up to 0.7 s.\nClosest approach 21:12:07 IST\, give or take 1 s. The star 
+ is 21° up in the W · dark sky.\nIt fades 2.4 magnitudes for up to 1.1 s 
+ on the centre line\, and the path is 33 km wide\, give or take 17 km.\nFin
+ der chart\, the map and the path as KML: https://occult.alokm.com/asteroid
+ s-2027-04#2027-04-17-183-istria-463232
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-17-183-istria-463232
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(183) Istria hides a mag 12.1 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-04-20-120-lachesis-540288-tezpur@occult.alokm.com
+DTSTAMP:20260916T023847Z
+DTSTART:20270420T181649Z
+DTEND:20270420T182649Z
+SUMMARY:(120) Lachesis hides a mag 12.9 star
+DESCRIPTION:(120) Lachesis hides a magnitude 12.9 star\, seen from Tezpur.\
+ nYou are inside the path\, 52 km from its centre line: the star vanishes f
+ or up to 31.1 s.\nClosest approach 23:51:49 IST\, give or take 7 s. The st
+ ar is 12° up in the SE · dark sky.\nIt fades 0.8 magnitudes for up to 41
+ .0 s on the centre line\, and the path is 155 km wide\, give or take 17 km
+ .\nFinder chart\, the map and the path as KML: https://occult.alokm.com/as
+ teroids-2027-04#2027-04-20-120-lachesis-540288
+URL:https://occult.alokm.com/asteroids-2027-04#2027-04-20-120-lachesis-5402
+ 88
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(120) Lachesis hides a mag 12.9 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-08-1576-fabiola-492928-tezpur@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270508T125510Z
+DTEND:20270508T130510Z
+SUMMARY:(1576) Fabiola hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(1576) Fabiola hides a magnitude 11.7 star\, seen from Tezpur.\
+ nThe predicted edge passes 26 km to the SSW\, so a miss is likely — but 
+ a chord from near the edge is the most valuable observation of all.\nClose
+ st approach 18:30:10 IST\, give or take 1 s. The star is 27° up in the WN
+ W · dusk.\nIt fades 5.2 magnitudes for up to 0.6 s on the centre line\, a
+ nd the path is 27 km wide\, give or take 25 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-08-1
+ 576-fabiola-492928
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-08-1576-fabiola-4929
+ 28
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1576) Fabiola hides a mag 11.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-10-1329-eliane-088000-tezpur@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270510T192202Z
+DTEND:20270510T193202Z
+SUMMARY:(1329) Eliane hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(1329) Eliane hides a magnitude 12.7 star\, seen from Tezpur.\n
+ The predicted edge passes 7 km to the S\, so a miss is likely — but a ch
+ ord from near the edge is the most valuable observation of all.\nClosest a
+ pproach 00:57:02 IST\, give or take 2 s. The star is 36° up in the SE · 
+ dark sky.\nIt fades 2.4 magnitudes for up to 2.5 s on the centre line\, an
+ d the path is 19 km wide\, give or take 12 km.\nFinder chart\, the map and
+  the path as KML: https://occult.alokm.com/asteroids-2027-05#2027-05-10-13
+ 29-eliane-088000
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-10-1329-eliane-08800
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(1329) Eliane hides a mag 12.7 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-05-11-2358-bahner-352064-tezpur@occult.alokm.com
+DTSTAMP:20260916T024016Z
+DTSTART:20270511T132914Z
+DTEND:20270511T133914Z
+SUMMARY:(2358) Bahner hides a mag 12.7 star
+DESCRIPTION:(2358) Bahner hides a magnitude 12.7 star\, seen from Tezpur.\n
+ You are inside the path\, 3 km from its centre line: the star vanishes for
+  up to 1.6 s.\nClosest approach 19:04:14 IST\, give or take 3 s. The star 
+ is 37° up in the SE · dark sky.\nIt fades 3.8 magnitudes for up to 1.8 s
+  on the centre line\, and the path is 19 km wide\, give or take 18 km.\nFi
+ nder chart\, the map and the path as KML: https://occult.alokm.com/asteroi
+ ds-2027-05#2027-05-11-2358-bahner-352064
+URL:https://occult.alokm.com/asteroids-2027-05#2027-05-11-2358-bahner-35206
+ 4
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(2358) Bahner hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-242921697795-tezpur@occult.alokm.com
 DTSTAMP:20270501T000000Z
 DTSTART:20270520T180614Z
@@ -348,6 +962,50 @@ URL:https://occult.alokm.com/moon-stars-2027-05
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-07-888-parysatis-925056-tezpur@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270607T182945Z
+DTEND:20270607T183945Z
+SUMMARY:(888) Parysatis hides a mag 12.5 star
+DESCRIPTION:(888) Parysatis hides a magnitude 12.5 star\, seen from Tezpur.
+ \nYou are inside the path\, 2 km from its centre line: the star vanishes f
+ or up to 3.6 s.\nClosest approach 00:04:45 IST\, give or take 1 s. The sta
+ r is 49° up in the SSE · dark sky.\nIt fades 1.8 magnitudes for up to 3.
+ 7 s on the centre line\, and the path is 45 km wide\, give or take 16 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-06#2027-06-07-888-parysatis-925056
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-07-888-parysatis-925
+ 056
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(888) Parysatis hides a mag 12.5 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-06-08-216-kleopatra-803776-tezpur@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270608T201228Z
+DTEND:20270608T202228Z
+SUMMARY:(216) Kleopatra hides a mag 12.7 star
+DESCRIPTION:(216) Kleopatra hides a magnitude 12.7 star\, seen from Tezpur.
+ \nYou are inside the path\, 79 km from its centre line: the star vanishes 
+ for up to 1.0 s.\nClosest approach 01:47:28 IST\, give or take 0 s. The st
+ ar is 13° up in the E · dark sky.\nIt fades 0.4 magnitudes for up to 3.3
+  s on the centre line\, and the path is 122 km wide\, give or take 19 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-06#2027-06-08-216-kleopatra-803776
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-08-216-kleopatra-803
+ 776
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(216) Kleopatra hides a mag 12.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-db739d2282a9-tezpur@occult.alokm.com
 DTSTAMP:20270601T000000Z
 DTSTART:20270620T155735Z
@@ -361,6 +1019,94 @@ URL:https://occult.alokm.com/moon-stars-2027-06
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-06-23-3631-sigyn-376000-tezpur@occult.alokm.com
+DTSTAMP:20260916T024147Z
+DTSTART:20270623T193850Z
+DTEND:20270623T194850Z
+SUMMARY:(3631) Sigyn hides a mag 13.0 star
+DESCRIPTION:(3631) Sigyn hides a magnitude 13.0 star\, seen from Tezpur.\nY
+ ou are inside the path\, 21 km from its centre line: the star vanishes for
+  up to 1.1 s.\nClosest approach 01:13:50 IST\, give or take 2 s. The star 
+ is 54° up in the SSW · dark sky.\nIt fades 2.5 magnitudes for up to 3.6 
+ s on the centre line\, and the path is 39 km wide\, give or take 14 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-06#2027-06-23-3631-sigyn-376000
+URL:https://occult.alokm.com/asteroids-2027-06#2027-06-23-3631-sigyn-376000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3631) Sigyn hides a mag 13.0 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-17-3925-tret-yakov-245120-tezpur@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270717T190632Z
+DTEND:20270717T191632Z
+SUMMARY:(3925) Tret'yakov hides a mag 11.7 star
+DESCRIPTION:(3925) Tret'yakov hides a magnitude 11.7 star\, seen from Tezpu
+ r.\nYou are inside the path\, 19 km from its centre line: the star vanishe
+ s for up to 4.0 s.\nClosest approach 00:41:32 IST\, give or take 3 s. The 
+ star is 61° up in the S · dark sky.\nIt fades 3.6 magnitudes for up to 5
+ .6 s on the centre line\, and the path is 51 km wide\, give or take 13 km.
+ \nFinder chart\, the map and the path as KML: https://occult.alokm.com/ast
+ eroids-2027-07#2027-07-17-3925-tret-yakov-245120
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-17-3925-tret-yakov-2
+ 45120
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(3925) Tret'yakov hides a mag 11.7 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-23-651-antikleia-093312-tezpur@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270723T153803Z
+DTEND:20270723T154803Z
+SUMMARY:(651) Antikleia hides a mag 11.8 star
+DESCRIPTION:(651) Antikleia hides a magnitude 11.8 star\, seen from Tezpur.
+ \nYou are inside the path\, 36 km from its centre line: the star vanishes 
+ for up to 1.2 s.\nClosest approach 21:13:03 IST\, give or take 1 s. The st
+ ar is 15° up in the SE · dark sky.\nIt fades 2.8 magnitudes for up to 2.
+ 8 s on the centre line\, and the path is 32 km wide\, give or take 15 km.\
+ nFinder chart\, the map and the path as KML: https://occult.alokm.com/aste
+ roids-2027-07#2027-07-23-651-antikleia-093312
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-23-651-antikleia-093
+ 312
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(651) Antikleia hides a mag 11.8 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-07-23-991-mcdonalda-085824-tezpur@occult.alokm.com
+DTSTAMP:20260916T024318Z
+DTSTART:20270723T161530Z
+DTEND:20270723T162530Z
+SUMMARY:(991) McDonalda hides a mag 11.4 star (just outside the path)
+DESCRIPTION:(991) McDonalda hides a magnitude 11.4 star\, seen from Tezpur.
+ \nThe predicted edge passes 11 km to the S\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 21:50:30 IST\, give or take 3 s. The star is 38° up in the SSE
+  · dark sky.\nIt fades 3.5 magnitudes for up to 4.2 s on the centre line\
+ , and the path is 39 km wide\, give or take 12 km.\nFinder chart\, the map
+  and the path as KML: https://occult.alokm.com/asteroids-2027-07#2027-07-2
+ 3-991-mcdonalda-085824
+URL:https://occult.alokm.com/asteroids-2027-07#2027-07-23-991-mcdonalda-085
+ 824
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(991) McDonalda hides a mag 11.4 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-61ce718ff162-tezpur@occult.alokm.com
 DTSTAMP:20270701T000000Z
 DTSTART:20270723T185042Z
@@ -372,6 +1118,51 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:20:42 at the dark limb I
  .alokm.com/moon-stars-2027-07
 URL:https://occult.alokm.com/moon-stars-2027-07
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-01-387-aquitania-845248-tezpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270801T170223Z
+DTEND:20270801T171223Z
+SUMMARY:(387) Aquitania hides a mag 10.3 star
+DESCRIPTION:(387) Aquitania hides a magnitude 10.3 star\, seen from Tezpur.
+ \nYou are inside the path\, 22 km from its centre line: the star vanishes 
+ for up to 9.8 s.\nClosest approach 22:37:23 IST\, give or take 1 s. The st
+ ar is 11° up in the ESE · dark sky.\nIt fades 1.4 magnitudes for up to 1
+ 0.6 s on the centre line\, and the path is 101 km wide\, give or take 27 k
+ m.\nFinder chart\, the map and the path as KML: https://occult.alokm.com/a
+ steroids-2027-08#2027-08-01-387-aquitania-845248
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-01-387-aquitania-845
+ 248
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(387) Aquitania hides a mag 10.3 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-05-335-roberta-353280-tezpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270805T132533Z
+DTEND:20270805T133533Z
+SUMMARY:(335) Roberta hides a mag 10.2 star (just outside the path)
+DESCRIPTION:(335) Roberta hides a magnitude 10.2 star\, seen from Tezpur.\n
+ The predicted edge passes 5 km to the NNE\, so a miss is likely — but a 
+ chord from near the edge is the most valuable observation of all.\nClosest
+  approach 19:00:33 IST\, give or take 1 s. The star is 23° up in the W ·
+  dark sky.\nIt fades 4.0 magnitudes for up to 2.7 s on the centre line\, a
+ nd the path is 97 km wide\, give or take 21 km.\nFinder chart\, the map an
+ d the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-05-3
+ 35-roberta-353280
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-05-335-roberta-35328
+ 0
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(335) Roberta hides a mag 10.2 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:star-388fa0bc93a1-tezpur@occult.alokm.com
@@ -400,6 +1191,28 @@ URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ast-2027-08-15-204-kallisto-598016-tezpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270815T204805Z
+DTEND:20270815T205805Z
+SUMMARY:(204) Kallisto hides a mag 11.6 star
+DESCRIPTION:(204) Kallisto hides a magnitude 11.6 star\, seen from Tezpur.\
+ nYou are inside the path\, 1 km from its centre line: the star vanishes fo
+ r up to 6.1 s.\nClosest approach 02:23:05 IST\, give or take 2 s. The star
+  is 61° up in the SW · dark sky.\nIt fades 1.4 magnitudes for up to 6.4 
+ s on the centre line\, and the path is 49 km wide\, give or take 12 km.\nF
+ inder chart\, the map and the path as KML: https://occult.alokm.com/astero
+ ids-2027-08#2027-08-15-204-kallisto-598016
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-15-204-kallisto-5980
+ 16
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(204) Kallisto hides a mag 11.6 star
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:star-222795052072-tezpur@occult.alokm.com
 DTSTAMP:20270801T000000Z
 DTSTART:20270826T185943Z
@@ -411,6 +1224,52 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:29:43 at the dark limb
  .alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-31-4093-bennett-989504-tezpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270831T172146Z
+DTEND:20270831T173146Z
+SUMMARY:(4093) Bennett hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(4093) Bennett hides a magnitude 11.8 star\, seen from Tezpur.\
+ nThe predicted edge passes 4 km to the NNW\, so a miss is likely — but a
+  chord from near the edge is the most valuable observation of all.\nCloses
+ t approach 22:56:46 IST\, give or take 5 s. The star is 50° up in the SW 
+ · dark sky.\nIt fades 5.3 magnitudes for up to 2.5 s on the centre line\,
+  and the path is 25 km wide\, give or take 16 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-31
+ -4093-bennett-989504
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-31-4093-bennett-9895
+ 04
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(4093) Bennett hides a mag 11.8 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ast-2027-08-31-136-austria-233536-tezpur@occult.alokm.com
+DTSTAMP:20260916T024447Z
+DTSTART:20270831T172437Z
+DTEND:20270831T173437Z
+SUMMARY:(136) Austria hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(136) Austria hides a magnitude 11.6 star\, seen from Tezpur.\n
+ The predicted edge passes 8 km to the NW\, so a miss is likely — but a c
+ hord from near the edge is the most valuable observation of all.\nClosest 
+ approach 22:59:37 IST\, give or take 1 s. The star is 53° up in the SSW 
+ · dark sky.\nIt fades 1.2 magnitudes for up to 4.9 s on the centre line\,
+  and the path is 37 km wide\, give or take 11 km.\nFinder chart\, the map 
+ and the path as KML: https://occult.alokm.com/asteroids-2027-08#2027-08-31
+ -136-austria-233536
+URL:https://occult.alokm.com/asteroids-2027-08#2027-08-31-136-austria-23353
+ 6
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:(136) Austria hides a mag 11.6 star (just outside the path)
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-tezpur@occult.alokm.com
