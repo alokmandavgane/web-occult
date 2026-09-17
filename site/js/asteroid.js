@@ -290,18 +290,26 @@
 
   // ---------- the path, to take with you ----------
   function xml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function pathLines(ev) {
+  function pathLines(ev) {   // [name, runs, kind of line]
     var L = ev.lines, n = ev.north_is === 'left' ? 'left' : 'right', s = n === 'left' ? 'right' : 'left';
-    return [['Centre line', L.centre], ['North edge', L[n]], ['South edge', L[s]], ['North 1 sigma', L[n + '_1s']], ['South 1 sigma', L[s + '_1s']]]
+    return [['Centre line', L.centre, 'centre'], ['North edge', L[n], 'edge'], ['South edge', L[s], 'edge'],
+            ['North 1 sigma', L[n + '_1s'], 'sigma'], ['South 1 sigma', L[s + '_1s'], 'sigma']]
       .filter(function (r) { return r[1] && r[1].length; });
   }
+  function kmlColour(hex) {   // #rrggbb as KML's aabbggrr
+    var h = String(hex || '#000000').replace('#', '');
+    return 'ff' + h.slice(4, 6) + h.slice(2, 4) + h.slice(0, 2);
+  }
   function evTitle(ev) { return '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides Gaia DR3 ' + ev.star.gaia + ' — ' + ev.el.t0; }
-  function kml(ev) {
+  function kml(ev, colours) {   // colours: {centre, edge, sigma} as #rrggbb, the map's own
+    var c = colours || {};
     var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2"><Document>', '<name>' + xml(evTitle(ev)) + '</name>',
-             '<Style id="p"><LineStyle><color>ffa38af0</color><width>3</width></LineStyle></Style>'];
+             '<Style id="centre"><LineStyle><color>' + kmlColour(c.centre) + '</color><width>3</width></LineStyle></Style>',
+             '<Style id="edge"><LineStyle><color>' + kmlColour(c.edge) + '</color><width>3</width></LineStyle></Style>',
+             '<Style id="sigma"><LineStyle><color>' + kmlColour(c.sigma) + '</color><width>2</width></LineStyle></Style>'];
     pathLines(ev).forEach(function (l) {
       l[1].forEach(function (run) {
-        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#p</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
+        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#' + l[2] + '</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
                + run.map(function (q) { return q[1] + ',' + q[0] + ',0'; }).join(' ') + '</coordinates></LineString></Placemark>');
       });
     });

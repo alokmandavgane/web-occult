@@ -199,8 +199,12 @@ def night_key(ev, tz):
 
 
 AST_CSS = """
-    :root { --t-ast: #a8324e; }
-    @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; } }
+    /* A path is drawn in Occult4's colours, the ones IOTA observers read predictions in: green centre line, blue edges of
+       the shadow, red 1σ lines. --map-* stay the same by night because the street map's tiles are always light; the
+       small drawings use --path-*, lightened for a dark page. */
+    :root { --t-ast: #a8324e; --map-centre: #15803d; --map-edge: #1d4ed8; --map-sigma: #dc2626;
+            --path-centre: #15803d; --path-edge: #1d4ed8; --path-sigma: #dc2626; }
+    @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; --path-centre: #4ade80; --path-edge: #7aa7ff; --path-sigma: #f87171; } }
     .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
     .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
     .chipbox input { accent-color: var(--t-ast); }
@@ -223,10 +227,10 @@ AST_CSS = """
     .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
     .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
     .ast-map .land { stroke-width: 0.5; } .ast-map .border { stroke-width: 0.5; }
-    .ast-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); stroke: none; }
-    .ast-lim { fill: none; stroke: var(--t-ast); stroke-width: 2.2; stroke-linejoin: round; }
-    .ast-sig { fill: none; stroke: var(--t-ast); stroke-width: 1.4; stroke-dasharray: 5 4; opacity: 0.75; }
-    .ast-cl { fill: none; stroke: var(--t-ast); stroke-width: 0.9; opacity: 0.8; }
+    .ast-band { fill: color-mix(in srgb, var(--path-edge) 24%, transparent); stroke: none; }
+    /* screen pixels, not map units: a card map is a third of its viewBox, where a narrow path's three lines would blur into one */
+    .ast-lim { fill: none; stroke: var(--path-edge); stroke-width: 1.1px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+    .ast-cl { fill: none; stroke: var(--path-centre); stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
     .ast-pin { fill: var(--c-limit); stroke: var(--card); stroke-width: 2.5; }
     .ast-time { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     .ast-top small { color: var(--muted); white-space: nowrap; }
@@ -246,15 +250,15 @@ CHART_CSS = """
     .chord, .curve, .world, .strip, .finder { width: 100%; height: auto; display: block; }
     .chord, .curve, .world, .finder { background: var(--sea); border-radius: 8px; }
     .pane-cap { font-size: 0.76rem; color: var(--muted); margin-top: 0.25rem; }
-    .ch-disc { fill: color-mix(in srgb, var(--t-ast) 22%, transparent); stroke: var(--t-ast); stroke-width: 1.2; stroke-linejoin: round; }
+    .ch-disc { fill: color-mix(in srgb, var(--path-edge) 22%, transparent); stroke: var(--path-edge); stroke-width: 1.2; stroke-linejoin: round; }
     .ch-sphere { fill: none; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
     .ch-chord { stroke: var(--c-limit); stroke-width: 2.4; stroke-linecap: round; }
     .ch-miss { stroke: var(--muted); stroke-width: 1.6; stroke-dasharray: 5 4; }
-    .ch-sig { stroke: var(--t-ast); stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.7; fill: none; }
-    .st-band { fill: color-mix(in srgb, var(--t-ast) 30%, transparent); }
-    .st-sig { fill: color-mix(in srgb, var(--t-ast) 12%, transparent); }
-    .st-sig2 { fill: color-mix(in srgb, var(--t-ast) 6%, transparent); }
-    .st-axis { stroke: var(--line); stroke-width: 1; }
+    .ch-sig { stroke: var(--path-sigma); stroke-width: 1.2; stroke-dasharray: 4 3; fill: none; }
+    .st-band { fill: color-mix(in srgb, var(--path-edge) 30%, transparent); stroke: var(--path-edge); stroke-width: 1; }
+    .st-sig { fill: color-mix(in srgb, var(--path-sigma) 14%, transparent); }
+    .st-sig2 { fill: color-mix(in srgb, var(--path-sigma) 6%, transparent); }
+    .st-axis { stroke: var(--path-centre); stroke-width: 1.6; }
     .st-you { fill: var(--c-limit); }
     .st-lbl { font: 500 9px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .cv-line { fill: none; stroke: var(--c-limit); stroke-width: 2; stroke-linejoin: round; }
@@ -262,7 +266,7 @@ CHART_CSS = """
     .cv-axis { stroke: var(--line); stroke-width: 1; }
     .cv-sig { fill: color-mix(in srgb, var(--c-limit) 20%, transparent); }
     .wd-land { fill: var(--land); stroke: var(--land-line); stroke-width: 0.3; }
-    .wd-path { fill: none; stroke: var(--t-ast); stroke-width: 1.6; }
+    .wd-path { fill: none; stroke: var(--path-centre); stroke-width: 1.6; }
     .wd-dim { fill: none; stroke: var(--muted); stroke-width: 1; opacity: 0.55; }
     .wd-frame { fill: none; stroke: var(--c-limit); stroke-width: 0.8; }
     .fd-edge { fill: none; stroke: var(--line); stroke-width: 0.8; }
@@ -290,6 +294,12 @@ EVENT_CSS = """
     .leaflet-container { font: inherit; font-size: 0.8rem; background: var(--sea); }
     .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--text); }
     .map-note { font-size: 0.78rem; color: var(--muted); }
+    .path-key { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; font-size: 0.8rem; color: var(--muted); margin: 0.1rem 0 0.3rem; }
+    .path-key span::before { content: ''; display: inline-block; width: 1.8em; margin-right: 0.35em; vertical-align: 0.3em; border-top: 3px solid; }
+    .path-key .k-cl::before { border-top-color: var(--path-centre); }
+    .path-key .k-edge::before { border-top-color: var(--path-edge); }
+    .path-key .k-sig::before { border-top: 2px dashed var(--path-sigma); }
+    .path-key .k-sig2::before { border-top: 1.5px dashed var(--path-sigma); opacity: 0.6; }
     .ev-panes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 1.2rem 0 0; align-items: start; }
     .ev-facts { width: 100%; font-size: 0.9rem; }
     .ev-facts th { width: 42%; color: var(--muted); font-weight: 500; text-transform: none; letter-spacing: 0; font-size: 0.85rem; }
@@ -307,14 +317,14 @@ EVENT_CSS = """
     .tick-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; color: var(--text);
                   background: color-mix(in srgb, var(--card) 86%, transparent); border: 1px solid var(--border); border-radius: 6px;
                   padding: 0 4px; white-space: nowrap; width: auto !important; height: auto !important; }
-    .tick-dot { background: var(--t-ast); border-radius: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px; }
-    .stn-dot { width: 20px; height: 20px; border-radius: 50%; background: var(--c-visible); color: #fff; border: 2px solid var(--card);
+    .tick-dot { background: var(--map-centre); border-radius: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px; }
+    .stn-dot { width: 20px; height: 20px; border-radius: 50%; background: #334155; color: #fff; border: 2px solid #fff;
                font: 600 11px/16px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; text-align: center; cursor: pointer; }
     .stn-panel { margin: 0.6rem 0 0; }
     .stn-list { display: grid; gap: 0.3rem; }
     .stn-list button { font: inherit; font-size: 0.85rem; text-align: left; color: inherit; background: var(--card);
                        border: 1px solid var(--line); border-radius: 10px; padding: 0.35rem 0.6rem; cursor: pointer; }
-    .stn-list button:hover { border-color: var(--c-visible); }
+    .stn-list button:hover { border-color: var(--accent); }
     .stn-list b { font-variant-numeric: tabular-nums; }
     .now-label { background: var(--c-limit); border-color: var(--c-limit); color: #fff; font-variant-numeric: tabular-nums; }
 """
@@ -613,18 +623,26 @@ LIB_JS = r"""
 
   // ---------- the path, to take with you ----------
   function xml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function pathLines(ev) {
+  function pathLines(ev) {   // [name, runs, kind of line]
     var L = ev.lines, n = ev.north_is === 'left' ? 'left' : 'right', s = n === 'left' ? 'right' : 'left';
-    return [['Centre line', L.centre], ['North edge', L[n]], ['South edge', L[s]], ['North 1 sigma', L[n + '_1s']], ['South 1 sigma', L[s + '_1s']]]
+    return [['Centre line', L.centre, 'centre'], ['North edge', L[n], 'edge'], ['South edge', L[s], 'edge'],
+            ['North 1 sigma', L[n + '_1s'], 'sigma'], ['South 1 sigma', L[s + '_1s'], 'sigma']]
       .filter(function (r) { return r[1] && r[1].length; });
   }
+  function kmlColour(hex) {   // #rrggbb as KML's aabbggrr
+    var h = String(hex || '#000000').replace('#', '');
+    return 'ff' + h.slice(4, 6) + h.slice(2, 4) + h.slice(0, 2);
+  }
   function evTitle(ev) { return '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides Gaia DR3 ' + ev.star.gaia + ' — ' + ev.el.t0; }
-  function kml(ev) {
+  function kml(ev, colours) {   // colours: {centre, edge, sigma} as #rrggbb, the map's own
+    var c = colours || {};
     var t = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2"><Document>', '<name>' + xml(evTitle(ev)) + '</name>',
-             '<Style id="p"><LineStyle><color>ffa38af0</color><width>3</width></LineStyle></Style>'];
+             '<Style id="centre"><LineStyle><color>' + kmlColour(c.centre) + '</color><width>3</width></LineStyle></Style>',
+             '<Style id="edge"><LineStyle><color>' + kmlColour(c.edge) + '</color><width>3</width></LineStyle></Style>',
+             '<Style id="sigma"><LineStyle><color>' + kmlColour(c.sigma) + '</color><width>2</width></LineStyle></Style>'];
     pathLines(ev).forEach(function (l) {
       l[1].forEach(function (run) {
-        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#p</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
+        t.push('<Placemark><name>' + xml(l[0]) + '</name><styleUrl>#' + l[2] + '</styleUrl><LineString><tessellate>1</tessellate><coordinates>'
                + run.map(function (q) { return q[1] + ',' + q[0] + ',0'; }).join(' ') + '</coordinates></LineString></Placemark>');
       });
     });
@@ -767,7 +785,7 @@ TEMPLATE = """
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="ast-cal" aria-label="The month at a glance">__CAL__</div>
   <p class="hint">Times in <span id="tz-label">__TZL__</span>, for the moment the shadow passes closest to you. A night runs from
-  noon to noon. On each map the shaded band is the path and the dot is you.</p>
+  noon to noon. On each map the blue band is the path, the green line its centre, and the dot is you.</p>
   <div id="ast-nights">__NIGHTS__</div>
   <h2>Reading the list</h2>
   <p class="method">A card turns <b style="color:var(--c-visible)">green</b> when you are inside the predicted path and
@@ -853,31 +871,31 @@ EVENT_JS = r"""
     map = L.map('map', { scrollWheelZoom: false });
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 17, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
     fullScreenControl(L);
-    var c = css('--t-ast'), lines = ev.lines, group = [];
+    var PC = css('--map-centre'), PE = css('--map-edge'), PS = css('--map-sigma'), lines = ev.lines, group = [];   // Occult4's colours
     // nothing on the map is clickable but the pin and the stations: a tap anywhere else is a tap on the map, which moves the pin
     function poly(runs, opts) { opts.interactive = false; (runs || []).forEach(function (r) { group.push(L.polyline(r, opts).addTo(map)); }); }
     // the whole track, so zooming out shows where the shadow comes from and where it goes — bright only where the
     // star is up in a dark sky, faint where the Sun is up or the star too low to time
     SKY = A.skyRuns(ev.el, 300);
     SKY.runs.forEach(function (r) {
-      L.polyline(r.pts, { color: r.cls === 'dark' ? c : css('--muted'), weight: r.cls === 'dark' ? 1.6 : 1,
+      L.polyline(r.pts, { color: r.cls === 'dark' ? PC : css('--muted'), weight: r.cls === 'dark' ? 1.6 : 1,
                           opacity: r.cls === 'dark' ? 0.55 : r.cls === 'bright' ? 0.3 : 0.18,
                           dashArray: '2 6', interactive: false }).addTo(map);
     });
-    if (!shadeBand(c) && lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
-      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: c, weight: 0, fillOpacity: 0.22, interactive: false }).addTo(map));
+    if (!shadeBand(PE) && lines.left && lines.left.length === 1 && lines.right && lines.right.length === 1) {
+      group.push(L.polygon([lines.left[0].concat(lines.right[0].slice().reverse())], { color: PE, weight: 0, fillOpacity: 0.2, interactive: false }).addTo(map));
     }
     var sig = ev.sigma_km || 0;
     if (sig) [ev.el.R + 2 * sig, -(ev.el.R + 2 * sig)].forEach(function (o) {   // 2σ: the page draws it from the elements
       A.bandRuns(ev.el, [o], 400).forEach(function (r) {
-        L.polyline(r[0], { color: c, weight: 1, opacity: 0.4, dashArray: '2 7', interactive: false }).addTo(map);
+        L.polyline(r[0], { color: PS, weight: 1.2, opacity: 0.6, dashArray: '2 6', interactive: false }).addTo(map);
       });
     });
-    poly(lines.left_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
-    poly(lines.right_1s, { color: c, weight: 1.5, opacity: 0.8, dashArray: '6 5' });
-    poly(lines.left, { color: c, weight: 3 });
-    poly(lines.right, { color: c, weight: 3 });
-    poly(lines.centre, { color: c, weight: 1.2, opacity: 0.9, dashArray: '3 4' });
+    poly(lines.left_1s, { color: PS, weight: 2, dashArray: '7 5' });
+    poly(lines.right_1s, { color: PS, weight: 2, dashArray: '7 5' });
+    poly(lines.left, { color: PE, weight: 3 });
+    poly(lines.right, { color: PE, weight: 3 });
+    poly(lines.centre, { color: PC, weight: 2.5 });
     ticks = L.layerGroup().addTo(map);
     stns = L.layerGroup().addTo(map);
     me = L.marker([LOC.lat, LOC.lon], { icon: L.divIcon({ className: 'pin-dot', iconSize: [16, 16] }), draggable: true, autoPan: true,
@@ -1085,7 +1103,7 @@ EVENT_JS = r"""
     }
     el('pane-finder').innerHTML = A.finderSvg(ev, tz) + '<p class="pane-cap">The field 24 hours around the event; the star is ringed.</p>';
     el('pane-chord').innerHTML = A.chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + A.stripSvg(ev, s)
-      + '<p class="pane-cap">Across the path: the band is the shadow, the paler edge its 1σ.</p>';
+      + '<p class="pane-cap">Across the path: the blue band is the shadow, the red either side its 1σ and 2σ.</p>';
     el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
       + ': ' + F.r1(ev.drop) + ' mag for ' + F.r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + F.r1(ev.sigma_s || 0) + ' s</p>';
     var dark = SKY && SKY.dark, t0 = Date.parse(ev.el.t0);
@@ -1140,7 +1158,7 @@ EVENT_JS = r"""
   document.getElementById('ast-dl').addEventListener('click', function (e) {
     var b = e.target.closest('[data-dl]');
     if (!b || !ev) return;
-    A.save(ev.id + '.' + b.dataset.dl, b.dataset.dl === 'kml' ? A.kml(ev) : A.gpx(ev),
+    A.save(ev.id + '.' + b.dataset.dl, b.dataset.dl === 'kml' ? A.kml(ev, { centre: css('--map-centre'), edge: css('--map-edge'), sigma: css('--map-sigma') }) : A.gpx(ev),
            b.dataset.dl === 'kml' ? 'application/vnd.google-earth.kml+xml' : 'application/gpx+xml');
   });
   var sheet = el('loc-sheet'), latI = el('loc-lat'), lonI = el('loc-lon'), sel = el('loc-city');
@@ -1190,9 +1208,10 @@ EVENT_TEMPLATE = """
     <p class="hint" id="ev-look"></p>
   </header>
   <div id="map"></div>
-  <p class="map-note">Shaded: the path, as wide as the asteroid, and darkest down the middle where the star stays hidden
-  longest — at the edges it barely blinks. Dashed either side: one standard deviation, and beyond it the finer dashes are two.
-  The dotted line is the rest of the track around the world. Labels along the centre line are the time the shadow passes there.
+  <div class="path-key"><span class="k-cl">centre line</span><span class="k-edge">edge of the shadow</span><span class="k-sig">1σ</span><span class="k-sig2">2σ</span></div>
+  <p class="map-note">The colours are Occult4's. Between the blue edges the path is shaded darkest down the middle, where the star
+  stays hidden longest — at the edges it barely blinks. The green dotted line is the rest of the track around the world.
+  Labels along the centre line are the time the shadow passes there.
   <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
   <p class="map-note" id="sky-note"></p>
   <div class="spot">

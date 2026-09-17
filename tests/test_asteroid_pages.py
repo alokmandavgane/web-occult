@@ -241,3 +241,26 @@ def _seg_km(lat, lon, a, b, kx):
     dx, dy = bx - ax, by - ay
     t = 0.0 if dx == dy == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / (dx * dx + dy * dy)))
     return ((ax + t * dx) ** 2 + (ay + t * dy) ** 2) ** 0.5
+
+
+@pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
+def test_path_colours_follow_occult4():
+    """IOTA observers read a prediction in Occult4's colours: green centre line, blue edges of the shadow, red 1σ lines. The
+    map takes them from the --map-* tokens, and the KML the page writes must give each kind of line its own of them —
+    a swap of edge and sigma is the easy mistake."""
+    import re
+    tokens = dict(re.findall(r"--map-(centre|edge|sigma): (#[0-9a-f]{6})", ba.AST_CSS))
+    hue = lambda h: max(zip((int(h[i:i + 2], 16) for i in (1, 3, 5)), ("red", "green", "blue")))[1]
+    assert {k: hue(v) for k, v in tokens.items()} == {"centre": "green", "edge": "blue", "sigma": "red"}
+    ev = next(e for f in sorted(glob.glob(os.path.join(REPO, "data", "asteroids-*.json"))) for e in json.load(open(f))["events"]
+              if all(e["lines"].get(k) for k in ("centre", "left", "right", "left_1s", "right_1s")))
+    harness = ("const fs = require('fs'); const input = JSON.parse(fs.readFileSync(0, 'utf8')); global.window = {}; global.document = {};"
+               "eval(input.js); process.stdout.write(window.OccultAsteroids.kml(input.ev, input.colours));")
+    res = subprocess.run(["node", "-e", harness], input=json.dumps({"js": ba.LIB_JS, "ev": ev, "colours": tokens}),
+                         capture_output=True, text=True, timeout=60)
+    assert res.returncode == 0, res.stderr[-2000:]
+    styles = dict(re.findall(r'<Style id="(\w+)"><LineStyle><color>(\w{8})</color>', res.stdout))
+    kml = lambda h: "ff" + h[5:7] + h[3:5] + h[1:3]
+    assert styles == {k: kml(v) for k, v in tokens.items()}
+    used = dict(re.findall(r"<name>([^<]+)</name><styleUrl>#(\w+)</styleUrl>", res.stdout))
+    assert used == {"Centre line": "centre", "North edge": "edge", "South edge": "edge", "North 1 sigma": "sigma", "South 1 sigma": "sigma"}

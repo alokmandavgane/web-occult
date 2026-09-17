@@ -215,7 +215,12 @@ Rules that are easy to break:
   `og:url` to `/asteroid?e=<id>` — the id ALONE: strip `.html` and never include the pin, or every spot anyone shared would
   claim to be a page of its own. A bogus id leaves the generic canonical alone. Social scrapers don't run JS, so shared links
   still preview as the generic asteroid card; only renderers (Google) see the per-event head. It is the site's ONLY third-party dependency: Leaflet from cdnjs (SRI-pinned) and
-  OpenStreetMap tiles. On that map: the band, filled as ten ribbons shaded by how long the star is hidden there
+  OpenStreetMap tiles. **Path colours are Occult4's**, asked for by an IOTA observer: green centre line, blue edges of the
+  shadow, red 1σ lines, finer red dashes at 2σ — on the map, the thumbnails, the chord and cross-section drawings and
+  the KML (one style per kind of line). `--map-*` in `AST_CSS` are the map's and the KML's (the tiles are light in both
+  themes); `--path-*` are the drawings', lightened for dark mode. Don't restyle them to the site's rose: observers read
+  these colours across every tool (the feedback itself swapped blue and red; Occult4, Preston's maps and OW use these).
+  Station markers are slate so green only ever means the centre line. On that map: the band, filled as ten ribbons shaded by how long the star is hidden there
   (2√(R²−d²)/v, so darkest down the middle and a graze at the edges), its 1σ lines, the whole ground track beyond the frame
   as a dotted line, drawn bright only where the star is at least 10° up in a sky past twilight (`skyRuns`, the engine's
   own selection rule, classified in the browser by solving each ground point) and faint elsewhere, with a caption naming
