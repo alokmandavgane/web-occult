@@ -200,10 +200,10 @@ function unpackConfig(c) {
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   M.cities = window.OccultCities || {};      // js/cities.js, loaded just before this file
   Object.keys(M.cities).forEach(function (n) { sel.add(new Option(n, n)); });
-  function setLoc(lat, lon, label) {
+  function setLoc(lat, lon, label, quiet) {   // quiet: the page's own starting place, not one the reader chose
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
-    try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, M.cities) };
+    if (!quiet) { try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {} placeAsked(); }
     render();
   }
   document.getElementById('loc-chip').addEventListener('click', function () { if (LOC) { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); } sheet.showModal(); });
@@ -216,6 +216,6 @@ function unpackConfig(c) {
       function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
   onlyVis.addEventListener('change', render); chips.forEach(function (c) { c.addEventListener('change', render); });
   var saved = null; try { saved = JSON.parse(localStorage.getItem('occult-loc')); } catch (e) {}
-  if (saved && isFinite(saved.lat)) setLoc(saved.lat, saved.lon, saved.label);
-  else setLoc(M.defaultPlace[1], M.defaultPlace[2], M.defaultPlace[0]);
+  if (saved && isFinite(saved.lat)) setLoc(saved.lat, saved.lon, saved.label, true);
+  else { setLoc(M.defaultPlace[1], M.defaultPlace[2], M.defaultPlace[0], true); askPlace(M.defaultPlace[0], function (lat, lon) { setLoc(lat, lon); }); }
 })();

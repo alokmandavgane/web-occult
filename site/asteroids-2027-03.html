@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
   <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
-  <link rel="stylesheet" href="/css/base.css?v=8b83a6e8bf">
+  <link rel="stylesheet" href="/css/base.css?v=fe3d30767f">
   <style>
     /* A path is drawn in Occult4's colours, the ones IOTA observers read predictions in: green centre line, blue edges of
        the shadow, red 1σ lines. --map-* stay the same by night because the street map's tiles are always light; the
@@ -74,6 +74,7 @@
     .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
     .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
+    @media (pointer: coarse) { .ast-more { display: inline-flex; align-items: center; min-height: 44px; } }
     @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
     .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
 </style>
@@ -148,7 +149,8 @@
 </footer>
 
 <script src="/js/asteroid.js?v=aa8de3e997"></script>
+<script src="/js/site.js?v=0812d9dde9"></script>
 <script src="/js/cities-india.js?v=5e73770dc4"></script>
-<script src="/js/asteroid-month.js?v=c581f921ad"></script>
+<script src="/js/asteroid-month.js?v=2d8424ae81"></script>
 </body>
 </html>

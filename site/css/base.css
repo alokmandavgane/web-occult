@@ -165,3 +165,27 @@
     ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
     :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
     footer { border-top-style: dotted; }
+    /* phones: what a finger presses is at least 44 px tall, and the navigation bar fits a 375 px screen */
+    @media (pointer: coarse) {
+      .btn, .chip, .chipbox { min-height: 44px; }
+      .btn { display: inline-flex; align-items: center; justify-content: center; }
+      .subnav-links a { padding: 0.7rem 0.55rem; }
+      .sheet select, .sheet input, select, input[type=range] { min-height: 44px; }
+      .brand { padding: 0.45rem 0; }
+      .typenav a { min-height: 44px; }
+    }
+    @media (max-width: 480px) { .chip-sub { display: none; } .chip { max-width: 46vw; } #chip-name { overflow: hidden; text-overflow: ellipsis; } }
+    .place-ask { max-width: 860px; margin: 0.7rem auto 0; padding: 0 1rem; }
+    .place-ask-msg { margin: 0 0 0.4rem; }
+    .place-ask-do { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; }
+    .acts { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 0; }
+    button[hidden], a[hidden], .acts[hidden] { display: none !important; }   /* a display rule must never beat the hidden attribute */
+    /* the event map zooms under two fingers: --z is the zoom, and dots, labels and lines keep their size on screen */
+    .map-card { position: relative; }
+    #main-map { --z: 1; touch-action: pan-y; }
+    #main-map .land { stroke-width: calc(0.8px / var(--z)); } #main-map .border { stroke-width: calc(0.7px / var(--z)); }
+    #main-map .region { stroke-width: calc(1px / var(--z)); } #main-map .limit { stroke-width: calc(2.6px / var(--z)); }
+    #main-map .limit-horizon { stroke-width: calc(1.2px / var(--z)); } #main-map .limit-grid { stroke-width: calc(1px / var(--z)); }
+    #main-map .city { stroke-width: calc(1px / var(--z)); }
+    #main-map .city-label { font-size: calc(11px / var(--z)); stroke-width: calc(3px / var(--z)); }
+    .map-reset { position: absolute; top: 1rem; right: 1rem; font-size: 0.8rem; box-shadow: 0 1px 4px rgba(0,0,0,0.25); }

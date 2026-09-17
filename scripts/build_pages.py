@@ -412,6 +412,30 @@ BASE_CSS = """
     ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
     :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
     footer { border-top-style: dotted; }
+    /* phones: what a finger presses is at least 44 px tall, and the navigation bar fits a 375 px screen */
+    @media (pointer: coarse) {
+      .btn, .chip, .chipbox { min-height: 44px; }
+      .btn { display: inline-flex; align-items: center; justify-content: center; }
+      .subnav-links a { padding: 0.7rem 0.55rem; }
+      .sheet select, .sheet input, select, input[type=range] { min-height: 44px; }
+      .brand { padding: 0.45rem 0; }
+      .typenav a { min-height: 44px; }
+    }
+    @media (max-width: 480px) { .chip-sub { display: none; } .chip { max-width: 46vw; } #chip-name { overflow: hidden; text-overflow: ellipsis; } }
+    .place-ask { max-width: 860px; margin: 0.7rem auto 0; padding: 0 1rem; }
+    .place-ask-msg { margin: 0 0 0.4rem; }
+    .place-ask-do { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; }
+    .acts { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 0; }
+    button[hidden], a[hidden], .acts[hidden] { display: none !important; }   /* a display rule must never beat the hidden attribute */
+    /* the event map zooms under two fingers: --z is the zoom, and dots, labels and lines keep their size on screen */
+    .map-card { position: relative; }
+    #main-map { --z: 1; touch-action: pan-y; }
+    #main-map .land { stroke-width: calc(0.8px / var(--z)); } #main-map .border { stroke-width: calc(0.7px / var(--z)); }
+    #main-map .region { stroke-width: calc(1px / var(--z)); } #main-map .limit { stroke-width: calc(2.6px / var(--z)); }
+    #main-map .limit-horizon { stroke-width: calc(1.2px / var(--z)); } #main-map .limit-grid { stroke-width: calc(1px / var(--z)); }
+    #main-map .city { stroke-width: calc(1px / var(--z)); }
+    #main-map .city-label { font-size: calc(11px / var(--z)); stroke-width: calc(3px / var(--z)); }
+    .map-reset { position: absolute; top: 1rem; right: 1rem; font-size: 0.8rem; box-shadow: 0 1px 4px rgba(0,0,0,0.25); }
 """
 
 
@@ -483,6 +507,113 @@ self.addEventListener('fetch', function (e) {
   e.respondWith(r.mode === 'navigate' ? page(r, u) : fresh(r));
 });
 """
+
+
+# What the pages with a location sheet share (site/js/site.js, loaded before the page's own script): going back closes what is
+# open over the page, a name for a spot, the first-visit question, and one event into a calendar.
+SITE_JS = r"""/* occult.alokm.com — shared by every page with a location sheet. */
+(function () {
+  // ---- Back — the button, or Android's back gesture — closes what is open over the page (a <dialog>, a full-screen map)
+  // instead of leaving the page. An open overlay owns a history entry; closed any other way, it takes that entry back off
+  // and keeps whatever address the page set while it was open.
+  var stack = [], skip = 0;
+  function opened(close) { history.pushState(history.state, ''); stack.push(close); }
+  function closed(close) {
+    var i = stack.indexOf(close);
+    if (i < 0) return;
+    stack.splice(i, 1);
+    var keep = location.href;
+    skip++;
+    addEventListener('popstate', function once() { removeEventListener('popstate', once); history.replaceState(history.state, '', keep); });
+    history.back();
+  }
+  addEventListener('popstate', function () {
+    if (skip) { skip--; return; }
+    var close = stack.pop();
+    if (close) close();
+  });
+  window.Overlay = { opened: opened, closed: closed };
+  new MutationObserver(function (ms) {
+    ms.forEach(function (m) {
+      var d = m.target;
+      if (d.tagName !== 'DIALOG') return;
+      if (d.open && !d._back) { d._back = function () { d._back = null; d.close(); }; opened(d._back); }
+      else if (!d.open && d._back) { var f = d._back; d._back = null; closed(f); }
+    });
+  }).observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['open'] });
+
+  // ---- A name for a spot: the listed city itself within a kilometre, "Spot near <city>" within 60 km, else its coordinates
+  window.placeName = function (lat, lon, cities) {
+    var best = '', bd = 60, k = Math.cos(lat * Math.PI / 180);
+    Object.keys(cities || {}).forEach(function (n) {
+      var c = cities[n], dd = Math.hypot((c[0] - lat) * 111.2, ((c[1] - lon + 540) % 360 - 180) * 111.2 * k);
+      if (dd < bd) { bd = dd; best = n; }
+    });
+    return !best ? lat.toFixed(2) + ', ' + lon.toFixed(2) : bd < 1 ? best : 'Spot near ' + best;
+  };
+
+  // ---- First visit: say which place the page is showing and offer to change it. Asked once: gone for good when the reader
+  // sets a place (the page calls placeAsked) or keeps this one.
+  window.askPlace = function (name, set) {
+    try { if (localStorage.getItem('occult-loc') || localStorage.getItem('occult-asked')) return; } catch (e) { return; }
+    var nav = document.querySelector('.subnav'), b = document.createElement('div');
+    if (!nav) return;
+    b.className = 'place-ask';
+    b.innerHTML = '<p class="place-ask-msg">Showing <b></b>. Where are you watching from?</p><p class="place-ask-do">'
+      + (navigator.geolocation ? '<button class="btn btn-primary" type="button" data-a="geo">Use my location</button>' : '')
+      + '<button class="btn" type="button" data-a="pick">Choose a place</button><button class="btn" type="button" data-a="keep">Keep this</button></p>';
+    b.querySelector('b').textContent = name;
+    nav.parentNode.insertBefore(b, nav.nextSibling);
+    b.addEventListener('click', function (e) {
+      var a = e.target.closest('[data-a]'), msg = b.querySelector('.place-ask-msg');
+      if (!a) return;
+      if (a.dataset.a === 'keep') { try { localStorage.setItem('occult-asked', '1'); } catch (x) {} b.remove(); }
+      else if (a.dataset.a === 'pick') document.getElementById('loc-chip').click();
+      else {
+        a.disabled = true; a.textContent = 'Locating…';
+        navigator.geolocation.getCurrentPosition(function (p) { set(p.coords.latitude, p.coords.longitude); },
+          function () { a.remove(); msg.textContent = 'Your location is not available here. Choose a place instead.'; });
+      }
+    });
+  };
+  window.placeAsked = function () { var b = document.querySelector('.place-ask'); if (b) b.remove(); };
+
+  // ---- One event into a calendar: a Google Calendar link, or an .ics file for any other calendar app.
+  // e = {title, start, end (ms), details, url, uid, file, where?, alarm? (minutes before)}
+  function stamp(ms) { return new Date(ms).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); }
+  function text(s) { return String(s).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1'); }
+  function fold(l) { var o = ''; while (l.length > 73) { o += l.slice(0, 73) + '\r\n '; l = l.slice(73); } return o + l; }
+  window.Cal = {
+    android: /Android/i.test(navigator.userAgent),
+    google: function (e) {
+      return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(e.title) + '&dates=' + stamp(e.start) + '/'
+        + stamp(e.end) + '&details=' + encodeURIComponent(e.details + '\n\n' + e.url) + (e.where ? '&location=' + encodeURIComponent(e.where) : '');
+    },
+    ics: function (e) {
+      var l = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//occult.alokm.com//EN', 'BEGIN:VEVENT', 'UID:' + e.uid + '@occult.alokm.com',
+               'DTSTAMP:' + stamp(Date.now()), 'DTSTART:' + stamp(e.start), 'DTEND:' + stamp(e.end), 'SUMMARY:' + text(e.title),
+               'DESCRIPTION:' + text(e.details + '\n\n' + e.url), 'URL:' + e.url];
+      if (e.where) l.push('LOCATION:' + text(e.where));
+      if (e.alarm) l.push('BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:' + text(e.title), 'TRIGGER:-PT' + e.alarm + 'M', 'END:VALARM');
+      l.push('END:VEVENT', 'END:VCALENDAR');
+      var a = document.createElement('a'), u = URL.createObjectURL(new Blob([l.map(fold).join('\r\n') + '\r\n'], { type: 'text/calendar' }));
+      a.href = u; a.download = e.file + '.ics'; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(u); }, 10000);
+    },
+    // Share a link: the phone's share sheet where there is one, else the clipboard. Tells the button what happened.
+    share: function (btn, title, url) {
+      if (navigator.share) return navigator.share({ title: title, url: url }).catch(function () {});
+      var said = btn.textContent, done = function (t) { btn.textContent = t; setTimeout(function () { btn.textContent = said; }, 2000); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { done('Link copied'); }, function () { done('Copy failed'); });
+      else done('Copy the address bar');
+    }
+  };
+})();
+"""
+
+
+def site_js_url():
+    return asset("js/site.js", SITE_JS)
 
 
 def write_sw():
@@ -695,7 +826,7 @@ OCC_JS = r"""(function () {
   var latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), res = document.getElementById('loc-result');
   var sel = document.getElementById('limb-city'), where = document.getElementById('limb-where'), pin = document.getElementById('pin');
   var chip = document.getElementById('loc-chip'), chipName = document.getElementById('chip-name'), chipSub = document.getElementById('chip-sub');
-  var sheet = document.getElementById('loc-sheet'), P = D.proj, LOC = null;
+  var sheet = document.getElementById('loc-sheet'), P = D.proj, LOC = null, MZ = 1, gestureAt = 0;
   Object.keys(D.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function fact(l, v, s) { return '<div class="fact"><div class="fact-label">' + l + '</div><div class="fact-value">' + v + '</div>' + (s ? '<div class="fact-sub">' + s + '</div>' : '') + '</div>'; }
   function tableRow(r, label) {
@@ -734,31 +865,68 @@ OCC_JS = r"""(function () {
       summary = r.verdict === 'miss' ? 'near miss, ' + (gap * 60).toFixed(1) + '′' : 'Moon below horizon';
     }
     res.innerHTML = h; res.hidden = false;
-    var name = label || (lat.toFixed(3) + ', ' + lon.toFixed(3));
+    var name = label || placeName(lat, lon, D.cities);
+    LOC.name = name;
     chipName.textContent = name; chipSub.textContent = summary; where.textContent = name;
     var x = (lon - P.lon0) * P.k * P.s, y = (P.lat1 - lat) * P.s;
-    if (x >= 0 && x <= P.W && y >= 0 && y <= P.H) { pin.setAttribute('transform', 'translate(' + x.toFixed(1) + ',' + y.toFixed(1) + ')'); pin.hidden = false; } else pin.hidden = true;
+    pin.dataset.x = x.toFixed(1); pin.dataset.y = y.toFixed(1); placePin();
+    if (x >= 0 && x <= P.W && y >= 0 && y <= P.H) pin.hidden = false; else pin.hidden = true;
     var old = document.querySelector('tr.yours'); if (old) old.remove();
     var tb = document.querySelector('#city-table tbody'); if (tb) tb.insertAdjacentHTML('afterbegin', tableRow(r, 'Your location · ' + name));
     if (!label) sel.value = '';
     if (!fromUrl) { var u = new URL(location.href); u.search = label ? '?city=' + encodeURIComponent(label) : '?lat=' + lat.toFixed(4) + '&lon=' + lon.toFixed(4); history.replaceState(null, '', u); }
     drawLimb(r);
     if (typeof drawGraze === 'function') drawGraze(r);
+    actions(r, name);
   }
+  function placePin() { pin.setAttribute('transform', 'translate(' + pin.dataset.x + ',' + pin.dataset.y + ') scale(' + (1 / MZ).toFixed(3) + ')'); }
+  // a place the reader chose themselves (the sheet, their location): shown, and remembered for the site's other pages.
+  // A tap on the map or a city dot only explores — it does not replace the place they keep.
+  function choose(lat, lon, label) {
+    show(lat, lon, label);
+    try { localStorage.setItem('occult-loc', JSON.stringify({ lat: +LOC.lat, lon: +LOC.lon, label: LOC.name })); } catch (e) {}
+    placeAsked();
+  }
+  // take it with you: this place's occultation into a calendar, or the page for this place to someone else
+  var acts = document.getElementById('ev-acts'), actIcs = document.getElementById('act-ics'), actG = document.getElementById('act-gcal'), CAL = null;
+  function actions(r, name) {
+    acts.hidden = false;
+    var c = r.contacts, keys = ['D1', 'D2', 'R1', 'R2'].filter(function (k) {
+      return c[k] !== undefined && !(r.seen === 'rises' && k[0] === 'D') && !(r.seen === 'sets' && k[0] === 'R');
+    });
+    CAL = null;
+    if (r.verdict === 'visible' && keys.length) {
+      var ms = keys.map(function (k) { return c[k]; }), first = Math.min.apply(null, ms), last = Math.max.apply(null, ms);
+      var half = r.seen === 'rises' ? ' (reappearance only: the Moon rises during it)' : r.seen === 'sets' ? ' (disappearance only: the Moon sets during it)' : '';
+      CAL = { title: 'The Moon occults ' + D.target, start: T0 + first * 60000 - 10 * 60000, end: T0 + last * 60000 + 5 * 60000,
+              details: 'Seen from ' + name + half + '. '
+                + (c.D2 !== undefined && r.seen !== 'rises' ? D.target + ' disappears ' + localTime(c.D2, true) + ' ' + D.tzl + '. ' : '')
+                + (c.R1 !== undefined && r.seen !== 'sets' ? 'It reappears ' + localTime(c.R1, true) + ' ' + D.tzl + '. ' : '')
+                + 'Look ' + lookText(r.at) + '.',
+              url: location.href, uid: 'occ-' + location.pathname.slice(1) + '-' + LOC.lat.toFixed(3) + '-' + LOC.lon.toFixed(3),
+              file: location.pathname.slice(1) || 'occultation', where: name, alarm: 30 };
+      actG.href = Cal.google(CAL);
+    }
+    actIcs.hidden = actG.hidden = !CAL;
+    if (Cal.android && CAL) acts.insertBefore(actG, actIcs);            // Android's calendar is Google's: offer it first
+  }
+  actIcs.addEventListener('click', function () { if (CAL) { CAL.url = location.href; Cal.ics(CAL); } });
+  document.getElementById('act-share').addEventListener('click', function () { Cal.share(this, document.title, location.href); });
   chip.addEventListener('click', function () { sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
-  document.getElementById('loc-go').addEventListener('click', function () { show(latI.value, lonI.value); sheet.close(); });
-  [latI, lonI].forEach(function (i) { i.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); show(latI.value, lonI.value); sheet.close(); } }); });
+  document.getElementById('loc-go').addEventListener('click', function () { choose(latI.value, lonI.value); sheet.close(); });
+  [latI, lonI].forEach(function (i) { i.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); choose(latI.value, lonI.value); sheet.close(); } }); });
   var geoBtn = document.getElementById('loc-geo');
   if (!navigator.geolocation) geoBtn.hidden = true;
   geoBtn.addEventListener('click', function () {
     geoBtn.disabled = true; geoBtn.textContent = 'Locating…';
-    navigator.geolocation.getCurrentPosition(function (p) { geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; show(p.coords.latitude, p.coords.longitude); sheet.close(); },
+    navigator.geolocation.getCurrentPosition(function (p) { geoBtn.disabled = false; geoBtn.textContent = 'Use my location'; choose(p.coords.latitude, p.coords.longitude); sheet.close(); },
       function () { geoBtn.disabled = false; geoBtn.textContent = 'Location unavailable'; });
   });
-  sel.addEventListener('change', function () { var c = D.cities[sel.value]; if (c) { show(c[0], c[1], sel.value); sheet.close(); } });
+  sel.addEventListener('change', function () { var c = D.cities[sel.value]; if (c) { choose(c[0], c[1], sel.value); sheet.close(); } });
   var map = document.getElementById('main-map');
   map.addEventListener('click', function (ev) {
+    if (Date.now() - gestureAt < 400) return;
     var pt = map.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
     var q = pt.matrixTransform(map.getScreenCTM().inverse());
     var t = ev.target.closest && ev.target.closest('circle[data-city]');
@@ -914,10 +1082,70 @@ OCC_JS = r"""(function () {
     readout.textContent = localTime(m, true) + ' ' + D.tzl + ' · Moon ' + (g.altm > 0 ? g.altm.toFixed(0) + '° up, ' + compass(g.azm) : 'below horizon');
   }
   slider.addEventListener('input', update);
-  var qs = new URLSearchParams(location.search), qc = qs.get('city');
+  // ---- the map under two fingers: pinch to zoom, move them to pan; once zoomed in, one finger moves it too. At full size one
+  // finger scrolls the page and a tap sets a place, as before. Only the map zooms, never the page.
+  (function () {
+    var W0 = P.W, H0 = P.H, vx = 0, vy = 0, vw = W0, pts = {}, g = null, moved = false, reset = document.getElementById('map-reset');
+    var circles = [].slice.call(map.querySelectorAll('circle.city')), r0 = circles.length ? +circles[0].getAttribute('r') : 4;
+    function view(x, y, w) {
+      w = Math.max(W0 / 10, Math.min(W0, w));
+      var h = w * H0 / W0;
+      vx = Math.max(0, Math.min(W0 - w, x)); vy = Math.max(0, Math.min(H0 - h, y)); vw = w; MZ = W0 / w;
+      map.setAttribute('viewBox', vx.toFixed(2) + ' ' + vy.toFixed(2) + ' ' + w.toFixed(2) + ' ' + h.toFixed(2));
+      map.style.setProperty('--z', MZ.toFixed(3));
+      map.style.touchAction = MZ > 1.01 ? 'none' : 'pan-y';
+      circles.forEach(function (c) { c.setAttribute('r', (r0 / MZ).toFixed(2)); });
+      if (pin.dataset.x) placePin();
+      reset.hidden = MZ <= 1.01;
+    }
+    function begin() {
+      var ids = Object.keys(pts), rect = map.getBoundingClientRect(), k = vw / rect.width;
+      if (ids.length >= 2) {
+        var a = pts[ids[0]], b = pts[ids[1]], mx = (a[0] + b[0]) / 2, my = (a[1] + b[1]) / 2;
+        g = { pinch: true, d: Math.hypot(a[0] - b[0], a[1] - b[1]) || 1, w: vw, sx: vx + (mx - rect.left) * k, sy: vy + (my - rect.top) * k };
+      } else if (ids.length === 1 && MZ > 1.01) {
+        g = { pinch: false, cx: pts[ids[0]][0], cy: pts[ids[0]][1], x: vx, y: vy, k: k };
+      } else g = null;
+    }
+    map.addEventListener('pointerdown', function (e) {
+      if (e.pointerType !== 'touch') return;
+      pts[e.pointerId] = [e.clientX, e.clientY];
+      begin();
+    });
+    map.addEventListener('pointermove', function (e) {
+      if (!pts[e.pointerId] || !g) return;
+      pts[e.pointerId] = [e.clientX, e.clientY];
+      var ids = Object.keys(pts), rect = map.getBoundingClientRect();
+      if (g.pinch && ids.length >= 2) {
+        var a = pts[ids[0]], b = pts[ids[1]], w = g.w * g.d / (Math.hypot(a[0] - b[0], a[1] - b[1]) || 1), k = w / rect.width;
+        view(g.sx - ((a[0] + b[0]) / 2 - rect.left) * k, g.sy - ((a[1] + b[1]) / 2 - rect.top) * k, w);
+        moved = true;
+      } else if (!g.pinch) {
+        var dx = e.clientX - g.cx, dy = e.clientY - g.cy;
+        if (Math.abs(dx) + Math.abs(dy) > 6) { view(g.x - dx * g.k, g.y - dy * g.k, vw); moved = true; }
+      }
+    });
+    function end(e) {   // the click a lifted finger leaves behind is not a tap: time it from the lift, however long they held still
+      if (!pts[e.pointerId]) return;
+      delete pts[e.pointerId];
+      if (moved) gestureAt = Date.now();
+      if (!Object.keys(pts).length) moved = false;
+      begin();
+    }
+    map.addEventListener('pointerup', end);
+    map.addEventListener('pointercancel', end);
+    reset.addEventListener('click', function () { view(0, 0, W0); });
+  })();
+  var qs = new URLSearchParams(location.search), qc = qs.get('city'), saved = null;
+  try { saved = JSON.parse(localStorage.getItem('occult-loc')); } catch (e) {}
   if (qc && D.cities[qc]) show(D.cities[qc][0], D.cities[qc][1], qc, true);
   else if (qs.get('lat') && qs.get('lon')) show(qs.get('lat'), qs.get('lon'), '', true);
-  else { var first = sel.options[1]; if (first) { var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value, true); } }
+  else if (saved && isFinite(saved.lat) && isFinite(saved.lon)) show(saved.lat, saved.lon, D.cities[saved.label] ? saved.label : '', true);
+  else {
+    var first = sel.options[1];
+    if (first) { var c0 = D.cities[first.value]; show(c0[0], c0[1], first.value, true); }
+    askPlace(LOC ? LOC.name : '', function (lat, lon) { choose(lat, lon); });
+  }
 })();
 """
 
@@ -1073,7 +1301,7 @@ def build(seed, slug):
 <nav class="subnav" id="subnav">
   <div class="subnav-row">
     <div class="subnav-links">
-      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">How to watch</a>
+      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">Watch</a>
     </div>
     <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">Choose location</span><span class="chip-sub" id="chip-sub"></span></button>
   </div>
@@ -1104,6 +1332,7 @@ def build(seed, slug):
 
   <h2 id="map">Where it can be seen</h2>
   <div class="map-card">
+    <button class="btn map-reset" id="map-reset" type="button" hidden>Reset zoom</button>
     {svg_map(data, geo, aud, cities, featured)}
     <div class="legend">
       <span class="lg-region">sees the occultation</span>
@@ -1116,13 +1345,14 @@ def build(seed, slug):
   </div>
   {limit_para}
   {night_para}
-  <p class="hint">Tap the map to set your location. Take the graze line with you:
+  <p class="hint">Tap the map to set your location; pinch it to zoom in. Take the graze line with you:
   <a href="/kml/{slug}.kml">KML</a> for Google Earth / Maps · <a href="/kml/{slug}.gpx">GPX</a> for a phone GPS app.</p>
 
   <h2 id="moon">At the Moon's edge</h2>
   <div class="limb-card">
     <div class="limb-controls"><span id="limb-where" class="limb-readout"></span><span class="limb-readout" id="limb-readout"></span></div>
     <div class="loc-result" id="loc-result" hidden></div>
+    <div class="acts" id="ev-acts" hidden><button class="btn" id="act-ics" type="button">Add to calendar</button><a class="btn" id="act-gcal" href="#" target="_blank" rel="noopener">Google Calendar</a><button class="btn" id="act-share" type="button">Share</button></div>
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
@@ -1165,6 +1395,7 @@ def build(seed, slug):
 </main>
 
 {FOOTER}
+<script src="{site_js_url()}"></script>
 <script src="{asset('js/occultation.js', OCC_JS)}"></script>
 </body>
 </html>

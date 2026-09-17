@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
   <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
-  <link rel="stylesheet" href="/css/base.css?v=8b83a6e8bf">
+  <link rel="stylesheet" href="/css/base.css?v=fe3d30767f">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Event", "name": "The Moon occults Venus — 14 September 2026", "description": "Where and when the Moon hides Venus on 14 September 2026: city-by-city times for India, the graze-limit map, and how to watch. Computed from the JPL DE431 ephemeris.", "url": "https://occult.alokm.com/venus-2026-09-14", "startDate": "2026-09-14T16:58:44+05:30", "endDate": "2026-09-14T19:03:17+05:30", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "India"}, "organizer": {"@type": "Organization", "name": "Occult", "url": "https://occult.alokm.com"}, "isAccessibleForFree": true}</script>
 </head>
 <body>
@@ -41,7 +41,7 @@
 <nav class="subnav" id="subnav">
   <div class="subnav-row">
     <div class="subnav-links">
-      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">How to watch</a>
+      <a href="#map" data-sec="map">Map</a><a href="#moon" data-sec="moon">Moon</a><a href="#cities" data-sec="cities">Cities</a><a href="#watch" data-sec="watch">Watch</a>
     </div>
     <button class="chip" id="loc-chip" type="button" aria-haspopup="dialog"><span class="chip-pin">📍</span><span id="chip-name">Choose location</span><span class="chip-sub" id="chip-sub"></span></button>
   </div>
@@ -72,6 +72,7 @@
 
   <h2 id="map">Where it can be seen</h2>
   <div class="map-card">
+    <button class="btn map-reset" id="map-reset" type="button" hidden>Reset zoom</button>
     <svg viewBox="0 0 800 917" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of where the occultation is visible" id="main-map" class="occ-svg">
 <rect width="800" height="917" class="sea"/>
 <use href="/img/map-india-800.svg?v=89c4866016#land" class="land"/><use href="/img/map-india-800.svg?v=89c4866016#border" class="border"/>
@@ -265,13 +266,14 @@
   </div>
   <p>The gold line is the <strong>north limit</strong>: along it Venus grazes the Moon's northern edge. North of the line it is a near miss — from Jhansi Venus passes just 0.3′ outside the limb — and a graze seen from right on the line, Venus blinking in and out behind lunar mountains, is the finest view of all. The solid line is traced against the real lunar limb — LRO LOLA terrain, the mountains and valleys that are on the edge for this libration — and sits -2.1 to +3.0 km from the mean-sphere line (dotted).</p>
   <p>The violet shading is where the Sun has set by the time of the event, so the reappearance happens in a darkening sky.</p>
-  <p class="hint">Tap the map to set your location. Take the graze line with you:
+  <p class="hint">Tap the map to set your location; pinch it to zoom in. Take the graze line with you:
   <a href="/kml/venus-2026-09-14.kml">KML</a> for Google Earth / Maps · <a href="/kml/venus-2026-09-14.gpx">GPX</a> for a phone GPS app.</p>
 
   <h2 id="moon">At the Moon's edge</h2>
   <div class="limb-card">
     <div class="limb-controls"><span id="limb-where" class="limb-readout"></span><span class="limb-readout" id="limb-readout"></span></div>
     <div class="loc-result" id="loc-result" hidden></div>
+    <div class="acts" id="ev-acts" hidden><button class="btn" id="act-ics" type="button">Add to calendar</button><a class="btn" id="act-gcal" href="#" target="_blank" rel="noopener">Google Calendar</a><button class="btn" id="act-share" type="button">Share</button></div>
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
@@ -341,6 +343,7 @@
   basic analytics. <a href="/method">How this is computed</a> · <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 
-<script src="/js/occultation.js?v=b709109ecb"></script>
+<script src="/js/site.js?v=0812d9dde9"></script>
+<script src="/js/occultation.js?v=8b1cdcd101"></script>
 </body>
 </html>

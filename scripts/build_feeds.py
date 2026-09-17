@@ -439,7 +439,7 @@ CAL_CSS = """
     .feed-next { list-style: none; padding: 0; margin: 0.6rem 0 0; display: grid; gap: 0.35rem; }
     .feed-next li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 0.6rem; font-size: 0.92rem; }
     .feed-next time { color: var(--muted); font-variant-numeric: tabular-nums; }
-    a.btn { display: inline-block; text-decoration: none; }
+    a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 """
 
 CAL_JS = r"""
@@ -463,6 +463,10 @@ CAL_JS = r"""
     document.getElementById('feed-count').textContent = c[4] + ' events in the feed now.';
     document.getElementById('feed-sub').href = webcal;
     document.getElementById('feed-google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
+    if (/Android/i.test(navigator.userAgent)) {   // Chrome on Android does nothing with a webcal: link; its calendar is Google's
+      document.getElementById('feed-sub').hidden = true;
+      document.getElementById('feed-google').classList.add('btn-primary');
+    }
     document.getElementById('feed-url').textContent = https;
     document.getElementById('feed-copy').onclick = function () {
       var b = this; (navigator.clipboard ? navigator.clipboard.writeText(https) : Promise.reject()).then(function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy link'; }, 1500); }, function () {});

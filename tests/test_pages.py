@@ -170,3 +170,18 @@ def test_saturn_config_packs_losslessly():
     res = subprocess.run(["node", "-e", js], input=json.dumps(bj.pack_config(c)), capture_output=True, text=True, timeout=60)
     assert res.returncode == 0, res.stderr[-2000:]
     assert json.loads(res.stdout) == c["xyf"]
+
+
+def test_location_pages_load_the_shared_helpers_first():
+    """Every page with a location sheet calls site.js from its own script — back closes the sheet, a spot gets a city's name,
+    a first visit is asked for a place — so each must load site.js, and before any script of its own after the footer."""
+    site = _site()
+    pages = [f for f in sorted(glob.glob(os.path.join(site, "*.html"))) if 'id="loc-sheet"' in open(f).read()]
+    assert len(pages) > 100, len(pages)
+    for f in pages:
+        tail = open(f).read().split("</footer>")[-1]
+        name = os.path.basename(f)
+        assert "/js/site.js?v=" in tail, f"{name} does not load js/site.js"
+        at = tail.index("/js/site.js?v=")
+        for mine in re.finditer(r'<script src="/js/(?:occultation|moons|moonstars|asteroid-month)\.js|<script>', tail):
+            assert at < mine.start(), f"{name} runs its own script before site.js"

@@ -143,6 +143,22 @@ Rules that are easy to break:
   Drawn with Pillow (in requirements) from macOS system fonts; without them the committed PNGs stay. Only
   previewers and installers fetch these — pages never load them. `site/manifest.webmanifest` is written by
   `build_index` (standalone, night colours, shortcuts to /calendar and the home sections).
+- **On a phone** (`SITE_JS` in build_pages → `site/js/site.js`, loaded before the page's own script on every page with a
+  location sheet). Back — the button or Android's gesture — closes an open `<dialog>` or the asteroid map's full screen instead
+  of leaving the page: each overlay pushes a history entry (a MutationObserver on dialogs' `open`, `Overlay.opened/closed` for
+  the map) and, closed any other way, goes back off it and restores the address the page set meanwhile (pages
+  `replaceState` while a sheet is open). `placeName()` names a spot that is not a listed city: the city within 1 km, "Spot near
+  <city>" within 60 km, else coordinates — no more "Pinned spot". `askPlace()` shows a first visit which place the page is
+  using, with Use my location / Choose / Keep; `occult-asked` or a saved `occult-loc` silences it, and a page's own starting
+  place is never written to `occult-loc` (only the reader's choices are). Occultation event pages now start from the saved
+  place too (after `?city=` / `?lat&lon`), save only choices made in the sheet — a tap on the map or a city dot explores
+  without replacing it — and offer Add to calendar (.ics), Google Calendar and Share (`Cal` in site.js); the asteroid page has
+  Directions (Google Maps), the calendar buttons, and directions to each suggested station. On Android Google Calendar comes
+  first and the calendar page hides its webcal Subscribe (Chrome ignores webcal:). Touch screens get 44 px targets
+  (`@media (pointer: coarse)`; `button[hidden], a[hidden]` stay hidden despite it). The event page's drawn map zooms under
+  two fingers (viewBox, 10× at most) with dots, labels and lines counter-scaled by `--z`; at full size `touch-action: pan-y`
+  leaves one finger to scroll the page, zoomed in one finger pans, and a tap just after a gesture is not a tap. The asteroid
+  page's Leaflet map already pinch-zooms itself.
 - **Offline** (`SW_JS` in `scripts/build_pages.py` → `site/sw.js`, written by `build_index`; registered from `head()` so
   every page does it). The point is the asteroid chaser standing in a field 40 km from home with no signal: once a page has
   been opened it opens again without one — and with its stylesheet and scripts in shared files, that means the files it

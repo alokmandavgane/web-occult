@@ -19,7 +19,7 @@ import math
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE, SITE_NAME, asset, cities_js, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE, SITE_NAME, asset, cities_js, esc, head, site_js_url
 
 MOON_NAME = {"io": "Io", "europa": "Europa", "ganymede": "Ganymede", "callisto": "Callisto",
              "mimas": "Mimas", "enceladus": "Enceladus", "tethys": "Tethys", "dione": "Dione",
@@ -407,10 +407,10 @@ RENDER_JS = r"""
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   M.cities = window.OccultCities || {};      // js/cities.js, loaded just before this file
   Object.keys(M.cities).forEach(function (n) { sel.add(new Option(n, n)); });
-  function setLoc(lat, lon, label) {
+  function setLoc(lat, lon, label, quiet) {   // quiet: the page's own starting place, not one the reader chose
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
-    try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, M.cities) };
+    if (!quiet) { try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {} placeAsked(); }
     render();
   }
   document.getElementById('loc-chip').addEventListener('click', function () { if (LOC) { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); } sheet.showModal(); });
@@ -423,8 +423,8 @@ RENDER_JS = r"""
       function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
   onlyVis.addEventListener('change', render); chips.forEach(function (c) { c.addEventListener('change', render); });
   var saved = null; try { saved = JSON.parse(localStorage.getItem('occult-loc')); } catch (e) {}
-  if (saved && isFinite(saved.lat)) setLoc(saved.lat, saved.lon, saved.label);
-  else setLoc(M.defaultPlace[1], M.defaultPlace[2], M.defaultPlace[0]);
+  if (saved && isFinite(saved.lat)) setLoc(saved.lat, saved.lon, saved.label, true);
+  else { setLoc(M.defaultPlace[1], M.defaultPlace[2], M.defaultPlace[0], true); askPlace(M.defaultPlace[0], function (lat, lon) { setLoc(lat, lon); }); }
 })();
 """
 
@@ -479,6 +479,7 @@ TEMPLATE = """
   <script type="application/json" id="jmeta">__META__</script>
 </main>
 __FOOTER__
+<script src="__SITE_JS__"></script>
 <script src="__CITIES_JS__"></script>
 <script src="__MOONS_JS__"></script>
 </body>
@@ -571,7 +572,7 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
                  "__NIGHTS__": nights_html(groups, P, tz, lat, lon), "__METHOD__": method,
                  "__DIAG_DATA__": json.dumps(diag, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
-                 "__FOOTER__": FOOTER, "__CITIES_JS__": cities_js("cities", all_cities),
+                 "__FOOTER__": FOOTER, "__SITE_JS__": site_js_url(), "__CITIES_JS__": cities_js("cities", all_cities),
                  "__MOONS_JS__": asset("js/moons.js", UNPACK_JS.lstrip() + DIAGRAM_JS + RENDER_JS)}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{JUPITER_CSS}</style>", og=planet) + body)
@@ -646,6 +647,7 @@ JUPITER_CSS = """
     .cfg-lbl { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .filters { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; margin: 0.8rem 0 0.3rem; font-size: 0.9rem; }
     .toggle { display: inline-flex; gap: 0.4rem; align-items: center; }
+    @media (pointer: coarse) { .toggle { min-height: 44px; } }
     .chips { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; }
     .chipbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.6rem; font-size: 0.85rem; cursor: pointer; }
     .chipbox input { accent-color: var(--accent); }

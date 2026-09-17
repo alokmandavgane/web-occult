@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
   <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
-  <link rel="stylesheet" href="/css/base.css?v=8b83a6e8bf">
+  <link rel="stylesheet" href="/css/base.css?v=fe3d30767f">
   <style>
     .config-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem 0.8rem; }
     .config-svg { width: 100%; height: auto; display: block; background: var(--sea); border-radius: 8px; margin: 0.4rem 0; }
@@ -41,6 +41,7 @@
     .cfg-lbl { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .filters { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center; margin: 0.8rem 0 0.3rem; font-size: 0.9rem; }
     .toggle { display: inline-flex; gap: 0.4rem; align-items: center; }
+    @media (pointer: coarse) { .toggle { min-height: 44px; } }
     .chips { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; }
     .chipbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.15rem 0.6rem; font-size: 0.85rem; cursor: pointer; }
     .chipbox input { accent-color: var(--accent); }
@@ -135,7 +136,8 @@
   basic analytics. <a href="/method">How this is computed</a> · <a href="/calendar">Calendar feeds</a> · <a href="https://alokm.com/">Alok Mandavgane</a>.</p>
 </footer>
 
+<script src="/js/site.js?v=0812d9dde9"></script>
 <script src="/js/cities.js?v=4f5d900b53"></script>
-<script src="/js/moons.js?v=fad12cd4a4"></script>
+<script src="/js/moons.js?v=a4d896c45d"></script>
 </body>
 </html>

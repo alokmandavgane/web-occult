@@ -22,7 +22,7 @@ import sys
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE_NAME, Proj, asset, cities_js, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE_NAME, Proj, asset, cities_js, esc, head, site_js_url
 
 sys.path.insert(0, str(ROOT / "engine"))
 
@@ -272,6 +272,7 @@ AST_CSS = """
     .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
     .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
+    @media (pointer: coarse) { .ast-more { display: inline-flex; align-items: center; min-height: 44px; } }
     @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
     .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
 """
@@ -351,14 +352,16 @@ EVENT_CSS = """
                   background: color-mix(in srgb, var(--card) 86%, transparent); border: 1px solid var(--border); border-radius: 6px;
                   padding: 0 4px; white-space: nowrap; width: auto !important; height: auto !important; }
     .tick-dot { background: var(--map-centre); border-radius: 50%; width: 6px; height: 6px; margin: -3px 0 0 -3px; }
-    .stn-dot { width: 20px; height: 20px; border-radius: 50%; background: #334155; color: #fff; border: 2px solid #fff;
-               font: 600 11px/16px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; text-align: center; cursor: pointer; }
+    .stn-dot { width: 28px; height: 28px; border-radius: 50%; background: #334155; color: #fff; border: 2px solid #fff;
+               font: 600 12px/24px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; text-align: center; cursor: pointer; }
     .stn-panel { margin: 0.6rem 0 0; }
     .stn-list { display: grid; gap: 0.3rem; }
     .stn-list button { font: inherit; font-size: 0.85rem; text-align: left; color: inherit; background: var(--card);
                        border: 1px solid var(--line); border-radius: 10px; padding: 0.35rem 0.6rem; cursor: pointer; }
     .stn-list button:hover { border-color: var(--accent); }
     .stn-list b { font-variant-numeric: tabular-nums; }
+    .stn-row { display: flex; gap: 0.3rem; align-items: stretch; } .stn-row button { flex: 1 1 auto; } .stn-go { font-size: 0.8rem; flex: none; }
+    #map.leaflet-touch .leaflet-bar a { width: 44px; height: 44px; line-height: 44px; }   /* beats leaflet.css, which loads later */
     .now-label { background: var(--c-limit); border-color: var(--c-limit); color: #fff; font-variant-numeric: tabular-nums; }
 """
 
@@ -783,8 +786,9 @@ MONTH_JS = r"""
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, META.cities) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    placeAsked();
     render(); }
   document.getElementById('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -795,6 +799,7 @@ MONTH_JS = r"""
     navigator.geolocation.getCurrentPosition(function (p) { geo.disabled = false; geo.textContent = 'Use my location'; setLoc(p.coords.latitude, p.coords.longitude); sheet.close(); },
       function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
   fetch(META.src).then(function (r) { return r.json(); }).then(function (d) { data = d; render(); });
+  askPlace(LOC.label, function (lat, lon) { setLoc(lat, lon); });
 })();
 """
 
@@ -856,6 +861,7 @@ TEMPLATE = """
 </main>
 __FOOTER__
 <script src="/js/asteroid.js?v=__LIBV__"></script>
+<script src="__SITE_JS__"></script>
 <script src="__CITIES_JS__"></script>
 <script src="__MONTH_JS__"></script>
 </body>
@@ -877,7 +883,7 @@ EVENT_JS = r"""
   var el = function (x) { return document.getElementById(x); };
   // a shared link carries a spot: it sets this page, but never overwrites the reader's own saved place
   var qlat = parseFloat(params.get('lat')), qlon = parseFloat(params.get('lon'));
-  if (isFinite(qlat) && isFinite(qlon)) LOC = { lat: qlat, lon: qlon, label: 'Pinned spot' };
+  if (isFinite(qlat) && isFinite(qlon)) LOC = { lat: qlat, lon: qlon, label: placeName(qlat, qlon, META.cities) };
   if (!LOC) { try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {} }
   if (!LOC) LOC = { lat: META.defaultPlace[1], lon: META.defaultPlace[2], label: META.defaultPlace[0] };
   function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
@@ -951,8 +957,8 @@ EVENT_JS = r"""
     me = L.marker([LOC.lat, LOC.lon], { icon: L.divIcon({ className: 'pin-dot', iconSize: [16, 16] }), draggable: true, autoPan: true,
                                         title: 'Drag to move your spot' }).addTo(map);
     me.bindPopup('');
-    me.on('dragend', function () { var p = me.getLatLng(); setLoc(p.lat, p.lng, 'Pinned spot'); });
-    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng, 'Pinned spot'); me.openPopup(); });
+    me.on('dragend', function () { var p = me.getLatLng(); setLoc(p.lat, p.lng); });
+    map.on('click', function (e) { setLoc(e.latlng.lat, e.latlng.lng); me.openPopup(); });
     map.on('moveend zoomend', timeLabels);
     var bounds = L.featureGroup(group).getBounds();
     map.fitBounds(bounds.isValid() ? bounds : L.latLngBounds([[META.bbox[1], META.bbox[0]], [META.bbox[3], META.bbox[2]]]), { padding: [16, 16] });
@@ -984,8 +990,11 @@ EVENT_JS = r"""
     var m = el('map'), btn;
     function native() { return document.fullscreenElement || document.webkitFullscreenElement; }
     function isBig() { return !!native() || m.classList.contains('map-max'); }
+    var wasBig = false, backOut = function () { if (isBig()) toggle(); };   // back while the map is big: make it small again
     function changed() {
       var big = isBig();
+      if (big && !wasBig) Overlay.opened(backOut); else if (!big && wasBig) Overlay.closed(backOut);
+      wasBig = big;
       btn.innerHTML = big ? FULL_OFF : FULL_ON;
       btn.title = big ? 'Exit full screen' : 'Full screen';
       btn.setAttribute('aria-label', btn.title);
@@ -1062,9 +1071,10 @@ EVENT_JS = r"""
       var side = (f > 0) === (ev.north_is === 'left') ? 'north' : 'south';
       var where = Math.abs(f) < 1e-9 ? 'on the centre line' : F.r0(tc[0]) + ' km ' + side + ' of it';
       stnPts.push(p);
-      rows.push('<button type="button" data-stn="' + i + '"><b>' + (i + 1) + '</b> ' + p[0].toFixed(4) + ', ' + p[1].toFixed(4)
-                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b> · ' + A.pct(A.chance(ev, s)) + ' chance</button>');
-      if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [20, 20], html: String(i + 1) }),
+      rows.push('<div class="stn-row"><button type="button" data-stn="' + i + '"><b>' + (i + 1) + '</b> ' + p[0].toFixed(4) + ', ' + p[1].toFixed(4)
+                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b> · ' + A.pct(A.chance(ev, s)) + ' chance</button>'
+                + '<a class="btn stn-go" href="' + mapsTo(p[0], p[1]) + '" target="_blank" rel="noopener">Directions</a></div>');
+      if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [28, 28], html: String(i + 1) }),
                                             title: 'Station ' + (i + 1) + ' — tap to make it your spot' })
         .bindTooltip(F.r1(s.dur) + ' s · ' + A.pct(A.chance(ev, s)), { direction: 'top', offset: [0, -8] })
         .on('click', function () { setLoc(p[0], p[1], 'Station ' + (i + 1)); }));
@@ -1177,7 +1187,20 @@ EVENT_JS = r"""
     try { history.replaceState(null, '', q); } catch (e) {}
     el('spot-coords').textContent = LOC.lat.toFixed(4) + ', ' + LOC.lon.toFixed(4);
     el('spot-url').value = location.origin + location.pathname + q;
+    el('spot-dir').href = mapsTo(LOC.lat, LOC.lon);
+    el('spot-gcal').href = Cal.google(spotCal());
   }
+  function mapsTo(lat, lon) { return 'https://www.google.com/maps/dir/?api=1&destination=' + lat.toFixed(5) + ',' + lon.toFixed(5); }
+  function spotCal() {   // this event at this spot, for a calendar: ten minutes around the moment, a reminder half an hour before
+    var s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc), t = Date.parse(ev.el.t0) + s.tau * 1000;
+    return { title: '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a star', start: t - 5 * 60000, end: t + 5 * 60000,
+             details: y[1] + '.' + (y[3] ? ' ' + y[3] + ' chance of an occultation here.' : '') + ' ' + y[2] + '. Gaia DR3 ' + ev.star.gaia
+               + ', magnitude ' + F.r1(ev.star.v) + ', fades ' + F.r1(ev.drop) + ' mag; time ± ' + F.r1(ev.sigma_s || 0) + ' s.',
+             url: el('spot-url').value, uid: 'ast-' + ev.id + '-' + LOC.lat.toFixed(3) + '-' + LOC.lon.toFixed(3), file: ev.id,
+             where: LOC.lat.toFixed(5) + ', ' + LOC.lon.toFixed(5), alarm: 30 };
+  }
+  el('spot-ics').addEventListener('click', function () { if (ev) Cal.ics(spotCal()); });
+  if (Cal.android) el('ast-dl').insertBefore(el('spot-gcal'), el('spot-ics'));   // Android's calendar is Google's
   el('spot-copy').addEventListener('click', function () {
     var b = el('spot-copy'), done = function () { b.textContent = 'Link copied'; setTimeout(function () { b.textContent = 'Copy link to this spot'; }, 2000); };
     if (navigator.clipboard) navigator.clipboard.writeText(el('spot-url').value).then(done, function () { el('spot-url').select(); });
@@ -1217,8 +1240,9 @@ EVENT_JS = r"""
   var sheet = el('loc-sheet'), latI = el('loc-lat'), lonI = el('loc-lon'), sel = el('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, META.cities) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    placeAsked();
     render(); }
   el('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -1228,6 +1252,7 @@ EVENT_JS = r"""
   geo.addEventListener('click', function () { geo.disabled = true; geo.textContent = 'Locating…';
     navigator.geolocation.getCurrentPosition(function (p) { geo.disabled = false; geo.textContent = 'Use my location'; setLoc(p.coords.latitude, p.coords.longitude); sheet.close(); },
       function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
+  if (!(isFinite(qlat) && isFinite(qlon))) askPlace(LOC.label, function (lat, lon) { setLoc(lat, lon); });
 })();
 """
 
@@ -1281,7 +1306,7 @@ EVENT_TEMPLATE = """
     <div class="stn-list" id="stn-list"></div>
     <p class="hint" id="stn-note"></p>
   </div>
-  <div class="ast-dl" id="ast-dl"><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
+  <div class="ast-dl" id="ast-dl"><a class="btn" id="spot-dir" href="#" target="_blank" rel="noopener">Directions to this spot</a><button class="btn" id="spot-ics" type="button">Add to calendar</button><a class="btn" id="spot-gcal" href="#" target="_blank" rel="noopener">Google Calendar</a><button class="btn" data-dl="kml">Download path (KML)</button><button class="btn" data-dl="gpx">GPX</button></div>
   <div class="ev-panes">
     <div id="pane-finder"></div>
     <div id="pane-chord"></div>
@@ -1303,6 +1328,7 @@ __FOOTER__
 <link rel="stylesheet" href="__LEAFLET_CSS__" integrity="__LEAFLET_CSS_SRI__" crossorigin="anonymous">
 <script src="__LEAFLET_JS__" integrity="__LEAFLET_JS_SRI__" crossorigin="anonymous"></script>
 <script src="/js/asteroid.js?v=__LIBV__"></script>
+<script src="__SITE_JS__"></script>
 <script src="__CITIES_JS__"></script>
 <script>
 __JS__
@@ -1327,7 +1353,7 @@ def event_page(months, audience, geo):
     page = head(f"Asteroid occultation · {SITE_NAME}", desc, "/asteroid",
                 extra=f"<style>{AST_CSS}{CHART_CSS}{EVENT_CSS}</style>", og="ast")
     body = EVENT_TEMPLATE
-    for k, v in {"__PLACE__": esc(DEFAULT_PLACE[0]), "__CITIES_JS__": cities_url(audience),
+    for k, v in {"__PLACE__": esc(DEFAULT_PLACE[0]), "__CITIES_JS__": cities_url(audience), "__SITE_JS__": site_js_url(),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__JS__": EVENT_JS, "__LIBV__": lib_url(),
                  "__LEAFLET_CSS__": f"{LEAFLET}/leaflet.css", "__LEAFLET_CSS_SRI__": LEAFLET_CSS_SRI,
@@ -1404,7 +1430,7 @@ def month_page(ym, d, cities_all, nav):
                  "__RULES__": rules_html, "__ORBITS__": esc(d["engine"]["orbits"]),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__LIBV__": lib_url(),
-                 "__CITIES_JS__": cities_url(d["audience"]), "__MONTH_JS__": asset("js/asteroid-month.js", MONTH_JS.lstrip())}.items():
+                 "__SITE_JS__": site_js_url(), "__CITIES_JS__": cities_url(d["audience"]), "__MONTH_JS__": asset("js/asteroid-month.js", MONTH_JS.lstrip())}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(page + body)
     (OUT / "data").mkdir(exist_ok=True)

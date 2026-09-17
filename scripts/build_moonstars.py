@@ -15,7 +15,7 @@ import sys
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE_NAME, asset, cities_js, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE_NAME, asset, cities_js, esc, head, site_js_url
 
 sys.path.insert(0, str(ROOT / "engine"))
 
@@ -347,8 +347,9 @@ SOLVER_JS = r"""
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, META.cities) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    placeAsked();
     countLine.textContent = 'Computing for ' + LOC.label + '…'; setTimeout(render, 10); }
   document.getElementById('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -364,6 +365,7 @@ SOLVER_JS = r"""
     if (!(LOC.label === META.defaultPlace[0] && INST === META.defaultInstrument)) countLine.textContent = 'Computing for ' + LOC.label + '…';
     setTimeout(render, 10);
   });
+  askPlace(LOC.label, function (lat, lon) { setLoc(lat, lon); });
 })();
 """
 
@@ -419,6 +421,7 @@ TEMPLATE = """
 </main>
 __FOOTER__
 <script src="/js/moon.js?v=__MOONJS_V__"></script>
+<script src="__SITE_JS__"></script>
 <script src="__CITIES_JS__"></script>
 <script src="__MS_JS__"></script>
 </body>
@@ -464,7 +467,7 @@ def month_page(ym, d, cities, nav):
                  "__CAL__": calendar_html(y, mo, groups), "__NIGHTS__": nights_html(groups, t0, tz), "__RULES__": rules,
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__MOONJS_V__": _hash(MOON_JS),
-                 "__CITIES_JS__": cities_js("cities", cities), "__MS_JS__": asset("js/moonstars.js", SOLVER_JS.lstrip())}.items():
+                 "__SITE_JS__": site_js_url(), "__CITIES_JS__": cities_js("cities", cities), "__MS_JS__": asset("js/moonstars.js", SOLVER_JS.lstrip())}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(page + body)
     (OUT / "data").mkdir(exist_ok=True)

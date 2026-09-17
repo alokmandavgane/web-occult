@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
   <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
-  <link rel="stylesheet" href="/css/base.css?v=8b83a6e8bf">
+  <link rel="stylesheet" href="/css/base.css?v=fe3d30767f">
   <style>
     .feed-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.9rem 1rem; margin: 0.8rem 0; }
     .feed-card label { display: block; font-size: 0.9rem; color: var(--muted); }
@@ -40,7 +40,7 @@
     .feed-next { list-style: none; padding: 0; margin: 0.6rem 0 0; display: grid; gap: 0.35rem; }
     .feed-next li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 0.6rem; font-size: 0.92rem; }
     .feed-next time { color: var(--muted); font-variant-numeric: tabular-nums; }
-    a.btn { display: inline-block; text-decoration: none; }
+    a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 </style>
 </head>
 <body data-host="occult.alokm.com">
@@ -115,6 +115,10 @@
     document.getElementById('feed-count').textContent = c[4] + ' events in the feed now.';
     document.getElementById('feed-sub').href = webcal;
     document.getElementById('feed-google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
+    if (/Android/i.test(navigator.userAgent)) {   // Chrome on Android does nothing with a webcal: link; its calendar is Google's
+      document.getElementById('feed-sub').hidden = true;
+      document.getElementById('feed-google').classList.add('btn-primary');
+    }
     document.getElementById('feed-url').textContent = https;
     document.getElementById('feed-copy').onclick = function () {
       var b = this; (navigator.clipboard ? navigator.clipboard.writeText(https) : Promise.reject()).then(function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy link'; }, 1500); }, function () {});

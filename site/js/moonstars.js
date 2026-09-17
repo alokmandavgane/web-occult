@@ -200,8 +200,9 @@
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, META.cities) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    placeAsked();
     countLine.textContent = 'Computing for ' + LOC.label + '…'; setTimeout(render, 10); }
   document.getElementById('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -217,4 +218,5 @@
     if (!(LOC.label === META.defaultPlace[0] && INST === META.defaultInstrument)) countLine.textContent = 'Computing for ' + LOC.label + '…';
     setTimeout(render, 10);
   });
+  askPlace(LOC.label, function (lat, lon) { setLoc(lat, lon); });
 })();

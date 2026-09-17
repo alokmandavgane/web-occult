@@ -61,8 +61,9 @@
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
-    LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
+    LOC = { lat: lat, lon: lon, label: label || placeName(lat, lon, META.cities) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
+    placeAsked();
     render(); }
   document.getElementById('loc-chip').addEventListener('click', function () { latI.value = LOC.lat.toFixed(4); lonI.value = LOC.lon.toFixed(4); sheet.showModal(); });
   sheet.addEventListener('click', function (e) { if (e.target === sheet) sheet.close(); });
@@ -73,4 +74,5 @@
     navigator.geolocation.getCurrentPosition(function (p) { geo.disabled = false; geo.textContent = 'Use my location'; setLoc(p.coords.latitude, p.coords.longitude); sheet.close(); },
       function () { geo.disabled = false; geo.textContent = 'Location unavailable'; }); });
   fetch(META.src).then(function (r) { return r.json(); }).then(function (d) { data = d; render(); });
+  askPlace(LOC.label, function (lat, lon) { setLoc(lat, lon); });
 })();
