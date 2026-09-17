@@ -67,6 +67,9 @@
     .ast-name { font-family: var(--serif); }
     .ast-star { white-space: nowrap; }
     .ast-you { font-size: 0.92rem; margin-top: 0.1rem; }
+    .ast-p { display: inline-block; font-size: 0.78rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text);
+             border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; margin-right: 0.4rem; white-space: nowrap; }
+    .ast-p:empty, .ast.v-out .ast-p { display: none; }   /* a plain miss says so in words; the event page still gives its number */
     .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
     .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
@@ -107,6 +110,8 @@
     .ev-head { margin: 1.2rem 0 0.2rem; }
     .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
     .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
+    .ev-chance { margin: 0.6rem 0 0; color: var(--muted); font-size: 0.9rem; }
+    .ev-chance b { font-size: 1.5rem; color: var(--text); font-variant-numeric: tabular-nums; margin-right: 0.35rem; }
     .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
     .ev-verdict.v-chance { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
@@ -187,6 +192,7 @@
   <header class="ev-head">
     <p class="sub" id="ev-when">Loading…</p>
     <h1 id="ev-title">Asteroid occultation</h1>
+    <p class="ev-chance" id="ev-chance" hidden></p>
     <p class="ev-verdict" id="ev-verdict"></p>
     <p class="hint" id="ev-look"></p>
   </header>
@@ -236,7 +242,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous"></script>
-<script src="/js/asteroid.js?v=067ac570b8"></script>
+<script src="/js/asteroid.js?v=aa8de3e997"></script>
 <script src="/js/cities-india.js?v=5e73770dc4"></script>
 <script>
 
@@ -438,10 +444,10 @@
       var where = Math.abs(f) < 1e-9 ? 'on the centre line' : F.r0(tc[0]) + ' km ' + side + ' of it';
       stnPts.push(p);
       rows.push('<button type="button" data-stn="' + i + '"><b>' + (i + 1) + '</b> ' + p[0].toFixed(4) + ', ' + p[1].toFixed(4)
-                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b></button>');
+                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b> · ' + A.pct(A.chance(ev, s)) + ' chance</button>');
       if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [20, 20], html: String(i + 1) }),
                                             title: 'Station ' + (i + 1) + ' — tap to make it your spot' })
-        .bindTooltip(F.r1(s.dur) + ' s', { direction: 'top', offset: [0, -8] })
+        .bindTooltip(F.r1(s.dur) + ' s · ' + A.pct(A.chance(ev, s)), { direction: 'top', offset: [0, -8] })
         .on('click', function () { setLoc(p[0], p[1], 'Station ' + (i + 1)); }));
     });
     el('stn-list').innerHTML = rows.join('');
@@ -453,7 +459,7 @@
     if (!map) return;
     me.setLatLng([LOC.lat, LOC.lon]);
     var t = Date.parse(ev.el.t0) + s.tau * 1000, tz = tzOf(LOC), inside = Math.abs(s.d) <= ev.el.R;
-    me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + '<br>'
+    me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + (y[3] ? ' · ' + y[3] + ' chance' : '') + '<br>'
       + y[1] + '<br><span class="hint">' + y[2] + '</span>');
     timeLabels();
     drawStations();
@@ -497,15 +503,18 @@
     el('chip-name').textContent = LOC.label;
     el('ev-title').textContent = '(' + a.number + ') ' + a.name + ' hides a magnitude ' + F.r1(st.v) + ' star';
     el('ev-when').textContent = F.date(t, tz) + ' · ' + F.t(t, tz) + ' at ' + LOC.label + (ev.sigma_s ? ' ± ' + F.r1(ev.sigma_s) + ' s' : '');
-    var verdict = el('ev-verdict');
+    var verdict = el('ev-verdict'), pc = el('ev-chance');
     verdict.className = 'ev-verdict v-' + y[0];
     verdict.textContent = y[1];
+    pc.hidden = !y[3];
+    pc.innerHTML = y[3] ? '<b>' + y[3] + '</b>chance of an occultation here, allowing for the path\'s 1σ of ' + F.r0(ev.sigma_km || 0) + ' km' : '';
     el('ev-look').textContent = y[2];
     var rows = [
       ['Asteroid', '(' + a.number + ') ' + a.name + ' · ' + F.r0(a.diameter_km) + ' km across · magnitude ' + F.r1(a.mag) + ' · ' + F.r1(a.dist_au) + ' au away'],
       ['Star', 'Gaia DR3 ' + st.gaia + ' · magnitude ' + F.r1(st.v) + ' (G ' + F.r1(st.g) + ')' + (st.ruwe && st.ruwe > 1.4 ? ' · RUWE ' + st.ruwe + ', may be double' : '')],
       ['The fade', F.r1(ev.drop) + ' magnitudes, to ' + F.r1(ev.combined_mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
       ['From here', inside ? F.r1(s.dur) + ' s, ' + F.r0(tc[0]) + ' km from the centre line' : 'outside the path, ' + F.r0(tc[0]) + ' km from the centre line'],
+      ['Chance here', y[3] ? y[3] + ' · on the centre line ' + A.pct(A.chance(ev, { d: 0 })) : 'the star is below the horizon'],
       ['The path', F.r0(2 * R) + ' km wide, ± ' + F.r0(ev.sigma_km || 0) + ' km (1σ) · shadow at ' + F.r1(ev.speed_kms) + ' km/s'],
       ['The sky here', 'star ' + F.r0(s.star_alt) + '° up in the ' + F.compass(s.star_az) + ' · ' + F.sky(s.sun_alt)
         + ' · Moon ' + F.r0(ev.moon_illum * 100) + '% lit, ' + F.r0(ev.moon_sep) + '° away'],

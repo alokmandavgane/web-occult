@@ -32,19 +32,20 @@ UID:ast-2026-09-22-42-isis-090112-ranchi@occult.alokm.com
 DTSTAMP:20260916T024622Z
 DTSTART:20260922T231503Z
 DTEND:20260922T232503Z
-SUMMARY:(42) Isis hides a mag 11.6 star
+SUMMARY:(42) Isis hides a mag 11.6 star · 87% chance
 DESCRIPTION:(42) Isis hides a magnitude 11.6 star\, seen from Ranchi.\nYou 
  are inside the path\, 24 km from its centre line: the star vanishes for up
-  to 2.4 s.\nClosest approach 04:50:03 IST\, give or take 1 s. The star is 
- 16° up in the E · dusk.\nIt fades 2.1 magnitudes for up to 2.7 s on the 
- centre line\, and the path is 111 km wide\, give or take 28 km.\nThe map\,
-  the finder chart and the path as KML: https://occult.alokm.com/asteroid?e
- =2026-09-22-42-isis-090112
+  to 2.4 s.\nChance of an occultation here: 87%\, allowing for the path's 1
+ σ of 28 km.\nClosest approach 04:50:03 IST\, give or take 1 s. The star i
+ s 16° up in the E · dusk.\nIt fades 2.1 magnitudes for up to 2.7 s on th
+ e centre line\, and the path is 111 km wide\, give or take 28 km.\nThe map
+ \, the finder chart and the path as KML: https://occult.alokm.com/asteroid
+ ?e=2026-09-22-42-isis-090112
 URL:https://occult.alokm.com/asteroid?e=2026-09-22-42-isis-090112
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(42) Isis hides a mag 11.6 star
+DESCRIPTION:(42) Isis hides a mag 11.6 star · 87% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -53,19 +54,20 @@ UID:ast-2026-09-28-1-ceres-708160-ranchi@occult.alokm.com
 DTSTAMP:20260916T024622Z
 DTSTART:20260928T230917Z
 DTEND:20260928T231917Z
-SUMMARY:(1) Ceres hides a mag 11.8 star
+SUMMARY:(1) Ceres hides a mag 11.8 star · >99% chance
 DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Ranchi.\nYou 
  are inside the path\, 393 km from its centre line: the star vanishes for u
- p to 23.9 s.\nClosest approach 04:44:17 IST\, give or take 1 s. The star i
- s 67° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 s 
- on the centre line\, and the path is 939 km wide\, give or take 19 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2026-09-28-1-ceres-708160
+ p to 23.9 s.\nChance of an occultation here: >99%\, allowing for the path'
+ s 1σ of 19 km.\nClosest approach 04:44:17 IST\, give or take 1 s. The sta
+ r is 67° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3
+  s on the centre line\, and the path is 939 km wide\, give or take 19 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2026-09-28-1-ceres-708160
 URL:https://occult.alokm.com/asteroid?e=2026-09-28-1-ceres-708160
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a mag 11.8 star · >99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -87,20 +89,23 @@ UID:ast-2026-09-30-3812-lidaksum-510336-ranchi@occult.alokm.com
 DTSTAMP:20260916T024622Z
 DTSTART:20260930T195124Z
 DTEND:20260930T200124Z
-SUMMARY:(3812) Lidaksum hides a mag 9.9 star (just outside the path)
+SUMMARY:(3812) Lidaksum hides a mag 9.9 star (just outside the path) · 35%
+  chance
 DESCRIPTION:(3812) Lidaksum hides a magnitude 9.9 star\, seen from Ranchi.\
  nThe predicted edge passes 3 km to the S\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nClosest 
- approach 01:26:24 IST\, give or take 1 s. The star is 25° up in the E · 
- dark sky.\nIt fades 7.5 magnitudes for up to 1.9 s on the centre line\, an
- d the path is 34 km wide\, give or take 29 km.\nThe map\, the finder chart
-  and the path as KML: https://occult.alokm.com/asteroid?e=2026-09-30-3812-
- lidaksum-510336
+ hord from near the edge is the most valuable observation of all.\nChance o
+ f an occultation here: 35%\, allowing for the path's 1σ of 29 km.\nCloses
+ t approach 01:26:24 IST\, give or take 1 s. The star is 25° up in the E 
+ · dark sky.\nIt fades 7.5 magnitudes for up to 1.9 s on the centre line\,
+  and the path is 34 km wide\, give or take 29 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2026-09-30-38
+ 12-lidaksum-510336
 URL:https://occult.alokm.com/asteroid?e=2026-09-30-3812-lidaksum-510336
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3812) Lidaksum hides a mag 9.9 star (just outside the path)
+DESCRIPTION:(3812) Lidaksum hides a mag 9.9 star (just outside the path) ·
+  35% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -135,19 +140,20 @@ UID:ast-2026-10-11-3967-shekhtelia-147968-ranchi@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261011T145831Z
 DTEND:20261011T150831Z
-SUMMARY:(3967) Shekhtelia hides a mag 13.6 star
+SUMMARY:(3967) Shekhtelia hides a mag 13.6 star · 39% chance
 DESCRIPTION:(3967) Shekhtelia hides a magnitude 13.6 star\, seen from Ranch
  i.\nYou are inside the path\, 16 km from its centre line: the star vanishe
- s for up to 0.7 s.\nClosest approach 20:33:31 IST\, give or take 1 s. The 
- star is 11° up in the WSW · dark sky.\nIt fades 4.2 magnitudes for up to
-  1.1 s on the centre line\, and the path is 29 km wide\, give or take 26 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2026-10-11-3967-shekhtelia-147968
+ s for up to 0.7 s.\nChance of an occultation here: 39%\, allowing for the 
+ path's 1σ of 26 km.\nClosest approach 20:33:31 IST\, give or take 1 s. Th
+ e star is 11° up in the WSW · dark sky.\nIt fades 4.2 magnitudes for up 
+ to 1.1 s on the centre line\, and the path is 29 km wide\, give or take 26
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2026-10-11-3967-shekhtelia-147968
 URL:https://occult.alokm.com/asteroid?e=2026-10-11-3967-shekhtelia-147968
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3967) Shekhtelia hides a mag 13.6 star
+DESCRIPTION:(3967) Shekhtelia hides a mag 13.6 star · 39% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -182,20 +188,23 @@ UID:ast-2026-10-30-3044-saltykov-335360-ranchi@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261030T145619Z
 DTEND:20261030T150619Z
-SUMMARY:(3044) Saltykov hides a mag 11.9 star (just outside the path)
+SUMMARY:(3044) Saltykov hides a mag 11.9 star (just outside the path) · 25
+ % chance
 DESCRIPTION:(3044) Saltykov hides a magnitude 11.9 star\, seen from Ranchi.
  \nThe predicted edge passes 11 km to the S\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nCloses
- t approach 20:31:19 IST\, give or take 1 s. The star is 37° up in the WSW
-  · dark sky.\nIt fades 4.9 magnitudes for up to 1.1 s on the centre line\
- , and the path is 25 km wide\, give or take 16 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-30-3
- 044-saltykov-335360
+  chord from near the edge is the most valuable observation of all.\nChance
+  of an occultation here: 25%\, allowing for the path's 1σ of 16 km.\nClos
+ est approach 20:31:19 IST\, give or take 1 s. The star is 37° up in the W
+ SW · dark sky.\nIt fades 4.9 magnitudes for up to 1.1 s on the centre lin
+ e\, and the path is 25 km wide\, give or take 16 km.\nThe map\, the finder
+  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-30
+ -3044-saltykov-335360
 URL:https://occult.alokm.com/asteroid?e=2026-10-30-3044-saltykov-335360
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3044) Saltykov hides a mag 11.9 star (just outside the path)
+DESCRIPTION:(3044) Saltykov hides a mag 11.9 star (just outside the path) 
+ · 25% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -204,20 +213,23 @@ UID:ast-2026-11-02-354-eleonora-881728-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261102T145349Z
 DTEND:20261102T150349Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path)
+SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path) · 26%
+  chance
 DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Ranchi.\
  nThe predicted edge passes 17 km to the SSE\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 20:28:49 IST\, give or take 2 s. The star is 37° up in the SW
-  · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 s on the centre line
- \, and the path is 149 km wide\, give or take 21 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-02
- -354-eleonora-881728
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 26%\, allowing for the path's 1σ of 21 km.\nClo
+ sest approach 20:28:49 IST\, give or take 2 s. The star is 37° up in the 
+ SW · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 s on the centre li
+ ne\, and the path is 149 km wide\, give or take 21 km.\nThe map\, the find
+ er chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-
+ 02-354-eleonora-881728
 URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path) ·
+  26% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -239,19 +251,20 @@ UID:ast-2026-11-04-449-hamburga-017216-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261104T163642Z
 DTEND:20261104T164642Z
-SUMMARY:(449) Hamburga hides a mag 12.6 star
+SUMMARY:(449) Hamburga hides a mag 12.6 star · 53% chance
 DESCRIPTION:(449) Hamburga hides a magnitude 12.6 star\, seen from Ranchi.\
  nYou are inside the path\, 50 km from its centre line: the star vanishes f
- or up to 7.7 s.\nClosest approach 22:11:42 IST\, give or take 4 s. The sta
- r is 19° up in the ENE · dark sky.\nIt fades 1.4 magnitudes for up to 31
- .1 s on the centre line\, and the path is 86 km wide\, give or take 17 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2026-11-04-449-hamburga-017216
+ or up to 7.7 s.\nChance of an occultation here: 53%\, allowing for the pat
+ h's 1σ of 17 km.\nClosest approach 22:11:42 IST\, give or take 4 s. The s
+ tar is 19° up in the ENE · dark sky.\nIt fades 1.4 magnitudes for up to 
+ 31.1 s on the centre line\, and the path is 86 km wide\, give or take 17 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2026-11-04-449-hamburga-017216
 URL:https://occult.alokm.com/asteroid?e=2026-11-04-449-hamburga-017216
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(449) Hamburga hides a mag 12.6 star
+DESCRIPTION:(449) Hamburga hides a mag 12.6 star · 53% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -273,19 +286,20 @@ UID:ast-2026-11-10-4980-magomaev-478976-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261110T144027Z
 DTEND:20261110T145027Z
-SUMMARY:(4980) Magomaev hides a mag 11.4 star
+SUMMARY:(4980) Magomaev hides a mag 11.4 star · 49% chance
 DESCRIPTION:(4980) Magomaev hides a magnitude 11.4 star\, seen from Ranchi.
  \nYou are inside the path\, 0 km from its centre line: the star vanishes f
- or up to 1.5 s.\nClosest approach 20:15:27 IST\, give or take 2 s. The sta
- r is 44° up in the E · dark sky.\nIt fades 4.8 magnitudes for up to 1.6 
- s on the centre line\, and the path is 17 km wide\, give or take 13 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-10-4980-magomaev-478976
+ or up to 1.5 s.\nChance of an occultation here: 49%\, allowing for the pat
+ h's 1σ of 13 km.\nClosest approach 20:15:27 IST\, give or take 2 s. The s
+ tar is 44° up in the E · dark sky.\nIt fades 4.8 magnitudes for up to 1.
+ 6 s on the centre line\, and the path is 17 km wide\, give or take 13 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2026-11-10-4980-magomaev-478976
 URL:https://occult.alokm.com/asteroid?e=2026-11-10-4980-magomaev-478976
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(4980) Magomaev hides a mag 11.4 star
+DESCRIPTION:(4980) Magomaev hides a mag 11.4 star · 49% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -294,20 +308,23 @@ UID:ast-2026-11-13-261-prymno-607424-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T000158Z
 DTEND:20261113T001158Z
-SUMMARY:(261) Prymno hides a mag 9.4 star (just outside the path)
+SUMMARY:(261) Prymno hides a mag 9.4 star (just outside the path) · 35% ch
+ ance
 DESCRIPTION:(261) Prymno hides a magnitude 9.4 star\, seen from Ranchi.\nTh
  e predicted edge passes 2 km to the NNE\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nClosest a
- pproach 05:36:58 IST\, give or take 0 s. The star is 45° up in the ESE ·
-  dusk.\nIt fades 4.9 magnitudes for up to 1.3 s on the centre line\, and t
- he path is 50 km wide\, give or take 47 km.\nThe map\, the finder chart an
- d the path as KML: https://occult.alokm.com/asteroid?e=2026-11-13-261-prym
- no-607424
+ ord from near the edge is the most valuable observation of all.\nChance of
+  an occultation here: 35%\, allowing for the path's 1σ of 47 km.\nClosest
+  approach 05:36:58 IST\, give or take 0 s. The star is 45° up in the ESE 
+ · dusk.\nIt fades 4.9 magnitudes for up to 1.3 s on the centre line\, and
+  the path is 50 km wide\, give or take 47 km.\nThe map\, the finder chart 
+ and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-13-261-pr
+ ymno-607424
 URL:https://occult.alokm.com/asteroid?e=2026-11-13-261-prymno-607424
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(261) Prymno hides a mag 9.4 star (just outside the path)
+DESCRIPTION:(261) Prymno hides a mag 9.4 star (just outside the path) · 35
+ % chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -342,20 +359,23 @@ UID:ast-2026-11-17-1815-beethoven-888704-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261117T211152Z
 DTEND:20261117T212152Z
-SUMMARY:(1815) Beethoven hides a mag 12.3 star (just outside the path)
+SUMMARY:(1815) Beethoven hides a mag 12.3 star (just outside the path) · 2
+ 5% chance
 DESCRIPTION:(1815) Beethoven hides a magnitude 12.3 star\, seen from Ranchi
  .\nThe predicted edge passes 14 km to the N\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 02:46:52 IST\, give or take 3 s. The star is 68° up in the W 
- · dark sky.\nIt fades 3.0 magnitudes for up to 3.8 s on the centre line\,
-  and the path is 31 km wide\, give or take 25 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-17-18
- 15-beethoven-888704
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 25%\, allowing for the path's 1σ of 25 km.\nClo
+ sest approach 02:46:52 IST\, give or take 3 s. The star is 68° up in the 
+ W · dark sky.\nIt fades 3.0 magnitudes for up to 3.8 s on the centre line
+ \, and the path is 31 km wide\, give or take 25 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-17-
+ 1815-beethoven-888704
 URL:https://occult.alokm.com/asteroid?e=2026-11-17-1815-beethoven-888704
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1815) Beethoven hides a mag 12.3 star (just outside the path)
+DESCRIPTION:(1815) Beethoven hides a mag 12.3 star (just outside the path) 
+ · 25% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -364,19 +384,20 @@ UID:ast-2026-11-18-799-gudula-360000-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261118T152457Z
 DTEND:20261118T153457Z
-SUMMARY:(799) Gudula hides a mag 8.2 star
+SUMMARY:(799) Gudula hides a mag 8.2 star · 82% chance
 DESCRIPTION:(799) Gudula hides a magnitude 8.2 star\, seen from Ranchi.\nYo
  u are inside the path\, 11 km from its centre line: the star vanishes for 
- up to 6.5 s.\nClosest approach 20:59:57 IST\, give or take 2 s. The star i
- s 50° up in the SW · dark sky.\nIt fades 6.6 magnitudes for up to 6.8 s 
- on the centre line\, and the path is 47 km wide\, give or take 14 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2026-11-18-799-gudula-360000
+ up to 6.5 s.\nChance of an occultation here: 82%\, allowing for the path's
+  1σ of 14 km.\nClosest approach 20:59:57 IST\, give or take 2 s. The star
+  is 50° up in the SW · dark sky.\nIt fades 6.6 magnitudes for up to 6.8 
+ s on the centre line\, and the path is 47 km wide\, give or take 14 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-11-18-799-gudula-360000
 URL:https://occult.alokm.com/asteroid?e=2026-11-18-799-gudula-360000
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(799) Gudula hides a mag 8.2 star
+DESCRIPTION:(799) Gudula hides a mag 8.2 star · 82% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -385,19 +406,20 @@ UID:ast-2026-11-23-586-thekla-085184-ranchi@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261123T182245Z
 DTEND:20261123T183245Z
-SUMMARY:(586) Thekla hides a mag 12.0 star
+SUMMARY:(586) Thekla hides a mag 12.0 star · 96% chance
 DESCRIPTION:(586) Thekla hides a magnitude 12.0 star\, seen from Ranchi.\nY
  ou are inside the path\, 20 km from its centre line: the star vanishes for
-  up to 7.2 s.\nClosest approach 23:57:45 IST\, give or take 3 s. The star 
- is 69° up in the WSW · dark sky.\nIt fades 2.0 magnitudes for up to 8.2 
- s on the centre line\, and the path is 95 km wide\, give or take 16 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-23-586-thekla-085184
+  up to 7.2 s.\nChance of an occultation here: 96%\, allowing for the path'
+ s 1σ of 16 km.\nClosest approach 23:57:45 IST\, give or take 3 s. The sta
+ r is 69° up in the WSW · dark sky.\nIt fades 2.0 magnitudes for up to 8.
+ 2 s on the centre line\, and the path is 95 km wide\, give or take 16 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2026-11-23-586-thekla-085184
 URL:https://occult.alokm.com/asteroid?e=2026-11-23-586-thekla-085184
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(586) Thekla hides a mag 12.0 star
+DESCRIPTION:(586) Thekla hides a mag 12.0 star · 96% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -445,19 +467,20 @@ UID:ast-2026-12-11-1958-chandra-414784-ranchi@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261211T212436Z
 DTEND:20261211T213436Z
-SUMMARY:(1958) Chandra hides a mag 12.5 star
+SUMMARY:(1958) Chandra hides a mag 12.5 star · 61% chance
 DESCRIPTION:(1958) Chandra hides a magnitude 12.5 star\, seen from Ranchi.\
  nYou are inside the path\, 9 km from its centre line: the star vanishes fo
- r up to 1.9 s.\nClosest approach 02:59:36 IST\, give or take 3 s. The star
-  is 47° up in the WNW · dark sky.\nIt fades 3.9 magnitudes for up to 2.3
-  s on the centre line\, and the path is 34 km wide\, give or take 18 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-12-11-1958-chandra-414784
+ r up to 1.9 s.\nChance of an occultation here: 61%\, allowing for the path
+ 's 1σ of 18 km.\nClosest approach 02:59:36 IST\, give or take 3 s. The st
+ ar is 47° up in the WNW · dark sky.\nIt fades 3.9 magnitudes for up to 2
+ .3 s on the centre line\, and the path is 34 km wide\, give or take 18 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2026-12-11-1958-chandra-414784
 URL:https://occult.alokm.com/asteroid?e=2026-12-11-1958-chandra-414784
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1958) Chandra hides a mag 12.5 star
+DESCRIPTION:(1958) Chandra hides a mag 12.5 star · 61% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -479,19 +502,20 @@ UID:ast-2026-12-16-4932-texstapa-694272-ranchi@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261216T163727Z
 DTEND:20261216T164727Z
-SUMMARY:(4932) Texstapa hides a mag 12.0 star
+SUMMARY:(4932) Texstapa hides a mag 12.0 star · 47% chance
 DESCRIPTION:(4932) Texstapa hides a magnitude 12.0 star\, seen from Ranchi.
  \nYou are inside the path\, 12 km from its centre line: the star vanishes 
- for up to 0.9 s.\nClosest approach 22:12:27 IST\, give or take 1 s. The st
- ar is 48° up in the ESE · dark sky.\nIt fades 4.7 magnitudes for up to 2
- .1 s on the centre line\, and the path is 26 km wide\, give or take 15 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2026-12-16-4932-texstapa-694272
+ for up to 0.9 s.\nChance of an occultation here: 47%\, allowing for the pa
+ th's 1σ of 15 km.\nClosest approach 22:12:27 IST\, give or take 1 s. The 
+ star is 48° up in the ESE · dark sky.\nIt fades 4.7 magnitudes for up to
+  2.1 s on the centre line\, and the path is 26 km wide\, give or take 15 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2026-12-16-4932-texstapa-694272
 URL:https://occult.alokm.com/asteroid?e=2026-12-16-4932-texstapa-694272
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(4932) Texstapa hides a mag 12.0 star
+DESCRIPTION:(4932) Texstapa hides a mag 12.0 star · 47% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -513,19 +537,20 @@ UID:ast-2027-01-04-622-esther-755008-ranchi@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270104T150105Z
 DTEND:20270104T151105Z
-SUMMARY:(622) Esther hides a mag 12.4 star
+SUMMARY:(622) Esther hides a mag 12.4 star · 47% chance
 DESCRIPTION:(622) Esther hides a magnitude 12.4 star\, seen from Ranchi.\nY
  ou are inside the path\, 2 km from its centre line: the star vanishes for 
- up to 1.7 s.\nClosest approach 20:36:05 IST\, give or take 1 s. The star i
- s 60° up in the SW · dark sky.\nIt fades 1.5 magnitudes for up to 1.7 s 
- on the centre line\, and the path is 22 km wide\, give or take 17 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2027-01-04-622-esther-755008
+ up to 1.7 s.\nChance of an occultation here: 47%\, allowing for the path's
+  1σ of 17 km.\nClosest approach 20:36:05 IST\, give or take 1 s. The star
+  is 60° up in the SW · dark sky.\nIt fades 1.5 magnitudes for up to 1.7 
+ s on the centre line\, and the path is 22 km wide\, give or take 17 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-01-04-622-esther-755008
 URL:https://occult.alokm.com/asteroid?e=2027-01-04-622-esther-755008
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(622) Esther hides a mag 12.4 star
+DESCRIPTION:(622) Esther hides a mag 12.4 star · 47% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -547,19 +572,20 @@ UID:ast-2027-01-21-579-sidonia-055872-ranchi@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270121T165732Z
 DTEND:20270121T170732Z
-SUMMARY:(579) Sidonia hides a mag 12.3 star
+SUMMARY:(579) Sidonia hides a mag 12.3 star · 80% chance
 DESCRIPTION:(579) Sidonia hides a magnitude 12.3 star\, seen from Ranchi.\n
  You are inside the path\, 29 km from its centre line: the star vanishes fo
- r up to 4.3 s.\nClosest approach 22:32:32 IST\, give or take 1 s. The star
-  is 75° up in the ENE · dark sky.\nIt fades 0.9 magnitudes for up to 5.9
-  s on the centre line\, and the path is 86 km wide\, give or take 16 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-01-21-579-sidonia-055872
+ r up to 4.3 s.\nChance of an occultation here: 80%\, allowing for the path
+ 's 1σ of 16 km.\nClosest approach 22:32:32 IST\, give or take 1 s. The st
+ ar is 75° up in the ENE · dark sky.\nIt fades 0.9 magnitudes for up to 5
+ .9 s on the centre line\, and the path is 86 km wide\, give or take 16 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-01-21-579-sidonia-055872
 URL:https://occult.alokm.com/asteroid?e=2027-01-21-579-sidonia-055872
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(579) Sidonia hides a mag 12.3 star
+DESCRIPTION:(579) Sidonia hides a mag 12.3 star · 80% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -607,20 +633,23 @@ UID:ast-2027-02-04-89-julia-695488-ranchi@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270204T193608Z
 DTEND:20270204T194608Z
-SUMMARY:(89) Julia hides a mag 12.0 star (just outside the path)
+SUMMARY:(89) Julia hides a mag 12.0 star (just outside the path) · 20% cha
+ nce
 DESCRIPTION:(89) Julia hides a magnitude 12.0 star\, seen from Ranchi.\nThe
   predicted edge passes 11 km to the N\, so a miss is likely — but a chor
- d from near the edge is the most valuable observation of all.\nClosest app
- roach 01:11:08 IST\, give or take 1 s. The star is 55° up in the WNW · d
- ark sky.\nIt fades 0.2 magnitudes for up to 11.5 s on the centre line\, an
- d the path is 145 km wide\, give or take 13 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-04-89-j
- ulia-695488
+ d from near the edge is the most valuable observation of all.\nChance of a
+ n occultation here: 20%\, allowing for the path's 1σ of 13 km.\nClosest a
+ pproach 01:11:08 IST\, give or take 1 s. The star is 55° up in the WNW ·
+  dark sky.\nIt fades 0.2 magnitudes for up to 11.5 s on the centre line\, 
+ and the path is 145 km wide\, give or take 13 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-04-89
+ -julia-695488
 URL:https://occult.alokm.com/asteroid?e=2027-02-04-89-julia-695488
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(89) Julia hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(89) Julia hides a mag 12.0 star (just outside the path) · 20%
+  chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -629,20 +658,23 @@ UID:ast-2027-02-11-410-chloris-726272-ranchi@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270211T221854Z
 DTEND:20270211T222854Z
-SUMMARY:(410) Chloris hides a mag 9.7 star (just outside the path)
+SUMMARY:(410) Chloris hides a mag 9.7 star (just outside the path) · 22% c
+ hance
 DESCRIPTION:(410) Chloris hides a magnitude 9.7 star\, seen from Ranchi.\nT
  he predicted edge passes 18 km to the NE\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nClosest 
- approach 03:53:54 IST\, give or take 1 s. The star is 32° up in the WNW 
- · dark sky.\nIt fades 3.3 magnitudes for up to 8.1 s on the centre line\,
-  and the path is 119 km wide\, give or take 21 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-11-4
- 10-chloris-726272
+ hord from near the edge is the most valuable observation of all.\nChance o
+ f an occultation here: 22%\, allowing for the path's 1σ of 21 km.\nCloses
+ t approach 03:53:54 IST\, give or take 1 s. The star is 32° up in the WNW
+  · dark sky.\nIt fades 3.3 magnitudes for up to 8.1 s on the centre line\
+ , and the path is 119 km wide\, give or take 21 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-11-
+ 410-chloris-726272
 URL:https://occult.alokm.com/asteroid?e=2027-02-11-410-chloris-726272
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(410) Chloris hides a mag 9.7 star (just outside the path)
+DESCRIPTION:(410) Chloris hides a mag 9.7 star (just outside the path) · 2
+ 2% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -716,19 +748,20 @@ UID:ast-2027-02-28-39-laetitia-186304-ranchi@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270228T180504Z
 DTEND:20270228T181504Z
-SUMMARY:(39) Laetitia hides a mag 12.4 star
+SUMMARY:(39) Laetitia hides a mag 12.4 star · 77% chance
 DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Ranchi.\n
  You are inside the path\, 94 km from its centre line: the star vanishes fo
- r up to 20.3 s.\nClosest approach 23:40:04 IST\, give or take 4 s. The sta
- r is 28° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 30
- .8 s on the centre line\, and the path is 179 km wide\, give or take 30 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2027-02-28-39-laetitia-186304
+ r up to 20.3 s.\nChance of an occultation here: 77%\, allowing for the pat
+ h's 1σ of 30 km.\nClosest approach 23:40:04 IST\, give or take 4 s. The s
+ tar is 28° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 
+ 30.8 s on the centre line\, and the path is 179 km wide\, give or take 30 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-02-28-39-laetitia-186304
 URL:https://occult.alokm.com/asteroid?e=2027-02-28-39-laetitia-186304
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star · 77% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -737,19 +770,20 @@ UID:ast-2027-02-28-300-geraldina-346816-ranchi@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270228T225230Z
 DTEND:20270228T230230Z
-SUMMARY:(300) Geraldina hides a mag 12.2 star
+SUMMARY:(300) Geraldina hides a mag 12.2 star · 75% chance
 DESCRIPTION:(300) Geraldina hides a magnitude 12.2 star\, seen from Ranchi.
  \nYou are inside the path\, 18 km from its centre line: the star vanishes 
- for up to 2.1 s.\nClosest approach 04:27:30 IST\, give or take 1 s. The st
- ar is 25° up in the SE · dark sky.\nIt fades 3.7 magnitudes for up to 2.
- 3 s on the centre line\, and the path is 67 km wide\, give or take 26 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-02-28-300-geraldina-346816
+ for up to 2.1 s.\nChance of an occultation here: 75%\, allowing for the pa
+ th's 1σ of 26 km.\nClosest approach 04:27:30 IST\, give or take 1 s. The 
+ star is 25° up in the SE · dark sky.\nIt fades 3.7 magnitudes for up to 
+ 2.3 s on the centre line\, and the path is 67 km wide\, give or take 26 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-02-28-300-geraldina-346816
 URL:https://occult.alokm.com/asteroid?e=2027-02-28-300-geraldina-346816
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(300) Geraldina hides a mag 12.2 star
+DESCRIPTION:(300) Geraldina hides a mag 12.2 star · 75% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -771,19 +805,20 @@ UID:ast-2027-03-09-756-lilliana-309632-ranchi@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270309T144506Z
 DTEND:20270309T145506Z
-SUMMARY:(756) Lilliana hides a mag 10.9 star
+SUMMARY:(756) Lilliana hides a mag 10.9 star · 49% chance
 DESCRIPTION:(756) Lilliana hides a magnitude 10.9 star\, seen from Ranchi.\
  nYou are inside the path\, 32 km from its centre line: the star vanishes f
- or up to 0.4 s.\nClosest approach 20:20:06 IST\, give or take 1 s. The sta
- r is 30° up in the W · dark sky.\nIt fades 5.6 magnitudes for up to 2.6 
- s on the centre line\, and the path is 65 km wide\, give or take 28 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2027-03-09-756-lilliana-309632
+ or up to 0.4 s.\nChance of an occultation here: 49%\, allowing for the pat
+ h's 1σ of 28 km.\nClosest approach 20:20:06 IST\, give or take 1 s. The s
+ tar is 30° up in the W · dark sky.\nIt fades 5.6 magnitudes for up to 2.
+ 6 s on the centre line\, and the path is 65 km wide\, give or take 28 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-03-09-756-lilliana-309632
 URL:https://occult.alokm.com/asteroid?e=2027-03-09-756-lilliana-309632
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(756) Lilliana hides a mag 10.9 star
+DESCRIPTION:(756) Lilliana hides a mag 10.9 star · 49% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -792,19 +827,20 @@ UID:ast-2027-03-09-1149-volga-232960-ranchi@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270309T232440Z
 DTEND:20270309T233440Z
-SUMMARY:(1149) Volga hides a mag 12.4 star
+SUMMARY:(1149) Volga hides a mag 12.4 star · 77% chance
 DESCRIPTION:(1149) Volga hides a magnitude 12.4 star\, seen from Ranchi.\nY
  ou are inside the path\, 7 km from its centre line: the star vanishes for 
- up to 3.1 s.\nClosest approach 04:59:40 IST\, give or take 2 s. The star i
- s 37° up in the SSE · dark sky.\nIt fades 3.9 magnitudes for up to 3.0 s
-  on the centre line\, and the path is 52 km wide\, give or take 22 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2027-03-09-1149-volga-232960
+ up to 3.1 s.\nChance of an occultation here: 77%\, allowing for the path's
+  1σ of 22 km.\nClosest approach 04:59:40 IST\, give or take 2 s. The star
+  is 37° up in the SSE · dark sky.\nIt fades 3.9 magnitudes for up to 3.0
+  s on the centre line\, and the path is 52 km wide\, give or take 22 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-03-09-1149-volga-232960
 URL:https://occult.alokm.com/asteroid?e=2027-03-09-1149-volga-232960
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1149) Volga hides a mag 12.4 star
+DESCRIPTION:(1149) Volga hides a mag 12.4 star · 77% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -813,20 +849,23 @@ UID:ast-2027-03-24-11-parthenope-070656-ranchi@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270324T222339Z
 DTEND:20270324T223339Z
-SUMMARY:(11) Parthenope hides a mag 11.5 star (just outside the path)
+SUMMARY:(11) Parthenope hides a mag 11.5 star (just outside the path) · 40
+ % chance
 DESCRIPTION:(11) Parthenope hides a magnitude 11.5 star\, seen from Ranchi.
  \nThe predicted edge passes 5 km to the N\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nClosest
-  approach 03:58:39 IST\, give or take 1 s. The star is 37° up in the SE 
- · dark sky.\nIt fades 0.7 magnitudes for up to 7.1 s on the centre line\,
-  and the path is 143 km wide\, give or take 16 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-24-1
- 1-parthenope-070656
+ chord from near the edge is the most valuable observation of all.\nChance 
+ of an occultation here: 40%\, allowing for the path's 1σ of 16 km.\nClose
+ st approach 03:58:39 IST\, give or take 1 s. The star is 37° up in the SE
+  · dark sky.\nIt fades 0.7 magnitudes for up to 7.1 s on the centre line\
+ , and the path is 143 km wide\, give or take 16 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-24-
+ 11-parthenope-070656
 URL:https://occult.alokm.com/asteroid?e=2027-03-24-11-parthenope-070656
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(11) Parthenope hides a mag 11.5 star (just outside the path)
+DESCRIPTION:(11) Parthenope hides a mag 11.5 star (just outside the path) 
+ · 40% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -861,19 +900,20 @@ UID:ast-2027-04-14-218-bianca-074816-ranchi@occult.alokm.com
 DTSTAMP:20260916T023847Z
 DTSTART:20270414T231123Z
 DTEND:20270414T232123Z
-SUMMARY:(218) Bianca hides a mag 11.3 star
+SUMMARY:(218) Bianca hides a mag 11.3 star · 73% chance
 DESCRIPTION:(218) Bianca hides a magnitude 11.3 star\, seen from Ranchi.\nY
  ou are inside the path\, 42 km from its centre line: the star vanishes for
-  up to 4.2 s.\nClosest approach 04:46:23 IST\, give or take 4 s. The star 
- is 16° up in the W · dusk.\nIt fades 1.0 magnitudes for up to 5.6 s on t
- he centre line\, and the path is 61 km wide\, give or take 18 km.\nThe map
- \, the finder chart and the path as KML: https://occult.alokm.com/asteroid
- ?e=2027-04-14-218-bianca-074816
+  up to 4.2 s.\nChance of an occultation here: 73%\, allowing for the path'
+ s 1σ of 18 km.\nClosest approach 04:46:23 IST\, give or take 4 s. The sta
+ r is 16° up in the W · dusk.\nIt fades 1.0 magnitudes for up to 5.6 s on
+  the centre line\, and the path is 61 km wide\, give or take 18 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2027-04-14-218-bianca-074816
 URL:https://occult.alokm.com/asteroid?e=2027-04-14-218-bianca-074816
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(218) Bianca hides a mag 11.3 star
+DESCRIPTION:(218) Bianca hides a mag 11.3 star · 73% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -908,20 +948,23 @@ UID:ast-2027-04-20-505-cava-000448-ranchi@occult.alokm.com
 DTSTAMP:20260916T023847Z
 DTSTART:20270420T135039Z
 DTEND:20270420T140039Z
-SUMMARY:(505) Cava hides a mag 11.7 star (just outside the path)
+SUMMARY:(505) Cava hides a mag 11.7 star (just outside the path) · 41% cha
+ nce
 DESCRIPTION:(505) Cava hides a magnitude 11.7 star\, seen from Ranchi.\nThe
   predicted edge passes 4 km to the SSW\, so a miss is likely — but a cho
- rd from near the edge is the most valuable observation of all.\nClosest ap
- proach 19:25:39 IST\, give or take 0 s. The star is 28° up in the WNW · 
- dark sky.\nIt fades 2.2 magnitudes for up to 2.7 s on the centre line\, an
- d the path is 115 km wide\, give or take 19 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-04-20-505-
- cava-000448
+ rd from near the edge is the most valuable observation of all.\nChance of 
+ an occultation here: 41%\, allowing for the path's 1σ of 19 km.\nClosest 
+ approach 19:25:39 IST\, give or take 0 s. The star is 28° up in the WNW 
+ · dark sky.\nIt fades 2.2 magnitudes for up to 2.7 s on the centre line\,
+  and the path is 115 km wide\, give or take 19 km.\nThe map\, the finder c
+ hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-04-20-5
+ 05-cava-000448
 URL:https://occult.alokm.com/asteroid?e=2027-04-20-505-cava-000448
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(505) Cava hides a mag 11.7 star (just outside the path)
+DESCRIPTION:(505) Cava hides a mag 11.7 star (just outside the path) · 41%
+  chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -930,19 +973,20 @@ UID:ast-2027-05-09-65-cybele-529920-ranchi@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270509T214311Z
 DTEND:20270509T215311Z
-SUMMARY:(65) Cybele hides a mag 11.5 star
+SUMMARY:(65) Cybele hides a mag 11.5 star · 65% chance
 DESCRIPTION:(65) Cybele hides a magnitude 11.5 star\, seen from Ranchi.\nYo
  u are inside the path\, 156 km from its centre line: the star vanishes for
-  up to 13.1 s.\nClosest approach 03:18:11 IST\, give or take 4 s. The star
-  is 46° up in the SSW · dark sky.\nIt fades 0.8 magnitudes for up to 46.
- 3 s on the centre line\, and the path is 237 km wide\, give or take 15 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-05-09-65-cybele-529920
+  up to 13.1 s.\nChance of an occultation here: 65%\, allowing for the path
+ 's 1σ of 15 km.\nClosest approach 03:18:11 IST\, give or take 4 s. The st
+ ar is 46° up in the SSW · dark sky.\nIt fades 0.8 magnitudes for up to 4
+ 6.3 s on the centre line\, and the path is 237 km wide\, give or take 15 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-05-09-65-cybele-529920
 URL:https://occult.alokm.com/asteroid?e=2027-05-09-65-cybele-529920
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(65) Cybele hides a mag 11.5 star
+DESCRIPTION:(65) Cybele hides a mag 11.5 star · 65% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -951,20 +995,23 @@ UID:ast-2027-05-17-675-ludmilla-666240-ranchi@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270517T183706Z
 DTEND:20270517T184706Z
-SUMMARY:(675) Ludmilla hides a mag 12.7 star (just outside the path)
+SUMMARY:(675) Ludmilla hides a mag 12.7 star (just outside the path) · 36%
+  chance
 DESCRIPTION:(675) Ludmilla hides a magnitude 12.7 star\, seen from Ranchi.\
  nThe predicted edge passes 8 km to the NNE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nCloses
- t approach 00:12:06 IST\, give or take 3 s. The star is 32° up in the SE 
- · dark sky.\nIt fades 1.1 magnitudes for up to 9.6 s on the centre line\,
-  and the path is 76 km wide\, give or take 20 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-17-67
- 5-ludmilla-666240
+  chord from near the edge is the most valuable observation of all.\nChance
+  of an occultation here: 36%\, allowing for the path's 1σ of 20 km.\nClos
+ est approach 00:12:06 IST\, give or take 3 s. The star is 32° up in the S
+ E · dark sky.\nIt fades 1.1 magnitudes for up to 9.6 s on the centre line
+ \, and the path is 76 km wide\, give or take 20 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-17-
+ 675-ludmilla-666240
 URL:https://occult.alokm.com/asteroid?e=2027-05-17-675-ludmilla-666240
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(675) Ludmilla hides a mag 12.7 star (just outside the path)
+DESCRIPTION:(675) Ludmilla hides a mag 12.7 star (just outside the path) ·
+  36% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -1025,19 +1072,20 @@ UID:ast-2027-06-09-595-polyxena-356736-ranchi@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270609T141143Z
 DTEND:20270609T142143Z
-SUMMARY:(595) Polyxena hides a mag 11.2 star
+SUMMARY:(595) Polyxena hides a mag 11.2 star · 87% chance
 DESCRIPTION:(595) Polyxena hides a magnitude 11.2 star\, seen from Ranchi.\
  nYou are inside the path\, 26 km from its centre line: the star vanishes f
- or up to 6.7 s.\nClosest approach 19:46:43 IST\, give or take 3 s. The sta
- r is 14° up in the SSE · dark sky.\nIt fades 1.6 magnitudes for up to 7.
- 5 s on the centre line\, and the path is 91 km wide\, give or take 25 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-06-09-595-polyxena-356736
+ or up to 6.7 s.\nChance of an occultation here: 87%\, allowing for the pat
+ h's 1σ of 25 km.\nClosest approach 19:46:43 IST\, give or take 3 s. The s
+ tar is 14° up in the SSE · dark sky.\nIt fades 1.6 magnitudes for up to 
+ 7.5 s on the centre line\, and the path is 91 km wide\, give or take 25 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-06-09-595-polyxena-356736
 URL:https://occult.alokm.com/asteroid?e=2027-06-09-595-polyxena-356736
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(595) Polyxena hides a mag 11.2 star
+DESCRIPTION:(595) Polyxena hides a mag 11.2 star · 87% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1046,19 +1094,20 @@ UID:ast-2027-06-14-17109-17109-248640-ranchi@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270614T203648Z
 DTEND:20270614T204648Z
-SUMMARY:(17109) 17109 hides a mag 11.9 star
+SUMMARY:(17109) 17109 hides a mag 11.9 star · 53% chance
 DESCRIPTION:(17109) 17109 hides a magnitude 11.9 star\, seen from Ranchi.\n
  You are inside the path\, 18 km from its centre line: the star vanishes fo
- r up to 1.2 s.\nClosest approach 02:11:48 IST\, give or take 3 s. The star
-  is 41° up in the SSW · dark sky.\nIt fades 4.3 magnitudes for up to 2.8
-  s on the centre line\, and the path is 27 km wide\, give or take 12 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-06-14-17109-17109-248640
+ r up to 1.2 s.\nChance of an occultation here: 53%\, allowing for the path
+ 's 1σ of 12 km.\nClosest approach 02:11:48 IST\, give or take 3 s. The st
+ ar is 41° up in the SSW · dark sky.\nIt fades 4.3 magnitudes for up to 2
+ .8 s on the centre line\, and the path is 27 km wide\, give or take 12 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-06-14-17109-17109-248640
 URL:https://occult.alokm.com/asteroid?e=2027-06-14-17109-17109-248640
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(17109) 17109 hides a mag 11.9 star
+DESCRIPTION:(17109) 17109 hides a mag 11.9 star · 53% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1080,20 +1129,23 @@ UID:ast-2027-06-24-432-pythia-721984-ranchi@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270624T210254Z
 DTEND:20270624T211254Z
-SUMMARY:(432) Pythia hides a mag 12.8 star (just outside the path)
+SUMMARY:(432) Pythia hides a mag 12.8 star (just outside the path) · 36% c
+ hance
 DESCRIPTION:(432) Pythia hides a magnitude 12.8 star\, seen from Ranchi.\nT
  he predicted edge passes 7 km to the SSE\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nClosest 
- approach 02:37:54 IST\, give or take 1 s. The star is 15° up in the WSW 
- · dark sky.\nIt fades 0.3 magnitudes for up to 6.0 s on the centre line\,
-  and the path is 47 km wide\, give or take 20 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-24-43
- 2-pythia-721984
+ hord from near the edge is the most valuable observation of all.\nChance o
+ f an occultation here: 36%\, allowing for the path's 1σ of 20 km.\nCloses
+ t approach 02:37:54 IST\, give or take 1 s. The star is 15° up in the WSW
+  · dark sky.\nIt fades 0.3 magnitudes for up to 6.0 s on the centre line\
+ , and the path is 47 km wide\, give or take 20 km.\nThe map\, the finder c
+ hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-24-4
+ 32-pythia-721984
 URL:https://occult.alokm.com/asteroid?e=2027-06-24-432-pythia-721984
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(432) Pythia hides a mag 12.8 star (just outside the path)
+DESCRIPTION:(432) Pythia hides a mag 12.8 star (just outside the path) · 3
+ 6% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -1102,19 +1154,20 @@ UID:ast-2027-06-26-1254-erfordia-976000-ranchi@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270626T201506Z
 DTEND:20270626T202506Z
-SUMMARY:(1254) Erfordia hides a mag 11.7 star
+SUMMARY:(1254) Erfordia hides a mag 11.7 star · 78% chance
 DESCRIPTION:(1254) Erfordia hides a magnitude 11.7 star\, seen from Ranchi.
  \nYou are inside the path\, 13 km from its centre line: the star vanishes 
- for up to 3.8 s.\nClosest approach 01:50:06 IST\, give or take 3 s. The st
- ar is 28° up in the SW · dark sky.\nIt fades 3.5 magnitudes for up to 4.
- 1 s on the centre line\, and the path is 52 km wide\, give or take 19 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-06-26-1254-erfordia-976000
+ for up to 3.8 s.\nChance of an occultation here: 78%\, allowing for the pa
+ th's 1σ of 19 km.\nClosest approach 01:50:06 IST\, give or take 3 s. The 
+ star is 28° up in the SW · dark sky.\nIt fades 3.5 magnitudes for up to 
+ 4.1 s on the centre line\, and the path is 52 km wide\, give or take 19 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-06-26-1254-erfordia-976000
 URL:https://occult.alokm.com/asteroid?e=2027-06-26-1254-erfordia-976000
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1254) Erfordia hides a mag 11.7 star
+DESCRIPTION:(1254) Erfordia hides a mag 11.7 star · 78% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1123,19 +1176,20 @@ UID:ast-2027-07-12-88-thisbe-546112-ranchi@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270712T180028Z
 DTEND:20270712T181028Z
-SUMMARY:(88) Thisbe hides a mag 11.3 star
+SUMMARY:(88) Thisbe hides a mag 11.3 star · >99% chance
 DESCRIPTION:(88) Thisbe hides a magnitude 11.3 star\, seen from Ranchi.\nYo
  u are inside the path\, 136 km from its centre line: the star vanishes for
-  up to 25.9 s.\nClosest approach 23:35:28 IST\, give or take 4 s. The star
-  is 35° up in the SSW · dark sky.\nIt fades 0.5 magnitudes for up to 38.
- 3 s on the centre line\, and the path is 232 km wide\, give or take 11 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-07-12-88-thisbe-546112
+  up to 25.9 s.\nChance of an occultation here: >99%\, allowing for the pat
+ h's 1σ of 11 km.\nClosest approach 23:35:28 IST\, give or take 4 s. The s
+ tar is 35° up in the SSW · dark sky.\nIt fades 0.5 magnitudes for up to 
+ 38.3 s on the centre line\, and the path is 232 km wide\, give or take 11 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-07-12-88-thisbe-546112
 URL:https://occult.alokm.com/asteroid?e=2027-07-12-88-thisbe-546112
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(88) Thisbe hides a mag 11.3 star
+DESCRIPTION:(88) Thisbe hides a mag 11.3 star · >99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1144,19 +1198,20 @@ UID:ast-2027-07-16-971-alsatia-708736-ranchi@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270716T145639Z
 DTEND:20270716T150639Z
-SUMMARY:(971) Alsatia hides a mag 13.7 star
+SUMMARY:(971) Alsatia hides a mag 13.7 star · 56% chance
 DESCRIPTION:(971) Alsatia hides a magnitude 13.7 star\, seen from Ranchi.\n
  You are inside the path\, 49 km from its centre line: the star vanishes fo
- r up to 1.8 s.\nClosest approach 20:31:39 IST\, give or take 1 s. The star
-  is 31° up in the SSE · dark sky.\nIt fades 1.3 magnitudes for up to 4.8
-  s on the centre line\, and the path is 61 km wide\, give or take 15 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-07-16-971-alsatia-708736
+ r up to 1.8 s.\nChance of an occultation here: 56%\, allowing for the path
+ 's 1σ of 15 km.\nClosest approach 20:31:39 IST\, give or take 1 s. The st
+ ar is 31° up in the SSE · dark sky.\nIt fades 1.3 magnitudes for up to 4
+ .8 s on the centre line\, and the path is 61 km wide\, give or take 15 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-07-16-971-alsatia-708736
 URL:https://occult.alokm.com/asteroid?e=2027-07-16-971-alsatia-708736
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(971) Alsatia hides a mag 13.7 star
+DESCRIPTION:(971) Alsatia hides a mag 13.7 star · 56% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1178,19 +1233,20 @@ UID:ast-2027-07-25-240-vanadis-335936-ranchi@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270725T145658Z
 DTEND:20270725T150658Z
-SUMMARY:(240) Vanadis hides a mag 11.4 star
+SUMMARY:(240) Vanadis hides a mag 11.4 star · >99% chance
 DESCRIPTION:(240) Vanadis hides a magnitude 11.4 star\, seen from Ranchi.\n
  You are inside the path\, 7 km from its centre line: the star vanishes for
-  up to 7.8 s.\nClosest approach 20:31:58 IST\, give or take 1 s. The star 
- is 39° up in the SSE · dark sky.\nIt fades 2.3 magnitudes for up to 8.1 
- s on the centre line\, and the path is 88 km wide\, give or take 14 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2027-07-25-240-vanadis-335936
+  up to 7.8 s.\nChance of an occultation here: >99%\, allowing for the path
+ 's 1σ of 14 km.\nClosest approach 20:31:58 IST\, give or take 1 s. The st
+ ar is 39° up in the SSE · dark sky.\nIt fades 2.3 magnitudes for up to 8
+ .1 s on the centre line\, and the path is 88 km wide\, give or take 14 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-07-25-240-vanadis-335936
 URL:https://occult.alokm.com/asteroid?e=2027-07-25-240-vanadis-335936
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(240) Vanadis hides a mag 11.4 star
+DESCRIPTION:(240) Vanadis hides a mag 11.4 star · >99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1199,20 +1255,23 @@ UID:ast-2027-08-03-11-parthenope-963840-ranchi@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270803T150525Z
 DTEND:20270803T151525Z
-SUMMARY:(11) Parthenope hides a mag 12.1 star (just outside the path)
+SUMMARY:(11) Parthenope hides a mag 12.1 star (just outside the path) · 29
+ % chance
 DESCRIPTION:(11) Parthenope hides a magnitude 12.1 star\, seen from Ranchi.
  \nThe predicted edge passes 19 km to the NW\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 20:40:25 IST\, give or take 2 s. The star is 45° up in the S 
- · dark sky.\nIt fades 0.1 magnitudes for up to 35.5 s on the centre line\
- , and the path is 143 km wide\, give or take 25 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-03-
- 11-parthenope-963840
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 29%\, allowing for the path's 1σ of 25 km.\nClo
+ sest approach 20:40:25 IST\, give or take 2 s. The star is 45° up in the 
+ S · dark sky.\nIt fades 0.1 magnitudes for up to 35.5 s on the centre lin
+ e\, and the path is 143 km wide\, give or take 25 km.\nThe map\, the finde
+ r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-0
+ 3-11-parthenope-963840
 URL:https://occult.alokm.com/asteroid?e=2027-08-03-11-parthenope-963840
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(11) Parthenope hides a mag 12.1 star (just outside the path)
+DESCRIPTION:(11) Parthenope hides a mag 12.1 star (just outside the path) 
+ · 29% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -1221,20 +1280,23 @@ UID:ast-2027-08-15-204-kallisto-598016-ranchi@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270815T204941Z
 DTEND:20270815T205941Z
-SUMMARY:(204) Kallisto hides a mag 11.6 star (just outside the path)
+SUMMARY:(204) Kallisto hides a mag 11.6 star (just outside the path) · 21%
+  chance
 DESCRIPTION:(204) Kallisto hides a magnitude 11.6 star\, seen from Ranchi.\
  nThe predicted edge passes 9 km to the NNW\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nCloses
- t approach 02:24:41 IST\, give or take 2 s. The star is 68° up in the SW 
- · dark sky.\nIt fades 1.4 magnitudes for up to 6.4 s on the centre line\,
-  and the path is 49 km wide\, give or take 12 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-15-20
- 4-kallisto-598016
+  chord from near the edge is the most valuable observation of all.\nChance
+  of an occultation here: 21%\, allowing for the path's 1σ of 12 km.\nClos
+ est approach 02:24:41 IST\, give or take 2 s. The star is 68° up in the S
+ W · dark sky.\nIt fades 1.4 magnitudes for up to 6.4 s on the centre line
+ \, and the path is 49 km wide\, give or take 12 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-15-
+ 204-kallisto-598016
 URL:https://occult.alokm.com/asteroid?e=2027-08-15-204-kallisto-598016
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(204) Kallisto hides a mag 11.6 star (just outside the path)
+DESCRIPTION:(204) Kallisto hides a mag 11.6 star (just outside the path) ·
+  21% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -1243,19 +1305,20 @@ UID:ast-2027-08-21-108-hecuba-954432-ranchi@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270821T140804Z
 DTEND:20270821T141804Z
-SUMMARY:(108) Hecuba hides a mag 12.2 star
+SUMMARY:(108) Hecuba hides a mag 12.2 star · 52% chance
 DESCRIPTION:(108) Hecuba hides a magnitude 12.2 star\, seen from Ranchi.\nY
  ou are inside the path\, 12 km from its centre line: the star vanishes for
-  up to 5.3 s.\nClosest approach 19:43:04 IST\, give or take 1 s. The star 
- is 16° up in the ESE · dark sky.\nIt fades 1.0 magnitudes for up to 5.6 
- s on the centre line\, and the path is 75 km wide\, give or take 53 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2027-08-21-108-hecuba-954432
+  up to 5.3 s.\nChance of an occultation here: 52%\, allowing for the path'
+ s 1σ of 53 km.\nClosest approach 19:43:04 IST\, give or take 1 s. The sta
+ r is 16° up in the ESE · dark sky.\nIt fades 1.0 magnitudes for up to 5.
+ 6 s on the centre line\, and the path is 75 km wide\, give or take 53 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-08-21-108-hecuba-954432
 URL:https://occult.alokm.com/asteroid?e=2027-08-21-108-hecuba-954432
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(108) Hecuba hides a mag 12.2 star
+DESCRIPTION:(108) Hecuba hides a mag 12.2 star · 52% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1264,19 +1327,20 @@ UID:ast-2027-08-25-1258-sicilia-863744-ranchi@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270825T135956Z
 DTEND:20270825T140956Z
-SUMMARY:(1258) Sicilia hides a mag 11.8 star
+SUMMARY:(1258) Sicilia hides a mag 11.8 star · 51% chance
 DESCRIPTION:(1258) Sicilia hides a magnitude 11.8 star\, seen from Ranchi.\
  nYou are inside the path\, 26 km from its centre line: the star vanishes f
- or up to 0.9 s.\nClosest approach 19:34:56 IST\, give or take 1 s. The sta
- r is 18° up in the WSW · dark sky.\nIt fades 5.3 magnitudes for up to 1.
- 6 s on the centre line\, and the path is 46 km wide\, give or take 26 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-08-25-1258-sicilia-863744
+ or up to 0.9 s.\nChance of an occultation here: 51%\, allowing for the pat
+ h's 1σ of 26 km.\nClosest approach 19:34:56 IST\, give or take 1 s. The s
+ tar is 18° up in the WSW · dark sky.\nIt fades 5.3 magnitudes for up to 
+ 1.6 s on the centre line\, and the path is 46 km wide\, give or take 26 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-08-25-1258-sicilia-863744
 URL:https://occult.alokm.com/asteroid?e=2027-08-25-1258-sicilia-863744
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1258) Sicilia hides a mag 11.8 star
+DESCRIPTION:(1258) Sicilia hides a mag 11.8 star · 51% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

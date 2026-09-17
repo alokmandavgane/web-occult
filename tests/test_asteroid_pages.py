@@ -264,3 +264,23 @@ def test_path_colours_follow_occult4():
     assert styles == {k: kml(v) for k, v in tokens.items()}
     used = dict(re.findall(r"<name>([^<]+)</name><styleUrl>#(\w+)</styleUrl>", res.stdout))
     assert used == {"Centre line": "centre", "North edge": "edge", "South edge": "edge", "North 1 sigma": "sigma", "South 1 sigma": "sigma"}
+
+
+def test_chance_reads_a_1_sigma_path():
+    """The chance a place sees the occultation: the predicted path shifted sideways by a normal error of its 1σ. The page's
+    erf() is an approximation shared with Python so the two halves round alike; it must still be the error function, and
+    the chance must behave the way an observer reads a prediction."""
+    def ev(R, sig):
+        return {"el": {"R": R}, "sigma_km": sig}
+    for i in range(-200, 201):
+        assert abs(ba.erf(i / 50) - math.erf(i / 50)) < 2e-7, i / 50
+    # a path whose 1σ is twice its half-width: even the centre line is a 38% chance
+    assert abs(ba.chance(ev(10, 20), {"d": 0}) - math.erf(0.5 / math.sqrt(2))) < 1e-6
+    assert ba.pct(ba.chance(ev(10, 20), {"d": 0})) == "38%"
+    # a well-determined path: all but certain inside, a coin toss on the edge, next to nothing 3σ outside it
+    assert ba.pct(ba.chance(ev(50, 2), {"d": 0})) == ">99%"
+    assert ba.pct(ba.chance(ev(50, 2), {"d": 50})) == "50%"
+    assert ba.pct(ba.chance(ev(50, 2), {"d": -56})) == "<1%"
+    # which side of the path does not matter, and without a σ the path is taken as exact
+    assert ba.chance(ev(10, 5), {"d": 7}) == ba.chance(ev(10, 5), {"d": -7})
+    assert ba.chance(ev(10, 0), {"d": 9.9}) == 1.0 and ba.chance(ev(10, None), {"d": 10.1}) == 0.0

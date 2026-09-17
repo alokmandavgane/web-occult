@@ -25,7 +25,8 @@
       if (!a) return;
       a.className = 'ast v-' + y[0];
       a.querySelector('.ast-time').textContent = F.t(Date.parse(ev.el.t0) + s.tau * 1000, tz);
-      a.querySelector('.ast-you').textContent = y[1];
+      a.querySelector('.ast-p').textContent = y[3] ? y[3] + ' chance' : '';
+      a.querySelector('.ast-say').textContent = y[1];
       a.querySelector('.ast-look').textContent = y[2];
       var p = xy(LOC.lat, LOC.lon), pin = a.querySelector('.ast-pin'); pin.setAttribute('cx', p[0].toFixed(1)); pin.setAttribute('cy', p[1].toFixed(1));
       var near = y[0] === 'in' || y[0] === 'near'; if (near) mine++;

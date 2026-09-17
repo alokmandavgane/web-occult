@@ -206,7 +206,12 @@ Rules that are easy to break:
   time, R0 at t0, the Sun) is what the page solves any place from: `local()`/`to_centre()` in the engine and `solve()`/
   `toCentre()` in the page JS are twins, and so are `you_html()`/`you()` with floor(x + 0.5) rounding — change them
   TOGETHER. The verdict has five classes: `below`, `in`, `near` (edge within 1σ, "worth watching"), `chance` (within 2σ,
-  "a long shot") and `out`; "Only paths over me" and the calendar feeds count `in` and `near` only. The fixed test places
+  "a long shot") and `out`, and carries a **probability** (`chance()` / `pct()`, twins, JS and Python, the same
+  Abramowitz–Stegun `erf()` on both sides so they round alike): Φ((R − |d|)/σ) − Φ((−R − |d|)/σ), the path shifted sideways by a
+  normal 1σ error, shown as whole percent and never 0 or 100 (`<1%`, `>99%`). It is on the cards, the event page, the pin,
+  the stations and the feed entries. No published source gives Occult4's or OccultWatcher's own formula; this is the standard
+  reading of a 1σ path, and their numbers for a place differ from ours because their orbits and σ do. Selection (feeds, "Only
+  paths over me") still uses the classes, not the percentage; "Only paths over me" and the calendar feeds count `in` and `near` only. The fixed test places
   rarely fall between 1σ and 2σ, so the twin test also walks to 0.5, 1.5 and 2.5σ past each edge and checks one of each. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
   the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there

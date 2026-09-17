@@ -388,6 +388,7 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
     """The asteroid shadows that reach this place: inside the path, or within the 1-sigma margin where a chord from
     the edge is the most valuable observation of all."""
     from asteroid_occultations import local, to_centre
+    from build_asteroids import chance, pct
     from build_moonstars import compass, sky_text
     out = []
     for a in _W["asteroids"]:
@@ -406,11 +407,13 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
         who = f"({a['ast']['number']}) {a['ast']['name']}"
         url = f"{SITE}/asteroid?e={a['id']}"        # the page with the map, the pin and the download, not the month list
         edge = 0.0 if inside else ground * (abs(s["d"]) - R) / abs(s["d"])
+        p = pct(chance({"el": a["el"], "sigma_km": a["sigma_km"]}, s))      # the same number the event page shows
         where = (f"You are inside the path, {ground:.0f} km from its centre line: the star vanishes for up to {s['dur']:.1f} s."
                  if inside else
                  f"The predicted edge passes {edge:.0f} km to the {compass(brg)}, so a miss is "
                  f"likely — but a chord from near the edge is the most valuable observation of all.")
         desc = (f"{who} hides a magnitude {a['star']['v']:.1f} star, seen from {name}.\n{where}\n"
+                f"Chance of an occultation here: {p}, allowing for the path's 1σ of {sig:.0f} km.\n"
                 f"Closest approach {hms(t)} {zabbr(t)}, give or take {a['sigma_s']:.0f} s. The star is {s['star_alt']:.0f}° up in the "
                 f"{compass(s['star_az'])} · {sky_text(s['sun_alt'])}.\n"
                 f"It fades {a['drop']:.1f} magnitudes for up to {a['dur']:.1f} s on the centre line, and the path is "
@@ -418,7 +421,7 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
                 f"The map, the finder chart and the path as KML: {url}")
         out.append({"uid": f"ast-{a['id']}-{slug}@{HOST}", "stamp": a["gen"], "start": t - timedelta(minutes=5),
                     "end": t + timedelta(minutes=5), "url": url, "alarm": asteroid_alarm(edge), "description": desc,
-                    "summary": f"{who} hides a mag {a['star']['v']:.1f} star" + ("" if inside else " (just outside the path)")})
+                    "summary": f"{who} hides a mag {a['star']['v']:.1f} star" + ("" if inside else " (just outside the path)") + f" · {p} chance"})
     return out
 
 

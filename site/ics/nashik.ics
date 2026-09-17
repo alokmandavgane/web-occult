@@ -32,20 +32,23 @@ UID:ast-2026-09-26-455-bruchsalia-091520-nashik@occult.alokm.com
 DTSTAMP:20260916T024622Z
 DTSTART:20260926T175110Z
 DTEND:20260926T180110Z
-SUMMARY:(455) Bruchsalia hides a mag 12.4 star (just outside the path)
+SUMMARY:(455) Bruchsalia hides a mag 12.4 star (just outside the path) · 1
+ 6% chance
 DESCRIPTION:(455) Bruchsalia hides a magnitude 12.4 star\, seen from Nashik
  .\nThe predicted edge passes 16 km to the NW\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 23:26:10 IST\, give or take 1 s. The star is 14° up in the S
- W · dark sky.\nIt fades 0.7 magnitudes for up to 7.9 s on the centre line
- \, and the path is 89 km wide\, give or take 16 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-09-26-
- 455-bruchsalia-091520
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 16%\, allowing for the path's 1σ of 16 km.\nCl
+ osest approach 23:26:10 IST\, give or take 1 s. The star is 14° up in the
+  SW · dark sky.\nIt fades 0.7 magnitudes for up to 7.9 s on the centre li
+ ne\, and the path is 89 km wide\, give or take 16 km.\nThe map\, the finde
+ r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-09-2
+ 6-455-bruchsalia-091520
 URL:https://occult.alokm.com/asteroid?e=2026-09-26-455-bruchsalia-091520
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(455) Bruchsalia hides a mag 12.4 star (just outside the path)
+DESCRIPTION:(455) Bruchsalia hides a mag 12.4 star (just outside the path) 
+ · 16% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -54,19 +57,20 @@ UID:ast-2026-09-28-1-ceres-708160-nashik@occult.alokm.com
 DTSTAMP:20260916T024622Z
 DTSTART:20260928T230827Z
 DTEND:20260928T231827Z
-SUMMARY:(1) Ceres hides a mag 11.8 star
+SUMMARY:(1) Ceres hides a mag 11.8 star · 80% chance
 DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Nashik.\nYou 
  are inside the path\, 456 km from its centre line: the star vanishes for u
- p to 11.3 s.\nClosest approach 04:43:27 IST\, give or take 1 s. The star i
- s 55° up in the ENE · dark sky.\nIt fades 0.1 magnitudes for up to 42.3 
- s on the centre line\, and the path is 939 km wide\, give or take 19 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-09-28-1-ceres-708160
+ p to 11.3 s.\nChance of an occultation here: 80%\, allowing for the path's
+  1σ of 19 km.\nClosest approach 04:43:27 IST\, give or take 1 s. The star
+  is 55° up in the ENE · dark sky.\nIt fades 0.1 magnitudes for up to 42.
+ 3 s on the centre line\, and the path is 939 km wide\, give or take 19 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2026-09-28-1-ceres-708160
 URL:https://occult.alokm.com/asteroid?e=2026-09-28-1-ceres-708160
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1) Ceres hides a mag 11.8 star
+DESCRIPTION:(1) Ceres hides a mag 11.8 star · 80% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -114,20 +118,23 @@ UID:ast-2026-10-08-152-atala-784704-nashik@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261008T213525Z
 DTEND:20261008T214525Z
-SUMMARY:(152) Atala hides a mag 11.3 star (just outside the path)
+SUMMARY:(152) Atala hides a mag 11.3 star (just outside the path) · 41% ch
+ ance
 DESCRIPTION:(152) Atala hides a magnitude 11.3 star\, seen from Nashik.\nTh
  e predicted edge passes 5 km to the NNW\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nClosest a
- pproach 03:10:25 IST\, give or take 1 s. The star is 37° up in the ENE ·
-  dark sky.\nIt fades 2.7 magnitudes for up to 2.9 s on the centre line\, a
- nd the path is 59 km wide\, give or take 20 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-08-152-
- atala-784704
+ ord from near the edge is the most valuable observation of all.\nChance of
+  an occultation here: 41%\, allowing for the path's 1σ of 20 km.\nClosest
+  approach 03:10:25 IST\, give or take 1 s. The star is 37° up in the ENE 
+ · dark sky.\nIt fades 2.7 magnitudes for up to 2.9 s on the centre line\,
+  and the path is 59 km wide\, give or take 20 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-08-15
+ 2-atala-784704
 URL:https://occult.alokm.com/asteroid?e=2026-10-08-152-atala-784704
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(152) Atala hides a mag 11.3 star (just outside the path)
+DESCRIPTION:(152) Atala hides a mag 11.3 star (just outside the path) · 41
+ % chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -136,20 +143,23 @@ UID:ast-2026-10-11-3967-shekhtelia-147968-nashik@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261011T145811Z
 DTEND:20261011T150811Z
-SUMMARY:(3967) Shekhtelia hides a mag 13.6 star (just outside the path)
+SUMMARY:(3967) Shekhtelia hides a mag 13.6 star (just outside the path) · 
+ 34% chance
 DESCRIPTION:(3967) Shekhtelia hides a magnitude 13.6 star\, seen from Nashi
  k.\nThe predicted edge passes 4 km to the SSE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nClo
- sest approach 20:33:11 IST\, give or take 1 s. The star is 22° up in the 
- SW · dark sky.\nIt fades 4.2 magnitudes for up to 1.1 s on the centre lin
- e\, and the path is 29 km wide\, give or take 26 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-11
- -3967-shekhtelia-147968
+ t a chord from near the edge is the most valuable observation of all.\nCha
+ nce of an occultation here: 34%\, allowing for the path's 1σ of 26 km.\nC
+ losest approach 20:33:11 IST\, give or take 1 s. The star is 22° up in th
+ e SW · dark sky.\nIt fades 4.2 magnitudes for up to 1.1 s on the centre l
+ ine\, and the path is 29 km wide\, give or take 26 km.\nThe map\, the find
+ er chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-
+ 11-3967-shekhtelia-147968
 URL:https://occult.alokm.com/asteroid?e=2026-10-11-3967-shekhtelia-147968
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:(3967) Shekhtelia hides a mag 13.6 star (just outside the path)
+  · 34% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -158,20 +168,23 @@ UID:ast-2026-10-14-342-endymion-606592-nashik@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261014T133519Z
 DTEND:20261014T134519Z
-SUMMARY:(342) Endymion hides a mag 11.8 star (just outside the path)
+SUMMARY:(342) Endymion hides a mag 11.8 star (just outside the path) · 34%
+  chance
 DESCRIPTION:(342) Endymion hides a magnitude 11.8 star\, seen from Nashik.\
  nThe predicted edge passes 13 km to the NNW\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 19:10:19 IST\, give or take 1 s. The star is 17° up in the WS
- W · dark sky.\nIt fades 4.2 magnitudes for up to 1.6 s on the centre line
- \, and the path is 64 km wide\, give or take 26 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-14-
- 342-endymion-606592
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 34%\, allowing for the path's 1σ of 26 km.\nClo
+ sest approach 19:10:19 IST\, give or take 1 s. The star is 17° up in the 
+ WSW · dark sky.\nIt fades 4.2 magnitudes for up to 1.6 s on the centre li
+ ne\, and the path is 64 km wide\, give or take 26 km.\nThe map\, the finde
+ r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-1
+ 4-342-endymion-606592
 URL:https://occult.alokm.com/asteroid?e=2026-10-14-342-endymion-606592
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(342) Endymion hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(342) Endymion hides a mag 11.8 star (just outside the path) ·
+  34% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -180,20 +193,23 @@ UID:ast-2026-11-02-354-eleonora-881728-nashik@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261102T145215Z
 DTEND:20261102T150215Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path)
+SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path) · 19%
+  chance
 DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Nashik.\
  nThe predicted edge passes 23 km to the SSE\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 20:27:15 IST\, give or take 2 s. The star is 45° up in the SS
- W · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 s on the centre lin
- e\, and the path is 149 km wide\, give or take 21 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-0
- 2-354-eleonora-881728
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 19%\, allowing for the path's 1σ of 21 km.\nClo
+ sest approach 20:27:15 IST\, give or take 2 s. The star is 45° up in the 
+ SSW · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 s on the centre l
+ ine\, and the path is 149 km wide\, give or take 21 km.\nThe map\, the fin
+ der chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11
+ -02-354-eleonora-881728
 URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path) ·
+  19% chance
 TRIGGER:-PT120M
 END:VALARM
 END:VEVENT
@@ -215,20 +231,23 @@ UID:ast-2026-11-13-1746-brouwer-465280-nashik@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T185619Z
 DTEND:20261113T190619Z
-SUMMARY:(1746) Brouwer hides a mag 10.5 star (just outside the path)
+SUMMARY:(1746) Brouwer hides a mag 10.5 star (just outside the path) · 24%
+  chance
 DESCRIPTION:(1746) Brouwer hides a magnitude 10.5 star\, seen from Nashik.\
  nThe predicted edge passes 13 km to the N\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nClosest
-  approach 00:31:19 IST\, give or take 3 s. The star is 17° up in the W ·
-  dark sky.\nIt fades 5.0 magnitudes for up to 8.4 s on the centre line\, a
- nd the path is 63 km wide\, give or take 19 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-13-1746
- -brouwer-465280
+ chord from near the edge is the most valuable observation of all.\nChance 
+ of an occultation here: 24%\, allowing for the path's 1σ of 19 km.\nClose
+ st approach 00:31:19 IST\, give or take 3 s. The star is 17° up in the W 
+ · dark sky.\nIt fades 5.0 magnitudes for up to 8.4 s on the centre line\,
+  and the path is 63 km wide\, give or take 19 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-13-17
+ 46-brouwer-465280
 URL:https://occult.alokm.com/asteroid?e=2026-11-13-1746-brouwer-465280
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1746) Brouwer hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(1746) Brouwer hides a mag 10.5 star (just outside the path) ·
+  24% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -263,20 +282,23 @@ UID:ast-2026-11-19-1294-antwerpia-310400-nashik@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261119T000258Z
 DTEND:20261119T001258Z
-SUMMARY:(1294) Antwerpia hides a mag 8.8 star (just outside the path)
+SUMMARY:(1294) Antwerpia hides a mag 8.8 star (just outside the path) · 23
+ % chance
 DESCRIPTION:(1294) Antwerpia hides a magnitude 8.8 star\, seen from Nashik.
  \nThe predicted edge passes 17 km to the NNW\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 05:37:58 IST\, give or take 2 s. The star is 88° up in the N
-  · dark sky.\nIt fades 6.2 magnitudes for up to 4.2 s on the centre line\
- , and the path is 37 km wide\, give or take 24 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-19-1
- 294-antwerpia-310400
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 23%\, allowing for the path's 1σ of 24 km.\nCl
+ osest approach 05:37:58 IST\, give or take 2 s. The star is 88° up in the
+  N · dark sky.\nIt fades 6.2 magnitudes for up to 4.2 s on the centre lin
+ e\, and the path is 37 km wide\, give or take 24 km.\nThe map\, the finder
+  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-19
+ -1294-antwerpia-310400
 URL:https://occult.alokm.com/asteroid?e=2026-11-19-1294-antwerpia-310400
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1294) Antwerpia hides a mag 8.8 star (just outside the path)
+DESCRIPTION:(1294) Antwerpia hides a mag 8.8 star (just outside the path) 
+ · 23% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -285,19 +307,20 @@ UID:ast-2026-11-23-762-pulcova-301888-nashik@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261123T164633Z
 DTEND:20261123T165633Z
-SUMMARY:(762) Pulcova hides a mag 12.1 star
+SUMMARY:(762) Pulcova hides a mag 12.1 star · 52% chance
 DESCRIPTION:(762) Pulcova hides a magnitude 12.1 star\, seen from Nashik.\n
  You are inside the path\, 74 km from its centre line: the star vanishes fo
- r up to 1.6 s.\nClosest approach 22:21:33 IST\, give or take 1 s. The star
-  is 69° up in the NE · dark sky.\nIt fades 1.2 magnitudes for up to 11.4
-  s on the centre line\, and the path is 147 km wide\, give or take 15 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-11-23-762-pulcova-301888
+ r up to 1.6 s.\nChance of an occultation here: 52%\, allowing for the path
+ 's 1σ of 15 km.\nClosest approach 22:21:33 IST\, give or take 1 s. The st
+ ar is 69° up in the NE · dark sky.\nIt fades 1.2 magnitudes for up to 11
+ .4 s on the centre line\, and the path is 147 km wide\, give or take 15 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2026-11-23-762-pulcova-301888
 URL:https://occult.alokm.com/asteroid?e=2026-11-23-762-pulcova-301888
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(762) Pulcova hides a mag 12.1 star
+DESCRIPTION:(762) Pulcova hides a mag 12.1 star · 52% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -306,20 +329,23 @@ UID:ast-2026-11-23-586-thekla-085184-nashik@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261123T182424Z
 DTEND:20261123T183424Z
-SUMMARY:(586) Thekla hides a mag 12.0 star (just outside the path)
+SUMMARY:(586) Thekla hides a mag 12.0 star (just outside the path) · 17% c
+ hance
 DESCRIPTION:(586) Thekla hides a magnitude 12.0 star\, seen from Nashik.\nT
  he predicted edge passes 15 km to the NNW\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nClosest
-  approach 23:59:24 IST\, give or take 3 s. The star is 79° up in the WSW 
- · dark sky.\nIt fades 2.0 magnitudes for up to 8.2 s on the centre line\,
-  and the path is 95 km wide\, give or take 16 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-23-58
- 6-thekla-085184
+ chord from near the edge is the most valuable observation of all.\nChance 
+ of an occultation here: 17%\, allowing for the path's 1σ of 16 km.\nClose
+ st approach 23:59:24 IST\, give or take 3 s. The star is 79° up in the WS
+ W · dark sky.\nIt fades 2.0 magnitudes for up to 8.2 s on the centre line
+ \, and the path is 95 km wide\, give or take 16 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-23-
+ 586-thekla-085184
 URL:https://occult.alokm.com/asteroid?e=2026-11-23-586-thekla-085184
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(586) Thekla hides a mag 12.0 star (just outside the path)
+DESCRIPTION:(586) Thekla hides a mag 12.0 star (just outside the path) · 1
+ 7% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -367,20 +393,23 @@ UID:ast-2026-12-08-1603-neva-914240-nashik@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261208T133249Z
 DTEND:20261208T134249Z
-SUMMARY:(1603) Neva hides a mag 10.9 star (just outside the path)
+SUMMARY:(1603) Neva hides a mag 10.9 star (just outside the path) · 35% ch
+ ance
 DESCRIPTION:(1603) Neva hides a magnitude 10.9 star\, seen from Nashik.\nTh
  e predicted edge passes 8 km to the SSE\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nClosest a
- pproach 19:07:49 IST\, give or take 1 s. The star is 47° up in the SSW ·
-  dark sky.\nIt fades 5.2 magnitudes for up to 1.5 s on the centre line\, a
- nd the path is 40 km wide\, give or take 19 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-08-1603
- -neva-914240
+ ord from near the edge is the most valuable observation of all.\nChance of
+  an occultation here: 35%\, allowing for the path's 1σ of 19 km.\nClosest
+  approach 19:07:49 IST\, give or take 1 s. The star is 47° up in the SSW 
+ · dark sky.\nIt fades 5.2 magnitudes for up to 1.5 s on the centre line\,
+  and the path is 40 km wide\, give or take 19 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-08-16
+ 03-neva-914240
 URL:https://occult.alokm.com/asteroid?e=2026-12-08-1603-neva-914240
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1603) Neva hides a mag 10.9 star (just outside the path)
+DESCRIPTION:(1603) Neva hides a mag 10.9 star (just outside the path) · 35
+ % chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -415,19 +444,20 @@ UID:ast-2026-12-24-3139-shantou-308032-nashik@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261224T181726Z
 DTEND:20261224T182726Z
-SUMMARY:(3139) Shantou hides a mag 12.0 star
+SUMMARY:(3139) Shantou hides a mag 12.0 star · 66% chance
 DESCRIPTION:(3139) Shantou hides a magnitude 12.0 star\, seen from Nashik.\
  nYou are inside the path\, 10 km from its centre line: the star vanishes f
- or up to 2.0 s.\nClosest approach 23:52:26 IST\, give or take 1 s. The sta
- r is 85° up in the WSW · dark sky.\nIt fades 3.5 magnitudes for up to 2.
- 5 s on the centre line\, and the path is 37 km wide\, give or take 16 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-12-24-3139-shantou-308032
+ or up to 2.0 s.\nChance of an occultation here: 66%\, allowing for the pat
+ h's 1σ of 16 km.\nClosest approach 23:52:26 IST\, give or take 1 s. The s
+ tar is 85° up in the WSW · dark sky.\nIt fades 3.5 magnitudes for up to 
+ 2.5 s on the centre line\, and the path is 37 km wide\, give or take 16 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2026-12-24-3139-shantou-308032
 URL:https://occult.alokm.com/asteroid?e=2026-12-24-3139-shantou-308032
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3139) Shantou hides a mag 12.0 star
+DESCRIPTION:(3139) Shantou hides a mag 12.0 star · 66% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -436,21 +466,23 @@ UID:ast-2026-12-30-18399-tentoumushi-416896-nashik@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261230T162959Z
 DTEND:20261230T163959Z
-SUMMARY:(18399) Tentoumushi hides a mag 11.3 star (just outside the path)
+SUMMARY:(18399) Tentoumushi hides a mag 11.3 star (just outside the path) 
+ · 18% chance
 DESCRIPTION:(18399) Tentoumushi hides a magnitude 11.3 star\, seen from Nas
  hik.\nThe predicted edge passes 19 km to the N\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCl
- osest approach 22:04:59 IST\, give or take 1 s. The star is 55° up in the
-  ENE · dark sky.\nIt fades 4.8 magnitudes for up to 1.8 s on the centre l
- ine\, and the path is 23 km wide\, give or take 23 km.\nThe map\, the find
- er chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-
- 30-18399-tentoumushi-416896
+ ut a chord from near the edge is the most valuable observation of all.\nCh
+ ance of an occultation here: 18%\, allowing for the path's 1σ of 23 km.\n
+ Closest approach 22:04:59 IST\, give or take 1 s. The star is 55° up in t
+ he ENE · dark sky.\nIt fades 4.8 magnitudes for up to 1.8 s on the centre
+  line\, and the path is 23 km wide\, give or take 23 km.\nThe map\, the fi
+ nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-1
+ 2-30-18399-tentoumushi-416896
 URL:https://occult.alokm.com/asteroid?e=2026-12-30-18399-tentoumushi-416896
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:(18399) Tentoumushi hides a mag 11.3 star (just outside the pat
- h)
+ h) · 18% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -472,19 +504,20 @@ UID:ast-2027-01-18-444-gyptis-036416-nashik@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270118T163449Z
 DTEND:20270118T164449Z
-SUMMARY:(444) Gyptis hides a mag 12.5 star
+SUMMARY:(444) Gyptis hides a mag 12.5 star · >99% chance
 DESCRIPTION:(444) Gyptis hides a magnitude 12.5 star\, seen from Nashik.\nY
  ou are inside the path\, 12 km from its centre line: the star vanishes for
-  up to 11.0 s.\nClosest approach 22:09:49 IST\, give or take 1 s. The star
-  is 54° up in the ESE · dark sky.\nIt fades 0.7 magnitudes for up to 11.
- 4 s on the centre line\, and the path is 159 km wide\, give or take 15 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-01-18-444-gyptis-036416
+  up to 11.0 s.\nChance of an occultation here: >99%\, allowing for the pat
+ h's 1σ of 15 km.\nClosest approach 22:09:49 IST\, give or take 1 s. The s
+ tar is 54° up in the ESE · dark sky.\nIt fades 0.7 magnitudes for up to 
+ 11.4 s on the centre line\, and the path is 159 km wide\, give or take 15 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-01-18-444-gyptis-036416
 URL:https://occult.alokm.com/asteroid?e=2027-01-18-444-gyptis-036416
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(444) Gyptis hides a mag 12.5 star
+DESCRIPTION:(444) Gyptis hides a mag 12.5 star · >99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -545,19 +578,20 @@ UID:ast-2027-01-30-76-freia-818368-nashik@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270130T163702Z
 DTEND:20270130T164702Z
-SUMMARY:(76) Freia hides a mag 11.6 star
+SUMMARY:(76) Freia hides a mag 11.6 star · 96% chance
 DESCRIPTION:(76) Freia hides a magnitude 11.6 star\, seen from Nashik.\nYou
   are inside the path\, 10 km from its centre line: the star vanishes for u
- p to 20.9 s.\nClosest approach 22:12:02 IST\, give or take 5 s. The star i
- s 87° up in the E · dark sky.\nIt fades 1.3 magnitudes for up to 22.5 s 
- on the centre line\, and the path is 145 km wide\, give or take 33 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2027-01-30-76-freia-818368
+ p to 20.9 s.\nChance of an occultation here: 96%\, allowing for the path's
+  1σ of 33 km.\nClosest approach 22:12:02 IST\, give or take 5 s. The star
+  is 87° up in the E · dark sky.\nIt fades 1.3 magnitudes for up to 22.5 
+ s on the centre line\, and the path is 145 km wide\, give or take 33 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-01-30-76-freia-818368
 URL:https://occult.alokm.com/asteroid?e=2027-01-30-76-freia-818368
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(76) Freia hides a mag 11.6 star
+DESCRIPTION:(76) Freia hides a mag 11.6 star · 96% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -618,20 +652,23 @@ UID:ast-2027-02-17-18-melpomene-450048-nashik@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270217T134904Z
 DTEND:20270217T135904Z
-SUMMARY:(18) Melpomene hides a mag 11.2 star (just outside the path)
+SUMMARY:(18) Melpomene hides a mag 11.2 star (just outside the path) · 20%
+  chance
 DESCRIPTION:(18) Melpomene hides a magnitude 11.2 star\, seen from Nashik.\
  nThe predicted edge passes 16 km to the NNW\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 19:24:04 IST\, give or take 0 s. The star is 16° up in the WS
- W · dark sky.\nIt fades 0.4 magnitudes for up to 2.8 s on the centre line
- \, and the path is 140 km wide\, give or take 19 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-17
- -18-melpomene-450048
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 20%\, allowing for the path's 1σ of 19 km.\nClo
+ sest approach 19:24:04 IST\, give or take 0 s. The star is 16° up in the 
+ WSW · dark sky.\nIt fades 0.4 magnitudes for up to 2.8 s on the centre li
+ ne\, and the path is 140 km wide\, give or take 19 km.\nThe map\, the find
+ er chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-
+ 17-18-melpomene-450048
 URL:https://occult.alokm.com/asteroid?e=2027-02-17-18-melpomene-450048
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(18) Melpomene hides a mag 11.2 star (just outside the path)
+DESCRIPTION:(18) Melpomene hides a mag 11.2 star (just outside the path) ·
+  20% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -679,19 +716,20 @@ UID:ast-2027-03-16-67-asia-525184-nashik@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270316T225858Z
 DTEND:20270316T230858Z
-SUMMARY:(67) Asia hides a mag 12.2 star
+SUMMARY:(67) Asia hides a mag 12.2 star · 51% chance
 DESCRIPTION:(67) Asia hides a magnitude 12.2 star\, seen from Nashik.\nYou 
  are inside the path\, 36 km from its centre line: the star vanishes for up
-  to 0.4 s.\nClosest approach 04:33:58 IST\, give or take 1 s. The star is 
- 37° up in the SE · dark sky.\nIt fades 1.1 magnitudes for up to 2.5 s on
-  the centre line\, and the path is 56 km wide\, give or take 15 km.\nThe m
- ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
- id?e=2027-03-16-67-asia-525184
+  to 0.4 s.\nChance of an occultation here: 51%\, allowing for the path's 1
+ σ of 15 km.\nClosest approach 04:33:58 IST\, give or take 1 s. The star i
+ s 37° up in the SE · dark sky.\nIt fades 1.1 magnitudes for up to 2.5 s 
+ on the centre line\, and the path is 56 km wide\, give or take 15 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2027-03-16-67-asia-525184
 URL:https://occult.alokm.com/asteroid?e=2027-03-16-67-asia-525184
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(67) Asia hides a mag 12.2 star
+DESCRIPTION:(67) Asia hides a mag 12.2 star · 51% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -700,19 +738,20 @@ UID:ast-2027-03-22-1004-belopolskya-849792-nashik@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270322T171402Z
 DTEND:20270322T172402Z
-SUMMARY:(1004) Belopolskya hides a mag 11.3 star
+SUMMARY:(1004) Belopolskya hides a mag 11.3 star · 88% chance
 DESCRIPTION:(1004) Belopolskya hides a magnitude 11.3 star\, seen from Nash
  ik.\nYou are inside the path\, 3 km from its centre line: the star vanishe
- s for up to 4.8 s.\nClosest approach 22:49:02 IST\, give or take 1 s. The 
- star is 45° up in the ESE · dark sky.\nIt fades 3.8 magnitudes for up to
-  4.9 s on the centre line\, and the path is 72 km wide\, give or take 23 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-03-22-1004-belopolskya-849792
+ s for up to 4.8 s.\nChance of an occultation here: 88%\, allowing for the 
+ path's 1σ of 23 km.\nClosest approach 22:49:02 IST\, give or take 1 s. Th
+ e star is 45° up in the ESE · dark sky.\nIt fades 3.8 magnitudes for up 
+ to 4.9 s on the centre line\, and the path is 72 km wide\, give or take 23
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2027-03-22-1004-belopolskya-849792
 URL:https://occult.alokm.com/asteroid?e=2027-03-22-1004-belopolskya-849792
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1004) Belopolskya hides a mag 11.3 star
+DESCRIPTION:(1004) Belopolskya hides a mag 11.3 star · 88% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -734,19 +773,20 @@ UID:ast-2027-03-27-930-westphalia-473856-nashik@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270327T234231Z
 DTEND:20270327T235231Z
-SUMMARY:(930) Westphalia hides a mag 12.3 star
+SUMMARY:(930) Westphalia hides a mag 12.3 star · 66% chance
 DESCRIPTION:(930) Westphalia hides a magnitude 12.3 star\, seen from Nashik
  .\nYou are inside the path\, 6 km from its centre line: the star vanishes 
- for up to 1.3 s.\nClosest approach 05:17:31 IST\, give or take 1 s. The st
- ar is 23° up in the SSE · dark sky.\nIt fades 3.6 magnitudes for up to 1
- .4 s on the centre line\, and the path is 35 km wide\, give or take 18 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-03-27-930-westphalia-473856
+ for up to 1.3 s.\nChance of an occultation here: 66%\, allowing for the pa
+ th's 1σ of 18 km.\nClosest approach 05:17:31 IST\, give or take 1 s. The 
+ star is 23° up in the SSE · dark sky.\nIt fades 3.6 magnitudes for up to
+  1.4 s on the centre line\, and the path is 35 km wide\, give or take 18 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-03-27-930-westphalia-473856
 URL:https://occult.alokm.com/asteroid?e=2027-03-27-930-westphalia-473856
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(930) Westphalia hides a mag 12.3 star
+DESCRIPTION:(930) Westphalia hides a mag 12.3 star · 66% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -768,19 +808,20 @@ UID:ast-2027-04-08-42-isis-510784-nashik@occult.alokm.com
 DTSTAMP:20260916T023847Z
 DTSTART:20270408T163110Z
 DTEND:20270408T164110Z
-SUMMARY:(42) Isis hides a mag 10.9 star
+SUMMARY:(42) Isis hides a mag 10.9 star · 99% chance
 DESCRIPTION:(42) Isis hides a magnitude 10.9 star\, seen from Nashik.\nYou 
  are inside the path\, 21 km from its centre line: the star vanishes for up
-  to 9.3 s.\nClosest approach 22:06:10 IST\, give or take 2 s. The star is 
- 77° up in the ESE · dark sky.\nIt fades 1.5 magnitudes for up to 10.4 s 
- on the centre line\, and the path is 111 km wide\, give or take 14 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2027-04-08-42-isis-510784
+  to 9.3 s.\nChance of an occultation here: 99%\, allowing for the path's 1
+ σ of 14 km.\nClosest approach 22:06:10 IST\, give or take 2 s. The star i
+ s 77° up in the ESE · dark sky.\nIt fades 1.5 magnitudes for up to 10.4 
+ s on the centre line\, and the path is 111 km wide\, give or take 14 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-04-08-42-isis-510784
 URL:https://occult.alokm.com/asteroid?e=2027-04-08-42-isis-510784
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(42) Isis hides a mag 10.9 star
+DESCRIPTION:(42) Isis hides a mag 10.9 star · 99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -802,20 +843,23 @@ UID:ast-2027-05-07-1241-dysona-144704-nashik@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270507T144503Z
 DTEND:20270507T145503Z
-SUMMARY:(1241) Dysona hides a mag 9.5 star (just outside the path)
+SUMMARY:(1241) Dysona hides a mag 9.5 star (just outside the path) · 44% c
+ hance
 DESCRIPTION:(1241) Dysona hides a magnitude 9.5 star\, seen from Nashik.\nT
  he predicted edge passes 5 km to the SW\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nClosest a
- pproach 20:20:03 IST\, give or take 1 s. The star is 30° up in the WNW ·
-  dark sky.\nIt fades 6.7 magnitudes for up to 2.2 s on the centre line\, a
- nd the path is 79 km wide\, give or take 30 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-07-1241
- -dysona-144704
+ ord from near the edge is the most valuable observation of all.\nChance of
+  an occultation here: 44%\, allowing for the path's 1σ of 30 km.\nClosest
+  approach 20:20:03 IST\, give or take 1 s. The star is 30° up in the WNW 
+ · dark sky.\nIt fades 6.7 magnitudes for up to 2.2 s on the centre line\,
+  and the path is 79 km wide\, give or take 30 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-07-12
+ 41-dysona-144704
 URL:https://occult.alokm.com/asteroid?e=2027-05-07-1241-dysona-144704
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1241) Dysona hides a mag 9.5 star (just outside the path)
+DESCRIPTION:(1241) Dysona hides a mag 9.5 star (just outside the path) · 4
+ 4% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -824,20 +868,23 @@ UID:ast-2027-05-09-3442-yashin-764736-nashik@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270509T222624Z
 DTEND:20270509T223624Z
-SUMMARY:(3442) Yashin hides a mag 9.7 star (just outside the path)
+SUMMARY:(3442) Yashin hides a mag 9.7 star (just outside the path) · 30% c
+ hance
 DESCRIPTION:(3442) Yashin hides a magnitude 9.7 star\, seen from Nashik.\nT
  he predicted edge passes 10 km to the SSE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nClosest
-  approach 04:01:24 IST\, give or take 5 s. The star is 51° up in the S ·
-  dark sky.\nIt fades 7.6 magnitudes for up to 5.4 s on the centre line\, a
- nd the path is 26 km wide\, give or take 21 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-09-3442
- -yashin-764736
+ chord from near the edge is the most valuable observation of all.\nChance 
+ of an occultation here: 30%\, allowing for the path's 1σ of 21 km.\nClose
+ st approach 04:01:24 IST\, give or take 5 s. The star is 51° up in the S 
+ · dark sky.\nIt fades 7.6 magnitudes for up to 5.4 s on the centre line\,
+  and the path is 26 km wide\, give or take 21 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-09-34
+ 42-yashin-764736
 URL:https://occult.alokm.com/asteroid?e=2027-05-09-3442-yashin-764736
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3442) Yashin hides a mag 9.7 star (just outside the path)
+DESCRIPTION:(3442) Yashin hides a mag 9.7 star (just outside the path) · 3
+ 0% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -846,20 +893,23 @@ UID:ast-2027-05-16-220-stephania-532480-nashik@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270516T154318Z
 DTEND:20270516T155318Z
-SUMMARY:(220) Stephania hides a mag 12.2 star (just outside the path)
+SUMMARY:(220) Stephania hides a mag 12.2 star (just outside the path) · 26
+ % chance
 DESCRIPTION:(220) Stephania hides a magnitude 12.2 star\, seen from Nashik.
  \nThe predicted edge passes 14 km to the SSW\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 21:18:18 IST\, give or take 1 s. The star is 18° up in the W
- NW · dark sky.\nIt fades 4.8 magnitudes for up to 0.9 s on the centre lin
- e\, and the path is 32 km wide\, give or take 24 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-16
- -220-stephania-532480
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 26%\, allowing for the path's 1σ of 24 km.\nCl
+ osest approach 21:18:18 IST\, give or take 1 s. The star is 18° up in the
+  WNW · dark sky.\nIt fades 4.8 magnitudes for up to 0.9 s on the centre l
+ ine\, and the path is 32 km wide\, give or take 24 km.\nThe map\, the find
+ er chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-
+ 16-220-stephania-532480
 URL:https://occult.alokm.com/asteroid?e=2027-05-16-220-stephania-532480
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(220) Stephania hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(220) Stephania hides a mag 12.2 star (just outside the path) 
+ · 26% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -895,19 +945,20 @@ UID:ast-2027-05-23-82-alkmene-316288-nashik@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270523T193250Z
 DTEND:20270523T194250Z
-SUMMARY:(82) Alkmene hides a mag 11.4 star
+SUMMARY:(82) Alkmene hides a mag 11.4 star · 52% chance
 DESCRIPTION:(82) Alkmene hides a magnitude 11.4 star\, seen from Nashik.\nY
  ou are inside the path\, 40 km from its centre line: the star vanishes for
-  up to 0.9 s.\nClosest approach 01:07:50 IST\, give or take 3 s. The star 
- is 44° up in the S · dark sky.\nIt fades 1.2 magnitudes for up to 4.7 s 
- on the centre line\, and the path is 58 km wide\, give or take 14 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2027-05-23-82-alkmene-316288
+  up to 0.9 s.\nChance of an occultation here: 52%\, allowing for the path'
+ s 1σ of 14 km.\nClosest approach 01:07:50 IST\, give or take 3 s. The sta
+ r is 44° up in the S · dark sky.\nIt fades 1.2 magnitudes for up to 4.7 
+ s on the centre line\, and the path is 58 km wide\, give or take 14 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-05-23-82-alkmene-316288
 URL:https://occult.alokm.com/asteroid?e=2027-05-23-82-alkmene-316288
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(82) Alkmene hides a mag 11.4 star
+DESCRIPTION:(82) Alkmene hides a mag 11.4 star · 52% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -916,19 +967,20 @@ UID:ast-2027-05-30-787-moskva-283904-nashik@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270530T180540Z
 DTEND:20270530T181540Z
-SUMMARY:(787) Moskva hides a mag 12.6 star
+SUMMARY:(787) Moskva hides a mag 12.6 star · 60% chance
 DESCRIPTION:(787) Moskva hides a magnitude 12.6 star\, seen from Nashik.\nY
  ou are inside the path\, 5 km from its centre line: the star vanishes for 
- up to 3.9 s.\nClosest approach 23:40:40 IST\, give or take 4 s. The star i
- s 34° up in the W · dark sky.\nIt fades 2.0 magnitudes for up to 4.0 s o
- n the centre line\, and the path is 28 km wide\, give or take 16 km.\nThe 
- map\, the finder chart and the path as KML: https://occult.alokm.com/aster
- oid?e=2027-05-30-787-moskva-283904
+ up to 3.9 s.\nChance of an occultation here: 60%\, allowing for the path's
+  1σ of 16 km.\nClosest approach 23:40:40 IST\, give or take 4 s. The star
+  is 34° up in the W · dark sky.\nIt fades 2.0 magnitudes for up to 4.0 s
+  on the centre line\, and the path is 28 km wide\, give or take 16 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-05-30-787-moskva-283904
 URL:https://occult.alokm.com/asteroid?e=2027-05-30-787-moskva-283904
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(787) Moskva hides a mag 12.6 star
+DESCRIPTION:(787) Moskva hides a mag 12.6 star · 60% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -976,20 +1028,23 @@ UID:ast-2027-06-27-1086-nata-356032-nashik@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270627T172859Z
 DTEND:20270627T173859Z
-SUMMARY:(1086) Nata hides a mag 14.1 star (just outside the path)
+SUMMARY:(1086) Nata hides a mag 14.1 star (just outside the path) · 30% ch
+ ance
 DESCRIPTION:(1086) Nata hides a magnitude 14.1 star\, seen from Nashik.\nTh
  e predicted edge passes 14 km to the NNE\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nClosest 
- approach 23:03:59 IST\, give or take 4 s. The star is 38° up in the S · 
- dark sky.\nIt fades 1.1 magnitudes for up to 5.8 s on the centre line\, an
- d the path is 66 km wide\, give or take 17 km.\nThe map\, the finder chart
-  and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-27-1086-
- nata-356032
+ hord from near the edge is the most valuable observation of all.\nChance o
+ f an occultation here: 30%\, allowing for the path's 1σ of 17 km.\nCloses
+ t approach 23:03:59 IST\, give or take 4 s. The star is 38° up in the S 
+ · dark sky.\nIt fades 1.1 magnitudes for up to 5.8 s on the centre line\,
+  and the path is 66 km wide\, give or take 17 km.\nThe map\, the finder ch
+ art and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-27-10
+ 86-nata-356032
 URL:https://occult.alokm.com/asteroid?e=2027-06-27-1086-nata-356032
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1086) Nata hides a mag 14.1 star (just outside the path)
+DESCRIPTION:(1086) Nata hides a mag 14.1 star (just outside the path) · 30
+ % chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -998,20 +1053,23 @@ UID:ast-2027-07-03-792-metcalfia-146048-nashik@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270703T224704Z
 DTEND:20270703T225704Z
-SUMMARY:(792) Metcalfia hides a mag 12.2 star (just outside the path)
+SUMMARY:(792) Metcalfia hides a mag 12.2 star (just outside the path) · 28
+ % chance
 DESCRIPTION:(792) Metcalfia hides a magnitude 12.2 star\, seen from Nashik.
  \nThe predicted edge passes 21 km to the N\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nCloses
- t approach 04:22:04 IST\, give or take 2 s. The star is 45° up in the SW 
- · dark sky.\nIt fades 2.5 magnitudes for up to 5.5 s on the centre line\,
-  and the path is 62 km wide\, give or take 32 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-07-03-79
- 2-metcalfia-146048
+  chord from near the edge is the most valuable observation of all.\nChance
+  of an occultation here: 28%\, allowing for the path's 1σ of 32 km.\nClos
+ est approach 04:22:04 IST\, give or take 2 s. The star is 45° up in the S
+ W · dark sky.\nIt fades 2.5 magnitudes for up to 5.5 s on the centre line
+ \, and the path is 62 km wide\, give or take 32 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-07-03-
+ 792-metcalfia-146048
 URL:https://occult.alokm.com/asteroid?e=2027-07-03-792-metcalfia-146048
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(792) Metcalfia hides a mag 12.2 star (just outside the path)
+DESCRIPTION:(792) Metcalfia hides a mag 12.2 star (just outside the path) 
+ · 28% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -1033,19 +1091,20 @@ UID:ast-2027-07-11-11-parthenope-105600-nashik@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270711T152310Z
 DTEND:20270711T153310Z
-SUMMARY:(11) Parthenope hides a mag 12.3 star
+SUMMARY:(11) Parthenope hides a mag 12.3 star · >99% chance
 DESCRIPTION:(11) Parthenope hides a magnitude 12.3 star\, seen from Nashik.
  \nYou are inside the path\, 1 km from its centre line: the star vanishes f
- or up to 16.2 s.\nClosest approach 20:58:10 IST\, give or take 2 s. The st
- ar is 33° up in the SE · dark sky.\nIt fades 0.1 magnitudes for up to 16
- .9 s on the centre line\, and the path is 143 km wide\, give or take 21 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2027-07-11-11-parthenope-105600
+ or up to 16.2 s.\nChance of an occultation here: >99%\, allowing for the p
+ ath's 1σ of 21 km.\nClosest approach 20:58:10 IST\, give or take 2 s. The
+  star is 33° up in the SE · dark sky.\nIt fades 0.1 magnitudes for up to
+  16.9 s on the centre line\, and the path is 143 km wide\, give or take 21
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2027-07-11-11-parthenope-105600
 URL:https://occult.alokm.com/asteroid?e=2027-07-11-11-parthenope-105600
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(11) Parthenope hides a mag 12.3 star
+DESCRIPTION:(11) Parthenope hides a mag 12.3 star · >99% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1067,19 +1126,20 @@ UID:ast-2027-07-21-199-byblis-690688-nashik@occult.alokm.com
 DTSTAMP:20260916T024318Z
 DTSTART:20270721T201830Z
 DTEND:20270721T202830Z
-SUMMARY:(199) Byblis hides a mag 11.9 star
+SUMMARY:(199) Byblis hides a mag 11.9 star · 90% chance
 DESCRIPTION:(199) Byblis hides a magnitude 11.9 star\, seen from Nashik.\nY
  ou are inside the path\, 11 km from its centre line: the star vanishes for
-  up to 6.3 s.\nClosest approach 01:53:30 IST\, give or take 2 s. The star 
- is 20° up in the ESE · dark sky.\nIt fades 2.4 magnitudes for up to 6.5 
- s on the centre line\, and the path is 76 km wide\, give or take 20 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2027-07-21-199-byblis-690688
+  up to 6.3 s.\nChance of an occultation here: 90%\, allowing for the path'
+ s 1σ of 20 km.\nClosest approach 01:53:30 IST\, give or take 2 s. The sta
+ r is 20° up in the ESE · dark sky.\nIt fades 2.4 magnitudes for up to 6.
+ 5 s on the centre line\, and the path is 76 km wide\, give or take 20 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-07-21-199-byblis-690688
 URL:https://occult.alokm.com/asteroid?e=2027-07-21-199-byblis-690688
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(199) Byblis hides a mag 11.9 star
+DESCRIPTION:(199) Byblis hides a mag 11.9 star · 90% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -1088,20 +1148,23 @@ UID:ast-2027-08-03-539-pamina-034752-nashik@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270803T201207Z
 DTEND:20270803T202207Z
-SUMMARY:(539) Pamina hides a mag 8.1 star (just outside the path)
+SUMMARY:(539) Pamina hides a mag 8.1 star (just outside the path) · 21% ch
+ ance
 DESCRIPTION:(539) Pamina hides a magnitude 8.1 star\, seen from Nashik.\nTh
  e predicted edge passes 20 km to the NNW\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nClosest 
- approach 01:47:07 IST\, give or take 1 s. The star is 14° up in the ENE 
- · dark sky.\nIt fades 6.7 magnitudes for up to 2.5 s on the centre line\,
-  and the path is 68 km wide\, give or take 21 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-03-53
- 9-pamina-034752
+ hord from near the edge is the most valuable observation of all.\nChance o
+ f an occultation here: 21%\, allowing for the path's 1σ of 21 km.\nCloses
+ t approach 01:47:07 IST\, give or take 1 s. The star is 14° up in the ENE
+  · dark sky.\nIt fades 6.7 magnitudes for up to 2.5 s on the centre line\
+ , and the path is 68 km wide\, give or take 21 km.\nThe map\, the finder c
+ hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-03-5
+ 39-pamina-034752
 URL:https://occult.alokm.com/asteroid?e=2027-08-03-539-pamina-034752
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(539) Pamina hides a mag 8.1 star (just outside the path)
+DESCRIPTION:(539) Pamina hides a mag 8.1 star (just outside the path) · 21
+ % chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -1136,20 +1199,23 @@ UID:ast-2027-08-12-795-fini-257280-nashik@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270812T142321Z
 DTEND:20270812T143321Z
-SUMMARY:(795) Fini hides a mag 11.4 star (just outside the path)
+SUMMARY:(795) Fini hides a mag 11.4 star (just outside the path) · 28% cha
+ nce
 DESCRIPTION:(795) Fini hides a magnitude 11.4 star\, seen from Nashik.\nThe
   predicted edge passes 13 km to the NW\, so a miss is likely — but a cho
- rd from near the edge is the most valuable observation of all.\nClosest ap
- proach 19:58:21 IST\, give or take 2 s. The star is 25° up in the S · da
- rk sky.\nIt fades 3.5 magnitudes for up to 8.3 s on the centre line\, and 
- the path is 85 km wide\, give or take 16 km.\nThe map\, the finder chart a
- nd the path as KML: https://occult.alokm.com/asteroid?e=2027-08-12-795-fin
- i-257280
+ rd from near the edge is the most valuable observation of all.\nChance of 
+ an occultation here: 28%\, allowing for the path's 1σ of 16 km.\nClosest 
+ approach 19:58:21 IST\, give or take 2 s. The star is 25° up in the S · 
+ dark sky.\nIt fades 3.5 magnitudes for up to 8.3 s on the centre line\, an
+ d the path is 85 km wide\, give or take 16 km.\nThe map\, the finder chart
+  and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-12-795-f
+ ini-257280
 URL:https://occult.alokm.com/asteroid?e=2027-08-12-795-fini-257280
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(795) Fini hides a mag 11.4 star (just outside the path)
+DESCRIPTION:(795) Fini hides a mag 11.4 star (just outside the path) · 28%
+  chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -1158,20 +1224,23 @@ UID:ast-2027-08-23-959-arne-592256-nashik@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270823T143721Z
 DTEND:20270823T144721Z
-SUMMARY:(959) Arne hides a mag 11.0 star (just outside the path)
+SUMMARY:(959) Arne hides a mag 11.0 star (just outside the path) · 19% cha
+ nce
 DESCRIPTION:(959) Arne hides a magnitude 11.0 star\, seen from Nashik.\nThe
   predicted edge passes 38 km to the S\, so a miss is likely — but a chor
- d from near the edge is the most valuable observation of all.\nClosest app
- roach 20:12:21 IST\, give or take 1 s. The star is 22° up in the WSW · d
- ark sky.\nIt fades 6.6 magnitudes for up to 1.5 s on the centre line\, and
-  the path is 45 km wide\, give or take 32 km.\nThe map\, the finder chart 
- and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-23-959-ar
- ne-592256
+ d from near the edge is the most valuable observation of all.\nChance of a
+ n occultation here: 19%\, allowing for the path's 1σ of 32 km.\nClosest a
+ pproach 20:12:21 IST\, give or take 1 s. The star is 22° up in the WSW ·
+  dark sky.\nIt fades 6.6 magnitudes for up to 1.5 s on the centre line\, a
+ nd the path is 45 km wide\, give or take 32 km.\nThe map\, the finder char
+ t and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-23-959-
+ arne-592256
 URL:https://occult.alokm.com/asteroid?e=2027-08-23-959-arne-592256
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(959) Arne hides a mag 11.0 star (just outside the path)
+DESCRIPTION:(959) Arne hides a mag 11.0 star (just outside the path) · 19%
+  chance
 TRIGGER:-PT135M
 END:VALARM
 END:VEVENT
@@ -1206,20 +1275,23 @@ UID:ast-2027-08-31-4093-bennett-989504-nashik@occult.alokm.com
 DTSTAMP:20260916T024447Z
 DTSTART:20270831T172452Z
 DTEND:20270831T173452Z
-SUMMARY:(4093) Bennett hides a mag 11.8 star (just outside the path)
+SUMMARY:(4093) Bennett hides a mag 11.8 star (just outside the path) · 18%
+  chance
 DESCRIPTION:(4093) Bennett hides a magnitude 11.8 star\, seen from Nashik.\
  nThe predicted edge passes 15 km to the SSE\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nClose
- st approach 22:59:52 IST\, give or take 5 s. The star is 63° up in the S 
- · dark sky.\nIt fades 5.3 magnitudes for up to 2.5 s on the centre line\,
-  and the path is 25 km wide\, give or take 16 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-31-40
- 93-bennett-989504
+ a chord from near the edge is the most valuable observation of all.\nChanc
+ e of an occultation here: 18%\, allowing for the path's 1σ of 16 km.\nClo
+ sest approach 22:59:52 IST\, give or take 5 s. The star is 63° up in the 
+ S · dark sky.\nIt fades 5.3 magnitudes for up to 2.5 s on the centre line
+ \, and the path is 25 km wide\, give or take 16 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-31-
+ 4093-bennett-989504
 URL:https://occult.alokm.com/asteroid?e=2027-08-31-4093-bennett-989504
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(4093) Bennett hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(4093) Bennett hides a mag 11.8 star (just outside the path) ·
+  18% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT

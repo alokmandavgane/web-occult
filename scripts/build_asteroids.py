@@ -63,25 +63,52 @@ def star_label(st):
     return "Gaia DR3 …" + st["gaia"][-7:]
 
 
+def erf(x):
+    """Abramowitz & Stegun 7.1.26, good to 1.5e-7 — and the same arithmetic as the page's erf(), so the two round alike."""
+    sg = -1.0 if x < 0 else 1.0
+    x = abs(x)
+    t = 1.0 / (1.0 + 0.3275911 * x)
+    y = 1.0 - ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * math.exp(-x * x)
+    return sg * y
+
+
+def chance(ev, s):
+    """The probability that the shadow covers this place, the way occultation software reads a prediction: the true path is
+    the predicted one shifted sideways by a normal error of its 1σ, so a place d km from the centre line is inside with
+    probability Φ((R − d)/σ) − Φ((−R − d)/σ). Without a σ the path is taken as exact. Twin of JS chance()."""
+    R, sig, d = ev["el"]["R"], ev["sigma_km"] or 0.0, abs(s["d"])
+    if not sig > 0:
+        return 1.0 if d <= R else 0.0
+    return (erf((R - d) / (sig * math.sqrt(2))) - erf((-R - d) / (sig * math.sqrt(2)))) / 2
+
+
+def pct(p):
+    """A probability as the page shows it: whole percent, never a flat 0 or 100. Twin of JS pct()."""
+    r = r0(p * 100)
+    return ">99%" if r >= 100 else "<1%" if r <= 0 else f"{r}%"
+
+
 def you_html(ev, s, tc):
-    """The place-dependent lines of a card: (verdict class, what you see, where to look). Twin of JS you()."""
+    """The place-dependent lines of a card: (verdict class, what you see, where to look, the chance of an occultation
+    there). Twin of JS you()."""
     R, sig = ev["el"]["R"], ev["sigma_km"] or 0.0
     d = abs(s["d"])
     ground, brg = tc
     look = f"Star {r0(s['star_alt'])}° up in the {compass(s['star_az'])} · {sky_text(s['sun_alt'])}"
     if s["star_alt"] < 0:
-        return "below", "The star is below your horizon then", f"Star {r0(-s['star_alt'])}° below the horizon"
+        return "below", "The star is below your horizon then", f"Star {r0(-s['star_alt'])}° below the horizon", ""
     edge = ground * (d - R) / d if d > 0 else 0.0
+    p = pct(chance(ev, s))
     if d <= R:
         return "in", (f"You are inside the path, {r0(ground)} km from its centre line: "
-                      f"the star vanishes for up to {r1(s['dur'])} s"), look
+                      f"the star vanishes for up to {r1(s['dur'])} s"), look, p
     if d <= R + sig:
         return "near", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                        f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look
+                        f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look, p
     if d <= R + 2 * sig:
         return "chance", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look
-    return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look
+                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look, p
+    return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look, p
 
 
 def path_d(proj, runs, close=False, tol=0.14):
@@ -184,12 +211,13 @@ def card_static(ev, proj, land=""):
 
 def card_html(ev, proj, s, tc, tz, land=""):
     svg, title, facts = card_static(ev, proj, land)
-    cls, what, look = you_html(ev, s, tc)
+    cls, what, look, p = you_html(ev, s, tc)
     t = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) + timedelta(seconds=s["tau"])
     more = f'<a class="ast-more" href="/asteroid?e={esc(ev["id"])}">Map, finder chart &amp; download →</a>'
     return (f'<article class="ast v-{cls}" id="{esc(ev["id"])}" data-id="{esc(ev["id"])}">{svg}<div class="ast-body">'
             f'<div class="ast-top"><span class="ast-time">{t.astimezone(tz).strftime("%H:%M:%S")}</span> {title}</div>'
-            f'<div class="ast-you">{what}</div><div class="ast-look">{look}</div>'
+            f'<div class="ast-you"><b class="ast-p" title="The chance the shadow covers this place, allowing for the path\'s 1σ">{p + " chance" if p else ""}</b>'
+            f'<span class="ast-say">{what}</span></div><div class="ast-look">{look}</div>'
             f'<div class="ast-facts">{facts}</div>{more}</div></article>')
 
 
@@ -237,6 +265,9 @@ AST_CSS = """
     .ast-name { font-family: var(--serif); }
     .ast-star { white-space: nowrap; }
     .ast-you { font-size: 0.92rem; margin-top: 0.1rem; }
+    .ast-p { display: inline-block; font-size: 0.78rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text);
+             border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; margin-right: 0.4rem; white-space: nowrap; }
+    .ast-p:empty, .ast.v-out .ast-p { display: none; }   /* a plain miss says so in words; the event page still gives its number */
     .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
     .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
@@ -282,6 +313,8 @@ EVENT_CSS = """
     .ev-head { margin: 1.2rem 0 0.2rem; }
     .ev-head h1 { margin: 0.2rem 0; font-size: clamp(1.4rem, 3.6vw, 2rem); }
     .ev-verdict { font-size: 1.05rem; font-weight: 600; margin: 0.5rem 0 0; }
+    .ev-chance { margin: 0.6rem 0 0; color: var(--muted); font-size: 0.9rem; }
+    .ev-chance b { font-size: 1.5rem; color: var(--text); font-variant-numeric: tabular-nums; margin-right: 0.35rem; }
     .ev-verdict.v-in { color: var(--c-visible); } .ev-verdict.v-near { color: var(--c-limit); } .ev-verdict.v-below { color: var(--c-down); }
     .ev-verdict.v-chance { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     #map { height: min(62vh, 520px); width: 100%; border-radius: 14px; border: 1px solid var(--border); margin: 0.8rem 0 0.3rem; background: var(--sea); z-index: 0; }
@@ -428,15 +461,28 @@ LIB_JS = r"""
     var km = hi > lo ? hi - lo : 0;
     return { km: km, s: km / s.speed, u: [lo, hi], frame: [ux, uy, wx, wy], across: whi - wlo };
   }
+  function erf(x) {   // twin of erf(): Abramowitz & Stegun 7.1.26
+    var sg = x < 0 ? -1 : 1;
+    x = Math.abs(x);
+    var t = 1 / (1 + 0.3275911 * x);
+    var y = 1 - ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x);
+    return sg * y;
+  }
+  function chance(ev, s) {   // twin of chance(): the probability the shadow covers this place, the path shifted by a normal 1σ error
+    var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d);
+    if (!(sig > 0)) return d <= R ? 1 : 0;
+    return (erf((R - d) / (sig * Math.SQRT2)) - erf((-R - d) / (sig * Math.SQRT2))) / 2;
+  }
+  function pct(p) { var r = r0(p * 100); return r >= 100 ? '>99%' : r <= 0 ? '<1%' : r + '%'; }   // twin of pct()
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
-    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon'];
-    var edge = d > 0 ? ground * (d - R) / d : 0;
-    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look];
-    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look];
-    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look];
-    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look];
+    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon', ''];
+    var edge = d > 0 ? ground * (d - R) / d : 0, p = pct(chance(ev, s));
+    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look, p];
+    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look, p];
+    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look, p];
+    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look, p];
   }
 
   // ---------- the drawings ----------
@@ -664,7 +710,7 @@ LIB_JS = r"""
     setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
   }
 
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, chance: chance, pct: pct, kml: kml, gpx: gpx, save: save,
                              groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, skyRuns: skyRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines, shapeChord: shapeChord,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };
@@ -701,7 +747,8 @@ MONTH_JS = r"""
       if (!a) return;
       a.className = 'ast v-' + y[0];
       a.querySelector('.ast-time').textContent = F.t(Date.parse(ev.el.t0) + s.tau * 1000, tz);
-      a.querySelector('.ast-you').textContent = y[1];
+      a.querySelector('.ast-p').textContent = y[3] ? y[3] + ' chance' : '';
+      a.querySelector('.ast-say').textContent = y[1];
       a.querySelector('.ast-look').textContent = y[2];
       var p = xy(LOC.lat, LOC.lon), pin = a.querySelector('.ast-pin'); pin.setAttribute('cx', p[0].toFixed(1)); pin.setAttribute('cy', p[1].toFixed(1));
       var near = y[0] === 'in' || y[0] === 'near'; if (near) mine++;
@@ -790,7 +837,10 @@ TEMPLATE = """
   <h2>Reading the list</h2>
   <p class="method">A card turns <b style="color:var(--c-visible)">green</b> when you are inside the predicted path and
   <b style="color:var(--c-limit)">amber</b> when you are outside it but within its 1σ uncertainty — a miss is still likely
-  then, but a chord from the edge is the most valuable observation of all. The <em>drop</em> is how much fainter the star
+  then, but a chord from the edge is the most valuable observation of all. The <em>chance</em> is the probability the shadow
+  covers your place once the path's uncertainty is allowed for: the true path is taken to lie off the predicted one by a
+  normal error of its 1σ, as occultation software reads a prediction. Where 1σ is close to the path's own width, even the
+  centre line is well short of certain. The <em>drop</em> is how much fainter the star
   and asteroid together get while the star is hidden; under half a magnitude needs a camera. <em>Up to</em> is the longest
   the star can vanish, on the centre line.</p>
   <table class="rules"><tbody>__RULES__</tbody></table>
@@ -1013,10 +1063,10 @@ EVENT_JS = r"""
       var where = Math.abs(f) < 1e-9 ? 'on the centre line' : F.r0(tc[0]) + ' km ' + side + ' of it';
       stnPts.push(p);
       rows.push('<button type="button" data-stn="' + i + '"><b>' + (i + 1) + '</b> ' + p[0].toFixed(4) + ', ' + p[1].toFixed(4)
-                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b></button>');
+                + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b> · ' + A.pct(A.chance(ev, s)) + ' chance</button>');
       if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [20, 20], html: String(i + 1) }),
                                             title: 'Station ' + (i + 1) + ' — tap to make it your spot' })
-        .bindTooltip(F.r1(s.dur) + ' s', { direction: 'top', offset: [0, -8] })
+        .bindTooltip(F.r1(s.dur) + ' s · ' + A.pct(A.chance(ev, s)), { direction: 'top', offset: [0, -8] })
         .on('click', function () { setLoc(p[0], p[1], 'Station ' + (i + 1)); }));
     });
     el('stn-list').innerHTML = rows.join('');
@@ -1028,7 +1078,7 @@ EVENT_JS = r"""
     if (!map) return;
     me.setLatLng([LOC.lat, LOC.lon]);
     var t = Date.parse(ev.el.t0) + s.tau * 1000, tz = tzOf(LOC), inside = Math.abs(s.d) <= ev.el.R;
-    me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + '<br>'
+    me.setPopupContent('<b>' + F.t(t, tz) + '</b>' + (inside ? ' · ' + F.r1(s.dur) + ' s' : ' · no fade here') + (y[3] ? ' · ' + y[3] + ' chance' : '') + '<br>'
       + y[1] + '<br><span class="hint">' + y[2] + '</span>');
     timeLabels();
     drawStations();
@@ -1072,15 +1122,18 @@ EVENT_JS = r"""
     el('chip-name').textContent = LOC.label;
     el('ev-title').textContent = '(' + a.number + ') ' + a.name + ' hides a magnitude ' + F.r1(st.v) + ' star';
     el('ev-when').textContent = F.date(t, tz) + ' · ' + F.t(t, tz) + ' at ' + LOC.label + (ev.sigma_s ? ' ± ' + F.r1(ev.sigma_s) + ' s' : '');
-    var verdict = el('ev-verdict');
+    var verdict = el('ev-verdict'), pc = el('ev-chance');
     verdict.className = 'ev-verdict v-' + y[0];
     verdict.textContent = y[1];
+    pc.hidden = !y[3];
+    pc.innerHTML = y[3] ? '<b>' + y[3] + '</b>chance of an occultation here, allowing for the path\'s 1σ of ' + F.r0(ev.sigma_km || 0) + ' km' : '';
     el('ev-look').textContent = y[2];
     var rows = [
       ['Asteroid', '(' + a.number + ') ' + a.name + ' · ' + F.r0(a.diameter_km) + ' km across · magnitude ' + F.r1(a.mag) + ' · ' + F.r1(a.dist_au) + ' au away'],
       ['Star', 'Gaia DR3 ' + st.gaia + ' · magnitude ' + F.r1(st.v) + ' (G ' + F.r1(st.g) + ')' + (st.ruwe && st.ruwe > 1.4 ? ' · RUWE ' + st.ruwe + ', may be double' : '')],
       ['The fade', F.r1(ev.drop) + ' magnitudes, to ' + F.r1(ev.combined_mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
       ['From here', inside ? F.r1(s.dur) + ' s, ' + F.r0(tc[0]) + ' km from the centre line' : 'outside the path, ' + F.r0(tc[0]) + ' km from the centre line'],
+      ['Chance here', y[3] ? y[3] + ' · on the centre line ' + A.pct(A.chance(ev, { d: 0 })) : 'the star is below the horizon'],
       ['The path', F.r0(2 * R) + ' km wide, ± ' + F.r0(ev.sigma_km || 0) + ' km (1σ) · shadow at ' + F.r1(ev.speed_kms) + ' km/s'],
       ['The sky here', 'star ' + F.r0(s.star_alt) + '° up in the ' + F.compass(s.star_az) + ' · ' + F.sky(s.sun_alt)
         + ' · Moon ' + F.r0(ev.moon_illum * 100) + '% lit, ' + F.r0(ev.moon_sep) + '° away'],
@@ -1204,6 +1257,7 @@ EVENT_TEMPLATE = """
   <header class="ev-head">
     <p class="sub" id="ev-when">Loading…</p>
     <h1 id="ev-title">Asteroid occultation</h1>
+    <p class="ev-chance" id="ev-chance" hidden></p>
     <p class="ev-verdict" id="ev-verdict"></p>
     <p class="hint" id="ev-look"></p>
   </header>

@@ -216,7 +216,10 @@ def write_page():
     {f['ast_events']:,} events. Those shapes are convex (dents and craters are not in them), sized to the catalogue diameter,
     and turned using a rotation period carried forward from the light curves, often across decades. They are shown, not used.</li>
     <li><b>An asteroid path's position.</b> Orbits and star positions are uncertain by a few milliarcseconds, which moves a path
-    sideways by kilometres to tens of kilometres; the red dashed 1σ lines show by how much. Observers near an edge should expect
+    sideways by kilometres to tens of kilometres; the red dashed 1σ lines show by how much. Each place gets a chance of an
+    occultation from that: the true path is taken to lie off the predicted one by a normal error of its 1σ, which is how
+    occultation software reads a prediction. It is only as good as the 1σ, and Occult and OccultWatcher work from their own
+    orbits and uncertainties, so their percentage for the same place can differ. Observers near an edge should expect
     either outcome. A star Gaia flags as hard to fit (high RUWE) is often double, and may fade in steps or not at all.</li>
     <li><b>The list.</b> The lunar occultations are a hand-picked selection, not every one that happens. The asteroid list keeps
     only paths near Indian cities at night that are at least as wide as their uncertainty, for asteroids of 15 km and more and

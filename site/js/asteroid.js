@@ -95,15 +95,28 @@
     var km = hi > lo ? hi - lo : 0;
     return { km: km, s: km / s.speed, u: [lo, hi], frame: [ux, uy, wx, wy], across: whi - wlo };
   }
+  function erf(x) {   // twin of erf(): Abramowitz & Stegun 7.1.26
+    var sg = x < 0 ? -1 : 1;
+    x = Math.abs(x);
+    var t = 1 / (1 + 0.3275911 * x);
+    var y = 1 - ((((1.061405429 * t - 1.453152027) * t + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-x * x);
+    return sg * y;
+  }
+  function chance(ev, s) {   // twin of chance(): the probability the shadow covers this place, the path shifted by a normal 1σ error
+    var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d);
+    if (!(sig > 0)) return d <= R ? 1 : 0;
+    return (erf((R - d) / (sig * Math.SQRT2)) - erf((-R - d) / (sig * Math.SQRT2))) / 2;
+  }
+  function pct(p) { var r = r0(p * 100); return r >= 100 ? '>99%' : r <= 0 ? '<1%' : r + '%'; }   // twin of pct()
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
-    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon'];
-    var edge = d > 0 ? ground * (d - R) / d : 0;
-    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look];
-    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look];
-    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look];
-    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look];
+    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon', ''];
+    var edge = d > 0 ? ground * (d - R) / d : 0, p = pct(chance(ev, s));
+    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look, p];
+    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look, p];
+    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look, p];
+    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look, p];
   }
 
   // ---------- the drawings ----------
@@ -331,7 +344,7 @@
     setTimeout(function () { URL.revokeObjectURL(u); a.remove(); }, 1000);
   }
 
-  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, kml: kml, gpx: gpx, save: save,
+  window.OccultAsteroids = { solve: solve, toCentre: toCentre, toOffset: toOffset, dest: dest, you: you, chance: chance, pct: pct, kml: kml, gpx: gpx, save: save,
                              groundAt: groundAt, worldTrack: worldTrack, bandRuns: bandRuns, skyRuns: skyRuns, worldSvg: worldSvg, finderSvg: finderSvg, stripSvg: stripSvg,
                              chordSvg: chordSvg, curveSvg: curveSvg, pathLines: pathLines, shapeChord: shapeChord,
                              fmt: { t: fT, hm: fHM, date: fDate, compass: compass, r0: r0, r1: r1, sky: sky } };

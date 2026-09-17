@@ -79,19 +79,20 @@ UID:ast-2026-10-05-516-amherstia-674496-kabul-af@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261005T234902Z
 DTEND:20261005T235902Z
-SUMMARY:(516) Amherstia hides a mag 11.8 star
+SUMMARY:(516) Amherstia hides a mag 11.8 star · 50% chance
 DESCRIPTION:(516) Amherstia hides a magnitude 11.8 star\, seen from Kabul\,
   AF.\nYou are inside the path\, 10 km from its centre line: the star vanis
- hes for up to 4.0 s.\nClosest approach 04:24:02 +0430\, give or take 1 s. 
- The star is 36° up in the W · dark sky.\nIt fades 1.7 magnitudes for up 
- to 4.2 s on the centre line\, and the path is 65 km wide\, give or take 47
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-10-05-516-amherstia-674496
+ hes for up to 4.0 s.\nChance of an occultation here: 50%\, allowing for th
+ e path's 1σ of 47 km.\nClosest approach 04:24:02 +0430\, give or take 1 s
+ . The star is 36° up in the W · dark sky.\nIt fades 1.7 magnitudes for u
+ p to 4.2 s on the centre line\, and the path is 65 km wide\, give or take 
+ 47 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
+ km.com/asteroid?e=2026-10-05-516-amherstia-674496
 URL:https://occult.alokm.com/asteroid?e=2026-10-05-516-amherstia-674496
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(516) Amherstia hides a mag 11.8 star
+DESCRIPTION:(516) Amherstia hides a mag 11.8 star · 50% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -100,22 +101,24 @@ UID:ast-2026-10-07-11509-thersilochos-086080-kabul-af@occult.alokm.com
 DTSTAMP:20260916T022913Z
 DTSTART:20261007T002040Z
 DTEND:20261007T003040Z
-SUMMARY:(11509) Thersilochos hides a mag 11.4 star (just outside the path)
+SUMMARY:(11509) Thersilochos hides a mag 11.4 star (just outside the path) 
+ · 21% chance
 DESCRIPTION:(11509) Thersilochos hides a magnitude 11.4 star\, seen from Ka
  bul\, AF.\nThe predicted edge passes 29 km to the ENE\, so a miss is likel
  y — but a chord from near the edge is the most valuable observation of a
- ll.\nClosest approach 04:55:40 +0430\, give or take 4 s. The star is 64° 
- up in the S · dark sky.\nIt fades 6.6 magnitudes for up to 4.3 s on the c
- entre line\, and the path is 50 km wide\, give or take 38 km.\nThe map\, t
- he finder chart and the path as KML: https://occult.alokm.com/asteroid?e=2
- 026-10-07-11509-thersilochos-086080
+ ll.\nChance of an occultation here: 21%\, allowing for the path's 1σ of 3
+ 8 km.\nClosest approach 04:55:40 +0430\, give or take 4 s. The star is 64
+ ° up in the S · dark sky.\nIt fades 6.6 magnitudes for up to 4.3 s on th
+ e centre line\, and the path is 50 km wide\, give or take 38 km.\nThe map\
+ , the finder chart and the path as KML: https://occult.alokm.com/asteroid?
+ e=2026-10-07-11509-thersilochos-086080
 URL:https://occult.alokm.com/asteroid?e=2026-10-07-11509-thersilochos-08608
  0
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:(11509) Thersilochos hides a mag 11.4 star (just outside the pa
- th)
+ th) · 21% chance
 TRIGGER:-PT120M
 END:VALARM
 END:VEVENT
@@ -189,20 +192,23 @@ UID:ast-2026-12-11-980-anacostia-706560-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261211T001520Z
 DTEND:20261211T002520Z
-SUMMARY:(980) Anacostia hides a mag 12.6 star (just outside the path)
+SUMMARY:(980) Anacostia hides a mag 12.6 star (just outside the path) · 38
+ % chance
 DESCRIPTION:(980) Anacostia hides a magnitude 12.6 star\, seen from Kabul\,
   AF.\nThe predicted edge passes 3 km to the NNE\, so a miss is likely — 
  but a chord from near the edge is the most valuable observation of all.\nC
- losest approach 04:50:20 +0430\, give or take 2 s. The star is 29° up in 
- the WNW · dark sky.\nIt fades 0.3 magnitudes for up to 5.8 s on the centr
- e line\, and the path is 75 km wide\, give or take 12 km.\nThe map\, the f
- inder chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-
- 12-11-980-anacostia-706560
+ hance of an occultation here: 38%\, allowing for the path's 1σ of 12 km.\
+ nClosest approach 04:50:20 +0430\, give or take 2 s. The star is 29° up i
+ n the WNW · dark sky.\nIt fades 0.3 magnitudes for up to 5.8 s on the cen
+ tre line\, and the path is 75 km wide\, give or take 12 km.\nThe map\, the
+  finder chart and the path as KML: https://occult.alokm.com/asteroid?e=202
+ 6-12-11-980-anacostia-706560
 URL:https://occult.alokm.com/asteroid?e=2026-12-11-980-anacostia-706560
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(980) Anacostia hides a mag 12.6 star (just outside the path)
+DESCRIPTION:(980) Anacostia hides a mag 12.6 star (just outside the path) 
+ · 38% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -250,19 +256,20 @@ UID:ast-2026-12-30-4140-branham-904064-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023237Z
 DTSTART:20261230T005448Z
 DTEND:20261230T010448Z
-SUMMARY:(4140) Branham hides a mag 12.8 star
+SUMMARY:(4140) Branham hides a mag 12.8 star · 43% chance
 DESCRIPTION:(4140) Branham hides a magnitude 12.8 star\, seen from Kabul\, 
  AF.\nYou are inside the path\, 13 km from its centre line: the star vanish
- es for up to 0.7 s.\nClosest approach 05:29:48 +0430\, give or take 1 s. T
- he star is 21° up in the SE · dark sky.\nIt fades 4.8 magnitudes for up 
- to 0.9 s on the centre line\, and the path is 34 km wide\, give or take 28
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-12-30-4140-branham-904064
+ es for up to 0.7 s.\nChance of an occultation here: 43%\, allowing for the
+  path's 1σ of 28 km.\nClosest approach 05:29:48 +0430\, give or take 1 s.
+  The star is 21° up in the SE · dark sky.\nIt fades 4.8 magnitudes for u
+ p to 0.9 s on the centre line\, and the path is 34 km wide\, give or take 
+ 28 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
+ km.com/asteroid?e=2026-12-30-4140-branham-904064
 URL:https://occult.alokm.com/asteroid?e=2026-12-30-4140-branham-904064
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(4140) Branham hides a mag 12.8 star
+DESCRIPTION:(4140) Branham hides a mag 12.8 star · 43% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -310,19 +317,20 @@ UID:ast-2027-01-25-3214-makarenko-878656-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270125T164235Z
 DTEND:20270125T165235Z
-SUMMARY:(3214) Makarenko hides a mag 10.8 star
+SUMMARY:(3214) Makarenko hides a mag 10.8 star · 42% chance
 DESCRIPTION:(3214) Makarenko hides a magnitude 10.8 star\, seen from Kabul\
  , AF.\nYou are inside the path\, 3 km from its centre line: the star vanis
- hes for up to 1.6 s.\nClosest approach 21:17:35 +0430\, give or take 2 s. 
- The star is 78° up in the SSE · dark sky.\nIt fades 5.9 magnitudes for u
- p to 1.8 s on the centre line\, and the path is 18 km wide\, give or take 
- 17 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2027-01-25-3214-makarenko-878656
+ hes for up to 1.6 s.\nChance of an occultation here: 42%\, allowing for th
+ e path's 1σ of 17 km.\nClosest approach 21:17:35 +0430\, give or take 2 s
+ . The star is 78° up in the SSE · dark sky.\nIt fades 5.9 magnitudes for
+  up to 1.8 s on the centre line\, and the path is 18 km wide\, give or tak
+ e 17 km.\nThe map\, the finder chart and the path as KML: https://occult.a
+ lokm.com/asteroid?e=2027-01-25-3214-makarenko-878656
 URL:https://occult.alokm.com/asteroid?e=2027-01-25-3214-makarenko-878656
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(3214) Makarenko hides a mag 10.8 star
+DESCRIPTION:(3214) Makarenko hides a mag 10.8 star · 42% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -331,19 +339,20 @@ UID:ast-2027-01-27-111-ate-144192-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023421Z
 DTSTART:20270127T201925Z
 DTEND:20270127T202925Z
-SUMMARY:(111) Ate hides a mag 12.4 star
+SUMMARY:(111) Ate hides a mag 12.4 star · 76% chance
 DESCRIPTION:(111) Ate hides a magnitude 12.4 star\, seen from Kabul\, AF.\n
  You are inside the path\, 60 km from its centre line: the star vanishes fo
- r up to 5.5 s.\nClosest approach 00:54:25 +0430\, give or take 1 s. The st
- ar is 71° up in the SSW · dark sky.\nIt fades 0.2 magnitudes for up to 1
- 2.7 s on the centre line\, and the path is 126 km wide\, give or take 10 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-01-27-111-ate-144192
+ r up to 5.5 s.\nChance of an occultation here: 76%\, allowing for the path
+ 's 1σ of 10 km.\nClosest approach 00:54:25 +0430\, give or take 1 s. The 
+ star is 71° up in the SSW · dark sky.\nIt fades 0.2 magnitudes for up to
+  12.7 s on the centre line\, and the path is 126 km wide\, give or take 10
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2027-01-27-111-ate-144192
 URL:https://occult.alokm.com/asteroid?e=2027-01-27-111-ate-144192
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(111) Ate hides a mag 12.4 star
+DESCRIPTION:(111) Ate hides a mag 12.4 star · 76% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -365,20 +374,23 @@ UID:ast-2027-02-15-55-pandora-306240-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270215T002759Z
 DTEND:20270215T003759Z
-SUMMARY:(55) Pandora hides a mag 10.5 star (just outside the path)
+SUMMARY:(55) Pandora hides a mag 10.5 star (just outside the path) · 22% c
+ hance
 DESCRIPTION:(55) Pandora hides a magnitude 10.5 star\, seen from Kabul\, AF
  .\nThe predicted edge passes 27 km to the NE\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 05:02:59 +0430\, give or take 1 s. The star is 11° up in the
-  SE · dark sky.\nIt fades 3.2 magnitudes for up to 2.5 s on the centre li
- ne\, and the path is 85 km wide\, give or take 24 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-1
- 5-55-pandora-306240
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 22%\, allowing for the path's 1σ of 24 km.\nCl
+ osest approach 05:02:59 +0430\, give or take 1 s. The star is 11° up in t
+ he SE · dark sky.\nIt fades 3.2 magnitudes for up to 2.5 s on the centre 
+ line\, and the path is 85 km wide\, give or take 24 km.\nThe map\, the fin
+ der chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02
+ -15-55-pandora-306240
 URL:https://occult.alokm.com/asteroid?e=2027-02-15-55-pandora-306240
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(55) Pandora hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(55) Pandora hides a mag 10.5 star (just outside the path) · 2
+ 2% chance
 TRIGGER:-PT120M
 END:VALARM
 END:VEVENT
@@ -427,19 +439,20 @@ UID:ast-2027-02-28-39-laetitia-186304-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023549Z
 DTSTART:20270228T180750Z
 DTEND:20270228T181750Z
-SUMMARY:(39) Laetitia hides a mag 12.4 star
+SUMMARY:(39) Laetitia hides a mag 12.4 star · 77% chance
 DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Kabul\, A
  F.\nYou are inside the path\, 95 km from its centre line: the star vanishe
- s for up to 20.5 s.\nClosest approach 22:42:50 +0430\, give or take 4 s. T
- he star is 12° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up
-  to 30.8 s on the centre line\, and the path is 179 km wide\, give or take
-  30 km.\nThe map\, the finder chart and the path as KML: https://occult.al
- okm.com/asteroid?e=2027-02-28-39-laetitia-186304
+ s for up to 20.5 s.\nChance of an occultation here: 77%\, allowing for the
+  path's 1σ of 30 km.\nClosest approach 22:42:50 +0430\, give or take 4 s.
+  The star is 12° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for 
+ up to 30.8 s on the centre line\, and the path is 179 km wide\, give or ta
+ ke 30 km.\nThe map\, the finder chart and the path as KML: https://occult.
+ alokm.com/asteroid?e=2027-02-28-39-laetitia-186304
 URL:https://occult.alokm.com/asteroid?e=2027-02-28-39-laetitia-186304
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(39) Laetitia hides a mag 12.4 star
+DESCRIPTION:(39) Laetitia hides a mag 12.4 star · 77% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -448,19 +461,20 @@ UID:ast-2027-03-10-183-istria-126976-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270310T183243Z
 DTEND:20270310T184243Z
-SUMMARY:(183) Istria hides a mag 11.2 star
+SUMMARY:(183) Istria hides a mag 11.2 star · 74% chance
 DESCRIPTION:(183) Istria hides a magnitude 11.2 star\, seen from Kabul\, AF
  .\nYou are inside the path\, 6 km from its centre line: the star vanishes 
- for up to 1.3 s.\nClosest approach 23:07:43 +0430\, give or take 1 s. The 
- star is 20° up in the W · dark sky.\nIt fades 2.5 magnitudes for up to 1
- .4 s on the centre line\, and the path is 33 km wide\, give or take 13 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-03-10-183-istria-126976
+ for up to 1.3 s.\nChance of an occultation here: 74%\, allowing for the pa
+ th's 1σ of 13 km.\nClosest approach 23:07:43 +0430\, give or take 1 s. Th
+ e star is 20° up in the W · dark sky.\nIt fades 2.5 magnitudes for up to
+  1.4 s on the centre line\, and the path is 33 km wide\, give or take 13 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-03-10-183-istria-126976
 URL:https://occult.alokm.com/asteroid?e=2027-03-10-183-istria-126976
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(183) Istria hides a mag 11.2 star
+DESCRIPTION:(183) Istria hides a mag 11.2 star · 74% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -482,20 +496,23 @@ UID:ast-2027-03-16-1347-patria-495424-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023721Z
 DTSTART:20270316T135922Z
 DTEND:20270316T140922Z
-SUMMARY:(1347) Patria hides a mag 11.8 star (just outside the path)
+SUMMARY:(1347) Patria hides a mag 11.8 star (just outside the path) · 25% 
+ chance
 DESCRIPTION:(1347) Patria hides a magnitude 11.8 star\, seen from Kabul\, A
  F.\nThe predicted edge passes 15 km to the S\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 18:34:22 +0430\, give or take 1 s. The star is 62° up in the
-  SW · dusk.\nIt fades 4.4 magnitudes for up to 1.4 s on the centre line\,
-  and the path is 32 km wide\, give or take 25 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-16-13
- 47-patria-495424
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 25%\, allowing for the path's 1σ of 25 km.\nCl
+ osest approach 18:34:22 +0430\, give or take 1 s. The star is 62° up in t
+ he SW · dusk.\nIt fades 4.4 magnitudes for up to 1.4 s on the centre line
+ \, and the path is 32 km wide\, give or take 25 km.\nThe map\, the finder 
+ chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-16-
+ 1347-patria-495424
 URL:https://occult.alokm.com/asteroid?e=2027-03-16-1347-patria-495424
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1347) Patria hides a mag 11.8 star (just outside the path)
+DESCRIPTION:(1347) Patria hides a mag 11.8 star (just outside the path) · 
+ 25% chance
 TRIGGER:-PT105M
 END:VALARM
 END:VEVENT
@@ -504,20 +521,23 @@ UID:ast-2027-04-10-659-nestor-635008-kabul-af@occult.alokm.com
 DTSTAMP:20260916T023847Z
 DTSTART:20270410T162556Z
 DTEND:20270410T163556Z
-SUMMARY:(659) Nestor hides a mag 10.5 star (just outside the path)
+SUMMARY:(659) Nestor hides a mag 10.5 star (just outside the path) · 42% c
+ hance
 DESCRIPTION:(659) Nestor hides a magnitude 10.5 star\, seen from Kabul\, AF
  .\nThe predicted edge passes 9 km to the NNE\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nClos
- est approach 21:00:56 +0430\, give or take 3 s. The star is 40° up in the
-  SE · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 s on the centre li
- ne\, and the path is 112 km wide\, give or take 65 km.\nThe map\, the find
- er chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-04-
- 10-659-nestor-635008
+  a chord from near the edge is the most valuable observation of all.\nChan
+ ce of an occultation here: 42%\, allowing for the path's 1σ of 65 km.\nCl
+ osest approach 21:00:56 +0430\, give or take 3 s. The star is 40° up in t
+ he SE · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 s on the centre 
+ line\, and the path is 112 km wide\, give or take 65 km.\nThe map\, the fi
+ nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-0
+ 4-10-659-nestor-635008
 URL:https://occult.alokm.com/asteroid?e=2027-04-10-659-nestor-635008
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(659) Nestor hides a mag 10.5 star (just outside the path)
+DESCRIPTION:(659) Nestor hides a mag 10.5 star (just outside the path) · 4
+ 2% chance
 TRIGGER:-PT90M
 END:VALARM
 END:VEVENT
@@ -526,19 +546,20 @@ UID:ast-2027-05-05-447-valentine-906048-kabul-af@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270505T232737Z
 DTEND:20270505T233737Z
-SUMMARY:(447) Valentine hides a mag 10.9 star
+SUMMARY:(447) Valentine hides a mag 10.9 star · 52% chance
 DESCRIPTION:(447) Valentine hides a magnitude 10.9 star\, seen from Kabul\,
   AF.\nYou are inside the path\, 72 km from its centre line: the star vanis
- hes for up to 2.2 s.\nClosest approach 04:02:37 +0430\, give or take 4 s. 
- The star is 31° up in the SSE · dusk.\nIt fades 3.6 magnitudes for up to
-  10.5 s on the centre line\, and the path is 85 km wide\, give or take 19 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2027-05-05-447-valentine-906048
+ hes for up to 2.2 s.\nChance of an occultation here: 52%\, allowing for th
+ e path's 1σ of 19 km.\nClosest approach 04:02:37 +0430\, give or take 4 s
+ . The star is 31° up in the SSE · dusk.\nIt fades 3.6 magnitudes for up 
+ to 10.5 s on the centre line\, and the path is 85 km wide\, give or take 1
+ 9 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-05-05-447-valentine-906048
 URL:https://occult.alokm.com/asteroid?e=2027-05-05-447-valentine-906048
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(447) Valentine hides a mag 10.9 star
+DESCRIPTION:(447) Valentine hides a mag 10.9 star · 52% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -574,19 +595,20 @@ UID:ast-2027-05-29-1035-amata-925376-kabul-af@occult.alokm.com
 DTSTAMP:20260916T024016Z
 DTSTART:20270529T172052Z
 DTEND:20270529T173052Z
-SUMMARY:(1035) Amata hides a mag 11.6 star
+SUMMARY:(1035) Amata hides a mag 11.6 star · 58% chance
 DESCRIPTION:(1035) Amata hides a magnitude 11.6 star\, seen from Kabul\, AF
  .\nYou are inside the path\, 30 km from its centre line: the star vanishes
-  for up to 1.8 s.\nClosest approach 21:55:52 +0430\, give or take 1 s. The
-  star is 24° up in the WNW · dark sky.\nIt fades 5.6 magnitudes for up t
- o 2.2 s on the centre line\, and the path is 56 km wide\, give or take 29 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2027-05-29-1035-amata-925376
+  for up to 1.8 s.\nChance of an occultation here: 58%\, allowing for the p
+ ath's 1σ of 29 km.\nClosest approach 21:55:52 +0430\, give or take 1 s. T
+ he star is 24° up in the WNW · dark sky.\nIt fades 5.6 magnitudes for up
+  to 2.2 s on the centre line\, and the path is 56 km wide\, give or take 2
+ 9 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-05-29-1035-amata-925376
 URL:https://occult.alokm.com/asteroid?e=2027-05-29-1035-amata-925376
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(1035) Amata hides a mag 11.6 star
+DESCRIPTION:(1035) Amata hides a mag 11.6 star · 58% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -621,19 +643,20 @@ UID:ast-2027-06-23-888-parysatis-134528-kabul-af@occult.alokm.com
 DTSTAMP:20260916T024147Z
 DTSTART:20270623T160244Z
 DTEND:20270623T161244Z
-SUMMARY:(888) Parysatis hides a mag 11.7 star
+SUMMARY:(888) Parysatis hides a mag 11.7 star · 55% chance
 DESCRIPTION:(888) Parysatis hides a magnitude 11.7 star\, seen from Kabul\,
   AF.\nYou are inside the path\, 34 km from its centre line: the star vanis
- hes for up to 1.3 s.\nClosest approach 20:37:44 +0430\, give or take 1 s. 
- The star is 21° up in the ESE · dark sky.\nIt fades 2.2 magnitudes for u
- p to 3.1 s on the centre line\, and the path is 45 km wide\, give or take 
- 15 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2027-06-23-888-parysatis-134528
+ hes for up to 1.3 s.\nChance of an occultation here: 55%\, allowing for th
+ e path's 1σ of 15 km.\nClosest approach 20:37:44 +0430\, give or take 1 s
+ . The star is 21° up in the ESE · dark sky.\nIt fades 2.2 magnitudes for
+  up to 3.1 s on the centre line\, and the path is 45 km wide\, give or tak
+ e 15 km.\nThe map\, the finder chart and the path as KML: https://occult.a
+ lokm.com/asteroid?e=2027-06-23-888-parysatis-134528
 URL:https://occult.alokm.com/asteroid?e=2027-06-23-888-parysatis-134528
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:(888) Parysatis hides a mag 11.7 star
+DESCRIPTION:(888) Parysatis hides a mag 11.7 star · 55% chance
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
