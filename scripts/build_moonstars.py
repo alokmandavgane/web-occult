@@ -5,8 +5,8 @@
   data/moon-stars-<YYYY-MM>.json   engine/star_occultations.py (DE431: Moon/Sun polynomials + the month's stars)
   -> site/moon-stars-<YYYY-MM>.html, site/data/moon-stars-<YYYY-MM>.json
 
-The JS in SOLVER_JS is the browser twin of `MonthModel` / `visible` in engine/star_occultations.py —
-change them TOGETHER. The page prerenders New Delhi with the Python model (crawlers and first paint);
+The JS in SOLVER_JS (site/js/moonstars.js, shared by every month) is the browser twin of `MonthModel` / `visible` in
+engine/star_occultations.py — change them TOGETHER. The page prerenders New Delhi with the Python model (crawlers and first paint);
 the browser recomputes for the chosen place and instrument. Needs the repo's venv (numpy).
 """
 
@@ -15,7 +15,7 @@ import sys
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE_NAME, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE_NAME, asset, cities_js, esc, head
 
 sys.path.insert(0, str(ROOT / "engine"))
 
@@ -147,6 +147,7 @@ MS_CSS = """
 SOLVER_JS = r"""
 (function () {
   var META = JSON.parse(document.getElementById('ms-meta').textContent);
+  META.cities = window.OccultCities || {};      // js/cities.js, loaded just before this file
   var C = 299792.458, RAD = Math.PI / 180, ERA = 360.98564736629 / 1440, RM = 1737.4, T0 = Date.parse(META.t0);
   // ---------- twin of MonthModel (engine/star_occultations.py) ----------
   function pv(c, t) { var v = 0; for (var i = c.length - 1; i >= 0; i--) v = v * t + c[i]; return v; }
@@ -344,6 +345,7 @@ SOLVER_JS = r"""
     });
   }
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
+  Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
     LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
@@ -376,7 +378,7 @@ TEMPLATE = """
 <dialog id="loc-sheet" class="sheet" aria-label="Location">
   <form method="dialog" class="sheet-body">
     <div class="sheet-title">Location</div>
-    <label>City <select id="loc-city"><option value="">—</option>__CITY_OPTS__</select></label>
+    <label>City <select id="loc-city"><option value="">—</option></select></label>
     <div class="loc-row">
       <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
       <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
@@ -417,9 +419,8 @@ TEMPLATE = """
 </main>
 __FOOTER__
 <script src="/js/moon.js?v=__MOONJS_V__"></script>
-<script>
-__JS__
-</script>
+<script src="__CITIES_JS__"></script>
+<script src="__MS_JS__"></script>
 </body>
 </html>
 """
@@ -450,7 +451,7 @@ def month_page(ym, d, cities, nav):
     rules = "".join(f"<tr><td>{esc(v[0])}</td><td>V ≤ {v[1]:.1f}</td><td>V ≤ {v[2]:.1f}</td></tr>" for v in INSTRUMENTS.values())
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     meta = {"src": f"/data/{slug}.json?v={_hash(data_json)}", "texture": f"{TEXTURE}?v={_hash((OUT / TEXTURE.lstrip('/')).read_bytes())}", "t0": d["t0"], "defaultPlace": list(DEFAULT_PLACE), "defaultInstrument": DEFAULT_INSTRUMENT,
-            "instruments": {k: list(v) for k, v in INSTRUMENTS.items()}, "cities": cities}
+            "instruments": {k: list(v) for k, v in INSTRUMENTS.items()}}
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Every lunar occultation of a star to magnitude 9.5 in {label}, computed for your location: disappearance and "
@@ -458,12 +459,12 @@ def month_page(ym, d, cities, nav):
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{MS_CSS}</style>", og="ms")
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),
-                 "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in cities),
                  "__INST_CHIPS__": chips, "__TZL__": "IST",
                  "__COUNT__": f"{len(shown)} occultations you can see from {esc(name)} with {esc(inst_label.lower())} this month, on {len(groups)} nights · {occ} in all from there",
                  "__CAL__": calendar_html(y, mo, groups), "__NIGHTS__": nights_html(groups, t0, tz), "__RULES__": rules,
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
-                 "__FOOTER__": FOOTER, "__JS__": SOLVER_JS, "__MOONJS_V__": _hash(MOON_JS)}.items():
+                 "__FOOTER__": FOOTER, "__MOONJS_V__": _hash(MOON_JS),
+                 "__CITIES_JS__": cities_js("cities", cities), "__MS_JS__": asset("js/moonstars.js", SOLVER_JS.lstrip())}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(page + body)
     (OUT / "data").mkdir(exist_ok=True)

@@ -93,3 +93,80 @@ def test_service_worker_is_wired_up():
         assert "navigator.serviceWorker.register('/sw.js')" in open(os.path.join(site, page)).read(), page
     headers = open(os.path.join(site, "_headers")).read()
     assert "/sw.js\n  Cache-Control: no-cache" in headers, "a cached worker cannot be replaced"
+    # a deploy must not throw away what a reader kept for the field: the cache keeps one name, whatever the build
+    assert "var SITE = 'occult-site'" in js and not re.search(r"'occult-[0-9a-f]{10}'", js)
+
+
+def _site():
+    site = os.path.join(HERE, "..", "site")
+    if not os.path.exists(os.path.join(site, "index.html")):
+        import pytest
+        pytest.skip("site not built")
+    return site
+
+
+def test_shared_files_match_their_hash():
+    """The stylesheet, the scripts, the city lists and the map outlines are shared files cached for 30 days, so a page
+    that links one must name the content it was built with: every /css, /js and /img URL on every page carries a ?v=
+    that is the hash of the file on disk, and every <use> points at an id the file has. /data URLs must at least exist."""
+    import hashlib
+    site = _site()
+    seen = {}
+    for page in sorted(glob.glob(os.path.join(site, "*.html"))):
+        text = open(page).read()
+        for url in set(re.findall(r'(?:href|src)="(/(?:css|js|img|data)/[^"]+)"', text)):
+            path, _, rest = url.partition("?")
+            f = os.path.join(site, path.lstrip("/"))
+            assert os.path.exists(f), f"{os.path.basename(page)}: {url}"
+            if path.startswith("/data/"):
+                continue
+            v, _, frag = rest.partition("#")
+            assert v.startswith("v="), f"{os.path.basename(page)} links {path} without a content hash"
+            if path not in seen:
+                seen[path] = open(f, "rb").read()
+            assert hashlib.sha1(seen[path]).hexdigest()[:10] == v[2:], f"{os.path.basename(page)}: stale {url}"
+            if frag:
+                assert f'id="{frag}"'.encode() in seen[path], f"{os.path.basename(page)}: no #{frag} in {path}"
+    assert any(p.startswith("/css/") for p in seen) and any(p.startswith("/img/map-") for p in seen)
+    headers = open(os.path.join(site, "_headers")).read()
+    for d in ("/css/*", "/js/*", "/img/*"):
+        assert f"{d}\n  Cache-Control: public, max-age=2592000" in headers, d
+
+
+def test_outlines_and_scripts_are_not_inlined():
+    """What every page of a kind shares lives in one file: no page carries the base stylesheet, a map outline or a city
+    dropdown of its own, and an event page for the whole world has no world inset (it would be its main map again)."""
+    site = _site()
+    base_css = open(os.path.join(site, "css", "base.css")).read()
+    marker = base_css.split("\n")[0].strip()                       # the stylesheet's opening comment
+    for page in sorted(glob.glob(os.path.join(site, "*.html"))):
+        text = open(page).read()
+        name = os.path.basename(page)
+        assert marker not in text, f"{name} inlines the base stylesheet"
+        assert '<path class="land"' not in text and '<path class="border"' not in text, f"{name} inlines a map outline"
+        if 'id="loc-sheet"' in text:
+            sheet = text.split('id="loc-sheet"')[1].split("</dialog>")[0]
+            assert not re.search(r'<option value="[^"]', sheet), f"{name}: city options in the HTML"
+    seed = json.load(open(os.path.join(HERE, "..", "seed.json")))
+    for e in seed["events"]:
+        aud = json.load(open(os.path.join(HERE, "..", "data", f"{e['slug']}.json")))["audience"]
+        text = open(os.path.join(site, f"{e['slug']}.html")).read()
+        assert ("occ-inset" in text) == (aud != "world"), (e["slug"], aud)
+
+
+def test_saturn_config_packs_losslessly():
+    """Saturn's hourly positions travel packed (second differences, run-length flags); the page's own unpackConfig(),
+    run under node, must give back exactly the samples the engine wrote."""
+    import shutil
+    import subprocess
+    import pytest
+    import build_jupiter as bj
+    files = sorted(glob.glob(os.path.join(HERE, "..", "data", "saturn-moons-*.json")))
+    if not files or not shutil.which("node"):
+        pytest.skip("no Saturn data or no node")
+    c = json.load(open(files[0]))["config"]
+    c = dict(c, xyf={k: v[:3 * 800] for k, v in c["xyf"].items()})     # about a month of hourly samples
+    js = bj.UNPACK_JS + "const c = JSON.parse(require('fs').readFileSync(0, 'utf8')); unpackConfig(c); process.stdout.write(JSON.stringify(c.xyf));"
+    res = subprocess.run(["node", "-e", js], input=json.dumps(bj.pack_config(c)), capture_output=True, text=True, timeout=60)
+    assert res.returncode == 0, res.stderr[-2000:]
+    assert json.loads(res.stdout) == c["xyf"]

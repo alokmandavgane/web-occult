@@ -30,7 +30,7 @@ catalog/asteroids.csv  JPL Small-Body Database orbits and diameters of the ~4,50
 ephemeris/         gitignored binary inputs: jup365.bsp, sat441.bsp, lola/ (see engine/ephem_paths.py)
 geo/<audience>.json map outlines (Natural Earth + India-compliant borders), committed: scripts/build_geo.py
 scripts/build_pages.py   data + geo + seed  ->  site/   (also runs build_jupiter.py, build_moonstars.py and build_asteroids.py: one page per month, and build_feeds.py: a calendar feed per city)
-site/              what Cloudflare Pages serves (committed)
+site/              what Cloudflare Pages serves (committed): pages, plus css/, js/ and img/ files they share, linked by content hash
 ```
 
 ## Setup

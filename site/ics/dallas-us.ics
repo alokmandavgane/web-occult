@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:star-83e1605bcbf9-dallas-us@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260909T111130Z
-DTEND:20260909T111330Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 06:11:30 at the dark limb C
- DT\, seen from Dallas\, US.\nThe Moon is 8° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-cdf60f1b3441-dallas-us@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260923T051744Z

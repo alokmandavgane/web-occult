@@ -5,14 +5,15 @@ Tapping one opens site/asteroid.html, ONE page that draws any event from its id 
 map of the path, the finder chart, the chord you would time, the fade, the whole path on Earth, and the KML to drive by.
 
   data/asteroids-<YYYY-MM>.json   engine/asteroid_occultations.py (DE431 + JPL orbits + Gaia DR3)
-  -> site/asteroids-<YYYY-MM>.html, site/asteroid.html, site/js/asteroid.js, site/data/asteroids-<YYYY-MM>.json
+  -> site/asteroids-<YYYY-MM>.html, site/asteroid.html, site/data/asteroids-<YYYY-MM>.json, and the files every page
+     shares: site/js/asteroid.js, site/js/asteroid-month.js, site/js/cities-<audience>.js, site/img/map-<audience>-thumb.svg
 
 `LIB_JS` (site/js/asteroid.js, shared by both pages) holds the twins: `solve()` / `toCentre()` mirror `local()` /
 `to_centre()` in the engine, and `you()` mirrors `you_html()` here, with the same rounding (floor(x + 0.5)) — change
 them TOGETHER. The month page prerenders New Delhi; the browser recomputes for the chosen place.
 
 The event page is the site's only third-party request: Leaflet from cdnjs (with integrity hashes) and OpenStreetMap
-tiles. Everything else it draws itself, and the month pages stay self-contained.
+tiles. Everything else it draws itself, and the month pages fetch nothing from anyone else.
 """
 
 import json
@@ -21,7 +22,7 @@ import sys
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE_NAME, Proj, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE_NAME, Proj, asset, cities_js, esc, head
 
 sys.path.insert(0, str(ROOT / "engine"))
 
@@ -124,22 +125,40 @@ def world_url():
     return _WORLD["url"]
 
 
-def land_svg(proj, geo):
+def land_svg(proj, geo, audience):
     """The audience's land for the thumbnails: a card map is 132 px wide, so islands under a degree and detail finer
-    than about half a pixel are dropped."""
+    than about half a pixel are dropped. The outline is the same under every card of every month, so it is one shared
+    file (site/img/map-<audience>-thumb.svg); this returns the <use> elements a card draws it with, styled by their class."""
     rings = [[[la, lo] for lo, la in r] for r in geo["land"]
              if max(p[0] for p in r) - min(p[0] for p in r) >= 1.0 or max(p[1] for p in r) - min(p[1] for p in r) >= 1.0]
-    out = f'<path class="land" d="{path_d(proj, rings, close=True, tol=0.12)}"/>'
+    land = path_d(proj, rings, close=True, tol=0.12)
     b = path_d(proj, [[[la, lo] for lo, la in l] for l in geo.get("borders", [])], tol=0.12)
-    return out + (f'<path class="border" d="{b}"/>' if b else "")
+    url = asset(f"img/map-{audience}-thumb.svg", f'<svg xmlns="http://www.w3.org/2000/svg"><path id="land" d="{land}"/>'
+                + (f'<path id="border" d="{b}"/>' if b else "") + "</svg>\n")
+    return f'<use href="{url}#land" class="land"/>' + (f'<use href="{url}#border" class="border"/>' if b else "")
 
 
-def card_static(ev, proj, land_id="ast-land"):
+def audience_cities(aud):
+    """The location sheet's cities for an audience, {name: [lat, lon, tz]}: these paths only cross the audience's land."""
+    return {c["name"]: [round(c["lat"], 3), round(c["lon"], 3), c.get("tz") or aud["tz"]]
+            for c in json.loads((ROOT / aud["cities"]).read_text())}
+
+
+def cities_url(audience=None):
+    """site/js/cities-<audience>.js, shared by the month pages and the event page (the audience of the first month file
+    unless named)."""
+    if audience is None:
+        audience = json.loads(sorted((ROOT / "data").glob("asteroids-*.json"))[0].read_text())["audience"]
+    seed = json.loads((ROOT / "seed.json").read_text())
+    return cities_js(f"cities-{audience}", audience_cities(seed["audiences"][audience]))
+
+
+def card_static(ev, proj, land=""):
     a, st = ev["asteroid"], ev["star"]
     W, H = proj.W, proj.H
     L = ev["lines"]
     svg = [f'<svg class="ast-map" viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="Path of the shadow across India">'
-           f'<use href="#{land_id}"/>']
+           f'{land}']
     # the thumbnail carries the band and its edges only: the 1-sigma lines live on the event page, where they can be read
     if len(L.get("left", [])) == 1 and len(L.get("right", [])) == 1:
         svg.append(f'<path class="ast-band" d="{path_d(proj, [L["left"][0] + L["right"][0][::-1]], close=True, tol=0.18)}"/>')
@@ -163,8 +182,8 @@ def card_static(ev, proj, land_id="ast-land"):
     return "".join(svg), title, facts
 
 
-def card_html(ev, proj, s, tc, tz):
-    svg, title, facts = card_static(ev, proj)
+def card_html(ev, proj, s, tc, tz, land=""):
+    svg, title, facts = card_static(ev, proj, land)
     cls, what, look = you_html(ev, s, tc)
     t = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) + timedelta(seconds=s["tau"])
     more = f'<a class="ast-more" href="/asteroid?e={esc(ev["id"])}">Map, finder chart &amp; download →</a>'
@@ -639,6 +658,7 @@ LIB_JS = r"""
 MONTH_JS = r"""
 (function () {
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent);
+  META.cities = window.OccultCities || {};      // js/cities-<audience>.js, loaded just before this file
   var RAD = Math.PI / 180, F = A.fmt;
   function tzLabel(tz) { try { return new Intl.DateTimeFormat('en-GB', { timeZone: tz, timeZoneName: 'short' }).formatToParts(new Date(Date.parse(META.t0) + 864e6)).filter(function (p) { return p.type === 'timeZoneName'; })[0].value; } catch (e) { return tz; } }
   function dateKey(ms, tz) { try { return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms)); } catch (e) { return new Date(ms).toISOString().slice(0, 10); } }
@@ -696,6 +716,7 @@ MONTH_JS = r"""
     countLine.textContent = data.events.length + ' asteroid occultations cross India at night this month · ' + mine + ' pass over ' + LOC.label + ' (inside the path or within its 1σ margin)';
   }
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
+  Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
     LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
@@ -722,7 +743,7 @@ TEMPLATE = """
 <dialog id="loc-sheet" class="sheet" aria-label="Location">
   <form method="dialog" class="sheet-body">
     <div class="sheet-title">Location</div>
-    <label>City <select id="loc-city"><option value="">—</option>__CITY_OPTS__</select></label>
+    <label>City <select id="loc-city"><option value="">—</option></select></label>
     <div class="loc-row">
       <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
       <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
@@ -734,7 +755,6 @@ TEMPLATE = """
     </div>
   </form>
 </dialog>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="ast-land" viewBox="0 0 __MW__ __MH__">__LAND__</symbol></defs></svg>
 <main class="wrap">
   <h1>__TITLE__</h1>
   <p class="sub">Stars hidden by asteroids, on paths across India</p>
@@ -768,9 +788,8 @@ TEMPLATE = """
 </main>
 __FOOTER__
 <script src="/js/asteroid.js?v=__LIBV__"></script>
-<script>
-__JS__
-</script>
+<script src="__CITIES_JS__"></script>
+<script src="__MONTH_JS__"></script>
 </body>
 </html>
 """
@@ -780,6 +799,7 @@ __JS__
 EVENT_JS = r"""
 (function () {
   var A = window.OccultAsteroids, META = JSON.parse(document.getElementById('ast-meta').textContent), F = A.fmt;
+  META.cities = window.OccultCities || {};      // js/cities-<audience>.js, loaded just before this script
   var RAD = Math.PI / 180, params = new URLSearchParams(location.search);
   var id = params.get('e') || '', ym = id.slice(0, 7);
   var ev = null, LOC = null, map = null, me = null, ticks = null, world = null, stns = null, SKY = null, play = null;
@@ -1124,6 +1144,7 @@ EVENT_JS = r"""
            b.dataset.dl === 'kml' ? 'application/vnd.google-earth.kml+xml' : 'application/gpx+xml');
   });
   var sheet = el('loc-sheet'), latI = el('loc-lat'), lonI = el('loc-lon'), sel = el('loc-city');
+  Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) { lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
     LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
     try { localStorage.setItem('occult-loc', JSON.stringify(LOC)); } catch (e) {}
@@ -1149,7 +1170,7 @@ EVENT_TEMPLATE = """
 <dialog id="loc-sheet" class="sheet" aria-label="Location">
   <form method="dialog" class="sheet-body">
     <div class="sheet-title">Location</div>
-    <label>City <select id="loc-city"><option value="">—</option>__CITY_OPTS__</select></label>
+    <label>City <select id="loc-city"><option value="">—</option></select></label>
     <div class="loc-row">
       <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
       <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
@@ -1209,6 +1230,7 @@ __FOOTER__
 <link rel="stylesheet" href="__LEAFLET_CSS__" integrity="__LEAFLET_CSS_SRI__" crossorigin="anonymous">
 <script src="__LEAFLET_JS__" integrity="__LEAFLET_JS_SRI__" crossorigin="anonymous"></script>
 <script src="/js/asteroid.js?v=__LIBV__"></script>
+<script src="__CITIES_JS__"></script>
 <script>
 __JS__
 </script>
@@ -1223,17 +1245,16 @@ def lib_url():
     return _hash(LIB_JS)
 
 
-def event_page(months, cities, aud, geo):
+def event_page(months, audience, geo):
     """site/asteroid.html: one page that draws any event, chosen by `?e=<id>`."""
     desc = ("Everything for one asteroid occultation: the path on a map, how close it passes you, the finder chart, the chord "
             "you would time, how far the star fades, and the path as KML.")
     meta = {"months": {ym: url for ym, url in months.items()}, "monthLabels": {ym: f"{MONTHS[int(ym[5:]) - 1]} {ym[:4]}" for ym in months},
-            "cities": cities, "bbox": geo["bbox"], "defaultPlace": list(DEFAULT_PLACE), "world": world_url()}
+            "bbox": geo["bbox"], "defaultPlace": list(DEFAULT_PLACE), "world": world_url()}
     page = head(f"Asteroid occultation · {SITE_NAME}", desc, "/asteroid",
                 extra=f"<style>{AST_CSS}{CHART_CSS}{EVENT_CSS}</style>", og="ast")
     body = EVENT_TEMPLATE
-    for k, v in {"__PLACE__": esc(DEFAULT_PLACE[0]),
-                 "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in cities),
+    for k, v in {"__PLACE__": esc(DEFAULT_PLACE[0]), "__CITIES_JS__": cities_url(audience),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__JS__": EVENT_JS, "__LIBV__": lib_url(),
                  "__LEAFLET_CSS__": f"{LEAFLET}/leaflet.css", "__LEAFLET_CSS_SRI__": LEAFLET_CSS_SRI,
@@ -1253,10 +1274,7 @@ def month_page(ym, d, cities_all, nav):
     aud = seed["audiences"][d["audience"]]
     geo = json.loads((ROOT / "geo" / f"{d['audience']}.json").read_text())
     proj = Proj(geo["bbox"], aud["lat0"], MAP_W)
-    land = land_svg(proj, geo)
-    # the location sheet offers the audience's own cities: these paths only cross India
-    cities = {c["name"]: [round(c["lat"], 3), round(c["lon"], 3), c.get("tz") or aud["tz"]]
-              for c in json.loads((ROOT / aud["cities"]).read_text())}
+    land = land_svg(proj, geo, d["audience"])
     name, lat, lon, tzname = DEFAULT_PLACE
     tz = zoneinfo.ZoneInfo(tzname)
     groups, mine = {}, 0
@@ -1265,7 +1283,7 @@ def month_page(ym, d, cities_all, nav):
         tc = to_centre(ev["el"], lat, lon)
         cls = you_html(ev, s, tc)[0]
         mine += cls in ("in", "near")
-        html = card_html(ev, proj, s, tc, tz)
+        html = card_html(ev, proj, s, tc, tz, land)
         x, yy = proj.xy(lat, lon)
         html = html.replace('cx="-20" cy="-20"', f'cx="{x:.1f}" cy="{yy:.1f}"')
         g = groups.setdefault(night_key(ev, tz), {"cards": [], "mine": 0})
@@ -1299,7 +1317,7 @@ def month_page(ym, d, cities_all, nav):
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     src = f"/data/{slug}.json?v={_hash(data_json)}"
     meta = {"src": src, "t0": f"{ym}-01T00:00:00Z", "defaultPlace": list(DEFAULT_PLACE),
-            "cities": cities, "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W}
+            "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W}
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Asteroid occultations crossing India in {label}: {len(d['events'])} stars hidden by asteroids, each with a map of "
@@ -1307,13 +1325,13 @@ def month_page(ym, d, cities_all, nav):
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{AST_CSS}</style>", og="ast")
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),
-                 "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in cities),
-                 "__MW__": f"{proj.W:.0f}", "__MH__": f"{proj.H:.0f}", "__LAND__": land, "__TZL__": "IST",
+                 "__TZL__": "IST",
                  "__COUNT__": f"{len(d['events'])} asteroid occultations cross India at night this month · {mine} pass over {esc(name)} (inside the path or within its 1σ margin)",
                  "__CAL__": "".join(cells), "__NIGHTS__": "".join(nights) or '<p class="hint">No asteroid shadows cross India at night this month.</p>',
                  "__RULES__": rules_html, "__ORBITS__": esc(d["engine"]["orbits"]),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
-                 "__FOOTER__": FOOTER, "__JS__": MONTH_JS, "__LIBV__": lib_url()}.items():
+                 "__FOOTER__": FOOTER, "__LIBV__": lib_url(),
+                 "__CITIES_JS__": cities_url(d["audience"]), "__MONTH_JS__": asset("js/asteroid-month.js", MONTH_JS.lstrip())}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(page + body)
     (OUT / "data").mkdir(exist_ok=True)
@@ -1341,17 +1359,14 @@ def build_all(cities, only=None):
     if built:
         seed = json.loads((ROOT / "seed.json").read_text())
         d0 = json.loads((ROOT / "data" / f"asteroids-{yms[0]}.json").read_text())
-        aud = seed["audiences"][d0["audience"]]
         geo = json.loads((ROOT / "geo" / f"{d0['audience']}.json").read_text())
-        city_list = {c["name"]: [round(c["lat"], 3), round(c["lon"], 3), c.get("tz") or aud["tz"]]
-                     for c in json.loads((ROOT / aud["cities"]).read_text())}
         # every month the event page may be asked for, whichever month it was built with
         all_files = sorted((ROOT / "data").glob("asteroids-*.json"))
         months = {}
         for f in all_files:
             ym = f.stem[len("asteroids-"):]
             months[ym] = f"/data/asteroids-{ym}.json?v={_hash(f.read_text())}"
-        event_page(months, city_list, aud, geo)
+        event_page(months, d0["audience"], geo)
     return built
 
 

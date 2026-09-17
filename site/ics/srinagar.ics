@@ -10,28 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-09-09-3645-fabini-076352-srinagar@occult.alokm.com
-DTSTAMP:20260916T024622Z
-DTSTART:20260909T194432Z
-DTEND:20260909T195432Z
-SUMMARY:(3645) Fabini hides a mag 11.7 star (just outside the path)
-DESCRIPTION:(3645) Fabini hides a magnitude 11.7 star\, seen from Srinagar.
- \nThe predicted edge passes 6 km to the SE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nCloses
- t approach 01:19:32 IST\, give or take 2 s. The star is 39° up in the E 
- · dark sky.\nIt fades 5.5 magnitudes for up to 1.9 s on the centre line\,
-  and the path is 20 km wide\, give or take 15 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2026-09-09-36
- 45-fabini-076352
-URL:https://occult.alokm.com/asteroid?e=2026-09-09-3645-fabini-076352
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(3645) Fabini hides a mag 11.7 star (just outside the path)
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-ff714bb93b04-srinagar@occult.alokm.com
 DTSTAMP:20260901T000000Z
 DTSTART:20260923T213130Z

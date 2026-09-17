@@ -9,6 +9,8 @@ The page: the moons' configuration diagram, a month calendar, and one card per o
 Each event is ONE row — start → end at the moment the moon's centre crosses the planet's or the shadow's edge,
 the convention published tables use — with a type icon. The row HTML exists twice, `item_li` here and `li()` in
 RENDER_JS, and must stay identical (same rounding: floor(x + 0.5)); the page prerenders New Delhi for crawlers.
+DIAGRAM_JS and RENDER_JS are one shared file for both planets (site/js/moons.js) and the city list another
+(site/js/cities.js); a month page carries only its own events and diagram data.
 """
 
 import calendar as _calendar
@@ -17,7 +19,7 @@ import math
 import zoneinfo
 from datetime import datetime, timedelta, timezone
 
-from build_pages import FOOTER, OUT, ROOT, SITE, SITE_NAME, esc, head
+from build_pages import FOOTER, OUT, ROOT, SITE, SITE_NAME, asset, cities_js, esc, head
 
 MOON_NAME = {"io": "Io", "europa": "Europa", "ganymede": "Ganymede", "callisto": "Callisto",
              "mimas": "Mimas", "enceladus": "Enceladus", "tethys": "Tethys", "dione": "Dione",
@@ -196,6 +198,23 @@ def calendar_html(year, month, groups, P):
 
 # ------------------------------------------------------------------------------------------------ JS
 
+# pack_config() reversed: x and y from their second differences, the in-front flag from its run lengths, back into the flat
+# [x, y, front, x, y, front, …] per moon that sampled() reads. Kept apart so the test can run it against pack_config().
+UNPACK_JS = r"""
+function unpackConfig(c) {
+  c.moons.forEach(function (k) {
+    var p = c.xyf[k], x = p[0], y = p[1], r = p[2], n = x.length, a = new Array(3 * n), flag = r[0], run = 1, left = r[1];
+    for (var i = 0; i < n; i++) {
+      a[3 * i] = i === 0 ? x[0] : i === 1 ? a[0] + x[1] : x[i] + 2 * a[3 * i - 3] - a[3 * i - 6];
+      a[3 * i + 1] = i === 0 ? y[0] : i === 1 ? a[1] + y[1] : y[i] + 2 * a[3 * i - 2] - a[3 * i - 5];
+      while (left === 0) { flag = 1 - flag; left = r[++run]; }
+      a[3 * i + 2] = flag; left--;
+    }
+    c.xyf[k] = a;
+  });
+}
+"""
+
 DIAGRAM_JS = r"""
 (function () {
   // ---- Galilean configuration: Meeus, Astronomical Algorithms ch. 44 (low-accuracy method).
@@ -222,6 +241,7 @@ DIAGRAM_JS = r"""
     return out;   // x in Jupiter radii, positive WEST; y positive north; front = nearer to Earth than Jupiter
   }
   var DD = JSON.parse(document.getElementById('diary-data').textContent);
+  if (DD.config) unpackConfig(DD.config);
   function sampled(ms) {   // linear interpolation of the hourly JPL samples
     var c = DD.config, i = (ms / 1000 - c.t0) / (c.step_min * 60), i0 = Math.floor(i), f = i - i0, out = [];
     c.moons.forEach(function (k) {
@@ -385,6 +405,8 @@ RENDER_JS = r"""
     document.getElementById('config').scrollIntoView({ block: 'start', behavior: 'smooth' });
   });
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
+  M.cities = window.OccultCities || {};      // js/cities.js, loaded just before this file
+  Object.keys(M.cities).forEach(function (n) { sel.add(new Option(n, n)); });
   function setLoc(lat, lon, label) {
     lat = +lat; lon = +lon; if (!isFinite(lat) || !isFinite(lon)) return;
     LOC = { lat: lat, lon: lon, label: label || (lat.toFixed(2) + ', ' + lon.toFixed(2)) };
@@ -416,7 +438,7 @@ TEMPLATE = """
 <dialog id="loc-sheet" class="sheet" aria-label="Location">
   <form method="dialog" class="sheet-body">
     <div class="sheet-title">Location</div>
-    <label>City <select id="loc-city"><option value="">—</option>__CITY_OPTS__</select></label>
+    <label>City <select id="loc-city"><option value="">—</option></select></label>
     <div class="loc-row">
       <label>Lat <input id="loc-lat" type="number" step="any" min="-90" max="90" placeholder="28.614"></label>
       <label>Lon <input id="loc-lon" type="number" step="any" min="-180" max="180" placeholder="77.209"></label>
@@ -457,11 +479,36 @@ TEMPLATE = """
   <script type="application/json" id="jmeta">__META__</script>
 </main>
 __FOOTER__
-<script>__DIAGRAM_JS__</script>
-<script>__RENDER_JS__</script>
+<script src="__CITIES_JS__"></script>
+<script src="__MOONS_JS__"></script>
 </body>
 </html>
 """
+
+
+def pack_config(c):
+    """A month of hourly JPL samples as the page carries them: x and y (hundredths of a planet radius) as second
+    differences — they change smoothly, so the numbers are small and gzip well — and the in-front flag as run lengths.
+    Lossless, and a quarter of the size (Saturn, October 2026: 18.9 KB gzipped as plain numbers, 4.7 KB packed).
+    unpackConfig() in UNPACK_JS reverses it."""
+    def d2(s):
+        return list(s[:1]) + [s[i] - s[i - 1] if i == 1 else s[i] - 2 * s[i - 1] + s[i - 2] for i in range(1, len(s))]
+
+    def runs(f):
+        out, cur, n = [f[0]], f[0], 0
+        for v in f:
+            if v == cur:
+                n += 1
+            else:
+                out.append(n)
+                cur, n = v, 1
+        return out + [n]
+
+    xyf = {}
+    for k, a in c["xyf"].items():
+        assert set(a[2::3]) <= {0, 1}, f"{k}: the in-front flag must be 0 or 1"
+        xyf[k] = [d2(a[0::3]), d2(a[1::3]), runs(a[2::3])]
+    return dict(c, xyf=xyf)
 
 
 def month_page(planet, year, month, items, all_cities, nav, config=None, grs=None):
@@ -483,11 +530,11 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
     first = items[0] if items else {"ra": 0, "dec": 0}
     diag = {"names": [MOON_NAME[m] for m in P["moons"]], "colors": [P["colors"][m] for m in P["moons"]],
             "radii": [P["radii_rp"][m] for m in P["moons"]], "oblate": P["oblate"], "zooms": P["zooms"],
-            "config": config, "pole": P["pole"], "rings": P["rings"], "ra": first["ra"], "dec": first["dec"],
+            "config": config and pack_config(config), "pole": P["pole"], "rings": P["rings"], "ra": first["ra"], "dec": first["dec"],
             "grs": grs and {k: grs[k] for k in ("t0", "cm", "lon", "ref", "drift")}}
     kinds_present = {it["kind"] for it in items}
     meta = {"items": items, "planet": {"name": pname}, "names": MOON_NAME, "colors": P["colors"], "icons": ICONS, "types": TYPES,
-            "cities": all_cities, "defaultPlace": list(DEFAULT_PLACE), "ym": [year, month], "t0": t0, "grsHalf": GRS_HALF_VIEW}
+            "defaultPlace": list(DEFAULT_PLACE), "ym": [year, month], "t0": t0, "grsHalf": GRS_HALF_VIEW}
     chips = "".join(f'<label class="chipbox" style="border-color:{P["colors"][m]}"><input type="checkbox" value="{m}" checked> {MOON_NAME[m]}</label>'
                     for m in P["moons"])
     if n_mutual:
@@ -517,7 +564,6 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLANET__": planet, "__PLACE__": esc(name),
-                 "__CITY_OPTS__": "".join(f'<option value="{esc(n)}">{esc(n)}</option>' for n in all_cities),
                  "__TITLE__": esc(title), "__SUB__": " · ".join(MOON_NAME[m] for m in P["moons"]) + (f" — {n_mutual} mutual events" if n_mutual else ""),
                  "__LEAD__": lead, "__PNAME__": pname, "__T0__": str(t0), "__T1__": str(t1), "__DIAG_HINT__": diag_hint,
                  "__CHIPS__": chips, "__COUNT__": f"{len(visible)} events you can see from {esc(name)} this month, on {len(groups)} nights",
@@ -525,7 +571,8 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
                  "__NIGHTS__": nights_html(groups, P, tz, lat, lon), "__METHOD__": method,
                  "__DIAG_DATA__": json.dumps(diag, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
-                 "__FOOTER__": FOOTER, "__DIAGRAM_JS__": DIAGRAM_JS, "__RENDER_JS__": RENDER_JS}.items():
+                 "__FOOTER__": FOOTER, "__CITIES_JS__": cities_js("cities", all_cities),
+                 "__MOONS_JS__": asset("js/moons.js", UNPACK_JS.lstrip() + DIAGRAM_JS + RENDER_JS)}.items():
         body = body.replace(k, v)
     (OUT / f"{slug}.html").write_text(head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{JUPITER_CSS}</style>", og=planet) + body)
     return {"slug": slug, "label": label, "year": year, "month": month, "n": len(items), "n_mutual": n_mutual, "planet": planet,

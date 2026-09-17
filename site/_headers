@@ -4,6 +4,10 @@
   Cache-Control: public, max-age=86400
 /sw.js
   Cache-Control: no-cache
+/css/*
+  Cache-Control: public, max-age=2592000
+/js/*
+  Cache-Control: public, max-age=2592000
 /kml/*
   Cache-Control: public, max-age=86400
   Content-Disposition: attachment
