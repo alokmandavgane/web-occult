@@ -7,7 +7,7 @@
    name, the oldest dropped past a cap: a deploy never throws away what a reader saved, and a page cached before it still
    finds the ?v= files it links. Analytics is left alone. To switch all this off for good, ship an sw.js whose install
    handler is self.registration.unregister(). */
-var SITE = 'occult-site', TILES = 'occult-tiles', SITE_MAX = 500, TILE_MAX = 600, CORE = ["/", "/asteroid", "/css/base.css?v=fe3d30767f", "/js/asteroid.js?v=aa8de3e997", "/data/world-coarse.json?v=48d12d25ba", "/js/cities-india.js?v=5e73770dc4"];
+var SITE = 'occult-site', TILES = 'occult-tiles', SITE_MAX = 500, TILE_MAX = 600, CORE = ["/", "/asteroid", "/css/base.css?v=fe3d30767f", "/js/asteroid.js?v=6dd585a562", "/data/world-coarse.json?v=48d12d25ba", "/js/cities-india.js?v=5e73770dc4"];
 
 self.addEventListener('install', function (e) {
   // one by one, and a failure is allowed: a single missing file must not leave a reader with no offline site at all

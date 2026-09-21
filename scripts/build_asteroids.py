@@ -32,6 +32,17 @@ DEFAULT_PLACE = ("New Delhi", 28.6139, 77.2090, "Asia/Kolkata")
 COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 MAP_W = 400
+
+# What you can watch an event with, as a rule of thumb — NOT a computed number, and the page says so. The limit is the
+# faintest COMBINED magnitude (star and asteroid together, `combined_mag`: what is actually in the eyepiece) that can be
+# timed with that aperture under a dark sky, held about a magnitude short of the aperture's detection limit because a
+# star at the very limit is lost in the noise long before the asteroid covers it. A video camera reaches 2-3 deeper,
+# which is why "Any brightness" is the default. Whether the drop is big enough to SEE is a separate matter, marked on
+# the card: under half a magnitude needs a camera whatever the aperture.
+INSTRUMENTS = [("any", "Any brightness", 99.0), ("eye", "Naked eye", 5.5), ("binoculars", "Binoculars, 50 mm", 8.5),
+               ("scope80", "Telescope, 80 mm", 10.0), ("scope150", "Telescope, 150 mm", 11.5),
+               ("scope250", "Telescope, 250 mm", 12.5)]
+SORTS = [("time", "By time"), ("travel", "Nearest to me"), ("mag", "Brightest first")]
 LEAFLET = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4"
 LEAFLET_JS_SRI = "sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg=="
 LEAFLET_CSS_SRI = "sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w=="
@@ -90,25 +101,26 @@ def pct(p):
 
 def you_html(ev, s, tc):
     """The place-dependent lines of a card: (verdict class, what you see, where to look, the chance of an occultation
-    there). Twin of JS you()."""
+    there, how far you would have to travel to stand in the path — whole km, 0 inside it and -1 with the star down, so
+    the list can sort on it). Twin of JS you()."""
     R, sig = ev["el"]["R"], ev["sigma_km"] or 0.0
     d = abs(s["d"])
     ground, brg = tc
     look = f"Star {r0(s['star_alt'])}° up in the {compass(s['star_az'])} · {sky_text(s['sun_alt'])}"
     if s["star_alt"] < 0:
-        return "below", "The star is below your horizon then", f"Star {r0(-s['star_alt'])}° below the horizon", ""
+        return "below", "The star is below your horizon then", f"Star {r0(-s['star_alt'])}° below the horizon", "", -1
     edge = ground * (d - R) / d if d > 0 else 0.0
     p = pct(chance(ev, s))
     if d <= R:
         return "in", (f"You are inside the path, {r0(ground)} km from its centre line: "
-                      f"the star vanishes for up to {r1(s['dur'])} s"), look, p
+                      f"the star vanishes for up to {r1(s['dur'])} s"), look, p, 0
     if d <= R + sig:
         return "near", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                        f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look, p
+                        f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look, p, r0(edge)
     if d <= R + 2 * sig:
         return "chance", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look, p
-    return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look, p
+                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look, p, r0(edge)
+    return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look, p, r0(edge)
 
 
 def path_d(proj, runs, close=False, tol=0.14):
@@ -199,26 +211,68 @@ def card_static(ev, proj, land=""):
         flags.append(f'<span class="badge" title="Gaia RUWE {st["ruwe"]}: the star may be double">RUWE {st["ruwe"]}</span>')
     if st["dup"]:
         flags.append('<span class="badge" title="Gaia flags a duplicated source">dup</span>')
-    sig = f' ± {r0(ev["sigma_km"])} km (1σ)' if ev["sigma_km"] is not None else ""
-    tsig = f' · time ± {r1(ev["sigma_s"])} s' if ev.get("sigma_s") is not None else ""
-    title = (f'<b class="ast-name">({esc(a["number"])}) {esc(a["name"])}</b> <small>{r0(a["diameter_km"])} km</small> '
-             f'hides <b class="ast-star" title="Gaia DR3 {esc(st["gaia"])}, RA {st["ra"]:.4f}° Dec {st["dec"]:+.4f}°">{esc(star_label(st))}</b> '
-             f'<small>V {r1(st["v"])}</small>{"".join(flags)}')
-    facts = (f'Drop {r1(ev["drop"])} mag (to V {r1(a["mag"])}) · up to {r1(ev["dur_max_s"])} s · path {r0(a["diameter_km"])} km wide{sig}{tsig} · '
-             f'Moon {r0(ev["moon_illum"] * 100)}% lit, {r0(ev["moon_sep"])}° away')
-    return "".join(svg), title, facts
+    title = (f'<b class="ast-name">({esc(a["number"])}) {esc(a["name"])}</b> hides '
+             f'<b class="ast-star" title="Gaia DR3 {esc(st["gaia"])}, RA {st["ra"]:.4f}° Dec {st["dec"]:+.4f}°">{esc(star_label(st))}</b>'
+             f'{"".join(flags)}')
+    return "".join(svg), title, stats_html(ev)
+
+
+def tile(value, label, title="", cls=""):
+    """One figure and what it means, as a boxed tile — the card's facts were one long line, and a long line is read, not
+    scanned. Twin of JS tile()."""
+    at = f' title="{title}"' if title else ""
+    return f'<span class="st {cls}"{at}><b>{value}</b><span class="k">{label}</span></span>'.replace('class="st "', 'class="st"')
+
+
+def travel_tile(y):
+    """The one tile that depends on where the reader stands: how far to drive to be in the path. Twin of JS travelTile()."""
+    if y[4] < 0:
+        return "—", "star is down"
+    if y[4] == 0:
+        return "inside", "the path"
+    return f"{y[4]:,} km", "to the path"
+
+
+def stats_html(ev, y=None):
+    """The card's numbers as separate tiles, one figure each: a night's events are meant to be scanned, not read. Every
+    tile but the last is the same wherever you stand; the page's JS rewrites that one (and only that one) per place."""
+    a, st = ev["asteroid"], ev["star"]
+    cam = ev["drop"] < 0.5
+    sig = f', ±{r0(ev["sigma_km"])} km' if ev["sigma_km"] is not None else ""
+    tsig = f', ±{r1(ev["sigma_s"])} s' if ev.get("sigma_s") is not None else ""
+    return ('<div class="ast-stats">'
+            + tile(f'V {r1(ev["combined_mag"])}', "brightness",
+                   f'Star and asteroid together, which is what you watch — the star alone is V {r1(st["v"])}, '
+                   f'the asteroid V {r1(a["mag"])}')
+            + tile(f'{r1(ev["drop"])} mag', "fade, camera" if cam else "fade",
+                   "Under half a magnitude: a camera catches this, the eye does not" if cam
+                   else f'How much fainter the pair goes while the star is hidden, down to V {r1(a["mag"])}',
+                   cls="st-cam" if cam else "")
+            + tile(f'{r1(ev["dur_max_s"])} s', f'up to{tsig}', "The longest the star can vanish, on the centre line"
+                   + (f'; the predicted moment is good to {r1(ev["sigma_s"])} s' if ev.get("sigma_s") is not None else ""))
+            + tile(f'{r0(a["diameter_km"])} km', f'path wide{sig}',
+                   "The shadow is exactly as wide as the asteroid" + (f'; the path sits within {r0(ev["sigma_km"])} km of where it is drawn (1σ)'
+                                                                     if ev["sigma_km"] is not None else ""))
+            + tile(f'{r0(ev["moon_illum"] * 100)}%', f'moon, {r0(ev["moon_sep"])}° off', "How much of the Moon is lit and how far it sits from the star")
+            + tile(*(travel_tile(y) if y else ("—", "to the path")),
+                   title="How far to the path's nearest edge — the drive that would put you inside the shadow", cls="st-travel")
+            + "</div>")
 
 
 def card_html(ev, proj, s, tc, tz, land=""):
-    svg, title, facts = card_static(ev, proj, land)
-    cls, what, look, p = you_html(ev, s, tc)
+    svg, title, _ = card_static(ev, proj, land)
+    y = you_html(ev, s, tc)
+    cls, what, look, p = y[0], y[1], y[2], y[3]
+    stats = stats_html(ev, y)
     t = datetime.strptime(ev["el"]["t0"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) + timedelta(seconds=s["tau"])
+    lt = t.astimezone(tz)
     more = f'<a class="ast-more" href="/asteroid?e={esc(ev["id"])}">Map, finder chart &amp; download →</a>'
-    return (f'<article class="ast v-{cls}" id="{esc(ev["id"])}" data-id="{esc(ev["id"])}">{svg}<div class="ast-body">'
-            f'<div class="ast-top"><span class="ast-time">{t.astimezone(tz).strftime("%H:%M:%S")}</span> {title}</div>'
+    return (f'<article class="ast v-{cls}" id="{esc(ev["id"])}" data-id="{esc(ev["id"])}" data-mag="{ev["combined_mag"]}">{svg}<div class="ast-body">'
+            f'<div class="ast-top"><span class="ast-day">{lt.strftime("%a %-d %b")}</span>'
+            f'<span class="ast-time">{lt.strftime("%H:%M:%S")}</span> {title}</div>'
             f'<div class="ast-you"><b class="ast-p" title="The chance the shadow covers this place, allowing for the path\'s 1σ">{p + " chance" if p else ""}</b>'
             f'<span class="ast-say">{what}</span></div><div class="ast-look">{look}</div>'
-            f'<div class="ast-facts">{facts}</div>{more}</div></article>')
+            f'{stats}{more}</div></article>')
 
 
 def night_key(ev, tz):
@@ -237,6 +291,11 @@ AST_CSS = """
     .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
     .chipbox input { accent-color: var(--t-ast); }
     .chipbox:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
+    .selbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px;
+              padding: 0.1rem 0.35rem 0.1rem 0.7rem; font-size: 0.85rem; color: var(--muted); }
+    .selbox select { font: inherit; font-size: 0.85rem; color: var(--text); background: var(--card); border: 0; border-radius: 999px; padding: 0.2rem 0.25rem; }
+    .selbox:has(select:not([data-default])) { border-color: var(--t-ast); color: var(--t-ast); }
+    @media (pointer: coarse) { .selbox { min-height: 44px; } .selbox select { min-height: 38px; } }
     .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 0.9rem 0 1.2rem; }
     .cal-wd { font-size: 0.68rem; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: 0.06em; }
     .cal-cell { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0 5px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--muted); min-height: 50px; }
@@ -247,10 +306,12 @@ AST_CSS = """
     .cal-d { font-size: 0.78rem; font-weight: 600; line-height: 1; }
     .cal-n { font-size: 0.75rem; font-weight: 700; color: var(--t-ast); min-height: 0.9rem; line-height: 0.9rem; }
     .night { margin: 1.4rem 0 0; scroll-margin-top: 72px; }
+    .night-anchor { display: block; height: 0; scroll-margin-top: 90px; }   /* where the calendar lands once the list is not in date order */
     .night-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.3rem 0.8rem; flex-wrap: wrap; border-bottom: 1px solid var(--border); padding-bottom: 0.2rem; }
     .night-head h3 { font-size: 1.05rem; margin: 0; }
     .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
            border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
+    .ast[hidden] { display: none; }   /* display: grid above beats the browser's own [hidden] rule, and a filtered card came back */
     .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
     .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
     .ast-map { width: 132px; height: auto; display: block; border-radius: 6px; background: var(--sea); }
@@ -261,7 +322,9 @@ AST_CSS = """
     .ast-cl { fill: none; stroke: var(--path-centre); stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
     .ast-pin { fill: var(--c-limit); stroke: var(--card); stroke-width: 2.5; }
     .ast-time { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
-    .ast-top small { color: var(--muted); white-space: nowrap; }
+    /* the date only matters once the list stops running in date order */
+    .ast-day { font-weight: 700; font-size: 1.05rem; color: var(--muted); margin-right: 0.3rem; display: none; }
+    #ast-nights.flat .ast-day { display: inline; }
     .ast-name { font-family: var(--serif); }
     .ast-star { white-space: nowrap; }
     .ast-you { font-size: 0.92rem; margin-top: 0.1rem; }
@@ -269,11 +332,24 @@ AST_CSS = """
              border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; margin-right: 0.4rem; white-space: nowrap; }
     .ast-p:empty, .ast.v-out .ast-p { display: none; }   /* a plain miss says so in words; the event page still gives its number */
     .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
-    .ast-look, .ast-facts { font-size: 0.78rem; color: var(--muted); }
+    .ast-look { font-size: 0.78rem; color: var(--muted); }
+    /* the facts, one figure to a tile: a night's cards are scanned side by side, and a sentence of numbers cannot be */
+    .ast-stats { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.45rem; }
+    .st { display: flex; flex-direction: column; line-height: 1.2; padding: 0.15rem 0.45rem; border: 1px solid var(--border);
+          border-radius: 8px; background: color-mix(in srgb, var(--text) 4%, transparent); }
+    .st b { font-size: 0.82rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .st .k { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); white-space: nowrap; }
+    .st-cam { border-style: dashed; } .st-cam b { color: var(--muted); font-weight: 500; }
+    .v-in .st-travel b { color: var(--c-visible); } .v-near .st-travel b { color: var(--c-limit); }
+    .v-chance .st-travel b { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
+    .v-below .st-travel b { color: var(--c-down); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
     .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
     @media (pointer: coarse) { .ast-more { display: inline-flex; align-items: center; min-height: 44px; } }
-    @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; } }
+    @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; }
+      /* a narrow column wraps the tiles raggedly; two even ones read as a table instead */
+      .ast-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .st .k { white-space: normal; } }
     .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
 """
 
@@ -480,12 +556,12 @@ LIB_JS = r"""
   function you(ev, s, tc) {   // twin of you_html()
     var R = ev.el.R, sig = ev.sigma_km || 0, d = Math.abs(s.d), ground = tc[0], brg = tc[1];
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
-    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon', ''];
+    if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon', '', -1];
     var edge = d > 0 ? ground * (d - R) / d : 0, p = pct(chance(ev, s));
-    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look, p];
-    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look, p];
-    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look, p];
-    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look, p];
+    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look, p, 0];
+    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look, p, r0(edge)];
+    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look, p, r0(edge)];
+    return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look, p, r0(edge)];
   }
 
   // ---------- the drawings ----------
@@ -733,55 +809,107 @@ MONTH_JS = r"""
   var B = META.bbox, K = Math.cos(META.lat0 * RAD), SC = META.mapW / ((B[2] - B[0]) * K);
   function xy(lat, lon) { return [(lon - B[0]) * K * SC, (B[3] - lat) * SC]; }
 
-  var data = null, LOC = null, FILTER = 'all';
+  var data = null, LOC = null, FILTER = 'all', SORT = 'time', INST = 'any', LIM = {};
+  META.instruments.forEach(function (i) { LIM[i[0]] = i[2]; });
   try { var sl = JSON.parse(localStorage.getItem('occult-loc')); if (sl && isFinite(sl.lat)) LOC = sl; } catch (e) {}
   if (!LOC) LOC = { lat: META.defaultPlace[1], lon: META.defaultPlace[2], label: META.defaultPlace[0] };
-  try { var sf = localStorage.getItem('occult-ast-filter'); if (sf === 'near') FILTER = sf; } catch (e) {}
+  function keep(k, v, ok) { try { var s = localStorage.getItem(k); return ok(s) ? s : v; } catch (e) { return v; } }
+  FILTER = keep('occult-ast-filter', FILTER, function (s) { return s === 'near'; });
+  SORT = keep('occult-ast-sort', SORT, function (s) { return s === 'travel' || s === 'mag'; });
+  INST = keep('occult-ast-inst', INST, function (s) { return s && LIM[s] !== undefined; });
+  function travelTile(y) {   // twin of travel_tile()
+    if (y[4] < 0) return ['—', 'star is down'];
+    if (y[4] === 0) return ['inside', 'the path'];
+    return [y[4].toLocaleString('en-GB') + ' km', 'to the path'];
+  }
+  function dayLabel(ms, tz) { try { return new Date(ms).toLocaleDateString('en-GB', { timeZone: tz, weekday: 'short', day: 'numeric', month: 'short' }).replace(',', ''); } catch (e) { return ''; } }
   function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
   var countLine = document.getElementById('count-line'), nightsEl = document.getElementById('ast-nights'), calEl = document.getElementById('ast-cal');
   var cards = {}; document.querySelectorAll('article.ast').forEach(function (a) { cards[a.dataset.id] = a; });
   document.querySelectorAll('#ast-filter input').forEach(function (r) { r.checked = r.value === FILTER;
-    r.addEventListener('change', function () { FILTER = r.value; try { localStorage.setItem('occult-ast-filter', FILTER); } catch (e) {} render(); }); });
+    r.addEventListener('change', function () { FILTER = r.value; store('occult-ast-filter', FILTER); render(); }); });
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  // a select away from its first option is a filter in force, and says so (CSS reads data-default)
+  function mark(sel) { if (sel.value === sel.options[0].value) sel.setAttribute('data-default', ''); else sel.removeAttribute('data-default'); }
+  function wire(id, key, val, set) {
+    var sel = document.getElementById(id);
+    sel.value = val; mark(sel);
+    sel.addEventListener('change', function () { set(sel.value); mark(sel); store(key, sel.value); render(); });
+  }
+  wire('ast-sort', 'occult-ast-sort', SORT, function (v) { SORT = v; });
+  wire('ast-inst', 'occult-ast-inst', INST, function (v) { INST = v; });
   function render() {
     if (!data) return;
-    var tz = tzOf(LOC), groups = {}, order = [], mine = 0;
+    var tz = tzOf(LOC), groups = {}, order = [], mine = 0, lim = LIM[INST], rows = [];
     data.events.forEach(function (ev) {
       var s = A.solve(ev.el, LOC.lat, LOC.lon), tc = A.toCentre(ev.el, LOC.lat, LOC.lon), y = A.you(ev, s, tc), a = cards[ev.id];
       if (!a) return;
+      var t = Date.parse(ev.el.t0) + s.tau * 1000, tv = travelTile(y), tb = a.querySelector('.st-travel');
       a.className = 'ast v-' + y[0];
-      a.querySelector('.ast-time').textContent = F.t(Date.parse(ev.el.t0) + s.tau * 1000, tz);
+      a.querySelector('.ast-time').textContent = F.t(t, tz);
+      a.querySelector('.ast-day').textContent = dayLabel(t, tz);
       a.querySelector('.ast-p').textContent = y[3] ? y[3] + ' chance' : '';
       a.querySelector('.ast-say').textContent = y[1];
       a.querySelector('.ast-look').textContent = y[2];
+      tb.querySelector('b').textContent = tv[0]; tb.querySelector('.k').textContent = tv[1];
       var p = xy(LOC.lat, LOC.lon), pin = a.querySelector('.ast-pin'); pin.setAttribute('cx', p[0].toFixed(1)); pin.setAttribute('cy', p[1].toFixed(1));
       var near = y[0] === 'in' || y[0] === 'near'; if (near) mine++;
-      a.hidden = FILTER === 'near' && !near;
+      var show = (FILTER !== 'near' || near) && ev.combined_mag <= lim;
+      a.hidden = !show;
       var k = dateKey(Date.parse(ev.t_geo) - 432e5, tz);
-      if (!groups[k]) { groups[k] = { list: [], mine: 0 }; order.push(k); }
+      if (!groups[k]) { groups[k] = { list: [], mine: 0, shown: 0 }; order.push(k); }
       groups[k].list.push(a); if (near) groups[k].mine++;
+      if (show) { groups[k].shown++; rows.push({ a: a, k: k, t: t, travel: y[4] < 0 ? Infinity : y[4], mag: ev.combined_mag }); }
     });
     order.sort();
     var frag = document.createDocumentFragment();
-    order.forEach(function (k) {
-      var g = groups[k], shown = g.list.filter(function (a) { return !a.hidden; });
-      var sec = document.createElement('section'); sec.className = 'night'; sec.id = 'night-' + k; sec.hidden = !shown.length;
-      sec.innerHTML = '<header class="night-head"><h3>Night of ' + keyLabel(k) + '</h3><span class="hint">' + g.list.length + (g.list.length === 1 ? ' event' : ' events') + (g.mine ? ' · ' + g.mine + ' near you' : '') + '</span></header>';
-      g.list.forEach(function (a) { sec.appendChild(a); });
+    nightsEl.className = SORT === 'time' ? '' : 'flat';
+    if (SORT === 'time') {
+      order.forEach(function (k) {
+        var g = groups[k];
+        var sec = document.createElement('section'); sec.className = 'night'; sec.id = 'night-' + k; sec.hidden = !g.shown;
+        var cnt = g.shown < g.list.length ? g.shown + ' of ' + g.list.length + ' events'      // a filter is hiding some of the night
+                                          : g.list.length + (g.list.length === 1 ? ' event' : ' events');
+        sec.innerHTML = '<header class="night-head"><h3>Night of ' + keyLabel(k) + '</h3><span class="hint">' + cnt + (g.mine ? ' · ' + g.mine + ' near you' : '') + '</span></header>';
+        g.list.forEach(function (a) { sec.appendChild(a); });
+        frag.appendChild(sec);
+      });
+    } else {
+      // out of date order the night sections mean nothing, so the list runs flat and every card carries its own date.
+      // The calendar still links into it: an empty anchor marks where each night's first card has landed.
+      rows.sort(SORT === 'travel' ? function (a, b) { return a.travel - b.travel || a.t - b.t; }
+                                  : function (a, b) { return a.mag - b.mag || a.t - b.t; });
+      var sec = document.createElement('section'); sec.className = 'night'; sec.hidden = !rows.length;
+      sec.innerHTML = '<header class="night-head"><h3>' + (SORT === 'travel' ? 'Nearest to you first' : 'Brightest first')
+        + '</h3><span class="hint">' + rows.length + (rows.length === 1 ? ' event' : ' events') + '</span></header>';
+      var seen = {};
+      rows.forEach(function (r) {
+        if (!seen[r.k]) { seen[r.k] = 1; var an = document.createElement('span'); an.className = 'night-anchor'; an.id = 'night-' + r.k; sec.appendChild(an); }
+        sec.appendChild(r.a);
+      });
       frag.appendChild(sec);
-    });
+    }
+    if (!rows.length) {                    // every event filtered away: say which setting did it, or the page just goes blank
+      var none = document.createElement('p'); none.className = 'hint';
+      none.textContent = INST !== 'any' && FILTER === 'near' ? 'Nothing this month is both over you and bright enough for that aperture.'
+        : INST !== 'any' ? 'No event this month is bright enough for that aperture — a camera, or a larger one, would reach these.'
+        : 'No path crosses your place this month. Every event is still here under “All over India”.';
+      frag.appendChild(none);
+    }
     nightsEl.innerHTML = ''; nightsEl.appendChild(frag);
     var YM = META.t0.slice(0, 7).split('-'), y = +YM[0], mo = +YM[1], ndays = new Date(Date.UTC(y, mo, 0)).getUTCDate(), first = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7, html = '';
     ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].forEach(function (w) { html += '<div class="cal-wd">' + w + '</div>'; });
     for (var e = 0; e < first; e++) html += '<div class="cal-cell empty"></div>';
     for (var d = 1; d <= ndays; d++) {
       var ck = y + '-' + String(mo).padStart(2, '0') + '-' + String(d).padStart(2, '0'), g = groups[ck];
-      var n = g ? (FILTER === 'near' ? g.mine : g.list.length) : 0, inner = '<span class="cal-d">' + d + '</span><span class="cal-n">' + (n || '') + '</span>';
+      var n = g ? g.shown : 0, inner = '<span class="cal-d">' + d + '</span><span class="cal-n">' + (n || '') + '</span>';
       html += n ? '<a class="cal-cell has' + (g.mine ? ' mine' : '') + '" href="#night-' + ck + '">' + inner + '</a>' : '<div class="cal-cell">' + inner + '</div>';
     }
     calEl.innerHTML = html;
     document.getElementById('tz-label').textContent = tzLabel(tz);
     document.getElementById('chip-name').textContent = LOC.label;
-    countLine.textContent = data.events.length + ' asteroid occultations cross India at night this month · ' + mine + ' pass over ' + LOC.label + ' (inside the path or within its 1σ margin)';
+    countLine.textContent = data.events.length + ' asteroid occultations cross India at night this month · ' + mine + ' pass over ' + LOC.label
+      + ' (inside the path or within its 1σ margin)' + (rows.length < data.events.length ? ' · showing ' + rows.length : '');
   }
   var sheet = document.getElementById('loc-sheet'), latI = document.getElementById('loc-lat'), lonI = document.getElementById('loc-lon'), sel = document.getElementById('loc-city');
   Object.keys(META.cities).forEach(function (n) { sel.add(new Option(n, n)); });
@@ -833,7 +961,9 @@ TEMPLATE = """
   happens. Each card maps the path and says how close it comes to you; open one for the map, the finder chart and the path
   to drive to.</p>
   <div class="filters" id="ast-filter"><label class="chipbox"><input type="radio" name="f" value="all" checked> All over India</label>
-    <label class="chipbox"><input type="radio" name="f" value="near"> Only paths over me</label></div>
+    <label class="chipbox"><input type="radio" name="f" value="near"> Only paths over me</label>
+    <label class="selbox">Sort <select id="ast-sort" data-default aria-label="Sort the list">__SORTS__</select></label>
+    <label class="selbox">I watch with <select id="ast-inst" data-default aria-label="Keep only stars bright enough for">__INSTS__</select></label></div>
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="ast-cal" aria-label="The month at a glance">__CAL__</div>
   <p class="hint">Times in <span id="tz-label">__TZL__</span>, for the moment the shadow passes closest to you. A night runs from
@@ -845,9 +975,15 @@ TEMPLATE = """
   then, but a chord from the edge is the most valuable observation of all. The <em>chance</em> is the probability the shadow
   covers your place once the path's uncertainty is allowed for: the true path is taken to lie off the predicted one by a
   normal error of its 1σ, as occultation software reads a prediction. Where 1σ is close to the path's own width, even the
-  centre line is well short of certain. The <em>drop</em> is how much fainter the star
-  and asteroid together get while the star is hidden; under half a magnitude needs a camera. <em>Up to</em> is the longest
-  the star can vanish, on the centre line.</p>
+  centre line is well short of certain. The tiles under each card carry its numbers one at a time:
+  <em>brightness</em> is star and asteroid together — what is actually in the eyepiece — and <em>fade</em> is how much of
+  that goes away while the star is hidden. <em>Up to</em> is the longest the star can vanish, on the centre line, and
+  <em>to the path</em> is the drive that would put you inside the shadow, which the list can also sort by.</p>
+  <p class="method"><em>I watch with</em> keeps the events bright enough for an aperture. Those limits are the one rule of
+  thumb on these pages and not a computed number: each sits about a magnitude short of what the aperture can just detect,
+  because a star at the very limit is lost in the noise long before the asteroid covers it. A video camera or a CCD reaches
+  two or three magnitudes deeper than the eye through the same telescope — and a fade under half a magnitude needs one
+  whatever you own, which is why those tiles are drawn dashed.</p>
   <table class="rules"><tbody>__RULES__</tbody></table>
   <p class="method">Orbits are JPL's (__ORBITS__), carried to the date with the DE431 ephemeris, the four largest asteroids
   and the Sun's relativistic pull; stars are Gaia DR3 to G 12.5, carried to the date with their proper motion and parallax.
@@ -1141,7 +1277,7 @@ EVENT_JS = r"""
     var rows = [
       ['Asteroid', '(' + a.number + ') ' + a.name + ' · ' + F.r0(a.diameter_km) + ' km across · magnitude ' + F.r1(a.mag) + ' · ' + F.r1(a.dist_au) + ' au away'],
       ['Star', 'Gaia DR3 ' + st.gaia + ' · magnitude ' + F.r1(st.v) + ' (G ' + F.r1(st.g) + ')' + (st.ruwe && st.ruwe > 1.4 ? ' · RUWE ' + st.ruwe + ', may be double' : '')],
-      ['The fade', F.r1(ev.drop) + ' magnitudes, to ' + F.r1(ev.combined_mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
+      ['The fade', F.r1(ev.drop) + ' magnitudes, from ' + F.r1(ev.combined_mag) + ' (star and asteroid together) to ' + F.r1(a.mag) + ' · up to ' + F.r1(ev.dur_max_s) + ' s on the centre line'],
       ['From here', inside ? F.r1(s.dur) + ' s, ' + F.r0(tc[0]) + ' km from the centre line' : 'outside the path, ' + F.r0(tc[0]) + ' km from the centre line'],
       ['Chance here', y[3] ? y[3] + ' · on the centre line ' + A.pct(A.chance(ev, { d: 0 })) : 'the star is below the horizon'],
       ['The path', F.r0(2 * R) + ' km wide, ± ' + F.r0(ev.sigma_km || 0) + ' km (1σ) · shadow at ' + F.r1(ev.speed_kms) + ' km/s'],
@@ -1416,7 +1552,11 @@ def month_page(ym, d, cities_all, nav):
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     src = f"/data/{slug}.json?v={_hash(data_json)}"
     meta = {"src": src, "t0": f"{ym}-01T00:00:00Z", "defaultPlace": list(DEFAULT_PLACE),
-            "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W}
+            "bbox": geo["bbox"], "lat0": aud["lat0"], "mapW": MAP_W,
+            "instruments": [[k, label, lim] for k, label, lim in INSTRUMENTS]}
+    sorts_html = "".join(f'<option value="{k}">{esc(label)}</option>' for k, label in SORTS)
+    insts_html = "".join(f'<option value="{k}">{esc(label)}{"" if k == "any" else f" — V ≤ {lim:g}"}</option>'
+                         for k, label, lim in INSTRUMENTS)
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     desc = (f"Asteroid occultations crossing India in {label}: {len(d['events'])} stars hidden by asteroids, each with a map of "
@@ -1424,7 +1564,7 @@ def month_page(ym, d, cities_all, nav):
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{AST_CSS}</style>", og="ast")
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),
-                 "__TZL__": "IST",
+                 "__TZL__": "IST", "__SORTS__": sorts_html, "__INSTS__": insts_html,
                  "__COUNT__": f"{len(d['events'])} asteroid occultations cross India at night this month · {mine} pass over {esc(name)} (inside the path or within its 1σ margin)",
                  "__CAL__": "".join(cells), "__NIGHTS__": "".join(nights) or '<p class="hint">No asteroid shadows cross India at night this month.</p>',
                  "__RULES__": rules_html, "__ORBITS__": esc(d["engine"]["orbits"]),

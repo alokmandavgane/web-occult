@@ -221,14 +221,25 @@ Rules that are easy to break:
   shadow axis in the fundamental plane, the star vector, the asteroid's velocity across the plane for the observer's light
   time, R0 at t0, the Sun) is what the page solves any place from: `local()`/`to_centre()` in the engine and `solve()`/
   `toCentre()` in the page JS are twins, and so are `you_html()`/`you()` with floor(x + 0.5) rounding — change them
-  TOGETHER. The verdict has five classes: `below`, `in`, `near` (edge within 1σ, "worth watching"), `chance` (within 2σ,
+  TOGETHER; `you()` ends with the whole km to drive to the path (0 inside it, -1 with the star down), which the twin test
+  compares like the rest, so keep it an integer. The verdict has five classes: `below`, `in`, `near` (edge within 1σ, "worth watching"), `chance` (within 2σ,
   "a long shot") and `out`, and carries a **probability** (`chance()` / `pct()`, twins, JS and Python, the same
   Abramowitz–Stegun `erf()` on both sides so they round alike): Φ((R − |d|)/σ) − Φ((−R − |d|)/σ), the path shifted sideways by a
   normal 1σ error, shown as whole percent and never 0 or 100 (`<1%`, `>99%`). It is on the cards, the event page, the pin,
   the stations and the feed entries. No published source gives Occult4's or OccultWatcher's own formula; this is the standard
   reading of a 1σ path, and their numbers for a place differ from ours because their orbits and σ do. Selection (feeds, "Only
   paths over me") still uses the classes, not the percentage; "Only paths over me" and the calendar feeds count `in` and `near` only. The fixed test places
-  rarely fall between 1σ and 2σ, so the twin test also walks to 0.5, 1.5 and 2.5σ past each edge and checks one of each. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
+  rarely fall between 1σ and 2σ, so the twin test also walks to 0.5, 1.5 and 2.5σ past each edge and checks one of each.
+  **The month list is scanned, not read**: a card's facts are tiles of one figure each (`tile()`/`stats_html()`, JS `tile`
+  twin of `travel_tile()` for the one that moves with the reader) — brightness (`combined_mag`, star AND asteroid, which is
+  what is in the eyepiece), fade (dashed and muted under 0.5 mag: a camera job), duration, path width, Moon, and the drive
+  to the path. Above them: Sort (time / nearest / brightest — out of date order the night sections go and each card shows
+  its own date, `#ast-nights.flat`, with an empty `.night-anchor` per night so the calendar still links in) and **I watch
+  with**, an aperture preset cutting on `combined_mag` against `INSTRUMENTS`. Those limits are the ONE uncomputed number on
+  these pages — about a magnitude short of the aperture's detection limit — and the page, the method page and this line all
+  say so; a camera reaches 2–3 deeper, hence the `any` default. Both selects and the chip persist (`occult-ast-sort`,
+  `occult-ast-inst`, `occult-ast-filter`); the night header and the calendar count what is SHOWN. `.ast[hidden]` needs its
+  own rule: `display: grid` beats the browser's `[hidden]`, and a filtered card came back. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —
   the month comes from the id's first 7 characters, and it fetches that month's data file. Month cards link to it; there
   is deliberately NO page per event — but the sitemap lists every one of them (`ids` off each month page's return, ~950 URLs
