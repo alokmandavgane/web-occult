@@ -287,15 +287,30 @@ AST_CSS = """
     :root { --t-ast: #a8324e; --map-centre: #15803d; --map-edge: #1d4ed8; --map-sigma: #dc2626;
             --path-centre: #15803d; --path-edge: #1d4ed8; --path-sigma: #dc2626; }
     @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; --path-centre: #4ade80; --path-edge: #7aa7ff; --path-sigma: #f87171; } }
-    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
-    .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
-    .chipbox input { accent-color: var(--t-ast); }
-    .chipbox:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
-    .selbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px;
+    /* Three controls of three shapes, so what each one does is visible before it is read: a SWITCH narrows the month to
+       your own sky, one select SORTS what is left, one FILTERS it — the selects carry the sort and funnel marks. */
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 1rem 0 0.3rem; }
+    .switch { display: inline-flex; align-items: center; gap: 0.5rem; border: 1px solid var(--line); border-radius: 999px;
+              padding: 0.2rem 0.75rem 0.2rem 0.5rem; font-size: 0.85rem; cursor: pointer; user-select: none; }
+    .switch input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .sw { flex: none; position: relative; width: 32px; height: 18px; border-radius: 999px; background: var(--line); transition: background 0.15s; }
+    .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%;
+                 background: var(--card); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); transition: transform 0.15s; }
+    .switch input:checked + .sw { background: var(--t-ast); }
+    .switch input:checked + .sw::after { transform: translateX(14px); }
+    .switch input:focus-visible + .sw { outline: 2px solid var(--t-ast); outline-offset: 2px; }
+    .switch:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
+    @media (prefers-reduced-motion: reduce) { .sw, .sw::after { transition: none; } }
+    .selbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px;
               padding: 0.1rem 0.35rem 0.1rem 0.7rem; font-size: 0.85rem; color: var(--muted); }
+    .selbox .lab { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
+    .selbox .lab svg { flex: none; width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
     .selbox select { font: inherit; font-size: 0.85rem; color: var(--text); background: var(--card); border: 0; border-radius: 999px; padding: 0.2rem 0.25rem; }
     .selbox:has(select:not([data-default])) { border-color: var(--t-ast); color: var(--t-ast); }
-    @media (pointer: coarse) { .selbox { min-height: 44px; } .selbox select { min-height: 38px; } }
+    @media (pointer: coarse) { .selbox, .switch { min-height: 44px; } .selbox select { min-height: 38px; } }
+    /* On a phone the three sit one per line: left ragged edges on controls that do different things read as a mess. */
+    @media (max-width: 520px) { .controls { flex-direction: column; align-items: stretch; }
+      .selbox select { flex: 1 1 auto; min-width: 0; } }
     .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 0.9rem 0 1.2rem; }
     .cal-wd { font-size: 0.68rem; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: 0.06em; }
     .cal-cell { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0 5px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--muted); min-height: 50px; }
@@ -826,8 +841,11 @@ MONTH_JS = r"""
   function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
   var countLine = document.getElementById('count-line'), nightsEl = document.getElementById('ast-nights'), calEl = document.getElementById('ast-cal');
   var cards = {}; document.querySelectorAll('article.ast').forEach(function (a) { cards[a.dataset.id] = a; });
-  document.querySelectorAll('#ast-filter input').forEach(function (r) { r.checked = r.value === FILTER;
-    r.addEventListener('change', function () { FILTER = r.value; store('occult-ast-filter', FILTER); render(); }); });
+  // The scope switch. Off is the whole month across India; on keeps the paths that reach you. The stored value stays
+  // 'all' / 'near', so a reader who set it while it was a pair of radio chips keeps their choice.
+  var nearBox = document.getElementById('ast-near');
+  nearBox.checked = FILTER === 'near';
+  nearBox.addEventListener('change', function () { FILTER = nearBox.checked ? 'near' : 'all'; store('occult-ast-filter', FILTER); render(); });
   function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   // a select away from its first option is a filter in force, and says so (CSS reads data-default)
   function mark(sel) { if (sel.value === sel.options[0].value) sel.setAttribute('data-default', ''); else sel.removeAttribute('data-default'); }
@@ -893,7 +911,7 @@ MONTH_JS = r"""
       var none = document.createElement('p'); none.className = 'hint';
       none.textContent = INST !== 'any' && FILTER === 'near' ? 'Nothing this month is both over you and bright enough for that aperture.'
         : INST !== 'any' ? 'No event this month is bright enough for that aperture — a camera, or a larger one, would reach these.'
-        : 'No path crosses your place this month. Every event is still here under “All over India”.';
+        : 'No path crosses your place this month. Turn off “Only paths over me” to see every path across India.';
       frag.appendChild(none);
     }
     nightsEl.innerHTML = ''; nightsEl.appendChild(frag);
@@ -960,10 +978,11 @@ TEMPLATE = """
   races across the Earth. Inside that band the star blinks out for a few seconds; a few kilometres outside it, nothing
   happens. Each card maps the path and says how close it comes to you; open one for the map, the finder chart and the path
   to drive to.</p>
-  <div class="filters" id="ast-filter"><label class="chipbox"><input type="radio" name="f" value="all" checked> All over India</label>
-    <label class="chipbox"><input type="radio" name="f" value="near"> Only paths over me</label>
-    <label class="selbox">Sort <select id="ast-sort" data-default aria-label="Sort the list">__SORTS__</select></label>
-    <label class="selbox">I watch with <select id="ast-inst" data-default aria-label="Keep only stars bright enough for">__INSTS__</select></label></div>
+  <div class="controls" id="ast-controls">
+    <label class="switch"><input type="checkbox" id="ast-near" role="switch"><span class="sw" aria-hidden="true"></span>Only paths over me</label>
+    <label class="selbox"><span class="lab"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h4"/></svg>Sort</span><select id="ast-sort" data-default aria-label="Sort the list">__SORTS__</select></label>
+    <label class="selbox"><span class="lab"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12l-4.6 5.4v4.6l-2.8 1.4V8.4z"/></svg>I watch with</span><select id="ast-inst" data-default aria-label="Filter: keep only stars bright enough for">__INSTS__</select></label>
+  </div>
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="ast-cal" aria-label="The month at a glance">__CAL__</div>
   <p class="hint">Times in <span id="tz-label">__TZL__</span>, for the moment the shadow passes closest to you. A night runs from

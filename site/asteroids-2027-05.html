@@ -35,15 +35,30 @@
     :root { --t-ast: #a8324e; --map-centre: #15803d; --map-edge: #1d4ed8; --map-sigma: #dc2626;
             --path-centre: #15803d; --path-edge: #1d4ed8; --path-sigma: #dc2626; }
     @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; --path-centre: #4ade80; --path-edge: #7aa7ff; --path-sigma: #f87171; } }
-    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
-    .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
-    .chipbox input { accent-color: var(--t-ast); }
-    .chipbox:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
-    .selbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px;
+    /* Three controls of three shapes, so what each one does is visible before it is read: a SWITCH narrows the month to
+       your own sky, one select SORTS what is left, one FILTERS it — the selects carry the sort and funnel marks. */
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 1rem 0 0.3rem; }
+    .switch { display: inline-flex; align-items: center; gap: 0.5rem; border: 1px solid var(--line); border-radius: 999px;
+              padding: 0.2rem 0.75rem 0.2rem 0.5rem; font-size: 0.85rem; cursor: pointer; user-select: none; }
+    .switch input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .sw { flex: none; position: relative; width: 32px; height: 18px; border-radius: 999px; background: var(--line); transition: background 0.15s; }
+    .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%;
+                 background: var(--card); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); transition: transform 0.15s; }
+    .switch input:checked + .sw { background: var(--t-ast); }
+    .switch input:checked + .sw::after { transform: translateX(14px); }
+    .switch input:focus-visible + .sw { outline: 2px solid var(--t-ast); outline-offset: 2px; }
+    .switch:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
+    @media (prefers-reduced-motion: reduce) { .sw, .sw::after { transition: none; } }
+    .selbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px;
               padding: 0.1rem 0.35rem 0.1rem 0.7rem; font-size: 0.85rem; color: var(--muted); }
+    .selbox .lab { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
+    .selbox .lab svg { flex: none; width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
     .selbox select { font: inherit; font-size: 0.85rem; color: var(--text); background: var(--card); border: 0; border-radius: 999px; padding: 0.2rem 0.25rem; }
     .selbox:has(select:not([data-default])) { border-color: var(--t-ast); color: var(--t-ast); }
-    @media (pointer: coarse) { .selbox { min-height: 44px; } .selbox select { min-height: 38px; } }
+    @media (pointer: coarse) { .selbox, .switch { min-height: 44px; } .selbox select { min-height: 38px; } }
+    /* On a phone the three sit one per line: left ragged edges on controls that do different things read as a mess. */
+    @media (max-width: 520px) { .controls { flex-direction: column; align-items: stretch; }
+      .selbox select { flex: 1 1 auto; min-width: 0; } }
     .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 0.9rem 0 1.2rem; }
     .cal-wd { font-size: 0.68rem; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: 0.06em; }
     .cal-cell { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0 5px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--muted); min-height: 50px; }
@@ -137,10 +152,11 @@
   races across the Earth. Inside that band the star blinks out for a few seconds; a few kilometres outside it, nothing
   happens. Each card maps the path and says how close it comes to you; open one for the map, the finder chart and the path
   to drive to.</p>
-  <div class="filters" id="ast-filter"><label class="chipbox"><input type="radio" name="f" value="all" checked> All over India</label>
-    <label class="chipbox"><input type="radio" name="f" value="near"> Only paths over me</label>
-    <label class="selbox">Sort <select id="ast-sort" data-default aria-label="Sort the list"><option value="time">By time</option><option value="travel">Nearest to me</option><option value="mag">Brightest first</option></select></label>
-    <label class="selbox">I watch with <select id="ast-inst" data-default aria-label="Keep only stars bright enough for"><option value="any">Any brightness</option><option value="eye">Naked eye — V ≤ 5.5</option><option value="binoculars">Binoculars, 50 mm — V ≤ 8.5</option><option value="scope80">Telescope, 80 mm — V ≤ 10</option><option value="scope150">Telescope, 150 mm — V ≤ 11.5</option><option value="scope250">Telescope, 250 mm — V ≤ 12.5</option></select></label></div>
+  <div class="controls" id="ast-controls">
+    <label class="switch"><input type="checkbox" id="ast-near" role="switch"><span class="sw" aria-hidden="true"></span>Only paths over me</label>
+    <label class="selbox"><span class="lab"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h4"/></svg>Sort</span><select id="ast-sort" data-default aria-label="Sort the list"><option value="time">By time</option><option value="travel">Nearest to me</option><option value="mag">Brightest first</option></select></label>
+    <label class="selbox"><span class="lab"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12l-4.6 5.4v4.6l-2.8 1.4V8.4z"/></svg>I watch with</span><select id="ast-inst" data-default aria-label="Filter: keep only stars bright enough for"><option value="any">Any brightness</option><option value="eye">Naked eye — V ≤ 5.5</option><option value="binoculars">Binoculars, 50 mm — V ≤ 8.5</option><option value="scope80">Telescope, 80 mm — V ≤ 10</option><option value="scope150">Telescope, 150 mm — V ≤ 11.5</option><option value="scope250">Telescope, 250 mm — V ≤ 12.5</option></select></label>
+  </div>
   <p class="hint" id="count-line">67 asteroid occultations cross India at night this month · 4 pass over New Delhi (inside the path or within its 1σ margin)</p>
   <div class="cal" id="ast-cal" aria-label="The month at a glance"><div class="cal-wd">Mon</div><div class="cal-wd">Tue</div><div class="cal-wd">Wed</div><div class="cal-wd">Thu</div><div class="cal-wd">Fri</div><div class="cal-wd">Sat</div><div class="cal-wd">Sun</div><div class="cal-cell empty"></div><div class="cal-cell empty"></div><div class="cal-cell empty"></div><div class="cal-cell empty"></div><div class="cal-cell empty"></div><a class="cal-cell has" href="#night-2027-05-01"><span class="cal-d">1</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-02"><span class="cal-d">2</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-03"><span class="cal-d">3</span><span class="cal-n">2</span></a><a class="cal-cell has mine" href="#night-2027-05-04"><span class="cal-d">4</span><span class="cal-n">3</span></a><a class="cal-cell has mine" href="#night-2027-05-05"><span class="cal-d">5</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-06"><span class="cal-d">6</span><span class="cal-n">3</span></a><a class="cal-cell has" href="#night-2027-05-07"><span class="cal-d">7</span><span class="cal-n">1</span></a><a class="cal-cell has" href="#night-2027-05-08"><span class="cal-d">8</span><span class="cal-n">3</span></a><a class="cal-cell has" href="#night-2027-05-09"><span class="cal-d">9</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-10"><span class="cal-d">10</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-11"><span class="cal-d">11</span><span class="cal-n">4</span></a><a class="cal-cell has" href="#night-2027-05-12"><span class="cal-d">12</span><span class="cal-n">1</span></a><a class="cal-cell has" href="#night-2027-05-13"><span class="cal-d">13</span><span class="cal-n">3</span></a><a class="cal-cell has" href="#night-2027-05-14"><span class="cal-d">14</span><span class="cal-n">4</span></a><a class="cal-cell has" href="#night-2027-05-15"><span class="cal-d">15</span><span class="cal-n">1</span></a><a class="cal-cell has" href="#night-2027-05-16"><span class="cal-d">16</span><span class="cal-n">3</span></a><a class="cal-cell has mine" href="#night-2027-05-17"><span class="cal-d">17</span><span class="cal-n">3</span></a><a class="cal-cell has" href="#night-2027-05-18"><span class="cal-d">18</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-19"><span class="cal-d">19</span><span class="cal-n">4</span></a><div class="cal-cell"><span class="cal-d">20</span><span class="cal-n"></span></div><a class="cal-cell has" href="#night-2027-05-21"><span class="cal-d">21</span><span class="cal-n">2</span></a><a class="cal-cell has" href="#night-2027-05-22"><span class="cal-d">22</span><span class="cal-n">1</span></a><a class="cal-cell has" href="#night-2027-05-23"><span class="cal-d">23</span><span class="cal-n">3</span></a><a class="cal-cell has" href="#night-2027-05-24"><span class="cal-d">24</span><span class="cal-n">3</span></a><div class="cal-cell"><span class="cal-d">25</span><span class="cal-n"></span></div><a class="cal-cell has" href="#night-2027-05-26"><span class="cal-d">26</span><span class="cal-n">2</span></a><div class="cal-cell"><span class="cal-d">27</span><span class="cal-n"></span></div><a class="cal-cell has" href="#night-2027-05-28"><span class="cal-d">28</span><span class="cal-n">4</span></a><a class="cal-cell has mine" href="#night-2027-05-29"><span class="cal-d">29</span><span class="cal-n">4</span></a><a class="cal-cell has" href="#night-2027-05-30"><span class="cal-d">30</span><span class="cal-n">1</span></a><div class="cal-cell"><span class="cal-d">31</span><span class="cal-n"></span></div></div>
   <p class="hint">Times in <span id="tz-label">IST</span>, for the moment the shadow passes closest to you. A night runs from
@@ -181,6 +197,6 @@
 <script src="/js/asteroid.js?v=6dd585a562"></script>
 <script src="/js/site.js?v=0812d9dde9"></script>
 <script src="/js/cities-india.js?v=5e73770dc4"></script>
-<script src="/js/asteroid-month.js?v=b392620e0f"></script>
+<script src="/js/asteroid-month.js?v=e035849dc2"></script>
 </body>
 </html>

@@ -233,11 +233,14 @@ Rules that are easy to break:
   **The month list is scanned, not read**: a card's facts are tiles of one figure each (`tile()`/`stats_html()`, JS `tile`
   twin of `travel_tile()` for the one that moves with the reader) — brightness (`combined_mag`, star AND asteroid, which is
   what is in the eyepiece), fade (dashed and muted under 0.5 mag: a camera job), duration, path width, Moon, and the drive
-  to the path. Above them: Sort (time / nearest / brightest — out of date order the night sections go and each card shows
-  its own date, `#ast-nights.flat`, with an empty `.night-anchor` per night so the calendar still links in) and **I watch
-  with**, an aperture preset cutting on `combined_mag` against `INSTRUMENTS`. Those limits are the ONE uncomputed number on
+  to the path. Above them, three controls of three shapes so each one's job shows before it is read (`.controls`): a SWITCH,
+  "Only paths over me", whose off state is the whole month across India (it was a pair of radio chips; the stored value is
+  still `all` / `near`, so a reader's old choice carries over); a SORT select marked with the sort glyph (time / nearest /
+  brightest — out of date order the night sections go and each card shows its own date, `#ast-nights.flat`, with an empty
+  `.night-anchor` per night so the calendar still links in); and a FILTER select marked with a funnel, **I watch with**, an
+  aperture preset cutting on `combined_mag` against `INSTRUMENTS`. Those limits are the ONE uncomputed number on
   these pages — about a magnitude short of the aperture's detection limit — and the page, the method page and this line all
-  say so; a camera reaches 2–3 deeper, hence the `any` default. Both selects and the chip persist (`occult-ast-sort`,
+  say so; a camera reaches 2–3 deeper, hence the `any` default. All three persist (`occult-ast-sort`,
   `occult-ast-inst`, `occult-ast-filter`); the night header and the calendar count what is SHOWN. `.ast[hidden]` needs its
   own rule: `display: grid` beats the browser's `[hidden]`, and a filtered card came back. Sign: d > 0 is left of the shadow's relative motion; lines `left`/`right` are +R/−R and `north_is` names the
   northern one. **One event page for all of them**: `site/asteroid.html` (built once) draws whichever event `?e=<id>` names —

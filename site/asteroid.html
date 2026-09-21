@@ -35,15 +35,30 @@
     :root { --t-ast: #a8324e; --map-centre: #15803d; --map-edge: #1d4ed8; --map-sigma: #dc2626;
             --path-centre: #15803d; --path-edge: #1d4ed8; --path-sigma: #dc2626; }
     @media (prefers-color-scheme: dark) { :root { --t-ast: #f08aa3; --path-centre: #4ade80; --path-edge: #7aa7ff; --path-sigma: #f87171; } }
-    .filters { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.3rem; }
-    .chipbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.85rem; cursor: pointer; }
-    .chipbox input { accent-color: var(--t-ast); }
-    .chipbox:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
-    .selbox { display: inline-flex; align-items: center; gap: 0.3rem; border: 1px solid var(--line); border-radius: 999px;
+    /* Three controls of three shapes, so what each one does is visible before it is read: a SWITCH narrows the month to
+       your own sky, one select SORTS what is left, one FILTERS it — the selects carry the sort and funnel marks. */
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 1rem 0 0.3rem; }
+    .switch { display: inline-flex; align-items: center; gap: 0.5rem; border: 1px solid var(--line); border-radius: 999px;
+              padding: 0.2rem 0.75rem 0.2rem 0.5rem; font-size: 0.85rem; cursor: pointer; user-select: none; }
+    .switch input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .sw { flex: none; position: relative; width: 32px; height: 18px; border-radius: 999px; background: var(--line); transition: background 0.15s; }
+    .sw::after { content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%;
+                 background: var(--card); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); transition: transform 0.15s; }
+    .switch input:checked + .sw { background: var(--t-ast); }
+    .switch input:checked + .sw::after { transform: translateX(14px); }
+    .switch input:focus-visible + .sw { outline: 2px solid var(--t-ast); outline-offset: 2px; }
+    .switch:has(input:checked) { border-color: var(--t-ast); color: var(--t-ast); }
+    @media (prefers-reduced-motion: reduce) { .sw, .sw::after { transition: none; } }
+    .selbox { display: inline-flex; align-items: center; gap: 0.35rem; border: 1px solid var(--line); border-radius: 999px;
               padding: 0.1rem 0.35rem 0.1rem 0.7rem; font-size: 0.85rem; color: var(--muted); }
+    .selbox .lab { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
+    .selbox .lab svg { flex: none; width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
     .selbox select { font: inherit; font-size: 0.85rem; color: var(--text); background: var(--card); border: 0; border-radius: 999px; padding: 0.2rem 0.25rem; }
     .selbox:has(select:not([data-default])) { border-color: var(--t-ast); color: var(--t-ast); }
-    @media (pointer: coarse) { .selbox { min-height: 44px; } .selbox select { min-height: 38px; } }
+    @media (pointer: coarse) { .selbox, .switch { min-height: 44px; } .selbox select { min-height: 38px; } }
+    /* On a phone the three sit one per line: left ragged edges on controls that do different things read as a mess. */
+    @media (max-width: 520px) { .controls { flex-direction: column; align-items: stretch; }
+      .selbox select { flex: 1 1 auto; min-width: 0; } }
     .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin: 0.9rem 0 1.2rem; }
     .cal-wd { font-size: 0.68rem; color: var(--muted); text-align: center; text-transform: uppercase; letter-spacing: 0.06em; }
     .cal-cell { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 0 5px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--muted); min-height: 50px; }

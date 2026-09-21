@@ -25,8 +25,11 @@
   function tzOf(loc) { var c = META.cities[loc.label]; return (c && c[2]) || (loc.label === META.defaultPlace[0] ? META.defaultPlace[3] : Intl.DateTimeFormat().resolvedOptions().timeZone); }
   var countLine = document.getElementById('count-line'), nightsEl = document.getElementById('ast-nights'), calEl = document.getElementById('ast-cal');
   var cards = {}; document.querySelectorAll('article.ast').forEach(function (a) { cards[a.dataset.id] = a; });
-  document.querySelectorAll('#ast-filter input').forEach(function (r) { r.checked = r.value === FILTER;
-    r.addEventListener('change', function () { FILTER = r.value; store('occult-ast-filter', FILTER); render(); }); });
+  // The scope switch. Off is the whole month across India; on keeps the paths that reach you. The stored value stays
+  // 'all' / 'near', so a reader who set it while it was a pair of radio chips keeps their choice.
+  var nearBox = document.getElementById('ast-near');
+  nearBox.checked = FILTER === 'near';
+  nearBox.addEventListener('change', function () { FILTER = nearBox.checked ? 'near' : 'all'; store('occult-ast-filter', FILTER); render(); });
   function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
   // a select away from its first option is a filter in force, and says so (CSS reads data-default)
   function mark(sel) { if (sel.value === sel.options[0].value) sel.setAttribute('data-default', ''); else sel.removeAttribute('data-default'); }
@@ -92,7 +95,7 @@
       var none = document.createElement('p'); none.className = 'hint';
       none.textContent = INST !== 'any' && FILTER === 'near' ? 'Nothing this month is both over you and bright enough for that aperture.'
         : INST !== 'any' ? 'No event this month is bright enough for that aperture — a camera, or a larger one, would reach these.'
-        : 'No path crosses your place this month. Every event is still here under “All over India”.';
+        : 'No path crosses your place this month. Turn off “Only paths over me” to see every path across India.';
       frag.appendChild(none);
     }
     nightsEl.innerHTML = ''; nightsEl.appendChild(frag);
