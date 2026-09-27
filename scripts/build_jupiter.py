@@ -582,15 +582,18 @@ DIAGRAM_JS = r"""
   placeBtn.addEventListener('click', function () { document.getElementById('loc-chip').click(); });
   function svgX(ev, el) { var m = el.getScreenCTM(), p = el.createSVGPoint(); p.x = ev.clientX; p.y = ev.clientY; return p.matrixTransform(m.inverse()).x; }
   // the track: tap or drag anywhere on it (getScreenCTM follows the page's rotation on a phone held upright)
-  var scrubbing = false;
-  function scrubTo(ev) { var r = nightRange(); set(r[0] + (r[1] - r[0]) * Math.max(0, Math.min(1, (svgX(ev, scrub) - 8) / (SW - 16)))); }
+  // The night is fixed when the finger goes down and the far end stops a second short of the next noon: at that noon the
+  // track would turn to the next night with the cursor at its start, the same finger would then be past ITS end, and the
+  // cursor jumped between the two ends a night at a time
+  var scrubbing = null;
+  function scrubTo(ev) { var r = scrubbing || nightRange(); set(Math.min(r[1] - 1000, r[0] + (r[1] - r[0]) * Math.max(0, Math.min(1, (svgX(ev, scrub) - 8) / (SW - 16))))); }
   // a drag must never start a text selection (it would carry the page's text along and steal the pointer), so the press
   // is taken whole: default prevented, the selection cleared, focus given back by hand for the arrow keys
   function hold(ev, el) { ev.preventDefault(); try { getSelection().removeAllRanges(); } catch (e) {} el.setPointerCapture(ev.pointerId); }
-  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.focus({ preventScroll: true }); scrubbing = true; scrubTo(ev); });
+  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.focus({ preventScroll: true }); scrubbing = nightRange(); scrubTo(ev); });
   scrub.addEventListener('pointermove', function (ev) { if (scrubbing) scrubTo(ev); });
-  scrub.addEventListener('pointerup', function () { scrubbing = false; });
-  scrub.addEventListener('pointercancel', function () { scrubbing = false; });
+  scrub.addEventListener('pointerup', function () { scrubbing = null; });
+  scrub.addEventListener('pointercancel', function () { scrubbing = null; });
   // full screen, the diagram itself: one finger drags sideways through time (the whole width is four hours), two pinch to
   // zoom; a mouse wheel zooms and a trackpad's sideways swipe moves the time
   var drag = null, pinch = null, pts = {};
