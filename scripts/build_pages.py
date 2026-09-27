@@ -1504,10 +1504,10 @@ KINDS = [
      [("You need", "a telescope of 100 mm or more, ideally a camera"), ("How often", "two or three paths over India a night"), ("Each page", "a month of paths across India, each mapped, with how close it passes you")]),
     ("jup", "jupiter", "Jupiter's moons", "Jupiter",
      "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face — and the Great Red Spot turns to face us every ten hours.",
-     [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a live diagram of the moons")]),
+     [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a full-screen diagram of the moons, minute by minute")]),
     ("sat", "saturn", "Saturn's moons", "Saturn",
      "Titan, Rhea, Dione and Tethys cross Saturn's face and fall into its shadow — possible only in the few years around the 2025 ring-plane crossing.",
-     [("You need", "a telescope, 100 mm or more"), ("How often", "most nights while the season lasts"), ("Each page", "a month of events and a live diagram")]),
+     [("You need", "a telescope, 100 mm or more"), ("How often", "most nights while the season lasts"), ("Each page", "a month of events and a full-screen diagram, minute by minute")]),
 ]
 
 INDEX_JS = r"""
