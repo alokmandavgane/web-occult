@@ -52,12 +52,15 @@
     html.cfg-max-open, html.cfg-max-open body { overflow: hidden; }
     .config-card.max { position: fixed; inset: 0 auto auto 0; z-index: 2000; width: 100vw; height: 100vh; height: 100dvh; margin: 0;
       border: 0; border-radius: 0; display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto auto; gap: 0.3rem;
+      grid-template-columns: minmax(0, 1fr);
       padding: max(0.4rem, env(safe-area-inset-top)) max(0.6rem, env(safe-area-inset-right)) max(0.4rem, env(safe-area-inset-bottom)) max(0.6rem, env(safe-area-inset-left));
       --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50; --text: #ece8dd; --muted: #9aa0ae;
       --accent: #a9c1f0; --sea: #090c13; color-scheme: dark; background: var(--bg); color: var(--text); }
     @media (orientation: portrait) and (max-width: 600px) and (pointer: coarse) {
       .config-card.max { width: 100vh; width: 100dvh; height: 100vw; height: 100dvw; transform-origin: 0 0; transform: rotate(90deg) translateY(-100%); }
     }
+    /* the column is the card's width, never its content's: an auto column grew to fit the one-line "what is happening"
+       text, so the track stretched under the finger as that text changed and the time jittered between two values */
     .config-card.max > .limb-controls, .config-card.max > #config-slider { display: none; }
     .config-card.max .config-svg { width: 100%; height: 100%; margin: 0; touch-action: none; cursor: ew-resize; }
     .config-card.max .cfg-lbl { font-size: 14px; }
