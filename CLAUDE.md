@@ -101,7 +101,19 @@ Rules that are easy to break:
   placed. Each event is ONE row, start → end at the moon's centre crossing the edge (the almanac convention), with a
   type icon; halves behind the planet or in its shadow say "unseen". `item_li` (Python prerender, New Delhi) and
   `li()` in `RENDER_JS` are twins with identical rounding (`floor(x + 0.5)`) — keep them so; tapping a row moves the
-  diagram (`window.JDiagram.at`).
+  diagram (`window.JDiagram.at`). **Full screen is the month page's own diagram** (the ⤢ button; `?full&t=<unix s>` opens
+  it, and the address follows the moment; the share button, inline and full screen, hands on that address without `.html`
+  and without the place, since the events are one instant everywhere) — there is deliberately no separate page. The card itself goes full screen
+  (the Fullscreen API plus a landscape lock where the browser has them, else it covers the window), always in night
+  colours, and on a phone held upright (`orientation: portrait`, ≤ 600 px, coarse pointer) it is turned a quarter by CSS so
+  the line of moons gets the long side — pointer maths goes through `getScreenCTM()`, which follows that rotation. It
+  holds one observing night (noon to noon in the place's zone, the event list's location via `JDiagram.place`): a
+  track shaded by the Sun with a bar where the planet is well placed and a tick per contact, ±1 min / 10 min / 1 h,
+  previous / next event, Now (follows the clock; outside the month it goes to the current month's page), play, pinch
+  or wheel zoom, and a sideways drag through time. For that the month carries `PAD_S` (26 h) either side: Saturn's hourly
+  samples, the neighbouring days' events (`pad`) and the GRS meridians — the test fails if a month stops short. Shadows on
+  the disc and moons in eclipse are drawn from the event times (`events()` in `DIAGRAM_JS`: the shadow's offset from its
+  moon carried between the east-limb point at the listed start and the west-limb point at the end), not from a model.
 - **Great Red Spot transits** (`engine/grs_transits.py` → `data/jupiter-grs.json`, merged into the Jupiter pages as
   `kind: "grs"` rows, a "Red Spot" chip, and the spot drawn on the diagram's disc). The central meridian is System II
   (W = 43.3° + 870.270°/d) on the IAU pole from DE431 with light time; the same code with System III constants matches

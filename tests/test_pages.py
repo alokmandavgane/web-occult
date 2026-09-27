@@ -172,6 +172,34 @@ def test_saturn_config_packs_losslessly():
     assert json.loads(res.stdout) == c["xyf"]
 
 
+def test_moon_diagram_carries_the_nights_either_side():
+    """The diagram's full screen runs noon to noon in the reader's zone, so the night before the 1st and the morning after the
+    last belong to the month too: Saturn's hourly positions and every month's events must reach PAD_S past both ends (up to
+    where the data itself stops), or the moons freeze and the shadows vanish at a month's edge."""
+    import build_jupiter as bj
+    from datetime import datetime, timezone
+    site = _site()
+    pad = 26 * 3600                  # noon to noon from UTC−12 to UTC+14
+    assert bj.PAD_S >= pad
+    for planet in ("jupiter", "saturn"):
+        pages = sorted(glob.glob(os.path.join(site, f"{planet}-moons-*.html")))
+        assert pages, planet
+        for f in pages:
+            text = open(f).read()
+            dd = json.loads(re.search(r'id="diary-data">(.*?)</script>', text).group(1).replace("<\\/", "</"))
+            y, m = map(int, os.path.basename(f)[len(planet) + 7:-5].split("-"))
+            m0 = datetime(y, m, 1, tzinfo=timezone.utc).timestamp()
+            m1 = datetime(y + (m == 12), m % 12 + 1, 1, tzinfo=timezone.utc).timestamp()
+            assert 'id="config-card"' in text and 'id="cfg-scrub"' in text and 'data-act="now"' in text, f
+            assert dd["keys"] and dd["months"] and all(m0 - bj.PAD_S <= it["t"] < m1 + bj.PAD_S for it in dd["pad"]), f
+            ym = f"{y}-{m:02d}"
+            if planet == "saturn" and dd["months"][0] < ym < dd["months"][-1]:
+                c = dd["config"]
+                n = sum(c["xyf"][c["moons"][0]][2][1:])          # the samples, from the run lengths of the in-front flag
+                assert c["t0"] <= m0 - pad + 3600, f
+                assert c["t0"] + (n - 1) * c["step_min"] * 60 >= m1 + pad - 3600, f
+
+
 def test_location_pages_load_the_shared_helpers_first():
     """Every page with a location sheet calls site.js from its own script — back closes the sheet, a spot gets a city's name,
     a first visit is asked for a place — so each must load site.js, and before any script of its own after the footer."""
