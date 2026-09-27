@@ -379,7 +379,9 @@ function unpackConfig(c) {
   // a drag must never start a text selection (it would carry the page's text along and steal the pointer), so the press
   // is taken whole: default prevented, the selection cleared, focus given back by hand for the arrow keys
   function hold(ev, el) { ev.preventDefault(); try { getSelection().removeAllRanges(); } catch (e) {} el.setPointerCapture(ev.pointerId); }
-  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.focus({ preventScroll: true }); scrubbing = nightRange(); scrubTo(ev); });
+  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.classList.add('ptr'); scrub.focus({ preventScroll: true }); scrubbing = nightRange(); scrubTo(ev); });
+  scrub.addEventListener('keydown', function () { scrub.classList.remove('ptr'); });   // the keys bring the outline back
+  scrub.addEventListener('blur', function () { scrub.classList.remove('ptr'); });
   scrub.addEventListener('pointermove', function (ev) { if (scrubbing) scrubTo(ev); });
   scrub.addEventListener('pointerup', function () { scrubbing = null; });
   scrub.addEventListener('pointercancel', function () { scrubbing = null; });

@@ -590,7 +590,9 @@ DIAGRAM_JS = r"""
   // a drag must never start a text selection (it would carry the page's text along and steal the pointer), so the press
   // is taken whole: default prevented, the selection cleared, focus given back by hand for the arrow keys
   function hold(ev, el) { ev.preventDefault(); try { getSelection().removeAllRanges(); } catch (e) {} el.setPointerCapture(ev.pointerId); }
-  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.focus({ preventScroll: true }); scrubbing = nightRange(); scrubTo(ev); });
+  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.classList.add('ptr'); scrub.focus({ preventScroll: true }); scrubbing = nightRange(); scrubTo(ev); });
+  scrub.addEventListener('keydown', function () { scrub.classList.remove('ptr'); });   // the keys bring the outline back
+  scrub.addEventListener('blur', function () { scrub.classList.remove('ptr'); });
   scrub.addEventListener('pointermove', function (ev) { if (scrubbing) scrubTo(ev); });
   scrub.addEventListener('pointerup', function () { scrubbing = null; });
   scrub.addEventListener('pointercancel', function () { scrubbing = null; });
@@ -1038,6 +1040,7 @@ JUPITER_CSS = """
     #cfg-happen { color: var(--accent); flex: 1 1 14rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .cfg-scrub { display: block; width: 100%; height: 40px; touch-action: none; cursor: pointer; }
     .cfg-scrub:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+    .cfg-scrub.ptr:focus-visible { outline: none; }   /* focused by a touch or a click, not a key: nothing to point out */
     .sk-day { fill: #3d5178; } .sk-tw { fill: #2a3657; } .sk-dusk { fill: #1b2340; } .sk-dark { fill: #0e1222; }
     .sk-planet { fill: #e3c486; } .sk-planet.low { opacity: 0.35; }
     .sk-lbl { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
