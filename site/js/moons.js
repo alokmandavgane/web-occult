@@ -373,7 +373,10 @@ function unpackConfig(c) {
   // the track: tap or drag anywhere on it (getScreenCTM follows the page's rotation on a phone held upright)
   var scrubbing = false;
   function scrubTo(ev) { var r = nightRange(); set(r[0] + (r[1] - r[0]) * Math.max(0, Math.min(1, (svgX(ev, scrub) - 8) / (SW - 16)))); }
-  scrub.addEventListener('pointerdown', function (ev) { scrubbing = true; scrub.setPointerCapture(ev.pointerId); scrubTo(ev); });
+  // a drag must never start a text selection (it would carry the page's text along and steal the pointer), so the press
+  // is taken whole: default prevented, the selection cleared, focus given back by hand for the arrow keys
+  function hold(ev, el) { ev.preventDefault(); try { getSelection().removeAllRanges(); } catch (e) {} el.setPointerCapture(ev.pointerId); }
+  scrub.addEventListener('pointerdown', function (ev) { hold(ev, scrub); scrub.focus({ preventScroll: true }); scrubbing = true; scrubTo(ev); });
   scrub.addEventListener('pointermove', function (ev) { if (scrubbing) scrubTo(ev); });
   scrub.addEventListener('pointerup', function () { scrubbing = false; });
   scrub.addEventListener('pointercancel', function () { scrubbing = false; });
@@ -384,7 +387,7 @@ function unpackConfig(c) {
   function spread() { var k = Object.keys(pts), a = pts[k[0]], b = pts[k[1]]; return Math.hypot(a.x - b.x, a.y - b.y) || 1; }
   svg.addEventListener('pointerdown', function (ev) {
     if (!isBig()) return;
-    pts[ev.pointerId] = { x: ev.clientX, y: ev.clientY }; svg.setPointerCapture(ev.pointerId);
+    hold(ev, svg); pts[ev.pointerId] = { x: ev.clientX, y: ev.clientY };
     if (Object.keys(pts).length === 2) { drag = null; pinch = { d: spread(), half: half }; }
     else if (!pinch) drag = { x: svgX(ev, svg), t: ms };
   });
