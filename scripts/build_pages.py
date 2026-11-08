@@ -31,7 +31,7 @@ OUT = ROOT / "site"
 SITE = "https://occult.alokm.com"
 SITE_NAME = "Occult"
 GA_ID = "G-GD7LT48Y79"   # the alokm.com GA4 property, shared with eclipse/zsd/inc
-TAGLINE = "occultations, computed"
+TAGLINE = "occultations for your city"
 
 
 def esc(s):
@@ -203,12 +203,12 @@ def verdict_text(c, data):
     if c["verdict"] == "visible":
         seen, _ = horizon_split(data, c)
         if seen != "both":
-            return ("reappearance only — the Moon rises during it" if seen == "rises" else "disappearance only — the Moon sets first")
+            return ("reappearance only (the Moon rises during it)" if seen == "rises" else "disappearance only (the Moon sets first)")
         hid = c.get("hidden_min")
         return (f"hidden {hid:.0f} min, " if hid else "") + sky_text(c["sun_alt"])
     if c["verdict"] == "miss":
         gap = c["sep_arcmin"] - c["moon_sd_arcmin"]
-        return f"misses — {tname} passes {gap:.1f}′ from the limb"
+        return f"misses by {gap:.1f}′"
     return "Moon below the horizon"
 
 
@@ -236,7 +236,7 @@ def city_row(c, data, tz):
         gap = c["sep_arcmin"] - c["moon_sd_arcmin"]
         when = t_local(c["closest"], tz, "%H:%M") if c.get("closest") else ""
         return (f'<tr class="v-miss" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
-                f'<td colspan="3">misses — {esc(tname)} passes {gap:.1f}′ from the limb at {when}</td>'
+                f'<td colspan="3">misses by {gap:.1f}′ (closest at {when})</td>'
                 f'<td>{esc(look_text(c))}</td></tr>')
     return (f'<tr class="v-down" data-lat="{c["lat"]}" data-lon="{c["lon"]}"><td>{name}</td>'
             f'<td colspan="4">Moon below the horizon</td></tr>')
@@ -837,7 +837,7 @@ OCC_JS = r"""(function () {
         '</td><td>' + (r.hidden !== null ? r.hidden.toFixed(0) + ' min' : '—') + '</td><td>' + lookText(r.at) + (r.seen === 'rises' ? ' · at reappearance' : '') + '</td></tr>';
     }
     var gap = (r.closest.sep - r.closest.sdm) * 60;
-    return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses — ' + D.target + ' passes ' + gap.toFixed(1) + '′ from the limb at ' + localTime(r.closest.m, false) : 'Moon below the horizon') +
+    return '<tr class="yours"><td>' + label + '</td><td colspan="3">' + (r.verdict === 'miss' ? 'misses by ' + gap.toFixed(1) + '′ (closest at ' + localTime(r.closest.m, false) + ')' : 'Moon below the horizon') +
       '</td><td>' + lookText(r.closest) + '</td></tr>';
   }
   function show(lat, lon, label, fromUrl) {
@@ -856,12 +856,12 @@ OCC_JS = r"""(function () {
       h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'visible' ? halfText : 'The Moon is below the horizon here during the occultation.') + '</div>';
       summary = r.verdict !== 'visible' ? 'Moon below horizon' : r.seen === 'rises' ? 'reappears ' + localTime(c[r.rk], false) : r.seen === 'sets' ? 'disappears ' + localTime(c[r.dk], false)
         : c.D2 !== undefined && c.R1 !== undefined ? 'hidden ' + localTime(c.D2, false) + '–' + localTime(c.R1, false) : 'grazing partial';
-      if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here — a grazing partial");
+      if (r.verdict === 'visible' && c.D2 === undefined) h = h.replace('Occultation visible from here', 'Only part of ' + D.target + "'s disc is covered from here: a partial graze.");
     } else {
       var gap = r.closest.sep - r.closest.sdm;
       h += fact('closest approach', localTime(r.closest.m, false), (gap * 60).toFixed(1) + '′ outside the limb');
       h += fact('Where to look', r.closest.altm > 0 ? r.closest.altm.toFixed(0) + '° up in the ' + compass(r.closest.azm) : 'below the horizon', r.closest.altm > 0 ? skyText(r.closest.alts) : '');
-      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? D.target + ' passes ' + (gap * 60).toFixed(1) + '′ from the limb — a near miss from here.' : 'The Moon is below the horizon here.') + '</div>';
+      h += '<div class="verdict ' + r.verdict + '">' + (r.verdict === 'miss' ? 'From here ' + D.target + ' misses the Moon by ' + (gap * 60).toFixed(1) + '′.' : 'The Moon is below the horizon here.') + '</div>';
       summary = r.verdict === 'miss' ? 'near miss, ' + (gap * 60).toFixed(1) + '′' : 'Moon below horizon';
     }
     res.innerHTML = h; res.hidden = false;
@@ -1196,11 +1196,12 @@ def build(seed, slug):
                       f"{len(vis)} of the world's big cities {'sees' if len(vis) == 1 else 'see'} it")
                      + (f"; {esc(near_miss['name'])} misses by {near_miss['sep_arcmin'] - near_miss['moon_sd_arcmin']:.1f}′." if near_miss else "."))
     else:
-        auto_note = f"The Moon hides {tname}, but from no large city — the map shows where." 
+        auto_note = "No large city sees this one. The map shows where it's visible." 
     kind = "planet" if data["target"]["kind"] == "graha" else "star"
     h1 = f"Lunar occultation of the {kind} {tname}"
+    for_whom = "the world's big cities" if aud["cities"] == "world" else aud["label"]
     desc = (f"Where and when the Moon hides {tname} on {t_min_local.strftime('%-d %B %Y')}: "
-            f"city-by-city times for {aud['label']}, the graze-limit map, and how to watch. "
+            f"times for {for_whom}, the graze-limit map, and how to watch. "
             f"Computed from the JPL DE431 ephemeris.")
     url = f"{SITE}/{slug}"
 
@@ -1351,7 +1352,7 @@ def build(seed, slug):
     <svg id="limb-svg" viewBox="-190 -190 380 380" class="limb-svg" role="img" aria-label="The Moon's disc with the target's path"></svg>
     <input type="range" id="limb-slider" min="0" max="160" value="80" step="1" aria-label="Time">
   </div>
-  <p class="hint">{esc(tname)}'s path across the Moon from your location — north up, east to the left as in binoculars.
+  <p class="hint">{esc(tname)}'s path across the Moon from your location. North up, east left, as in binoculars.
   Times here are computed in your browser from the same ephemeris as the table, to the same ±2 s. Drag the slider to move it along its track.</p>
   <script type="application/json" id="limb-data">{json.dumps(limb, ensure_ascii=False, separators=(",", ":"))}</script>
 
@@ -1535,7 +1536,7 @@ INDEX_JS = r"""
     tile.querySelector('.tile-title').textContent = pill.dataset.label;
     tile.querySelector('.tile-detail').textContent = pill.dataset.detail;
     var tm = document.querySelector('#kind-' + k + ' .this-month');
-    if (tm) tm.innerHTML = 'This month: <a href="' + pill.querySelector('a').getAttribute('href') + '">' + pill.dataset.label + '</a> — ' + pill.dataset.detail;
+    if (tm) tm.innerHTML = 'This month: <a href="' + pill.querySelector('a').getAttribute('href') + '">' + pill.dataset.label + '</a> · ' + pill.dataset.detail;
   });
 })();
 """
@@ -1629,15 +1630,15 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
     for k in ("ms", "ast", "jup", "sat"):
         if months[k]:
             cur = current(months[k])
-            sections.append(section(k, f'<p class="this-month">This month: <a href="/{cur[1]}">{esc(cur[2])}</a> — {esc(cur[3])}</p>'
+            sections.append(section(k, f'<p class="this-month">This month: <a href="/{cur[1]}">{esc(cur[2])}</a> · {esc(cur[3])}</p>'
                                        + year_rows(months[k])))
 
     nav = "".join(f'<a class="t-{k[0]}" href="#{k[1]}">{ICONS[k[0]]}{esc(k[3])}</a>' for k in KINDS if (k[0] == "occ" and built) or months.get(k[0]))
-    desc = ("Lunar occultations of planets and stars, asteroid shadows crossing India, and the eclipses, transits and mutual "
-            "events of Jupiter's and Saturn's moons — where on Earth they can be seen and when, computed from JPL ephemerides.")
+    desc = ("Lunar occultations of planets and stars, asteroid shadows across India, and Jupiter's and Saturn's moons. "
+            "Where and when to see them, computed from JPL ephemerides.")
     page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
 <main class="wrap">
-  <h1 class="home-h1">What passes in front of what — and when you can see it</h1>
+  <h1 class="home-h1">Occultations you can see, with times for your city</h1>
   <p class="sub">Five kinds of sky events, computed from JPL ephemerides for where you are.</p>
   <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
   <h2>Coming up</h2>
@@ -1690,8 +1691,7 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
                                   "/manifest.webmanifest\n  Content-Type: application/manifest+json\n  Cache-Control: public, max-age=86400\n"
                                   "/ics/*\n  Cache-Control: public, max-age=21600\n  Content-Type: text/calendar; charset=utf-8\n")
     (OUT / "404.html").write_text(head(f"Not found · {SITE_NAME}", "No such page.", "/404") + f"""
-<main class="wrap"><h1>No such page</h1><p class="sub">Nothing is occulted here.</p>
-<p><a href="/">All events</a></p></main>{FOOTER}</body></html>
+<main class="wrap"><h1>No such page</h1><p class="sub">Try the <a href="/">home page</a> or the <a href="/calendar">calendar</a>.</p></main>{FOOTER}</body></html>
 """)
     print(f"wrote site/index.html, sitemap.xml ({len(urls)} urls), robots.txt, _headers, sw.js, 404.html")
 

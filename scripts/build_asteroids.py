@@ -242,8 +242,7 @@ def stats_html(ev, y=None):
     tsig = f', ±{r1(ev["sigma_s"])} s' if ev.get("sigma_s") is not None else ""
     return ('<div class="ast-stats">'
             + tile(f'V {r1(ev["combined_mag"])}', "brightness",
-                   f'Star and asteroid together, which is what you watch — the star alone is V {r1(st["v"])}, '
-                   f'the asteroid V {r1(a["mag"])}')
+                   f'Star and asteroid combined. Star alone V {r1(st["v"])}, asteroid V {r1(a["mag"])}.')
             + tile(f'{r1(ev["drop"])} mag', "fade, camera" if cam else "fade",
                    "Under half a magnitude: a camera catches this, the eye does not" if cam
                    else f'How much fainter the pair goes while the star is hidden, down to V {r1(a["mag"])}',
@@ -911,7 +910,7 @@ MONTH_JS = r"""
     if (!rows.length) {                    // every event filtered away: say which setting did it, or the page just goes blank
       var none = document.createElement('p'); none.className = 'hint';
       none.textContent = INST !== 'any' && FILTER === 'near' ? 'Nothing this month is both over you and bright enough for that aperture.'
-        : INST !== 'any' ? 'No event this month is bright enough for that aperture — a camera, or a larger one, would reach these.'
+        : INST !== 'any' ? 'Nothing this month is bright enough for that aperture. A camera or a bigger telescope would show these.'
         : 'No path crosses your place this month. Turn off “Only paths over me” to see every path across India.';
       frag.appendChild(none);
     }
@@ -1054,8 +1053,7 @@ EVENT_JS = r"""
     // URL, or every spot anyone ever shared would be a page of its own
     var url = location.origin + location.pathname.replace(/\.html$/, '') + '?e=' + encodeURIComponent(id);   // as the sitemap lists it
     var d = '(' + ev.asteroid.number + ') ' + ev.asteroid.name + ' hides a magnitude ' + F.r1(ev.star.v) + ' star on '
-          + ev.el.t0.slice(0, 10) + ': the path across India on a map, how close it passes you, the finder chart, the chord you '
-          + 'would time, and the path as KML.';
+          + ev.el.t0.slice(0, 10) + ': the path across India on a map, how close it passes you, a finder chart, and the path as KML.';
     [['link[rel="canonical"]', 'href', url], ['meta[name="description"]', 'content', d],
      ['meta[property="og:url"]', 'content', url], ['meta[property="og:title"]', 'content', document.title],
      ['meta[property="og:description"]', 'content', d]].forEach(function (r) {
@@ -1223,13 +1221,13 @@ EVENT_JS = r"""
                 + ' · ' + where + ' · <b>' + F.r1(s.dur) + ' s</b> · ' + A.pct(A.chance(ev, s)) + ' chance</button>'
                 + '<a class="btn stn-go" href="' + mapsTo(p[0], p[1]) + '" target="_blank" rel="noopener">Directions</a></div>');
       if (stns) stns.addLayer(L.marker(p, { icon: L.divIcon({ className: 'stn-dot', iconSize: [28, 28], html: String(i + 1) }),
-                                            title: 'Station ' + (i + 1) + ' — tap to make it your spot' })
+                                            title: 'Station ' + (i + 1) + ': tap to make it your spot' })
         .bindTooltip(F.r1(s.dur) + ' s · ' + A.pct(A.chance(ev, s)), { direction: 'top', offset: [0, -8] })
         .on('click', function () { setLoc(p[0], p[1], 'Station ' + (i + 1)); }));
     });
     el('stn-list').innerHTML = rows.join('');
     el('stn-note').textContent = 'Five spots across the path near you, about ' + F.r0(kmApart(stnPts[0], stnPts[1]))
-      + ' km apart. Each records a different chord, and together they measure the asteroid\'s shape — the point of timing one at all. '
+      + ' km apart. Each records a different chord; together they show the asteroid\'s shape. '
       + 'Tap a station to make it your spot, then send whoever takes it the link.';
   }
   function placeMe(s, tc, y) {
@@ -1310,17 +1308,17 @@ EVENT_JS = r"""
            ? ' Turned that way it is ' + F.r0(sc.across) + ' km across the path, not ' + F.r0(2 * R) + ': the real path may be '
              + (sc.across > 2 * R ? 'wider' : 'narrower') + ' than the map shows.' : '')
         + ' <a href="https://astro.troja.mff.cuni.cz/projects/damit/asteroid_models/view/' + sh.model + '">DAMIT model ' + sh.model + '</a>'
-        + (sh.q != null ? ', quality ' + sh.q : '') + ' (Ďurech et al., CC BY 4.0) — the dashed lines are 1σ.';
+        + (sh.q != null ? ', quality ' + sh.q : '') + ' (Ďurech et al., CC BY 4.0). Dashed lines are 1σ.';
     }
     el('pane-finder').innerHTML = A.finderSvg(ev, tz) + '<p class="pane-cap">The field 24 hours around the event; the star is ringed.</p>';
     el('pane-chord').innerHTML = A.chordSvg(ev, s) + '<p class="pane-cap">' + chordCap + '</p>' + A.stripSvg(ev, s)
       + '<p class="pane-cap">Across the path: the blue band is the shadow, the red either side its 1σ and 2σ.</p>';
-    el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : 'On the centre line — you are outside the path')
+    el('pane-curve').innerHTML = A.curveSvg(ev, s) + '<p class="pane-cap">' + (inside ? 'What you would record' : "On the centre line (you're outside the path)")
       + ': ' + F.r1(ev.drop) + ' mag for ' + F.r1(inside ? s.dur : ev.dur_max_s) + ' s, timing ± ' + F.r1(ev.sigma_s || 0) + ' s</p>';
     var dark = SKY && SKY.dark, t0 = Date.parse(ev.el.t0);
     el('sky-note').textContent = dark
-      ? 'Along the track the star is at least 10° up in a sky past twilight between ' + F.t(t0 + dark[0] * 1000, tz) + ' and '
-        + F.t(t0 + dark[1] * 1000, tz) + ' — the brighter stretch of the dotted line. Elsewhere the Sun is up or the star too low to time.'
+      ? 'The star is 10° up in a dark sky from ' + F.t(t0 + dark[0] * 1000, tz) + ' to ' + F.t(t0 + dark[1] * 1000, tz)
+        + " along the track: the bright part of the dotted line. Elsewhere it's daylight or the star is too low."
       : '';
     el('pane-world').innerHTML = A.worldSvg(ev, world, META.bbox, LOC) + '<p class="pane-cap">The whole path on Earth; the box is the map above.</p>';
     if (!world) fetch(META.world).then(function (r) { return r.json(); }).then(function (w) {
@@ -1357,7 +1355,7 @@ EVENT_JS = r"""
   if (navigator.share) {
     el('spot-share').hidden = false;
     el('spot-share').addEventListener('click', function () {
-      navigator.share({ title: document.title, text: 'Asteroid occultation — my spot', url: el('spot-url').value }).catch(function () {});
+      navigator.share({ title: document.title, text: 'My spot for this asteroid occultation', url: el('spot-url').value }).catch(function () {});
     });
   }
   el('spot-play').addEventListener('click', function () { if (play) stopPlay(); else startPlay(); });
@@ -1492,8 +1490,7 @@ def lib_url():
 
 def event_page(months, audience, geo):
     """site/asteroid.html: one page that draws any event, chosen by `?e=<id>`."""
-    desc = ("Everything for one asteroid occultation: the path on a map, how close it passes you, the finder chart, the chord "
-            "you would time, how far the star fades, and the path as KML.")
+    desc = "One asteroid occultation: the path on a map, how close it passes you, a finder chart, and the path as KML."
     meta = {"months": {ym: url for ym, url in months.items()}, "monthLabels": {ym: f"{MONTHS[int(ym[5:]) - 1]} {ym[:4]}" for ym in months},
             "bbox": geo["bbox"], "defaultPlace": list(DEFAULT_PLACE), "world": world_url()}
     page = head(f"Asteroid occultation · {SITE_NAME}", desc, "/asteroid",
@@ -1570,8 +1567,8 @@ def month_page(ym, d, cities_all, nav):
                          for k, label, lim in INSTRUMENTS)
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
-    desc = (f"Asteroid occultations crossing India in {label}: {len(d['events'])} stars hidden by asteroids, each with a map of "
-            f"its path and, for your location, how close it passes, when, and how long the star vanishes.")
+    desc = (f"{len(d['events'])} stars hidden by asteroids in {label}, each with a map of its path and how close it "
+            f"passes you.")
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}", extra=f"<style>{AST_CSS}</style>", og="ast")
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),

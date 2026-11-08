@@ -167,7 +167,7 @@
       return '<section class="night" id="night-' + k + '"><header class="night-head"><h3>Night of ' + keyLabel(k) + '</h3><span class="night-sub"></span></header>'
         + '<div class="night-body"><canvas class="night-moon" width="120" height="120" aria-hidden="true"></canvas><ol class="night-events">'
         + groups[k].map(function (x, i) { return li(i + 1, x[1], x[2], tz); }).join('') + '</ol></div></section>';
-    }).join('') || '<p class="hint">Nothing your instrument can show from here this month — try a larger one.</p>';
+    }).join('') || '<p class="hint">Nothing visible with this instrument from here this month. Try a larger one.</p>';
     var y = +YM[0], mo = +YM[1], ndays = new Date(Date.UTC(y, mo, 0)).getUTCDate(), first = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7, html = '';
     ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].forEach(function (w) { html += '<div class="cal-wd">' + w + '</div>'; });
     for (var e = 0; e < first; e++) html += '<div class="cal-cell empty"></div>';

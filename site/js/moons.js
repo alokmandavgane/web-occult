@@ -498,7 +498,7 @@ function unpackConfig(c) {
     nightsEl.innerHTML = order.map(function (k) {
       return '<section class="night" id="night-' + k + '"><header class="night-head"><h3>Night of ' + keyLabel(k) + '</h3><span class="night-sub">'
         + windowText(groups[k], tz) + '</span></header><ol class="jevents">' + groups[k].map(function (it) { return li(it, tz); }).join('') + '</ol></section>';
-    }).join('') || '<p class="hint">Nothing matches from here this month — try turning off “Only what I can see”.</p>';
+    }).join('') || '<p class="hint">Nothing visible from here this month. Turn off “Only what I can see” to list everything.</p>';
     var y = +M.ym[0], mo = +M.ym[1], ndays = new Date(Date.UTC(y, mo, 0)).getUTCDate(), first = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7, html = '';
     ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].forEach(function (w) { html += '<div class="cal-wd">' + w + '</div>'; });
     for (var e = 0; e < first; e++) html += '<div class="cal-cell empty"></div>';

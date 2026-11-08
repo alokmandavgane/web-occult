@@ -711,7 +711,7 @@ RENDER_JS = r"""
     nightsEl.innerHTML = order.map(function (k) {
       return '<section class="night" id="night-' + k + '"><header class="night-head"><h3>Night of ' + keyLabel(k) + '</h3><span class="night-sub">'
         + windowText(groups[k], tz) + '</span></header><ol class="jevents">' + groups[k].map(function (it) { return li(it, tz); }).join('') + '</ol></section>';
-    }).join('') || '<p class="hint">Nothing matches from here this month — try turning off “Only what I can see”.</p>';
+    }).join('') || '<p class="hint">Nothing visible from here this month. Turn off “Only what I can see” to list everything.</p>';
     var y = +M.ym[0], mo = +M.ym[1], ndays = new Date(Date.UTC(y, mo, 0)).getUTCDate(), first = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7, html = '';
     ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].forEach(function (w) { html += '<div class="cal-wd">' + w + '</div>'; });
     for (var e = 0; e < first; e++) html += '<div class="cal-cell empty"></div>';
@@ -809,7 +809,7 @@ TEMPLATE = """
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="j-cal" aria-label="The month at a glance">__CAL__</div>
   <div class="legend-icons">__LEGEND__</div>
-  <p class="hint">Times in <span id="tz-label">IST</span>, when the moon's centre crosses the edge — as almanacs list them. A night runs
+  <p class="hint">Times in <span id="tz-label">IST</span>, when the moon's centre crosses the edge, as almanacs list them. A night runs
   from noon to noon. Tap an event to see it in the diagram.</p>
   <div id="j-nights">__NIGHTS__</div>
   <h2>Reading the list</h2>
@@ -864,7 +864,7 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
     visible = [it for it in items if item_ok(it, lat, lon)]
     groups = group_nights(visible, tz)
     desc = (f"Every eclipse, occultation, transit and shadow transit of {moon_list} in {label}"
-            f"{', with the mutual events' if n_mutual else ''} — a calendar and night-by-night times for your location.")
+            f"{', with mutual events' if n_mutual else ''}. A calendar and nightly times for your location.")
     t0 = int(datetime(year, month, 1, tzinfo=timezone.utc).timestamp())
     t1 = int(datetime(year + (month == 12), month % 12 + 1, 1, tzinfo=timezone.utc).timestamp())
     first = items[0] if items else {"ra": 0, "dec": 0}
@@ -886,7 +886,7 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
         chips += f'<label class="chipbox" style="border-color:{GRS_COLOR}"><input type="checkbox" value="grs" checked> Red Spot</label>'
     legend = "".join(f'<span>{ICONS[k]}{esc(t)}</span>' for k, t in LEGEND if k in kinds_present)
     lead = (P["intro"] + (" This is a mutual-event season: the moons' orbits are edge-on to the Sun, so they eclipse and hide "
-                          "<em>each other</em>." if n_mutual else "") + " Pick your place: the calendar and the nights keep only what your sky shows.")
+                          "<em>each other</em>." if n_mutual else "") + " Pick your place to see only what's visible from there.")
     method = (f"Times are when the moon's centre crosses the edge of {pname} or its shadow, as in published tables. The whole "
               f"disc takes a few minutes. A start or end marked <em>unseen</em> happens behind {pname} or "
               f"inside its shadow. “Only what I can see” keeps events with {pname} more than 10° up in a dark sky. Positions: "
@@ -905,7 +905,7 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLANET__": planet, "__PLACE__": esc(name),
-                 "__TITLE__": esc(title), "__SUB__": " · ".join(MOON_NAME[m] for m in P["moons"]) + (f" — {n_mutual} mutual events" if n_mutual else ""),
+                 "__TITLE__": esc(title), "__SUB__": " · ".join(MOON_NAME[m] for m in P["moons"]) + (f" · {n_mutual} mutual events" if n_mutual else ""),
                  "__LEAD__": lead, "__PNAME__": pname, "__LABEL__": label, "__FULL_ON__": FULL_ON, "__SHARE__": SHARE, "__T0__": str(t0), "__T1__": str(t1), "__DIAG_HINT__": diag_hint,
                  "__CHIPS__": chips, "__COUNT__": f"{len(visible)} events you can see from {esc(name)} this month, on {len(groups)} nights",
                  "__CAL__": calendar_html(year, month, groups, P), "__LEGEND__": legend,

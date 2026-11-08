@@ -22,8 +22,8 @@ ACCENT = (169, 193, 240)
 COL = {"home": ACCENT, "occ": (242, 181, 74), "ms": (108, 199, 224), "ast": (240, 138, 163), "jupiter": (195, 177, 245),
        "saturn": (111, 211, 148), "calendar": ACCENT}
 TEXT = {   # kicker, title, subtitle
-    "home": ("Occultations, computed", "What passes in front of what — and when you can see it",
-             "Maps and times for your city, from JPL ephemerides"),
+    "home": ("Occult", "Occultations you can see, with times for your city",
+             "Maps and times from JPL ephemerides"),
     "occ": ("Lunar occultation", "When the Moon hides a planet or a bright star",
             "Where on Earth it can be seen, and the times for your city"),
     "ms": ("The Moon and the stars", "Every star the Moon hides this month",
@@ -31,8 +31,8 @@ TEXT = {   # kicker, title, subtitle
     "ast": ("Asteroid occultations", "A star blinks out as an asteroid's shadow crosses India",
             "A map of every path, and how close it passes you"),
     "jupiter": ("Jupiter's moons", "Eclipses, transits and shadows, night by night",
-                "Io, Europa, Ganymede, Callisto — and the Great Red Spot"),
-    "saturn": ("Saturn's moons", "Titan and company hide, transit and cast shadows",
+                "Io, Europa, Ganymede, Callisto and the Great Red Spot"),
+    "saturn": ("Saturn's moons", "Transits, eclipses and shadows of Saturn's moons",
                "Night by night, for where you are"),
     "calendar": ("Calendar feeds", "Occultations in your calendar",
                  "One subscription per city: planets, bright stars and binocular stars"),

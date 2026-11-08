@@ -94,7 +94,7 @@
     if (!rows.length) {                    // every event filtered away: say which setting did it, or the page just goes blank
       var none = document.createElement('p'); none.className = 'hint';
       none.textContent = INST !== 'any' && FILTER === 'near' ? 'Nothing this month is both over you and bright enough for that aperture.'
-        : INST !== 'any' ? 'No event this month is bright enough for that aperture — a camera, or a larger one, would reach these.'
+        : INST !== 'any' ? 'Nothing this month is bright enough for that aperture. A camera or a bigger telescope would show these.'
         : 'No path crosses your place this month. Turn off “Only paths over me” to see every path across India.';
       frag.appendChild(none);
     }
