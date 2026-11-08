@@ -10,106 +10,19 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-a1eb643dc7dd-jorhat@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162216Z
-DTEND:20260930T162416Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:52:16 at the d
- ark limb IST\, seen from Jorhat.\nThe Moon is 30° up in the ENE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-aead82242097-jorhat@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T203151Z
-DTEND:20261004T203351Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:01:51 at the dark limb 
- IST\, seen from Jorhat.\nThe Moon is 30° up in the ENE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-0e5c39fc4ec8-jorhat@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T214255Z
-DTEND:20261006T214455Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:12:55 at the dark limb I
- ST\, seen from Jorhat.\nThe Moon is 19° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-14-51-nemausa-506048-jorhat@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261014T115733Z
-DTEND:20261014T120733Z
-SUMMARY:(51) Nemausa hides a mag 12.4 star · 91% chance
-DESCRIPTION:(51) Nemausa hides a magnitude 12.4 star\, seen from Jorhat.\nY
- ou are inside the path\, 63 km from its centre line: the star vanishes for
-  up to 4.1 s.\nChance of an occultation here: 91%\, allowing for the path'
- s 1σ of 18 km.\nClosest approach 17:32:33 IST\, give or take 1 s. The sta
- r is 44° up in the SSW · dusk.\nIt fades 1.0 magnitudes for up to 5.4 s 
- on the centre line\, and the path is 138 km wide\, give or take 18 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2026-10-14-51-nemausa-506048
-URL:https://occult.alokm.com/asteroid?e=2026-10-14-51-nemausa-506048
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(51) Nemausa hides a mag 12.4 star · 91% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a18be3b6cfca-jorhat@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T133524Z
-DTEND:20261020T133724Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 19:05:24 at the dark limb 
- IST\, seen from Jorhat.\nThe Moon is 46° up in the S · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-aaf21cad94ab-jorhat@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T141723Z
-DTEND:20261021T141923Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:47:23 at the dark limb 
- IST\, seen from Jorhat.\nThe Moon is 51° up in the S · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-01-921-jovita-807744-jorhat@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261101T130059Z
 DTEND:20261101T131059Z
 SUMMARY:(921) Jovita hides a mag 13.3 star · 61% chance
 DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Jorhat.\nY
- ou are inside the path\, 2 km from its centre line: the star vanishes for 
- up to 1.8 s.\nChance of an occultation here: 61%\, allowing for the path's
-  1σ of 32 km.\nClosest approach 18:35:59 IST\, give or take 1 s. The star
-  is 35° up in the WSW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8
-  s on the centre line\, and the path is 55 km wide\, give or take 32 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-11-01-921-jovita-807744
+ ou're inside the path\, 2 km from the centre line. The star vanishes for u
+ p to 1.8 s.\nChance of an occultation here: 61%\, allowing for the path's 
+ 1σ of 32 km.\nClosest approach 18:35:59 IST\, give or take 1 s. The star 
+ is 35° up in the WSW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 
+ s on the centre line\, and the path is 55 km wide\, give or take 32 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-11-01-921-jovita-807744
 URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -152,14 +65,13 @@ DTEND:20261110T144918Z
 SUMMARY:(4980) Magomaev hides a mag 11.4 star (just outside the path) · 20
  % chance
 DESCRIPTION:(4980) Magomaev hides a magnitude 11.4 star\, seen from Jorhat.
- \nThe predicted edge passes 11 km to the SSE\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nChan
- ce of an occultation here: 20%\, allowing for the path's 1σ of 13 km.\nCl
- osest approach 20:14:18 IST\, give or take 2 s. The star is 52° up in the
-  E · dark sky.\nIt fades 4.8 magnitudes for up to 1.6 s on the centre lin
- e\, and the path is 17 km wide\, give or take 13 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-10
- -4980-magomaev-478976
+ \nThe edge is 11 km to the SSE. A miss is likely\, but an edge timing is v
+ ery valuable.\nChance of an occultation here: 20%\, allowing for the path'
+ s 1σ of 13 km.\nClosest approach 20:14:18 IST\, give or take 2 s. The sta
+ r is 52° up in the E · dark sky.\nIt fades 4.8 magnitudes for up to 1.6 
+ s on the centre line\, and the path is 17 km wide\, give or take 13 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-11-10-4980-magomaev-478976
 URL:https://occult.alokm.com/asteroid?e=2026-11-10-4980-magomaev-478976
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -190,14 +102,13 @@ DTEND:20261118T153649Z
 SUMMARY:(799) Gudula hides a mag 8.2 star (just outside the path) · 42% ch
  ance
 DESCRIPTION:(799) Gudula hides a magnitude 8.2 star\, seen from Jorhat.\nTh
- e predicted edge passes 3 km to the SSE\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nChance of
-  an occultation here: 42%\, allowing for the path's 1σ of 14 km.\nClosest
-  approach 21:01:49 IST\, give or take 2 s. The star is 42° up in the SW 
- · dark sky.\nIt fades 6.6 magnitudes for up to 6.8 s on the centre line\,
-  and the path is 47 km wide\, give or take 14 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2026-11-18-79
- 9-gudula-360000
+ e edge is 3 km to the SSE. A miss is likely\, but an edge timing is very v
+ aluable.\nChance of an occultation here: 42%\, allowing for the path's 1σ
+  of 14 km.\nClosest approach 21:01:49 IST\, give or take 2 s. The star is 
+ 42° up in the SW · dark sky.\nIt fades 6.6 magnitudes for up to 6.8 s on
+  the centre line\, and the path is 47 km wide\, give or take 14 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2026-11-18-799-gudula-360000
 URL:https://occult.alokm.com/asteroid?e=2026-11-18-799-gudula-360000
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -215,14 +126,13 @@ DTEND:20261125T220833Z
 SUMMARY:(11395) Iphinous hides a mag 12.2 star (just outside the path) · 3
  4% chance
 DESCRIPTION:(11395) Iphinous hides a magnitude 12.2 star\, seen from Jorhat
- .\nThe predicted edge passes 16 km to the NNE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nCha
- nce of an occultation here: 34%\, allowing for the path's 1σ of 44 km.\nC
- losest approach 03:33:33 IST\, give or take 5 s. The star is 17° up in th
- e ESE · dark sky.\nIt fades 5.9 magnitudes for up to 2.2 s on the centre 
- line\, and the path is 69 km wide\, give or take 44 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-11
- -25-11395-iphinous-207616
+ .\nThe edge is 16 km to the NNE. A miss is likely\, but an edge timing is 
+ very valuable.\nChance of an occultation here: 34%\, allowing for the path
+ 's 1σ of 44 km.\nClosest approach 03:33:33 IST\, give or take 5 s. The st
+ ar is 17° up in the ESE · dark sky.\nIt fades 5.9 magnitudes for up to 2
+ .2 s on the centre line\, and the path is 69 km wide\, give or take 44 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2026-11-25-11395-iphinous-207616
 URL:https://occult.alokm.com/asteroid?e=2026-11-25-11395-iphinous-207616
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -279,14 +189,13 @@ DTEND:20261224T182504Z
 SUMMARY:(3139) Shantou hides a mag 12.0 star (just outside the path) · 46%
   chance
 DESCRIPTION:(3139) Shantou hides a magnitude 12.0 star\, seen from Jorhat.\
- nThe predicted edge passes 1 km to the NNW\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 46%\, allowing for the path's 1σ of 16 km.\nClos
- est approach 23:50:04 IST\, give or take 1 s. The star is 66° up in the W
- SW · dark sky.\nIt fades 3.5 magnitudes for up to 2.5 s on the centre lin
- e\, and the path is 37 km wide\, give or take 16 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-24
- -3139-shantou-308032
+ nThe edge is 1 km to the NNW. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 46%\, allowing for the path's 
+ 1σ of 16 km.\nClosest approach 23:50:04 IST\, give or take 1 s. The star 
+ is 66° up in the WSW · dark sky.\nIt fades 3.5 magnitudes for up to 2.5 
+ s on the centre line\, and the path is 37 km wide\, give or take 16 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-12-24-3139-shantou-308032
 URL:https://occult.alokm.com/asteroid?e=2026-12-24-3139-shantou-308032
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -303,13 +212,13 @@ DTSTART:20261227T170920Z
 DTEND:20261227T171920Z
 SUMMARY:(1721) Wells hides a mag 11.9 star · 67% chance
 DESCRIPTION:(1721) Wells hides a magnitude 11.9 star\, seen from Jorhat.\nY
- ou are inside the path\, 16 km from its centre line: the star vanishes for
-  up to 2.9 s.\nChance of an occultation here: 67%\, allowing for the path'
- s 1σ of 16 km.\nClosest approach 22:44:20 IST\, give or take 1 s. The sta
- r is 62° up in the NW · dark sky.\nIt fades 4.0 magnitudes for up to 3.9
-  s on the centre line\, and the path is 44 km wide\, give or take 16 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-12-27-1721-wells-005376
+ ou're inside the path\, 16 km from the centre line. The star vanishes for 
+ up to 2.9 s.\nChance of an occultation here: 67%\, allowing for the path's
+  1σ of 16 km.\nClosest approach 22:44:20 IST\, give or take 1 s. The star
+  is 62° up in the NW · dark sky.\nIt fades 4.0 magnitudes for up to 3.9 
+ s on the centre line\, and the path is 44 km wide\, give or take 16 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-12-27-1721-wells-005376
 URL:https://occult.alokm.com/asteroid?e=2026-12-27-1721-wells-005376
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -326,14 +235,13 @@ DTEND:20261228T202104Z
 SUMMARY:(1345) Potomac hides a mag 11.5 star (just outside the path) · 50%
   chance
 DESCRIPTION:(1345) Potomac hides a magnitude 11.5 star\, seen from Jorhat.\
- nThe predicted edge passes 0 km to the W\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nChance o
- f an occultation here: 50%\, allowing for the path's 1σ of 19 km.\nCloses
- t approach 01:46:04 IST\, give or take 9 s. The star is 65° up in the SE 
- · dark sky.\nIt fades 3.9 magnitudes for up to 20.1 s on the centre line\
- , and the path is 73 km wide\, give or take 19 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-28-1
- 345-potomac-157760
+ nThe edge is 0 km to the W. A miss is likely\, but an edge timing is very 
+ valuable.\nChance of an occultation here: 50%\, allowing for the path's 1
+ σ of 19 km.\nClosest approach 01:46:04 IST\, give or take 9 s. The star i
+ s 65° up in the SE · dark sky.\nIt fades 3.9 magnitudes for up to 20.1 s
+  on the centre line\, and the path is 73 km wide\, give or take 19 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2026-12-28-1345-potomac-157760
 URL:https://occult.alokm.com/asteroid?e=2026-12-28-1345-potomac-157760
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -350,13 +258,13 @@ DTSTART:20270101T221600Z
 DTEND:20270101T222600Z
 SUMMARY:(546) Herodias hides a mag 11.6 star · 90% chance
 DESCRIPTION:(546) Herodias hides a magnitude 11.6 star\, seen from Jorhat.\
- nYou are inside the path\, 19 km from its centre line: the star vanishes f
- or up to 6.5 s.\nChance of an occultation here: 90%\, allowing for the pat
- h's 1σ of 11 km.\nClosest approach 03:51:00 IST\, give or take 1 s. The s
- tar is 13° up in the NW · dark sky.\nIt fades 1.8 magnitudes for up to 8
- .0 s on the centre line\, and the path is 66 km wide\, give or take 11 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-01-01-546-herodias-781888
+ nYou're inside the path\, 19 km from the centre line. The star vanishes fo
+ r up to 6.5 s.\nChance of an occultation here: 90%\, allowing for the path
+ 's 1σ of 11 km.\nClosest approach 03:51:00 IST\, give or take 1 s. The st
+ ar is 13° up in the NW · dark sky.\nIt fades 1.8 magnitudes for up to 8.
+ 0 s on the centre line\, and the path is 66 km wide\, give or take 11 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-01-01-546-herodias-781888
 URL:https://occult.alokm.com/asteroid?e=2027-01-01-546-herodias-781888
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -372,13 +280,13 @@ DTSTART:20270115T120304Z
 DTEND:20270115T121304Z
 SUMMARY:(324) Bamberga hides a mag 10.9 star · 79% chance
 DESCRIPTION:(324) Bamberga hides a magnitude 10.9 star\, seen from Jorhat.\
- nYou are inside the path\, 95 km from its centre line: the star vanishes f
- or up to 2.9 s.\nChance of an occultation here: 79%\, allowing for the pat
- h's 1σ of 20 km.\nClosest approach 17:38:04 IST\, give or take 0 s. The s
- tar is 43° up in the WSW · dark sky.\nIt fades 1.0 magnitudes for up to 
- 5.5 s on the centre line\, and the path is 221 km wide\, give or take 20 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-01-15-324-bamberga-193216
+ nYou're inside the path\, 95 km from the centre line. The star vanishes fo
+ r up to 2.9 s.\nChance of an occultation here: 79%\, allowing for the path
+ 's 1σ of 20 km.\nClosest approach 17:38:04 IST\, give or take 0 s. The st
+ ar is 43° up in the WSW · dark sky.\nIt fades 1.0 magnitudes for up to 5
+ .5 s on the centre line\, and the path is 221 km wide\, give or take 20 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-01-15-324-bamberga-193216
 URL:https://occult.alokm.com/asteroid?e=2027-01-15-324-bamberga-193216
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -395,14 +303,13 @@ DTEND:20270116T235130Z
 SUMMARY:(274) Philagoria hides a mag 13.6 star (just outside the path) · 3
  0% chance
 DESCRIPTION:(274) Philagoria hides a magnitude 13.6 star\, seen from Jorhat
- .\nThe predicted edge passes 8 km to the NNE\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nChan
- ce of an occultation here: 30%\, allowing for the path's 1σ of 26 km.\nCl
- osest approach 05:16:30 IST\, give or take 1 s. The star is 16° up in the
-  SE · dusk.\nIt fades 2.1 magnitudes for up to 0.6 s on the centre line\,
-  and the path is 27 km wide\, give or take 26 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-16-27
- 4-philagoria-454592
+ .\nThe edge is 8 km to the NNE. A miss is likely\, but an edge timing is v
+ ery valuable.\nChance of an occultation here: 30%\, allowing for the path'
+ s 1σ of 26 km.\nClosest approach 05:16:30 IST\, give or take 1 s. The sta
+ r is 16° up in the SE · dusk.\nIt fades 2.1 magnitudes for up to 0.6 s o
+ n the centre line\, and the path is 27 km wide\, give or take 26 km.\nThe 
+ map\, the finder chart and the path as KML: https://occult.alokm.com/aster
+ oid?e=2027-01-16-274-philagoria-454592
 URL:https://occult.alokm.com/asteroid?e=2027-01-16-274-philagoria-454592
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -420,14 +327,13 @@ DTEND:20270117T212255Z
 SUMMARY:(565) Marbachia hides a mag 12.4 star (just outside the path) · 22
  % chance
 DESCRIPTION:(565) Marbachia hides a magnitude 12.4 star\, seen from Jorhat.
- \nThe predicted edge passes 15 km to the NNE\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nChan
- ce of an occultation here: 22%\, allowing for the path's 1σ of 17 km.\nCl
- osest approach 02:47:55 IST\, give or take 2 s. The star is 32° up in the
-  SE · dark sky.\nIt fades 2.9 magnitudes for up to 1.3 s on the centre li
- ne\, and the path is 27 km wide\, give or take 17 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-1
- 7-565-marbachia-590528
+ \nThe edge is 15 km to the NNE. A miss is likely\, but an edge timing is v
+ ery valuable.\nChance of an occultation here: 22%\, allowing for the path'
+ s 1σ of 17 km.\nClosest approach 02:47:55 IST\, give or take 2 s. The sta
+ r is 32° up in the SE · dark sky.\nIt fades 2.9 magnitudes for up to 1.3
+  s on the centre line\, and the path is 27 km wide\, give or take 17 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-01-17-565-marbachia-590528
 URL:https://occult.alokm.com/asteroid?e=2027-01-17-565-marbachia-590528
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -458,14 +364,13 @@ DTEND:20270121T202343Z
 SUMMARY:(400) Ducrosa hides a mag 12.7 star (just outside the path) · 19% 
  chance
 DESCRIPTION:(400) Ducrosa hides a magnitude 12.7 star\, seen from Jorhat.\n
- The predicted edge passes 17 km to the NNE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 19%\, allowing for the path's 1σ of 18 km.\nClos
- est approach 01:48:43 IST\, give or take 3 s. The star is 19° up in the W
- NW · dark sky.\nIt fades 3.3 magnitudes for up to 4.3 s on the centre lin
- e\, and the path is 36 km wide\, give or take 18 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-21
- -400-ducrosa-012160
+ The edge is 17 km to the NNE. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 19%\, allowing for the path's 
+ 1σ of 18 km.\nClosest approach 01:48:43 IST\, give or take 3 s. The star 
+ is 19° up in the WNW · dark sky.\nIt fades 3.3 magnitudes for up to 4.3 
+ s on the centre line\, and the path is 36 km wide\, give or take 18 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-01-21-400-ducrosa-012160
 URL:https://occult.alokm.com/asteroid?e=2027-01-21-400-ducrosa-012160
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -495,13 +400,13 @@ DTSTART:20270125T163841Z
 DTEND:20270125T164841Z
 SUMMARY:(3214) Makarenko hides a mag 10.8 star · 38% chance
 DESCRIPTION:(3214) Makarenko hides a magnitude 10.8 star\, seen from Jorhat
- .\nYou are inside the path\, 8 km from its centre line: the star vanishes 
- for up to 1.0 s.\nChance of an occultation here: 38%\, allowing for the pa
- th's 1σ of 17 km.\nClosest approach 22:13:41 IST\, give or take 2 s. The 
- star is 75° up in the W · dark sky.\nIt fades 5.9 magnitudes for up to 1
- .8 s on the centre line\, and the path is 18 km wide\, give or take 17 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-01-25-3214-makarenko-878656
+ .\nYou're inside the path\, 8 km from the centre line. The star vanishes f
+ or up to 1.0 s.\nChance of an occultation here: 38%\, allowing for the pat
+ h's 1σ of 17 km.\nClosest approach 22:13:41 IST\, give or take 2 s. The s
+ tar is 75° up in the W · dark sky.\nIt fades 5.9 magnitudes for up to 1.
+ 8 s on the centre line\, and the path is 18 km wide\, give or take 17 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-01-25-3214-makarenko-878656
 URL:https://occult.alokm.com/asteroid?e=2027-01-25-3214-makarenko-878656
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -518,14 +423,13 @@ DTEND:20270128T153454Z
 SUMMARY:(167) Urda hides a mag 12.4 star (just outside the path) · 19% cha
  nce
 DESCRIPTION:(167) Urda hides a magnitude 12.4 star\, seen from Jorhat.\nThe
-  predicted edge passes 26 km to the S\, so a miss is likely — but a chor
- d from near the edge is the most valuable observation of all.\nChance of a
- n occultation here: 19%\, allowing for the path's 1σ of 32 km.\nClosest a
- pproach 20:59:54 IST\, give or take 1 s. The star is 22° up in the W · d
- ark sky.\nIt fades 2.7 magnitudes for up to 1.7 s on the centre line\, and
-  the path is 40 km wide\, give or take 32 km.\nThe map\, the finder chart 
- and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-28-167-ur
- da-876800
+  edge is 26 km to the S. A miss is likely\, but an edge timing is very val
+ uable.\nChance of an occultation here: 19%\, allowing for the path's 1σ o
+ f 32 km.\nClosest approach 20:59:54 IST\, give or take 1 s. The star is 22
+ ° up in the W · dark sky.\nIt fades 2.7 magnitudes for up to 1.7 s on th
+ e centre line\, and the path is 40 km wide\, give or take 32 km.\nThe map\
+ , the finder chart and the path as KML: https://occult.alokm.com/asteroid?
+ e=2027-01-28-167-urda-876800
 URL:https://occult.alokm.com/asteroid?e=2027-01-28-167-urda-876800
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -543,14 +447,13 @@ DTEND:20270129T231520Z
 SUMMARY:(1615) Bardwell hides a mag 11.6 star (just outside the path) · 28
  % chance
 DESCRIPTION:(1615) Bardwell hides a magnitude 11.6 star\, seen from Jorhat.
- \nThe predicted edge passes 10 km to the SSW\, so a miss is likely — but
-  a chord from near the edge is the most valuable observation of all.\nChan
- ce of an occultation here: 28%\, allowing for the path's 1σ of 14 km.\nCl
- osest approach 04:40:20 IST\, give or take 1 s. The star is 18° up in the
-  W · dark sky.\nIt fades 3.9 magnitudes for up to 2.3 s on the centre lin
- e\, and the path is 29 km wide\, give or take 14 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-29
- -1615-bardwell-089472
+ \nThe edge is 10 km to the SSW. A miss is likely\, but an edge timing is v
+ ery valuable.\nChance of an occultation here: 28%\, allowing for the path'
+ s 1σ of 14 km.\nClosest approach 04:40:20 IST\, give or take 1 s. The sta
+ r is 18° up in the W · dark sky.\nIt fades 3.9 magnitudes for up to 2.3 
+ s on the centre line\, and the path is 29 km wide\, give or take 14 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-01-29-1615-bardwell-089472
 URL:https://occult.alokm.com/asteroid?e=2027-01-29-1615-bardwell-089472
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -581,14 +484,13 @@ DTEND:20270205T172626Z
 SUMMARY:(754) Malabar hides a mag 11.6 star (just outside the path) · 44% 
  chance
 DESCRIPTION:(754) Malabar hides a magnitude 11.6 star\, seen from Jorhat.\n
- The predicted edge passes 5 km to the ESE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 44%\, allowing for the path's 1σ of 22 km.\nClose
- st approach 22:51:26 IST\, give or take 1 s. The star is 34° up in the WS
- W · dark sky.\nIt fades 2.7 magnitudes for up to 8.5 s on the centre line
- \, and the path is 95 km wide\, give or take 22 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-05-
- 754-malabar-109056
+ The edge is 5 km to the ESE. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 44%\, allowing for the path's 1
+ σ of 22 km.\nClosest approach 22:51:26 IST\, give or take 1 s. The star i
+ s 34° up in the WSW · dark sky.\nIt fades 2.7 magnitudes for up to 8.5 s
+  on the centre line\, and the path is 95 km wide\, give or take 22 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-02-05-754-malabar-109056
 URL:https://occult.alokm.com/asteroid?e=2027-02-05-754-malabar-109056
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -658,14 +560,13 @@ DTEND:20270304T122831Z
 SUMMARY:(1241) Dysona hides a mag 10.0 star (just outside the path) · 18% 
  chance
 DESCRIPTION:(1241) Dysona hides a magnitude 10.0 star\, seen from Jorhat.\n
- The predicted edge passes 22 km to the SW\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 18%\, allowing for the path's 1σ of 24 km.\nClose
- st approach 17:53:31 IST\, give or take 2 s. The star is 75° up in the NN
- W · dusk.\nIt fades 5.9 magnitudes for up to 4.9 s on the centre line\, a
- nd the path is 79 km wide\, give or take 24 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-04-1241
- -dysona-062464
+ The edge is 22 km to the SW. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 18%\, allowing for the path's 1
+ σ of 24 km.\nClosest approach 17:53:31 IST\, give or take 2 s. The star i
+ s 75° up in the NNW · dusk.\nIt fades 5.9 magnitudes for up to 4.9 s on 
+ the centre line\, and the path is 79 km wide\, give or take 24 km.\nThe ma
+ p\, the finder chart and the path as KML: https://occult.alokm.com/asteroi
+ d?e=2027-03-04-1241-dysona-062464
 URL:https://occult.alokm.com/asteroid?e=2027-03-04-1241-dysona-062464
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -695,13 +596,13 @@ DTSTART:20270320T213605Z
 DTEND:20270320T214605Z
 SUMMARY:(1724) Vladimir hides a mag 12.3 star · 51% chance
 DESCRIPTION:(1724) Vladimir hides a magnitude 12.3 star\, seen from Jorhat.
- \nYou are inside the path\, 22 km from its centre line: the star vanishes 
- for up to 0.9 s.\nChance of an occultation here: 51%\, allowing for the pa
- th's 1σ of 22 km.\nClosest approach 03:11:05 IST\, give or take 1 s. The 
- star is 25° up in the ESE · dark sky.\nIt fades 4.9 magnitudes for up to
-  1.4 s on the centre line\, and the path is 38 km wide\, give or take 22 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-03-20-1724-vladimir-897088
+ \nYou're inside the path\, 22 km from the centre line. The star vanishes f
+ or up to 0.9 s.\nChance of an occultation here: 51%\, allowing for the pat
+ h's 1σ of 22 km.\nClosest approach 03:11:05 IST\, give or take 1 s. The s
+ tar is 25° up in the ESE · dark sky.\nIt fades 4.9 magnitudes for up to 
+ 1.4 s on the centre line\, and the path is 38 km wide\, give or take 22 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-03-20-1724-vladimir-897088
 URL:https://occult.alokm.com/asteroid?e=2027-03-20-1724-vladimir-897088
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -717,13 +618,13 @@ DTSTART:20270325T204706Z
 DTEND:20270325T205706Z
 SUMMARY:(15) Eunomia hides a mag 13.4 star · >99% chance
 DESCRIPTION:(15) Eunomia hides a magnitude 13.4 star\, seen from Jorhat.\nY
- ou are inside the path\, 45 km from its centre line: the star vanishes for
-  up to 21.8 s.\nChance of an occultation here: >99%\, allowing for the pat
- h's 1σ of 20 km.\nClosest approach 02:22:06 IST\, give or take 2 s. The s
- tar is 22° up in the SSE · dark sky.\nIt fades 0.1 magnitudes for up to 
- 22.1 s on the centre line\, and the path is 232 km wide\, give or take 20 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2027-03-25-15-eunomia-804736
+ ou're inside the path\, 45 km from the centre line. The star vanishes for 
+ up to 21.8 s.\nChance of an occultation here: >99%\, allowing for the path
+ 's 1σ of 20 km.\nClosest approach 02:22:06 IST\, give or take 2 s. The st
+ ar is 22° up in the SSE · dark sky.\nIt fades 0.1 magnitudes for up to 2
+ 2.1 s on the centre line\, and the path is 232 km wide\, give or take 20 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-03-25-15-eunomia-804736
 URL:https://occult.alokm.com/asteroid?e=2027-03-25-15-eunomia-804736
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -740,14 +641,13 @@ DTEND:20270410T163353Z
 SUMMARY:(659) Nestor hides a mag 10.5 star (just outside the path) · 35% c
  hance
 DESCRIPTION:(659) Nestor hides a magnitude 10.5 star\, seen from Jorhat.\nT
- he predicted edge passes 24 km to the SSW\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 35%\, allowing for the path's 1σ of 65 km.\nClose
- st approach 21:58:53 IST\, give or take 3 s. The star is 57° up in the SS
- E · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 s on the centre line
- \, and the path is 112 km wide\, give or take 65 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-04-10
- -659-nestor-635008
+ he edge is 24 km to the SSW. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 35%\, allowing for the path's 1
+ σ of 65 km.\nClosest approach 21:58:53 IST\, give or take 3 s. The star i
+ s 57° up in the SSE · dark sky.\nIt fades 5.5 magnitudes for up to 6.5 s
+  on the centre line\, and the path is 112 km wide\, give or take 65 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-04-10-659-nestor-635008
 URL:https://occult.alokm.com/asteroid?e=2027-04-10-659-nestor-635008
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -804,14 +704,13 @@ DTEND:20270417T154708Z
 SUMMARY:(183) Istria hides a mag 12.1 star (just outside the path) · 36% c
  hance
 DESCRIPTION:(183) Istria hides a magnitude 12.1 star\, seen from Jorhat.\nT
- he predicted edge passes 6 km to the S\, so a miss is likely — but a cho
- rd from near the edge is the most valuable observation of all.\nChance of 
- an occultation here: 36%\, allowing for the path's 1σ of 17 km.\nClosest 
- approach 21:12:08 IST\, give or take 1 s. The star is 20° up in the W · 
- dark sky.\nIt fades 2.4 magnitudes for up to 1.1 s on the centre line\, an
- d the path is 33 km wide\, give or take 17 km.\nThe map\, the finder chart
-  and the path as KML: https://occult.alokm.com/asteroid?e=2027-04-17-183-i
- stria-463232
+ he edge is 6 km to the S. A miss is likely\, but an edge timing is very va
+ luable.\nChance of an occultation here: 36%\, allowing for the path's 1σ 
+ of 17 km.\nClosest approach 21:12:08 IST\, give or take 1 s. The star is 2
+ 0° up in the W · dark sky.\nIt fades 2.4 magnitudes for up to 1.1 s on t
+ he centre line\, and the path is 33 km wide\, give or take 17 km.\nThe map
+ \, the finder chart and the path as KML: https://occult.alokm.com/asteroid
+ ?e=2027-04-17-183-istria-463232
 URL:https://occult.alokm.com/asteroid?e=2027-04-17-183-istria-463232
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -828,13 +727,13 @@ DTSTART:20270420T181646Z
 DTEND:20270420T182646Z
 SUMMARY:(120) Lachesis hides a mag 12.9 star · 83% chance
 DESCRIPTION:(120) Lachesis hides a magnitude 12.9 star\, seen from Jorhat.\
- nYou are inside the path\, 63 km from its centre line: the star vanishes f
- or up to 25.3 s.\nChance of an occultation here: 83%\, allowing for the pa
- th's 1σ of 17 km.\nClosest approach 23:51:46 IST\, give or take 7 s. The 
- star is 13° up in the SE · dark sky.\nIt fades 0.8 magnitudes for up to 
- 41.0 s on the centre line\, and the path is 155 km wide\, give or take 17 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2027-04-20-120-lachesis-540288
+ nYou're inside the path\, 63 km from the centre line. The star vanishes fo
+ r up to 25.3 s.\nChance of an occultation here: 83%\, allowing for the pat
+ h's 1σ of 17 km.\nClosest approach 23:51:46 IST\, give or take 7 s. The s
+ tar is 13° up in the SE · dark sky.\nIt fades 0.8 magnitudes for up to 4
+ 1.0 s on the centre line\, and the path is 155 km wide\, give or take 17 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-04-20-120-lachesis-540288
 URL:https://occult.alokm.com/asteroid?e=2027-04-20-120-lachesis-540288
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -850,13 +749,13 @@ DTSTART:20270508T142251Z
 DTEND:20270508T143251Z
 SUMMARY:(2443) Tomeileen hides a mag 11.4 star · 72% chance
 DESCRIPTION:(2443) Tomeileen hides a magnitude 11.4 star\, seen from Jorhat
- .\nYou are inside the path\, 1 km from its centre line: the star vanishes 
- for up to 3.1 s.\nChance of an occultation here: 72%\, allowing for the pa
- th's 1σ of 15 km.\nClosest approach 19:57:51 IST\, give or take 4 s. The 
- star is 13° up in the ESE · dark sky.\nIt fades 3.3 magnitudes for up to
-  3.1 s on the centre line\, and the path is 32 km wide\, give or take 15 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-05-08-2443-tomeileen-773440
+ .\nYou're inside the path\, 1 km from the centre line. The star vanishes f
+ or up to 3.1 s.\nChance of an occultation here: 72%\, allowing for the pat
+ h's 1σ of 15 km.\nClosest approach 19:57:51 IST\, give or take 4 s. The s
+ tar is 13° up in the ESE · dark sky.\nIt fades 3.3 magnitudes for up to 
+ 3.1 s on the centre line\, and the path is 32 km wide\, give or take 15 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-05-08-2443-tomeileen-773440
 URL:https://occult.alokm.com/asteroid?e=2027-05-08-2443-tomeileen-773440
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -873,14 +772,13 @@ DTEND:20270510T193216Z
 SUMMARY:(1329) Eliane hides a mag 12.7 star (just outside the path) · 31% 
  chance
 DESCRIPTION:(1329) Eliane hides a magnitude 12.7 star\, seen from Jorhat.\n
- The predicted edge passes 7 km to the S\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nChance of
-  an occultation here: 31%\, allowing for the path's 1σ of 12 km.\nClosest
-  approach 00:57:16 IST\, give or take 2 s. The star is 37° up in the SE 
- · dark sky.\nIt fades 2.4 magnitudes for up to 2.5 s on the centre line\,
-  and the path is 19 km wide\, give or take 12 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-10-13
- 29-eliane-088000
+ The edge is 7 km to the S. A miss is likely\, but an edge timing is very v
+ aluable.\nChance of an occultation here: 31%\, allowing for the path's 1σ
+  of 12 km.\nClosest approach 00:57:16 IST\, give or take 2 s. The star is 
+ 37° up in the SE · dark sky.\nIt fades 2.4 magnitudes for up to 2.5 s on
+  the centre line\, and the path is 19 km wide\, give or take 12 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2027-05-10-1329-eliane-088000
 URL:https://occult.alokm.com/asteroid?e=2027-05-10-1329-eliane-088000
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -924,14 +822,13 @@ DTEND:20270528T163241Z
 SUMMARY:(319) Leona hides a mag 10.6 star (just outside the path) · 28% ch
  ance
 DESCRIPTION:(319) Leona hides a magnitude 10.6 star\, seen from Jorhat.\nTh
- e predicted edge passes 20 km to the NNE\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nChance o
- f an occultation here: 28%\, allowing for the path's 1σ of 35 km.\nCloses
- t approach 21:57:41 IST\, give or take 2 s. The star is 40° up in the SE 
- · dark sky.\nIt fades 5.5 magnitudes for up to 3.3 s on the centre line\,
-  and the path is 50 km wide\, give or take 35 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-28-31
- 9-leona-735488
+ e edge is 20 km to the NNE. A miss is likely\, but an edge timing is very 
+ valuable.\nChance of an occultation here: 28%\, allowing for the path's 1
+ σ of 35 km.\nClosest approach 21:57:41 IST\, give or take 2 s. The star i
+ s 40° up in the SE · dark sky.\nIt fades 5.5 magnitudes for up to 3.3 s 
+ on the centre line\, and the path is 50 km wide\, give or take 35 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2027-05-28-319-leona-735488
 URL:https://occult.alokm.com/asteroid?e=2027-05-28-319-leona-735488
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -961,13 +858,13 @@ DTSTART:20270607T182934Z
 DTEND:20270607T183934Z
 SUMMARY:(888) Parysatis hides a mag 12.5 star · 79% chance
 DESCRIPTION:(888) Parysatis hides a magnitude 12.5 star\, seen from Jorhat.
- \nYou are inside the path\, 10 km from its centre line: the star vanishes 
- for up to 3.4 s.\nChance of an occultation here: 79%\, allowing for the pa
- th's 1σ of 16 km.\nClosest approach 00:04:34 IST\, give or take 1 s. The 
- star is 50° up in the SSE · dark sky.\nIt fades 1.8 magnitudes for up to
-  3.7 s on the centre line\, and the path is 45 km wide\, give or take 16 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-06-07-888-parysatis-925056
+ \nYou're inside the path\, 10 km from the centre line. The star vanishes f
+ or up to 3.4 s.\nChance of an occultation here: 79%\, allowing for the pat
+ h's 1σ of 16 km.\nClosest approach 00:04:34 IST\, give or take 1 s. The s
+ tar is 50° up in the SSE · dark sky.\nIt fades 1.8 magnitudes for up to 
+ 3.7 s on the centre line\, and the path is 45 km wide\, give or take 16 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-06-07-888-parysatis-925056
 URL:https://occult.alokm.com/asteroid?e=2027-06-07-888-parysatis-925056
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -996,13 +893,13 @@ DTSTART:20270623T193838Z
 DTEND:20270623T194838Z
 SUMMARY:(3631) Sigyn hides a mag 13.0 star · 83% chance
 DESCRIPTION:(3631) Sigyn hides a magnitude 13.0 star\, seen from Jorhat.\nY
- ou are inside the path\, 3 km from its centre line: the star vanishes for 
- up to 3.4 s.\nChance of an occultation here: 83%\, allowing for the path's
-  1σ of 14 km.\nClosest approach 01:13:38 IST\, give or take 2 s. The star
-  is 53° up in the SSW · dark sky.\nIt fades 2.5 magnitudes for up to 3.6
-  s on the centre line\, and the path is 39 km wide\, give or take 14 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-06-23-3631-sigyn-376000
+ ou're inside the path\, 3 km from the centre line. The star vanishes for u
+ p to 3.4 s.\nChance of an occultation here: 83%\, allowing for the path's 
+ 1σ of 14 km.\nClosest approach 01:13:38 IST\, give or take 2 s. The star 
+ is 53° up in the SSW · dark sky.\nIt fades 2.5 magnitudes for up to 3.6 
+ s on the centre line\, and the path is 39 km wide\, give or take 14 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-06-23-3631-sigyn-376000
 URL:https://occult.alokm.com/asteroid?e=2027-06-23-3631-sigyn-376000
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1018,13 +915,13 @@ DTSTART:20270723T153753Z
 DTEND:20270723T154753Z
 SUMMARY:(651) Antikleia hides a mag 11.8 star · 72% chance
 DESCRIPTION:(651) Antikleia hides a magnitude 11.8 star\, seen from Jorhat.
- \nYou are inside the path\, 7 km from its centre line: the star vanishes f
- or up to 2.6 s.\nChance of an occultation here: 72%\, allowing for the pat
- h's 1σ of 15 km.\nClosest approach 21:12:53 IST\, give or take 1 s. The s
- tar is 15° up in the SE · dark sky.\nIt fades 2.8 magnitudes for up to 2
- .8 s on the centre line\, and the path is 32 km wide\, give or take 15 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-07-23-651-antikleia-093312
+ \nYou're inside the path\, 7 km from the centre line. The star vanishes fo
+ r up to 2.6 s.\nChance of an occultation here: 72%\, allowing for the path
+ 's 1σ of 15 km.\nClosest approach 21:12:53 IST\, give or take 1 s. The st
+ ar is 15° up in the SE · dark sky.\nIt fades 2.8 magnitudes for up to 2.
+ 8 s on the centre line\, and the path is 32 km wide\, give or take 15 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-07-23-651-antikleia-093312
 URL:https://occult.alokm.com/asteroid?e=2027-07-23-651-antikleia-093312
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1041,14 +938,13 @@ DTEND:20270723T162516Z
 SUMMARY:(991) McDonalda hides a mag 11.4 star (just outside the path) · 41
  % chance
 DESCRIPTION:(991) McDonalda hides a magnitude 11.4 star\, seen from Jorhat.
- \nThe predicted edge passes 4 km to the S\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 41%\, allowing for the path's 1σ of 12 km.\nClose
- st approach 21:50:16 IST\, give or take 3 s. The star is 38° up in the SS
- E · dark sky.\nIt fades 3.5 magnitudes for up to 4.2 s on the centre line
- \, and the path is 39 km wide\, give or take 12 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-07-23-
- 991-mcdonalda-085824
+ \nThe edge is 4 km to the S. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 41%\, allowing for the path's 1
+ σ of 12 km.\nClosest approach 21:50:16 IST\, give or take 3 s. The star i
+ s 38° up in the SSE · dark sky.\nIt fades 3.5 magnitudes for up to 4.2 s
+  on the centre line\, and the path is 39 km wide\, give or take 12 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-07-23-991-mcdonalda-085824
 URL:https://occult.alokm.com/asteroid?e=2027-07-23-991-mcdonalda-085824
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1078,13 +974,13 @@ DTSTART:20270805T132534Z
 DTEND:20270805T133534Z
 SUMMARY:(335) Roberta hides a mag 10.2 star · 93% chance
 DESCRIPTION:(335) Roberta hides a magnitude 10.2 star\, seen from Jorhat.\n
- You are inside the path\, 25 km from its centre line: the star vanishes fo
- r up to 2.5 s.\nChance of an occultation here: 93%\, allowing for the path
- 's 1σ of 21 km.\nClosest approach 19:00:34 IST\, give or take 1 s. The st
- ar is 22° up in the W · dark sky.\nIt fades 4.0 magnitudes for up to 2.7
-  s on the centre line\, and the path is 97 km wide\, give or take 21 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-08-05-335-roberta-353280
+ You're inside the path\, 25 km from the centre line. The star vanishes for
+  up to 2.5 s.\nChance of an occultation here: 93%\, allowing for the path'
+ s 1σ of 21 km.\nClosest approach 19:00:34 IST\, give or take 1 s. The sta
+ r is 22° up in the W · dark sky.\nIt fades 4.0 magnitudes for up to 2.7 
+ s on the centre line\, and the path is 97 km wide\, give or take 21 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-08-05-335-roberta-353280
 URL:https://occult.alokm.com/asteroid?e=2027-08-05-335-roberta-353280
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1127,14 +1023,13 @@ DTEND:20270812T143536Z
 SUMMARY:(795) Fini hides a mag 11.4 star (just outside the path) · 17% cha
  nce
 DESCRIPTION:(795) Fini hides a magnitude 11.4 star\, seen from Jorhat.\nThe
-  predicted edge passes 17 km to the ESE\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nChance of
-  an occultation here: 17%\, allowing for the path's 1σ of 15 km.\nClosest
-  approach 20:00:36 IST\, give or take 2 s. The star is 14° up in the SSW 
- · dark sky.\nIt fades 3.5 magnitudes for up to 8.3 s on the centre line\,
-  and the path is 85 km wide\, give or take 15 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-12-79
- 5-fini-360256
+  edge is 17 km to the ESE. A miss is likely\, but an edge timing is very v
+ aluable.\nChance of an occultation here: 17%\, allowing for the path's 1σ
+  of 15 km.\nClosest approach 20:00:36 IST\, give or take 2 s. The star is 
+ 14° up in the SSW · dark sky.\nIt fades 3.5 magnitudes for up to 8.3 s o
+ n the centre line\, and the path is 85 km wide\, give or take 15 km.\nThe 
+ map\, the finder chart and the path as KML: https://occult.alokm.com/aster
+ oid?e=2027-08-12-795-fini-360256
 URL:https://occult.alokm.com/asteroid?e=2027-08-12-795-fini-360256
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1155,6 +1050,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 00:29:23 at the dark limb
  ulars show it.\nEvery occultation this month\, for anywhere: https://occul
  t.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90421d98646f-jorhat@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T164756Z
+DTEND:20270910T164956Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 22:17:56 at the dark limb
+  IST\, seen from Jorhat.\nThe Moon is 23° up in the SW · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6945b5ac108e-jorhat@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T213353Z
+DTEND:20270925T213553Z
+SUMMARY:The Moon hides HIP 41833 · mag 6.5
+DESCRIPTION:HIP 41833 (magnitude 6.5) reappears at 03:03:53 at the dark lim
+ b IST\, seen from Jorhat.\nThe Moon is 29° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2c7376907a66-jorhat@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T133657Z
+DTEND:20271013T133857Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 19:06:57 at the dark limb 
+ IST\, seen from Jorhat.\nThe Moon is 48° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-581194cf8b10-jorhat@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T195603Z
+DTEND:20271021T195803Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 01:26:03 at the dark limb I
+ ST\, seen from Jorhat.\nThe Moon is 49° up in the E · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

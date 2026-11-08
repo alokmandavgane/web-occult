@@ -23,6 +23,7 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
           "September", "October", "November", "December"]
 DEFAULT_PLACE = ("New Delhi", 28.6139, 77.2090, "Asia/Kolkata")
 DEFAULT_INSTRUMENT = "scope80"
+ARTICLE = {"eye": "the ", "binoculars": ""}   # "with the naked eye", "with binoculars", else "with a …" (twin of the page JS)
 COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 
 
@@ -331,7 +332,7 @@ SOLVER_JS = r"""
     });
     document.getElementById('tz-label').textContent = tzLabel(tz);
     document.getElementById('chip-name').textContent = LOC.label;
-    countLine.textContent = list.length + ' occultations you can see from ' + LOC.label + ' with ' + META.instruments[INST][0].toLowerCase() + ' this month, on ' + order.length + ' nights · ' + occ + ' in all from there';
+    countLine.textContent = list.length + ' occultations you can see from ' + LOC.label + ' with ' + (INST === 'eye' ? 'the ' : INST === 'binoculars' ? '' : 'a ') + META.instruments[INST][0].toLowerCase() + ' this month, on ' + order.length + ' nights · ' + occ + ' in all from there';
     if (window.MoonRender && model.d.lib) MoonRender.load(META.texture).then(function () {
       calEl.querySelectorAll('.cal-moon').forEach(function (cv) {
         var day = +cv.parentNode.getAttribute('data-day'), ms = Date.UTC(y, mo - 1, day) + (21 - LOC.lon / 15) * 36e5;
@@ -395,9 +396,9 @@ TEMPLATE = """
 <main class="wrap">
   <h1>__TITLE__</h1>
   <p class="sub">Lunar occultations of stars to magnitude 9.5, computed for your location</p>
-  <p class="lead">Every night the Moon slides in front of stars. A star doesn't fade behind it — it switches off, then
-  switches back on at the other edge, often an hour later. Pick your place and what you observe with; the list keeps
-  what you can realistically see.</p>
+  <p class="lead">Every night the Moon slides in front of stars. A star doesn't fade behind it: it switches off, then
+  back on at the other edge, often an hour later. Pick your place and instrument; the list keeps what you can
+  realistically see.</p>
   <div class="filters" id="inst-chips">__INST_CHIPS__</div>
   <p class="hint" id="count-line">__COUNT__</p>
   <div class="cal" id="ms-cal" aria-label="The month at a glance">__CAL__</div>
@@ -405,18 +406,16 @@ TEMPLATE = """
   On each Moon, the numbered marks show where on the limb each star disappears or reappears.</p>
   <div id="ms-nights">__NIGHTS__</div>
   <h2>Reading the list</h2>
-  <p class="method">The Moons are drawn from LRO LOLA topography (a 40 KB relief map), lit by the Sun as it is at that
-  moment and turned to the Moon's real libration: north up, east to the left. A <em>dark-limb</em> event — the star vanishing into, or popping out of, the unlit edge of the Moon — is
-  easy to see. At the <em>bright</em> limb only bright stars show against the glare. <em>PA</em> is where on the limb it
-  happens, measured from north through east; the <em>cusp angle</em> is the distance from the nearest horn of the crescent.
-  <span class="badge">graze</span> marks a star passing within 3″ of the edge from your place: a few kilometres from a graze
-  line, where it may blink several times behind mountains.</p>
+  <p class="method">The Moon images use LRO LOLA terrain (a 40 KB relief map), lit and tilted as at that moment. North up,
+  east left. <em>Dark-limb</em> events are easy to see: the star vanishes at, or reappears from, the Moon's unlit edge.
+  At the <em>bright</em> limb only bright stars show against the glare. <em>PA</em> is where on the edge it happens,
+  measured from north through east. <em>Cusp angle</em> is the distance from the crescent's nearest tip.
+  <span class="badge">graze</span> means the star skims the edge from your place and may blink behind mountains.</p>
   <table class="rules"><thead><tr><th>Instrument</th><th>dark limb</th><th>bright limb</th></tr></thead><tbody>__RULES__</tbody></table>
-  <p class="method">Those limits are rules of thumb: the dark-limb limit drops by 2.5 magnitudes × (lit fraction − 0.4) in
-  moonglare and by 1 in twilight; events with the Moon under 5° are left out, and daylight events except for the
-  brightest stars. Stars are from Gaia DR3 to G 9.5, with Hipparcos-2 for the brightest and the Yale Bright Star
-  Catalogue for names; the Moon is from the JPL DE431 ephemeris. Times are for the Moon's mean limb, ±2 s — mountains at
-  the edge can move a contact by a few seconds, and much more near a graze.</p>
+  <p class="method">Rules of thumb: the dark-limb limit drops by 2.5 mag × (lit fraction − 0.4) in moonglare and by 1 mag
+  in twilight. Events with the Moon below 5° are left out, and so are daylight events except for the brightest stars.
+  Stars: Gaia DR3 to G 9.5, Hipparcos-2 for the brightest, names from the Yale Bright Star Catalogue. Moon: JPL DE431.
+  Times use the Moon's smooth edge (±2 s). Mountains can shift a contact by seconds, and by more near a graze.</p>
   <script type="application/json" id="ms-meta">__META__</script>
 </main>
 __FOOTER__
@@ -463,7 +462,7 @@ def month_page(ym, d, cities, nav):
     body = TEMPLATE
     for k, v in {"__PREV__": prev_link, "__NEXT__": next_link, "__PLACE__": esc(name), "__TITLE__": esc(title),
                  "__INST_CHIPS__": chips, "__TZL__": "IST",
-                 "__COUNT__": f"{len(shown)} occultations you can see from {esc(name)} with {esc(inst_label.lower())} this month, on {len(groups)} nights · {occ} in all from there",
+                 "__COUNT__": f"{len(shown)} occultations you can see from {esc(name)} with {ARTICLE.get(DEFAULT_INSTRUMENT, 'a ')}{esc(inst_label.lower())} this month, on {len(groups)} nights · {occ} in all from there",
                  "__CAL__": calendar_html(y, mo, groups), "__NIGHTS__": nights_html(groups, t0, tz), "__RULES__": rules,
                  "__META__": json.dumps(meta, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"),
                  "__FOOTER__": FOOTER, "__MOONJS_V__": _hash(MOON_JS),

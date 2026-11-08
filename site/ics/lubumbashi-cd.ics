@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Lubumbashi
 BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-lubumbashi-cd@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T113429Z
-DTEND:20261006T113530Z
-SUMMARY:The Moon occults Jupiter (disappearance only)
-DESCRIPTION:Jupiter disappears at 13:35:30 CAT\, seen from Lubumbashi\, CD.
- \nThe Moon sets during the occultation: only the disappearance is above th
- e horizon.\nThe Moon is 12° up in the WNW · daylight\, Sun +65°.\nTimes
-  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/jupiter-2026-10-06?city=Lubumbashi%2C%20CD
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Lubumbashi%2C%20CD
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter (disappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c7dcbbf8cfb9-lubumbashi-cd@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T022011Z
-DTEND:20261007T022211Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) reappears at 04:20:11 at the d
- ark limb CAT\, seen from Lubumbashi\, CD.\nThe Moon is 12° up in the ENE 
- · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
- ere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9ecc6ed61ce0-lubumbashi-cd@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261015T172412Z
-DTEND:20261015T172612Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 19:24:12 at the dark limb
-  CAT\, seen from Lubumbashi\, CD.\nThe Moon is 37° up in the WSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-43b8e7312fc2-lubumbashi-cd@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261107T024307Z
@@ -458,6 +413,59 @@ DESCRIPTION:HR 1188 (magnitude 5.3) reappears at 02:57:41 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d955d5afee6e-lubumbashi-cd@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T184438Z
+DTEND:20270906T184638Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 20:44:38 at the dark limb C
+ AT\, seen from Lubumbashi\, CD.\nThe Moon is 36° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe4fc11d7ef4-lubumbashi-cd@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T192541Z
+DTEND:20270906T192741Z
+SUMMARY:The Moon hides 3 Sco · mag 5.9
+DESCRIPTION:3 Sco (magnitude 5.9) disappears at 21:25:41 at the dark limb C
+ AT\, seen from Lubumbashi\, CD.\nThe Moon is 27° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d1a67e4b7db9-lubumbashi-cd@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T191443Z
+DTEND:20271004T193607Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 21:14:43 at the 
+ dark limb and reappears at 21:36:07 at the bright limb CAT\, seen from Lub
+ umbashi\, CD.\nThe Moon is 12° up in the WSW · dark sky. Binoculars show
+  it.\nEvery occultation this month\, for anywhere: https://occult.alokm.co
+ m/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c754385d1d3e-lubumbashi-cd@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T003738Z
+DTEND:20271016T003938Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 02:37:38 at the dark limb C
+ AT\, seen from Lubumbashi\, CD.\nThe Moon is 44° up in the NW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

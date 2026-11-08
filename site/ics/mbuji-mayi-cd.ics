@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Lubumbashi
 BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-mbuji-mayi-cd@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T113016Z
-DTEND:20261006T122800Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:31:21 and reappears at 14:27:00 CAT\, 
- seen from Mbuji-Mayi\, CD.\nThe Moon is 19° up in the WNW · daylight\, S
- un +71°.\nTimes against the real lunar limb.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Mbuji
- -Mayi%2C%20CD
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Mbuji-Mayi%2C%20CD
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-fe3a82ea36ad-mbuji-mayi-cd@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T021222Z
-DTEND:20261007T021422Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) reappears at 04:12:22 at the d
- ark limb CAT\, seen from Mbuji-Mayi\, CD.\nThe Moon is 8° up in the ENE 
- · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
- ere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-97e76469e0a8-mbuji-mayi-cd@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261015T173027Z
-DTEND:20261015T173227Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 19:30:27 at the dark limb
-  CAT\, seen from Mbuji-Mayi\, CD.\nThe Moon is 36° up in the WSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-7ef303619645-mbuji-mayi-cd@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T022222Z
@@ -379,6 +334,46 @@ DESCRIPTION:HR 2111 (magnitude 6.0) reappears at 05:40:14 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d79526292e85-mbuji-mayi-cd@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T184940Z
+DTEND:20270906T185140Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 20:49:40 at the dark limb C
+ AT\, seen from Mbuji-Mayi\, CD.\nThe Moon is 36° up in the WSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c8931e4bc0f-mbuji-mayi-cd@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T190000Z
+DTEND:20271004T195323Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 21:00:00 at the 
+ dark limb and reappears at 21:53:23 at the bright limb CAT\, seen from Mbu
+ ji-Mayi\, CD.\nThe Moon is 17° up in the WSW · dark sky. Binoculars show
+  it.\nEvery occultation this month\, for anywhere: https://occult.alokm.co
+ m/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f92a5b5af3a-mbuji-mayi-cd@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T003935Z
+DTEND:20271016T004135Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 02:39:35 at the dark limb C
+ AT\, seen from Mbuji-Mayi\, CD.\nThe Moon is 50° up in the WNW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

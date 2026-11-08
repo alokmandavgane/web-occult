@@ -1192,8 +1192,8 @@ def build(seed, slug):
     if vis:
         sky = ("in daylight" if n_day == len(vis) else "in a dark sky" if n_day == 0 else "in daylight for some, after sunset for others")
         auto_note = (f"The Moon hides {tname} for up to {max_hidden:.0f} minutes, {sky}. "
-                     + (f"{len(vis)} of the {len(cities)} listed Indian cities see it" if aud["cities"] != "world" else
-                      f"{len(vis)} of the world's big cities see it")
+                     + (f"{len(vis)} of the {len(cities)} listed Indian cities {'sees' if len(vis) == 1 else 'see'} it" if aud["cities"] != "world" else
+                      f"{len(vis)} of the world's big cities {'sees' if len(vis) == 1 else 'see'} it")
                      + (f"; {esc(near_miss['name'])} misses by {near_miss['sep_arcmin'] - near_miss['moon_sd_arcmin']:.1f}′." if near_miss else "."))
     else:
         auto_note = f"The Moon hides {tname}, but from no large city — the map shows where." 
@@ -1211,16 +1211,14 @@ def build(seed, slug):
                  "half-lit disc" if ip < 55 else "gibbous disc" if ip < 95 else "nearly full disc")
         shape += f" ({2 * g['target_sd_arcsec']:.0f}″ across, {ip}% lit)"
         tips = f"""
-      <p>This one happens in <strong>daylight</strong>. Venus is bright enough to see against a blue sky
-      if you know exactly where to look — and today the Moon is the finder: a thin crescent,
-      three days old, about 40° east of the Sun. Find the crescent first (shade the Sun with a
-      building), then look for a hard white point beside its <em>dark</em> edge. Binoculars make it
-      easy; a telescope shows Venus as a {shape} sliding behind the mountains of the
-      unlit limb, then popping back out at the bright crescent an hour later.</p>
-      <p>Because the limb it disappears behind is unlit, the disappearance is the harder half to
-      catch — you are watching a bright point vanish into what looks like empty sky. The
-      reappearance at the sunlit crescent is the easy, spectacular half. Never sweep near the Sun
-      with binoculars.</p>"""
+      <p>This one happens in <strong>daylight</strong>. Venus shows in a blue sky if you know where to look,
+      and today the thin crescent Moon points the way, 40° east of the Sun. Find the crescent first (shade
+      the Sun with a building), then look for a hard white point by its <em>dark</em> edge. Binoculars make
+      it easy. A telescope shows Venus as a {shape}, slipping behind the Moon's dark edge and
+      reappearing at the bright one an hour later.</p>
+      <p>The disappearance is harder to catch: Venus vanishes into the dark edge, which looks like empty sky.
+      The reappearance at the sunlit crescent is the easy, striking half. Never sweep near the Sun with
+      binoculars.</p>"""
 
     limit_para = ""
     if near_miss:
@@ -1229,17 +1227,14 @@ def build(seed, slug):
         ex = data["maps"][data["audience"]].get("limits_exact")
         if ex:
             sh = ex[0].get("shift_km") or {}
-            exact_note = (f" The solid line is traced against the real lunar limb — LRO LOLA terrain, the mountains and valleys "
-                          f"that are on the edge for this libration — and sits {sh.get('min', 0):+.1f} to {sh.get('max', 0):+.1f} km from the "
-                          f"mean-sphere line (dotted).")
+            exact_note = (f" The solid line uses the Moon's real, mountainous edge. It lies {sh.get('min', 0):+.1f} to "
+                          f"{sh.get('max', 0):+.1f} km from the smooth-sphere line (dotted).")
         limit_para = (f"<p>The gold line is the <strong>north limit</strong>: along it {tname} grazes the Moon's "
-                      f"northern edge. North of the line it is a near miss — from {esc(near_miss['name'])} {tname} "
-                      f"passes just {gap:.1f}′ outside the limb — and a graze seen from right on the line, {tname} "
-                      f"blinking in and out behind lunar mountains, is the finest view of all.{exact_note}</p>")
+                      f"northern edge. North of the line, {tname} misses: from {esc(near_miss['name'])} it passes "
+                      f"{gap:.1f}′ outside the Moon. Right on the line it grazes, blinking behind lunar mountains.{exact_note}</p>")
     night_para = ""
     if data["maps"][data["audience"]]["region_night"]:
-        night_para = ("<p>The violet shading is where the Sun has set by the time of the event, so the "
-                      "reappearance happens in a darkening sky.</p>")
+        night_para = "<p>In the violet area the Sun has set, so the reappearance is in a darkening sky.</p>"
 
     ld = {
         "@context": "https://schema.org", "@type": "Event",
@@ -1258,9 +1253,9 @@ def build(seed, slug):
     if (ROOT / "data" / f"{slug}-limb.json").exists():
         graze_block = f"""  <details class="advanced" id="graze">
     <summary>Advanced · graze profile against the real lunar limb</summary>
-    <p class="hint">For graze chasers. The lunar limb as it really is for your libration — LRO LOLA terrain, in km above and
-    below the mean sphere — with {esc(tname)}'s track drawn across it six minutes either side of each contact. Where the
-    track dips below the terrain, {esc(tname)} is hidden; near a graze it blinks behind peaks.</p>
+    <p class="hint">For graze chasers. The Moon's real edge as you see it, from LRO LOLA terrain, with {esc(tname)}'s
+    track for six minutes around each contact. Where the track dips below the terrain, {esc(tname)} is hidden; near a
+    graze it blinks behind peaks.</p>
     <div class="graze-card" id="graze-card">
       <button class="btn" id="graze-load" type="button" data-src="/data/{slug}-limb.json">Load the limb profile (120 KB)</button>
       <svg id="graze-svg" viewBox="0 0 800 230" class="graze-svg" role="img" aria-label="The target's track against the lunar limb profile" hidden></svg>
@@ -1294,7 +1289,7 @@ def build(seed, slug):
 
     thead = (f'<tr><th>City</th><th>{tname} disappears <small>({tzl})</small></th>'
              f'<th>reappears <small>({tzl})</small></th><th>hidden</th>'
-             f'<th title="How high the Moon stands above the horizon when {esc(tname)} disappears — or reappears, where the Moon rises during the occultation — (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look</th></tr>')
+             f'<th title="Height and direction of the Moon at the contact you can see (0° = horizon, 90° = overhead), and whether the sky is light or dark">Where to look</th></tr>')
 
     page = head(f"{title} · {SITE_NAME}", desc, f"/{slug}",
                 f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>', og="occ") + f"""
@@ -1363,10 +1358,9 @@ def build(seed, slug):
   {graze_block}
 
   <h2 id="cities">City by city</h2>
-  <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment {esc(tname)} is fully hidden (its disc takes from the
-  earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
-  Moon's height above the horizon (0° is the horizon, 90° straight up) and compass direction at that moment,
-  and whether the Sun is still up.</p>
+  <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em>: {esc(tname)} is fully hidden
+  (it starts sliding in at the earlier time). <em>Reappears</em>: the first sliver returns. <em>Where to look</em>:
+  the Moon's height (0° horizon, 90° overhead), its direction, and whether the Sun is up.</p>
   <div class="table-wrap">
     <table id="city-table">
       <thead>{thead}</thead>
@@ -1385,9 +1379,8 @@ def build(seed, slug):
 
   <h2>Method &amp; accuracy</h2>
   <p class="method">Positions from the JPL <strong>DE431</strong> ephemeris (Skyfield), ΔT = {data['engine']['delta_t_s']} s.
-  The city table's contact times and the solid limit line use the <strong>real lunar limb</strong> — the silhouette of
-  LRO LOLA terrain (LDEM_64, ~0.5 km) at each observer's own libration — so they carry the mountains and valleys
-  that a mean sphere misses (up to a few seconds at ordinary contacts, tens of seconds near a graze). The
+  City times and the solid limit line use the <strong>real lunar limb</strong>: LRO LOLA terrain (LDEM_64, ~0.5 km)
+  as each observer sees it. That changes times by a few seconds, or tens of seconds near a graze. The
   any-location solver in your browser and the shaded region still use the mean sphere of {data['engine']['moon_radius_km']} km (±2 s). {esc(tname)}'s own disc
   ({2 * g['target_sd_arcsec']:.0f}″ across) is included: partial contacts are the <small>from/to</small> times.
   The numbers behind this page: <a href="/data/{slug}.json">{slug}.json</a>.
@@ -1497,16 +1490,16 @@ KINDS = [
      "The Moon passes in front of a planet or a bright star. Only a band of the Earth sees it, and the times change from city to city.",
      [("You need", "your eyes or binoculars"), ("How often", "a few a year"), ("Each page", "a map of where it's seen and times for 500 cities")]),
     ("ms", "moon-stars", "The Moon and the stars", "Moon & stars",
-     "Every night the Moon slides over fainter stars. A star doesn't fade — it switches off at one edge and back on at the other. Computed for your own place.",
+     "Every night the Moon slides over fainter stars. A star doesn't fade; it switches off at one edge and back on at the other. Computed for your own place.",
      [("You need", "binoculars or a small telescope"), ("How often", "about one a night"), ("Each page", "a month calendar and every event for your location")]),
     ("ast", "asteroids", "Asteroid occultations", "Asteroids",
-     "An asteroid slips in front of a star and its shadow — as wide as the asteroid — sweeps a narrow path across the Earth. Inside it the star blinks out for a few seconds; a few kilometres outside, nothing.",
+     "An asteroid passes in front of a star. Its shadow sweeps a narrow path across the Earth: inside it the star blinks out for a few seconds, a few kilometres outside nothing happens.",
      [("You need", "a telescope of 100 mm or more, ideally a camera"), ("How often", "two or three paths over India a night"), ("Each page", "a month of paths across India, each mapped, with how close it passes you")]),
     ("jup", "jupiter", "Jupiter's moons", "Jupiter",
-     "Io, Europa, Ganymede and Callisto slip behind Jupiter, into its shadow and across its face — and the Great Red Spot turns to face us every ten hours.",
+     "Jupiter's four big moons pass behind it, into its shadow and across its face. The Great Red Spot comes round every ten hours.",
      [("You need", "any small telescope"), ("How often", "most nights"), ("Each page", "a month of events and a full-screen diagram of the moons, minute by minute")]),
     ("sat", "saturn", "Saturn's moons", "Saturn",
-     "Titan, Rhea, Dione and Tethys cross Saturn's face and fall into its shadow — possible only in the few years around the 2025 ring-plane crossing.",
+     "Saturn's big moons cross its face and enter its shadow. This only happens for a few years around the 2025 ring-plane crossing.",
      [("You need", "a telescope, 100 mm or more"), ("How often", "most nights while the season lasts"), ("Each page", "a month of events and a full-screen diagram, minute by minute")]),
 ]
 
@@ -1652,9 +1645,8 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
   <p style="margin:0.7rem 0 0"><a href="/calendar">Get the occultations your city can see in your calendar →</a></p>
   {"".join(sections)}
   <section class="kind" id="method"><h2>How these are made</h2>
-  <p class="method">Every time, line and diagram here is computed, not copied: planets, the Moon and the Sun from the JPL DE431
-  ephemeris, Jupiter's and Saturn's moons from JPL's satellite ephemerides, asteroids from JPL's Small-Body Database, stars from Gaia DR3 and Hipparcos-2, and the
-  Moon's mountains from NASA's LRO laser altimeter. The lunar-occultation list is chosen by hand; each page links the data it
+  <p class="method">Everything here is computed, not copied. Sources: JPL (planets, Moon, Sun, the moons, asteroids), Gaia DR3
+  and Hipparcos-2 (stars), NASA's LRO laser altimeter (the Moon's mountains). The lunar-occultation list is chosen by hand; each page links the data it
   was built from. <a href="/method">How this is computed, and what it was checked against →</a></p></section>
 </main>
 {FOOTER}

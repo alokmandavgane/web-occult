@@ -10,71 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
-UID:star-2bbca8705524-auckland-nz@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260913T071524Z
-DTEND:20260913T071724Z
-SUMMARY:The Moon hides ψ Vir · mag 4.7
-DESCRIPTION:ψ Vir (magnitude 4.7) disappears at 19:15:24 at the dark limb 
- NZST\, seen from Auckland\, NZ.\nThe Moon is 12° up in the W · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-4f59eee06e7c-auckland-nz@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260915T091302Z
-DTEND:20260915T091502Z
-SUMMARY:The Moon hides HR 5438 · mag 6.5
-DESCRIPTION:HR 5438 (magnitude 6.5) disappears at 21:13:02 at the dark limb
-  NZST\, seen from Auckland\, NZ.\nThe Moon is 13° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-dd1b60855411-auckland-nz@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260918T090121Z
-DTEND:20260918T090321Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 21:01:21 at the dark limb
-  NZST\, seen from Auckland\, NZ.\nThe Moon is 48° up in the W · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c51c2773a4e6-auckland-nz@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T064203Z
-DTEND:20260920T064403Z
-SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
-DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) reappears at 18:42:03 at the bri
- ght limb NZST\, seen from Auckland\, NZ.\nThe Moon is 77° up in the NE ·
-  dusk. Binoculars show it.\nEvery occultation this month\, for anywhere: h
- ttps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-625b972f67ae-auckland-nz@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261023T145140Z
-DTEND:20261023T145340Z
-SUMMARY:The Moon hides λ Psc · mag 4.5
-DESCRIPTION:λ Psc (magnitude 4.5) disappears at 03:51:40 at the dark limb 
- NZDT\, seen from Auckland\, NZ.\nThe Moon is 12° up in the W · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-jupiter-2026-11-02-auckland-nz@occult.alokm.com
 DTSTAMP:20260914T034752Z
 DTSTART:20261103T001015Z
@@ -360,6 +295,58 @@ DESCRIPTION:HR 5942 (magnitude 5.4) disappears at 01:56:44 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64c5aedf1469-auckland-nz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270905T075619Z
+DTEND:20270905T075819Z
+SUMMARY:The Moon hides HR 5438 · mag 6.5
+DESCRIPTION:HR 5438 (magnitude 6.5) disappears at 19:56:19 at the dark limb
+  NZST\, seen from Auckland\, NZ.\nThe Moon is 36° up in the W · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ca6497f5189-auckland-nz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T154937Z
+DTEND:20270921T155137Z
+SUMMARY:The Moon hides 44 Tau · mag 5.4
+DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:49:37 at the dark limb N
+ ZST\, seen from Auckland\, NZ.\nThe Moon is 26° up in the N · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6d847bbf834b-auckland-nz@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271005T104803Z
+DTEND:20271005T105003Z
+SUMMARY:The Moon hides HR 6354 · mag 6.3
+DESCRIPTION:HR 6354 (magnitude 6.3) disappears at 23:48:03 at the dark limb
+  NZDT\, seen from Auckland\, NZ.\nThe Moon is 13° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1cb881cd8b4b-auckland-nz@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T160909Z
+DTEND:20271026T161109Z
+SUMMARY:The Moon hides υ Leo · mag 4.3
+DESCRIPTION:υ Leo (magnitude 4.3) reappears at 05:09:09 at the dark limb N
+ ZDT\, seen from Auckland\, NZ.\nThe Moon is 6° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,20 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-c75bfcf1ad54-fuzhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T144202Z
-DTEND:20261020T150155Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:42:02 at the dark limb 
- and reappears at 23:01:55 at the dark limb CST\, seen from Fuzhou\, CN.\nT
- he Moon is 27° up in the SW · dark sky. Binoculars show it.\nEvery occul
- tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026
- -10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-37a437648fcd-fuzhou-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T211426Z
@@ -337,6 +323,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:40:35 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e8db9f5fb80-fuzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140212Z
+DTEND:20271013T140412Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:02:12 at the dark limb 
+ CST\, seen from Fuzhou\, CN.\nThe Moon is 65° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a2dcf5b9a65-fuzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T140025Z
+DTEND:20271020T140225Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:00:25 at the dark limb 
+ CST\, seen from Fuzhou\, CN.\nThe Moon is 10° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc423569d97d-fuzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T151811Z
+DTEND:20271021T152011Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:18:11 at the dark limb C
+ ST\, seen from Fuzhou\, CN.\nThe Moon is 13° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f12ae9836d02-fuzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205125Z
+DTEND:20271021T205325Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:51:25 at the dark limb C
+ ST\, seen from Fuzhou\, CN.\nThe Moon is 84° up in the ESE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

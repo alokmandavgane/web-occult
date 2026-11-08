@@ -10,71 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-5e700531b024-luohe-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162958Z
-DTEND:20260930T163158Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:29:58 at the d
- ark limb CST\, seen from Luohe\, CN.\nThe Moon is 49° up in the E · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-583f31db2853-luohe-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T211109Z
-DTEND:20261004T211309Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:11:09 at the dark limb 
- CST\, seen from Luohe\, CN.\nThe Moon is 56° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f504d4c7b24d-luohe-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204659Z
-DTEND:20261007T204859Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:46:59 at the dark limb 
- CST\, seen from Luohe\, CN.\nThe Moon is 12° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-732106ca3d65-luohe-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T141534Z
-DTEND:20261020T141734Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:15:34 at the dark limb 
- CST\, seen from Luohe\, CN.\nThe Moon is 29° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ab697760dc86-luohe-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T150910Z
-DTEND:20261021T151110Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:09:10 at the dark limb 
- CST\, seen from Luohe\, CN.\nThe Moon is 32° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-0fe82969e6ef-luohe-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T205042Z
@@ -386,6 +321,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:07:55 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e69b9648ab57-luohe-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140803Z
+DTEND:20271013T141003Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:08:03 at the dark limb 
+ CST\, seen from Luohe\, CN.\nThe Moon is 57° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d09db11a06f0-luohe-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141851Z
+DTEND:20271020T142051Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:18:51 at the dark limb 
+ CST\, seen from Luohe\, CN.\nThe Moon is 12° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1cd3a28c19f-luohe-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153458Z
+DTEND:20271021T153658Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:34:58 at the dark limb C
+ ST\, seen from Luohe\, CN.\nThe Moon is 14° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf6e9ae7e90b-luohe-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T203710Z
+DTEND:20271021T203910Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:37:10 at the dark limb C
+ ST\, seen from Luohe\, CN.\nThe Moon is 73° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

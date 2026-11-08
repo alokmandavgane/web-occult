@@ -10,47 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Bogota
 BEGIN:VEVENT
-UID:star-aabce652493b-medellin-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T000858Z
-DTEND:20260917T004818Z
-SUMMARY:The Moon hides π Sco · mag 2.8
-DESCRIPTION:π Sco (magnitude 2.8) disappears at 19:08:58 at the dark limb 
- and reappears at 19:48:18 at the bright limb -05\, seen from Medellín\, C
- O.\nThe Moon is 37° up in the SW · dark sky. Binoculars show it.\nEvery 
- occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
- -2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e624513cbcfb-medellin-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T033343Z
-DTEND:20260920T042717Z
-SUMMARY:The Moon hides φ Sgr · mag 3.1
-DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 22:33:43 at the dark limb 
- and reappears at 23:27:17 at the bright limb -05\, seen from Medellín\, C
- O.\nThe Moon is 27° up in the SW · dark sky. Binoculars show it.\nEvery 
- occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
- -2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-50214ce842ce-medellin-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260921T023242Z
-DTEND:20260921T023442Z
-SUMMARY:The Moon hides 52 Sgr · mag 4.6
-DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 21:32:42 at the dark limb 
- -05\, seen from Medellín\, CO.\nThe Moon is 48° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-24bc9be07591-medellin-co@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261113T232703Z
@@ -401,6 +360,111 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 21:02:47 at the dark limb
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ee8a05d51cda-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270907T004332Z
+DTEND:20270907T004532Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:43:32 at the dark limb
+  -05\, seen from Medellín\, CO.\nThe Moon is 40° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-35ba44c26ce0-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T031727Z
+DTEND:20270921T031927Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 22:17:27 at the dark limb -
+ 05\, seen from Medellín\, CO.\nThe Moon is 9° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa21caf66c9c-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T034010Z
+DTEND:20270921T034210Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 22:40:10 at the dark
+  limb -05\, seen from Medellín\, CO.\nThe Moon is 14° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-16b9d5dbb7ad-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T034731Z
+DTEND:20270921T034931Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 22:47:31 at the d
+ ark limb -05\, seen from Medellín\, CO.\nThe Moon is 15° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1d7a9ba45a9-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T070114Z
+DTEND:20270924T070314Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 02:01:14 at the dark limb -
+ 05\, seen from Medellín\, CO.\nThe Moon is 19° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b2bb6c03f2c1-medellin-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T080221Z
+DTEND:20270926T080421Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) reappears at 03:02:21 at the dark limb 
+ -05\, seen from Medellín\, CO.\nThe Moon is 7° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0b0c36b1934-medellin-co@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T153652Z
+DTEND:20271004T164138Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 10:36:52 at the 
+ dark limb and reappears at 11:41:38 at the bright limb -05\, seen from Med
+ ellín\, CO.\nThe Moon is 10° up in the ESE · daylight\, Sun +69°. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f1a2d2bd7aa-medellin-co@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271022T070637Z
+DTEND:20271022T070837Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 02:06:37 at the dark limb 
+ -05\, seen from Medellín\, CO.\nThe Moon is 35° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

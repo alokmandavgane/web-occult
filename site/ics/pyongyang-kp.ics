@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Pyongyang
 BEGIN:VEVENT
-UID:star-94a8feac5431-pyongyang-kp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T182913Z
-DTEND:20261006T183113Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:29:13 at the dark limb K
- ST\, seen from Pyongyang\, KP.\nThe Moon is 8° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1896fcaf9b6b-pyongyang-kp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142819Z
-DTEND:20261020T143019Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 23:28:19 at the dark limb 
- KST\, seen from Pyongyang\, KP.\nThe Moon is 17° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f4106533b5d3-pyongyang-kp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T152242Z
-DTEND:20261021T152442Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 00:22:42 at the dark limb 
- KST\, seen from Pyongyang\, KP.\nThe Moon is 19° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-fea80f2c8dd5-pyongyang-kp@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T183348Z
@@ -296,6 +257,97 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:15:56 at the dark limb
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8343afbb1a63-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T143313Z
+DTEND:20271013T143513Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 23:33:13 at the dark limb 
+ KST\, seen from Pyongyang\, KP.\nThe Moon is 52° up in the SSW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-94844444cf32-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T104833Z
+DTEND:20271018T105033Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 19:48:33 at the d
+ ark limb KST\, seen from Pyongyang\, KP.\nThe Moon is 6° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c4bae9e9ffc4-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112919Z
+DTEND:20271018T113119Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 20:29:19 at the dar
+ k limb KST\, seen from Pyongyang\, KP.\nThe Moon is 13° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f34a923a26a3-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113058Z
+DTEND:20271018T113258Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:30:58 at the d
+ ark limb KST\, seen from Pyongyang\, KP.\nThe Moon is 13° up in the ENE 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b0029d7b91b9-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T142536Z
+DTEND:20271020T142736Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 23:25:36 at the dark limb 
+ KST\, seen from Pyongyang\, KP.\nThe Moon is 24° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef56122fc903-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T154358Z
+DTEND:20271021T154558Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 00:43:58 at the dark limb K
+ ST\, seen from Pyongyang\, KP.\nThe Moon is 26° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f12ae9836d02-pyongyang-kp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205138Z
+DTEND:20271021T205338Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 05:51:38 at the dark limb K
+ ST\, seen from Pyongyang\, KP.\nThe Moon is 75° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

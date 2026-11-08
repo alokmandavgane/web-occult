@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Johannesburg
 BEGIN:VEVENT
-UID:star-6f0037c25e96-pretoria-za@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260914T173245Z
-DTEND:20260914T173445Z
-SUMMARY:The Moon hides HIP 68643 · mag 6.3
-DESCRIPTION:HIP 68643 (magnitude 6.3) disappears at 19:32:45 at the dark li
- mb SAST\, seen from Pretoria\, ZA.\nThe Moon is 21° up in the W · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-pretoria-za@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T115026Z
-DTEND:20261006T115200Z
-SUMMARY:The Moon occults Jupiter (disappearance only)
-DESCRIPTION:Jupiter disappears at 13:52:00 SAST\, seen from Pretoria\, ZA.\
- nThe Moon sets during the occultation: only the disappearance is above the
-  horizon.\nThe Moon is 4° up in the WNW · daylight\, Sun +55°.\nTimes a
- gainst the real lunar limb.\nMap\, timings and the view at the Moon's edge
- : https://occult.alokm.com/jupiter-2026-10-06?city=Pretoria%2C%20ZA
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Pretoria%2C%20ZA
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter (disappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8083166ec08e-pretoria-za@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T022623Z
-DTEND:20261007T022823Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) reappears at 04:26:23 at the d
- ark limb SAST\, seen from Pretoria\, ZA.\nThe Moon is 10° up in the ENE 
- · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
- ere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8b5f6b520897-pretoria-za@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261015T171824Z
-DTEND:20261015T172024Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 19:18:24 at the dark limb
-  SAST\, seen from Pretoria\, ZA.\nThe Moon is 42° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-cfbb5c223be5-pretoria-za@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261125T231205Z
@@ -428,6 +370,46 @@ DESCRIPTION:HR 1188 (magnitude 5.3) reappears at 02:57:31 at the dark limb
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-37d9c18fc6d1-pretoria-za@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T184247Z
+DTEND:20270906T184447Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 20:42:47 at the dark limb S
+ AST\, seen from Pretoria\, ZA.\nThe Moon is 40° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-170447928440-pretoria-za@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T191107Z
+DTEND:20270906T191307Z
+SUMMARY:The Moon hides 3 Sco · mag 5.9
+DESCRIPTION:3 Sco (magnitude 5.9) disappears at 21:11:07 at the dark limb S
+ AST\, seen from Pretoria\, ZA.\nThe Moon is 34° up in the WSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-facb9426c8e3-pretoria-za@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271015T231128Z
+DTEND:20271015T235438Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 01:11:28 at the dark limb 
+ and reappears at 01:54:38 at the dark limb SAST\, seen from Pretoria\, ZA.
+ \nThe Moon is 45° up in the NNW · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

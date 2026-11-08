@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-2b727642aa85-changzhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204441Z
-DTEND:20261007T204641Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:44:41 at the dark limb 
- CST\, seen from Changzhou\, CN.\nThe Moon is 17° up in the E · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1896fcaf9b6b-changzhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142809Z
-DTEND:20261020T143009Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:28:09 at the dark limb 
- CST\, seen from Changzhou\, CN.\nThe Moon is 25° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-789535a973b4-changzhou-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210156Z
@@ -335,6 +309,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:03:22 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c332ac11ae90-changzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T141246Z
+DTEND:20271013T141446Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:12:46 at the dark limb 
+ CST\, seen from Changzhou\, CN.\nThe Moon is 60° up in the S · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a6fffdb529d-changzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141313Z
+DTEND:20271020T141513Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:13:13 at the dark limb 
+ CST\, seen from Changzhou\, CN.\nThe Moon is 15° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e193a51f457c-changzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153103Z
+DTEND:20271021T153303Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:31:03 at the dark limb C
+ ST\, seen from Changzhou\, CN.\nThe Moon is 18° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f12ae9836d02-changzhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205129Z
+DTEND:20271021T205329Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:51:29 at the dark limb C
+ ST\, seen from Changzhou\, CN.\nThe Moon is 81° up in the SE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

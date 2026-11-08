@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-UID:star-0461d8b08169-puebla-mx@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T014049Z
-DTEND:20260916T014249Z
-SUMMARY:The Moon hides HIP 74206 · mag 6.5
-DESCRIPTION:HIP 74206 (magnitude 6.5) disappears at 19:40:49 at the dark li
- mb CST\, seen from Puebla\, MX.\nThe Moon is 22° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-def6b30570fc-puebla-mx@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T045629Z
-DTEND:20260923T045829Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:56:29 at the dark limb 
- CST\, seen from Puebla\, MX.\nThe Moon is 50° up in the SSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-puebla-mx@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T085255Z
-DTEND:20261006T085445Z
-SUMMARY:The Moon occults Jupiter (reappearance only)
-DESCRIPTION:Jupiter reappears at 02:52:55 CST\, seen from Puebla\, MX.\nThe
-  Moon rises during the occultation: only the reappearance is above the hor
- izon.\nThe Moon is 2° up in the ENE · dark sky.\nTimes against the real 
- lunar limb.\nMap\, timings and the view at the Moon's edge: https://occult
- .alokm.com/jupiter-2026-10-06?city=Puebla%2C%20MX
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Puebla%2C%20MX
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter (reappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-88352b95fd7c-puebla-mx@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261126T102448Z
@@ -403,6 +358,58 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:45:41 at the dark limb
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2a655cd4503c-puebla-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270903T013148Z
+DTEND:20270903T013348Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 19:31:48 at the dark limb 
+ CST\, seen from Puebla\, MX.\nThe Moon is 8° up in the WSW · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05bea0666da9-puebla-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T080700Z
+DTEND:20270916T080900Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:07:00 at the dark limb C
+ ST\, seen from Puebla\, MX.\nThe Moon is 62° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97341d0263b7-puebla-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T041314Z
+DTEND:20270921T041514Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 22:13:14 at the dark
+  limb CST\, seen from Puebla\, MX.\nThe Moon is 6° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bcb42baa6459-puebla-mx@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T094414Z
+DTEND:20271023T094614Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 03:44:14 at the dark limb C
+ ST\, seen from Puebla\, MX.\nThe Moon is 41° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

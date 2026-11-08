@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:star-0b0ae19c5e62-kobe-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T182648Z
-DTEND:20261006T182848Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:26:48 at the dark limb J
- ST\, seen from Kobe\, JP.\nThe Moon is 15° up in the E · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-956de7284427-kobe-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T145033Z
-DTEND:20261020T145233Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 23:50:33 at the dark limb 
- JST\, seen from Kobe\, JP.\nThe Moon is 9° up in the WSW · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-10420ebf747d-kobe-jp@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261124T092320Z
@@ -297,6 +271,110 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:07:27 at the dark limb
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-64496c25357d-kobe-jp@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T110112Z
+DTEND:20270910T110312Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 20:01:12 at the dark limb 
+ JST\, seen from Kobe\, JP.\nThe Moon is 30° up in the S · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-771bfe4198db-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T091431Z
+DTEND:20271004T091631Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 18:14:31 at the dark limb
+  JST\, seen from Kobe\, JP.\nThe Moon is 16° up in the SW · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a412d66267ad-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T144442Z
+DTEND:20271013T144642Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 23:44:42 at the dark limb 
+ JST\, seen from Kobe\, JP.\nThe Moon is 51° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-718b405017fd-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T104421Z
+DTEND:20271018T104621Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 19:44:21 at the d
+ ark limb JST\, seen from Kobe\, JP.\nThe Moon is 10° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8b05d122573-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112042Z
+DTEND:20271018T112242Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 20:20:42 at the dar
+ k limb JST\, seen from Kobe\, JP.\nThe Moon is 17° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8af30a77ca3f-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112511Z
+DTEND:20271018T112711Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:25:11 at the d
+ ark limb JST\, seen from Kobe\, JP.\nThe Moon is 18° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd91538d22d7-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141257Z
+DTEND:20271020T141457Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 23:12:57 at the dark limb 
+ JST\, seen from Kobe\, JP.\nThe Moon is 28° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-884007e72b86-kobe-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153658Z
+DTEND:20271021T153858Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 00:36:58 at the dark limb J
+ ST\, seen from Kobe\, JP.\nThe Moon is 32° up in the E · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

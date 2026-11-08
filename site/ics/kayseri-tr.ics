@@ -10,78 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-kayseri-tr@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T094802Z
-DTEND:20260914T110624Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:49:48 and reappears at 14:04:28 +03\, se
- en from Kayseri\, TR.\nThe Moon is 27° up in the SE · daylight\, Sun +54
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=38.7322&l
- on=35.4853
-URL:https://occult.alokm.com/venus-2026-09-14?lat=38.7322&lon=35.4853
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ffa3fcc5b698-kayseri-tr@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T162213Z
-DTEND:20260917T171411Z
-SUMMARY:The Moon hides τ Sco · mag 2.7
-DESCRIPTION:τ Sco (magnitude 2.7) disappears at 19:22:13 at the dark limb 
- and reappears at 20:14:11 at the bright limb +03\, seen from Kayseri\, TR.
- \nThe Moon is 18° up in the SSW · dusk. Binoculars show it.\nEvery occul
- tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026
- -09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e10acfab6c0f-kayseri-tr@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T205025Z
-DTEND:20260923T205225Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:50:25 at the dark limb 
- +03\, seen from Kayseri\, TR.\nThe Moon is 34° up in the SSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-dc1fb7405367-kayseri-tr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T191932Z
-DTEND:20261018T192132Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:19:32 at the dark limb
-  +03\, seen from Kayseri\, TR.\nThe Moon is 9° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-6a43f2f37712-kayseri-tr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T003312Z
-DTEND:20261030T003512Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:33:12 at the dark limb 
- +03\, seen from Kayseri\, TR.\nThe Moon is 77° up in the SSE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-94f2972bc124-kayseri-tr@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T000052Z
@@ -445,6 +373,84 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:05:45 at the dark limb +
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5fe492c3ac34-kayseri-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T171801Z
+DTEND:20270906T172001Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:18:01 at the dark limb +
+ 03\, seen from Kayseri\, TR.\nThe Moon is 14° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7429383d021f-kayseri-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T165527Z
+DTEND:20270912T165727Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 19:55:27 at the dark limb 
+ +03\, seen from Kayseri\, TR.\nThe Moon is 25° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a0fd9868001-kayseri-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T193151Z
+DTEND:20270921T193351Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 22:31:51 at the dark limb +
+ 03\, seen from Kayseri\, TR.\nThe Moon is 10° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1efd144e9b3d-kayseri-tr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T165822Z
+DTEND:20271006T170022Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:58:22 at the dark limb
+  +03\, seen from Kayseri\, TR.\nThe Moon is 18° up in the SSW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7213493234b-kayseri-tr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225055Z
+DTEND:20271023T225255Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 01:50:55 at the dark limb 
+ +03\, seen from Kayseri\, TR.\nThe Moon is 10° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8f9267f0db05-kayseri-tr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T020852Z
+DTEND:20271026T021052Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:08:52 at the dark limb +
+ 03\, seen from Kayseri\, TR.\nThe Moon is 20° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

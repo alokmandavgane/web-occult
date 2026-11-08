@@ -10,175 +10,19 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-09-28-1-ceres-708160-etawah@occult.alokm.com
-DTSTAMP:20260916T024622Z
-DTSTART:20260928T230856Z
-DTEND:20260928T231856Z
-SUMMARY:(1) Ceres hides a mag 11.8 star · >99% chance
-DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Etawah.\nYou 
- are inside the path\, 128 km from its centre line: the star vanishes for u
- p to 41.4 s.\nChance of an occultation here: >99%\, allowing for the path'
- s 1σ of 19 km.\nClosest approach 04:43:56 IST\, give or take 1 s. The sta
- r is 61° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 42.3
-  s on the centre line\, and the path is 939 km wide\, give or take 19 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-09-28-1-ceres-708160
-URL:https://occult.alokm.com/asteroid?e=2026-09-28-1-ceres-708160
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1) Ceres hides a mag 11.8 star · >99% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ba6f3143fef7-etawah@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162538Z
-DTEND:20260930T162738Z
-SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
-DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:55:38 at the dark
-  limb IST\, seen from Etawah.\nThe Moon is 17° up in the ENE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-2199eb0dd411-etawah@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162629Z
-DTEND:20260930T162829Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:56:29 at the d
- ark limb IST\, seen from Etawah.\nThe Moon is 18° up in the ENE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1779a1e2ed42-etawah@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T203019Z
-DTEND:20261004T203219Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:00:19 at the dark limb 
- IST\, seen from Etawah.\nThe Moon is 17° up in the ENE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-06-17171-17171-838592-etawah@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261006T211147Z
-DTEND:20261006T212147Z
-SUMMARY:(17171) 17171 hides a mag 10.9 star · 38% chance
-DESCRIPTION:(17171) 17171 hides a magnitude 10.9 star\, seen from Etawah.\n
- You are inside the path\, 17 km from its centre line: the star vanishes fo
- r up to 2.7 s.\nChance of an occultation here: 38%\, allowing for the path
- 's 1σ of 37 km.\nClosest approach 02:46:47 IST\, give or take 7 s. The st
- ar is 52° up in the NE · dark sky.\nIt fades 7.6 magnitudes for up to 4.
- 3 s on the centre line\, and the path is 41 km wide\, give or take 37 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-10-06-17171-17171-838592
-URL:https://occult.alokm.com/asteroid?e=2026-10-06-17171-17171-838592
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(17171) 17171 hides a mag 10.9 star · 38% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-13-778-theobalda-311168-etawah@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261013T230422Z
-DTEND:20261013T231422Z
-SUMMARY:(778) Theobalda hides a mag 12.5 star · 71% chance
-DESCRIPTION:(778) Theobalda hides a magnitude 12.5 star\, seen from Etawah.
- \nYou are inside the path\, 9 km from its centre line: the star vanishes f
- or up to 4.4 s.\nChance of an occultation here: 71%\, allowing for the pat
- h's 1σ of 24 km.\nClosest approach 04:39:22 IST\, give or take 2 s. The s
- tar is 21° up in the WNW · dark sky.\nIt fades 1.7 magnitudes for up to 
- 4.6 s on the centre line\, and the path is 55 km wide\, give or take 24 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2026-10-13-778-theobalda-311168
-URL:https://occult.alokm.com/asteroid?e=2026-10-13-778-theobalda-311168
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(778) Theobalda hides a mag 12.5 star · 71% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c380a5ba1bec-etawah@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T130952Z
-DTEND:20261020T131152Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:39:52 at the dark limb 
- IST\, seen from Etawah.\nThe Moon is 44° up in the SSE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-0145844dedc3-etawah@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T134328Z
-DTEND:20261021T134528Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:13:28 at the dark limb 
- IST\, seen from Etawah.\nThe Moon is 48° up in the SSE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-28-4973-showa-390720-etawah@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261028T201922Z
-DTEND:20261028T202922Z
-SUMMARY:(4973) Showa hides a mag 12.5 star (just outside the path) · 38% c
- hance
-DESCRIPTION:(4973) Showa hides a magnitude 12.5 star\, seen from Etawah.\nT
- he predicted edge passes 3 km to the ESE\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nChance o
- f an occultation here: 38%\, allowing for the path's 1σ of 20 km.\nCloses
- t approach 01:54:22 IST\, give or take 2 s. The star is 46° up in the NE 
- · dark sky.\nIt fades 4.8 magnitudes for up to 2.7 s on the centre line\,
-  and the path is 28 km wide\, give or take 20 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-28-49
- 73-showa-390720
-URL:https://occult.alokm.com/asteroid?e=2026-10-28-4973-showa-390720
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(4973) Showa hides a mag 12.5 star (just outside the path) · 3
- 8% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-01-921-jovita-807744-etawah@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261101T130020Z
 DTEND:20261101T131020Z
 SUMMARY:(921) Jovita hides a mag 13.3 star · 55% chance
 DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Etawah.\nY
- ou are inside the path\, 20 km from its centre line: the star vanishes for
-  up to 1.5 s.\nChance of an occultation here: 55%\, allowing for the path'
- s 1σ of 32 km.\nClosest approach 18:35:20 IST\, give or take 1 s. The sta
- r is 45° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8
-  s on the centre line\, and the path is 55 km wide\, give or take 32 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-11-01-921-jovita-807744
+ ou're inside the path\, 20 km from the centre line. The star vanishes for 
+ up to 1.5 s.\nChance of an occultation here: 55%\, allowing for the path's
+  1σ of 32 km.\nClosest approach 18:35:20 IST\, give or take 1 s. The star
+  is 45° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 
+ s on the centre line\, and the path is 55 km wide\, give or take 32 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2026-11-01-921-jovita-807744
 URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -207,13 +51,13 @@ DTSTART:20261104T211106Z
 DTEND:20261104T212106Z
 SUMMARY:(4004) List'ev hides a mag 10.9 star · 58% chance
 DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Etawah.\
- nYou are inside the path\, 6 km from its centre line: the star vanishes fo
- r up to 2.1 s.\nChance of an occultation here: 58%\, allowing for the path
- 's 1σ of 14 km.\nClosest approach 02:46:06 IST\, give or take 1 s. The st
- ar is 76° up in the NNW · dark sky.\nIt fades 5.6 magnitudes for up to 2
- .5 s on the centre line\, and the path is 25 km wide\, give or take 14 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2026-11-04-4004-list-ev-238720
+ nYou're inside the path\, 6 km from the centre line. The star vanishes for
+  up to 2.1 s.\nChance of an occultation here: 58%\, allowing for the path'
+ s 1σ of 14 km.\nClosest approach 02:46:06 IST\, give or take 1 s. The sta
+ r is 76° up in the NNW · dark sky.\nIt fades 5.6 magnitudes for up to 2.
+ 5 s on the centre line\, and the path is 25 km wide\, give or take 14 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2026-11-04-4004-list-ev-238720
 URL:https://occult.alokm.com/asteroid?e=2026-11-04-4004-list-ev-238720
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -268,13 +112,13 @@ DTSTART:20261125T221648Z
 DTEND:20261125T222648Z
 SUMMARY:(23129) 23129 hides a mag 12.9 star · 52% chance
 DESCRIPTION:(23129) 23129 hides a magnitude 12.9 star\, seen from Etawah.\n
- You are inside the path\, 4 km from its centre line: the star vanishes for
-  up to 1.3 s.\nChance of an occultation here: 52%\, allowing for the path'
- s 1σ of 13 km.\nClosest approach 03:51:48 IST\, give or take 1 s. The sta
- r is 30° up in the W · dark sky.\nIt fades 3.1 magnitudes for up to 1.4 
- s on the centre line\, and the path is 20 km wide\, give or take 13 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-25-23129-23129-448768
+ You're inside the path\, 4 km from the centre line. The star vanishes for 
+ up to 1.3 s.\nChance of an occultation here: 52%\, allowing for the path's
+  1σ of 13 km.\nClosest approach 03:51:48 IST\, give or take 1 s. The star
+  is 30° up in the W · dark sky.\nIt fades 3.1 magnitudes for up to 1.4 s
+  on the centre line\, and the path is 20 km wide\, give or take 13 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2026-11-25-23129-23129-448768
 URL:https://occult.alokm.com/asteroid?e=2026-11-25-23129-23129-448768
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -316,13 +160,13 @@ DTSTART:20261130T221134Z
 DTEND:20261130T222134Z
 SUMMARY:(3316) Herzberg hides a mag 11.8 star · 36% chance
 DESCRIPTION:(3316) Herzberg hides a magnitude 11.8 star\, seen from Etawah.
- \nYou are inside the path\, 7 km from its centre line: the star vanishes f
- or up to 0.8 s.\nChance of an occultation here: 36%\, allowing for the pat
- h's 1σ of 16 km.\nClosest approach 03:46:34 IST\, give or take 1 s. The s
- tar is 55° up in the WSW · dark sky.\nIt fades 5.1 magnitudes for up to 
- 1.4 s on the centre line\, and the path is 17 km wide\, give or take 16 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2026-11-30-3316-herzberg-317248
+ \nYou're inside the path\, 7 km from the centre line. The star vanishes fo
+ r up to 0.8 s.\nChance of an occultation here: 36%\, allowing for the path
+ 's 1σ of 16 km.\nClosest approach 03:46:34 IST\, give or take 1 s. The st
+ ar is 55° up in the WSW · dark sky.\nIt fades 5.1 magnitudes for up to 1
+ .4 s on the centre line\, and the path is 17 km wide\, give or take 16 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2026-11-30-3316-herzberg-317248
 URL:https://occult.alokm.com/asteroid?e=2026-11-30-3316-herzberg-317248
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -351,13 +195,13 @@ DTSTART:20261201T004333Z
 DTEND:20261201T005333Z
 SUMMARY:(4003) Schumann hides a mag 10.2 star · 48% chance
 DESCRIPTION:(4003) Schumann hides a magnitude 10.2 star\, seen from Etawah.
- \nYou are inside the path\, 17 km from its centre line: the star vanishes 
- for up to 1.5 s.\nChance of an occultation here: 48%\, allowing for the pa
- th's 1σ of 21 km.\nClosest approach 06:18:33 IST\, give or take 2 s. The 
- star is 41° up in the W · dusk.\nIt fades 7.0 magnitudes for up to 4.0 s
-  on the centre line\, and the path is 36 km wide\, give or take 21 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2026-12-01-4003-schumann-034432
+ \nYou're inside the path\, 17 km from the centre line. The star vanishes f
+ or up to 1.5 s.\nChance of an occultation here: 48%\, allowing for the pat
+ h's 1σ of 21 km.\nClosest approach 06:18:33 IST\, give or take 2 s. The s
+ tar is 41° up in the W · dusk.\nIt fades 7.0 magnitudes for up to 4.0 s 
+ on the centre line\, and the path is 36 km wide\, give or take 21 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2026-12-01-4003-schumann-034432
 URL:https://occult.alokm.com/asteroid?e=2026-12-01-4003-schumann-034432
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -412,13 +256,13 @@ DTSTART:20270109T130705Z
 DTEND:20270109T131705Z
 SUMMARY:(4709) Ennomos hides a mag 12.5 star · 65% chance
 DESCRIPTION:(4709) Ennomos hides a magnitude 12.5 star\, seen from Etawah.\
- nYou are inside the path\, 38 km from its centre line: the star vanishes f
- or up to 3.9 s.\nChance of an occultation here: 65%\, allowing for the pat
- h's 1σ of 32 km.\nClosest approach 18:42:05 IST\, give or take 7 s. The s
- tar is 35° up in the E · dark sky.\nIt fades 3.5 magnitudes for up to 5.
- 7 s on the centre line\, and the path is 91 km wide\, give or take 32 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-01-09-4709-ennomos-956480
+ nYou're inside the path\, 38 km from the centre line. The star vanishes fo
+ r up to 3.9 s.\nChance of an occultation here: 65%\, allowing for the path
+ 's 1σ of 32 km.\nClosest approach 18:42:05 IST\, give or take 7 s. The st
+ ar is 35° up in the E · dark sky.\nIt fades 3.5 magnitudes for up to 5.7
+  s on the centre line\, and the path is 91 km wide\, give or take 32 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-01-09-4709-ennomos-956480
 URL:https://occult.alokm.com/asteroid?e=2027-01-09-4709-ennomos-956480
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -487,14 +331,13 @@ DTEND:20270208T130246Z
 SUMMARY:(1392) Pierre hides a mag 8.9 star (just outside the path) · 26% c
  hance
 DESCRIPTION:(1392) Pierre hides a magnitude 8.9 star\, seen from Etawah.\nT
- he predicted edge passes 12 km to the SSE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 26%\, allowing for the path's 1σ of 22 km.\nClose
- st approach 18:27:46 IST\, give or take 1 s. The star is 21° up in the WS
- W · dusk.\nIt fades 8.0 magnitudes for up to 0.6 s on the centre line\, a
- nd the path is 26 km wide\, give or take 22 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-08-1392
- -pierre-046208
+ he edge is 12 km to the SSE. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 26%\, allowing for the path's 1
+ σ of 22 km.\nClosest approach 18:27:46 IST\, give or take 1 s. The star i
+ s 21° up in the WSW · dusk.\nIt fades 8.0 magnitudes for up to 0.6 s on 
+ the centre line\, and the path is 26 km wide\, give or take 22 km.\nThe ma
+ p\, the finder chart and the path as KML: https://occult.alokm.com/asteroi
+ d?e=2027-02-08-1392-pierre-046208
 URL:https://occult.alokm.com/asteroid?e=2027-02-08-1392-pierre-046208
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -563,13 +406,13 @@ DTSTART:20270222T185653Z
 DTEND:20270222T190653Z
 SUMMARY:(104) Klymene hides a mag 12.6 star · 96% chance
 DESCRIPTION:(104) Klymene hides a magnitude 12.6 star\, seen from Etawah.\n
- You are inside the path\, 45 km from its centre line: the star vanishes fo
- r up to 8.1 s.\nChance of an occultation here: 96%\, allowing for the path
- 's 1σ of 14 km.\nClosest approach 00:31:53 IST\, give or take 2 s. The st
- ar is 76° up in the S · dark sky.\nIt fades 0.7 magnitudes for up to 10.
- 8 s on the centre line\, and the path is 137 km wide\, give or take 14 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-02-22-104-klymene-773824
+ You're inside the path\, 45 km from the centre line. The star vanishes for
+  up to 8.1 s.\nChance of an occultation here: 96%\, allowing for the path'
+ s 1σ of 14 km.\nClosest approach 00:31:53 IST\, give or take 2 s. The sta
+ r is 76° up in the S · dark sky.\nIt fades 0.7 magnitudes for up to 10.8
+  s on the centre line\, and the path is 137 km wide\, give or take 14 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-02-22-104-klymene-773824
 URL:https://occult.alokm.com/asteroid?e=2027-02-22-104-klymene-773824
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -586,14 +429,13 @@ DTEND:20270223T182544Z
 SUMMARY:(786) Bredichina hides a mag 10.7 star (just outside the path) · 2
  1% chance
 DESCRIPTION:(786) Bredichina hides a magnitude 10.7 star\, seen from Etawah
- .\nThe predicted edge passes 99 km to the ENE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nCha
- nce of an occultation here: 21%\, allowing for the path's 1σ of 59 km.\nC
- losest approach 23:50:44 IST\, give or take 3 s. The star is 27° up in th
- e E · dark sky.\nIt fades 2.9 magnitudes for up to 20.1 s on the centre l
- ine\, and the path is 108 km wide\, give or take 59 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-02
- -23-786-bredichina-243776
+ .\nThe edge is 99 km to the ENE. A miss is likely\, but an edge timing is 
+ very valuable.\nChance of an occultation here: 21%\, allowing for the path
+ 's 1σ of 59 km.\nClosest approach 23:50:44 IST\, give or take 3 s. The st
+ ar is 27° up in the E · dark sky.\nIt fades 2.9 magnitudes for up to 20.
+ 1 s on the centre line\, and the path is 108 km wide\, give or take 59 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-02-23-786-bredichina-243776
 URL:https://occult.alokm.com/asteroid?e=2027-02-23-786-bredichina-243776
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -624,14 +466,13 @@ DTEND:20270319T162719Z
 SUMMARY:(686) Gersuind hides a mag 12.1 star (just outside the path) · 40%
   chance
 DESCRIPTION:(686) Gersuind hides a magnitude 12.1 star\, seen from Etawah.\
- nThe predicted edge passes 6 km to the NNE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 40%\, allowing for the path's 1σ of 22 km.\nClos
- est approach 21:52:19 IST\, give or take 1 s. The star is 12° up in the W
- NW · dark sky.\nIt fades 3.0 magnitudes for up to 1.7 s on the centre lin
- e\, and the path is 55 km wide\, give or take 22 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-19
- -686-gersuind-867200
+ nThe edge is 6 km to the NNE. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 40%\, allowing for the path's 
+ 1σ of 22 km.\nClosest approach 21:52:19 IST\, give or take 1 s. The star 
+ is 12° up in the WNW · dark sky.\nIt fades 3.0 magnitudes for up to 1.7 
+ s on the centre line\, and the path is 55 km wide\, give or take 22 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-03-19-686-gersuind-867200
 URL:https://occult.alokm.com/asteroid?e=2027-03-19-686-gersuind-867200
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -649,14 +490,13 @@ DTEND:20270402T135837Z
 SUMMARY:(566) Stereoskopia hides a mag 11.5 star (just outside the path) ·
   39% chance
 DESCRIPTION:(566) Stereoskopia hides a magnitude 11.5 star\, seen from Etaw
- ah.\nThe predicted edge passes 7 km to the NNE\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 39%\, allowing for the path's 1σ of 24 km.\n
- Closest approach 19:23:37 IST\, give or take 1 s. The star is 66° up in t
- he W · dark sky.\nIt fades 2.9 magnitudes for up to 7.7 s on the centre l
- ine\, and the path is 167 km wide\, give or take 24 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-04
- -02-566-stereoskopia-156096
+ ah.\nThe edge is 7 km to the NNE. A miss is likely\, but an edge timing is
+  very valuable.\nChance of an occultation here: 39%\, allowing for the pat
+ h's 1σ of 24 km.\nClosest approach 19:23:37 IST\, give or take 1 s. The s
+ tar is 66° up in the W · dark sky.\nIt fades 2.9 magnitudes for up to 7.
+ 7 s on the centre line\, and the path is 167 km wide\, give or take 24 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-04-02-566-stereoskopia-156096
 URL:https://occult.alokm.com/asteroid?e=2027-04-02-566-stereoskopia-156096
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -673,13 +513,13 @@ DTSTART:20270404T195658Z
 DTEND:20270404T200658Z
 SUMMARY:(627) Charis hides a mag 12.5 star · 61% chance
 DESCRIPTION:(627) Charis hides a magnitude 12.5 star\, seen from Etawah.\nY
- ou are inside the path\, 18 km from its centre line: the star vanishes for
-  up to 2.9 s.\nChance of an occultation here: 61%\, allowing for the path'
- s 1σ of 18 km.\nClosest approach 01:31:58 IST\, give or take 2 s. The sta
- r is 19° up in the ESE · dark sky.\nIt fades 2.7 magnitudes for up to 3.
- 7 s on the centre line\, and the path is 38 km wide\, give or take 18 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-04-04-627-charis-834368
+ ou're inside the path\, 18 km from the centre line. The star vanishes for 
+ up to 2.9 s.\nChance of an occultation here: 61%\, allowing for the path's
+  1σ of 18 km.\nClosest approach 01:31:58 IST\, give or take 2 s. The star
+  is 19° up in the ESE · dark sky.\nIt fades 2.7 magnitudes for up to 3.7
+  s on the centre line\, and the path is 38 km wide\, give or take 18 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-04-04-627-charis-834368
 URL:https://occult.alokm.com/asteroid?e=2027-04-04-627-charis-834368
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -708,13 +548,13 @@ DTSTART:20270424T161150Z
 DTEND:20270424T162150Z
 SUMMARY:(4967) Glia hides a mag 9.9 star · 38% chance
 DESCRIPTION:(4967) Glia hides a magnitude 9.9 star\, seen from Etawah.\nYou
-  are inside the path\, 15 km from its centre line: the star vanishes for u
- p to 0.2 s.\nChance of an occultation here: 38%\, allowing for the path's 
- 1σ of 26 km.\nClosest approach 21:46:50 IST\, give or take 1 s. The star 
- is 18° up in the WNW · dark sky.\nIt fades 7.8 magnitudes for up to 1.0 
- s on the centre line\, and the path is 30 km wide\, give or take 26 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2027-04-24-4967-glia-725440
+ 're inside the path\, 15 km from the centre line. The star vanishes for up
+  to 0.2 s.\nChance of an occultation here: 38%\, allowing for the path's 1
+ σ of 26 km.\nClosest approach 21:46:50 IST\, give or take 1 s. The star i
+ s 18° up in the WNW · dark sky.\nIt fades 7.8 magnitudes for up to 1.0 s
+  on the centre line\, and the path is 30 km wide\, give or take 26 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-04-24-4967-glia-725440
 URL:https://occult.alokm.com/asteroid?e=2027-04-24-4967-glia-725440
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -730,13 +570,13 @@ DTSTART:20270501T191116Z
 DTEND:20270501T192116Z
 SUMMARY:(829) Academia hides a mag 12.5 star · 45% chance
 DESCRIPTION:(829) Academia hides a magnitude 12.5 star\, seen from Etawah.\
- nYou are inside the path\, 20 km from its centre line: the star vanishes f
- or up to 3.4 s.\nChance of an occultation here: 45%\, allowing for the pat
- h's 1σ of 34 km.\nClosest approach 00:46:16 IST\, give or take 1 s. The s
- tar is 30° up in the SSE · dark sky.\nIt fades 2.9 magnitudes for up to 
- 4.0 s on the centre line\, and the path is 43 km wide\, give or take 34 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2027-05-01-829-academia-095104
+ nYou're inside the path\, 20 km from the centre line. The star vanishes fo
+ r up to 3.4 s.\nChance of an occultation here: 45%\, allowing for the path
+ 's 1σ of 34 km.\nClosest approach 00:46:16 IST\, give or take 1 s. The st
+ ar is 30° up in the SSE · dark sky.\nIt fades 2.9 magnitudes for up to 4
+ .0 s on the centre line\, and the path is 43 km wide\, give or take 34 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-05-01-829-academia-095104
 URL:https://occult.alokm.com/asteroid?e=2027-05-01-829-academia-095104
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -753,14 +593,13 @@ DTEND:20270505T210841Z
 SUMMARY:(538) Friederike hides a mag 11.4 star (just outside the path) · 2
  4% chance
 DESCRIPTION:(538) Friederike hides a magnitude 11.4 star\, seen from Etawah
- .\nThe predicted edge passes 20 km to the NNE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nCha
- nce of an occultation here: 24%\, allowing for the path's 1σ of 22 km.\nC
- losest approach 02:33:41 IST\, give or take 2 s. The star is 49° up in th
- e SSW · dark sky.\nIt fades 3.3 magnitudes for up to 5.6 s on the centre 
- line\, and the path is 71 km wide\, give or take 22 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05
- -05-538-friederike-078464
+ .\nThe edge is 20 km to the NNE. A miss is likely\, but an edge timing is 
+ very valuable.\nChance of an occultation here: 24%\, allowing for the path
+ 's 1σ of 22 km.\nClosest approach 02:33:41 IST\, give or take 2 s. The st
+ ar is 49° up in the SSW · dark sky.\nIt fades 3.3 magnitudes for up to 5
+ .6 s on the centre line\, and the path is 71 km wide\, give or take 22 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-05-05-538-friederike-078464
 URL:https://occult.alokm.com/asteroid?e=2027-05-05-538-friederike-078464
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -777,13 +616,13 @@ DTSTART:20270508T204642Z
 DTEND:20270508T205642Z
 SUMMARY:(578) Happelia hides a mag 13.3 star · 81% chance
 DESCRIPTION:(578) Happelia hides a magnitude 13.3 star\, seen from Etawah.\
- nYou are inside the path\, 37 km from its centre line: the star vanishes f
- or up to 8.3 s.\nChance of an occultation here: 81%\, allowing for the pat
- h's 1σ of 10 km.\nClosest approach 02:21:42 IST\, give or take 4 s. The s
- tar is 34° up in the S · dark sky.\nIt fades 0.6 magnitudes for up to 13
- .4 s on the centre line\, and the path is 69 km wide\, give or take 10 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2027-05-08-578-happelia-818304
+ nYou're inside the path\, 37 km from the centre line. The star vanishes fo
+ r up to 8.3 s.\nChance of an occultation here: 81%\, allowing for the path
+ 's 1σ of 10 km.\nClosest approach 02:21:42 IST\, give or take 4 s. The st
+ ar is 34° up in the S · dark sky.\nIt fades 0.6 magnitudes for up to 13.
+ 4 s on the centre line\, and the path is 69 km wide\, give or take 10 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-05-08-578-happelia-818304
 URL:https://occult.alokm.com/asteroid?e=2027-05-08-578-happelia-818304
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -800,14 +639,13 @@ DTEND:20270517T184756Z
 SUMMARY:(675) Ludmilla hides a mag 12.7 star (just outside the path) · 45%
   chance
 DESCRIPTION:(675) Ludmilla hides a magnitude 12.7 star\, seen from Etawah.\
- nThe predicted edge passes 3 km to the NNE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 45%\, allowing for the path's 1σ of 20 km.\nClos
- est approach 00:12:56 IST\, give or take 3 s. The star is 26° up in the S
- E · dark sky.\nIt fades 1.1 magnitudes for up to 9.6 s on the centre line
- \, and the path is 76 km wide\, give or take 20 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05-17-
- 675-ludmilla-666240
+ nThe edge is 3 km to the NNE. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 45%\, allowing for the path's 
+ 1σ of 20 km.\nClosest approach 00:12:56 IST\, give or take 3 s. The star 
+ is 26° up in the SE · dark sky.\nIt fades 1.1 magnitudes for up to 9.6 s
+  on the centre line\, and the path is 76 km wide\, give or take 20 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-05-17-675-ludmilla-666240
 URL:https://occult.alokm.com/asteroid?e=2027-05-17-675-ludmilla-666240
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -891,14 +729,13 @@ DTEND:20270710T195339Z
 SUMMARY:(4170) Semmelweis hides a mag 12.0 star (just outside the path) · 
  20% chance
 DESCRIPTION:(4170) Semmelweis hides a magnitude 12.0 star\, seen from Etawa
- h.\nThe predicted edge passes 11 km to the SSE\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 20%\, allowing for the path's 1σ of 13 km.\n
- Closest approach 01:18:39 IST\, give or take 2 s. The star is 51° up in t
- he SSW · dark sky.\nIt fades 3.6 magnitudes for up to 1.6 s on the centre
-  line\, and the path is 17 km wide\, give or take 13 km.\nThe map\, the fi
- nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-0
- 7-10-4170-semmelweis-177344
+ h.\nThe edge is 11 km to the SSE. A miss is likely\, but an edge timing is
+  very valuable.\nChance of an occultation here: 20%\, allowing for the pat
+ h's 1σ of 13 km.\nClosest approach 01:18:39 IST\, give or take 2 s. The s
+ tar is 51° up in the SSW · dark sky.\nIt fades 3.6 magnitudes for up to 
+ 1.6 s on the centre line\, and the path is 17 km wide\, give or take 13 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-07-10-4170-semmelweis-177344
 URL:https://occult.alokm.com/asteroid?e=2027-07-10-4170-semmelweis-177344
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -928,13 +765,13 @@ DTSTART:20270801T203957Z
 DTEND:20270801T204957Z
 SUMMARY:(1519) Kajaani hides a mag 12.2 star · 52% chance
 DESCRIPTION:(1519) Kajaani hides a magnitude 12.2 star\, seen from Etawah.\
- nYou are inside the path\, 16 km from its centre line: the star vanishes f
- or up to 0.9 s.\nChance of an occultation here: 52%\, allowing for the pat
- h's 1σ of 18 km.\nClosest approach 02:14:57 IST\, give or take 1 s. The s
- tar is 28° up in the E · dark sky.\nIt fades 4.3 magnitudes for up to 1.
- 3 s on the centre line\, and the path is 31 km wide\, give or take 18 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2027-08-01-1519-kajaani-468288
+ nYou're inside the path\, 16 km from the centre line. The star vanishes fo
+ r up to 0.9 s.\nChance of an occultation here: 52%\, allowing for the path
+ 's 1σ of 18 km.\nClosest approach 02:14:57 IST\, give or take 1 s. The st
+ ar is 28° up in the E · dark sky.\nIt fades 4.3 magnitudes for up to 1.3
+  s on the centre line\, and the path is 31 km wide\, give or take 18 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-08-01-1519-kajaani-468288
 URL:https://occult.alokm.com/asteroid?e=2027-08-01-1519-kajaani-468288
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -950,8 +787,8 @@ DTSTART:20270802T201421Z
 DTEND:20270802T202421Z
 SUMMARY:(2020) Ukko hides a mag 5.9 star · 41% chance
 DESCRIPTION:(2020) Ukko hides a magnitude 5.9 star\, seen from Etawah.\nYou
-  are inside the path\, 7 km from its centre line: the star vanishes for up
-  to 1.0 s.\nChance of an occultation here: 41%\, allowing for the path's 1
+ 're inside the path\, 7 km from the centre line. The star vanishes for up 
+ to 1.0 s.\nChance of an occultation here: 41%\, allowing for the path's 1
  σ of 16 km.\nClosest approach 01:49:21 IST\, give or take 1 s. The star i
  s 45° up in the SSW · dark sky.\nIt fades 10.0 magnitudes for up to 1.4 
  s on the centre line\, and the path is 19 km wide\, give or take 16 km.\nT
@@ -986,14 +823,13 @@ DTEND:20270829T182003Z
 SUMMARY:(1633) Chimay hides a mag 11.5 star (just outside the path) · 28% 
  chance
 DESCRIPTION:(1633) Chimay hides a magnitude 11.5 star\, seen from Etawah.\n
- The predicted edge passes 17 km to the SSE\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 28%\, allowing for the path's 1σ of 36 km.\nClos
- est approach 23:45:03 IST\, give or take 1 s. The star is 51° up in the S
-  · dark sky.\nIt fades 4.1 magnitudes for up to 2.6 s on the centre line\
- , and the path is 37 km wide\, give or take 36 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-29-1
- 633-chimay-339904
+ The edge is 17 km to the SSE. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 28%\, allowing for the path's 
+ 1σ of 36 km.\nClosest approach 23:45:03 IST\, give or take 1 s. The star 
+ is 51° up in the S · dark sky.\nIt fades 4.1 magnitudes for up to 2.6 s 
+ on the centre line\, and the path is 37 km wide\, give or take 36 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2027-08-29-1633-chimay-339904
 URL:https://occult.alokm.com/asteroid?e=2027-08-29-1633-chimay-339904
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1002,6 +838,71 @@ DESCRIPTION:(1633) Chimay hides a mag 11.5 star (just outside the path) ·
  28% chance
 TRIGGER:-PT105M
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-891284bfb837-etawah@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T161133Z
+DTEND:20270910T161333Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 21:41:33 at the dark limb
+  IST\, seen from Etawah.\nThe Moon is 35° up in the SSW · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f340ebfe0b83-etawah@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T191945Z
+DTEND:20270921T192145Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 00:49:45 at the dark limb I
+ ST\, seen from Etawah.\nThe Moon is 40° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-009e34d177a4-etawah@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T213522Z
+DTEND:20270925T213722Z
+SUMMARY:The Moon hides HIP 41833 · mag 6.5
+DESCRIPTION:HIP 41833 (magnitude 6.5) reappears at 03:05:22 at the dark lim
+ b IST\, seen from Etawah.\nThe Moon is 16° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8a8cc5c66a-etawah@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T193713Z
+DTEND:20271021T193913Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 01:07:13 at the dark limb I
+ ST\, seen from Etawah.\nThe Moon is 31° up in the ENE · dark sky. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b63c47db393a-etawah@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T232918Z
+DTEND:20271023T233118Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 04:59:18 at the dark limb 
+ IST\, seen from Etawah.\nThe Moon is 54° up in the ESE · dark sky. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-etawah@occult.alokm.com

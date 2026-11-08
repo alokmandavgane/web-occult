@@ -10,46 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Guayaquil
 BEGIN:VEVENT
-UID:star-6aed9a26d60e-quito-ec@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T234409Z
-DTEND:20260917T010042Z
-SUMMARY:The Moon hides π Sco · mag 2.8
-DESCRIPTION:π Sco (magnitude 2.8) disappears at 18:44:09 at the dark limb 
- and reappears at 20:00:42 at the bright limb -05\, seen from Quito\, EC.\n
- The Moon is 48° up in the SW · dusk. Binoculars show it.\nEvery occultat
- ion this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5e369c5314f6-quito-ec@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T031936Z
-DTEND:20260920T042708Z
-SUMMARY:The Moon hides φ Sgr · mag 3.1
-DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 22:19:36 at the dark limb 
- and reappears at 23:27:08 at the bright limb -05\, seen from Quito\, EC.\n
- The Moon is 36° up in the SW · dark sky. Binoculars show it.\nEvery occu
- ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
- 6-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9e4a6e24e6f0-quito-ec@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260921T020930Z
-DTEND:20260921T021130Z
-SUMMARY:The Moon hides 52 Sgr · mag 4.6
-DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 21:09:30 at the dark limb 
- -05\, seen from Quito\, EC.\nThe Moon is 59° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-c9b7356b57e0-quito-ec@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261114T002419Z
@@ -424,6 +384,85 @@ DESCRIPTION:44 Tau (magnitude 5.4) reappears at 04:37:22 at the dark limb -
  oculars show it.\nEvery occultation this month\, for anywhere: https://occ
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c833ab6c2f98-quito-ec@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270907T004421Z
+DTEND:20270907T004621Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:44:21 at the dark limb
+  -05\, seen from Quito\, EC.\nThe Moon is 46° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-19ebdb365b70-quito-ec@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T033802Z
+DTEND:20270921T034002Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 22:38:02 at the d
+ ark limb -05\, seen from Quito\, EC.\nThe Moon is 8° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8c9a301adcf-quito-ec@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T065802Z
+DTEND:20270924T070002Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 01:58:02 at the dark limb -
+ 05\, seen from Quito\, EC.\nThe Moon is 13° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-da0390c4e07c-quito-ec@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T154618Z
+DTEND:20271004T163540Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 10:46:18 at the 
+ dark limb and reappears at 11:35:40 at the bright limb -05\, seen from Qui
+ to\, EC.\nThe Moon is 12° up in the ESE · daylight\, Sun +70°. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d8a45f0dbca7-quito-ec@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271022T070350Z
+DTEND:20271022T070550Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 02:03:50 at the dark limb 
+ -05\, seen from Quito\, EC.\nThe Moon is 29° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-825957bfa8f3-quito-ec@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T102500Z
+DTEND:20271023T102700Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 05:25:00 at the dark limb -
+ 05\, seen from Quito\, EC.\nThe Moon is 61° up in the NE · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-munich-de@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T093009Z
-DTEND:20260914T104055Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 11:31:31 and reappears at 12:39:25 CEST\, s
- een from Munich\, DE.\nThe Moon is 6° up in the ESE · daylight\, Sun +41
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=48.1374&l
- on=11.5755
-URL:https://occult.alokm.com/venus-2026-09-14?lat=48.1374&lon=11.5755
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a0cd5fccb7e0-munich-de@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260929T221653Z
-DTEND:20260929T221853Z
-SUMMARY:The Moon hides ε Ari A · mag 5.2
-DESCRIPTION:ε Ari A (magnitude 5.2) reappears at 00:16:53 at the dark limb
-  CEST\, seen from Munich\, DE.\nThe Moon is 42° up in the ESE · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5901b3695848-munich-de@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T172231Z
-DTEND:20261016T172431Z
-SUMMARY:The Moon hides HR 6766 · mag 4.5
-DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 19:22:31 at the dark limb
-  CEST\, seen from Munich\, DE.\nThe Moon is 10° up in the SSW · dusk. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-cd9124051ab6-munich-de@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T014743Z
-DTEND:20261028T014943Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:47:43 at the d
- ark limb CET\, seen from Munich\, DE.\nThe Moon is 63° up in the SW · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-83ff0bc6cb97-munich-de@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T024352Z
@@ -509,6 +451,59 @@ DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:04:11 at the dark
  k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
  ttps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52f7f923fd9a-munich-de@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T185555Z
+DTEND:20270906T185755Z
+SUMMARY:The Moon hides 4 Sco · mag 5.6
+DESCRIPTION:4 Sco (magnitude 5.6) disappears at 20:55:55 at the dark limb C
+ EST\, seen from Munich\, DE.\nThe Moon is 7° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8df4fa8e22c8-munich-de@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T192717Z
+DTEND:20270908T192917Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 21:27:17 at the dark limb C
+ EST\, seen from Munich\, DE.\nThe Moon is 11° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef01514a1932-munich-de@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T022708Z
+DTEND:20270924T033144Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 04:27:08 at the bright lim
+ b and reappears at 05:31:44 at the dark limb CEST\, seen from Munich\, DE.
+ \nThe Moon is 45° up in the ESE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5f750c2e5c79-munich-de@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T023113Z
+DTEND:20270925T023313Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 04:31:13 at the dark limb 
+ CEST\, seen from Munich\, DE.\nThe Moon is 34° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

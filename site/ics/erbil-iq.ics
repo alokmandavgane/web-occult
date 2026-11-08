@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Baghdad
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-erbil-iq@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T100446Z
-DTEND:20260914T111846Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 13:06:55 and reappears at 14:16:27 +03\, se
- en from Erbil\, IQ.\nThe Moon is 34° up in the SSE · daylight\, Sun +54
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=36.1912&l
- on=44.0094
-URL:https://occult.alokm.com/venus-2026-09-14?lat=36.1912&lon=44.0094
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b072fcadc0ea-erbil-iq@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T205555Z
-DTEND:20260923T205755Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:55:55 at the dark limb 
- +03\, seen from Erbil\, IQ.\nThe Moon is 32° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-da2bdc3273dd-erbil-iq@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T192144Z
-DTEND:20261018T192344Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:21:44 at the dark limb
-  +03\, seen from Erbil\, IQ.\nThe Moon is 5° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-fd24a7fe160a-erbil-iq@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T005235Z
-DTEND:20261030T005435Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:52:35 at the dark limb 
- +03\, seen from Erbil\, IQ.\nThe Moon is 80° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a29e26910c47-erbil-iq@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T000921Z
@@ -470,6 +412,97 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:11:45 at the dark limb +
  culars show it.\nEvery occultation this month\, for anywhere: https://occu
  lt.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8e84b6bb8850-erbil-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T172317Z
+DTEND:20270906T172517Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:23:17 at the dark limb +
+ 03\, seen from Erbil\, IQ.\nThe Moon is 11° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8cab40328b28-erbil-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T171132Z
+DTEND:20270912T171332Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 20:11:32 at the dark limb 
+ +03\, seen from Erbil\, IQ.\nThe Moon is 32° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a0fd9868001-erbil-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T193151Z
+DTEND:20270921T193351Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 22:31:51 at the dark limb +
+ 03\, seen from Erbil\, IQ.\nThe Moon is 16° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9f8285c5043e-erbil-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T215953Z
+DTEND:20270924T220153Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) reappears at 00:59:53 at the dark limb 
+ +03\, seen from Erbil\, IQ.\nThe Moon is 8° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5bf26384286e-erbil-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T171704Z
+DTEND:20271006T171904Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 20:17:04 at the dark limb
+  +03\, seen from Erbil\, IQ.\nThe Moon is 15° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5eeaab629d66-erbil-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225439Z
+DTEND:20271023T225639Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 01:54:39 at the dark limb 
+ +03\, seen from Erbil\, IQ.\nThe Moon is 17° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9def638efaa1-erbil-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T021441Z
+DTEND:20271026T021641Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:14:41 at the dark limb +
+ 03\, seen from Erbil\, IQ.\nThe Moon is 28° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

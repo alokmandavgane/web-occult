@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Dubai
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-dubai-ae@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T103619Z
-DTEND:20260914T115953Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 14:38:44 and reappears at 15:57:25 +04\, se
- en from Dubai\, AE.\nThe Moon is 48° up in the S · daylight\, Sun +49°.
- \nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at t
- he Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=25.0772&lon=
- 55.3093
-URL:https://occult.alokm.com/venus-2026-09-14?lat=25.0772&lon=55.3093
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-cc6986407109-dubai-ae@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T212033Z
-DTEND:20260923T212233Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 01:20:33 at the dark limb 
- +04\, seen from Dubai\, AE.\nThe Moon is 28° up in the WSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-737387a03c89-dubai-ae@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T012019Z
-DTEND:20261030T012219Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 05:20:19 at the dark limb 
- +04\, seen from Dubai\, AE.\nThe Moon is 68° up in the WNW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-5c18b33f9208-dubai-ae@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T002443Z
@@ -495,6 +450,58 @@ DESCRIPTION:37 Gem (magnitude 5.7) reappears at 03:35:53 at the dark limb +
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc9d4ee35ad8-dubai-ae@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T173823Z
+DTEND:20270906T174023Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:38:23 at the dark limb +
+ 04\, seen from Dubai\, AE.\nThe Moon is 7° up in the WSW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f340ebfe0b83-dubai-ae@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T191953Z
+DTEND:20270921T192153Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 23:19:53 at the dark limb +
+ 04\, seen from Dubai\, AE.\nThe Moon is 19° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-979a0da769d8-dubai-ae@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T192142Z
+DTEND:20271021T192342Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 23:21:42 at the dark limb +
+ 04\, seen from Dubai\, AE.\nThe Moon is 7° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e32542f54598-dubai-ae@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225349Z
+DTEND:20271023T225549Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 02:53:49 at the dark limb 
+ +04\, seen from Dubai\, AE.\nThe Moon is 25° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,89 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-zunyi-cn@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T123304Z
-DTEND:20260914T130159Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 20:36:42 and reappears at 20:58:32 CST\, se
- en from Zunyi\, CN.\nThe Moon is -1° up in the WSW · dark sky.\nTimes fo
- r the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's 
- edge: https://occult.alokm.com/venus-2026-09-14?lat=27.6867&lon=106.9072
-URL:https://occult.alokm.com/venus-2026-09-14?lat=27.6867&lon=106.9072
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c21f9a3fc6f0-zunyi-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T204120Z
-DTEND:20261004T204320Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 04:41:20 at the dark limb 
- CST\, seen from Zunyi\, CN.\nThe Moon is 44° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f2ebbec70da3-zunyi-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215411Z
-DTEND:20261006T215611Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:54:11 at the dark limb C
- ST\, seen from Zunyi\, CN.\nThe Moon is 33° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-816cc06c08b4-zunyi-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T132856Z
-DTEND:20261016T133056Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:28:56 at the dark limb
-  CST\, seen from Zunyi\, CN.\nThe Moon is 6° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c8c408917981-zunyi-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T140312Z
-DTEND:20261020T140512Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:03:12 at the dark limb 
- CST\, seen from Zunyi\, CN.\nThe Moon is 39° up in the SSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7f44afb5a513-zunyi-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T145941Z
-DTEND:20261021T150141Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:59:41 at the dark limb 
- CST\, seen from Zunyi\, CN.\nThe Moon is 42° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-77ea537ac82b-zunyi-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T205246Z
@@ -430,6 +347,71 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:56:48 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6741d7a63e1d-zunyi-cn@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270903T120336Z
+DTEND:20270903T120536Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 20:03:36 at the dark li
+ mb CST\, seen from Zunyi\, CN.\nThe Moon is 7° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9dfca8953050-zunyi-cn@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T214539Z
+DTEND:20270925T214739Z
+SUMMARY:The Moon hides HIP 41833 · mag 6.5
+DESCRIPTION:HIP 41833 (magnitude 6.5) reappears at 05:45:39 at the dark lim
+ b CST\, seen from Zunyi\, CN.\nThe Moon is 43° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb13e6f771eb-zunyi-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T134545Z
+DTEND:20271013T134745Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 21:45:45 at the dark limb 
+ CST\, seen from Zunyi\, CN.\nThe Moon is 57° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c1be0ca8339a-zunyi-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T152849Z
+DTEND:20271021T153049Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:28:49 at the dark limb C
+ ST\, seen from Zunyi\, CN.\nThe Moon is 5° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5033eefa1a1b-zunyi-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T202102Z
+DTEND:20271021T202302Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:21:02 at the dark limb C
+ ST\, seen from Zunyi\, CN.\nThe Moon is 66° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

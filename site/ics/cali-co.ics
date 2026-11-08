@@ -10,47 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Bogota
 BEGIN:VEVENT
-UID:star-b9d980ae7074-cali-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T235703Z
-DTEND:20260917T005644Z
-SUMMARY:The Moon hides π Sco · mag 2.8
-DESCRIPTION:π Sco (magnitude 2.8) disappears at 18:57:03 at the dark limb 
- and reappears at 19:56:44 at the bright limb -05\, seen from Cali\, CO.\nT
- he Moon is 42° up in the SW · dark sky. Binoculars show it.\nEvery occul
- tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026
- -09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a9225fd55373-cali-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T032733Z
-DTEND:20260920T042817Z
-SUMMARY:The Moon hides φ Sgr · mag 3.1
-DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 22:27:33 at the dark limb 
- and reappears at 23:28:17 at the bright limb -05\, seen from Cali\, CO.\nT
- he Moon is 31° up in the SW · dark sky. Binoculars show it.\nEvery occul
- tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026
- -09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-29b84681b906-cali-co@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260921T022245Z
-DTEND:20260921T022445Z
-SUMMARY:The Moon hides 52 Sgr · mag 4.6
-DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 21:22:45 at the dark limb 
- -05\, seen from Cali\, CO.\nThe Moon is 53° up in the SW · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-ec536795bc2d-cali-co@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261113T231956Z
@@ -388,6 +347,72 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 20:58:23 at the dark limb
  oculars show it.\nEvery occultation this month\, for anywhere: https://occ
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c833ab6c2f98-cali-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270907T004411Z
+DTEND:20270907T004611Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:44:11 at the dark limb
+  -05\, seen from Cali\, CO.\nThe Moon is 43° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-913d61a2dd32-cali-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T034325Z
+DTEND:20270921T034525Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 22:43:25 at the d
+ ark limb -05\, seen from Cali\, CO.\nThe Moon is 13° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fb162403652a-cali-co@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T070008Z
+DTEND:20270924T070208Z
+SUMMARY:The Moon hides 37 Gem · mag 5.7
+DESCRIPTION:37 Gem (magnitude 5.7) reappears at 02:00:08 at the dark limb -
+ 05\, seen from Cali\, CO.\nThe Moon is 17° up in the ENE · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97f79b893962-cali-co@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T153941Z
+DTEND:20271004T164023Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 10:39:41 at the 
+ dark limb and reappears at 11:40:23 at the bright limb -05\, seen from Cal
+ i\, CO.\nThe Moon is 11° up in the ESE · daylight\, Sun +70°. Binocular
+ s show it.\nEvery occultation this month\, for anywhere: https://occult.al
+ okm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6f1a2d2bd7aa-cali-co@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271022T070613Z
+DTEND:20271022T070813Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 02:06:13 at the dark limb 
+ -05\, seen from Cali\, CO.\nThe Moon is 33° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,90 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Jakarta
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-bekasi-id@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T130050Z
-DTEND:20260914T130338Z
-SUMMARY:The Moon occults Venus (disappearance only)
-DESCRIPTION:Venus disappears at 20:03:38 WIB\, seen from Bekasi\, ID.\nThe 
- Moon sets during the occultation: only the disappearance is above the hori
- zon.\nThe Moon is 4° up in the WSW · dark sky.\nTimes for the Moon's mea
- n limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https://oc
- cult.alokm.com/venus-2026-09-14?lat=-6.2349&lon=106.9896
-URL:https://occult.alokm.com/venus-2026-09-14?lat=-6.2349&lon=106.9896
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus (disappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-2ce6d296d1eb-bekasi-id@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260918T141934Z
-DTEND:20260918T142134Z
-SUMMARY:The Moon hides 43 Oph · mag 5.3
-DESCRIPTION:43 Oph (magnitude 5.3) disappears at 21:19:34 at the dark limb 
- WIB\, seen from Bekasi\, ID.\nThe Moon is 31° up in the WSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f66dc945a5ed-bekasi-id@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T155630Z
-DTEND:20260920T155830Z
-SUMMARY:The Moon hides HR 7277 · mag 5.8
-DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 22:56:30 at the dark limb
-  WIB\, seen from Bekasi\, ID.\nThe Moon is 32° up in the WSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e53fa03bf01e-bekasi-id@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261014T125704Z
-DTEND:20261014T125904Z
-SUMMARY:The Moon hides HR 6001 · mag 5.3
-DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 19:57:04 at the dark limb
-  WIB\, seen from Bekasi\, ID.\nThe Moon is 10° up in the WSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f443056815f5-bekasi-id@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261017T114343Z
-DTEND:20261017T114543Z
-SUMMARY:The Moon hides φ Sgr · mag 3.1
-DESCRIPTION:φ Sgr (magnitude 3.1) reappears at 18:43:43 at the bright limb
-  WIB\, seen from Bekasi\, ID.\nThe Moon is 57° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-45311d02f490-bekasi-id@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261017T145111Z
-DTEND:20261017T145311Z
-SUMMARY:The Moon hides HR 7103 · mag 6.3
-DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 21:51:11 at the dark limb
-  WIB\, seen from Bekasi\, ID.\nThe Moon is 18° up in the WSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-jupiter-2026-11-02-bekasi-id@occult.alokm.com
 DTSTAMP:20260914T034752Z
 DTSTART:20261102T213952Z
@@ -553,6 +469,87 @@ DESCRIPTION:11 Tau (magnitude 6.1) reappears at 05:01:42 at the dark limb W
  oculars show it.\nEvery occultation this month\, for anywhere: https://occ
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c903b6e7be3e-bekasi-id@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270907T074905Z
+DTEND:20270907T084345Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 14:49:05 at the 
+ dark limb and reappears at 15:43:45 at the bright limb WIB\, seen from Bek
+ asi\, ID.\nThe Moon is 49° up in the SE · daylight\, Sun +44°. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ad3e88551f05-bekasi-id@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T174219Z
+DTEND:20270910T174843Z
+SUMMARY:The Moon hides χ3 Sgr · mag 5.4
+DESCRIPTION:χ3 Sgr (magnitude 5.4) disappears at 00:42:19 at the dark limb
+  and reappears at 00:48:43 at the dark limb WIB\, seen from Bekasi\, ID.\n
+ The Moon is 20° up in the WSW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-939a642a27a8-bekasi-id@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271005T145526Z
+DTEND:20271005T145733Z
+SUMMARY:The Moon hides 36 Oph A and its companion · mag 5.1
+DESCRIPTION:36 Oph A (magnitude 5.1) disappears at 21:55:33 at the dark lim
+ b WIB\, seen from Bekasi\, ID.\nIts companion 36 Oph B (magnitude 5.1) dis
+ appears at 21:55:26 at the dark limb.\nThe Moon is 7° up in the WSW · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ab99aacf6dfc-bekasi-id@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271007T133834Z
+DTEND:20271007T134034Z
+SUMMARY:The Moon hides HR 7195 · mag 5.6
+DESCRIPTION:HR 7195 (magnitude 5.6) disappears at 20:38:34 at the dark limb
+  WIB\, seen from Bekasi\, ID.\nThe Moon is 46° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a53188e1bbd7-bekasi-id@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271011T174102Z
+DTEND:20271011T174302Z
+SUMMARY:The Moon hides θ Aqr · mag 4.3
+DESCRIPTION:θ Aqr (magnitude 4.3) disappears at 00:41:02 at the dark limb 
+ WIB\, seen from Bekasi\, ID.\nThe Moon is 33° up in the W · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8ad617a964b9-bekasi-id@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T211032Z
+DTEND:20271021T211232Z
+SUMMARY:The Moon hides 52 Gem · mag 5.8
+DESCRIPTION:52 Gem (magnitude 5.8) reappears at 04:10:32 at the dark limb W
+ IB\, seen from Bekasi\, ID.\nThe Moon is 56° up in the NNE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-isfahan-ir@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T102549Z
-DTEND:20260914T113343Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 13:58:32 and reappears at 15:00:55 +0330\, 
- seen from Isfahan\, IR.\nThe Moon is 40° up in the S · daylight\, Sun +4
- 9°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=32.6525&
- lon=51.6746
-URL:https://occult.alokm.com/venus-2026-09-14?lat=32.6525&lon=51.6746
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8e7220537895-isfahan-ir@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T210507Z
-DTEND:20260923T210707Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:35:07 at the dark limb 
- +0330\, seen from Isfahan\, IR.\nThe Moon is 29° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-dddec6fb0492-isfahan-ir@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T011053Z
-DTEND:20261030T011253Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 04:40:53 at the dark limb 
- +0330\, seen from Isfahan\, IR.\nThe Moon is 73° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-e466f14a97e3-isfahan-ir@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T001920Z
@@ -470,6 +425,97 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:43:56 at the dark limb +
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c02510cae8f5-isfahan-ir@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T172947Z
+DTEND:20270906T173147Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:59:47 at the dark limb +
+ 0330\, seen from Isfahan\, IR.\nThe Moon is 7° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2461ed6e2ead-isfahan-ir@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T173720Z
+DTEND:20270912T173920Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 21:07:20 at the dark limb 
+ +0330\, seen from Isfahan\, IR.\nThe Moon is 40° up in the SSE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e862ad51c277-isfahan-ir@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T192938Z
+DTEND:20270921T193138Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 22:59:38 at the dark limb +
+ 0330\, seen from Isfahan\, IR.\nThe Moon is 20° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a159d0024b3-isfahan-ir@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T215101Z
+DTEND:20270924T215301Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) reappears at 01:21:01 at the dark limb 
+ +0330\, seen from Isfahan\, IR.\nThe Moon is 11° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-883cca3e707f-isfahan-ir@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T174308Z
+DTEND:20271006T174508Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 21:13:08 at the dark limb
+  +0330\, seen from Isfahan\, IR.\nThe Moon is 9° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df73deb89197-isfahan-ir@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T213441Z
+DTEND:20271023T213641Z
+SUMMARY:The Moon hides π1 Cnc · mag 6.5
+DESCRIPTION:π1 Cnc (magnitude 6.5) reappears at 01:04:41 at the dark limb 
+ +0330\, seen from Isfahan\, IR.\nThe Moon is 7° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e6ec66bcdfff-isfahan-ir@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225803Z
+DTEND:20271023T230003Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 02:28:03 at the dark limb 
+ +0330\, seen from Isfahan\, IR.\nThe Moon is 24° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

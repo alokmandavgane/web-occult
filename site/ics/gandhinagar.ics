@@ -10,160 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-gandhinagar@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T114342Z
-DTEND:20260914T123014Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 17:18:06 and reappears at 17:56:01 IST\, se
- en from Gandhinagar.\nThe Moon is 37° up in the SW · daylight\, Sun +19
- °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/venus-2026-09-14?city=Gandhinagar
-URL:https://occult.alokm.com/venus-2026-09-14?city=Gandhinagar
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-09-28-1-ceres-708160-gandhinagar@occult.alokm.com
-DTSTAMP:20260916T024622Z
-DTSTART:20260928T230827Z
-DTEND:20260928T231827Z
-SUMMARY:(1) Ceres hides a mag 11.8 star · >99% chance
-DESCRIPTION:(1) Ceres hides a magnitude 11.8 star\, seen from Gandhinagar.\
- nYou are inside the path\, 80 km from its centre line: the star vanishes f
- or up to 42.3 s.\nChance of an occultation here: >99%\, allowing for the p
- ath's 1σ of 19 km.\nClosest approach 04:43:27 IST\, give or take 1 s. The
-  star is 55° up in the E · dark sky.\nIt fades 0.1 magnitudes for up to 
- 42.3 s on the centre line\, and the path is 939 km wide\, give or take 19 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-09-28-1-ceres-708160
-URL:https://occult.alokm.com/asteroid?e=2026-09-28-1-ceres-708160
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1) Ceres hides a mag 11.8 star · >99% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-34825fb71a6e-gandhinagar@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162234Z
-DTEND:20260930T162434Z
-SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
-DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 21:52:34 at the dark
-  limb IST\, seen from Gandhinagar.\nThe Moon is 10° up in the ENE · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a2ea9920d830-gandhinagar@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T162304Z
-DTEND:20260930T162504Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:53:04 at the d
- ark limb IST\, seen from Gandhinagar.\nThe Moon is 10° up in the ENE · d
- ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
-  https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-01-1434-margot-589376-gandhinagar@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261001T133335Z
-DTEND:20261001T134335Z
-SUMMARY:(1434) Margot hides a mag 11.3 star (just outside the path) · 16% 
- chance
-DESCRIPTION:(1434) Margot hides a magnitude 11.3 star\, seen from Gandhinag
- ar.\nThe predicted edge passes 26 km to the NNE\, so a miss is likely — 
- but a chord from near the edge is the most valuable observation of all.\nC
- hance of an occultation here: 16%\, allowing for the path's 1σ of 20 km.\
- nClosest approach 19:08:35 IST\, give or take 1 s. The star is 47° up in 
- the SSW · dusk.\nIt fades 4.6 magnitudes for up to 1.2 s on the centre li
- ne\, and the path is 27 km wide\, give or take 20 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10-0
- 1-1434-margot-589376
-URL:https://occult.alokm.com/asteroid?e=2026-10-01-1434-margot-589376
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1434) Margot hides a mag 11.3 star (just outside the path) · 
- 16% chance
-TRIGGER:-PT120M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c27887a6fa55-gandhinagar@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T202543Z
-DTEND:20261004T202743Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:55:43 at the dark limb 
- IST\, seen from Gandhinagar.\nThe Moon is 9° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-11-15638-15638-090304-gandhinagar@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261011T225029Z
-DTEND:20261011T230029Z
-SUMMARY:(15638) 15638 hides a mag 7.4 star (just outside the path) · 18% c
- hance
-DESCRIPTION:(15638) 15638 hides a magnitude 7.4 star\, seen from Gandhinaga
- r.\nThe predicted edge passes 16 km to the SSE\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 18%\, allowing for the path's 1σ of 17 km.\n
- Closest approach 04:25:29 IST\, give or take 2 s. The star is 35° up in t
- he WSW · dark sky.\nIt fades 9.0 magnitudes for up to 2.6 s on the centre
-  line\, and the path is 32 km wide\, give or take 17 km.\nThe map\, the fi
- nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-1
- 0-11-15638-15638-090304
-URL:https://occult.alokm.com/asteroid?e=2026-10-11-15638-15638-090304
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(15638) 15638 hides a mag 7.4 star (just outside the path) · 1
- 8% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-12-108-hecuba-118592-gandhinagar@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261012T151837Z
-DTEND:20261012T152837Z
-SUMMARY:(108) Hecuba hides a mag 13.1 star (just outside the path) · 19% c
- hance
-DESCRIPTION:(108) Hecuba hides a magnitude 13.1 star\, seen from Gandhinaga
- r.\nThe predicted edge passes 27 km to the NNW\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 19%\, allowing for the path's 1σ of 25 km.\n
- Closest approach 20:53:37 IST\, give or take 1 s. The star is 11° up in t
- he SW · dark sky.\nIt fades 1.3 magnitudes for up to 2.5 s on the centre 
- line\, and the path is 75 km wide\, give or take 25 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-10
- -12-108-hecuba-118592
-URL:https://occult.alokm.com/asteroid?e=2026-10-12-108-hecuba-118592
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(108) Hecuba hides a mag 13.1 star (just outside the path) · 1
- 9% chance
-TRIGGER:-PT120M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-f49f70121e65-gandhinagar@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202331Z
@@ -183,13 +29,13 @@ DTSTART:20261112T132728Z
 DTEND:20261112T133728Z
 SUMMARY:(780) Armenia hides a mag 12.8 star · 94% chance
 DESCRIPTION:(780) Armenia hides a magnitude 12.8 star\, seen from Gandhinag
- ar.\nYou are inside the path\, 28 km from its centre line: the star vanish
- es for up to 3.1 s.\nChance of an occultation here: 94%\, allowing for the
-  path's 1σ of 26 km.\nClosest approach 19:02:28 IST\, give or take 1 s. T
- he star is 28° up in the WSW · dark sky.\nIt fades 2.3 magnitudes for up
-  to 3.3 s on the centre line\, and the path is 126 km wide\, give or take 
- 26 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2026-11-12-780-armenia-852928
+ ar.\nYou're inside the path\, 28 km from the centre line. The star vanishe
+ s for up to 3.1 s.\nChance of an occultation here: 94%\, allowing for the 
+ path's 1σ of 26 km.\nClosest approach 19:02:28 IST\, give or take 1 s. Th
+ e star is 28° up in the WSW · dark sky.\nIt fades 2.3 magnitudes for up 
+ to 3.3 s on the centre line\, and the path is 126 km wide\, give or take 2
+ 6 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2026-11-12-780-armenia-852928
 URL:https://occult.alokm.com/asteroid?e=2026-11-12-780-armenia-852928
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -232,14 +78,13 @@ DTEND:20261121T154946Z
 SUMMARY:(65866) Wynneozrics hides a mag 12.5 star (just outside the path) 
  · 21% chance
 DESCRIPTION:(65866) Wynneozrics hides a magnitude 12.5 star\, seen from Gan
- dhinagar.\nThe predicted edge passes 9 km to the ESE\, so a miss is likely
-  — but a chord from near the edge is the most valuable observation of al
- l.\nChance of an occultation here: 21%\, allowing for the path's 1σ of 11
-  km.\nClosest approach 21:14:46 IST\, give or take 1 s. The star is 62° u
- p in the NNE · dark sky.\nIt fades 4.1 magnitudes for up to 1.9 s on the 
- centre line\, and the path is 17 km wide\, give or take 11 km.\nThe map\, 
- the finder chart and the path as KML: https://occult.alokm.com/asteroid?e=
- 2026-11-21-65866-wynneozrics-673536
+ dhinagar.\nThe edge is 9 km to the ESE. A miss is likely\, but an edge tim
+ ing is very valuable.\nChance of an occultation here: 21%\, allowing for t
+ he path's 1σ of 11 km.\nClosest approach 21:14:46 IST\, give or take 1 s.
+  The star is 62° up in the NNE · dark sky.\nIt fades 4.1 magnitudes for 
+ up to 1.9 s on the centre line\, and the path is 17 km wide\, give or take
+  11 km.\nThe map\, the finder chart and the path as KML: https://occult.al
+ okm.com/asteroid?e=2026-11-21-65866-wynneozrics-673536
 URL:https://occult.alokm.com/asteroid?e=2026-11-21-65866-wynneozrics-673536
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -295,13 +140,13 @@ DTSTART:20261206T162321Z
 DTEND:20261206T163321Z
 SUMMARY:(224) Oceana hides a mag 10.2 star · 52% chance
 DESCRIPTION:(224) Oceana hides a magnitude 10.2 star\, seen from Gandhinaga
- r.\nYou are inside the path\, 28 km from its centre line: the star vanishe
- s for up to 1.3 s.\nChance of an occultation here: 52%\, allowing for the 
- path's 1σ of 17 km.\nClosest approach 21:58:21 IST\, give or take 1 s. Th
- e star is 68° up in the ENE · dark sky.\nIt fades 2.5 magnitudes for up 
- to 4.8 s on the centre line\, and the path is 58 km wide\, give or take 17
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-12-06-224-oceana-933056
+ r.\nYou're inside the path\, 28 km from the centre line. The star vanishes
+  for up to 1.3 s.\nChance of an occultation here: 52%\, allowing for the p
+ ath's 1σ of 17 km.\nClosest approach 21:58:21 IST\, give or take 1 s. The
+  star is 68° up in the ENE · dark sky.\nIt fades 2.5 magnitudes for up t
+ o 4.8 s on the centre line\, and the path is 58 km wide\, give or take 17 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2026-12-06-224-oceana-933056
 URL:https://occult.alokm.com/asteroid?e=2026-12-06-224-oceana-933056
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -330,13 +175,13 @@ DTSTART:20261213T211159Z
 DTEND:20261213T212159Z
 SUMMARY:(1520) Imatra hides a mag 9.2 star · 69% chance
 DESCRIPTION:(1520) Imatra hides a magnitude 9.2 star\, seen from Gandhinaga
- r.\nYou are inside the path\, 19 km from its centre line: the star vanishe
- s for up to 2.6 s.\nChance of an occultation here: 69%\, allowing for the 
- path's 1σ of 15 km.\nClosest approach 02:46:59 IST\, give or take 1 s. Th
- e star is 68° up in the W · dark sky.\nIt fades 5.7 magnitudes for up to
-  3.8 s on the centre line\, and the path is 53 km wide\, give or take 15 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2026-12-13-1520-imatra-313344
+ r.\nYou're inside the path\, 19 km from the centre line. The star vanishes
+  for up to 2.6 s.\nChance of an occultation here: 69%\, allowing for the p
+ ath's 1σ of 15 km.\nClosest approach 02:46:59 IST\, give or take 1 s. The
+  star is 68° up in the W · dark sky.\nIt fades 5.7 magnitudes for up to 
+ 3.8 s on the centre line\, and the path is 53 km wide\, give or take 15 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2026-12-13-1520-imatra-313344
 URL:https://occult.alokm.com/asteroid?e=2026-12-13-1520-imatra-313344
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -352,13 +197,13 @@ DTSTART:20261216T163839Z
 DTEND:20261216T164839Z
 SUMMARY:(4932) Texstapa hides a mag 12.0 star · 57% chance
 DESCRIPTION:(4932) Texstapa hides a magnitude 12.0 star\, seen from Gandhin
- agar.\nYou are inside the path\, 5 km from its centre line: the star vanis
- hes for up to 1.9 s.\nChance of an occultation here: 57%\, allowing for th
- e path's 1σ of 15 km.\nClosest approach 22:13:39 IST\, give or take 1 s. 
- The star is 37° up in the E · dark sky.\nIt fades 4.7 magnitudes for up 
- to 2.1 s on the centre line\, and the path is 26 km wide\, give or take 15
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-12-16-4932-texstapa-694272
+ agar.\nYou're inside the path\, 5 km from the centre line. The star vanish
+ es for up to 1.9 s.\nChance of an occultation here: 57%\, allowing for the
+  path's 1σ of 15 km.\nClosest approach 22:13:39 IST\, give or take 1 s. T
+ he star is 37° up in the E · dark sky.\nIt fades 4.7 magnitudes for up t
+ o 2.1 s on the centre line\, and the path is 26 km wide\, give or take 15 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2026-12-16-4932-texstapa-694272
 URL:https://occult.alokm.com/asteroid?e=2026-12-16-4932-texstapa-694272
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -387,13 +232,13 @@ DTSTART:20261227T170420Z
 DTEND:20261227T171420Z
 SUMMARY:(1271) Isergina hides a mag 12.4 star · 45% chance
 DESCRIPTION:(1271) Isergina hides a magnitude 12.4 star\, seen from Gandhin
- agar.\nYou are inside the path\, 22 km from its centre line: the star vani
- shes for up to 1.5 s.\nChance of an occultation here: 45%\, allowing for t
- he path's 1σ of 31 km.\nClosest approach 22:39:20 IST\, give or take 2 s.
-  The star is 70° up in the ESE · dark sky.\nIt fades 2.4 magnitudes for 
- up to 4.0 s on the centre line\, and the path is 48 km wide\, give or take
-  31 km.\nThe map\, the finder chart and the path as KML: https://occult.al
- okm.com/asteroid?e=2026-12-27-1271-isergina-240064
+ agar.\nYou're inside the path\, 22 km from the centre line. The star vanis
+ hes for up to 1.5 s.\nChance of an occultation here: 45%\, allowing for th
+ e path's 1σ of 31 km.\nClosest approach 22:39:20 IST\, give or take 2 s. 
+ The star is 70° up in the ESE · dark sky.\nIt fades 2.4 magnitudes for u
+ p to 4.0 s on the centre line\, and the path is 48 km wide\, give or take 
+ 31 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
+ km.com/asteroid?e=2026-12-27-1271-isergina-240064
 URL:https://occult.alokm.com/asteroid?e=2026-12-27-1271-isergina-240064
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -424,14 +269,13 @@ DTEND:20270106T150625Z
 SUMMARY:(5826) Bradstreet hides a mag 12.4 star (just outside the path) · 
  15% chance
 DESCRIPTION:(5826) Bradstreet hides a magnitude 12.4 star\, seen from Gandh
- inagar.\nThe predicted edge passes 17 km to the SSE\, so a miss is likely 
- — but a chord from near the edge is the most valuable observation of all
- .\nChance of an occultation here: 15%\, allowing for the path's 1σ of 18 
- km.\nClosest approach 20:31:25 IST\, give or take 1 s. The star is 35° up
-  in the E · dark sky.\nIt fades 4.5 magnitudes for up to 1.2 s on the cen
- tre line\, and the path is 19 km wide\, give or take 18 km.\nThe map\, the
-  finder chart and the path as KML: https://occult.alokm.com/asteroid?e=202
- 7-01-06-5826-bradstreet-047808
+ inagar.\nThe edge is 17 km to the SSE. A miss is likely\, but an edge timi
+ ng is very valuable.\nChance of an occultation here: 15%\, allowing for th
+ e path's 1σ of 18 km.\nClosest approach 20:31:25 IST\, give or take 1 s. 
+ The star is 35° up in the E · dark sky.\nIt fades 4.5 magnitudes for up 
+ to 1.2 s on the centre line\, and the path is 19 km wide\, give or take 18
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2027-01-06-5826-bradstreet-047808
 URL:https://occult.alokm.com/asteroid?e=2027-01-06-5826-bradstreet-047808
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -540,14 +384,13 @@ DTEND:20270301T230742Z
 SUMMARY:(798) Ruth hides a mag 12.8 star (just outside the path) · 38% cha
  nce
 DESCRIPTION:(798) Ruth hides a magnitude 12.8 star\, seen from Gandhinagar.
- \nThe predicted edge passes 8 km to the N\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 38%\, allowing for the path's 1σ of 20 km.\nClose
- st approach 04:32:42 IST\, give or take 3 s. The star is 39° up in the SE
-  · dark sky.\nIt fades 2.5 magnitudes for up to 2.7 s on the centre line\
- , and the path is 43 km wide\, give or take 20 km.\nThe map\, the finder c
- hart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-01-7
- 98-ruth-618176
+ \nThe edge is 8 km to the N. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 38%\, allowing for the path's 1
+ σ of 20 km.\nClosest approach 04:32:42 IST\, give or take 3 s. The star i
+ s 39° up in the SE · dark sky.\nIt fades 2.5 magnitudes for up to 2.7 s 
+ on the centre line\, and the path is 43 km wide\, give or take 20 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2027-03-01-798-ruth-618176
 URL:https://occult.alokm.com/asteroid?e=2027-03-01-798-ruth-618176
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -565,14 +408,13 @@ DTEND:20270309T145436Z
 SUMMARY:(756) Lilliana hides a mag 10.9 star (just outside the path) · 16%
   chance
 DESCRIPTION:(756) Lilliana hides a magnitude 10.9 star\, seen from Gandhina
- gar.\nThe predicted edge passes 28 km to the S\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 16%\, allowing for the path's 1σ of 28 km.\n
- Closest approach 20:19:36 IST\, give or take 1 s. The star is 42° up in t
- he WSW · dark sky.\nIt fades 5.6 magnitudes for up to 2.6 s on the centre
-  line\, and the path is 65 km wide\, give or take 28 km.\nThe map\, the fi
- nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-0
- 3-09-756-lilliana-309632
+ gar.\nThe edge is 28 km to the S. A miss is likely\, but an edge timing is
+  very valuable.\nChance of an occultation here: 16%\, allowing for the pat
+ h's 1σ of 28 km.\nClosest approach 20:19:36 IST\, give or take 1 s. The s
+ tar is 42° up in the WSW · dark sky.\nIt fades 5.6 magnitudes for up to 
+ 2.6 s on the centre line\, and the path is 65 km wide\, give or take 28 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-03-09-756-lilliana-309632
 URL:https://occult.alokm.com/asteroid?e=2027-03-09-756-lilliana-309632
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -615,13 +457,13 @@ DTSTART:20270404T225901Z
 DTEND:20270404T230901Z
 SUMMARY:(11) Parthenope hides a mag 11.9 star · 91% chance
 DESCRIPTION:(11) Parthenope hides a magnitude 11.9 star\, seen from Gandhin
- agar.\nYou are inside the path\, 71 km from its centre line: the star vani
- shes for up to 6.2 s.\nChance of an occultation here: 91%\, allowing for t
- he path's 1σ of 15 km.\nClosest approach 04:34:01 IST\, give or take 1 s.
-  The star is 40° up in the SE · dark sky.\nIt fades 0.5 magnitudes for u
- p to 8.9 s on the centre line\, and the path is 143 km wide\, give or take
-  15 km.\nThe map\, the finder chart and the path as KML: https://occult.al
- okm.com/asteroid?e=2027-04-04-11-parthenope-387584
+ agar.\nYou're inside the path\, 71 km from the centre line. The star vanis
+ hes for up to 6.2 s.\nChance of an occultation here: 91%\, allowing for th
+ e path's 1σ of 15 km.\nClosest approach 04:34:01 IST\, give or take 1 s. 
+ The star is 40° up in the SE · dark sky.\nIt fades 0.5 magnitudes for up
+  to 8.9 s on the centre line\, and the path is 143 km wide\, give or take 
+ 15 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
+ km.com/asteroid?e=2027-04-04-11-parthenope-387584
 URL:https://occult.alokm.com/asteroid?e=2027-04-04-11-parthenope-387584
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -637,13 +479,13 @@ DTSTART:20270417T222217Z
 DTEND:20270417T223217Z
 SUMMARY:(284) Amalia hides a mag 10.9 star · 96% chance
 DESCRIPTION:(284) Amalia hides a magnitude 10.9 star\, seen from Gandhinaga
- r.\nYou are inside the path\, 2 km from its centre line: the star vanishes
-  for up to 2.4 s.\nChance of an occultation here: 96%\, allowing for the p
- ath's 1σ of 13 km.\nClosest approach 03:57:17 IST\, give or take 0 s. The
-  star is 31° up in the SE · dark sky.\nIt fades 3.2 magnitudes for up to
-  2.3 s on the centre line\, and the path is 53 km wide\, give or take 13 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-04-17-284-amalia-349632
+ r.\nYou're inside the path\, 2 km from the centre line. The star vanishes 
+ for up to 2.4 s.\nChance of an occultation here: 96%\, allowing for the pa
+ th's 1σ of 13 km.\nClosest approach 03:57:17 IST\, give or take 0 s. The 
+ star is 31° up in the SE · dark sky.\nIt fades 3.2 magnitudes for up to 
+ 2.3 s on the centre line\, and the path is 53 km wide\, give or take 13 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-04-17-284-amalia-349632
 URL:https://occult.alokm.com/asteroid?e=2027-04-17-284-amalia-349632
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -659,13 +501,13 @@ DTSTART:20270422T155144Z
 DTEND:20270422T160144Z
 SUMMARY:(61) Danae hides a mag 12.8 star · 57% chance
 DESCRIPTION:(61) Danae hides a magnitude 12.8 star\, seen from Gandhinagar.
- \nYou are inside the path\, 41 km from its centre line: the star vanishes 
- for up to 1.4 s.\nChance of an occultation here: 57%\, allowing for the pa
- th's 1σ of 25 km.\nClosest approach 21:26:44 IST\, give or take 1 s. The 
- star is 34° up in the WNW · dark sky.\nIt fades 1.4 magnitudes for up to
-  3.0 s on the centre line\, and the path is 86 km wide\, give or take 25 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-04-22-61-danae-026880
+ \nYou're inside the path\, 41 km from the centre line. The star vanishes f
+ or up to 1.4 s.\nChance of an occultation here: 57%\, allowing for the pat
+ h's 1σ of 25 km.\nClosest approach 21:26:44 IST\, give or take 1 s. The s
+ tar is 34° up in the WNW · dark sky.\nIt fades 1.4 magnitudes for up to 
+ 3.0 s on the centre line\, and the path is 86 km wide\, give or take 25 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-04-22-61-danae-026880
 URL:https://occult.alokm.com/asteroid?e=2027-04-22-61-danae-026880
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -681,13 +523,13 @@ DTSTART:20270504T154624Z
 DTEND:20270504T155624Z
 SUMMARY:(2525) O'Steen hides a mag 12.0 star · 43% chance
 DESCRIPTION:(2525) O'Steen hides a magnitude 12.0 star\, seen from Gandhina
- gar.\nYou are inside the path\, 2 km from its centre line: the star vanish
- es for up to 0.9 s.\nChance of an occultation here: 43%\, allowing for the
-  path's 1σ of 26 km.\nClosest approach 21:21:24 IST\, give or take 1 s. T
- he star is 24° up in the WNW · dark sky.\nIt fades 5.3 magnitudes for up
-  to 0.9 s on the centre line\, and the path is 30 km wide\, give or take 2
- 6 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
- m.com/asteroid?e=2027-05-04-2525-o-steen-105216
+ gar.\nYou're inside the path\, 2 km from the centre line. The star vanishe
+ s for up to 0.9 s.\nChance of an occultation here: 43%\, allowing for the 
+ path's 1σ of 26 km.\nClosest approach 21:21:24 IST\, give or take 1 s. Th
+ e star is 24° up in the WNW · dark sky.\nIt fades 5.3 magnitudes for up 
+ to 0.9 s on the centre line\, and the path is 30 km wide\, give or take 26
+  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
+ .com/asteroid?e=2027-05-04-2525-o-steen-105216
 URL:https://occult.alokm.com/asteroid?e=2027-05-04-2525-o-steen-105216
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -704,14 +546,13 @@ DTEND:20270506T160839Z
 SUMMARY:(1039) Sonneberga hides a mag 11.7 star (just outside the path) · 
  31% chance
 DESCRIPTION:(1039) Sonneberga hides a magnitude 11.7 star\, seen from Gandh
- inagar.\nThe predicted edge passes 10 km to the S\, so a miss is likely 
- — but a chord from near the edge is the most valuable observation of all
- .\nChance of an occultation here: 31%\, allowing for the path's 1σ of 26 
- km.\nClosest approach 21:33:39 IST\, give or take 3 s. The star is 65° up
-  in the SW · dark sky.\nIt fades 4.4 magnitudes for up to 6.9 s on the ce
- ntre line\, and the path is 34 km wide\, give or take 26 km.\nThe map\, th
- e finder chart and the path as KML: https://occult.alokm.com/asteroid?e=20
- 27-05-06-1039-sonneberga-364672
+ inagar.\nThe edge is 10 km to the S. A miss is likely\, but an edge timing
+  is very valuable.\nChance of an occultation here: 31%\, allowing for the 
+ path's 1σ of 26 km.\nClosest approach 21:33:39 IST\, give or take 3 s. Th
+ e star is 65° up in the SW · dark sky.\nIt fades 4.4 magnitudes for up t
+ o 6.9 s on the centre line\, and the path is 34 km wide\, give or take 26 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-05-06-1039-sonneberga-364672
 URL:https://occult.alokm.com/asteroid?e=2027-05-06-1039-sonneberga-364672
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -729,14 +570,13 @@ DTEND:20270509T215658Z
 SUMMARY:(65) Cybele hides a mag 11.5 star (just outside the path) · 31% ch
  ance
 DESCRIPTION:(65) Cybele hides a magnitude 11.5 star\, seen from Gandhinagar
- .\nThe predicted edge passes 10 km to the NNE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nCha
- nce of an occultation here: 31%\, allowing for the path's 1σ of 15 km.\nC
- losest approach 03:21:58 IST\, give or take 4 s. The star is 48° up in th
- e S · dark sky.\nIt fades 0.8 magnitudes for up to 46.3 s on the centre l
- ine\, and the path is 237 km wide\, give or take 15 km.\nThe map\, the fin
- der chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-05
- -09-65-cybele-529920
+ .\nThe edge is 10 km to the NNE. A miss is likely\, but an edge timing is 
+ very valuable.\nChance of an occultation here: 31%\, allowing for the path
+ 's 1σ of 15 km.\nClosest approach 03:21:58 IST\, give or take 4 s. The st
+ ar is 48° up in the S · dark sky.\nIt fades 0.8 magnitudes for up to 46.
+ 3 s on the centre line\, and the path is 237 km wide\, give or take 15 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-05-09-65-cybele-529920
 URL:https://occult.alokm.com/asteroid?e=2027-05-09-65-cybele-529920
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -753,13 +593,13 @@ DTSTART:20270513T231523Z
 DTEND:20270513T232523Z
 SUMMARY:(40) Harmonia hides a mag 11.8 star · >99% chance
 DESCRIPTION:(40) Harmonia hides a magnitude 11.8 star\, seen from Gandhinag
- ar.\nYou are inside the path\, 12 km from its centre line: the star vanish
- es for up to 10.5 s.\nChance of an occultation here: >99%\, allowing for t
- he path's 1σ of 10 km.\nClosest approach 04:50:23 IST\, give or take 1 s.
-  The star is 22° up in the WSW · dark sky.\nIt fades 0.1 magnitudes for 
- up to 11.0 s on the centre line\, and the path is 111 km wide\, give or ta
- ke 10 km.\nThe map\, the finder chart and the path as KML: https://occult.
- alokm.com/asteroid?e=2027-05-13-40-harmonia-749760
+ ar.\nYou're inside the path\, 12 km from the centre line. The star vanishe
+ s for up to 10.5 s.\nChance of an occultation here: >99%\, allowing for th
+ e path's 1σ of 10 km.\nClosest approach 04:50:23 IST\, give or take 1 s. 
+ The star is 22° up in the WSW · dark sky.\nIt fades 0.1 magnitudes for u
+ p to 11.0 s on the centre line\, and the path is 111 km wide\, give or tak
+ e 10 km.\nThe map\, the finder chart and the path as KML: https://occult.a
+ lokm.com/asteroid?e=2027-05-13-40-harmonia-749760
 URL:https://occult.alokm.com/asteroid?e=2027-05-13-40-harmonia-749760
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -829,13 +669,13 @@ DTSTART:20270617T180620Z
 DTEND:20270617T181620Z
 SUMMARY:(3631) Sigyn hides a mag 9.8 star · 56% chance
 DESCRIPTION:(3631) Sigyn hides a magnitude 9.8 star\, seen from Gandhinagar
- .\nYou are inside the path\, 20 km from its centre line: the star vanishes
-  for up to 1.8 s.\nChance of an occultation here: 56%\, allowing for the p
- ath's 1σ of 14 km.\nClosest approach 23:41:20 IST\, give or take 2 s. The
-  star is 46° up in the SE · dark sky.\nIt fades 5.7 magnitudes for up to
-  4.0 s on the centre line\, and the path is 39 km wide\, give or take 14 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-06-17-3631-sigyn-651200
+ .\nYou're inside the path\, 20 km from the centre line. The star vanishes 
+ for up to 1.8 s.\nChance of an occultation here: 56%\, allowing for the pa
+ th's 1σ of 14 km.\nClosest approach 23:41:20 IST\, give or take 2 s. The 
+ star is 46° up in the SE · dark sky.\nIt fades 5.7 magnitudes for up to 
+ 4.0 s on the centre line\, and the path is 39 km wide\, give or take 14 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-06-17-3631-sigyn-651200
 URL:https://occult.alokm.com/asteroid?e=2027-06-17-3631-sigyn-651200
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -864,13 +704,13 @@ DTSTART:20270626T150219Z
 DTEND:20270626T151219Z
 SUMMARY:(67) Asia hides a mag 12.7 star · 49% chance
 DESCRIPTION:(67) Asia hides a magnitude 12.7 star\, seen from Gandhinagar.\
- nYou are inside the path\, 29 km from its centre line: the star vanishes f
- or up to 3.0 s.\nChance of an occultation here: 49%\, allowing for the pat
- h's 1σ of 30 km.\nClosest approach 20:37:19 IST\, give or take 1 s. The s
- tar is 16° up in the ESE · dark sky.\nIt fades 0.1 magnitudes for up to 
- 8.5 s on the centre line\, and the path is 56 km wide\, give or take 30 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2027-06-26-67-asia-611328
+ nYou're inside the path\, 29 km from the centre line. The star vanishes fo
+ r up to 3.0 s.\nChance of an occultation here: 49%\, allowing for the path
+ 's 1σ of 30 km.\nClosest approach 20:37:19 IST\, give or take 1 s. The st
+ ar is 16° up in the ESE · dark sky.\nIt fades 0.1 magnitudes for up to 8
+ .5 s on the centre line\, and the path is 56 km wide\, give or take 30 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2027-06-26-67-asia-611328
 URL:https://occult.alokm.com/asteroid?e=2027-06-26-67-asia-611328
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -886,13 +726,13 @@ DTSTART:20270704T215302Z
 DTEND:20270704T220302Z
 SUMMARY:(275) Sapientia hides a mag 12.6 star · >99% chance
 DESCRIPTION:(275) Sapientia hides a magnitude 12.6 star\, seen from Gandhin
- agar.\nYou are inside the path\, 6 km from its centre line: the star vanis
- hes for up to 11.7 s.\nChance of an occultation here: >99%\, allowing for 
- the path's 1σ of 13 km.\nClosest approach 03:28:02 IST\, give or take 4 s
- . The star is 12° up in the WSW · dark sky.\nIt fades 1.0 magnitudes for
-  up to 11.9 s on the centre line\, and the path is 103 km wide\, give or t
- ake 13 km.\nThe map\, the finder chart and the path as KML: https://occult
- .alokm.com/asteroid?e=2027-07-04-275-sapientia-772160
+ agar.\nYou're inside the path\, 6 km from the centre line. The star vanish
+ es for up to 11.7 s.\nChance of an occultation here: >99%\, allowing for t
+ he path's 1σ of 13 km.\nClosest approach 03:28:02 IST\, give or take 4 s.
+  The star is 12° up in the WSW · dark sky.\nIt fades 1.0 magnitudes for 
+ up to 11.9 s on the centre line\, and the path is 103 km wide\, give or ta
+ ke 13 km.\nThe map\, the finder chart and the path as KML: https://occult.
+ alokm.com/asteroid?e=2027-07-04-275-sapientia-772160
 URL:https://occult.alokm.com/asteroid?e=2027-07-04-275-sapientia-772160
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -908,13 +748,13 @@ DTSTART:20270706T211119Z
 DTEND:20270706T212119Z
 SUMMARY:(240) Vanadis hides a mag 11.8 star · 99% chance
 DESCRIPTION:(240) Vanadis hides a magnitude 11.8 star\, seen from Gandhinag
- ar.\nYou are inside the path\, 10 km from its centre line: the star vanish
- es for up to 6.3 s.\nChance of an occultation here: 99%\, allowing for the
-  path's 1σ of 14 km.\nClosest approach 02:46:19 IST\, give or take 1 s. T
- he star is 33° up in the SW · dark sky.\nIt fades 1.6 magnitudes for up 
- to 6.6 s on the centre line\, and the path is 88 km wide\, give or take 14
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2027-07-06-240-vanadis-855616
+ ar.\nYou're inside the path\, 10 km from the centre line. The star vanishe
+ s for up to 6.3 s.\nChance of an occultation here: 99%\, allowing for the 
+ path's 1σ of 14 km.\nClosest approach 02:46:19 IST\, give or take 1 s. Th
+ e star is 33° up in the SW · dark sky.\nIt fades 1.6 magnitudes for up t
+ o 6.6 s on the centre line\, and the path is 88 km wide\, give or take 14 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-07-06-240-vanadis-855616
 URL:https://occult.alokm.com/asteroid?e=2027-07-06-240-vanadis-855616
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -957,14 +797,13 @@ DTEND:20270802T202505Z
 SUMMARY:(2020) Ukko hides a mag 5.9 star (just outside the path) · 25% cha
  nce
 DESCRIPTION:(2020) Ukko hides a magnitude 5.9 star\, seen from Gandhinagar.
- \nThe predicted edge passes 9 km to the SSE\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nChanc
- e of an occultation here: 25%\, allowing for the path's 1σ of 16 km.\nClo
- sest approach 01:50:05 IST\, give or take 1 s. The star is 51° up in the 
- SSW · dark sky.\nIt fades 10.0 magnitudes for up to 1.4 s on the centre l
- ine\, and the path is 19 km wide\, give or take 16 km.\nThe map\, the find
- er chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-
- 02-2020-ukko-007936
+ \nThe edge is 9 km to the SSE. A miss is likely\, but an edge timing is ve
+ ry valuable.\nChance of an occultation here: 25%\, allowing for the path's
+  1σ of 16 km.\nClosest approach 01:50:05 IST\, give or take 1 s. The star
+  is 51° up in the SSW · dark sky.\nIt fades 10.0 magnitudes for up to 1.
+ 4 s on the centre line\, and the path is 19 km wide\, give or take 16 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2027-08-02-2020-ukko-007936
 URL:https://occult.alokm.com/asteroid?e=2027-08-02-2020-ukko-007936
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1020,13 +859,13 @@ DTSTART:20270824T234715Z
 DTEND:20270824T235715Z
 SUMMARY:(6475) Refugium hides a mag 11.3 star · 42% chance
 DESCRIPTION:(6475) Refugium hides a magnitude 11.3 star\, seen from Gandhin
- agar.\nYou are inside the path\, 9 km from its centre line: the star vanis
- hes for up to 0.8 s.\nChance of an occultation here: 42%\, allowing for th
- e path's 1σ of 25 km.\nClosest approach 05:22:15 IST\, give or take 1 s. 
- The star is 43° up in the ENE · dark sky.\nIt fades 5.9 magnitudes for u
- p to 0.9 s on the centre line\, and the path is 30 km wide\, give or take 
- 25 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2027-08-24-6475-refugium-062528
+ agar.\nYou're inside the path\, 9 km from the centre line. The star vanish
+ es for up to 0.8 s.\nChance of an occultation here: 42%\, allowing for the
+  path's 1σ of 25 km.\nClosest approach 05:22:15 IST\, give or take 1 s. T
+ he star is 43° up in the ENE · dark sky.\nIt fades 5.9 magnitudes for up
+  to 0.9 s on the centre line\, and the path is 30 km wide\, give or take 2
+ 5 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-08-24-6475-refugium-062528
 URL:https://occult.alokm.com/asteroid?e=2027-08-24-6475-refugium-062528
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1042,13 +881,13 @@ DTSTART:20270826T210113Z
 DTEND:20270826T211113Z
 SUMMARY:(2025) Nortia hides a mag 10.3 star · 65% chance
 DESCRIPTION:(2025) Nortia hides a magnitude 10.3 star\, seen from Gandhinag
- ar.\nYou are inside the path\, 7 km from its centre line: the star vanishe
- s for up to 3.4 s.\nChance of an occultation here: 65%\, allowing for the 
- path's 1σ of 22 km.\nClosest approach 02:36:13 IST\, give or take 1 s. Th
- e star is 57° up in the SW · dark sky.\nIt fades 4.7 magnitudes for up t
- o 3.7 s on the centre line\, and the path is 43 km wide\, give or take 22 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2027-08-26-2025-nortia-628288
+ ar.\nYou're inside the path\, 7 km from the centre line. The star vanishes
+  for up to 3.4 s.\nChance of an occultation here: 65%\, allowing for the p
+ ath's 1σ of 22 km.\nClosest approach 02:36:13 IST\, give or take 1 s. The
+  star is 57° up in the SW · dark sky.\nIt fades 4.7 magnitudes for up to
+  3.7 s on the centre line\, and the path is 43 km wide\, give or take 22 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-08-26-2025-nortia-628288
 URL:https://occult.alokm.com/asteroid?e=2027-08-26-2025-nortia-628288
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1078,14 +917,13 @@ DTEND:20270829T182053Z
 SUMMARY:(1633) Chimay hides a mag 11.5 star (just outside the path) · 32% 
  chance
 DESCRIPTION:(1633) Chimay hides a magnitude 11.5 star\, seen from Gandhinag
- ar.\nThe predicted edge passes 7 km to the NNW\, so a miss is likely — b
- ut a chord from near the edge is the most valuable observation of all.\nCh
- ance of an occultation here: 32%\, allowing for the path's 1σ of 36 km.\n
- Closest approach 23:45:53 IST\, give or take 1 s. The star is 52° up in t
- he SSE · dark sky.\nIt fades 4.1 magnitudes for up to 2.6 s on the centre
-  line\, and the path is 37 km wide\, give or take 36 km.\nThe map\, the fi
- nder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-0
- 8-29-1633-chimay-339904
+ ar.\nThe edge is 7 km to the NNW. A miss is likely\, but an edge timing is
+  very valuable.\nChance of an occultation here: 32%\, allowing for the pat
+ h's 1σ of 36 km.\nClosest approach 23:45:53 IST\, give or take 1 s. The s
+ tar is 52° up in the SSE · dark sky.\nIt fades 4.1 magnitudes for up to 
+ 2.6 s on the centre line\, and the path is 37 km wide\, give or take 36 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-08-29-1633-chimay-339904
 URL:https://occult.alokm.com/asteroid?e=2027-08-29-1633-chimay-339904
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1094,6 +932,71 @@ DESCRIPTION:(1633) Chimay hides a mag 11.5 star (just outside the path) ·
  32% chance
 TRIGGER:-PT90M
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b73f7411c13c-gandhinagar@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T155414Z
+DTEND:20270910T155614Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 21:24:14 at the dark limb
+  IST\, seen from Gandhinagar.\nThe Moon is 41° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f7ed7a6517fb-gandhinagar@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T191141Z
+DTEND:20270921T191341Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 00:41:41 at the dark limb I
+ ST\, seen from Gandhinagar.\nThe Moon is 31° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bb1ec037ec23-gandhinagar@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T212826Z
+DTEND:20270925T213026Z
+SUMMARY:The Moon hides HIP 41833 · mag 6.5
+DESCRIPTION:HIP 41833 (magnitude 6.5) reappears at 02:58:26 at the dark lim
+ b IST\, seen from Gandhinagar.\nThe Moon is 8° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-170fb3a2ea4a-gandhinagar@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T193024Z
+DTEND:20271021T193224Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 01:00:24 at the dark limb I
+ ST\, seen from Gandhinagar.\nThe Moon is 23° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-abff5b1c57aa-gandhinagar@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T231137Z
+DTEND:20271023T231337Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 04:41:37 at the dark limb 
+ IST\, seen from Gandhinagar.\nThe Moon is 45° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-gandhinagar@occult.alokm.com

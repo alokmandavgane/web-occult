@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-3f02f82e746f-foshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215819Z
-DTEND:20261006T220019Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:58:19 at the dark limb C
- ST\, seen from Foshan\, CN.\nThe Moon is 40° up in the E · dusk. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9919a39ef13a-foshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T132401Z
-DTEND:20261016T132601Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:24:01 at the dark limb
-  CST\, seen from Foshan\, CN.\nThe Moon is 5° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-d2f26e561617-foshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142709Z
-DTEND:20261020T142909Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:27:09 at the dark limb 
- CST\, seen from Foshan\, CN.\nThe Moon is 35° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-347d797a447f-foshan-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210748Z
@@ -334,6 +295,45 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:37:13 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b990174aff1-foshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T134416Z
+DTEND:20271013T134616Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 21:44:16 at the dark limb 
+ CST\, seen from Foshan\, CN.\nThe Moon is 64° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-558113982dc5-foshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T151529Z
+DTEND:20271021T151729Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:15:29 at the dark limb C
+ ST\, seen from Foshan\, CN.\nThe Moon is 6° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e6369ed8862-foshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T203134Z
+DTEND:20271021T203334Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:31:34 at the dark limb C
+ ST\, seen from Foshan\, CN.\nThe Moon is 74° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

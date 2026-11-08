@@ -10,90 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-izmir-tr@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T093626Z
-DTEND:20260914T105718Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:37:58 and reappears at 13:55:36 +03\, se
- en from İzmir\, TR.\nThe Moon is 21° up in the SE · daylight\, Sun +54
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=38.4127&l
- on=27.1384
-URL:https://occult.alokm.com/venus-2026-09-14?lat=38.4127&lon=27.1384
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-183f27b660f4-izmir-tr@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T204549Z
-DTEND:20260923T204749Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:45:49 at the dark limb 
- +03\, seen from İzmir\, TR.\nThe Moon is 37° up in the SSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3d1e07bc6723-izmir-tr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T180107Z
-DTEND:20261016T180307Z
-SUMMARY:The Moon hides HR 6766 · mag 4.5
-DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 21:01:07 at the dark limb
-  +03\, seen from İzmir\, TR.\nThe Moon is 8° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c9b0fbd7a375-izmir-tr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T191834Z
-DTEND:20261018T192034Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:18:34 at the dark limb
-  +03\, seen from İzmir\, TR.\nThe Moon is 14° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5ad86daed2fe-izmir-tr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T001621Z
-DTEND:20261030T001821Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:16:21 at the dark limb 
- +03\, seen from İzmir\, TR.\nThe Moon is 70° up in the ESE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e86034d769db-izmir-tr@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T030910Z
-DTEND:20261101T031110Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 06:09:10 at the dark limb 
- +03\, seen from İzmir\, TR.\nThe Moon is 73° up in the SSE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-025248dd91d2-izmir-tr@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T235602Z
@@ -418,6 +334,84 @@ DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 01:57:21 at the dark
  ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
  s://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-67ff14259a1e-izmir-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T171023Z
+DTEND:20270906T171223Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:10:23 at the dark limb +
+ 03\, seen from İzmir\, TR.\nThe Moon is 19° up in the SSW · dusk. Binoc
+ ulars show it.\nEvery occultation this month\, for anywhere: https://occul
+ t.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1011da6ae008-izmir-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T200716Z
+DTEND:20270908T200916Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 23:07:16 at the dark limb +
+ 03\, seen from İzmir\, TR.\nThe Moon is 9° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5faf0925c0d9-izmir-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T023435Z
+DTEND:20270925T023635Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 05:34:35 at the dark limb 
+ +03\, seen from İzmir\, TR.\nThe Moon is 47° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-facaf612b9e1-izmir-tr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T032003Z
+DTEND:20270926T032203Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 06:20:03 at the dark limb +
+ 03\, seen from İzmir\, TR.\nThe Moon is 42° up in the E · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b6301de9c61d-izmir-tr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T164230Z
+DTEND:20271006T164430Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:42:30 at the dark limb
+  +03\, seen from İzmir\, TR.\nThe Moon is 22° up in the SSW · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98691abae550-izmir-tr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T020437Z
+DTEND:20271026T020637Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:04:37 at the dark limb +
+ 03\, seen from İzmir\, TR.\nThe Moon is 13° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

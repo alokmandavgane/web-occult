@@ -10,78 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Cairo
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-alexandria-eg@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T094022Z
-DTEND:20260914T110605Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:41:57 and reappears at 14:04:19 EEST\, s
- een from Alexandria\, EG.\nThe Moon is 29° up in the SE · daylight\, Sun
-  +62°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
- ew at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=31.20
- 18&lon=29.9158
-URL:https://occult.alokm.com/venus-2026-09-14?lat=31.2018&lon=29.9158
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-26a9d1d5655f-alexandria-eg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T163209Z
-DTEND:20260917T165720Z
-SUMMARY:The Moon hides τ Sco · mag 2.7
-DESCRIPTION:τ Sco (magnitude 2.7) disappears at 19:32:09 at the dark limb 
- and reappears at 19:57:20 at the bright limb EEST\, seen from Alexandria\,
-  EG.\nThe Moon is 26° up in the SSW · dusk. Binoculars show it.\nEvery o
- ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
- 2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1a6273768197-alexandria-eg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T203436Z
-DTEND:20260923T203636Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:34:36 at the dark limb 
- EEST\, seen from Alexandria\, EG.\nThe Moon is 44° up in the SSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-17235f43ebe1-alexandria-eg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T191426Z
-DTEND:20261018T191626Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:14:26 at the dark limb
-  EEST\, seen from Alexandria\, EG.\nThe Moon is 19° up in the SW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-fd2c51b58668-alexandria-eg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T002131Z
-DTEND:20261030T002331Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 02:21:31 at the dark limb 
- EET\, seen from Alexandria\, EG.\nThe Moon is 76° up in the E · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a6346872f2e9-alexandria-eg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T235924Z
@@ -445,6 +373,84 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 01:54:03 at the dark limb E
  ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
  s://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a12058ffe448-alexandria-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T170539Z
+DTEND:20270906T170739Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:05:39 at the dark limb E
+ EST\, seen from Alexandria\, EG.\nThe Moon is 24° up in the SSW · dusk. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eebfe20b0705-alexandria-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T163616Z
+DTEND:20270912T163816Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 19:36:16 at the dark limb 
+ EEST\, seen from Alexandria\, EG.\nThe Moon is 24° up in the SE · dusk. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2e4a273c9dd2-alexandria-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T005411Z
+DTEND:20270925T005611Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 03:54:11 at the dark limb 
+ EEST\, seen from Alexandria\, EG.\nThe Moon is 29° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0633b4fbfbf6-alexandria-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T021003Z
+DTEND:20270925T021203Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 05:10:03 at the dark limb 
+ EEST\, seen from Alexandria\, EG.\nThe Moon is 45° up in the E · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9b99676dd01d-alexandria-eg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T165206Z
+DTEND:20271006T165406Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:52:06 at the dark limb
+  EEST\, seen from Alexandria\, EG.\nThe Moon is 28° up in the SSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c20caf3b3a4-alexandria-eg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T020008Z
+DTEND:20271026T020208Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:00:08 at the dark limb E
+ EST\, seen from Alexandria\, EG.\nThe Moon is 15° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -114,6 +114,7 @@
       .ast-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .st .k { white-space: normal; } }
     .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
+    .rules ul { margin: 0; padding-left: 1.1rem; }
 
     .chord, .curve, .world, .strip, .finder { width: 100%; height: auto; display: block; }
     .chord, .curve, .world, .finder { background: var(--sea); border-radius: 8px; }
@@ -238,10 +239,10 @@
   </header>
   <div id="map"></div>
   <div class="path-key"><span class="k-cl">centre line</span><span class="k-edge">edge of the shadow</span><span class="k-sig">1σ</span><span class="k-sig2">2σ</span></div>
-  <p class="map-note">The colours are Occult4's. Between the blue edges the path is shaded darkest down the middle, where the star
-  stays hidden longest — at the edges it barely blinks. The green dotted line is the rest of the track around the world.
+  <p class="map-note">The colours are Occult4's. The path is darkest down the middle, where the star hides longest. At the
+  edges it only blinks. The green dotted line is the rest of the track around the world.
   Labels along the centre line are the time the shadow passes there.
-  <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
+  <b>Tap the map or drag the pin to move your spot.</b> Everything on this page follows it.</p>
   <p class="map-note" id="sky-note"></p>
   <div class="spot">
     <span class="spot-coords" id="spot-coords"></span>
@@ -265,11 +266,9 @@
   </div>
   <h2>The numbers</h2>
   <div class="table-wrap"><table class="ev-facts"><tbody id="ev-facts"></tbody></table></div>
-  <p class="method">Everything here is computed for the place in the chip above: the time is when the shadow passes closest
-  to you, and the chord and fade are what you would record there. The asteroid is a sphere of its catalogue diameter, so a
-  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.
-  Once you have opened this page it stays on your phone — the times, the charts, the path and the map tiles you looked at —
-  so it still works where you are going, which is usually somewhere without a signal.</p>
+  <p class="method">Everything here is for the place shown above: when the shadow passes closest, and the chord and fade
+  you'd record. The asteroid is drawn as a sphere. Real ones are lumpy, and timings from several places show the true shape.
+  Once opened, this page works offline, including the map tiles you viewed. Useful where there's no signal.</p>
   <noscript><p class="method">This page draws itself in the browser. Without JavaScript, the month pages list every event
   with its path and times.</p></noscript>
   <script type="application/json" id="ast-meta">{"months":{"2026-09":"/data/asteroids-2026-09.json?v=499fa126ab","2026-10":"/data/asteroids-2026-10.json?v=9ec4e9d9bc","2026-11":"/data/asteroids-2026-11.json?v=530a2f7bc8","2026-12":"/data/asteroids-2026-12.json?v=4638291626","2027-01":"/data/asteroids-2027-01.json?v=f30b35e559","2027-02":"/data/asteroids-2027-02.json?v=95140ffea3","2027-03":"/data/asteroids-2027-03.json?v=5947b6e492","2027-04":"/data/asteroids-2027-04.json?v=f6efee1629","2027-05":"/data/asteroids-2027-05.json?v=5d547a7b8c","2027-06":"/data/asteroids-2027-06.json?v=073f9aea02","2027-07":"/data/asteroids-2027-07.json?v=11391e1e32","2027-08":"/data/asteroids-2027-08.json?v=5fefc3b7e2"},"monthLabels":{"2026-09":"September 2026","2026-10":"October 2026","2026-11":"November 2026","2026-12":"December 2026","2027-01":"January 2027","2027-02":"February 2027","2027-03":"March 2027","2027-04":"April 2027","2027-05":"May 2027","2027-06":"June 2027","2027-07":"July 2027","2027-08":"August 2027"},"bbox":[66.0,4.0,98.0,38.0],"defaultPlace":["New Delhi",28.6139,77.209,"Asia/Kolkata"],"world":"/data/world-coarse.json?v=48d12d25ba"}</script>
@@ -282,7 +281,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOseddDm0cxnGQzxIR7vJgsLZbdLE3w==" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin="anonymous"></script>
-<script src="/js/asteroid.js?v=6dd585a562"></script>
+<script src="/js/asteroid.js?v=40738fdab3"></script>
 <script src="/js/site.js?v=0812d9dde9"></script>
 <script src="/js/cities-india.js?v=5e73770dc4"></script>
 <script>

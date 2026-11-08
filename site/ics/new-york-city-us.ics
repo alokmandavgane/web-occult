@@ -10,105 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-UID:star-9052be181af6-new-york-city-us@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T053717Z
-DTEND:20260923T053917Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 01:37:17 at the dark limb 
- EDT\, seen from New York City\, US.\nThe Moon is 15° up in the SW · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e97d4e2a905a-new-york-city-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T074347Z
-DTEND:20261005T074547Z
-SUMMARY:The Moon hides η Cnc · mag 5.3
-DESCRIPTION:η Cnc (magnitude 5.3) reappears at 03:43:47 at the dark limb E
- DT\, seen from New York City\, US.\nThe Moon is 26° up in the E · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-new-york-city-us@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T082255Z
-DTEND:20261006T092757Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 04:24:01 and reappears at 05:26:46 EDT\, 
- seen from New York City\, US.\nThe Moon is 21° up in the E · dark sky.\n
- Times against the real lunar limb.\nMap\, timings and the view at the Moon
- 's edge: https://occult.alokm.com/jupiter-2026-10-06?city=New%20York%20Cit
- y%2C%20US
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=New%20York%20City%2C%2
- 0US
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-747a3b75157d-new-york-city-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T000726Z
-DTEND:20261028T000926Z
-SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
-DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 20:07:26 at the d
- ark limb EDT\, seen from New York City\, US.\nThe Moon is 14° up in the E
- NE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
- ywhere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a8cdedb77e2a-new-york-city-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T000929Z
-DTEND:20261028T001129Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 20:09:29 at the d
- ark limb EDT\, seen from New York City\, US.\nThe Moon is 14° up in the E
- NE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
- ywhere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-53cc2e9ca4d8-new-york-city-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T002630Z
-DTEND:20261028T004243Z
-SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
-DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 20:26:30 at the 
- bright limb and reappears at 20:42:43 at the dark limb EDT\, seen from New
-  York City\, US.\nThe Moon is 17° up in the ENE · dark sky. Binoculars s
- how it.\nEvery occultation this month\, for anywhere: https://occult.alokm
- .com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1156c735b69a-new-york-city-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T003302Z
-DTEND:20261028T003502Z
-SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
-DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 20:33:02 at the dark
-  limb EDT\, seen from New York City\, US.\nThe Moon is 18° up in the ENE 
- · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
- ere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-b409c7e619bf-new-york-city-us@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261117T225403Z
@@ -289,6 +190,125 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 01:26:21 at the dark limb
   sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
  tps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9538809cf569-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T004720Z
+DTEND:20270906T004920Z
+SUMMARY:The Moon hides HR 5655 · mag 6.5
+DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 20:47:20 at the dark limb
+  EDT\, seen from New York City\, US.\nThe Moon is 8° up in the SW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-df052d6ca37a-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T090512Z
+DTEND:20270916T090712Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 05:05:12 at the dark limb E
+ DT\, seen from New York City\, US.\nThe Moon is 23° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4984ba7d1cec-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T041139Z
+DTEND:20270921T041339Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 00:11:39 at the d
+ ark limb EDT\, seen from New York City\, US.\nThe Moon is 32° up in the E
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffdefc91407f-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T041301Z
+DTEND:20270921T041501Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 00:13:01 at the dark limb E
+ DT\, seen from New York City\, US.\nThe Moon is 32° up in the E · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-09c10f393448-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T043804Z
+DTEND:20270921T045549Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 00:38:04 at the 
+ bright limb and reappears at 00:55:49 at the dark limb EDT\, seen from New
+  York City\, US.\nThe Moon is 37° up in the E · dark sky. Binoculars sho
+ w it.\nEvery occultation this month\, for anywhere: https://occult.alokm.c
+ om/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91cea60ecba7-new-york-city-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T044323Z
+DTEND:20270921T044523Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:43:23 at the dark
+  limb EDT\, seen from New York City\, US.\nThe Moon is 38° up in the E ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98b5c36d41ed-new-york-city-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271007T225846Z
+DTEND:20271007T230046Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 18:58:46 at the dark limb
+  EDT\, seen from New York City\, US.\nThe Moon is 25° up in the S · dusk
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1233e976b2c0-new-york-city-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T082113Z
+DTEND:20271021T094317Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 04:21:13 at the bright lim
+ b and reappears at 05:43:17 at the dark limb EDT\, seen from New York City
+ \, US.\nThe Moon is 67° up in the SE · dark sky. Binoculars show it.\nEv
+ ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
+ tars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63cecd18c94b-new-york-city-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T092105Z
+DTEND:20271026T092305Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) reappears at 05:21:05 at the dark limb 
+ EDT\, seen from New York City\, US.\nThe Moon is 15° up in the ESE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

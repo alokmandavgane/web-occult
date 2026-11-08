@@ -184,7 +184,7 @@
     });
     document.getElementById('tz-label').textContent = tzLabel(tz);
     document.getElementById('chip-name').textContent = LOC.label;
-    countLine.textContent = list.length + ' occultations you can see from ' + LOC.label + ' with ' + META.instruments[INST][0].toLowerCase() + ' this month, on ' + order.length + ' nights · ' + occ + ' in all from there';
+    countLine.textContent = list.length + ' occultations you can see from ' + LOC.label + ' with ' + (INST === 'eye' ? 'the ' : INST === 'binoculars' ? '' : 'a ') + META.instruments[INST][0].toLowerCase() + ' this month, on ' + order.length + ' nights · ' + occ + ' in all from there';
     if (window.MoonRender && model.d.lib) MoonRender.load(META.texture).then(function () {
       calEl.querySelectorAll('.cal-moon').forEach(function (cv) {
         var day = +cv.parentNode.getAttribute('data-day'), ms = Date.UTC(y, mo - 1, day) + (21 - LOC.lon / 15) * 36e5;

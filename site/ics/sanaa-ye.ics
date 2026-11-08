@@ -10,39 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Aden
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-sanaa-ye@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T101743Z
-DTEND:20260914T115719Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 13:19:38 and reappears at 14:55:15 +03\, se
- en from Sanaa\, YE.\nThe Moon is 54° up in the SSE · daylight\, Sun +67
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=15.3545&l
- on=44.2065
-URL:https://occult.alokm.com/venus-2026-09-14?lat=15.3545&lon=44.2065
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3e508aeab553-sanaa-ye@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T211201Z
-DTEND:20260923T212309Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 00:12:01 at the dark limb 
- and reappears at 00:23:09 at the dark limb +03\, seen from Sanaa\, YE.\nTh
- e Moon is 44° up in the SW · dark sky. Binoculars show it.\nEvery occult
- ation this month\, for anywhere: https://occult.alokm.com/moon-stars-2026-
- 09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-860fc5e62ce6-sanaa-ye@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T234132Z
@@ -391,6 +358,32 @@ DESCRIPTION:37 Gem (magnitude 5.7) reappears at 02:33:52 at the dark limb +
  oculars show it.\nEvery occultation this month\, for anywhere: https://occ
  ult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-27d4fc40da42-sanaa-ye@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T173503Z
+DTEND:20270906T173703Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:35:03 at the dark limb +
+ 03\, seen from Sanaa\, YE.\nThe Moon is 22° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e9b5defa1f79-sanaa-ye@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T012542Z
+DTEND:20270925T012742Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 04:25:42 at the dark limb 
+ +03\, seen from Sanaa\, YE.\nThe Moon is 45° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

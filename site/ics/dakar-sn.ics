@@ -10,77 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Dakar
 BEGIN:VEVENT
-UID:star-96e6e979f565-dakar-sn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T032643Z
-DTEND:20261001T032843Z
-SUMMARY:The Moon hides 44 Tau · mag 5.4
-DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:26:43 at the dark limb G
- MT\, seen from Dakar\, SN.\nThe Moon is 68° up in the NE · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-dakar-sn@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T100923Z
-DTEND:20261006T113339Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 10:10:53 and reappears at 11:32:17 GMT\, 
- seen from Dakar\, SN.\nThe Moon is 83° up in the W · daylight\, Sun +44
- °.\nTimes against the real lunar limb.\nMap\, timings and the view at the
-  Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Dakar%2C%20
- SN
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Dakar%2C%20SN
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-480467db66fe-dakar-sn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T010957Z
-DTEND:20261021T011157Z
-SUMMARY:The Moon hides 42 Cap · mag 5.1
-DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:09:57 at the dark limb 
- GMT\, seen from Dakar\, SN.\nThe Moon is 21° up in the WSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-528be793cbd7-dakar-sn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T230910Z
-DTEND:20261029T231110Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:09:10 at the dark limb 
- GMT\, seen from Dakar\, SN.\nThe Moon is 15° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-23a3a1ab6433-dakar-sn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T015558Z
-DTEND:20261101T015758Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 01:55:58 at the dark limb 
- GMT\, seen from Dakar\, SN.\nThe Moon is 23° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-02a1a891c432-dakar-sn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T031359Z
@@ -352,6 +281,20 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:42:53 at the dark limb G
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-513bde4f56f8-dakar-sn@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T203904Z
+DTEND:20270906T215950Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:39:04 at the dark limb 
+ and reappears at 21:59:50 at the bright limb GMT\, seen from Dakar\, SN.\n
+ The Moon is 35° up in the SW · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,58 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-6e68282f10c7-bozhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T211458Z
-DTEND:20261004T211658Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:14:58 at the dark limb 
- CST\, seen from Bozhou\, CN.\nThe Moon is 58° up in the ESE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3f93dd9c8520-bozhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204816Z
-DTEND:20261007T205016Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:48:16 at the dark limb 
- CST\, seen from Bozhou\, CN.\nThe Moon is 14° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-35245c4fa5c7-bozhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T141822Z
-DTEND:20261020T142022Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:18:22 at the dark limb 
- CST\, seen from Bozhou\, CN.\nThe Moon is 27° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c11501d56a37-bozhou-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T151340Z
-DTEND:20261021T151540Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:13:40 at the dark limb 
- CST\, seen from Bozhou\, CN.\nThe Moon is 30° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-da18fecf9194-bozhou-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T205125Z
@@ -386,6 +334,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:08:41 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2182cf3cdf5d-bozhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T141047Z
+DTEND:20271013T141247Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:10:47 at the dark limb 
+ CST\, seen from Bozhou\, CN.\nThe Moon is 57° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d09db11a06f0-bozhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141842Z
+DTEND:20271020T142042Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:18:42 at the dark limb 
+ CST\, seen from Bozhou\, CN.\nThe Moon is 13° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-380520ba752f-bozhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153512Z
+DTEND:20271021T153712Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:35:12 at the dark limb C
+ ST\, seen from Bozhou\, CN.\nThe Moon is 16° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-104f076494f5-bozhou-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T204041Z
+DTEND:20271021T204241Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:40:41 at the dark limb C
+ ST\, seen from Bozhou\, CN.\nThe Moon is 75° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

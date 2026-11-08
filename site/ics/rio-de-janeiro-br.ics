@@ -10,97 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-UID:star-4c82648bd8bf-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260919T010757Z
-DTEND:20260919T010957Z
-SUMMARY:The Moon hides 3 Sgr · mag 4.6
-DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 22:07:57 at the dark limb -
- 03\, seen from Rio de Janeiro\, BR.\nThe Moon is 32° up in the WSW · dar
- k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
- ttps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-414e367108df-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260921T023632Z
-DTEND:20260921T023832Z
-SUMMARY:The Moon hides 51 Sgr · mag 5.7
-DESCRIPTION:51 Sgr (magnitude 5.7) disappears at 23:36:32 at the dark limb 
- -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 34° up in the WSW · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a98e25040f24-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T022315Z
-DTEND:20261001T022515Z
-SUMMARY:The Moon hides 44 Tau · mag 5.4
-DESCRIPTION:44 Tau (magnitude 5.4) reappears at 23:23:15 at the dark limb -
- 03\, seen from Rio de Janeiro\, BR.\nThe Moon is 13° up in the NE · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-057ea6cf5faf-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261002T072954Z
-DTEND:20261002T073154Z
-SUMMARY:The Moon hides Elnath (β Tau) · mag 1.6
-DESCRIPTION:Elnath (β Tau) (magnitude 1.6) disappears at 04:29:54 at the b
- right limb -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 38° up in th
- e N · dark sky. Binoculars show it.\nEvery occultation this month\, for a
- nywhere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-cab01b59965d-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261014T232411Z
-DTEND:20261014T232611Z
-SUMMARY:The Moon hides HR 6145 · mag 6.1
-DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 20:24:11 at the dark limb
-  -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 16° up in the WSW · d
- ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
-  https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c41cdc4c5768-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T012005Z
-DTEND:20261018T012205Z
-SUMMARY:The Moon hides ψ Sgr · mag 4.8
-DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:20:05 at the dark limb 
- -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 23° up in the WSW · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-41ba2c110411-rio-de-janeiro-br@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T233739Z
-DTEND:20261020T233939Z
-SUMMARY:The Moon hides 42 Cap · mag 5.1
-DESCRIPTION:42 Cap (magnitude 5.1) disappears at 20:37:39 at the dark limb 
- -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 73° up in the WNW · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-ba62471fab59-rio-de-janeiro-br@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T074858Z
@@ -401,6 +310,72 @@ DESCRIPTION:15 Ari (magnitude 5.7) reappears at 02:55:33 at the dark limb -
  k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
  ttps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e3a402ebb172-rio-de-janeiro-br@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T225710Z
+DTEND:20270906T225910Z
+SUMMARY:The Moon hides HR 5969 · mag 5.0
+DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 19:57:10 at the dark limb
+  -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 48° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-99063c8c5227-rio-de-janeiro-br@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T061337Z
+DTEND:20270912T061537Z
+SUMMARY:The Moon hides υ Cap · mag 5.2
+DESCRIPTION:υ Cap (magnitude 5.2) disappears at 03:13:37 at the dark limb 
+ -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 6° up in the WSW · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-99fca008d397-rio-de-janeiro-br@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270919T051751Z
+DTEND:20270919T051951Z
+SUMMARY:The Moon hides ι Ari · mag 5.1
+DESCRIPTION:ι Ari (magnitude 5.1) reappears at 02:17:51 at the dark limb -
+ 03\, seen from Rio de Janeiro\, BR.\nThe Moon is 49° up in the N · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95e06d5a49c2-rio-de-janeiro-br@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T165008Z
+DTEND:20271004T175151Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 13:50:08 at the 
+ dark limb and reappears at 14:51:51 at the bright limb -03\, seen from Rio
+  de Janeiro\, BR.\nThe Moon is 67° up in the ESE · daylight\, Sun +54°.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fe58c70418c8-rio-de-janeiro-br@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271031T215744Z
+DTEND:20271031T215944Z
+SUMMARY:The Moon hides HR 6054 · mag 6.0
+DESCRIPTION:HR 6054 (magnitude 6.0) disappears at 18:57:44 at the dark limb
+  -03\, seen from Rio de Janeiro\, BR.\nThe Moon is 16° up in the WSW · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

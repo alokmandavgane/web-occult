@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-paris-fr@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T103415Z
-DTEND:20260914T103539Z
-SUMMARY:The Moon occults Venus (reappearance only)
-DESCRIPTION:Venus reappears at 12:34:15 CEST\, seen from Paris\, FR.\nThe M
- oon rises during the occultation: only the reappearance is above the horiz
- on.\nThe Moon is 8° up in the SE · daylight\, Sun +42°.\nTimes for the 
- Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/venus-2026-09-14?lat=48.8534&lon=2.3488
-URL:https://occult.alokm.com/venus-2026-09-14?lat=48.8534&lon=2.3488
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus (reappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-6ae1da719c13-paris-fr@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260929T222154Z
-DTEND:20260929T222354Z
-SUMMARY:The Moon hides ε Ari A · mag 5.2
-DESCRIPTION:ε Ari A (magnitude 5.2) reappears at 00:21:54 at the dark limb
-  CEST\, seen from Paris\, FR.\nThe Moon is 37° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f1768a2cd331-paris-fr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T013317Z
-DTEND:20261028T013517Z
-SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
-DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:33:17 at the dark
-  limb CET\, seen from Paris\, FR.\nThe Moon is 66° up in the SSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f9774aad3882-paris-fr@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T013601Z
-DTEND:20261028T013801Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:36:01 at the d
- ark limb CET\, seen from Paris\, FR.\nThe Moon is 65° up in the SSW · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-060b4410f38f-paris-fr@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T023920Z
@@ -496,6 +438,59 @@ DESCRIPTION:ω Gem (magnitude 5.2) reappears at 04:25:50 at the dark limb C
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e47ebeaf3f6-paris-fr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T191144Z
+DTEND:20270908T191344Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 21:11:44 at the dark limb C
+ EST\, seen from Paris\, FR.\nThe Moon is 13° up in the S · dusk. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ffc3d641638d-paris-fr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T021823Z
+DTEND:20270924T032254Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 04:18:23 at the bright lim
+ b and reappears at 05:22:54 at the dark limb CEST\, seen from Paris\, FR.\
+ nThe Moon is 37° up in the E · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8207394dbd62-paris-fr@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T022524Z
+DTEND:20270925T022724Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 04:25:24 at the dark limb 
+ CEST\, seen from Paris\, FR.\nThe Moon is 27° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a2b6359d77a6-paris-fr@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271007T185725Z
+DTEND:20271007T185925Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 20:57:25 at the dark limb 
+ CEST\, seen from Paris\, FR.\nThe Moon is 15° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

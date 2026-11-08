@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Kyiv
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-kyiv-ua@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T095311Z
-DTEND:20260914T104921Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:55:20 and reappears at 13:47:05 EEST\, s
- een from Kyiv\, UA.\nThe Moon is 15° up in the SE · daylight\, Sun +43°
- .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=50.4547&lon
- =30.5238
-URL:https://occult.alokm.com/venus-2026-09-14?lat=50.4547&lon=30.5238
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-0bc0ac89ed3f-kyiv-ua@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T173928Z
-DTEND:20260930T174128Z
-SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
-DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 20:39:28 at the d
- ark limb EEST\, seen from Kyiv\, UA.\nThe Moon is 6° up in the ENE · dar
- k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
- ttps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b6ff6001d628-kyiv-ua@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T021442Z
-DTEND:20261028T021642Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 04:14:42 at the d
- ark limb EET\, seen from Kyiv\, UA.\nThe Moon is 48° up in the WSW · dar
- k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
- ttps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9e974e6024ff-kyiv-ua@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T021446Z
-DTEND:20261028T021646Z
-SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
-DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 04:14:46 at the dark
-  limb EET\, seen from Kyiv\, UA.\nThe Moon is 48° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-c079d3a65ba9-kyiv-ua@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T190412Z
@@ -353,6 +295,58 @@ DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 02:16:23 at the dark
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1451bd106e33-kyiv-ua@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T170444Z
+DTEND:20270912T170644Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 20:04:44 at the dark limb 
+ EEST\, seen from Kyiv\, UA.\nThe Moon is 14° up in the SE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ed64ab8ec7b0-kyiv-ua@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T221414Z
+DTEND:20270924T221614Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) reappears at 01:14:14 at the dark limb 
+ EEST\, seen from Kyiv\, UA.\nThe Moon is 8° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fabe44c40483-kyiv-ua@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T164428Z
+DTEND:20271006T164628Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:44:28 at the dark limb
+  EEST\, seen from Kyiv\, UA.\nThe Moon is 10° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98691abae550-kyiv-ua@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T020409Z
+DTEND:20271026T020609Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:04:09 at the dark limb E
+ EST\, seen from Kyiv\, UA.\nThe Moon is 13° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

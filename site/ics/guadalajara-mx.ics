@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-UID:star-183bd20f941f-guadalajara-mx@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T031506Z
-DTEND:20260916T031706Z
-SUMMARY:The Moon hides HR 5655 · mag 6.5
-DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 21:15:06 at the dark limb
-  CST\, seen from Guadalajara\, MX.\nThe Moon is 7° up in the WSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f5f895593b64-guadalajara-mx@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T045012Z
-DTEND:20260923T045212Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:50:12 at the dark limb 
- CST\, seen from Guadalajara\, MX.\nThe Moon is 51° up in the SSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b3149afbffcc-guadalajara-mx@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261031T092656Z
-DTEND:20261031T092856Z
-SUMMARY:The Moon hides 57 Gem · mag 5.0
-DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:26:56 at the dark limb C
- ST\, seen from Guadalajara\, MX.\nThe Moon is 59° up in the ENE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a9933d6f51ab-guadalajara-mx@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261126T101323Z
@@ -450,6 +411,45 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:21:35 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5327c55b6992-guadalajara-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T051850Z
+DTEND:20270908T052050Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 23:18:50 at the dark limb
+  CST\, seen from Guadalajara\, MX.\nThe Moon is 11° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05bea0666da9-guadalajara-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T080743Z
+DTEND:20270916T080943Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:07:43 at the dark limb C
+ ST\, seen from Guadalajara\, MX.\nThe Moon is 65° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f99b1176649e-guadalajara-mx@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T093537Z
+DTEND:20271023T093737Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 03:35:37 at the dark limb C
+ ST\, seen from Guadalajara\, MX.\nThe Moon is 34° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

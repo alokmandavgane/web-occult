@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Algiers
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-algiers-dz@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T092911Z
-DTEND:20260914T102504Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 10:30:50 and reappears at 11:23:16 CET\, se
- en from Algiers\, DZ.\nThe Moon is 6° up in the ESE · daylight\, Sun +45
- °.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=36.7323&l
- on=3.0875
-URL:https://occult.alokm.com/venus-2026-09-14?lat=36.7323&lon=3.0875
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-d7d3554613dd-algiers-dz@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T233127Z
-DTEND:20261029T233327Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 00:31:27 at the dark limb 
- CET\, seen from Algiers\, DZ.\nThe Moon is 43° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ba5cf8962384-algiers-dz@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T023318Z
-DTEND:20261101T023518Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 03:33:18 at the dark limb 
- CET\, seen from Algiers\, DZ.\nThe Moon is 52° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-8641c4188f56-algiers-dz@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T024822Z
@@ -432,6 +387,59 @@ DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 23:52:30 at the dark
   sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
  tps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a6d6c510272-algiers-dz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T191704Z
+DTEND:20270908T191904Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 20:17:04 at the dark limb C
+ ET\, seen from Algiers\, DZ.\nThe Moon is 24° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e45a1bcfae6d-algiers-dz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T022630Z
+DTEND:20270924T024648Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 03:26:30 at the bright lim
+ b and reappears at 03:46:48 at the dark limb CET\, seen from Algiers\, DZ.
+ \nThe Moon is 39° up in the E · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c6df5419f82d-algiers-dz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T021433Z
+DTEND:20270925T021633Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:14:33 at the dark limb 
+ CET\, seen from Algiers\, DZ.\nThe Moon is 24° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-33ecf1210efa-algiers-dz@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T025753Z
+DTEND:20270926T025953Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 03:57:53 at the dark limb C
+ ET\, seen from Algiers\, DZ.\nThe Moon is 19° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

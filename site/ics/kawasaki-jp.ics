@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:star-94a8feac5431-kawasaki-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T182926Z
-DTEND:20261006T183126Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:29:26 at the dark limb J
- ST\, seen from Kawasaki\, JP.\nThe Moon is 19° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-816f0fb6d8b6-kawasaki-jp@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261117T084917Z
@@ -284,6 +271,123 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:07:32 at the dark limb
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0f483a9e821f-kawasaki-jp@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T111343Z
+DTEND:20270910T111543Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 20:13:43 at the dark limb 
+ JST\, seen from Kawasaki\, JP.\nThe Moon is 29° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9911acc89865-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T091942Z
+DTEND:20271004T092142Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 18:19:42 at the dark limb
+  JST\, seen from Kawasaki\, JP.\nThe Moon is 12° up in the SW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e7256dc58100-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T145341Z
+DTEND:20271013T145541Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 23:53:41 at the dark limb 
+ JST\, seen from Kawasaki\, JP.\nThe Moon is 47° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3596120251a7-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T101557Z
+DTEND:20271018T101757Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 19:15:57 at the da
+ rk limb JST\, seen from Kawasaki\, JP.\nThe Moon is 9° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-91b409f41abd-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T104502Z
+DTEND:20271018T104702Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 19:45:02 at the d
+ ark limb JST\, seen from Kawasaki\, JP.\nThe Moon is 14° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1180d3c183ac-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112104Z
+DTEND:20271018T112304Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 20:21:04 at the dar
+ k limb JST\, seen from Kawasaki\, JP.\nThe Moon is 21° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9013477557b8-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112619Z
+DTEND:20271018T112819Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:26:19 at the d
+ ark limb JST\, seen from Kawasaki\, JP.\nThe Moon is 22° up in the ENE ·
+  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
+ e: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd91538d22d7-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141257Z
+DTEND:20271020T141457Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 23:12:57 at the dark limb 
+ JST\, seen from Kawasaki\, JP.\nThe Moon is 32° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0add0540ad5e-kawasaki-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T154014Z
+DTEND:20271021T154214Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 00:40:14 at the dark limb J
+ ST\, seen from Kawasaki\, JP.\nThe Moon is 36° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

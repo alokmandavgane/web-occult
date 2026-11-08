@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-92e1ba585554-guilin-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215635Z
-DTEND:20261006T215835Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:56:35 at the dark limb C
- ST\, seen from Guilin\, CN.\nThe Moon is 37° up in the E · dusk. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e61a4d18933c-guilin-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T132512Z
-DTEND:20261016T132712Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:25:12 at the dark limb
-  CST\, seen from Guilin\, CN.\nThe Moon is 6° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-4c3decd676db-guilin-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T141307Z
-DTEND:20261020T141507Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:13:07 at the dark limb 
- CST\, seen from Guilin\, CN.\nThe Moon is 38° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-33d62492e8ea-guilin-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210035Z
@@ -360,6 +321,45 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:49:25 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b990174aff1-guilin-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T134411Z
+DTEND:20271013T134611Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 21:44:11 at the dark limb 
+ CST\, seen from Guilin\, CN.\nThe Moon is 61° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1e136a49da62-guilin-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T152259Z
+DTEND:20271021T152459Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:22:59 at the dark limb C
+ ST\, seen from Guilin\, CN.\nThe Moon is 6° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-680c07780e99-guilin-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T202659Z
+DTEND:20271021T202859Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:26:59 at the dark limb C
+ ST\, seen from Guilin\, CN.\nThe Moon is 70° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

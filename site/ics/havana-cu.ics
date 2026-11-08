@@ -10,50 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Havana
 BEGIN:VEVENT
-UID:star-b89c65e8069f-havana-cu@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T052805Z
-DTEND:20260923T053005Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 01:28:05 at the dark limb 
- CDT\, seen from Havana\, CU.\nThe Moon is 33° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-havana-cu@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T082405Z
-DTEND:20261006T090248Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 04:25:51 and reappears at 05:00:50 CDT\, 
- seen from Havana\, CU.\nThe Moon is 11° up in the ENE · dark sky.\nTimes
-  against the real lunar limb.\nMap\, timings and the view at the Moon's ed
- ge: https://occult.alokm.com/jupiter-2026-10-06?city=Havana%2C%20CU
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Havana%2C%20CU
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7f18c0206330-havana-cu@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261031T103855Z
-DTEND:20261031T104055Z
-SUMMARY:The Moon hides 57 Gem · mag 5.0
-DESCRIPTION:57 Gem (magnitude 5.0) reappears at 06:38:55 at the dark limb C
- DT\, seen from Havana\, CU.\nThe Moon is 85° up in the WNW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-47fe7e634e18-havana-cu@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261126T103649Z
@@ -402,6 +358,150 @@ DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 22:15:15 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ea3822ba900b-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T005549Z
+DTEND:20270906T005749Z
+SUMMARY:The Moon hides HR 5655 · mag 6.5
+DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 20:55:49 at the dark limb
+  CDT\, seen from Havana\, CU.\nThe Moon is 24° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c51a5ecde66-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270907T002831Z
+DTEND:20270907T003031Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 20:28:31 at the dark limb
+  CDT\, seen from Havana\, CU.\nThe Moon is 33° up in the SSW · dusk. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-95eacd1e9f54-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T080317Z
+DTEND:20270916T081550Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 04:03:17 at the dark limb 
+ and reappears at 04:15:50 at the dark limb CDT\, seen from Havana\, CU.\nT
+ he Moon is 48° up in the WSW · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-034e5b8573c5-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T033951Z
+DTEND:20270921T034151Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 23:39:51 at the d
+ ark limb CDT\, seen from Havana\, CU.\nThe Moon is 14° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8a21764e8fe-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T035013Z
+DTEND:20270921T035213Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 23:50:13 at the dark limb C
+ DT\, seen from Havana\, CU.\nThe Moon is 16° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a38762d27655-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T040135Z
+DTEND:20270921T040335Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:01:35 at the d
+ ark limb CDT\, seen from Havana\, CU.\nThe Moon is 19° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-59261f51b349-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T041740Z
+DTEND:20270921T041940Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:17:40 at the dark
+  limb CDT\, seen from Havana\, CU.\nThe Moon is 22° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a806a7b6f37d-havana-cu@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T080522Z
+DTEND:20270926T080722Z
+SUMMARY:The Moon hides HR 3558 · mag 6.2
+DESCRIPTION:HR 3558 (magnitude 6.2) reappears at 04:05:22 at the dark limb 
+ CDT\, seen from Havana\, CU.\nThe Moon is 6° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cd25ff077b8b-havana-cu@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T163153Z
+DTEND:20271004T163353Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) reappears at 12:31:53 at the b
+ right limb CDT\, seen from Havana\, CU.\nThe Moon is 7° up in the ESE · 
+ daylight\, Sun +60°. Binoculars show it.\nEvery occultation this month\, 
+ for anywhere: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8bdea2afdfbe-havana-cu@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T100601Z
+DTEND:20271023T100801Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 06:06:01 at the dark limb C
+ DT\, seen from Havana\, CU.\nThe Moon is 61° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-36ce47c2acec-havana-cu@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T093346Z
+DTEND:20271026T093546Z
+SUMMARY:The Moon hides HR 4394 · mag 6.1
+DESCRIPTION:HR 4394 (magnitude 6.1) reappears at 05:33:46 at the dark limb 
+ CDT\, seen from Havana\, CU.\nThe Moon is 13° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

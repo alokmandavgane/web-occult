@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:star-8f409addefba-fukuoka-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T182435Z
-DTEND:20261006T182635Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:24:35 at the dark limb J
- ST\, seen from Fukuoka\, JP.\nThe Moon is 10° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1e166e814f8a-fukuoka-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T144456Z
-DTEND:20261020T144656Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 23:44:56 at the dark limb 
- JST\, seen from Fukuoka\, JP.\nThe Moon is 14° up in the WSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-fe7190188c3c-fukuoka-jp@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261124T091935Z
@@ -243,6 +217,97 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:07:31 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b3cd7ba9c0c-fukuoka-jp@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T104755Z
+DTEND:20270910T104955Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 19:47:55 at the dark limb 
+ JST\, seen from Fukuoka\, JP.\nThe Moon is 31° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b8d439515c3f-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T143435Z
+DTEND:20271013T143635Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 23:34:35 at the dark limb 
+ JST\, seen from Fukuoka\, JP.\nThe Moon is 55° up in the SSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-56fbfbf1d9df-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T104359Z
+DTEND:20271018T104559Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 19:43:59 at the d
+ ark limb JST\, seen from Fukuoka\, JP.\nThe Moon is 6° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a8b05d122573-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112020Z
+DTEND:20271018T112220Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 20:20:20 at the dar
+ k limb JST\, seen from Fukuoka\, JP.\nThe Moon is 13° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1d9cad65af52-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T112412Z
+DTEND:20271018T112612Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:24:12 at the d
+ ark limb JST\, seen from Fukuoka\, JP.\nThe Moon is 13° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd91538d22d7-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141218Z
+DTEND:20271020T141418Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 23:12:18 at the dark limb 
+ JST\, seen from Fukuoka\, JP.\nThe Moon is 24° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63f1b05ac661-fukuoka-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153350Z
+DTEND:20271021T153550Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 00:33:50 at the dark limb J
+ ST\, seen from Fukuoka\, JP.\nThe Moon is 27° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-UID:star-cdf60f1b3441-dallas-us@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T051744Z
-DTEND:20260923T051944Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 00:17:44 at the dark limb 
- CDT\, seen from Dallas\, US.\nThe Moon is 35° up in the SSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8da0863f9b90-dallas-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T110249Z
-DTEND:20261005T110449Z
-SUMMARY:The Moon hides 39 Cnc · mag 6.4
-DESCRIPTION:39 Cnc (magnitude 6.4) reappears at 06:02:49 at the dark limb C
- DT\, seen from Dallas\, US.\nThe Moon is 46° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-dallas-us@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T091058Z
-DTEND:20261006T091158Z
-SUMMARY:The Moon occults Jupiter (reappearance only)
-DESCRIPTION:Jupiter reappears at 04:10:58 CDT\, seen from Dallas\, US.\nThe
-  Moon rises during the occultation: only the reappearance is above the hor
- izon.\nThe Moon is 10° up in the ENE · dark sky.\nTimes against the real
-  lunar limb.\nMap\, timings and the view at the Moon's edge: https://occul
- t.alokm.com/jupiter-2026-10-06?city=Dallas%2C%20US
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Dallas%2C%20US
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter (reappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-6716b8be0ed1-dallas-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261031T100537Z
-DTEND:20261031T100737Z
-SUMMARY:The Moon hides 57 Gem · mag 5.0
-DESCRIPTION:57 Gem (magnitude 5.0) reappears at 05:05:37 at the dark limb C
- DT\, seen from Dallas\, US.\nThe Moon is 73° up in the ESE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-5bdfcea52177-dallas-us@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261124T123226Z
@@ -391,6 +333,113 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 23:39:16 at the dark limb
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-45f51a901ff5-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T012032Z
+DTEND:20270910T021454Z
+SUMMARY:The Moon hides Nunki (σ Sgr) · mag 2.0
+DESCRIPTION:Nunki (σ Sgr) (magnitude 2.0) disappears at 20:20:32 at the da
+ rk limb and reappears at 21:14:54 at the bright limb CDT\, seen from Dalla
+ s\, US.\nThe Moon is 30° up in the SSE · dusk. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4f7849465ad2-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T083740Z
+DTEND:20270916T083940Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 03:37:40 at the dark limb C
+ DT\, seen from Dallas\, US.\nThe Moon is 47° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-816f2ee7fb63-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T035535Z
+DTEND:20270921T035735Z
+SUMMARY:The Moon hides 16 Tau · mag 5.5
+DESCRIPTION:16 Tau (magnitude 5.5) reappears at 22:55:35 at the dark limb C
+ DT\, seen from Dallas\, US.\nThe Moon is 9° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1fe8c673a219-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T035944Z
+DTEND:20270921T040144Z
+SUMMARY:The Moon hides Electra (17 Tau) · mag 3.7
+DESCRIPTION:Electra (17 Tau) (magnitude 3.7) reappears at 22:59:44 at the d
+ ark limb CDT\, seen from Dallas\, US.\nThe Moon is 10° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-beca1432a74e-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T040910Z
+DTEND:20270921T041110Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 23:09:10 at the da
+ rk limb CDT\, seen from Dallas\, US.\nThe Moon is 12° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-18c570756e9e-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T041108Z
+DTEND:20270921T045026Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 23:11:08 at the 
+ bright limb and reappears at 23:50:26 at the dark limb CDT\, seen from Dal
+ las\, US.\nThe Moon is 12° up in the ENE · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e5e0cce970c7-dallas-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T042112Z
+DTEND:20270921T042312Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 23:21:12 at the dark
+  limb CDT\, seen from Dallas\, US.\nThe Moon is 14° up in the ENE · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7e56e47d618a-dallas-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T074228Z
+DTEND:20271021T085107Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:42:28 at the bright lim
+ b and reappears at 03:51:07 at the dark limb CDT\, seen from Dallas\, US.\
+ nThe Moon is 44° up in the E · dark sky. Binoculars show it.\nEvery occu
+ ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
+ 7-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

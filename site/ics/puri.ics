@@ -10,76 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-puri@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T121257Z
-DTEND:20260914T130526Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 17:45:49 and reappears at 18:32:47 IST\, se
- en from Puri.\nThe Moon is 24° up in the WSW · daylight\, Sun +0°.\nTim
- es against the real lunar limb.\nMap\, timings and the view at the Moon's 
- edge: https://occult.alokm.com/venus-2026-09-14?city=Puri
-URL:https://occult.alokm.com/venus-2026-09-14?city=Puri
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-fc17ca8a3837-puri@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T161019Z
-DTEND:20260930T161219Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 21:40:19 at the d
- ark limb IST\, seen from Puri.\nThe Moon is 18° up in the ENE · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7c39c025f204-puri@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T213231Z
-DTEND:20261006T213431Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:02:31 at the dark limb I
- ST\, seen from Puri.\nThe Moon is 8° up in the E · dark sky. Binoculars 
- show it.\nEvery occultation this month\, for anywhere: https://occult.alok
- m.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b81c897d75aa-puri@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T130710Z
-DTEND:20261020T130910Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:37:10 at the dark limb 
- IST\, seen from Puri.\nThe Moon is 52° up in the SSE · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-82a3c9ab3982-puri@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T134818Z
-DTEND:20261021T135018Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 19:18:18 at the dark limb 
- IST\, seen from Puri.\nThe Moon is 57° up in the SSE · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-4fbdf78073dc-puri@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T203033Z
@@ -100,14 +30,13 @@ DTEND:20261113T122052Z
 SUMMARY:(1994) Shane hides a mag 12.5 star (just outside the path) · 29% c
  hance
 DESCRIPTION:(1994) Shane hides a magnitude 12.5 star\, seen from Puri.\nThe
-  predicted edge passes 9 km to the SSE\, so a miss is likely — but a cho
- rd from near the edge is the most valuable observation of all.\nChance of 
- an occultation here: 29%\, allowing for the path's 1σ of 20 km.\nClosest 
- approach 17:45:52 IST\, give or take 0 s. The star is 31° up in the SW ·
-  dusk.\nIt fades 4.7 magnitudes for up to 0.6 s on the centre line\, and t
- he path is 25 km wide\, give or take 20 km.\nThe map\, the finder chart an
- d the path as KML: https://occult.alokm.com/asteroid?e=2026-11-13-1994-sha
- ne-113408
+  edge is 9 km to the SSE. A miss is likely\, but an edge timing is very va
+ luable.\nChance of an occultation here: 29%\, allowing for the path's 1σ 
+ of 20 km.\nClosest approach 17:45:52 IST\, give or take 0 s. The star is 3
+ 1° up in the SW · dusk.\nIt fades 4.7 magnitudes for up to 0.6 s on the 
+ centre line\, and the path is 25 km wide\, give or take 20 km.\nThe map\, 
+ the finder chart and the path as KML: https://occult.alokm.com/asteroid?e=
+ 2026-11-13-1994-shane-113408
 URL:https://occult.alokm.com/asteroid?e=2026-11-13-1994-shane-113408
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -189,13 +118,13 @@ DTSTART:20261202T152119Z
 DTEND:20261202T153119Z
 SUMMARY:(2519) Annagerman hides a mag 11.5 star · 42% chance
 DESCRIPTION:(2519) Annagerman hides a magnitude 11.5 star\, seen from Puri.
- \nYou are inside the path\, 5 km from its centre line: the star vanishes f
- or up to 1.3 s.\nChance of an occultation here: 42%\, allowing for the pat
- h's 1σ of 18 km.\nClosest approach 20:56:19 IST\, give or take 2 s. The s
- tar is 37° up in the ENE · dark sky.\nIt fades 5.3 magnitudes for up to 
- 1.4 s on the centre line\, and the path is 21 km wide\, give or take 18 km
- .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
- m/asteroid?e=2026-12-02-2519-annagerman-736256
+ \nYou're inside the path\, 5 km from the centre line. The star vanishes fo
+ r up to 1.3 s.\nChance of an occultation here: 42%\, allowing for the path
+ 's 1σ of 18 km.\nClosest approach 20:56:19 IST\, give or take 2 s. The st
+ ar is 37° up in the ENE · dark sky.\nIt fades 5.3 magnitudes for up to 1
+ .4 s on the centre line\, and the path is 21 km wide\, give or take 18 km.
+ \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
+ /asteroid?e=2026-12-02-2519-annagerman-736256
 URL:https://occult.alokm.com/asteroid?e=2026-12-02-2519-annagerman-736256
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -211,13 +140,13 @@ DTSTART:20261205T204421Z
 DTEND:20261205T205421Z
 SUMMARY:(581) Tauntonia hides a mag 11.2 star · 54% chance
 DESCRIPTION:(581) Tauntonia hides a magnitude 11.2 star\, seen from Puri.\n
- You are inside the path\, 26 km from its centre line: the star vanishes fo
- r up to 2.3 s.\nChance of an occultation here: 54%\, allowing for the path
- 's 1σ of 31 km.\nClosest approach 02:19:21 IST\, give or take 2 s. The st
- ar is 62° up in the WSW · dark sky.\nIt fades 3.4 magnitudes for up to 4
- .2 s on the centre line\, and the path is 61 km wide\, give or take 31 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2026-12-05-581-tauntonia-500480
+ You're inside the path\, 26 km from the centre line. The star vanishes for
+  up to 2.3 s.\nChance of an occultation here: 54%\, allowing for the path'
+ s 1σ of 31 km.\nClosest approach 02:19:21 IST\, give or take 2 s. The sta
+ r is 62° up in the WSW · dark sky.\nIt fades 3.4 magnitudes for up to 4.
+ 2 s on the centre line\, and the path is 61 km wide\, give or take 31 km.\
+ nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
+ asteroid?e=2026-12-05-581-tauntonia-500480
 URL:https://occult.alokm.com/asteroid?e=2026-12-05-581-tauntonia-500480
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -260,14 +189,13 @@ DTEND:20270101T200332Z
 SUMMARY:(305) Gordonia hides a mag 10.6 star (just outside the path) · 17%
   chance
 DESCRIPTION:(305) Gordonia hides a magnitude 10.6 star\, seen from Puri.\nT
- he predicted edge passes 36 km to the SSE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 17%\, allowing for the path's 1σ of 38 km.\nClose
- st approach 01:28:32 IST\, give or take 16 s. The star is 66° up in the E
- SE · dark sky.\nIt fades 2.5 magnitudes for up to 21.2 s on the centre li
- ne\, and the path is 48 km wide\, give or take 38 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-01-0
- 1-305-gordonia-023744
+ he edge is 36 km to the SSE. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 17%\, allowing for the path's 1
+ σ of 38 km.\nClosest approach 01:28:32 IST\, give or take 16 s. The star 
+ is 66° up in the ESE · dark sky.\nIt fades 2.5 magnitudes for up to 21.2
+  s on the centre line\, and the path is 48 km wide\, give or take 38 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-01-01-305-gordonia-023744
 URL:https://occult.alokm.com/asteroid?e=2027-01-01-305-gordonia-023744
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -283,14 +211,14 @@ DTSTAMP:20260916T023421Z
 DTSTART:20270102T181130Z
 DTEND:20270102T182130Z
 SUMMARY:(924) Toni hides a mag 11.0 star · 65% chance
-DESCRIPTION:(924) Toni hides a magnitude 11.0 star\, seen from Puri.\nYou a
- re inside the path\, 24 km from its centre line: the star vanishes for up 
- to 9.9 s.\nChance of an occultation here: 65%\, allowing for the path's 1
- σ of 38 km.\nClosest approach 23:46:30 IST\, give or take 2 s. The star i
- s 46° up in the E · dark sky.\nIt fades 3.7 magnitudes for up to 12.3 s 
- on the centre line\, and the path is 85 km wide\, give or take 38 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2027-01-02-924-toni-373888
+DESCRIPTION:(924) Toni hides a magnitude 11.0 star\, seen from Puri.\nYou'r
+ e inside the path\, 24 km from the centre line. The star vanishes for up t
+ o 9.9 s.\nChance of an occultation here: 65%\, allowing for the path's 1σ
+  of 38 km.\nClosest approach 23:46:30 IST\, give or take 2 s. The star is 
+ 46° up in the E · dark sky.\nIt fades 3.7 magnitudes for up to 12.3 s on
+  the centre line\, and the path is 85 km wide\, give or take 38 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2027-01-02-924-toni-373888
 URL:https://occult.alokm.com/asteroid?e=2027-01-02-924-toni-373888
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -410,13 +338,13 @@ DTSTART:20270222T141756Z
 DTEND:20270222T142756Z
 SUMMARY:(19737) 19737 hides a mag 12.6 star · 66% chance
 DESCRIPTION:(19737) 19737 hides a magnitude 12.6 star\, seen from Puri.\nYo
- u are inside the path\, 12 km from its centre line: the star vanishes for 
- up to 1.6 s.\nChance of an occultation here: 66%\, allowing for the path's
-  1σ of 22 km.\nClosest approach 19:52:56 IST\, give or take 1 s. The star
-  is 43° up in the WNW · dark sky.\nIt fades 6.2 magnitudes for up to 1.9
-  s on the centre line\, and the path is 48 km wide\, give or take 22 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-02-22-19737-19737-866368
+ u're inside the path\, 12 km from the centre line. The star vanishes for u
+ p to 1.6 s.\nChance of an occultation here: 66%\, allowing for the path's 
+ 1σ of 22 km.\nClosest approach 19:52:56 IST\, give or take 1 s. The star 
+ is 43° up in the WNW · dark sky.\nIt fades 6.2 magnitudes for up to 1.9 
+ s on the centre line\, and the path is 48 km wide\, give or take 22 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-02-22-19737-19737-866368
 URL:https://occult.alokm.com/asteroid?e=2027-02-22-19737-19737-866368
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -433,14 +361,13 @@ DTEND:20270226T132138Z
 SUMMARY:(294) Felicia hides a mag 11.4 star (just outside the path) · 45% 
  chance
 DESCRIPTION:(294) Felicia hides a magnitude 11.4 star\, seen from Puri.\nTh
- e predicted edge passes 3 km to the N\, so a miss is likely — but a chor
- d from near the edge is the most valuable observation of all.\nChance of a
- n occultation here: 45%\, allowing for the path's 1σ of 22 km.\nClosest a
- pproach 18:46:38 IST\, give or take 2 s. The star is 40° up in the E · d
- ark sky.\nIt fades 4.7 magnitudes for up to 3.7 s on the centre line\, and
-  the path is 52 km wide\, give or take 22 km.\nThe map\, the finder chart 
- and the path as KML: https://occult.alokm.com/asteroid?e=2027-02-26-294-fe
- licia-759040
+ e edge is 3 km to the N. A miss is likely\, but an edge timing is very val
+ uable.\nChance of an occultation here: 45%\, allowing for the path's 1σ o
+ f 22 km.\nClosest approach 18:46:38 IST\, give or take 2 s. The star is 40
+ ° up in the E · dark sky.\nIt fades 4.7 magnitudes for up to 3.7 s on th
+ e centre line\, and the path is 52 km wide\, give or take 22 km.\nThe map\
+ , the finder chart and the path as KML: https://occult.alokm.com/asteroid?
+ e=2027-02-26-294-felicia-759040
 URL:https://occult.alokm.com/asteroid?e=2027-02-26-294-felicia-759040
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -471,14 +398,13 @@ DTEND:20270302T141740Z
 SUMMARY:(2813) Zappala hides a mag 12.3 star (just outside the path) · 22%
   chance
 DESCRIPTION:(2813) Zappala hides a magnitude 12.3 star\, seen from Puri.\nT
- he predicted edge passes 15 km to the SSE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 22%\, allowing for the path's 1σ of 21 km.\nClose
- st approach 19:42:40 IST\, give or take 4 s. The star is 76° up in the SS
- W · dark sky.\nIt fades 3.4 magnitudes for up to 4.3 s on the centre line
- \, and the path is 32 km wide\, give or take 21 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-02-
- 2813-zappala-833920
+ he edge is 15 km to the SSE. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 22%\, allowing for the path's 1
+ σ of 21 km.\nClosest approach 19:42:40 IST\, give or take 4 s. The star i
+ s 76° up in the SSW · dark sky.\nIt fades 3.4 magnitudes for up to 4.3 s
+  on the centre line\, and the path is 32 km wide\, give or take 21 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-03-02-2813-zappala-833920
 URL:https://occult.alokm.com/asteroid?e=2027-03-02-2813-zappala-833920
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -508,15 +434,14 @@ DTSTART:20270307T170551Z
 DTEND:20270307T171551Z
 SUMMARY:(909) Ulla hides a mag 7.5 star (just outside the path) · 31% chan
  ce
-DESCRIPTION:(909) Ulla hides a magnitude 7.5 star\, seen from Puri.\nThe pr
- edicted edge passes 45 km to the NNE\, so a miss is likely — but a chord
-  from near the edge is the most valuable observation of all.\nChance of an
-  occultation here: 31%\, allowing for the path's 1σ of 66 km.\nClosest ap
- proach 22:40:51 IST\, give or take 2 s. The star is 22° up in the E · da
- rk sky.\nIt fades 7.4 magnitudes for up to 10.5 s on the centre line\, and
-  the path is 116 km wide\, give or take 66 km.\nThe map\, the finder chart
-  and the path as KML: https://occult.alokm.com/asteroid?e=2027-03-07-909-u
- lla-963904
+DESCRIPTION:(909) Ulla hides a magnitude 7.5 star\, seen from Puri.\nThe ed
+ ge is 45 km to the NNE. A miss is likely\, but an edge timing is very valu
+ able.\nChance of an occultation here: 31%\, allowing for the path's 1σ of
+  66 km.\nClosest approach 22:40:51 IST\, give or take 2 s. The star is 22
+ ° up in the E · dark sky.\nIt fades 7.4 magnitudes for up to 10.5 s on t
+ he centre line\, and the path is 116 km wide\, give or take 66 km.\nThe ma
+ p\, the finder chart and the path as KML: https://occult.alokm.com/asteroi
+ d?e=2027-03-07-909-ulla-963904
 URL:https://occult.alokm.com/asteroid?e=2027-03-07-909-ulla-963904
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -571,14 +496,14 @@ DTSTAMP:20260916T023847Z
 DTSTART:20270421T222825Z
 DTEND:20270421T223825Z
 SUMMARY:(67) Asia hides a mag 10.7 star · 83% chance
-DESCRIPTION:(67) Asia hides a magnitude 10.7 star\, seen from Puri.\nYou ar
- e inside the path\, 10 km from its centre line: the star vanishes for up t
- o 5.0 s.\nChance of an occultation here: 83%\, allowing for the path's 1σ
-  of 19 km.\nClosest approach 04:03:25 IST\, give or take 1 s. The star is 
- 53° up in the SSE · dark sky.\nIt fades 1.7 magnitudes for up to 5.0 s o
- n the centre line\, and the path is 56 km wide\, give or take 19 km.\nThe 
- map\, the finder chart and the path as KML: https://occult.alokm.com/aster
- oid?e=2027-04-21-67-asia-218880
+DESCRIPTION:(67) Asia hides a magnitude 10.7 star\, seen from Puri.\nYou're
+  inside the path\, 10 km from the centre line. The star vanishes for up to
+  5.0 s.\nChance of an occultation here: 83%\, allowing for the path's 1σ 
+ of 19 km.\nClosest approach 04:03:25 IST\, give or take 1 s. The star is 5
+ 3° up in the SSE · dark sky.\nIt fades 1.7 magnitudes for up to 5.0 s on
+  the centre line\, and the path is 56 km wide\, give or take 19 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2027-04-21-67-asia-218880
 URL:https://occult.alokm.com/asteroid?e=2027-04-21-67-asia-218880
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -633,8 +558,8 @@ DTSTART:20270523T193111Z
 DTEND:20270523T194111Z
 SUMMARY:(82) Alkmene hides a mag 11.4 star · 96% chance
 DESCRIPTION:(82) Alkmene hides a magnitude 11.4 star\, seen from Puri.\nYou
-  are inside the path\, 0 km from its centre line: the star vanishes for up
-  to 4.5 s.\nChance of an occultation here: 96%\, allowing for the path's 1
+ 're inside the path\, 0 km from the centre line. The star vanishes for up 
+ to 4.5 s.\nChance of an occultation here: 96%\, allowing for the path's 1
  σ of 14 km.\nClosest approach 01:06:11 IST\, give or take 3 s. The star i
  s 44° up in the S · dark sky.\nIt fades 1.2 magnitudes for up to 4.7 s o
  n the centre line\, and the path is 58 km wide\, give or take 14 km.\nThe 
@@ -669,14 +594,13 @@ DTEND:20270609T211038Z
 SUMMARY:(275) Sapientia hides a mag 12.2 star (just outside the path) · 28
  % chance
 DESCRIPTION:(275) Sapientia hides a magnitude 12.2 star\, seen from Puri.\n
- The predicted edge passes 8 km to the SSE\, so a miss is likely — but a 
- chord from near the edge is the most valuable observation of all.\nChance 
- of an occultation here: 28%\, allowing for the path's 1σ of 12 km.\nClose
- st approach 02:35:38 IST\, give or take 3 s. The star is 38° up in the SW
-  · dark sky.\nIt fades 1.0 magnitudes for up to 9.2 s on the centre line\
- , and the path is 103 km wide\, give or take 12 km.\nThe map\, the finder 
- chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-09-
- 275-sapientia-755136
+ The edge is 8 km to the SSE. A miss is likely\, but an edge timing is very
+  valuable.\nChance of an occultation here: 28%\, allowing for the path's 1
+ σ of 12 km.\nClosest approach 02:35:38 IST\, give or take 3 s. The star i
+ s 38° up in the SW · dark sky.\nIt fades 1.0 magnitudes for up to 9.2 s 
+ on the centre line\, and the path is 103 km wide\, give or take 12 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2027-06-09-275-sapientia-755136
 URL:https://occult.alokm.com/asteroid?e=2027-06-09-275-sapientia-755136
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -707,14 +631,13 @@ DTEND:20270625T174727Z
 SUMMARY:(930) Westphalia hides a mag 10.5 star (just outside the path) · 3
  1% chance
 DESCRIPTION:(930) Westphalia hides a magnitude 10.5 star\, seen from Puri.\
- nThe predicted edge passes 20 km to the SSW\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nChanc
- e of an occultation here: 31%\, allowing for the path's 1σ of 24 km.\nClo
- sest approach 23:12:27 IST\, give or take 4 s. The star is 15° up in the 
- SE · dark sky.\nIt fades 3.8 magnitudes for up to 8.2 s on the centre lin
- e\, and the path is 35 km wide\, give or take 24 km.\nThe map\, the finder
-  chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-25
- -930-westphalia-972544
+ nThe edge is 20 km to the SSW. A miss is likely\, but an edge timing is ve
+ ry valuable.\nChance of an occultation here: 31%\, allowing for the path's
+  1σ of 24 km.\nClosest approach 23:12:27 IST\, give or take 4 s. The star
+  is 15° up in the SE · dark sky.\nIt fades 3.8 magnitudes for up to 8.2 
+ s on the centre line\, and the path is 35 km wide\, give or take 24 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-06-25-930-westphalia-972544
 URL:https://occult.alokm.com/asteroid?e=2027-06-25-930-westphalia-972544
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -730,14 +653,14 @@ DTSTAMP:20260916T024147Z
 DTSTART:20270626T150057Z
 DTEND:20270626T151057Z
 SUMMARY:(67) Asia hides a mag 12.7 star · 56% chance
-DESCRIPTION:(67) Asia hides a magnitude 12.7 star\, seen from Puri.\nYou ar
- e inside the path\, 21 km from its centre line: the star vanishes for up t
- o 6.0 s.\nChance of an occultation here: 56%\, allowing for the path's 1σ
-  of 30 km.\nClosest approach 20:35:57 IST\, give or take 1 s. The star is 
- 28° up in the ESE · dark sky.\nIt fades 0.1 magnitudes for up to 8.5 s o
- n the centre line\, and the path is 56 km wide\, give or take 30 km.\nThe 
- map\, the finder chart and the path as KML: https://occult.alokm.com/aster
- oid?e=2027-06-26-67-asia-611328
+DESCRIPTION:(67) Asia hides a magnitude 12.7 star\, seen from Puri.\nYou're
+  inside the path\, 21 km from the centre line. The star vanishes for up to
+  6.0 s.\nChance of an occultation here: 56%\, allowing for the path's 1σ 
+ of 30 km.\nClosest approach 20:35:57 IST\, give or take 1 s. The star is 2
+ 8° up in the ESE · dark sky.\nIt fades 0.1 magnitudes for up to 8.5 s on
+  the centre line\, and the path is 56 km wide\, give or take 30 km.\nThe m
+ ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
+ id?e=2027-06-26-67-asia-611328
 URL:https://occult.alokm.com/asteroid?e=2027-06-26-67-asia-611328
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -753,13 +676,13 @@ DTSTART:20270628T211231Z
 DTEND:20270628T212231Z
 SUMMARY:(769) Tatjana hides a mag 11.3 star · 77% chance
 DESCRIPTION:(769) Tatjana hides a magnitude 11.3 star\, seen from Puri.\nYo
- u are inside the path\, 8 km from its centre line: the star vanishes for u
- p to 3.2 s.\nChance of an occultation here: 77%\, allowing for the path's 
- 1σ of 39 km.\nClosest approach 02:47:31 IST\, give or take 1 s. The star 
- is 19° up in the E · dark sky.\nIt fades 3.9 magnitudes for up to 3.2 s 
- on the centre line\, and the path is 97 km wide\, give or take 39 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2027-06-28-769-tatjana-224064
+ u're inside the path\, 8 km from the centre line. The star vanishes for up
+  to 3.2 s.\nChance of an occultation here: 77%\, allowing for the path's 1
+ σ of 39 km.\nClosest approach 02:47:31 IST\, give or take 1 s. The star i
+ s 19° up in the E · dark sky.\nIt fades 3.9 magnitudes for up to 3.2 s o
+ n the centre line\, and the path is 97 km wide\, give or take 39 km.\nThe 
+ map\, the finder chart and the path as KML: https://occult.alokm.com/aster
+ oid?e=2027-06-28-769-tatjana-224064
 URL:https://occult.alokm.com/asteroid?e=2027-06-28-769-tatjana-224064
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -776,14 +699,13 @@ DTEND:20270705T150943Z
 SUMMARY:(17109) 17109 hides a mag 12.3 star (just outside the path) · 17% 
  chance
 DESCRIPTION:(17109) 17109 hides a magnitude 12.3 star\, seen from Puri.\nTh
- e predicted edge passes 12 km to the SSW\, so a miss is likely — but a c
- hord from near the edge is the most valuable observation of all.\nChance o
- f an occultation here: 17%\, allowing for the path's 1σ of 11 km.\nCloses
- t approach 20:34:43 IST\, give or take 2 s. The star is 36° up in the SE 
- · dark sky.\nIt fades 3.8 magnitudes for up to 2.7 s on the centre line\,
-  and the path is 27 km wide\, give or take 11 km.\nThe map\, the finder ch
- art and the path as KML: https://occult.alokm.com/asteroid?e=2027-07-05-17
- 109-17109-570112
+ e edge is 12 km to the SSW. A miss is likely\, but an edge timing is very 
+ valuable.\nChance of an occultation here: 17%\, allowing for the path's 1
+ σ of 11 km.\nClosest approach 20:34:43 IST\, give or take 2 s. The star i
+ s 36° up in the SE · dark sky.\nIt fades 3.8 magnitudes for up to 2.7 s 
+ on the centre line\, and the path is 27 km wide\, give or take 11 km.\nThe
+  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
+ roid?e=2027-07-05-17109-17109-570112
 URL:https://occult.alokm.com/asteroid?e=2027-07-05-17109-17109-570112
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -813,13 +735,13 @@ DTSTART:20270708T164620Z
 DTEND:20270708T165620Z
 SUMMARY:(790) Pretoria hides a mag 12.9 star · 74% chance
 DESCRIPTION:(790) Pretoria hides a magnitude 12.9 star\, seen from Puri.\nY
- ou are inside the path\, 50 km from its centre line: the star vanishes for
-  up to 11.4 s.\nChance of an occultation here: 74%\, allowing for the path
- 's 1σ of 58 km.\nClosest approach 22:21:20 IST\, give or take 6 s. The st
- ar is 60° up in the SSE · dark sky.\nIt fades 0.5 magnitudes for up to 1
- 4.1 s on the centre line\, and the path is 170 km wide\, give or take 58 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-07-08-790-pretoria-589696
+ ou're inside the path\, 50 km from the centre line. The star vanishes for 
+ up to 11.4 s.\nChance of an occultation here: 74%\, allowing for the path'
+ s 1σ of 58 km.\nClosest approach 22:21:20 IST\, give or take 6 s. The sta
+ r is 60° up in the SSE · dark sky.\nIt fades 0.5 magnitudes for up to 14
+ .1 s on the centre line\, and the path is 170 km wide\, give or take 58 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-07-08-790-pretoria-589696
 URL:https://occult.alokm.com/asteroid?e=2027-07-08-790-pretoria-589696
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -835,13 +757,13 @@ DTSTART:20270711T152112Z
 DTEND:20270711T153112Z
 SUMMARY:(11) Parthenope hides a mag 12.3 star · 99% chance
 DESCRIPTION:(11) Parthenope hides a magnitude 12.3 star\, seen from Puri.\n
- You are inside the path\, 36 km from its centre line: the star vanishes fo
- r up to 15.1 s.\nChance of an occultation here: 99%\, allowing for the pat
- h's 1σ of 21 km.\nClosest approach 20:56:12 IST\, give or take 2 s. The s
- tar is 40° up in the SE · dark sky.\nIt fades 0.1 magnitudes for up to 1
- 6.9 s on the centre line\, and the path is 143 km wide\, give or take 21 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2027-07-11-11-parthenope-105600
+ You're inside the path\, 36 km from the centre line. The star vanishes for
+  up to 15.1 s.\nChance of an occultation here: 99%\, allowing for the path
+ 's 1σ of 21 km.\nClosest approach 20:56:12 IST\, give or take 2 s. The st
+ ar is 40° up in the SE · dark sky.\nIt fades 0.1 magnitudes for up to 16
+ .9 s on the centre line\, and the path is 143 km wide\, give or take 21 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2027-07-11-11-parthenope-105600
 URL:https://occult.alokm.com/asteroid?e=2027-07-11-11-parthenope-105600
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -871,14 +793,13 @@ DTEND:20270722T151300Z
 SUMMARY:(1715) Salli hides a mag 12.5 star (just outside the path) · 20% c
  hance
 DESCRIPTION:(1715) Salli hides a magnitude 12.5 star\, seen from Puri.\nThe
-  predicted edge passes 23 km to the NNE\, so a miss is likely — but a ch
- ord from near the edge is the most valuable observation of all.\nChance of
-  an occultation here: 20%\, allowing for the path's 1σ of 19 km.\nClosest
-  approach 20:38:00 IST\, give or take 0 s. The star is 19° up in the W ·
-  dark sky.\nIt fades 4.1 magnitudes for up to 0.7 s on the centre line\, a
- nd the path is 24 km wide\, give or take 19 km.\nThe map\, the finder char
- t and the path as KML: https://occult.alokm.com/asteroid?e=2027-07-22-1715
- -salli-684032
+  edge is 23 km to the NNE. A miss is likely\, but an edge timing is very v
+ aluable.\nChance of an occultation here: 20%\, allowing for the path's 1σ
+  of 19 km.\nClosest approach 20:38:00 IST\, give or take 0 s. The star is 
+ 19° up in the W · dark sky.\nIt fades 4.1 magnitudes for up to 0.7 s on 
+ the centre line\, and the path is 24 km wide\, give or take 19 km.\nThe ma
+ p\, the finder chart and the path as KML: https://occult.alokm.com/asteroi
+ d?e=2027-07-22-1715-salli-684032
 URL:https://occult.alokm.com/asteroid?e=2027-07-22-1715-salli-684032
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -895,8 +816,8 @@ DTSTART:20270722T182250Z
 DTEND:20270722T183250Z
 SUMMARY:(4907) Zoser hides a mag 11.8 star · 46% chance
 DESCRIPTION:(4907) Zoser hides a magnitude 11.8 star\, seen from Puri.\nYou
-  are inside the path\, 0 km from its centre line: the star vanishes for up
-  to 1.5 s.\nChance of an occultation here: 46%\, allowing for the path's 1
+ 're inside the path\, 0 km from the centre line. The star vanishes for up 
+ to 1.5 s.\nChance of an occultation here: 46%\, allowing for the path's 1
  σ of 17 km.\nClosest approach 23:57:50 IST\, give or take 3 s. The star i
  s 49° up in the SSW · dark sky.\nIt fades 5.5 magnitudes for up to 1.6 s
   on the centre line\, and the path is 21 km wide\, give or take 17 km.\nTh
@@ -943,13 +864,13 @@ DTSTART:20270831T172630Z
 DTEND:20270831T173630Z
 SUMMARY:(136) Austria hides a mag 11.6 star · 77% chance
 DESCRIPTION:(136) Austria hides a magnitude 11.6 star\, seen from Puri.\nYo
- u are inside the path\, 10 km from its centre line: the star vanishes for 
- up to 4.0 s.\nChance of an occultation here: 77%\, allowing for the path's
-  1σ of 11 km.\nClosest approach 23:01:30 IST\, give or take 1 s. The star
-  is 62° up in the SSW · dark sky.\nIt fades 1.2 magnitudes for up to 4.9
-  s on the centre line\, and the path is 37 km wide\, give or take 11 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2027-08-31-136-austria-233536
+ u're inside the path\, 10 km from the centre line. The star vanishes for u
+ p to 4.0 s.\nChance of an occultation here: 77%\, allowing for the path's 
+ 1σ of 11 km.\nClosest approach 23:01:30 IST\, give or take 1 s. The star 
+ is 62° up in the SSW · dark sky.\nIt fades 1.2 magnitudes for up to 4.9 
+ s on the centre line\, and the path is 37 km wide\, give or take 11 km.\nT
+ he map\, the finder chart and the path as KML: https://occult.alokm.com/as
+ teroid?e=2027-08-31-136-austria-233536
 URL:https://occult.alokm.com/asteroid?e=2027-08-31-136-austria-233536
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -957,6 +878,71 @@ ACTION:DISPLAY
 DESCRIPTION:(136) Austria hides a mag 11.6 star · 77% chance
 TRIGGER:-PT30M
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3dd78ab3cddf-puri@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T163522Z
+DTEND:20270910T163722Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 22:05:22 at the dark limb
+  IST\, seen from Puri.\nThe Moon is 36° up in the SW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-27715e1a48fd-puri@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271011T191817Z
+DTEND:20271011T192017Z
+SUMMARY:The Moon hides ρ Aqr · mag 5.3
+DESCRIPTION:ρ Aqr (magnitude 5.3) disappears at 00:48:17 at the dark limb 
+ IST\, seen from Puri.\nThe Moon is 25° up in the WSW · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b9a01d1c49c0-puri@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T131138Z
+DTEND:20271013T131338Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 18:41:38 at the dark limb 
+ IST\, seen from Puri.\nThe Moon is 38° up in the ESE · dark sky. Binocul
+ ars show it.\nEvery occultation this month\, for anywhere: https://occult.
+ alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f8a8cc5c66a-puri@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T193716Z
+DTEND:20271021T193916Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 01:07:16 at the dark limb I
+ ST\, seen from Puri.\nThe Moon is 36° up in the ENE · dark sky. Binocula
+ rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
+ lokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ce9b68829193-puri@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T233742Z
+DTEND:20271023T233942Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 05:07:42 at the dark limb 
+ IST\, seen from Puri.\nThe Moon is 64° up in the E · dusk. Binoculars sh
+ ow it.\nEvery occultation this month\, for anywhere: https://occult.alokm.
+ com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:occ-antares-2028-01-22-puri@occult.alokm.com

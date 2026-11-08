@@ -10,77 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Abidjan
 BEGIN:VEVENT
-UID:star-995dbdb33998-abobo-ci@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T204521Z
-DTEND:20260916T204721Z
-SUMMARY:The Moon hides 1 Sco · mag 4.6
-DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:45:21 at the dark limb G
- MT\, seen from Abobo\, CI.\nThe Moon is 19° up in the WSW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a2cb022fa40e-abobo-ci@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T035057Z
-DTEND:20261001T035257Z
-SUMMARY:The Moon hides 44 Tau · mag 5.4
-DESCRIPTION:44 Tau (magnitude 5.4) reappears at 03:50:57 at the dark limb G
- MT\, seen from Abobo\, CI.\nThe Moon is 69° up in the N · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-abobo-ci@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T104915Z
-DTEND:20261006T120527Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 10:50:37 and reappears at 12:04:15 GMT\, 
- seen from Abobo\, CI.\nThe Moon is 58° up in the WNW · daylight\, Sun +6
- 9°.\nTimes against the real lunar limb.\nMap\, timings and the view at th
- e Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Abobo%2C%2
- 0CI
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Abobo%2C%20CI
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3fb502500348-abobo-ci@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T010227Z
-DTEND:20261021T010427Z
-SUMMARY:The Moon hides 42 Cap · mag 5.1
-DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:02:27 at the dark limb 
- GMT\, seen from Abobo\, CI.\nThe Moon is 13° up in the WSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a2f76b0b9e74-abobo-ci@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T230123Z
-DTEND:20261029T230323Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:01:23 at the dark limb 
- GMT\, seen from Abobo\, CI.\nThe Moon is 21° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-7eb8367d394d-abobo-ci@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T031002Z
@@ -432,6 +361,33 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 00:50:24 at the dark limb G
  culars show it.\nEvery occultation this month\, for anywhere: https://occu
  lt.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e1dd823d6301-abobo-ci@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T184549Z
+DTEND:20271004T192222Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 18:45:49 at the 
+ dark limb and reappears at 19:22:22 at the bright limb GMT\, seen from Abo
+ bo\, CI.\nThe Moon is 37° up in the SW · dusk. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f68770c74463-abobo-ci@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T193521Z
+DTEND:20271004T193721Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 19:35:21 at the dark limb
+  GMT\, seen from Abobo\, CI.\nThe Moon is 28° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

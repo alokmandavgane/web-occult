@@ -10,84 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-e51d7d7b42f0-xian-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T163816Z
-DTEND:20260930T164016Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:38:16 at the d
- ark limb CST\, seen from Xi’an\, CN.\nThe Moon is 47° up in the E · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-202268fa7106-xian-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T210408Z
-DTEND:20261004T210608Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:04:08 at the dark limb 
- CST\, seen from Xi’an\, CN.\nThe Moon is 50° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-80b9416d64a8-xian-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215744Z
-DTEND:20261006T215944Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:57:44 at the dark limb C
- ST\, seen from Xi’an\, CN.\nThe Moon is 35° up in the E · dusk. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5afc536155d9-xian-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204717Z
-DTEND:20261007T204917Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:47:17 at the dark limb 
- CST\, seen from Xi’an\, CN.\nThe Moon is 8° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e6c8e60957fe-xian-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T140658Z
-DTEND:20261020T140858Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:06:58 at the dark limb 
- CST\, seen from Xi’an\, CN.\nThe Moon is 32° up in the SSW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-339908faa030-xian-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T145422Z
-DTEND:20261021T145622Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:54:22 at the dark limb 
- CST\, seen from Xi’an\, CN.\nThe Moon is 36° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-7c29779cbe03-xian-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T204339Z
@@ -426,6 +348,71 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:08:49 at the dark limb
   Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
  /occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-12808eabdf49-xian-cn@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T170206Z
+DTEND:20270910T170406Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 01:02:06 at the dark limb
+  CST\, seen from Xi’an\, CN.\nThe Moon is 7° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-de64100f8a1e-xian-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140509Z
+DTEND:20271013T140709Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:05:09 at the dark limb 
+ CST\, seen from Xi’an\, CN.\nThe Moon is 55° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-928e1004509b-xian-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T142140Z
+DTEND:20271020T142340Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:21:40 at the dark limb 
+ CST\, seen from Xi’an\, CN.\nThe Moon is 9° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-884007e72b86-xian-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153637Z
+DTEND:20271021T153837Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:36:37 at the dark limb C
+ ST\, seen from Xi’an\, CN.\nThe Moon is 11° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-680c07780e99-xian-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T202605Z
+DTEND:20271021T202805Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:26:05 at the dark limb C
+ ST\, seen from Xi’an\, CN.\nThe Moon is 67° up in the ESE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

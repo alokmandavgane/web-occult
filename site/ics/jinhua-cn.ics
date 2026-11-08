@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-7e16392210cd-jinhua-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T143219Z
-DTEND:20261020T143419Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:32:19 at the dark limb 
- CST\, seen from Jinhua\, CN.\nThe Moon is 26° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-007cd3c1a878-jinhua-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210838Z
@@ -322,6 +309,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:55:00 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a083cfc4222c-jinhua-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140743Z
+DTEND:20271013T140943Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:07:43 at the dark limb 
+ CST\, seen from Jinhua\, CN.\nThe Moon is 63° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2eb79140656c-jinhua-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T140746Z
+DTEND:20271020T140946Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:07:46 at the dark limb 
+ CST\, seen from Jinhua\, CN.\nThe Moon is 13° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef4e9614c6aa-jinhua-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T152541Z
+DTEND:20271021T152741Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:25:41 at the dark limb C
+ ST\, seen from Jinhua\, CN.\nThe Moon is 15° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63c1092c9563-jinhua-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205211Z
+DTEND:20271021T205411Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:52:11 at the dark limb C
+ ST\, seen from Jinhua\, CN.\nThe Moon is 83° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

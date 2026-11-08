@@ -10,33 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-0ddda91d767a-puyang-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T202532Z
-DTEND:20261007T203021Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) disappears at 04:25:32 at the dark limb
-  and reappears at 04:30:21 at the dark limb CST\, seen from Puyang\, CN.\n
- The Moon is 13° up in the E · dark sky. Binoculars show it.\nA graze: th
- e star skims the Moon's edge and may flicker.\nEvery occultation this mont
- h\, for anywhere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7e16392210cd-puyang-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T143210Z
-DTEND:20261020T143410Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:32:10 at the dark limb 
- CST\, seen from Puyang\, CN.\nThe Moon is 26° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-007cd3c1a878-puyang-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210807Z
@@ -349,6 +322,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:56:05 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e69b9648ab57-puyang-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140845Z
+DTEND:20271013T141045Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:08:45 at the dark limb 
+ CST\, seen from Puyang\, CN.\nThe Moon is 62° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8454a6420b93-puyang-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T140823Z
+DTEND:20271020T141023Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:08:23 at the dark limb 
+ CST\, seen from Puyang\, CN.\nThe Moon is 13° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-278b4be826be-puyang-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T152621Z
+DTEND:20271021T152821Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:26:21 at the dark limb C
+ ST\, seen from Puyang\, CN.\nThe Moon is 16° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-63c1092c9563-puyang-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205239Z
+DTEND:20271021T205439Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:52:39 at the dark limb C
+ ST\, seen from Puyang\, CN.\nThe Moon is 83° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

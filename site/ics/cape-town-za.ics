@@ -10,20 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Johannesburg
 BEGIN:VEVENT
-UID:star-af636c6d21db-cape-town-za@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T111656Z
-DTEND:20260917T115348Z
-SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
-DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 13:16:56 at the 
- dark limb and reappears at 13:53:48 at the bright limb SAST\, seen from Ca
- pe Town\, ZA.\nThe Moon is 36° up in the E · daylight\, Sun +53°. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-1526a8cad169-cape-town-za@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261114T202731Z
@@ -504,6 +490,72 @@ DESCRIPTION:HR 2111 (magnitude 6.0) reappears at 05:56:36 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-54d3ba307836-cape-town-za@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T183624Z
+DTEND:20270906T183824Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 20:36:24 at the dark limb S
+ AST\, seen from Cape Town\, ZA.\nThe Moon is 51° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0e755c07700b-cape-town-za@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T185622Z
+DTEND:20270906T185822Z
+SUMMARY:The Moon hides 3 Sco · mag 5.9
+DESCRIPTION:3 Sco (magnitude 5.9) disappears at 20:56:22 at the dark limb S
+ AST\, seen from Cape Town\, ZA.\nThe Moon is 47° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-eb50e41a11d7-cape-town-za@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271005T213055Z
+DTEND:20271005T213255Z
+SUMMARY:The Moon hides HR 6520 · mag 6.2
+DESCRIPTION:HR 6520 (magnitude 6.2) disappears at 23:30:55 at the dark limb
+  SAST\, seen from Cape Town\, ZA.\nThe Moon is 13° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d1d92565170c-cape-town-za@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T221333Z
+DTEND:20271006T221533Z
+SUMMARY:The Moon hides λ Sgr · mag 3.0
+DESCRIPTION:λ Sgr (magnitude 3.0) disappears at 00:13:33 at the dark limb 
+ SAST\, seen from Cape Town\, ZA.\nThe Moon is 14° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a256d228ea8-cape-town-za@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271015T224042Z
+DTEND:20271015T232004Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) disappears at 00:40:42 at the dark limb 
+ and reappears at 01:20:04 at the dark limb SAST\, seen from Cape Town\, ZA
+ .\nThe Moon is 40° up in the N · dark sky. Binoculars show it.\nEvery oc
+ cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
+ 027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

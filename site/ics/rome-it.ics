@@ -10,77 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-rome-it@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T092719Z
-DTEND:20260914T104018Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 11:28:41 and reappears at 12:38:46 CEST\, s
- een from Rome\, IT.\nThe Moon is 9° up in the ESE · daylight\, Sun +46°
- .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=41.8919&lon
- =12.5113
-URL:https://occult.alokm.com/venus-2026-09-14?lat=41.8919&lon=12.5113
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-d9b96a3ff3a3-rome-it@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T172851Z
-DTEND:20261016T173051Z
-SUMMARY:The Moon hides HR 6766 · mag 4.5
-DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 19:28:51 at the dark limb
-  CEST\, seen from Rome\, IT.\nThe Moon is 15° up in the SSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b5667b92ca98-rome-it@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261028T013131Z
-DTEND:20261028T013331Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 02:31:31 at the d
- ark limb CET\, seen from Rome\, IT.\nThe Moon is 69° up in the SW · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9c33595674b5-rome-it@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T234402Z
-DTEND:20261029T234602Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 00:44:02 at the dark limb 
- CET\, seen from Rome\, IT.\nThe Moon is 53° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e52a96a8d982-rome-it@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T023935Z
-DTEND:20261101T024135Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 03:39:35 at the dark limb 
- CET\, seen from Rome\, IT.\nThe Moon is 59° up in the ESE · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-d7c2395e6483-rome-it@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T025209Z
@@ -431,6 +360,72 @@ DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 00:58:01 at the dark
  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
  ps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ee8352102470-rome-it@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T190711Z
+DTEND:20270906T190911Z
+SUMMARY:The Moon hides 4 Sco · mag 5.6
+DESCRIPTION:4 Sco (magnitude 5.6) disappears at 21:07:11 at the dark limb C
+ EST\, seen from Rome\, IT.\nThe Moon is 10° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0b1fc1ca92b4-rome-it@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T193354Z
+DTEND:20270908T193554Z
+SUMMARY:The Moon hides 3 Sgr · mag 4.6
+DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 21:33:54 at the dark limb C
+ EST\, seen from Rome\, IT.\nThe Moon is 16° up in the SSW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d3c5bb41898d-rome-it@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T023144Z
+DTEND:20270924T031658Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 04:31:44 at the bright lim
+ b and reappears at 05:16:58 at the dark limb CEST\, seen from Rome\, IT.\n
+ The Moon is 47° up in the E · dark sky. Binoculars show it.\nEvery occul
+ tation this month\, for anywhere: https://occult.alokm.com/moon-stars-2027
+ -09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4d311d8f0de4-rome-it@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T022610Z
+DTEND:20270925T022810Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 04:26:10 at the dark limb 
+ CEST\, seen from Rome\, IT.\nThe Moon is 34° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c3de35cc0719-rome-it@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T025603Z
+DTEND:20270926T025803Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 04:56:03 at the dark limb C
+ EST\, seen from Rome\, IT.\nThe Moon is 26° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

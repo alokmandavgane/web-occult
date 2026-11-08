@@ -10,90 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-singapore-sg@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T124149Z
-DTEND:20260914T124319Z
-SUMMARY:The Moon occults Venus (disappearance only)
-DESCRIPTION:Venus disappears at 20:43:19 +08\, seen from Singapore\, SG.\nT
- he Moon sets during the occultation: only the disappearance is above the h
- orizon.\nThe Moon is 9° up in the WSW · dark sky.\nTimes for the Moon's 
- mean limb\, ±2 s.\nMap\, timings and the view at the Moon's edge: https:/
- /occult.alokm.com/venus-2026-09-14?lat=1.2897&lon=103.8501
-URL:https://occult.alokm.com/venus-2026-09-14?lat=1.2897&lon=103.8501
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus (disappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7b023723ff30-singapore-sg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260918T142221Z
-DTEND:20260918T142421Z
-SUMMARY:The Moon hides 43 Oph · mag 5.3
-DESCRIPTION:43 Oph (magnitude 5.3) disappears at 22:22:21 at the dark limb 
- +08\, seen from Singapore\, SG.\nThe Moon is 29° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3dc0e0c9ac91-singapore-sg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T160301Z
-DTEND:20260920T160501Z
-SUMMARY:The Moon hides HR 7277 · mag 5.8
-DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 00:03:01 at the dark limb
-  +08\, seen from Singapore\, SG.\nThe Moon is 30° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-aca3e73307e4-singapore-sg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261014T125102Z
-DTEND:20261014T125302Z
-SUMMARY:The Moon hides HR 6001 · mag 5.3
-DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 20:51:02 at the dark limb
-  +08\, seen from Singapore\, SG.\nThe Moon is 11° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-509dfab40d8d-singapore-sg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T131913Z
-DTEND:20261016T132113Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:19:13 at the dark limb
-  +08\, seen from Singapore\, SG.\nThe Moon is 26° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-140837af3d7a-singapore-sg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261017T144241Z
-DTEND:20261017T144441Z
-SUMMARY:The Moon hides HR 7103 · mag 6.3
-DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 22:42:41 at the dark limb
-  +08\, seen from Singapore\, SG.\nThe Moon is 19° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:occ-jupiter-2026-11-02-singapore-sg@occult.alokm.com
 DTSTAMP:20260914T034752Z
 DTSTART:20261102T212612Z
@@ -489,6 +405,71 @@ DESCRIPTION:HR 5969 (magnitude 5.0) disappears at 23:58:12 at the dark limb
  ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
  s://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-db0f6be77531-singapore-sg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270903T124632Z
+DTEND:20270903T124832Z
+SUMMARY:The Moon hides HIP 63220 · mag 6.4
+DESCRIPTION:HIP 63220 (magnitude 6.4) disappears at 20:46:32 at the dark li
+ mb +08\, seen from Singapore\, SG.\nThe Moon is 6° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-809c71c174da-singapore-sg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T172215Z
+DTEND:20270910T172415Z
+SUMMARY:The Moon hides χ3 Sgr · mag 5.4
+DESCRIPTION:χ3 Sgr (magnitude 5.4) disappears at 01:22:15 at the dark limb
+  +08\, seen from Singapore\, SG.\nThe Moon is 24° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-39f9674fea0f-singapore-sg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271007T134520Z
+DTEND:20271007T134720Z
+SUMMARY:The Moon hides HR 7195 · mag 5.6
+DESCRIPTION:HR 7195 (magnitude 5.6) disappears at 21:45:20 at the dark limb
+  +08\, seen from Singapore\, SG.\nThe Moon is 43° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2f7b9c8262ba-singapore-sg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271011T190816Z
+DTEND:20271011T191016Z
+SUMMARY:The Moon hides ρ Aqr · mag 5.3
+DESCRIPTION:ρ Aqr (magnitude 5.3) disappears at 03:08:16 at the dark limb 
+ +08\, seen from Singapore\, SG.\nThe Moon is 14° up in the W · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b36ab2eef986-singapore-sg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T125241Z
+DTEND:20271013T125441Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 20:52:41 at the dark limb 
+ +08\, seen from Singapore\, SG.\nThe Moon is 53° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

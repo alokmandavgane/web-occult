@@ -10,53 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Mexico_City
 BEGIN:VEVENT
-UID:star-b80d8b0ad3ec-santiago-de-queretaro-mx@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T045443Z
-DTEND:20260923T045643Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:54:43 at the dark limb 
- CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 50° up in the S
- SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
- ywhere: https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-santiago-de-queretaro-mx@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T085749Z
-DTEND:20261006T085912Z
-SUMMARY:The Moon occults Jupiter (reappearance only)
-DESCRIPTION:Jupiter reappears at 02:57:49 CST\, seen from Santiago de Quer
- étaro\, MX.\nThe Moon rises during the occultation: only the reappearance
-  is above the horizon.\nThe Moon is 1° up in the ENE · dark sky.\nTimes 
- against the real lunar limb.\nMap\, timings and the view at the Moon's edg
- e: https://occult.alokm.com/jupiter-2026-10-06?city=Santiago%20de%20Quer%C
- 3%A9taro%2C%20MX
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Santiago%20de%20Quer%C
- 3%A9taro%2C%20MX
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter (reappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3b212b7bf09c-santiago-de-queretaro-mx@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261031T093216Z
-DTEND:20261031T093416Z
-SUMMARY:The Moon hides 57 Gem · mag 5.0
-DESCRIPTION:57 Gem (magnitude 5.0) reappears at 03:32:16 at the dark limb C
- ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 63° up in the EN
- E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
- where: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-9d734e05d171-santiago-de-queretaro-mx@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261126T101932Z
@@ -418,6 +371,45 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 22:33:14 at the dark limb
   · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
  here: https://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-2fbe8dc5cee7-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270903T012800Z
+DTEND:20270903T013000Z
+SUMMARY:The Moon hides 21 Vir · mag 5.5
+DESCRIPTION:21 Vir (magnitude 5.5) disappears at 19:28:00 at the dark limb 
+ CST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 10° up in the W
+ SW · dusk. Binoculars show it.\nEvery occultation this month\, for anywhe
+ re: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef1f5a6bcffe-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T081030Z
+DTEND:20270916T081230Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 02:10:30 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 62° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c03dfcb34ca4-santiago-de-queretaro-mx@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T093943Z
+DTEND:20271023T094143Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 03:39:43 at the dark limb C
+ ST\, seen from Santiago de Querétaro\, MX.\nThe Moon is 38° up in the E 
+ · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
+ ere: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Casablanca
 BEGIN:VEVENT
-UID:star-7f5424545c8d-casablanca-ma@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260929T214635Z
-DTEND:20260929T214835Z
-SUMMARY:The Moon hides ε Ari A · mag 5.2
-DESCRIPTION:ε Ari A (magnitude 5.2) reappears at 21:46:35 at the dark limb
-  +00\, seen from Casablanca\, MA.\nThe Moon is 22° up in the ENE · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-casablanca-ma@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T103116Z
-DTEND:20261006T103612Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 10:31:16 and reappears at 10:36:12 +00\, 
- seen from Casablanca\, MA.\nThe Moon is 63° up in the SW · daylight\, Su
- n +44°.\nTimes against the real lunar limb.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Casabl
- anca%2C%20MA
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Casablanca%2C%20MA
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-bb794f6c426c-casablanca-ma@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T231457Z
-DTEND:20261029T231657Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:14:57 at the dark limb 
- +00\, seen from Casablanca\, MA.\nThe Moon is 31° up in the ENE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ec676b0c890d-casablanca-ma@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T021904Z
-DTEND:20261101T022104Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:19:04 at the dark limb 
- +00\, seen from Casablanca\, MA.\nThe Moon is 41° up in the E · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-8142bab20aea-casablanca-ma@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T030730Z
@@ -341,6 +283,72 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:23:42 at the dark limb +
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-028ac79b10e4-casablanca-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T204249Z
+DTEND:20270906T204449Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:42:49 at the dark limb 
+ +00\, seen from Casablanca\, MA.\nThe Moon is 14° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d7e5a72bc520-casablanca-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T021148Z
+DTEND:20270924T023618Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:11:48 at the bright lim
+ b and reappears at 02:36:18 at the dark limb +00\, seen from Casablanca\, 
+ MA.\nThe Moon is 27° up in the ENE · dark sky. Binoculars show it.\nEver
+ y occultation this month\, for anywhere: https://occult.alokm.com/moon-sta
+ rs-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b49e1fac3946-casablanca-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T020854Z
+DTEND:20270925T021054Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 02:08:54 at the dark limb 
+ +00\, seen from Casablanca\, MA.\nThe Moon is 14° up in the ENE · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c56aef9c767-casablanca-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T025409Z
+DTEND:20270926T025609Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 02:54:09 at the dark limb +
+ 00\, seen from Casablanca\, MA.\nThe Moon is 9° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7a08e6c497b0-casablanca-ma@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T215252Z
+DTEND:20271006T215452Z
+SUMMARY:The Moon hides HR 6909 · mag 6.4
+DESCRIPTION:HR 6909 (magnitude 6.4) disappears at 21:52:52 at the dark limb
+  +00\, seen from Casablanca\, MA.\nThe Moon is 8° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

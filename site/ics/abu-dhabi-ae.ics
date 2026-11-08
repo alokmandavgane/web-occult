@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Dubai
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-abu-dhabi-ae@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T103318Z
-DTEND:20260914T120017Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 14:35:37 and reappears at 15:57:54 +04\, se
- en from Abu Dhabi\, AE.\nThe Moon is 48° up in the S · daylight\, Sun +5
- 1°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=24.4512&
- lon=54.3970
-URL:https://occult.alokm.com/venus-2026-09-14?lat=24.4512&lon=54.3970
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-38ed484dfaf5-abu-dhabi-ae@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T211942Z
-DTEND:20260923T212142Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 01:19:42 at the dark limb 
- +04\, seen from Abu Dhabi\, AE.\nThe Moon is 29° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-55d0d10d3c0e-abu-dhabi-ae@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T011737Z
-DTEND:20261030T011937Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 05:17:37 at the dark limb 
- +04\, seen from Abu Dhabi\, AE.\nThe Moon is 69° up in the WNW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-ac608338dc12-abu-dhabi-ae@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T002246Z
@@ -496,6 +451,58 @@ DESCRIPTION:37 Gem (magnitude 5.7) reappears at 03:35:29 at the dark limb +
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cc9d4ee35ad8-abu-dhabi-ae@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T173813Z
+DTEND:20270906T174013Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:38:13 at the dark limb +
+ 04\, seen from Abu Dhabi\, AE.\nThe Moon is 8° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f340ebfe0b83-abu-dhabi-ae@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T191905Z
+DTEND:20270921T192105Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 23:19:05 at the dark limb +
+ 04\, seen from Abu Dhabi\, AE.\nThe Moon is 17° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-979a0da769d8-abu-dhabi-ae@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T192134Z
+DTEND:20271021T192334Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 23:21:34 at the dark limb +
+ 04\, seen from Abu Dhabi\, AE.\nThe Moon is 6° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6069fc97521-abu-dhabi-ae@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225216Z
+DTEND:20271023T225416Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 02:52:16 at the dark limb 
+ +04\, seen from Abu Dhabi\, AE.\nThe Moon is 24° up in the E · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

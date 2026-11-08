@@ -10,103 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Ouagadougou
 BEGIN:VEVENT
-UID:star-29c14af06e3a-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T205402Z
-DTEND:20260916T205602Z
-SUMMARY:The Moon hides 1 Sco · mag 4.6
-DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:54:02 at the dark limb G
- MT\, seen from Ouagadougou\, BF.\nThe Moon is 12° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e7e76017a899-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T185805Z
-DTEND:20260917T190005Z
-SUMMARY:The Moon hides HIP 81731 · mag 6.5
-DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 18:58:05 at the dark li
- mb GMT\, seen from Ouagadougou\, BF.\nThe Moon is 41° up in the SW · dar
- k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
- ttps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c531a458b851-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T190719Z
-DTEND:20260923T190919Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 19:07:19 at the dark limb 
- GMT\, seen from Ouagadougou\, BF.\nThe Moon is 42° up in the ESE · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-217d1a51a144-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T040935Z
-DTEND:20261001T041135Z
-SUMMARY:The Moon hides 44 Tau · mag 5.4
-DESCRIPTION:44 Tau (magnitude 5.4) reappears at 04:09:35 at the dark limb G
- MT\, seen from Ouagadougou\, BF.\nThe Moon is 74° up in the NNW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T104341Z
-DTEND:20261006T115359Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 10:45:07 and reappears at 11:52:40 GMT\, 
- seen from Ouagadougou\, BF.\nThe Moon is 59° up in the W · daylight\, Su
- n +65°.\nTimes against the real lunar limb.\nMap\, timings and the view a
- t the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Ouagad
- ougou%2C%20BF
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Ouagadougou%2C%20BF
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-2d42a4c5d552-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T010708Z
-DTEND:20261021T010908Z
-SUMMARY:The Moon hides 42 Cap · mag 5.1
-DESCRIPTION:42 Cap (magnitude 5.1) disappears at 01:07:08 at the dark limb 
- GMT\, seen from Ouagadougou\, BF.\nThe Moon is 7° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-be38c92f94f4-ouagadougou-bf@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T231311Z
-DTEND:20261029T231511Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:13:11 at the dark limb 
- GMT\, seen from Ouagadougou\, BF.\nThe Moon is 29° up in the ENE · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-75018f357201-ouagadougou-bf@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T032730Z
@@ -394,6 +297,46 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:12:37 at the dark limb G
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c7e46aed1593-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T211757Z
+DTEND:20270906T220232Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 21:17:57 at the dark limb 
+ and reappears at 22:02:32 at the bright limb GMT\, seen from Ouagadougou\,
+  BF.\nThe Moon is 17° up in the WSW · dark sky. Binoculars show it.\nEve
+ ry occultation this month\, for anywhere: https://occult.alokm.com/moon-st
+ ars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a92d353c8ed-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T025117Z
+DTEND:20270926T025317Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 02:51:17 at the dark limb G
+ MT\, seen from Ouagadougou\, BF.\nThe Moon is 8° up in the ENE · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-90f77fba033f-ouagadougou-bf@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T194443Z
+DTEND:20271004T194643Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 19:44:43 at the dark limb
+  GMT\, seen from Ouagadougou\, BF.\nThe Moon is 20° up in the SW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,39 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Addis_Ababa
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-addis-ababa-et@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T102937Z
-DTEND:20260914T114321Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 13:32:13 and reappears at 14:40:34 EAT\, se
- en from Addis Ababa\, ET.\nThe Moon is 58° up in the SE · daylight\, Sun
-  +71°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
- ew at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=9.025
- 0&lon=38.7469
-URL:https://occult.alokm.com/venus-2026-09-14?lat=9.0250&lon=38.7469
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-84f3d4a36f1c-addis-ababa-et@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T012545Z
-DTEND:20261007T015042Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) disappears at 04:25:45 at the 
- bright limb and reappears at 04:50:42 at the dark limb EAT\, seen from Add
- is Ababa\, ET.\nThe Moon is 15° up in the E · dark sky. Binoculars show 
- it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
- /moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a712288b07ad-addis-ababa-et@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261112T165311Z
@@ -379,6 +346,58 @@ DESCRIPTION:18 Tau (magnitude 5.7) reappears at 01:23:30 at the dark limb E
  ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
  s://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-21f24293fc10-addis-ababa-et@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T173312Z
+DTEND:20270906T173512Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:33:12 at the dark limb E
+ AT\, seen from Addis Ababa\, ET.\nThe Moon is 30° up in the SW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-89f553c1c3b1-addis-ababa-et@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T011100Z
+DTEND:20270925T011300Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 04:11:00 at the dark limb 
+ EAT\, seen from Addis Ababa\, ET.\nThe Moon is 35° up in the ENE · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7c74ad2ea670-addis-ababa-et@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270928T022132Z
+DTEND:20270928T022332Z
+SUMMARY:The Moon hides 48 Leo · mag 5.1
+DESCRIPTION:48 Leo (magnitude 5.1) reappears at 05:21:32 at the dark limb E
+ AT\, seen from Addis Ababa\, ET.\nThe Moon is 13° up in the E · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-180dd4c7fb81-addis-ababa-et@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T011257Z
+DTEND:20271016T011457Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 04:12:57 at the dark limb E
+ AT\, seen from Addis Ababa\, ET.\nThe Moon is 33° up in the WNW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

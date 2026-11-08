@@ -10,45 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-92e1ba585554-yunfu-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215627Z
-DTEND:20261006T215827Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:56:27 at the dark limb C
- ST\, seen from Yunfu\, CN.\nThe Moon is 38° up in the E · dusk. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c652b17c980c-yunfu-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T132354Z
-DTEND:20261016T132554Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:23:54 at the dark limb
-  CST\, seen from Yunfu\, CN.\nThe Moon is 6° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-424cf6ded2dd-yunfu-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142253Z
-DTEND:20261020T142453Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:22:53 at the dark limb 
- CST\, seen from Yunfu\, CN.\nThe Moon is 37° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-db7d13037fd5-yunfu-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210552Z
@@ -308,6 +269,32 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 02:39:06 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5df94ae4da6d-yunfu-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T134202Z
+DTEND:20271013T134402Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 21:42:02 at the dark limb 
+ CST\, seen from Yunfu\, CN.\nThe Moon is 64° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-97c3af69294b-yunfu-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T202826Z
+DTEND:20271021T203026Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:28:26 at the dark limb C
+ ST\, seen from Yunfu\, CN.\nThe Moon is 72° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

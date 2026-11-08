@@ -10,101 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-port-blair@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T122200Z
-DTEND:20260914T133317Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 17:53:43 and reappears at 19:01:48 IST\, se
- en from Port Blair.\nThe Moon is 21° up in the WSW · dusk.\nTimes agains
- t the real lunar limb.\nMap\, timings and the view at the Moon's edge: htt
- ps://occult.alokm.com/venus-2026-09-14?city=Port%20Blair
-URL:https://occult.alokm.com/venus-2026-09-14?city=Port%20Blair
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e53fa03bf01e-port-blair@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261014T125702Z
-DTEND:20261014T125902Z
-SUMMARY:The Moon hides HR 6001 · mag 5.3
-DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 18:27:02 at the dark limb
-  IST\, seen from Port Blair.\nThe Moon is 14° up in the WSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-40f89b22bd30-port-blair@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T130624Z
-DTEND:20261016T130824Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 18:36:24 at the dark limb
-  IST\, seen from Port Blair.\nThe Moon is 31° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5be33858d6e8-port-blair@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261017T144542Z
-DTEND:20261017T144742Z
-SUMMARY:The Moon hides HR 7103 · mag 6.3
-DESCRIPTION:HR 7103 (magnitude 6.3) disappears at 20:15:42 at the dark limb
-  IST\, seen from Port Blair.\nThe Moon is 23° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-0a2e03933427-port-blair@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T131806Z
-DTEND:20261020T132006Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 18:48:06 at the dark limb 
- IST\, seen from Port Blair.\nThe Moon is 62° up in the S · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-10-26-14274-landstreet-379840-port-blair@occult.alokm.com
-DTSTAMP:20260916T022913Z
-DTSTART:20261026T222957Z
-DTEND:20261026T223957Z
-SUMMARY:(14274) Landstreet hides a mag 10.1 star (just outside the path) ·
-  21% chance
-DESCRIPTION:(14274) Landstreet hides a magnitude 10.1 star\, seen from Port
-  Blair.\nThe predicted edge passes 12 km to the NNE\, so a miss is likely 
- — but a chord from near the edge is the most valuable observation of all
- .\nChance of an occultation here: 21%\, allowing for the path's 1σ of 15 
- km.\nClosest approach 04:04:57 IST\, give or take 1 s. The star is 11° up
-  in the NW · dark sky.\nIt fades 6.8 magnitudes for up to 1.7 s on the ce
- ntre line\, and the path is 21 km wide\, give or take 15 km.\nThe map\, th
- e finder chart and the path as KML: https://occult.alokm.com/asteroid?e=20
- 26-10-26-14274-landstreet-379840
-URL:https://occult.alokm.com/asteroid?e=2026-10-26-14274-landstreet-379840
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(14274) Landstreet hides a mag 10.1 star (just outside the path
- ) · 21% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-9e228df62d5b-port-blair@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T202958Z
@@ -142,13 +47,13 @@ DTSTART:20261105T214506Z
 DTEND:20261105T215506Z
 SUMMARY:(614) Pia hides a mag 11.9 star · 67% chance
 DESCRIPTION:(614) Pia hides a magnitude 11.9 star\, seen from Port Blair.\n
- You are inside the path\, 4 km from its centre line: the star vanishes for
-  up to 2.9 s.\nChance of an occultation here: 67%\, allowing for the path'
- s 1σ of 14 km.\nClosest approach 03:20:06 IST\, give or take 1 s. The sta
- r is 77° up in the E · dark sky.\nIt fades 3.6 magnitudes for up to 2.9 
- s on the centre line\, and the path is 29 km wide\, give or take 14 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-05-614-pia-304704
+ You're inside the path\, 4 km from the centre line. The star vanishes for 
+ up to 2.9 s.\nChance of an occultation here: 67%\, allowing for the path's
+  1σ of 14 km.\nClosest approach 03:20:06 IST\, give or take 1 s. The star
+  is 77° up in the E · dark sky.\nIt fades 3.6 magnitudes for up to 2.9 s
+  on the centre line\, and the path is 29 km wide\, give or take 14 km.\nTh
+ e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
+ eroid?e=2026-11-05-614-pia-304704
 URL:https://occult.alokm.com/asteroid?e=2026-11-05-614-pia-304704
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -164,13 +69,13 @@ DTSTART:20261106T211625Z
 DTEND:20261106T212625Z
 SUMMARY:(943) Begonia hides a mag 11.7 star · 67% chance
 DESCRIPTION:(943) Begonia hides a magnitude 11.7 star\, seen from Port Blai
- r.\nYou are inside the path\, 27 km from its centre line: the star vanishe
- s for up to 1.5 s.\nChance of an occultation here: 67%\, allowing for the 
- path's 1σ of 20 km.\nClosest approach 02:51:25 IST\, give or take 1 s. Th
- e star is 29° up in the E · dark sky.\nIt fades 3.2 magnitudes for up to
-  2.3 s on the centre line\, and the path is 71 km wide\, give or take 20 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2026-11-06-943-begonia-492928
+ r.\nYou're inside the path\, 27 km from the centre line. The star vanishes
+  for up to 1.5 s.\nChance of an occultation here: 67%\, allowing for the p
+ ath's 1σ of 20 km.\nClosest approach 02:51:25 IST\, give or take 1 s. The
+  star is 29° up in the E · dark sky.\nIt fades 3.2 magnitudes for up to 
+ 2.3 s on the centre line\, and the path is 71 km wide\, give or take 20 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2026-11-06-943-begonia-492928
 URL:https://occult.alokm.com/asteroid?e=2026-11-06-943-begonia-492928
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -186,13 +91,13 @@ DTSTART:20261109T222414Z
 DTEND:20261109T223414Z
 SUMMARY:(379) Huenna hides a mag 10.8 star · 63% chance
 DESCRIPTION:(379) Huenna hides a magnitude 10.8 star\, seen from Port Blair
- .\nYou are inside the path\, 38 km from its centre line: the star vanishes
-  for up to 9.2 s.\nChance of an occultation here: 63%\, allowing for the p
- ath's 1σ of 17 km.\nClosest approach 03:59:14 IST\, give or take 8 s. The
-  star is 67° up in the WNW · dark sky.\nIt fades 3.4 magnitudes for up t
- o 20.9 s on the centre line\, and the path is 85 km wide\, give or take 17
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-11-09-379-huenna-097792
+ .\nYou're inside the path\, 38 km from the centre line. The star vanishes 
+ for up to 9.2 s.\nChance of an occultation here: 63%\, allowing for the pa
+ th's 1σ of 17 km.\nClosest approach 03:59:14 IST\, give or take 8 s. The 
+ star is 67° up in the WNW · dark sky.\nIt fades 3.4 magnitudes for up to
+  20.9 s on the centre line\, and the path is 85 km wide\, give or take 17 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2026-11-09-379-huenna-097792
 URL:https://occult.alokm.com/asteroid?e=2026-11-09-379-huenna-097792
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -208,13 +113,13 @@ DTSTART:20261111T195410Z
 DTEND:20261111T200410Z
 SUMMARY:(12242) Koon hides a mag 12.2 star · 38% chance
 DESCRIPTION:(12242) Koon hides a magnitude 12.2 star\, seen from Port Blair
- .\nYou are inside the path\, 17 km from its centre line: the star vanishes
-  for up to 1.1 s.\nChance of an occultation here: 38%\, allowing for the p
- ath's 1σ of 34 km.\nClosest approach 01:29:10 IST\, give or take 4 s. The
-  star is 73° up in the SE · dark sky.\nIt fades 6.2 magnitudes for up to
-  2.4 s on the centre line\, and the path is 38 km wide\, give or take 34 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2026-11-11-12242-koon-649536
+ .\nYou're inside the path\, 17 km from the centre line. The star vanishes 
+ for up to 1.1 s.\nChance of an occultation here: 38%\, allowing for the pa
+ th's 1σ of 34 km.\nClosest approach 01:29:10 IST\, give or take 4 s. The 
+ star is 73° up in the SE · dark sky.\nIt fades 6.2 magnitudes for up to 
+ 2.4 s on the centre line\, and the path is 38 km wide\, give or take 34 km
+ .\nThe map\, the finder chart and the path as KML: https://occult.alokm.co
+ m/asteroid?e=2026-11-11-12242-koon-649536
 URL:https://occult.alokm.com/asteroid?e=2026-11-11-12242-koon-649536
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -230,13 +135,13 @@ DTSTART:20261112T135929Z
 DTEND:20261112T140929Z
 SUMMARY:(476) Hedwig hides a mag 10.6 star · 99% chance
 DESCRIPTION:(476) Hedwig hides a magnitude 10.6 star\, seen from Port Blair
- .\nYou are inside the path\, 34 km from its centre line: the star vanishes
-  for up to 8.2 s.\nChance of an occultation here: 99%\, allowing for the p
- ath's 1σ of 16 km.\nClosest approach 19:34:29 IST\, give or take 1 s. The
-  star is 57° up in the WSW · dark sky.\nIt fades 3.1 magnitudes for up t
- o 9.2 s on the centre line\, and the path is 138 km wide\, give or take 16
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-11-12-476-hedwig-792704
+ .\nYou're inside the path\, 34 km from the centre line. The star vanishes 
+ for up to 8.2 s.\nChance of an occultation here: 99%\, allowing for the pa
+ th's 1σ of 16 km.\nClosest approach 19:34:29 IST\, give or take 1 s. The 
+ star is 57° up in the WSW · dark sky.\nIt fades 3.1 magnitudes for up to
+  9.2 s on the centre line\, and the path is 138 km wide\, give or take 16 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2026-11-12-476-hedwig-792704
 URL:https://occult.alokm.com/asteroid?e=2026-11-12-476-hedwig-792704
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -318,14 +223,13 @@ DTEND:20261222T162149Z
 SUMMARY:(635) Vundtia hides a mag 11.7 star (just outside the path) · 27% 
  chance
 DESCRIPTION:(635) Vundtia hides a magnitude 11.7 star\, seen from Port Blai
- r.\nThe predicted edge passes 9 km to the N\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nChanc
- e of an occultation here: 27%\, allowing for the path's 1σ of 14 km.\nClo
- sest approach 21:46:49 IST\, give or take 2 s. The star is 77° up in the 
- ESE · dark sky.\nIt fades 2.0 magnitudes for up to 8.0 s on the centre li
- ne\, and the path is 94 km wide\, give or take 14 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-2
- 2-635-vundtia-525376
+ r.\nThe edge is 9 km to the N. A miss is likely\, but an edge timing is ve
+ ry valuable.\nChance of an occultation here: 27%\, allowing for the path's
+  1σ of 14 km.\nClosest approach 21:46:49 IST\, give or take 2 s. The star
+  is 77° up in the ESE · dark sky.\nIt fades 2.0 magnitudes for up to 8.0
+  s on the centre line\, and the path is 94 km wide\, give or take 14 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2026-12-22-635-vundtia-525376
 URL:https://occult.alokm.com/asteroid?e=2026-12-22-635-vundtia-525376
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -343,14 +247,13 @@ DTEND:20261223T171345Z
 SUMMARY:(5711) Eneev hides a mag 12.5 star (just outside the path) · 23% c
  hance
 DESCRIPTION:(5711) Eneev hides a magnitude 12.5 star\, seen from Port Blair
- .\nThe predicted edge passes 18 km to the S\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nChanc
- e of an occultation here: 23%\, allowing for the path's 1σ of 24 km.\nClo
- sest approach 22:38:45 IST\, give or take 2 s. The star is 68° up in the 
- NNW · dark sky.\nIt fades 4.9 magnitudes for up to 2.7 s on the centre li
- ne\, and the path is 39 km wide\, give or take 24 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2026-12-2
- 3-5711-eneev-976256
+ .\nThe edge is 18 km to the S. A miss is likely\, but an edge timing is ve
+ ry valuable.\nChance of an occultation here: 23%\, allowing for the path's
+  1σ of 24 km.\nClosest approach 22:38:45 IST\, give or take 2 s. The star
+  is 68° up in the NNW · dark sky.\nIt fades 4.9 magnitudes for up to 2.7
+  s on the centre line\, and the path is 39 km wide\, give or take 24 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2026-12-23-5711-eneev-976256
 URL:https://occult.alokm.com/asteroid?e=2026-12-23-5711-eneev-976256
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -380,13 +283,13 @@ DTSTART:20270106T155706Z
 DTEND:20270106T160706Z
 SUMMARY:(4547) Massachusetts hides a mag 11.8 star · 55% chance
 DESCRIPTION:(4547) Massachusetts hides a magnitude 11.8 star\, seen from Po
- rt Blair.\nYou are inside the path\, 14 km from its centre line: the star 
- vanishes for up to 1.9 s.\nChance of an occultation here: 55%\, allowing f
- or the path's 1σ of 17 km.\nClosest approach 21:32:06 IST\, give or take 
- 1 s. The star is 42° up in the NNE · dark sky.\nIt fades 3.9 magnitudes 
- for up to 2.8 s on the centre line\, and the path is 33 km wide\, give or 
- take 17 km.\nThe map\, the finder chart and the path as KML: https://occul
- t.alokm.com/asteroid?e=2027-01-06-4547-massachusetts-608064
+ rt Blair.\nYou're inside the path\, 14 km from the centre line. The star v
+ anishes for up to 1.9 s.\nChance of an occultation here: 55%\, allowing fo
+ r the path's 1σ of 17 km.\nClosest approach 21:32:06 IST\, give or take 1
+  s. The star is 42° up in the NNE · dark sky.\nIt fades 3.9 magnitudes f
+ or up to 2.8 s on the centre line\, and the path is 33 km wide\, give or t
+ ake 17 km.\nThe map\, the finder chart and the path as KML: https://occult
+ .alokm.com/asteroid?e=2027-01-06-4547-massachusetts-608064
 URL:https://occult.alokm.com/asteroid?e=2027-01-06-4547-massachusetts-60806
  4
 TRANSP:TRANSPARENT
@@ -455,13 +358,13 @@ DTSTART:20270205T171411Z
 DTEND:20270205T172411Z
 SUMMARY:(754) Malabar hides a mag 11.6 star · 62% chance
 DESCRIPTION:(754) Malabar hides a magnitude 11.6 star\, seen from Port Blai
- r.\nYou are inside the path\, 58 km from its centre line: the star vanishe
- s for up to 4.3 s.\nChance of an occultation here: 62%\, allowing for the 
- path's 1σ of 22 km.\nClosest approach 22:49:11 IST\, give or take 1 s. Th
- e star is 42° up in the WSW · dark sky.\nIt fades 2.7 magnitudes for up 
- to 8.5 s on the centre line\, and the path is 95 km wide\, give or take 22
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2027-02-05-754-malabar-109056
+ r.\nYou're inside the path\, 58 km from the centre line. The star vanishes
+  for up to 4.3 s.\nChance of an occultation here: 62%\, allowing for the p
+ ath's 1σ of 22 km.\nClosest approach 22:49:11 IST\, give or take 1 s. The
+  star is 42° up in the WSW · dark sky.\nIt fades 2.7 magnitudes for up t
+ o 8.5 s on the centre line\, and the path is 95 km wide\, give or take 22 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-02-05-754-malabar-109056
 URL:https://occult.alokm.com/asteroid?e=2027-02-05-754-malabar-109056
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -569,14 +472,13 @@ DTEND:20270228T181142Z
 SUMMARY:(39) Laetitia hides a mag 12.4 star (just outside the path) · 45% 
  chance
 DESCRIPTION:(39) Laetitia hides a magnitude 12.4 star\, seen from Port Blai
- r.\nThe predicted edge passes 6 km to the ENE\, so a miss is likely — bu
- t a chord from near the edge is the most valuable observation of all.\nCha
- nce of an occultation here: 45%\, allowing for the path's 1σ of 30 km.\nC
- losest approach 23:36:42 IST\, give or take 4 s. The star is 37° up in th
- e ESE · dark sky.\nIt fades 0.3 magnitudes for up to 30.8 s on the centre
-  line\, and the path is 179 km wide\, give or take 30 km.\nThe map\, the f
- inder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-
- 02-28-39-laetitia-186304
+ r.\nThe edge is 6 km to the ENE. A miss is likely\, but an edge timing is 
+ very valuable.\nChance of an occultation here: 45%\, allowing for the path
+ 's 1σ of 30 km.\nClosest approach 23:36:42 IST\, give or take 4 s. The st
+ ar is 37° up in the ESE · dark sky.\nIt fades 0.3 magnitudes for up to 3
+ 0.8 s on the centre line\, and the path is 179 km wide\, give or take 30 k
+ m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
+ om/asteroid?e=2027-02-28-39-laetitia-186304
 URL:https://occult.alokm.com/asteroid?e=2027-02-28-39-laetitia-186304
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -620,14 +522,13 @@ DTEND:20270322T172200Z
 SUMMARY:(1004) Belopolskya hides a mag 11.3 star (just outside the path) ·
   28% chance
 DESCRIPTION:(1004) Belopolskya hides a magnitude 11.3 star\, seen from Port
-  Blair.\nThe predicted edge passes 13 km to the NNE\, so a miss is likely 
- — but a chord from near the edge is the most valuable observation of all
- .\nChance of an occultation here: 28%\, allowing for the path's 1σ of 23 
- km.\nClosest approach 22:47:00 IST\, give or take 1 s. The star is 65° up
-  in the SE · dark sky.\nIt fades 3.8 magnitudes for up to 4.9 s on the ce
- ntre line\, and the path is 72 km wide\, give or take 23 km.\nThe map\, th
- e finder chart and the path as KML: https://occult.alokm.com/asteroid?e=20
- 27-03-22-1004-belopolskya-849792
+  Blair.\nThe edge is 13 km to the NNE. A miss is likely\, but an edge timi
+ ng is very valuable.\nChance of an occultation here: 28%\, allowing for th
+ e path's 1σ of 23 km.\nClosest approach 22:47:00 IST\, give or take 1 s. 
+ The star is 65° up in the SE · dark sky.\nIt fades 3.8 magnitudes for up
+  to 4.9 s on the centre line\, and the path is 72 km wide\, give or take 2
+ 3 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-03-22-1004-belopolskya-849792
 URL:https://occult.alokm.com/asteroid?e=2027-03-22-1004-belopolskya-849792
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -671,14 +572,13 @@ DTEND:20270425T170807Z
 SUMMARY:(151) Abundantia hides a mag 10.7 star (just outside the path) · 2
  9% chance
 DESCRIPTION:(151) Abundantia hides a magnitude 10.7 star\, seen from Port B
- lair.\nThe predicted edge passes 11 km to the NE\, so a miss is likely —
-  but a chord from near the edge is the most valuable observation of all.\n
- Chance of an occultation here: 29%\, allowing for the path's 1σ of 18 km.
- \nClosest approach 22:33:07 IST\, give or take 1 s. The star is 28° up in
-  the WNW · dark sky.\nIt fades 3.5 magnitudes for up to 3.0 s on the cent
- re line\, and the path is 39 km wide\, give or take 18 km.\nThe map\, the 
- finder chart and the path as KML: https://occult.alokm.com/asteroid?e=2027
- -04-25-151-abundantia-792192
+ lair.\nThe edge is 11 km to the NE. A miss is likely\, but an edge timing 
+ is very valuable.\nChance of an occultation here: 29%\, allowing for the p
+ ath's 1σ of 18 km.\nClosest approach 22:33:07 IST\, give or take 1 s. The
+  star is 28° up in the WNW · dark sky.\nIt fades 3.5 magnitudes for up t
+ o 3.0 s on the centre line\, and the path is 39 km wide\, give or take 18 
+ km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
+ com/asteroid?e=2027-04-25-151-abundantia-792192
 URL:https://occult.alokm.com/asteroid?e=2027-04-25-151-abundantia-792192
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -775,13 +675,13 @@ DTSTART:20270622T142731Z
 DTEND:20270622T143731Z
 SUMMARY:(1136) Mercedes hides a mag 11.5 star · 48% chance
 DESCRIPTION:(1136) Mercedes hides a magnitude 11.5 star\, seen from Port Bl
- air.\nYou are inside the path\, 11 km from its centre line: the star vanis
- hes for up to 1.5 s.\nChance of an occultation here: 48%\, allowing for th
- e path's 1σ of 15 km.\nClosest approach 20:02:31 IST\, give or take 1 s. 
- The star is 21° up in the ESE · dark sky.\nIt fades 2.9 magnitudes for u
- p to 3.2 s on the centre line\, and the path is 25 km wide\, give or take 
- 15 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2027-06-22-1136-mercedes-972416
+ air.\nYou're inside the path\, 11 km from the centre line. The star vanish
+ es for up to 1.5 s.\nChance of an occultation here: 48%\, allowing for the
+  path's 1σ of 15 km.\nClosest approach 20:02:31 IST\, give or take 1 s. T
+ he star is 21° up in the ESE · dark sky.\nIt fades 2.9 magnitudes for up
+  to 3.2 s on the centre line\, and the path is 25 km wide\, give or take 1
+ 5 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-06-22-1136-mercedes-972416
 URL:https://occult.alokm.com/asteroid?e=2027-06-22-1136-mercedes-972416
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -797,13 +697,13 @@ DTSTART:20270625T222316Z
 DTEND:20270625T223316Z
 SUMMARY:(95) Arethusa hides a mag 13.2 star · 97% chance
 DESCRIPTION:(95) Arethusa hides a magnitude 13.2 star\, seen from Port Blai
- r.\nYou are inside the path\, 3 km from its centre line: the star vanishes
-  for up to 10.9 s.\nChance of an occultation here: 97%\, allowing for the 
- path's 1σ of 35 km.\nClosest approach 03:58:16 IST\, give or take 3 s. Th
- e star is 28° up in the WSW · dark sky.\nIt fades 0.5 magnitudes for up 
- to 11.2 s on the centre line\, and the path is 148 km wide\, give or take 
- 35 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2027-06-25-95-arethusa-549504
+ r.\nYou're inside the path\, 3 km from the centre line. The star vanishes 
+ for up to 10.9 s.\nChance of an occultation here: 97%\, allowing for the p
+ ath's 1σ of 35 km.\nClosest approach 03:58:16 IST\, give or take 3 s. The
+  star is 28° up in the WSW · dark sky.\nIt fades 0.5 magnitudes for up t
+ o 11.2 s on the centre line\, and the path is 148 km wide\, give or take 3
+ 5 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
+ m.com/asteroid?e=2027-06-25-95-arethusa-549504
 URL:https://occult.alokm.com/asteroid?e=2027-06-25-95-arethusa-549504
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -819,13 +719,13 @@ DTSTART:20270627T142030Z
 DTEND:20270627T143030Z
 SUMMARY:(81) Terpsichore hides a mag 12.4 star · 83% chance
 DESCRIPTION:(81) Terpsichore hides a magnitude 12.4 star\, seen from Port B
- lair.\nYou are inside the path\, 52 km from its centre line: the star vani
- shes for up to 5.5 s.\nChance of an occultation here: 83%\, allowing for t
- he path's 1σ of 16 km.\nClosest approach 19:55:30 IST\, give or take 3 s.
-  The star is 26° up in the SE · dark sky.\nIt fades 1.3 magnitudes for u
- p to 8.3 s on the centre line\, and the path is 118 km wide\, give or take
-  16 km.\nThe map\, the finder chart and the path as KML: https://occult.al
- okm.com/asteroid?e=2027-06-27-81-terpsichore-790400
+ lair.\nYou're inside the path\, 52 km from the centre line. The star vanis
+ hes for up to 5.5 s.\nChance of an occultation here: 83%\, allowing for th
+ e path's 1σ of 16 km.\nClosest approach 19:55:30 IST\, give or take 3 s. 
+ The star is 26° up in the SE · dark sky.\nIt fades 1.3 magnitudes for up
+  to 8.3 s on the centre line\, and the path is 118 km wide\, give or take 
+ 16 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
+ km.com/asteroid?e=2027-06-27-81-terpsichore-790400
 URL:https://occult.alokm.com/asteroid?e=2027-06-27-81-terpsichore-790400
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -842,14 +742,13 @@ DTEND:20270630T204310Z
 SUMMARY:(895) Helio hides a mag 12.0 star (just outside the path) · 35% ch
  ance
 DESCRIPTION:(895) Helio hides a magnitude 12.0 star\, seen from Port Blair.
- \nThe predicted edge passes 24 km to the S\, so a miss is likely — but a
-  chord from near the edge is the most valuable observation of all.\nChance
-  of an occultation here: 35%\, allowing for the path's 1σ of 79 km.\nClos
- est approach 02:08:10 IST\, give or take 2 s. The star is 45° up in the W
- SW · dark sky.\nIt fades 1.8 magnitudes for up to 6.3 s on the centre lin
- e\, and the path is 110 km wide\, give or take 79 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-06-3
- 0-895-helio-437632
+ \nThe edge is 24 km to the S. A miss is likely\, but an edge timing is ver
+ y valuable.\nChance of an occultation here: 35%\, allowing for the path's 
+ 1σ of 79 km.\nClosest approach 02:08:10 IST\, give or take 2 s. The star 
+ is 45° up in the WSW · dark sky.\nIt fades 1.8 magnitudes for up to 6.3 
+ s on the centre line\, and the path is 110 km wide\, give or take 79 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-06-30-895-helio-437632
 URL:https://occult.alokm.com/asteroid?e=2027-06-30-895-helio-437632
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -893,14 +792,13 @@ DTEND:20270803T133507Z
 SUMMARY:(971) Alsatia hides a mag 11.3 star (just outside the path) · 36% 
  chance
 DESCRIPTION:(971) Alsatia hides a magnitude 11.3 star\, seen from Port Blai
- r.\nThe predicted edge passes 8 km to the S\, so a miss is likely — but 
- a chord from near the edge is the most valuable observation of all.\nChanc
- e of an occultation here: 36%\, allowing for the path's 1σ of 16 km.\nClo
- sest approach 19:00:07 IST\, give or take 2 s. The star is 43° up in the 
- SSE · dark sky.\nIt fades 3.8 magnitudes for up to 7.9 s on the centre li
- ne\, and the path is 61 km wide\, give or take 16 km.\nThe map\, the finde
- r chart and the path as KML: https://occult.alokm.com/asteroid?e=2027-08-0
- 3-971-alsatia-381760
+ r.\nThe edge is 8 km to the S. A miss is likely\, but an edge timing is ve
+ ry valuable.\nChance of an occultation here: 36%\, allowing for the path's
+  1σ of 16 km.\nClosest approach 19:00:07 IST\, give or take 2 s. The star
+  is 43° up in the SSE · dark sky.\nIt fades 3.8 magnitudes for up to 7.9
+  s on the centre line\, and the path is 61 km wide\, give or take 16 km.\n
+ The map\, the finder chart and the path as KML: https://occult.alokm.com/a
+ steroid?e=2027-08-03-971-alsatia-381760
 URL:https://occult.alokm.com/asteroid?e=2027-08-03-971-alsatia-381760
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -934,6 +832,45 @@ DESCRIPTION:π Sco (magnitude 2.8) reappears at 19:20:29 at the bright limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-57fbb860fdc0-port-blair@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T171945Z
+DTEND:20270910T172145Z
+SUMMARY:The Moon hides χ3 Sgr · mag 5.4
+DESCRIPTION:χ3 Sgr (magnitude 5.4) disappears at 22:49:45 at the dark limb
+  IST\, seen from Port Blair.\nThe Moon is 29° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9a248d3ae2d7-port-blair@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271011T190533Z
+DTEND:20271011T190733Z
+SUMMARY:The Moon hides ρ Aqr · mag 5.3
+DESCRIPTION:ρ Aqr (magnitude 5.3) disappears at 00:35:33 at the dark limb 
+ IST\, seen from Port Blair.\nThe Moon is 23° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fa7af441497d-port-blair@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T125022Z
+DTEND:20271013T125222Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 18:20:22 at the dark limb 
+ IST\, seen from Port Blair.\nThe Moon is 41° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

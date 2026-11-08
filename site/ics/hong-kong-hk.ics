@@ -10,33 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Hong_Kong
 BEGIN:VEVENT
-UID:star-c652b17c980c-hong-kong-hk@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261016T132356Z
-DTEND:20261016T132556Z
-SUMMARY:The Moon hides HR 6680 · mag 5.8
-DESCRIPTION:HR 6680 (magnitude 5.8) disappears at 21:23:56 at the dark limb
-  HKT\, seen from Hong Kong\, HK.\nThe Moon is 5° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3955273e2c24-hong-kong-hk@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T143710Z
-DTEND:20261020T145109Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:37:10 at the dark limb 
- and reappears at 22:51:09 at the dark limb HKT\, seen from Hong Kong\, HK.
- \nThe Moon is 34° up in the SW · dark sky. Binoculars show it.\nEvery oc
- cultation this month\, for anywhere: https://occult.alokm.com/moon-stars-2
- 026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-d76ccb486cc8-hong-kong-hk@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T211030Z
@@ -322,6 +295,45 @@ DESCRIPTION:3 Sgr (magnitude 4.6) disappears at 19:55:39 at the dark limb H
  . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
  //occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4b990174aff1-hong-kong-hk@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T134457Z
+DTEND:20271013T134657Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 21:44:57 at the dark limb 
+ HKT\, seen from Hong Kong\, HK.\nThe Moon is 66° up in the SE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a261dcfeb24d-hong-kong-hk@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T151151Z
+DTEND:20271021T151351Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:11:51 at the dark limb H
+ KT\, seen from Hong Kong\, HK.\nThe Moon is 5° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a922a27f1d6b-hong-kong-hk@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T203319Z
+DTEND:20271021T203519Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:33:19 at the dark limb H
+ KT\, seen from Hong Kong\, HK.\nThe Moon is 75° up in the E · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

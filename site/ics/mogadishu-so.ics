@@ -10,52 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Mogadishu
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-mogadishu-so@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T105736Z
-DTEND:20260914T121109Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 14:00:29 and reappears at 15:08:12 EAT\, se
- en from Mogadishu\, SO.\nThe Moon is 71° up in the SSE · daylight\, Sun 
- +58°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vie
- w at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=2.0371
- &lon=45.3438
-URL:https://occult.alokm.com/venus-2026-09-14?lat=2.0371&lon=45.3438
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-2b8d1c723a0b-mogadishu-so@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T011849Z
-DTEND:20261007T021850Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) disappears at 04:18:49 at the 
- bright limb and reappears at 05:18:50 at the dark limb EAT\, seen from Mog
- adishu\, SO.\nThe Moon is 19° up in the ENE · dark sky. Binoculars show 
- it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
- /moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-7aa963679b20-mogadishu-so@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261015T174647Z
-DTEND:20261015T174847Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 20:46:47 at the dark limb
-  EAT\, seen from Mogadishu\, SO.\nThe Moon is 10° up in the WSW · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-cd77324f84b7-mogadishu-so@occult.alokm.com
 DTSTAMP:20261201T000000Z
 DTSTART:20261211T154602Z
@@ -326,6 +280,32 @@ DESCRIPTION:HR 1188 (magnitude 5.3) reappears at 04:42:06 at the dark limb
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-c332d52de0dd-mogadishu-so@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T190825Z
+DTEND:20270906T191025Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 22:08:25 at the dark limb E
+ AT\, seen from Mogadishu\, SO.\nThe Moon is 9° up in the WSW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3c8227f1b343-mogadishu-so@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T012331Z
+DTEND:20271016T012531Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 04:23:31 at the dark limb E
+ AT\, seen from Mogadishu\, SO.\nThe Moon is 23° up in the WNW · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -10,71 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Phoenix
 BEGIN:VEVENT
-UID:star-7e025d15f745-phoenix-us@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T025146Z
-DTEND:20260916T025346Z
-SUMMARY:The Moon hides HR 5655 · mag 6.5
-DESCRIPTION:HR 5655 (magnitude 6.5) disappears at 19:51:46 at the dark limb
-  MST\, seen from Phoenix\, US.\nThe Moon is 11° up in the SW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-673a9a241e5a-phoenix-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T121046Z
-DTEND:20261004T121246Z
-SUMMARY:The Moon hides κ Gem · mag 3.6
-DESCRIPTION:κ Gem (magnitude 3.6) reappears at 05:10:46 at the dark limb M
- ST\, seen from Phoenix\, US.\nThe Moon is 60° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-e8828e9135bd-phoenix-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T105038Z
-DTEND:20261005T105238Z
-SUMMARY:The Moon hides 39 Cnc · mag 6.4
-DESCRIPTION:39 Cnc (magnitude 6.4) reappears at 03:50:38 at the dark limb M
- ST\, seen from Phoenix\, US.\nThe Moon is 31° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-12ec1980d26f-phoenix-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T062032Z
-DTEND:20261021T062232Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:20:32 at the dark limb 
- MST\, seen from Phoenix\, US.\nThe Moon is 27° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-400fbe2e5211-phoenix-us@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261031T093603Z
-DTEND:20261031T093803Z
-SUMMARY:The Moon hides 57 Gem · mag 5.0
-DESCRIPTION:57 Gem (magnitude 5.0) reappears at 02:36:03 at the dark limb M
- ST\, seen from Phoenix\, US.\nThe Moon is 54° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-f870ee0f749d-phoenix-us@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T025030Z
@@ -530,6 +465,111 @@ DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 21:00:06 at the dark limb
   Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
  /occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-965eb2b2e27a-phoenix-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270908T043553Z
+DTEND:20270908T043753Z
+SUMMARY:The Moon hides HR 6387 · mag 6.1
+DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 21:35:53 at the dark limb
+  MST\, seen from Phoenix\, US.\nThe Moon is 15° up in the SW · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05bea0666da9-phoenix-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270916T080757Z
+DTEND:20270916T080957Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:07:57 at the dark limb M
+ ST\, seen from Phoenix\, US.\nThe Moon is 57° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-666a1292c32b-phoenix-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T045953Z
+DTEND:20270921T050153Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 21:59:53 at the d
+ ark limb MST\, seen from Phoenix\, US.\nThe Moon is 9° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-770aafe073f2-phoenix-us@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T053201Z
+DTEND:20270921T053401Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 22:32:01 at the d
+ ark limb MST\, seen from Phoenix\, US.\nThe Moon is 16° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-251967d4a34a-phoenix-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T020816Z
+DTEND:20271004T021016Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 19:08:16 at the dark limb M
+ ST\, seen from Phoenix\, US.\nThe Moon is 11° up in the SW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9f3248beddb1-phoenix-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T120943Z
+DTEND:20271018T121143Z
+SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
+DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 05:09:43 at the d
+ ark limb MST\, seen from Phoenix\, US.\nThe Moon is 54° up in the W · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3535da020939-phoenix-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T122206Z
+DTEND:20271018T122406Z
+SUMMARY:The Moon hides Maia (20 Tau) · mag 3.9
+DESCRIPTION:Maia (20 Tau) (magnitude 3.9) reappears at 05:22:06 at the dark
+  limb MST\, seen from Phoenix\, US.\nThe Moon is 52° up in the W · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6e3b19e8fd4b-phoenix-us@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T072638Z
+DTEND:20271021T083245Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 00:26:38 at the bright lim
+ b and reappears at 01:32:45 at the dark limb MST\, seen from Phoenix\, US.
+ \nThe Moon is 28° up in the ENE · dark sky. Binoculars show it.\nEvery o
+ ccultation this month\, for anywhere: https://occult.alokm.com/moon-stars-
+ 2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

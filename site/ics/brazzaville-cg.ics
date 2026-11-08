@@ -10,92 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Brazzaville
 BEGIN:VEVENT
-UID:star-9b862b4d1c0c-brazzaville-cg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T200504Z
-DTEND:20260917T201220Z
-SUMMARY:The Moon hides HIP 81731 · mag 6.5
-DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 21:05:04 at the dark li
- mb and reappears at 21:12:20 at the dark limb WAT\, seen from Brazzaville\
- , CG.\nThe Moon is 26° up in the WSW · dark sky. Binoculars show it.\nEv
- ery occultation this month\, for anywhere: https://occult.alokm.com/moon-s
- tars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-76482ef8df78-brazzaville-cg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T191314Z
-DTEND:20260923T191514Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:13:14 at the dark limb 
- WAT\, seen from Brazzaville\, CG.\nThe Moon is 66° up in the ESE · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-brazzaville-cg@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T112326Z
-DTEND:20261006T122626Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 12:24:35 and reappears at 13:25:24 WAT\, 
- seen from Brazzaville\, CG.\nThe Moon is 29° up in the WNW · daylight\, 
- Sun +81°.\nTimes against the real lunar limb.\nMap\, timings and the view
-  at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Braz
- zaville%2C%20CG
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Brazzaville%2C%20CG
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-130b679686a3-brazzaville-cg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261012T173901Z
-DTEND:20261012T174101Z
-SUMMARY:The Moon hides HR 5438 · mag 6.5
-DESCRIPTION:HR 5438 (magnitude 6.5) disappears at 18:39:01 at the dark limb
-  WAT\, seen from Brazzaville\, CG.\nThe Moon is 9° up in the WSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-cd1ab269b237-brazzaville-cg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261015T173841Z
-DTEND:20261015T174041Z
-SUMMARY:The Moon hides HR 6387 · mag 6.1
-DESCRIPTION:HR 6387 (magnitude 6.1) disappears at 18:38:41 at the dark limb
-  WAT\, seen from Brazzaville\, CG.\nThe Moon is 40° up in the SW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-2309fbffe53f-brazzaville-cg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T185855Z
-DTEND:20261018T191406Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:58:55 at the dark limb
-  and reappears at 20:14:06 at the dark limb WAT\, seen from Brazzaville\, 
- CG.\nThe Moon is 56° up in the SW · dark sky. Binoculars show it.\nEvery
-  occultation this month\, for anywhere: https://occult.alokm.com/moon-star
- s-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-978d1601002c-brazzaville-cg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T020038Z
@@ -447,6 +361,59 @@ DESCRIPTION:75 Vir (magnitude 5.5) disappears at 20:37:32 at the dark limb
  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
  ps://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7ef47cc89be7-brazzaville-cg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T185424Z
+DTEND:20270906T185624Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:54:24 at the dark limb W
+ AT\, seen from Brazzaville\, CG.\nThe Moon is 41° up in the WSW · dark s
+ ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
+ s://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6c1653651bc8-brazzaville-cg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T185026Z
+DTEND:20271004T195658Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 19:50:26 at the 
+ dark limb and reappears at 20:56:58 at the bright limb WAT\, seen from Bra
+ zzaville\, CG.\nThe Moon is 25° up in the WSW · dark sky. Binoculars sho
+ w it.\nEvery occultation this month\, for anywhere: https://occult.alokm.c
+ om/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1afa88774589-brazzaville-cg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T195818Z
+DTEND:20271004T200018Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 20:58:18 at the dark limb
+  WAT\, seen from Brazzaville\, CG.\nThe Moon is 11° up in the WSW · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-98d3bdd6404a-brazzaville-cg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T001944Z
+DTEND:20271016T002144Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 01:19:44 at the dark limb W
+ AT\, seen from Brazzaville\, CG.\nThe Moon is 61° up in the NW · dark sk
+ y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
+ ://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

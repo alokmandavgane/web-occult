@@ -10,72 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Manila
 BEGIN:VEVENT
-UID:star-b4e29f9d4ee0-davao-ph@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260920T161309Z
-DTEND:20260920T161509Z
-SUMMARY:The Moon hides HR 7277 · mag 5.8
-DESCRIPTION:HR 7277 (magnitude 5.8) disappears at 00:13:09 at the dark limb
-  PST\, seen from Davao\, PH.\nThe Moon is 6° up in the WSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-dc49d4187b2b-davao-ph@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261002T160301Z
-DTEND:20261002T160501Z
-SUMMARY:The Moon hides HR 2013 · mag 5.6
-DESCRIPTION:HR 2013 (magnitude 5.6) reappears at 00:03:01 at the dark limb 
- PST\, seen from Davao\, PH.\nThe Moon is 20° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-22150ba4e573-davao-ph@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T181713Z
-DTEND:20261004T181913Z
-SUMMARY:The Moon hides HR 3127 · mag 6.4
-DESCRIPTION:HR 3127 (magnitude 6.4) reappears at 02:17:13 at the dark limb 
- PST\, seen from Davao\, PH.\nThe Moon is 23° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c7b42f91bf0b-davao-ph@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261017T110850Z
-DTEND:20261017T122455Z
-SUMMARY:The Moon hides φ Sgr · mag 3.1
-DESCRIPTION:φ Sgr (magnitude 3.1) disappears at 19:08:50 at the dark limb 
- and reappears at 20:24:55 at the bright limb PST\, seen from Davao\, PH.\n
- The Moon is 40° up in the SW · dark sky. Binoculars show it.\nEvery occu
- ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
- 6-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-abb82fb3bff5-davao-ph@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T100443Z
-DTEND:20261018T100643Z
-SUMMARY:The Moon hides 52 Sgr · mag 4.6
-DESCRIPTION:52 Sgr (magnitude 4.6) disappears at 18:04:43 at the dark limb 
- PST\, seen from Davao\, PH.\nThe Moon is 57° up in the SSW · dusk. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-45f61253f126-davao-ph@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261106T200441Z
@@ -399,6 +333,32 @@ DESCRIPTION:π Sco (magnitude 2.8) disappears at 21:44:58 at the dark limb
  ltation this month\, for anywhere: https://occult.alokm.com/moon-stars-202
  7-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5dd30e53d98c-davao-ph@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270903T110306Z
+DTEND:20270903T110506Z
+SUMMARY:The Moon hides HR 4901 · mag 6.0
+DESCRIPTION:HR 4901 (magnitude 6.0) disappears at 19:03:06 at the dark limb
+  PST\, seen from Davao\, PH.\nThe Moon is 8° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f3c0b93e67ad-davao-ph@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271007T140725Z
+DTEND:20271007T140925Z
+SUMMARY:The Moon hides HR 7195 · mag 5.6
+DESCRIPTION:HR 7195 (magnitude 5.6) disappears at 22:07:25 at the dark limb
+  PST\, seen from Davao\, PH.\nThe Moon is 17° up in the WSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

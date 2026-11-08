@@ -31,17 +31,17 @@ PLANETS = {
                     colors={"io": "#f59e0b", "europa": "#60a5fa", "ganymede": "#a78bfa", "callisto": "#34d399", "grs": GRS_COLOR},
                     radii_rp={"io": 0.0255, "europa": 0.0218, "ganymede": 0.0368, "callisto": 0.0337},
                     pole=[268.056595, -0.006499, 64.495303, 0.002413], rings=None, zooms=[30, 8],
-                    intro="Jupiter's four big moons put on a show every night: they slip behind the planet and into its "
-                          "shadow, cross its face, and drag their shadows across the cloud tops. Any telescope shows it."),
+                    intro="Jupiter's four big moons put on a show every night. They pass behind it, into its shadow and "
+                          "across its face, and their shadows cross its clouds. Any telescope shows it."),
     "saturn": dict(name="Saturn", moons=["mimas", "enceladus", "tethys", "dione", "rhea", "titan", "iapetus"], oblate=0.902,
                    colors={"mimas": "#94a3b8", "enceladus": "#e2e8f0", "tethys": "#fcd34d", "dione": "#60a5fa",
                            "rhea": "#a78bfa", "titan": "#f97316", "iapetus": "#34d399"},
                    radii_rp={"mimas": 0.0033, "enceladus": 0.0042, "tethys": 0.0088, "dione": 0.0093,
                              "rhea": 0.0127, "titan": 0.0427, "iapetus": 0.0122},
                    pole=[40.589, -0.036, 83.537, -0.004], rings=[2.27, 1.24], zooms=[65, 25, 8],
-                   intro="Saturn's moons hide behind the globe, cross its face and fall into its shadow only in the years "
-                         "around a ring-plane crossing, when their orbits turn edge-on to us — as they are now, after the "
-                         "2025 equinox. Titan is easy in any telescope; Rhea, Dione and Tethys need a little more aperture."),
+                   intro="Saturn's moons cross its face and enter its shadow only near a ring-plane crossing, when their "
+                         "orbits are edge-on to us. That's now, after the 2025 equinox. Titan is easy in any telescope; Rhea, "
+                         "Dione and Tethys need a little more aperture."),
 }
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
@@ -885,22 +885,21 @@ def month_page(planet, year, month, items, all_cities, nav, config=None, grs=Non
     if "grs" in kinds_present:
         chips += f'<label class="chipbox" style="border-color:{GRS_COLOR}"><input type="checkbox" value="grs" checked> Red Spot</label>'
     legend = "".join(f'<span>{ICONS[k]}{esc(t)}</span>' for k, t in LEGEND if k in kinds_present)
-    lead = (P["intro"] + (" This is a mutual-event season — the moons' orbits are edge-on to the Sun and they eclipse and occult "
+    lead = (P["intro"] + (" This is a mutual-event season: the moons' orbits are edge-on to the Sun, so they eclipse and hide "
                           "<em>each other</em>." if n_mutual else "") + " Pick your place: the calendar and the nights keep only what your sky shows.")
-    method = (f"Times are for the moment the moon's centre crosses the edge of {pname} or of its shadow, the convention of published "
-              f"tables; the moon's own disc takes a few minutes to cross. A start or end marked <em>unseen</em> happens behind {pname} or "
-              f"inside its shadow. “Only what I can see” keeps events with {pname} more than 10° up in a dark sky. Positions are from "
-              f"JPL DE431 and the {'jup365' if planet == 'jupiter' else 'sat441'} satellite ephemeris, {pname} as an oblate spheroid with "
-              f"its shadow cone{'; the rings are not modelled, so a moon behind Saturn means behind the globe' if planet == 'saturn' else ''}. "
-              f"Mutual-event brightness drops assume uniform discs and are estimates. Events are geocentric — the same instant everywhere "
-              f"on Earth to well under a second."
-              + (f" The Great Red Spot is a storm, not ephemeris: its times are when it crosses the middle of the disc (the central "
-                 f"meridian, System II from DE431), taking its longitude as {grs['lon']:g}° on {grs['date']} drifting "
-                 f"{grs['drift_month']:g}° a month ({esc(grs['source'])}). Each degree that estimate is off moves the time by 1.65 min; "
-                 f"the spot is well placed for about 50 minutes either side." if grs else ""))
-    diag_hint = (f"{pname}'s equator horizontal, east to the left as in binoculars. Drag through the month, or tap any event below to "
-                 f"jump there; full screen (⤢) steps through a single night a minute at a time. Moons behind the planet fade, a moon "
-                 f"in {pname}'s shadow is an empty ring, and a shadow on the disc is placed from the listed times. " + ("Positions ±0.1 Jupiter radii — for the picture; the times come from JPL."
+    method = (f"Times are when the moon's centre crosses the edge of {pname} or its shadow, as in published tables. The whole "
+              f"disc takes a few minutes. A start or end marked <em>unseen</em> happens behind {pname} or "
+              f"inside its shadow. “Only what I can see” keeps events with {pname} more than 10° up in a dark sky. Positions: "
+              f"JPL DE431 and {'jup365' if planet == 'jupiter' else 'sat441'}, with {pname} as a flattened globe. "
+              f"{'The rings are not modelled, so “behind Saturn” means behind the globe. ' if planet == 'saturn' else ''}"
+              f"Mutual-event brightness drops are estimates. Each event happens at the same instant everywhere on Earth."
+              + (f" The Great Red Spot is a storm, so its times are estimates. They are when it crosses the middle of the disc "
+                 f"(System II, from DE431), taking {grs['lon']:g}° longitude on {grs['date']} and a drift of "
+                 f"{grs['drift_month']:g}° a month ({esc(grs['source'])}). Each degree of error shifts the time by 1.65 min. The spot is well placed for about "
+                 f"50 minutes either side." if grs else ""))
+    diag_hint = (f"{pname}'s equator horizontal, east to the left as in binoculars. Drag through the month or tap an event to jump "
+                 f"to it. Full screen (⤢) steps through one night minute by minute. A faded moon is behind the planet; an empty ring "
+                 f"is a moon in its shadow. " + ("Positions ±0.1 Jupiter radii, for the picture; the times come from JPL."
                                                                   if planet == "jupiter" else "Positions are JPL's, sampled hourly; the rings are drawn at their real tilt."))
     prev_link = f'<a href="/{nav["prev"]}">‹ {nav["prev_label"]}</a>' if nav.get("prev") else "<span></span>"
     next_link = f'<a href="/{nav["next"]}">{nav["next_label"]} ›</a>' if nav.get("next") else "<span></span>"

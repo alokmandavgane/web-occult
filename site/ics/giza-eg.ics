@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Cairo
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-giza-eg@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T094222Z
-DTEND:20260914T110919Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:43:58 and reappears at 14:07:31 EEST\, s
- een from Giza\, EG.\nThe Moon is 31° up in the SE · daylight\, Sun +63°
- .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=30.0094&lon
- =31.2086
-URL:https://occult.alokm.com/venus-2026-09-14?lat=30.0094&lon=31.2086
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1a6273768197-giza-eg@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T203426Z
-DTEND:20260923T203626Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:34:26 at the dark limb 
- EEST\, seen from Giza\, EG.\nThe Moon is 44° up in the SSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-17235f43ebe1-giza-eg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T191459Z
-DTEND:20261018T191659Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:14:59 at the dark limb
-  EEST\, seen from Giza\, EG.\nThe Moon is 19° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f66d17649c86-giza-eg@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T002330Z
-DTEND:20261030T002530Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 02:23:30 at the dark limb 
- EET\, seen from Giza\, EG.\nThe Moon is 78° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a6346872f2e9-giza-eg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T235955Z
@@ -418,6 +360,71 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 01:53:43 at the dark limb E
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7e1b9b5891eb-giza-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T170721Z
+DTEND:20270906T170921Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:07:21 at the dark limb E
+ EST\, seen from Giza\, EG.\nThe Moon is 24° up in the SW · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-07ba559721ea-giza-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T163729Z
+DTEND:20270912T163929Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 19:37:29 at the dark limb 
+ EEST\, seen from Giza\, EG.\nThe Moon is 26° up in the SE · dusk. Binocu
+ lars show it.\nEvery occultation this month\, for anywhere: https://occult
+ .alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15593c7edc80-giza-eg@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T010004Z
+DTEND:20270925T010204Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 04:00:04 at the dark limb 
+ EEST\, seen from Giza\, EG.\nThe Moon is 31° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1b240392fe6b-giza-eg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T165624Z
+DTEND:20271006T165824Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 19:56:24 at the dark limb
+  EEST\, seen from Giza\, EG.\nThe Moon is 28° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a326d0f0fac4-giza-eg@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T015919Z
+DTEND:20271026T020119Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 04:59:19 at the dark limb E
+ EST\, seen from Giza\, EG.\nThe Moon is 16° up in the E · dark sky. Bino
+ culars show it.\nEvery occultation this month\, for anywhere: https://occu
+ lt.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

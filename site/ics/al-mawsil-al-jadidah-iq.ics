@@ -10,78 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Baghdad
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-al-mawsil-al-jadidah-iq@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T100233Z
-DTEND:20260914T111740Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 13:04:39 and reappears at 14:15:26 +03\, se
- en from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 33° up in the SSE · da
- ylight\, Sun +54°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timing
- s and the view at the Moon's edge: https://occult.alokm.com/venus-2026-09-
- 14?lat=36.3327&lon=43.1056
-URL:https://occult.alokm.com/venus-2026-09-14?lat=36.3327&lon=43.1056
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5fa4bc647562-al-mawsil-al-jadidah-iq@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T165458Z
-DTEND:20260917T170912Z
-SUMMARY:The Moon hides τ Sco · mag 2.7
-DESCRIPTION:τ Sco (magnitude 2.7) disappears at 19:54:58 at the dark limb 
- and reappears at 20:09:12 at the dark limb +03\, seen from Al Mawşil al J
- adīdah\, IQ.\nThe Moon is 13° up in the SW · dark sky. Binoculars show 
- it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
- /moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b072fcadc0ea-al-mawsil-al-jadidah-iq@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T205501Z
-DTEND:20260923T205701Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 23:55:01 at the dark limb 
- +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 32° up in the S
- W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
- where: https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-da2bdc3273dd-al-mawsil-al-jadidah-iq@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T192124Z
-DTEND:20261018T192324Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 22:21:24 at the dark limb
-  +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 6° up in the S
- W · dark sky. Binoculars show it.\nEvery occultation this month\, for any
- where: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b0409a9113b6-al-mawsil-al-jadidah-iq@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261030T005037Z
-DTEND:20261030T005237Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 03:50:37 at the dark limb 
- +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 80° up in the S
- SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
- ywhere: https://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-3629d62c3a12-al-mawsil-al-jadidah-iq@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T000826Z
@@ -471,6 +399,97 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 02:11:00 at the dark limb +
  · dark sky. Binoculars show it.\nEvery occultation this month\, for anywh
  ere: https://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-cb1fd4e2cebe-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T172238Z
+DTEND:20270906T172438Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 20:22:38 at the dark limb +
+ 03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 11° up in the SW
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-365dd65cc55b-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270912T170921Z
+DTEND:20270912T171121Z
+SUMMARY:The Moon hides θ Cap · mag 4.1
+DESCRIPTION:θ Cap (magnitude 4.1) disappears at 20:09:21 at the dark limb 
+ +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 32° up in the S
+ SE · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0a0fd9868001-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270921T193148Z
+DTEND:20270921T193348Z
+SUMMARY:The Moon hides χ Tau · mag 5.4
+DESCRIPTION:χ Tau (magnitude 5.4) reappears at 22:31:48 at the dark limb +
+ 03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 15° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a5d596e1221c-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T220021Z
+DTEND:20270924T220221Z
+SUMMARY:The Moon hides HR 2879 · mag 6.5
+DESCRIPTION:HR 2879 (magnitude 6.5) reappears at 01:00:21 at the dark limb 
+ +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 8° up in the EN
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-328942b903e9-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T171508Z
+DTEND:20271006T171708Z
+SUMMARY:The Moon hides HR 6842 · mag 4.8
+DESCRIPTION:HR 6842 (magnitude 4.8) disappears at 20:15:08 at the dark limb
+  +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 15° up in the 
+ SW · dark sky. Binoculars show it.\nEvery occultation this month\, for an
+ ywhere: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5eeaab629d66-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271023T225414Z
+DTEND:20271023T225614Z
+SUMMARY:The Moon hides π2 Cnc · mag 5.4
+DESCRIPTION:π2 Cnc (magnitude 5.4) reappears at 01:54:14 at the dark limb 
+ +03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 16° up in the E
+  · dark sky. Binoculars show it.\nEvery occultation this month\, for anyw
+ here: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4fb14a0bdebd-al-mawsil-al-jadidah-iq@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271026T021354Z
+DTEND:20271026T021554Z
+SUMMARY:The Moon hides 65 Leo · mag 5.5
+DESCRIPTION:65 Leo (magnitude 5.5) reappears at 05:13:54 at the dark limb +
+ 03\, seen from Al Mawşil al Jadīdah\, IQ.\nThe Moon is 28° up in the ES
+ E · dark sky. Binoculars show it.\nEvery occultation this month\, for any
+ where: https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

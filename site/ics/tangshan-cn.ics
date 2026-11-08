@@ -10,90 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-d89c64182d7a-tangshan-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T165459Z
-DTEND:20260930T165659Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:54:59 at the d
- ark limb CST\, seen from Tangshan\, CN.\nThe Moon is 57° up in the ESE ·
-  dark sky. Binoculars show it.\nEvery occultation this month\, for anywher
- e: https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-mars-2026-10-05-tangshan-cn@occult.alokm.com
-DTSTAMP:20260914T034451Z
-DTSTART:20261005T064736Z
-DTEND:20261005T064753Z
-SUMMARY:The Moon occults Mars (disappearance only)
-DESCRIPTION:Mars disappears at 14:47:53 CST\, seen from Tangshan\, CN.\nThe
-  Moon sets during the occultation: only the disappearance is above the hor
- izon.\nThe Moon is 0° up in the WNW · daylight\, Sun +31°.\nTimes again
- st the real lunar limb.\nMap\, timings and the view at the Moon's edge: ht
- tps://occult.alokm.com/mars-2026-10-05?city=Tangshan%2C%20CN
-URL:https://occult.alokm.com/mars-2026-10-05?city=Tangshan%2C%20CN
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Mars (disappearance only)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-66d9bd7fc749-tangshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T185757Z
-DTEND:20261005T185957Z
-SUMMARY:The Moon hides HR 3577 · mag 6.4
-DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 02:57:57 at the dark limb 
- CST\, seen from Tangshan\, CN.\nThe Moon is 20° up in the E · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f7e0176818dc-tangshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T205821Z
-DTEND:20261007T210021Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:58:21 at the dark limb 
- CST\, seen from Tangshan\, CN.\nThe Moon is 17° up in the E · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-35245c4fa5c7-tangshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T141856Z
-DTEND:20261020T142056Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:18:56 at the dark limb 
- CST\, seen from Tangshan\, CN.\nThe Moon is 22° up in the SW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3fe81df8cb17-tangshan-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T150709Z
-DTEND:20261021T150909Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:07:09 at the dark limb 
- CST\, seen from Tangshan\, CN.\nThe Moon is 26° up in the SW · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-32a92aa19623-tangshan-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T103125Z
@@ -366,6 +282,84 @@ DESCRIPTION:ε Gem (magnitude 3.2) disappears at 03:04:28 at the bright lim
  occultation this month\, for anywhere: https://occult.alokm.com/moon-stars
  -2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9fc42b6b924f-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T142552Z
+DTEND:20271013T142752Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:25:52 at the dark limb 
+ CST\, seen from Tangshan\, CN.\nThe Moon is 52° up in the S · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9862f54356eb-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113156Z
+DTEND:20271018T113356Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 19:31:56 at the dar
+ k limb CST\, seen from Tangshan\, CN.\nThe Moon is 8° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b7b266ae759c-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113214Z
+DTEND:20271018T113414Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 19:32:14 at the d
+ ark limb CST\, seen from Tangshan\, CN.\nThe Moon is 8° up in the ENE · 
+ dark sky. Binoculars show it.\nEvery occultation this month\, for anywhere
+ : https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8a91f15af167-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T142710Z
+DTEND:20271020T142910Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:27:10 at the dark limb 
+ CST\, seen from Tangshan\, CN.\nThe Moon is 19° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ef56122fc903-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T154313Z
+DTEND:20271021T154513Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:43:13 at the dark limb C
+ ST\, seen from Tangshan\, CN.\nThe Moon is 21° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-bf6e9ae7e90b-tangshan-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T203752Z
+DTEND:20271021T203952Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:37:52 at the dark limb C
+ ST\, seen from Tangshan\, CN.\nThe Moon is 72° up in the SE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

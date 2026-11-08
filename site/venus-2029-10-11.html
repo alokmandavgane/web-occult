@@ -117,8 +117,8 @@
     </div>
     
   </div>
-  <p>The gold line is the <strong>north limit</strong>: along it Venus grazes the Moon's northern edge. North of the line it is a near miss — from Auckland, NZ Venus passes just 53.7′ outside the limb — and a graze seen from right on the line, Venus blinking in and out behind lunar mountains, is the finest view of all. The solid line is traced against the real lunar limb — LRO LOLA terrain, the mountains and valleys that are on the edge for this libration — and sits -7.7 to -0.8 km from the mean-sphere line (dotted).</p>
-  <p>The violet shading is where the Sun has set by the time of the event, so the reappearance happens in a darkening sky.</p>
+  <p>The gold line is the <strong>north limit</strong>: along it Venus grazes the Moon's northern edge. North of the line, Venus misses: from Auckland, NZ it passes 53.7′ outside the Moon. Right on the line it grazes, blinking behind lunar mountains. The solid line uses the Moon's real, mountainous edge. It lies -7.7 to -0.8 km from the smooth-sphere line (dotted).</p>
+  <p>In the violet area the Sun has set, so the reappearance is in a darkening sky.</p>
   <p class="hint">Tap the map to set your location; pinch it to zoom in. Take the graze line with you:
   <a href="/kml/venus-2029-10-11.kml">KML</a> for Google Earth / Maps · <a href="/kml/venus-2029-10-11.gpx">GPX</a> for a phone GPS app.</p>
 
@@ -136,9 +136,9 @@
 
     <details class="advanced" id="graze">
     <summary>Advanced · graze profile against the real lunar limb</summary>
-    <p class="hint">For graze chasers. The lunar limb as it really is for your libration — LRO LOLA terrain, in km above and
-    below the mean sphere — with Venus's track drawn across it six minutes either side of each contact. Where the
-    track dips below the terrain, Venus is hidden; near a graze it blinks behind peaks.</p>
+    <p class="hint">For graze chasers. The Moon's real edge as you see it, from LRO LOLA terrain, with Venus's
+    track for six minutes around each contact. Where the track dips below the terrain, Venus is hidden; near a
+    graze it blinks behind peaks.</p>
     <div class="graze-card" id="graze-card">
       <button class="btn" id="graze-load" type="button" data-src="/data/venus-2029-10-11-limb.json">Load the limb profile (120 KB)</button>
       <svg id="graze-svg" viewBox="0 0 800 230" class="graze-svg" role="img" aria-label="The target's track against the lunar limb profile" hidden></svg>
@@ -149,19 +149,18 @@
 
 
   <h2 id="cities">City by city</h2>
-  <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em> is the moment Venus is fully hidden (its disc takes from the
-  earlier time to slide in); <em>reappears</em> is when the first sliver returns. <em>Where to look</em> is the
-  Moon's height above the horizon (0° is the horizon, 90° straight up) and compass direction at that moment,
-  and whether the Sun is still up.</p>
+  <p>Times are against the real lunar limb (LRO LOLA terrain at each city's own libration). <em>Disappears</em>: Venus is fully hidden
+  (it starts sliding in at the earlier time). <em>Reappears</em>: the first sliver returns. <em>Where to look</em>:
+  the Moon's height (0° horizon, 90° overhead), its direction, and whether the Sun is up.</p>
   <div class="table-wrap">
     <table id="city-table">
-      <thead><tr><th>City</th><th>Venus disappears <small>(UTC)</small></th><th>reappears <small>(UTC)</small></th><th>hidden</th><th title="How high the Moon stands above the horizon when Venus disappears — or reappears, where the Moon rises during the occultation — (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look</th></tr></thead>
+      <thead><tr><th>City</th><th>Venus disappears <small>(UTC)</small></th><th>reappears <small>(UTC)</small></th><th>hidden</th><th title="Height and direction of the Moon at the contact you can see (0° = horizon, 90° = overhead), and whether the sky is light or dark">Where to look</th></tr></thead>
       <tbody><tr class="v-visible" data-lat="51.05011" data-lon="-114.08529"><td>Calgary, CA</td><td>02:00:17<small>from 01:59:33</small></td><td>03:06:43<small>Moon has set</small></td><td>66 min</td><td>1° up (low) in the SW · dusk</td></tr><tr class="v-visible" data-lat="34.05223" data-lon="-118.24368"><td>Los Angeles, US</td><td>02:21:18<small>from 02:20:23</small></td><td>03:22:30<small>to 03:23:18</small></td><td>61 min</td><td>12° up (low) in the SW · dark sky</td></tr><tr class="v-visible" data-lat="32.71571" data-lon="-117.16472"><td>San Diego, US</td><td>02:25:29<small>from 02:24:31</small></td><td>03:22:46<small>to 03:23:37</small></td><td>57 min</td><td>11° up (low) in the SW · dark sky</td></tr><tr class="v-visible" data-lat="32.5027" data-lon="-117.00371"><td>Tijuana, MX</td><td>02:26:10<small>from 02:25:13</small></td><td>03:22:45<small>to 03:23:36</small></td><td>57 min</td><td>11° up (low) in the SW · dark sky</td></tr><tr class="v-visible" data-lat="33.44838" data-lon="-112.07404"><td>Phoenix, US</td><td>02:31:10<small>from 02:30:16</small></td><td>03:22:24<small>Moon has set</small></td><td>51 min</td><td>6° up (low) in the SW · dark sky</td></tr><tr class="v-visible" data-lat="31.72024" data-lon="-106.46084"><td>Ciudad Juárez, MX</td><td>02:43:47<small>from 02:42:32</small></td><td>03:18:28<small>Moon has set</small></td><td>35 min</td><td>1° up (low) in the WSW · dark sky</td></tr><tr class="v-miss" data-lat="-27.46794" data-lon="153.02809"><td>Brisbane, AU</td><td colspan="3">misses — Venus passes 54.3′ from the limb at 00:52</td><td>40° up in the E · daylight, Sun +67°</td></tr><tr class="v-miss" data-lat="-37.814" data-lon="144.96332"><td>Melbourne, AU</td><td colspan="3">misses — Venus passes 65.5′ from the limb at 00:57</td><td>35° up in the E · daylight, Sun +56°</td></tr><tr class="v-miss" data-lat="-31.95224" data-lon="115.8614"><td>Perth, AU</td><td colspan="3">misses — Venus passes 71.9′ from the limb at 00:41</td><td>7° up (low) in the ESE · daylight, Sun +37°</td></tr><tr class="v-miss" data-lat="-33.86785" data-lon="151.20732"><td>Sydney, AU</td><td colspan="3">misses — Venus passes 60.1′ from the limb at 00:57</td><td>40° up in the E · daylight, Sun +61°</td></tr></tbody>
     </table>
     <details>
       <summary>All 2 other cities</summary>
       <table>
-        <thead><tr><th>City</th><th>Venus disappears <small>(UTC)</small></th><th>reappears <small>(UTC)</small></th><th>hidden</th><th title="How high the Moon stands above the horizon when Venus disappears — or reappears, where the Moon rises during the occultation — (0° = horizon, 90° = overhead), the compass direction to look, and whether the sky is light or dark">Where to look</th></tr></thead>
+        <thead><tr><th>City</th><th>Venus disappears <small>(UTC)</small></th><th>reappears <small>(UTC)</small></th><th>hidden</th><th title="Height and direction of the Moon at the contact you can see (0° = horizon, 90° = overhead), and whether the sky is light or dark">Where to look</th></tr></thead>
         <tbody><tr class="v-miss" data-lat="-34.92866" data-lon="138.59863"><td>Adelaide, AU</td><td colspan="3">misses — Venus passes 65.9′ from the limb at 00:50</td><td>28° up in the E · daylight, Sun +54°</td></tr><tr class="v-miss" data-lat="-36.84853" data-lon="174.76349"><td>Auckland, NZ</td><td colspan="3">misses — Venus passes 53.7′ from the limb at 01:27</td><td>64° up (high) in the ENE · daylight, Sun +55°</td></tr></tbody>
       </table>
     </details>
@@ -171,9 +170,8 @@
 
   <h2>Method &amp; accuracy</h2>
   <p class="method">Positions from the JPL <strong>DE431</strong> ephemeris (Skyfield), ΔT = 69.1 s.
-  The city table's contact times and the solid limit line use the <strong>real lunar limb</strong> — the silhouette of
-  LRO LOLA terrain (LDEM_64, ~0.5 km) at each observer's own libration — so they carry the mountains and valleys
-  that a mean sphere misses (up to a few seconds at ordinary contacts, tens of seconds near a graze). The
+  City times and the solid limit line use the <strong>real lunar limb</strong>: LRO LOLA terrain (LDEM_64, ~0.5 km)
+  as each observer sees it. That changes times by a few seconds, or tens of seconds near a graze. The
   any-location solver in your browser and the shaded region still use the mean sphere of 1737.4 km (±2 s). Venus's own disc
   (21″ across) is included: partial contacts are the <small>from/to</small> times.
   The numbers behind this page: <a href="/data/venus-2029-10-11.json">venus-2029-10-11.json</a>.

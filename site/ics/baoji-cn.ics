@@ -10,84 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-3dfb962f1c41-baoji-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T163908Z
-DTEND:20260930T164108Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:39:08 at the d
- ark limb CST\, seen from Baoji\, CN.\nThe Moon is 46° up in the E · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-475ea915a8ae-baoji-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T210154Z
-DTEND:20261004T210354Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:01:54 at the dark limb 
- CST\, seen from Baoji\, CN.\nThe Moon is 48° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8337124f4551-baoji-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T215559Z
-DTEND:20261006T215759Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 05:55:59 at the dark limb C
- ST\, seen from Baoji\, CN.\nThe Moon is 33° up in the E · dusk. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5afc536155d9-baoji-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204720Z
-DTEND:20261007T204920Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:47:20 at the dark limb 
- CST\, seen from Baoji\, CN.\nThe Moon is 6° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-71acb0334b10-baoji-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T140417Z
-DTEND:20261020T140617Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:04:17 at the dark limb 
- CST\, seen from Baoji\, CN.\nThe Moon is 33° up in the SSW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f97bf3c9f55a-baoji-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T145015Z
-DTEND:20261021T145215Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 22:50:15 at the dark limb 
- CST\, seen from Baoji\, CN.\nThe Moon is 37° up in the SW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-10d4c8f44fab-baoji-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T204138Z
@@ -414,6 +336,71 @@ DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:59:19 at the bright lim
  ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
  27-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-1f40af7585e6-baoji-cn@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T165904Z
+DTEND:20270910T170104Z
+SUMMARY:The Moon hides χ1 Sgr · mag 4.9
+DESCRIPTION:χ1 Sgr (magnitude 4.9) disappears at 00:59:04 at the dark limb
+  CST\, seen from Baoji\, CN.\nThe Moon is 8° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-5e66669fc54a-baoji-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T140429Z
+DTEND:20271013T140629Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:04:29 at the dark limb 
+ CST\, seen from Baoji\, CN.\nThe Moon is 54° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9af3c10516a0-baoji-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T142225Z
+DTEND:20271020T142425Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:22:25 at the dark limb 
+ CST\, seen from Baoji\, CN.\nThe Moon is 8° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a83b74b6832b-baoji-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153701Z
+DTEND:20271021T153901Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:37:01 at the dark limb C
+ ST\, seen from Baoji\, CN.\nThe Moon is 10° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4ea0e61a39bd-baoji-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T202236Z
+DTEND:20271021T202436Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:22:36 at the dark limb C
+ ST\, seen from Baoji\, CN.\nThe Moon is 65° up in the ESE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

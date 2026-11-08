@@ -10,64 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Casablanca
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-rabat-ma@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T094418Z
-DTEND:20260914T100057Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 10:44:18 and reappears at 11:00:57 +01\, se
- en from Rabat\, MA.\nThe Moon is 2° up in the ESE · daylight\, Sun +42°
- .\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at 
- the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=34.0132&lon
- =-6.8326
-URL:https://occult.alokm.com/venus-2026-09-14?lat=34.0132&lon=-6.8326
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5f71f082305d-rabat-ma@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260929T214706Z
-DTEND:20260929T214906Z
-SUMMARY:The Moon hides ε Ari A · mag 5.2
-DESCRIPTION:ε Ari A (magnitude 5.2) reappears at 21:47:06 at the dark limb
-  +00\, seen from Rabat\, MA.\nThe Moon is 23° up in the ENE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-70415b96df9f-rabat-ma@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T231549Z
-DTEND:20261029T231749Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:15:49 at the dark limb 
- +00\, seen from Rabat\, MA.\nThe Moon is 32° up in the ENE · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3308b192cb9e-rabat-ma@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261101T022000Z
-DTEND:20261101T022200Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 02:20:00 at the dark limb 
- +00\, seen from Rabat\, MA.\nThe Moon is 42° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-1c169e0796d3-rabat-ma@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T030653Z
@@ -328,6 +270,72 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:26:33 at the dark limb +
  noculars show it.\nEvery occultation this month\, for anywhere: https://oc
  cult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-632cdc4fdeaa-rabat-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T204329Z
+DTEND:20270906T204529Z
+SUMMARY:The Moon hides π Sco · mag 2.8
+DESCRIPTION:π Sco (magnitude 2.8) disappears at 20:43:29 at the dark limb 
+ +00\, seen from Rabat\, MA.\nThe Moon is 13° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-15f5c5d996b4-rabat-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270924T021213Z
+DTEND:20270924T023751Z
+SUMMARY:The Moon hides ε Gem · mag 3.2
+DESCRIPTION:ε Gem (magnitude 3.2) disappears at 02:12:13 at the bright lim
+ b and reappears at 02:37:51 at the dark limb +00\, seen from Rabat\, MA.\n
+ The Moon is 28° up in the ENE · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-e8a465774607-rabat-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T020924Z
+DTEND:20270925T021124Z
+SUMMARY:The Moon hides HR 2978 · mag 6.2
+DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 02:09:24 at the dark limb 
+ +00\, seen from Rabat\, MA.\nThe Moon is 14° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8c56aef9c767-rabat-ma@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270926T025408Z
+DTEND:20270926T025608Z
+SUMMARY:The Moon hides δ Cnc · mag 4.1
+DESCRIPTION:δ Cnc (magnitude 4.1) reappears at 02:54:08 at the dark limb +
+ 00\, seen from Rabat\, MA.\nThe Moon is 10° up in the ENE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d0a682e1d105-rabat-ma@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271006T215312Z
+DTEND:20271006T215512Z
+SUMMARY:The Moon hides HR 6909 · mag 6.4
+DESCRIPTION:HR 6909 (magnitude 6.4) disappears at 21:53:12 at the dark limb
+  +00\, seen from Rabat\, MA.\nThe Moon is 7° up in the SW · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

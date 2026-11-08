@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Luanda
 BEGIN:VEVENT
-UID:star-ff9814e16ab1-luanda-ao@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T210650Z
-DTEND:20260916T210850Z
-SUMMARY:The Moon hides 1 Sco · mag 4.6
-DESCRIPTION:1 Sco (magnitude 4.6) disappears at 22:06:50 at the dark limb W
- AT\, seen from Luanda\, AO.\nThe Moon is 6° up in the WSW · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-a296b74e8efe-luanda-ao@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T190828Z
-DTEND:20260923T191028Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:08:28 at the dark limb 
- WAT\, seen from Luanda\, AO.\nThe Moon is 65° up in the ESE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-luanda-ao@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T112630Z
-DTEND:20261006T122958Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 12:27:38 and reappears at 13:28:56 WAT\, 
- seen from Luanda\, AO.\nThe Moon is 28° up in the WNW · daylight\, Sun +
- 81°.\nTimes against the real lunar limb.\nMap\, timings and the view at t
- he Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Luanda%2C
- %20AO
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Luanda%2C%20AO
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-978d1601002c-luanda-ao@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T020006Z
@@ -430,6 +385,60 @@ DESCRIPTION:HR 2111 (magnitude 6.0) reappears at 04:13:58 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f8d961fdc0e4-luanda-ao@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T182915Z
+DTEND:20270906T183115Z
+SUMMARY:The Moon hides 2 Sco · mag 4.7
+DESCRIPTION:2 Sco (magnitude 4.7) disappears at 19:29:15 at the dark limb W
+ AT\, seen from Luanda\, AO.\nThe Moon is 51° up in the WSW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ca100fe742fe-luanda-ao@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T184826Z
+DTEND:20271004T195240Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 19:48:26 at the 
+ dark limb and reappears at 20:52:40 at the bright limb WAT\, seen from Lua
+ nda\, AO.\nThe Moon is 30° up in the WSW · dark sky. Binoculars show it.
+ \nEvery occultation this month\, for anywhere: https://occult.alokm.com/mo
+ on-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7913237b8f39-luanda-ao@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T200719Z
+DTEND:20271004T202443Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 21:07:19 at the dark limb
+  and reappears at 21:24:43 at the dark limb WAT\, seen from Luanda\, AO.\n
+ The Moon is 13° up in the WSW · dark sky. Binoculars show it.\nEvery occ
+ ultation this month\, for anywhere: https://occult.alokm.com/moon-stars-20
+ 27-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0129036b04dd-luanda-ao@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271016T000923Z
+DTEND:20271016T001123Z
+SUMMARY:The Moon hides η Psc · mag 3.8
+DESCRIPTION:η Psc (magnitude 3.8) reappears at 01:09:23 at the dark limb W
+ AT\, seen from Luanda\, AO.\nThe Moon is 61° up in the NNW · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

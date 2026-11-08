@@ -10,51 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Khartoum
 BEGIN:VEVENT
-UID:occ-venus-2026-09-14-omdurman-sd@occult.alokm.com
-DTSTAMP:20260914T034332Z
-DTSTART:20260914T100759Z
-DTEND:20260914T111834Z
-SUMMARY:The Moon occults Venus
-DESCRIPTION:Venus disappears at 12:10:20 and reappears at 13:15:59 CAT\, se
- en from Omdurman\, SD.\nThe Moon is 46° up in the SE · daylight\, Sun +7
- 6°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/venus-2026-09-14?lat=15.6445&
- lon=32.4777
-URL:https://occult.alokm.com/venus-2026-09-14?lat=15.6445&lon=32.4777
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Venus
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-35a32a613803-omdurman-sd@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T202207Z
-DTEND:20260923T202407Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 22:22:07 at the dark limb 
- CAT\, seen from Omdurman\, SD.\nThe Moon is 58° up in the SSW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-da2bdc3273dd-omdurman-sd@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T192102Z
-DTEND:20261018T192302Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 21:21:02 at the dark limb
-  CAT\, seen from Omdurman\, SD.\nThe Moon is 26° up in the SW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-860fc5e62ce6-omdurman-sd@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T234141Z
@@ -432,6 +387,32 @@ DESCRIPTION:21 Tau (magnitude 5.8) reappears at 00:35:39 at the dark limb C
   Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
  /occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d16ce5d80133-omdurman-sd@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270906T171159Z
+DTEND:20270906T171359Z
+SUMMARY:The Moon hides 1 Sco · mag 4.6
+DESCRIPTION:1 Sco (magnitude 4.6) disappears at 19:11:59 at the dark limb C
+ AT\, seen from Omdurman\, SD.\nThe Moon is 34° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d6cd109d0c52-omdurman-sd@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270925T010956Z
+DTEND:20270925T011156Z
+SUMMARY:The Moon hides HR 2951 · mag 5.9
+DESCRIPTION:HR 2951 (magnitude 5.9) reappears at 03:09:56 at the dark limb 
+ CAT\, seen from Omdurman\, SD.\nThe Moon is 31° up in the ENE · dark sky
+ . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
+ //occult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

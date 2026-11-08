@@ -10,71 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-012f8463cd70-fushun-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T170259Z
-DTEND:20260930T170459Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 01:02:59 at the d
- ark limb CST\, seen from Fushun\, CN.\nThe Moon is 62° up in the ESE · d
- ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
-  https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9fbb3c9f974e-fushun-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T190728Z
-DTEND:20261005T190928Z
-SUMMARY:The Moon hides HR 3577 · mag 6.4
-DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 03:07:28 at the dark limb 
- CST\, seen from Fushun\, CN.\nThe Moon is 27° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b9b5cb794abc-fushun-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T183035Z
-DTEND:20261006T183235Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 02:30:35 at the dark limb C
- ST\, seen from Fushun\, CN.\nThe Moon is 8° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b56391ed499c-fushun-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142359Z
-DTEND:20261020T142559Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:23:59 at the dark limb 
- CST\, seen from Fushun\, CN.\nThe Moon is 16° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c11501d56a37-fushun-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T151301Z
-DTEND:20261021T151501Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:13:01 at the dark limb 
- CST\, seen from Fushun\, CN.\nThe Moon is 20° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-b4189413bfd5-fushun-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T184132Z
@@ -321,6 +256,97 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 02:19:04 at the dark limb
  inoculars show it.\nEvery occultation this month\, for anywhere: https://o
  ccult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-50bbf6978bad-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T143549Z
+DTEND:20271013T143749Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:35:49 at the dark limb 
+ CST\, seen from Fushun\, CN.\nThe Moon is 49° up in the SSW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0ec5261f74b0-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T105019Z
+DTEND:20271018T105219Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) reappears at 18:50:19 at the d
+ ark limb CST\, seen from Fushun\, CN.\nThe Moon is 6° up in the ENE · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b21784df2f43-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113326Z
+DTEND:20271018T113526Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 19:33:26 at the dar
+ k limb CST\, seen from Fushun\, CN.\nThe Moon is 13° up in the ENE · dar
+ k sky. Binoculars show it.\nEvery occultation this month\, for anywhere: h
+ ttps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-0fa83c15dc18-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113405Z
+DTEND:20271018T113605Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 19:34:05 at the d
+ ark limb CST\, seen from Fushun\, CN.\nThe Moon is 13° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-99b3b7b1e581-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T143036Z
+DTEND:20271020T143236Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:30:36 at the dark limb 
+ CST\, seen from Fushun\, CN.\nThe Moon is 24° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-b865cea15b6d-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T154737Z
+DTEND:20271021T154937Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:47:37 at the dark limb C
+ ST\, seen from Fushun\, CN.\nThe Moon is 26° up in the E · dark sky. Bin
+ oculars show it.\nEvery occultation this month\, for anywhere: https://occ
+ ult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-6565fc280d43-fushun-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T204136Z
+DTEND:20271021T204336Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:41:36 at the dark limb C
+ ST\, seen from Fushun\, CN.\nThe Moon is 72° up in the SSE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

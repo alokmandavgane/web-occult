@@ -10,58 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:star-6d8f120110f4-sapporo-jp@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260919T091604Z
-DTEND:20260919T091804Z
-SUMMARY:The Moon hides HR 6766 · mag 4.5
-DESCRIPTION:HR 6766 (magnitude 4.5) disappears at 18:16:04 at the dark limb
-  JST\, seen from Sapporo\, JP.\nThe Moon is 18° up in the S · dusk. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-4410770cd472-sapporo-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261005T192445Z
-DTEND:20261005T192645Z
-SUMMARY:The Moon hides HR 3577 · mag 6.4
-DESCRIPTION:HR 3577 (magnitude 6.4) reappears at 04:24:45 at the dark limb 
- JST\, seen from Sapporo\, JP.\nThe Moon is 42° up in the ESE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-4d1a787a01f1-sapporo-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261006T183649Z
-DTEND:20261006T183849Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:36:49 at the dark limb J
- ST\, seen from Sapporo\, JP.\nThe Moon is 22° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c597d5910eef-sapporo-jp@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T153322Z
-DTEND:20261021T153522Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 00:33:22 at the dark limb 
- JST\, seen from Sapporo\, JP.\nThe Moon is 5° up in the WSW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-cf4fb98dcb1a-sapporo-jp@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261104T185426Z
@@ -324,6 +272,124 @@ DESCRIPTION:HR 2978 (magnitude 6.2) reappears at 03:19:51 at the dark limb
   Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
  /occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-52b12c32e501-sapporo-jp@occult.alokm.com
+DTSTAMP:20270901T000000Z
+DTSTART:20270910T111435Z
+DTEND:20270910T111635Z
+SUMMARY:The Moon hides ψ Sgr · mag 4.8
+DESCRIPTION:ψ Sgr (magnitude 4.8) disappears at 20:14:35 at the dark limb 
+ JST\, seen from Sapporo\, JP.\nThe Moon is 21° up in the S · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-09
+URL:https://occult.alokm.com/moon-stars-2027-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-771bfe4198db-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T091453Z
+DTEND:20271004T091653Z
+SUMMARY:The Moon hides HR 6001 · mag 5.3
+DESCRIPTION:HR 6001 (magnitude 5.3) disappears at 18:14:53 at the dark limb
+  JST\, seen from Sapporo\, JP.\nThe Moon is 6° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-3ea2642a5788-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T145745Z
+DTEND:20271013T145945Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 23:57:45 at the dark limb 
+ JST\, seen from Sapporo\, JP.\nThe Moon is 40° up in the SW · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-ba1094eccb75-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T100640Z
+DTEND:20271018T105317Z
+SUMMARY:The Moon hides Alcyone (η Tau) · mag 2.8
+DESCRIPTION:Alcyone (η Tau) (magnitude 2.8) disappears at 19:06:40 at the 
+ bright limb and reappears at 19:53:17 at the dark limb JST\, seen from Sap
+ poro\, JP.\nThe Moon is 11° up in the ENE · dark sky. Binoculars show it
+ .\nEvery occultation this month\, for anywhere: https://occult.alokm.com/m
+ oon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-78b37182bc15-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T102504Z
+DTEND:20271018T102704Z
+SUMMARY:The Moon hides Merope (23 Tau) · mag 4.2
+DESCRIPTION:Merope (23 Tau) (magnitude 4.2) reappears at 19:25:04 at the da
+ rk limb JST\, seen from Sapporo\, JP.\nThe Moon is 14° up in the ENE · d
+ ark sky. Binoculars show it.\nEvery occultation this month\, for anywhere:
+  https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-d9fa08c90362-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113418Z
+DTEND:20271018T113618Z
+SUMMARY:The Moon hides Atlas (27 Tau) · mag 3.6
+DESCRIPTION:Atlas (27 Tau) (magnitude 3.6) reappears at 20:34:18 at the dar
+ k limb JST\, seen from Sapporo\, JP.\nThe Moon is 26° up in the E · dark
+  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
+ tps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-7faa842ba480-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271018T113750Z
+DTEND:20271018T113950Z
+SUMMARY:The Moon hides Pleione (28 Tau) · mag 5.2
+DESCRIPTION:Pleione (28 Tau) (magnitude 5.2) reappears at 20:37:50 at the d
+ ark limb JST\, seen from Sapporo\, JP.\nThe Moon is 27° up in the E · da
+ rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
+ https://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-9dc345efdd06-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T143552Z
+DTEND:20271020T143752Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 23:35:52 at the dark limb 
+ JST\, seen from Sapporo\, JP.\nThe Moon is 38° up in the E · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-27ed64114923-sapporo-jp@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T155907Z
+DTEND:20271021T160107Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 00:59:07 at the dark limb J
+ ST\, seen from Sapporo\, JP.\nThe Moon is 41° up in the E · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

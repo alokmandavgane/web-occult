@@ -408,10 +408,9 @@ def asteroid_events(name, slug, lat, lon, hms, zabbr, cutoff):
         url = f"{SITE}/asteroid?e={a['id']}"        # the page with the map, the pin and the download, not the month list
         edge = 0.0 if inside else ground * (abs(s["d"]) - R) / abs(s["d"])
         p = pct(chance({"el": a["el"], "sigma_km": a["sigma_km"]}, s))      # the same number the event page shows
-        where = (f"You are inside the path, {ground:.0f} km from its centre line: the star vanishes for up to {s['dur']:.1f} s."
+        where = (f"You're inside the path, {ground:.0f} km from the centre line. The star vanishes for up to {s['dur']:.1f} s."
                  if inside else
-                 f"The predicted edge passes {edge:.0f} km to the {compass(brg)}, so a miss is "
-                 f"likely — but a chord from near the edge is the most valuable observation of all.")
+                 f"The edge is {edge:.0f} km to the {compass(brg)}. A miss is likely, but an edge timing is very valuable.")
         desc = (f"{who} hides a magnitude {a['star']['v']:.1f} star, seen from {name}.\n{where}\n"
                 f"Chance of an occultation here: {p}, allowing for the path's 1σ of {sig:.0f} km.\n"
                 f"Closest approach {hms(t)} {zabbr(t)}, give or take {a['sigma_s']:.0f} s. The star is {s['star_alt']:.0f}° up in the "
@@ -531,16 +530,15 @@ def write_page(rows):
     </div>
   </div>
   <h2>What's in a feed</h2>
-  <p class="method">Every lunar occultation on this site's list that the city can see — planets and bright stars, with a reminder
-  {ALARM_MIN} minutes before — and every occultation of a star bright enough for binoculars over the next {STAR_MONTHS} months,
-  with the Moon at least 5° up and the sky dark enough. Each entry gives the disappearance and reappearance times, how high the
-  Moon is and where, and a link to the full page. Asteroid shadows are in too, when the path crosses your town or comes within
-  its margin of error and the star is at least {AST_ALT_MIN:.0f}° up in a dark sky — for a town in India, two or three a month,
-  about half of them inside the path. Each says how far you are from the centre line and links the finder chart and the path
-  to drive to. When the path passes to one side of you, the reminder comes early enough to act on — {ALARM_MIN} minutes if you
-  can watch from where you are, and for a drive to the edge, that plus the packing and the driving, up to {AST_ALARM_MAX // 60} hours. Jupiter's and
-  Saturn's moons are not included: they have several events a night. Times are computed from the JPL DE431 ephemeris, as on the
-  rest of the site.</p>
+  <p class="method">Every occultation on this site that your city can see, with a reminder {ALARM_MIN} minutes before. Also
+  every star occultation bright enough for binoculars over the next {STAR_MONTHS} months, with the Moon at least 5° up in a dark
+  sky. Each entry gives the times, where the Moon is, and a link to the full page.</p>
+  <p class="method">Asteroid shadows are included when the path passes over or near your town, with the star at least
+  {AST_ALT_MIN:.0f}° up in a dark sky. Expect two or three a month in India. Each says how far the centre line is and links
+  the finder chart and directions. Inside the path, the reminder comes {ALARM_MIN} minutes ahead. If you need to drive, it
+  comes early enough to pack and go, up to {AST_ALARM_MAX // 60} hours ahead.</p>
+  <p class="method">Jupiter's and Saturn's moons are left out: they have several events a night. Times come from the JPL DE431
+  ephemeris, as on the rest of the site.</p>
   <h2>Adding it</h2>
   <p class="method"><b>iPhone, iPad, Mac:</b> tap Subscribe. <b>Google Calendar and Android:</b> use “Add to Google Calendar” on a
   computer; the calendar then appears on your phone. <b>Outlook:</b> Add calendar → Subscribe from web, and paste the link.

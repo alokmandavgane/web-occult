@@ -112,14 +112,14 @@ def you_html(ev, s, tc):
     edge = ground * (d - R) / d if d > 0 else 0.0
     p = pct(chance(ev, s))
     if d <= R:
-        return "in", (f"You are inside the path, {r0(ground)} km from its centre line: "
-                      f"the star vanishes for up to {r1(s['dur'])} s"), look, p, 0
+        return "in", (f"You're inside the path, {r0(ground)} km from the centre line. "
+                      f"The star vanishes for up to {r1(s['dur'])} s"), look, p, 0
     if d <= R + sig:
-        return "near", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                        f"within its 1σ uncertainty of {r0(sig)} km, worth watching"), look, p, r0(edge)
+        return "near", (f"The edge is {r0(edge)} km to the {compass(brg)}, within 1σ ({r0(sig)} km). "
+                        f"Worth watching"), look, p, r0(edge)
     if d <= R + 2 * sig:
-        return "chance", (f"The predicted edge passes {r0(edge)} km to the {compass(brg)} — "
-                          f"beyond its 1σ uncertainty of {r0(sig)} km but within 2σ, a long shot"), look, p, r0(edge)
+        return "chance", (f"The edge is {r0(edge)} km to the {compass(brg)}, outside 1σ ({r0(sig)} km) but "
+                          f"inside 2σ. A long shot"), look, p, r0(edge)
     return "out", f"The path passes {r0(edge)} km to the {compass(brg)}", look, p, r0(edge)
 
 
@@ -255,7 +255,7 @@ def stats_html(ev, y=None):
                                                                      if ev["sigma_km"] is not None else ""))
             + tile(f'{r0(ev["moon_illum"] * 100)}%', f'moon, {r0(ev["moon_sep"])}° off', "How much of the Moon is lit and how far it sits from the star")
             + tile(*(travel_tile(y) if y else ("—", "to the path")),
-                   title="How far to the path's nearest edge — the drive that would put you inside the shadow", cls="st-travel")
+                   title="How far to the path's nearest edge: the drive that puts you inside the shadow", cls="st-travel")
             + "</div>")
 
 
@@ -366,6 +366,7 @@ AST_CSS = """
       .ast-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .st .k { white-space: normal; } }
     .rules td, .rules th { padding: 0.25rem 0.6rem; font-size: 0.85rem; white-space: normal; }
+    .rules ul { margin: 0; padding-left: 1.1rem; }
 """
 
 # the drawings, shared by both pages
@@ -573,9 +574,9 @@ LIB_JS = r"""
     var look = 'Star ' + r0(s.star_alt) + '° up in the ' + compass(s.star_az) + ' · ' + sky(s.sun_alt);
     if (s.star_alt < 0) return ['below', 'The star is below your horizon then', 'Star ' + r0(-s.star_alt) + '° below the horizon', '', -1];
     var edge = d > 0 ? ground * (d - R) / d : 0, p = pct(chance(ev, s));
-    if (d <= R) return ['in', 'You are inside the path, ' + r0(ground) + ' km from its centre line: the star vanishes for up to ' + r1(s.dur) + ' s', look, p, 0];
-    if (d <= R + sig) return ['near', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — within its 1σ uncertainty of ' + r0(sig) + ' km, worth watching', look, p, r0(edge)];
-    if (d <= R + 2 * sig) return ['chance', 'The predicted edge passes ' + r0(edge) + ' km to the ' + compass(brg) + ' — beyond its 1σ uncertainty of ' + r0(sig) + ' km but within 2σ, a long shot', look, p, r0(edge)];
+    if (d <= R) return ['in', "You're inside the path, " + r0(ground) + ' km from the centre line. The star vanishes for up to ' + r1(s.dur) + ' s', look, p, 0];
+    if (d <= R + sig) return ['near', 'The edge is ' + r0(edge) + ' km to the ' + compass(brg) + ', within 1σ (' + r0(sig) + ' km). Worth watching', look, p, r0(edge)];
+    if (d <= R + 2 * sig) return ['chance', 'The edge is ' + r0(edge) + ' km to the ' + compass(brg) + ', outside 1σ (' + r0(sig) + ' km) but inside 2σ. A long shot', look, p, r0(edge)];
     return ['out', 'The path passes ' + r0(edge) + ' km to the ' + compass(brg), look, p, r0(edge)];
   }
 
@@ -974,10 +975,9 @@ TEMPLATE = """
 <main class="wrap">
   <h1>__TITLE__</h1>
   <p class="sub">Stars hidden by asteroids, on paths across India</p>
-  <p class="lead">An asteroid too small to see passes in front of a star, and its shadow — exactly as wide as the asteroid —
-  races across the Earth. Inside that band the star blinks out for a few seconds; a few kilometres outside it, nothing
-  happens. Each card maps the path and says how close it comes to you; open one for the map, the finder chart and the path
-  to drive to.</p>
+  <p class="lead">An asteroid passes in front of a star. Its shadow, as wide as the asteroid, races across the Earth.
+  Inside it the star blinks out for a few seconds; a few kilometres outside, nothing happens. Each card shows the path and
+  how close it comes. Open one for the map, finder chart and directions.</p>
   <div class="controls" id="ast-controls">
     <label class="switch"><input type="checkbox" id="ast-near" role="switch"><span class="sw" aria-hidden="true"></span>Only paths over me</label>
     <label class="selbox"><span class="lab"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h4"/></svg>Sort</span><select id="ast-sort" data-default aria-label="Sort the list">__SORTS__</select></label>
@@ -989,29 +989,22 @@ TEMPLATE = """
   noon to noon. On each map the blue band is the path, the green line its centre, and the dot is you.</p>
   <div id="ast-nights">__NIGHTS__</div>
   <h2>Reading the list</h2>
-  <p class="method">A card turns <b style="color:var(--c-visible)">green</b> when you are inside the predicted path and
-  <b style="color:var(--c-limit)">amber</b> when you are outside it but within its 1σ uncertainty — a miss is still likely
-  then, but a chord from the edge is the most valuable observation of all. The <em>chance</em> is the probability the shadow
-  covers your place once the path's uncertainty is allowed for: the true path is taken to lie off the predicted one by a
-  normal error of its 1σ, as occultation software reads a prediction. Where 1σ is close to the path's own width, even the
-  centre line is well short of certain. The tiles under each card carry its numbers one at a time:
-  <em>brightness</em> is star and asteroid together — what is actually in the eyepiece — and <em>fade</em> is how much of
-  that goes away while the star is hidden. <em>Up to</em> is the longest the star can vanish, on the centre line, and
-  <em>to the path</em> is the drive that would put you inside the shadow, which the list can also sort by.</p>
-  <p class="method"><em>I watch with</em> keeps the events bright enough for an aperture. Those limits are the one rule of
-  thumb on these pages and not a computed number: each sits about a magnitude short of what the aperture can just detect,
-  because a star at the very limit is lost in the noise long before the asteroid covers it. A video camera or a CCD reaches
-  two or three magnitudes deeper than the eye through the same telescope — and a fade under half a magnitude needs one
-  whatever you own, which is why those tiles are drawn dashed.</p>
+  <p class="method"><b style="color:var(--c-visible)">Green</b>: you're inside the path. <b style="color:var(--c-limit)">Amber</b>:
+  just outside, within 1σ. A miss is likely there, but an edge timing is very valuable. The <em>chance</em> allows for the
+  path's uncertainty: the real path may sit off the prediction by a normal 1σ error. When 1σ is close to the path's width,
+  even the centre line is far from certain.</p>
+  <p class="method">Tiles show the key numbers. <em>Brightness</em> is star plus asteroid, as seen in the eyepiece.
+  <em>Fade</em> is how much it dims. <em>Up to</em> is the longest the star can vanish, on the centre line. <em>To the
+  path</em> is the drive to get inside the shadow; the list can sort by it.</p>
+  <p class="method"><em>I watch with</em> keeps events bright enough for your aperture. These limits are a rule of thumb, the
+  one number here that isn't computed. Each is about a magnitude brighter than the aperture's limit, since a fade at the limit
+  is hard to see. A video camera or CCD reaches 2–3 magnitudes deeper. A fade under 0.5 mag needs one, so those tiles are
+  dashed.</p>
   <table class="rules"><tbody>__RULES__</tbody></table>
-  <p class="method">Orbits are JPL's (__ORBITS__), carried to the date with the DE431 ephemeris, the four largest asteroids
-  and the Sun's relativistic pull; stars are Gaia DR3 to G 12.5, carried to the date with their proper motion and parallax.
-  The asteroid is treated as a sphere of its catalogue diameter: a real, lumpy asteroid casts a shadow that can be
-  narrower or wider, which is exactly what observations along the path measure. The 1σ lines combine the star's Gaia
-  uncertainty with the orbit's: the largest of JPL's formal uncertainty, the gap between JPL's and the Minor Planet Center's
-  orbits for that event (divided by √2), and 10 mas — about how far independent orbit solutions for these asteroids
-  disagree. A <span class="badge">RUWE</span> badge marks a star Gaia finds hard to fit — often a close
-  double, whose fade may come in steps.</p>
+  <p class="method">Orbits: JPL (__ORBITS__), moved forward with DE431, the four largest asteroids and relativity. Stars:
+  Gaia DR3 to G 12.5. The asteroid is treated as a sphere. Real ones are lumpy; timings along the path measure the true
+  shape. The 1σ lines combine the star's and the orbit's errors, never less than 10 mas for the orbit. A
+  <span class="badge">RUWE</span> badge marks a star Gaia finds hard to fit, often a close double. It may fade in steps.</p>
   <script type="application/json" id="ast-meta">__META__</script>
 </main>
 __FOOTER__
@@ -1443,10 +1436,10 @@ EVENT_TEMPLATE = """
   </header>
   <div id="map"></div>
   <div class="path-key"><span class="k-cl">centre line</span><span class="k-edge">edge of the shadow</span><span class="k-sig">1σ</span><span class="k-sig2">2σ</span></div>
-  <p class="map-note">The colours are Occult4's. Between the blue edges the path is shaded darkest down the middle, where the star
-  stays hidden longest — at the edges it barely blinks. The green dotted line is the rest of the track around the world.
+  <p class="map-note">The colours are Occult4's. The path is darkest down the middle, where the star hides longest. At the
+  edges it only blinks. The green dotted line is the rest of the track around the world.
   Labels along the centre line are the time the shadow passes there.
-  <b>Tap the map, or drag the pin, to put your spot anywhere</b> — everything on this page follows it.</p>
+  <b>Tap the map or drag the pin to move your spot.</b> Everything on this page follows it.</p>
   <p class="map-note" id="sky-note"></p>
   <div class="spot">
     <span class="spot-coords" id="spot-coords"></span>
@@ -1470,11 +1463,9 @@ EVENT_TEMPLATE = """
   </div>
   <h2>The numbers</h2>
   <div class="table-wrap"><table class="ev-facts"><tbody id="ev-facts"></tbody></table></div>
-  <p class="method">Everything here is computed for the place in the chip above: the time is when the shadow passes closest
-  to you, and the chord and fade are what you would record there. The asteroid is a sphere of its catalogue diameter, so a
-  real, lumpy one casts a slightly different shadow — which is exactly what timing it from several places measures.
-  Once you have opened this page it stays on your phone — the times, the charts, the path and the map tiles you looked at —
-  so it still works where you are going, which is usually somewhere without a signal.</p>
+  <p class="method">Everything here is for the place shown above: when the shadow passes closest, and the chord and fade
+  you'd record. The asteroid is drawn as a sphere. Real ones are lumpy, and timings from several places show the true shape.
+  Once opened, this page works offline, including the map tiles you viewed. Useful where there's no signal.</p>
   <noscript><p class="method">This page draws itself in the browser. Without JavaScript, the month pages list every event
   with its path and times.</p></noscript>
   <script type="application/json" id="ast-meta">__META__</script>
@@ -1563,10 +1554,11 @@ def month_page(ym, d, cities_all, nav):
     rules_html = "".join(f"<tr><td>{a}</td><td>{b}</td></tr>" for a, b in (
         ("Asteroids", f"the {d['engine']['asteroids']:,} with a diameter of {d['engine']['d_min_km']:g} km or more"),
         ("Stars", "Gaia DR3, magnitude G 12.5 and brighter"),
-        ("Listed when", f"the path passes within {rules['city_km']:g} km of one of the site's Indian cities with the star at least "
-                        f"{rules['star_alt_min']:g}° up and the Sun at least {-rules['sun_alt_max']:g}° below the horizon; the path is at "
-                        f"least as wide as its 1σ uncertainty; and the star fades by {rules['drop_min']:g} mag or more "
-                        f"({rules['drop_min_long']:g} for events over {rules['long_s']:g} s) for at least {rules['dur_min_s']:g} s"),
+        ("Listed when", f"<ul><li>the path passes within {rules['city_km']:g} km of an Indian city, with the star "
+                        f"{rules['star_alt_min']:g}° up and the Sun {-rules['sun_alt_max']:g}° down</li>"
+                        f"<li>it is at least as wide as its 1σ</li>"
+                        f"<li>the star fades {rules['drop_min']:g} mag or more ({rules['drop_min_long']:g} if over "
+                        f"{rules['long_s']:g} s) for {rules['dur_min_s']:g} s or longer</li></ul>"),
         ("This month", f"{d['engine']['shadows_on_earth']:,} shadows touch the Earth somewhere; {len(d['events'])} are listed")))
     data_json = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     src = f"/data/{slug}.json?v={_hash(data_json)}"

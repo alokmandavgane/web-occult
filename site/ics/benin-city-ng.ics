@@ -10,103 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Lagos
 BEGIN:VEVENT
-UID:star-4e4797b11f86-benin-city-ng@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260916T205012Z
-DTEND:20260916T205212Z
-SUMMARY:The Moon hides 1 Sco · mag 4.6
-DESCRIPTION:1 Sco (magnitude 4.6) disappears at 21:50:12 at the dark limb W
- AT\, seen from Benin City\, NG.\nThe Moon is 10° up in the WSW · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-077590815186-benin-city-ng@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260917T191429Z
-DTEND:20260917T191629Z
-SUMMARY:The Moon hides HIP 81731 · mag 6.5
-DESCRIPTION:HIP 81731 (magnitude 6.5) disappears at 20:14:29 at the dark li
- mb WAT\, seen from Benin City\, NG.\nThe Moon is 38° up in the SW · dark
-  sky. Binoculars show it.\nEvery occultation this month\, for anywhere: ht
- tps://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-460a363aaba9-benin-city-ng@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260923T190148Z
-DTEND:20260923T190348Z
-SUMMARY:The Moon hides μ Cap · mag 5.0
-DESCRIPTION:μ Cap (magnitude 5.0) disappears at 20:01:48 at the dark limb 
- WAT\, seen from Benin City\, NG.\nThe Moon is 50° up in the ESE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f4f3c3588076-benin-city-ng@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261001T041808Z
-DTEND:20261001T042008Z
-SUMMARY:The Moon hides 44 Tau · mag 5.4
-DESCRIPTION:44 Tau (magnitude 5.4) reappears at 05:18:08 at the dark limb W
- AT\, seen from Benin City\, NG.\nThe Moon is 64° up in the NW · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-10-06-benin-city-ng@occult.alokm.com
-DTSTAMP:20260914T034633Z
-DTSTART:20261006T110259Z
-DTEND:20261006T120838Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 12:04:21 and reappears at 13:07:25 WAT\, 
- seen from Benin City\, NG.\nThe Moon is 46° up in the WNW · daylight\, S
- un +77°.\nTimes against the real lunar limb.\nMap\, timings and the view 
- at the Moon's edge: https://occult.alokm.com/jupiter-2026-10-06?city=Benin
- %20City%2C%20NG
-URL:https://occult.alokm.com/jupiter-2026-10-06?city=Benin%20City%2C%20NG
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-71ee78472060-benin-city-ng@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261018T181245Z
-DTEND:20261018T181445Z
-SUMMARY:The Moon hides HR 7578 · mag 6.2
-DESCRIPTION:HR 7578 (magnitude 6.2) disappears at 19:12:45 at the dark limb
-  WAT\, seen from Benin City\, NG.\nThe Moon is 59° up in the SSW · dark 
- sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
- ps://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-cf52f53c388d-benin-city-ng@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261029T225744Z
-DTEND:20261029T225944Z
-SUMMARY:The Moon hides 136 Tau · mag 4.6
-DESCRIPTION:136 Tau (magnitude 4.6) reappears at 23:57:44 at the dark limb 
- WAT\, seen from Benin City\, NG.\nThe Moon is 29° up in the ENE · dark s
- ky. Binoculars show it.\nEvery occultation this month\, for anywhere: http
- s://occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-6eaea94fec35-benin-city-ng@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261103T033137Z
@@ -366,6 +269,33 @@ DESCRIPTION:λ Psc (magnitude 4.5) reappears at 01:58:53 at the dark limb W
  y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
  ://occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-8dd406c51e93-benin-city-ng@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T185118Z
+DTEND:20271004T194438Z
+SUMMARY:The Moon hides Antares (α Sco) · mag 1.0
+DESCRIPTION:Antares (α Sco) (magnitude 1.0) disappears at 19:51:18 at the 
+ dark limb and reappears at 20:44:38 at the bright limb WAT\, seen from Ben
+ in City\, NG.\nThe Moon is 28° up in the SW · dark sky. Binoculars show 
+ it.\nEvery occultation this month\, for anywhere: https://occult.alokm.com
+ /moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-676c9300d8e2-benin-city-ng@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271004T194338Z
+DTEND:20271004T194538Z
+SUMMARY:The Moon hides HR 6145 · mag 6.1
+DESCRIPTION:HR 6145 (magnitude 6.1) disappears at 20:43:38 at the dark limb
+  WAT\, seen from Benin City\, NG.\nThe Moon is 17° up in the WSW · dark 
+ sky. Binoculars show it.\nEvery occultation this month\, for anywhere: htt
+ ps://occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

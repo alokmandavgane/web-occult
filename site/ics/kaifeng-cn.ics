@@ -10,71 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-830cbe89fa83-kaifeng-cn@occult.alokm.com
-DTSTAMP:20260901T000000Z
-DTSTART:20260930T163626Z
-DTEND:20260930T163826Z
-SUMMARY:The Moon hides Taygeta (19 Tau) · mag 4.3
-DESCRIPTION:Taygeta (19 Tau) (magnitude 4.3) reappears at 00:36:26 at the d
- ark limb CST\, seen from Kaifeng\, CN.\nThe Moon is 51° up in the E · da
- rk sky. Binoculars show it.\nEvery occultation this month\, for anywhere: 
- https://occult.alokm.com/moon-stars-2026-09
-URL:https://occult.alokm.com/moon-stars-2026-09
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b242d101afe7-kaifeng-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261004T211354Z
-DTEND:20261004T211554Z
-SUMMARY:The Moon hides μ1 Cnc · mag 6.0
-DESCRIPTION:μ1 Cnc (magnitude 6.0) reappears at 05:13:54 at the dark limb 
- CST\, seen from Kaifeng\, CN.\nThe Moon is 56° up in the ESE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f897c410bfc0-kaifeng-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204936Z
-DTEND:20261007T205136Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:49:36 at the dark limb 
- CST\, seen from Kaifeng\, CN.\nThe Moon is 13° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-732106ca3d65-kaifeng-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T141530Z
-DTEND:20261020T141730Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:15:30 at the dark limb 
- CST\, seen from Kaifeng\, CN.\nThe Moon is 28° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-3fe81df8cb17-kaifeng-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261021T150705Z
-DTEND:20261021T150905Z
-SUMMARY:The Moon hides 38 Aqr · mag 5.5
-DESCRIPTION:38 Aqr (magnitude 5.5) disappears at 23:07:05 at the dark limb 
- CST\, seen from Kaifeng\, CN.\nThe Moon is 31° up in the SW · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-968017f86a09-kaifeng-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T204701Z
@@ -386,6 +321,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:10:26 at the dark limb
   Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
  /occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-132dc6f76d9f-kaifeng-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T141110Z
+DTEND:20271013T141310Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:11:10 at the dark limb 
+ CST\, seen from Kaifeng\, CN.\nThe Moon is 56° up in the SSE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-05191de16de1-kaifeng-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T142038Z
+DTEND:20271020T142238Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:20:38 at the dark limb 
+ CST\, seen from Kaifeng\, CN.\nThe Moon is 13° up in the ENE · dark sky.
+  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
+ /occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-884007e72b86-kaifeng-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153639Z
+DTEND:20271021T153839Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:36:39 at the dark limb C
+ ST\, seen from Kaifeng\, CN.\nThe Moon is 15° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-a1d86c4d045a-kaifeng-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T203652Z
+DTEND:20271021T203852Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:36:52 at the dark limb C
+ ST\, seen from Kaifeng\, CN.\nThe Moon is 73° up in the SE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

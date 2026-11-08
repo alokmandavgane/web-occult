@@ -10,32 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-22a90364cba8-yixing-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261007T204308Z
-DTEND:20261007T204508Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 04:43:08 at the dark limb 
- CST\, seen from Yixing\, CN.\nThe Moon is 16° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1896fcaf9b6b-yixing-cn@occult.alokm.com
-DTSTAMP:20261001T000000Z
-DTSTART:20261020T142830Z
-DTEND:20261020T143030Z
-SUMMARY:The Moon hides ι Cap · mag 4.3
-DESCRIPTION:ι Cap (magnitude 4.3) disappears at 22:28:30 at the dark limb 
- CST\, seen from Yixing\, CN.\nThe Moon is 25° up in the SW · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-10
-URL:https://occult.alokm.com/moon-stars-2026-10
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-b3b839550093-yixing-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261102T210301Z
@@ -336,6 +310,58 @@ DESCRIPTION:HR 1921 (magnitude 6.5) reappears at 03:02:12 at the dark limb
  Binoculars show it.\nEvery occultation this month\, for anywhere: https://
  occult.alokm.com/moon-stars-2027-08
 URL:https://occult.alokm.com/moon-stars-2027-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-132dc6f76d9f-yixing-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271013T141149Z
+DTEND:20271013T141349Z
+SUMMARY:The Moon hides λ Psc · mag 4.5
+DESCRIPTION:λ Psc (magnitude 4.5) disappears at 22:11:49 at the dark limb 
+ CST\, seen from Yixing\, CN.\nThe Moon is 60° up in the S · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-fd91538d22d7-yixing-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271020T141227Z
+DTEND:20271020T141427Z
+SUMMARY:The Moon hides 139 Tau · mag 4.8
+DESCRIPTION:139 Tau (magnitude 4.8) reappears at 22:12:27 at the dark limb 
+ CST\, seen from Yixing\, CN.\nThe Moon is 15° up in the ENE · dark sky. 
+ Binoculars show it.\nEvery occultation this month\, for anywhere: https://
+ occult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-4e24d5c543f3-yixing-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T153017Z
+DTEND:20271021T153217Z
+SUMMARY:The Moon hides ω Gem · mag 5.2
+DESCRIPTION:ω Gem (magnitude 5.2) reappears at 23:30:17 at the dark limb C
+ ST\, seen from Yixing\, CN.\nThe Moon is 17° up in the ENE · dark sky. B
+ inoculars show it.\nEvery occultation this month\, for anywhere: https://o
+ ccult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:star-f12ae9836d02-yixing-cn@occult.alokm.com
+DTSTAMP:20271001T000000Z
+DTSTART:20271021T205128Z
+DTEND:20271021T205328Z
+SUMMARY:The Moon hides 48 Gem · mag 5.8
+DESCRIPTION:48 Gem (magnitude 5.8) reappears at 04:51:28 at the dark limb C
+ ST\, seen from Yixing\, CN.\nThe Moon is 81° up in the SE · dark sky. Bi
+ noculars show it.\nEvery occultation this month\, for anywhere: https://oc
+ cult.alokm.com/moon-stars-2027-10
+URL:https://occult.alokm.com/moon-stars-2027-10
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
