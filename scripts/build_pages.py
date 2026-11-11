@@ -1237,16 +1237,29 @@ def build(seed, slug):
     if data["maps"][data["audience"]]["region_night"]:
         night_para = "<p>In the violet area the Sun has set, so the reappearance is in a darkening sky.</p>"
 
+    india = aud["cities"] != "world"
+    def place(name):   # world cities are named "Shanghai, CN"; India's carry no country
+        city, cc = (name, "IN") if india else name.rsplit(", ", 1)
+        return {"@type": "Place", "name": city,
+                "address": {"@type": "PostalAddress", "addressLocality": city, "addressCountry": cc}}
+    vis_names = {c["name"] for c in vis}
+    # the headline cities that see it; with none, the whole audience (no address for "World": no city sees it)
+    location = ([place(n) for n in featured if n in vis_names]
+                or {"@type": "Place", "name": aud["label"],
+                    **({"address": {"@type": "PostalAddress", "addressCountry": "IN"}} if india else {})})
+    # no "performer": nobody performs an occultation, and Google only recommends the field
     ld = {
         "@context": "https://schema.org", "@type": "Event",
-        "name": title, "description": desc, "url": url,
+        "name": title, "description": desc, "url": url, "image": [og_url("occ")],
         "startDate": first_d.astimezone(tz).isoformat() if first_d else t_min_local.isoformat(),
         "endDate": last_r.astimezone(tz).isoformat() if last_r else t_min_local.isoformat(),
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "location": {"@type": "Place", "name": aud["label"]},
+        "location": location,
         "organizer": {"@type": "Organization", "name": SITE_NAME, "url": SITE},
         "isAccessibleForFree": True,
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR" if india else "USD",
+                   "availability": "https://schema.org/InStock", "url": url, "validFrom": data["generated"]},
     }
 
     p_main = Proj(geo["bbox"], aud["lat0"], 800)
