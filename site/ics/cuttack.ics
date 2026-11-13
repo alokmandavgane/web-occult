@@ -10,43 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-4fbdf78073dc-cuttack@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203042Z
-DTEND:20261102T203242Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:00:42 at the dark limb I
- ST\, seen from Cuttack.\nThe Moon is 22° up in the E · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-04-4004-list-ev-238720-cuttack@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261104T210934Z
-DTEND:20261104T211934Z
-SUMMARY:(4004) List'ev hides a mag 10.9 star (just outside the path) · 32%
-  chance
-DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Cuttack.
- \nThe edge is 6 km to the NE. A miss is likely\, but an edge timing is ver
- y valuable.\nChance of an occultation here: 32%\, allowing for the path's 
- 1σ of 14 km.\nClosest approach 02:44:34 IST\, give or take 1 s. The star 
- is 67° up in the NNW · dark sky.\nIt fades 5.6 magnitudes for up to 2.5 
- s on the centre line\, and the path is 25 km wide\, give or take 14 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-04-4004-list-ev-238720
-URL:https://occult.alokm.com/asteroid?e=2026-11-04-4004-list-ev-238720
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(4004) List'ev hides a mag 10.9 star (just outside the path) ·
-  32% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-1650-heckmann-736448-cuttack@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T204511Z

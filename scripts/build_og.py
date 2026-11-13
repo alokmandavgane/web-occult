@@ -236,7 +236,7 @@ def draw(key):
     sf = _face(SANS, "Regular", 30 * S)
     sub_lines = _wrap(d, sub, sf, 560 * S)
     for size in (64, 58, 52, 46):                      # the largest title that leaves room above the address line
-        tf = _face(SERIF, "Bold", size * S)
+        tf = _face(SANS, "Medium", size * S)
         lines = _wrap(d, title, tf, 590 * S)
         if 172 + len(lines) * size * 1.16 + 18 + len(sub_lines) * 42 <= 520:
             break

@@ -10,54 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-agartala@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145432Z
-DTEND:20261102T150432Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star · 93% chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Agartala
- .\nYou're inside the path\, 54 km from the centre line. The star vanishes 
- for up to 10.8 s.\nChance of an occultation here: 93%\, allowing for the p
- ath's 1σ of 21 km.\nClosest approach 20:29:32 IST\, give or take 2 s. The
-  star is 33° up in the SW · dark sky.\nIt fades 0.7 magnitudes for up to
-  13.1 s on the centre line\, and the path is 149 km wide\, give or take 21
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star · 93% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-8b579dd6b892-agartala@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203526Z
-DTEND:20261102T203726Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:05:26 at the dark limb I
- ST\, seen from Agartala.\nThe Moon is 29° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5fda1a536096-agartala@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215431Z
-DTEND:20261104T215631Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:24:31 at the dark limb I
- ST\, seen from Agartala.\nThe Moon is 21° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a6f081bd4d31-agartala@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145850Z

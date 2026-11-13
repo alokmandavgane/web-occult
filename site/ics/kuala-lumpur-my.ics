@@ -10,25 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kuala_Lumpur
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-kuala-lumpur-my@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T212055Z
-DTEND:20261102T223714Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 05:22:39 and reappears at 06:35:22 +08\, 
- seen from Kuala Lumpur\, MY.\nThe Moon is 47° up in the ENE · dark sky.\
- nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at th
- e Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=3.1412&lon=
- 101.6865
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=3.1412&lon=101.6865
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-80335ddd578d-kuala-lumpur-my@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T152921Z

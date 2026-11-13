@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-968017f86a09-kaifeng-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T204701Z
-DTEND:20261102T204901Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 04:47:01 at the dark limb C
- ST\, seen from Kaifeng\, CN.\nThe Moon is 50° up in the ESE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-007d81a01220-kaifeng-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T102400Z

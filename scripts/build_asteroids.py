@@ -324,7 +324,8 @@ AST_CSS = """
     .night-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.3rem 0.8rem; flex-wrap: wrap; border-bottom: 1px solid var(--border); padding-bottom: 0.2rem; }
     .night-head h3 { font-size: 1.05rem; margin: 0; }
     .ast { display: grid; grid-template-columns: 132px 1fr; gap: 0.9rem; align-items: start; background: var(--card); border: 1px solid var(--border);
-           border-left: 3px solid var(--border); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 0.6rem 0; scroll-margin-top: 72px; }
+           border-left: 3px solid var(--border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.7rem 0; scroll-margin-top: 72px; }
+    .ast-top { font-size: 1rem; line-height: 1.35; }
     .ast[hidden] { display: none; }   /* display: grid above beats the browser's own [hidden] rule, and a filtered card came back */
     .ast.v-in { border-left-color: var(--c-visible); } .ast.v-near { border-left-color: var(--c-limit); }
     .ast.v-chance { border-left-color: color-mix(in srgb, var(--c-limit) 40%, transparent); }
@@ -335,30 +336,30 @@ AST_CSS = """
     .ast-lim { fill: none; stroke: var(--path-edge); stroke-width: 1.1px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
     .ast-cl { fill: none; stroke: var(--path-centre); stroke-width: 1.6px; vector-effect: non-scaling-stroke; }
     .ast-pin { fill: var(--c-limit); stroke: var(--card); stroke-width: 2.5; }
-    .ast-time { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+    .ast-time { font-weight: 600; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     /* the date only matters once the list stops running in date order */
-    .ast-day { font-weight: 700; font-size: 1.05rem; color: var(--muted); margin-right: 0.3rem; display: none; }
+    .ast-day { font-weight: 600; font-size: 1.05rem; color: var(--muted); margin-right: 0.3rem; display: none; }
     #ast-nights.flat .ast-day { display: inline; }
-    .ast-name { font-family: var(--serif); }
+    .ast-name { font-family: var(--display); }
     .ast-star { white-space: nowrap; }
-    .ast-you { font-size: 0.92rem; margin-top: 0.1rem; }
+    .ast-you { font-size: 0.92rem; margin-top: 0.3rem; }
     .ast-p { display: inline-block; font-size: 0.78rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text);
              border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; margin-right: 0.4rem; white-space: nowrap; }
     .ast-p:empty, .ast.v-out .ast-p { display: none; }   /* a plain miss says so in words; the event page still gives its number */
     .v-in .ast-you { color: var(--c-visible); font-weight: 600; } .v-near .ast-you { color: var(--c-limit); font-weight: 600; } .v-below .ast-you { color: var(--c-down); }
-    .ast-look { font-size: 0.78rem; color: var(--muted); }
+    .ast-look { font-size: 0.82rem; color: var(--muted); margin-top: 0.1rem; }
     /* the facts, one figure to a tile: a night's cards are scanned side by side, and a sentence of numbers cannot be */
-    .ast-stats { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.45rem; }
-    .st { display: flex; flex-direction: column; line-height: 1.2; padding: 0.15rem 0.45rem; border: 1px solid var(--border);
+    .ast-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.2rem, 1fr)); gap: 0.35rem; margin-top: 0.65rem; padding-top: 0.65rem; border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
+    .st { display: flex; flex-direction: column; gap: 0.1rem; line-height: 1.2; padding: 0.3rem 0.5rem; border: 1px solid var(--border);
           border-radius: 8px; background: color-mix(in srgb, var(--text) 4%, transparent); }
-    .st b { font-size: 0.82rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
-    .st .k { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); white-space: nowrap; }
+    .st b { font-family: var(--display); font-size: 0.92rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .st .k { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
     .st-cam { border-style: dashed; } .st-cam b { color: var(--muted); font-weight: 500; }
     .v-in .st-travel b { color: var(--c-visible); } .v-near .st-travel b { color: var(--c-limit); }
     .v-chance .st-travel b { color: color-mix(in srgb, var(--c-limit) 70%, var(--text)); }
     .v-below .st-travel b { color: var(--c-down); }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }
-    .ast-more { display: inline-block; margin-top: 0.4rem; font-size: 0.78rem; color: var(--t-ast); }
+    .ast-more { display: inline-block; margin-top: 0.55rem; font-size: 0.82rem; color: var(--t-ast); }
     @media (pointer: coarse) { .ast-more { display: inline-flex; align-items: center; min-height: 44px; } }
     @media (max-width: 560px) { .ast { grid-template-columns: 92px 1fr; gap: 0.6rem; } .ast-map { width: 92px; } .cal-cell { min-height: 44px; }
       /* a narrow column wraps the tiles raggedly; two even ones read as a table instead */

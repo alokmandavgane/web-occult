@@ -10,43 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-75f82f9bda7f-paradeep@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203115Z
-DTEND:20261102T203315Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:01:15 at the dark limb I
- ST\, seen from Paradeep.\nThe Moon is 23° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-04-4004-list-ev-238720-paradeep@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261104T210928Z
-DTEND:20261104T211928Z
-SUMMARY:(4004) List'ev hides a mag 10.9 star (just outside the path) · 19%
-  chance
-DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Paradeep
- .\nThe edge is 12 km to the SW. A miss is likely\, but an edge timing is v
- ery valuable.\nChance of an occultation here: 19%\, allowing for the path'
- s 1σ of 14 km.\nClosest approach 02:44:28 IST\, give or take 1 s. The sta
- r is 67° up in the NNW · dark sky.\nIt fades 5.6 magnitudes for up to 2.
- 5 s on the centre line\, and the path is 25 km wide\, give or take 14 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-11-04-4004-list-ev-238720
-URL:https://occult.alokm.com/asteroid?e=2026-11-04-4004-list-ev-238720
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(4004) List'ev hides a mag 10.9 star (just outside the path) ·
-  19% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-09-16885-16885-902208-paradeep@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261109T184020Z

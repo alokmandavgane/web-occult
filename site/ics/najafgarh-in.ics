@@ -10,56 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-482d14b3aa6b-najafgarh-in@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202241Z
-DTEND:20261102T202441Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:52:41 at the dark limb I
- ST\, seen from Najafgarh\, IN.\nThe Moon is 14° up in the E · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-04-4004-list-ev-238720-najafgarh-in@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261104T211133Z
-DTEND:20261104T212133Z
-SUMMARY:(4004) List'ev hides a mag 10.9 star (just outside the path) · 17%
-  chance
-DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Najafgar
- h\, IN.\nThe edge is 13 km to the SW. A miss is likely\, but an edge timin
- g is very valuable.\nChance of an occultation here: 17%\, allowing for the
-  path's 1σ of 14 km.\nClosest approach 02:46:33 IST\, give or take 1 s. T
- he star is 78° up in the NNW · dark sky.\nIt fades 5.6 magnitudes for up
-  to 2.5 s on the centre line\, and the path is 25 km wide\, give or take 1
- 4 km.\nThe map\, the finder chart and the path as KML: https://occult.alok
- m.com/asteroid?e=2026-11-04-4004-list-ev-238720
-URL:https://occult.alokm.com/asteroid?e=2026-11-04-4004-list-ev-238720
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(4004) List'ev hides a mag 10.9 star (just outside the path) ·
-  17% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5fda1a536096-najafgarh-in@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215407Z
-DTEND:20261104T215607Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:24:07 at the dark limb I
- ST\, seen from Najafgarh\, IN.\nThe Moon is 8° up in the E · dark sky. B
- inoculars show it.\nEvery occultation this month\, for anywhere: https://o
- ccult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-d586c2dcffb4-najafgarh-in@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T150650Z

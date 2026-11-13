@@ -128,16 +128,21 @@ MS_CSS = """
     .night-sub { color: var(--muted); font-size: 0.8rem; }
     .night-body { display: grid; grid-template-columns: 124px 1fr; gap: 0.9rem; align-items: start; margin-top: 0.55rem; }
     .night-moon { width: 120px; height: 120px; }
-    .night-events { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
-    .ev { display: grid; grid-template-columns: 1.45rem 1fr; gap: 0.35rem; }
+    /* a night reads as a timetable: the heading ruled off, one event a row, each ruled off from the next, time first */
+    .night-head { padding-bottom: 0.55rem; border-bottom: 1px solid var(--border); }
+    .night-events { list-style: none; margin: 0; padding: 0; }
+    .ev { display: grid; grid-template-columns: 1.5rem 1fr; gap: 0.55rem; padding: 0.6rem 0; }
+    .ev:first-child { padding-top: 0.1rem; } .ev:last-child { padding-bottom: 0.1rem; }
+    .ev + .ev { border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
+    .ev-top { line-height: 1.35; } .ev-star { font-family: var(--display); margin-left: 0.25rem; }
     .ev-n { font-size: 0.7rem; font-weight: 700; color: #0b0e14; background: var(--muted); border-radius: 999px; width: 1.25rem; height: 1.25rem;
             display: inline-flex; align-items: center; justify-content: center; margin-top: 0.15rem; }
     .ev.lim-dark .ev-n { background: #67c9e6; }
     .ev.lim-bright .ev-n { background: #fbbf24; }
-    .ev-time { font-weight: 700; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+    .ev-time { font-weight: 600; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
     .ev-top small { color: var(--muted); white-space: nowrap; }
-    .ev-what { font-size: 0.9rem; }
-    .ev-meta { font-size: 0.78rem; color: var(--muted); }
+    .ev-what { font-size: 0.92rem; margin-top: 0.1rem; }
+    .ev-meta { font-size: 0.82rem; color: var(--muted); margin-top: 0.1rem; }
     @media (max-width: 560px) { .night-body { grid-template-columns: 92px 1fr; gap: 0.6rem; } .night-moon { width: 88px; height: 88px; } .cal-cell { min-height: 54px; } }
     @media (max-width: 360px) { .night-body { grid-template-columns: 1fr; } .night-moon { justify-self: center; } }
     .badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--c-limit); color: var(--c-limit); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.3rem; vertical-align: 0.1em; }

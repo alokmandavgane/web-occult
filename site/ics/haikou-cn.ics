@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-f8679611cf3c-haikou-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T210429Z
-DTEND:20261102T210629Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 05:04:29 at the dark limb C
- ST\, seen from Haikou\, CN.\nThe Moon is 53° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-5d265aa7aff7-haikou-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T171930Z

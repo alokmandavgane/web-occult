@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
-UID:star-6aa31611d7c8-madrid-es@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T024527Z
-DTEND:20261104T024727Z
-SUMMARY:The Moon hides HR 4207 · mag 6.4
-DESCRIPTION:HR 4207 (magnitude 6.4) reappears at 03:45:27 at the dark limb 
- CET\, seen from Madrid\, ES.\nThe Moon is 11° up in the E · dark sky. Bi
- noculars show it.\nEvery occultation this month\, for anywhere: https://oc
- cult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-e3da0dd0e464-madrid-es@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261113T185017Z

@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-nagpur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145301Z
-DTEND:20261102T150301Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star · 66% chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Nagpur.\
- nYou're inside the path\, 83 km from the centre line. The star vanishes fo
- r up to 6.2 s.\nChance of an occultation here: 66%\, allowing for the path
- 's 1σ of 21 km.\nClosest approach 20:28:01 IST\, give or take 2 s. The st
- ar is 42° up in the SSW · dark sky.\nIt fades 0.7 magnitudes for up to 1
- 3.1 s on the centre line\, and the path is 149 km wide\, give or take 21 k
- m.\nThe map\, the finder chart and the path as KML: https://occult.alokm.c
- om/asteroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star · 66% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-20aa5266e317-nagpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202628Z
-DTEND:20261102T202828Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:56:28 at the dark limb I
- ST\, seen from Nagpur.\nThe Moon is 15° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-10-4980-magomaev-478976-nagpur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261110T144110Z

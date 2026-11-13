@@ -10,37 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-5b8c3443c57c-madurai@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T201918Z
-DTEND:20261102T202118Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:49:18 at the dark limb I
- ST\, seen from Madurai.\nThe Moon is 11° up in the ENE · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-madurai@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T205253Z
-DTEND:20261102T214442Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:24:33 and reappears at 03:12:50 IST\, 
- seen from Madurai.\nThe Moon is 19° up in the ENE · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/jupiter-2026-11-02?city=Madurai
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Madurai
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-06-943-begonia-492928-madurai@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261106T211605Z

@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-02-543-charlotte-588672-vijayawada@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T140158Z
-DTEND:20261102T141158Z
-SUMMARY:(543) Charlotte hides a mag 12.1 star · 49% chance
-DESCRIPTION:(543) Charlotte hides a magnitude 12.1 star\, seen from Vijayaw
- ada.\nYou're inside the path\, 3 km from the centre line. The star vanishe
- s for up to 1.4 s.\nChance of an occultation here: 49%\, allowing for the 
- path's 1σ of 35 km.\nClosest approach 19:36:58 IST\, give or take 1 s. Th
- e star is 20° up in the SW · dark sky.\nIt fades 3.6 magnitudes for up t
- o 1.4 s on the centre line\, and the path is 46 km wide\, give or take 35 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-11-02-543-charlotte-588672
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-543-charlotte-588672
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(543) Charlotte hides a mag 12.1 star · 49% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-20aa5266e317-vijayawada@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202606Z
-DTEND:20261102T202806Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:56:06 at the dark limb I
- ST\, seen from Vijayawada.\nThe Moon is 16° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-1e3150bb3ec2-vijayawada@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T144951Z

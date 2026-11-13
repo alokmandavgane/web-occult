@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-db7d13037fd5-yunfu-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T210552Z
-DTEND:20261102T210752Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 05:05:52 at the dark limb C
- ST\, seen from Yunfu\, CN.\nThe Moon is 55° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-c886f9dcf57d-yunfu-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T172312Z

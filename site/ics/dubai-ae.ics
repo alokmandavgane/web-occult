@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Dubai
 BEGIN:VEVENT
-UID:star-5c18b33f9208-dubai-ae@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T002443Z
-DTEND:20261103T002643Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 04:24:43 at the dark limb +
- 04\, seen from Dubai\, AE.\nThe Moon is 46° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-f4be43bceae7-dubai-ae@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T195642Z

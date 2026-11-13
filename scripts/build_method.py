@@ -20,7 +20,7 @@ HOW_CSS = """
     .how td:first-child { font-weight: 600; min-width: 9rem; }
     .how ul { padding-left: 1.2rem; margin: 0.5rem 0 0.8rem; }
     .how li { margin: 0.35rem 0; }
-    .how h3 { font-family: var(--serif); font-size: 1.15rem; margin: 1.3rem 0 0.2rem; }
+    .how h3 { font-family: var(--display); font-size: 1.15rem; margin: 1.3rem 0 0.2rem; }
     .how .toc { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-size: 0.9rem; margin: 0.8rem 0 0; }
 """
 

@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Abidjan
 BEGIN:VEVENT
-UID:star-f472430e69b0-abidjan-ci@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T030943Z
-DTEND:20261103T031143Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:09:43 at the dark limb G
- MT\, seen from Abidjan\, CI.\nThe Moon is 26° up in the ENE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-5a9b16c62945-abidjan-ci@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261110T182325Z

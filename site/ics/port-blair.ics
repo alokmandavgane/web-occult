@@ -10,59 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-9e228df62d5b-port-blair@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202958Z
-DTEND:20261102T203158Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:59:58 at the dark limb I
- ST\, seen from Port Blair.\nThe Moon is 28° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-port-blair@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T211121Z
-DTEND:20261102T215657Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:43:48 and reappears at 03:24:15 IST\, 
- seen from Port Blair.\nThe Moon is 38° up in the E · dark sky.\nTimes ag
- ainst the real lunar limb.\nMap\, timings and the view at the Moon's edge:
-  https://occult.alokm.com/jupiter-2026-11-02?city=Port%20Blair
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Port%20Blair
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-05-614-pia-304704-port-blair@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261105T214506Z
-DTEND:20261105T215506Z
-SUMMARY:(614) Pia hides a mag 11.9 star · 67% chance
-DESCRIPTION:(614) Pia hides a magnitude 11.9 star\, seen from Port Blair.\n
- You're inside the path\, 4 km from the centre line. The star vanishes for 
- up to 2.9 s.\nChance of an occultation here: 67%\, allowing for the path's
-  1σ of 14 km.\nClosest approach 03:20:06 IST\, give or take 1 s. The star
-  is 77° up in the E · dark sky.\nIt fades 3.6 magnitudes for up to 2.9 s
-  on the centre line\, and the path is 29 km wide\, give or take 14 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2026-11-05-614-pia-304704
-URL:https://occult.alokm.com/asteroid?e=2026-11-05-614-pia-304704
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(614) Pia hides a mag 11.9 star · 67% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-06-943-begonia-492928-port-blair@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261106T211625Z

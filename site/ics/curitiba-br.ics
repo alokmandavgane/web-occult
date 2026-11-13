@@ -10,20 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VEVENT
-UID:star-fd850f801310-curitiba-br@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T074100Z
-DTEND:20261103T090104Z
-SUMMARY:The Moon hides Regulus (α Leo) · mag 1.3
-DESCRIPTION:Regulus (α Leo) (magnitude 1.3) disappears at 04:41:00 at the 
- bright limb and reappears at 06:01:04 at the dark limb -03\, seen from Cur
- itiba\, BR.\nThe Moon is 33° up in the NE · dusk. Binoculars show it.\nE
- very occultation this month\, for anywhere: https://occult.alokm.com/moon-
- stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-023456b7caff-curitiba-br@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261120T002114Z

@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:star-ce9c649ea514-adana-tr@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T000150Z
-DTEND:20261103T000350Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:01:50 at the dark limb +
- 03\, seen from Adana\, TR.\nThe Moon is 23° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-63f47b1c11de-adana-tr@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261130T220829Z

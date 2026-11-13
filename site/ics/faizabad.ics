@@ -10,54 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-921-jovita-807744-faizabad@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T130029Z
-DTEND:20261101T131029Z
-SUMMARY:(921) Jovita hides a mag 13.3 star · 54% chance
-DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Faizabad.\
- nYou're inside the path\, 21 km from the centre line. The star vanishes fo
- r up to 1.4 s.\nChance of an occultation here: 54%\, allowing for the path
- 's 1σ of 32 km.\nClosest approach 18:35:29 IST\, give or take 1 s. The st
- ar is 43° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.
- 8 s on the centre line\, and the path is 55 km wide\, give or take 32 km.\
- nThe map\, the finder chart and the path as KML: https://occult.alokm.com/
- asteroid?e=2026-11-01-921-jovita-807744
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(921) Jovita hides a mag 13.3 star · 54% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-20aa5266e317-faizabad@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202658Z
-DTEND:20261102T202858Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:56:58 at the dark limb I
- ST\, seen from Faizabad.\nThe Moon is 19° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c76a17861039-faizabad@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215322Z
-DTEND:20261104T215522Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:23:22 at the dark limb I
- ST\, seen from Faizabad.\nThe Moon is 12° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-16194-roderick-432064-faizabad@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T140102Z

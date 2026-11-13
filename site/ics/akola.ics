@@ -10,43 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-akola@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145243Z
-DTEND:20261102T150243Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path) · 42%
-  chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Akola.\n
- The edge is 6 km to the SSE. A miss is likely\, but an edge timing is very
-  valuable.\nChance of an occultation here: 42%\, allowing for the path's 1
- σ of 21 km.\nClosest approach 20:27:43 IST\, give or take 2 s. The star i
- s 43° up in the SSW · dark sky.\nIt fades 0.7 magnitudes for up to 13.1 
- s on the centre line\, and the path is 149 km wide\, give or take 21 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path) ·
-  42% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-84d713bda452-akola@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202529Z
-DTEND:20261102T202729Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:55:29 at the dark limb I
- ST\, seen from Akola.\nThe Moon is 13° up in the E · dark sky. Binocular
- s show it.\nEvery occultation this month\, for anywhere: https://occult.al
- okm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-1746-brouwer-465280-akola@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T185631Z

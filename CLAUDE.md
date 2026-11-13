@@ -143,9 +143,22 @@ Rules that are easy to break:
   (its UID, spanning both, naming the companion). Jupiter/Saturn events stay out (too many). DTSTAMP and UIDs come
   from the data, so unchanged events rebuild byte-identical; feed slugs are public subscription URLs — never rename.
 - **Look** (`BASE_CSS` in `scripts/build_pages.py`): almanac paper by day (`--bg #f6f3ec`), night sky by night
-  (`#0c0f17`), lapis / moonlight accent, headings in a SYSTEM serif stack (`--serif`: Iowan Old Style, Palatino,
-  Charter, Georgia). No web fonts and no images beyond the shared map outlines and the Moon texture — keep the site's
-  weight where it is; a page's own requests are its hashed shared files and its data. The mark
+  (`#0c0f17`), lapis / moonlight accent, headings in a SYSTEM sans stack (`--display`, below). No web fonts and no images beyond the shared map outlines and the Moon texture — keep the site's
+  weight where it is; a page's own requests are its hashed shared files and its data. Everything decorative is CSS
+  and inline SVG: the top 640 px of every page is sky (`body::before`: a star tile from `stars_uri()` — fixed seed, so
+  the stylesheet rebuilds byte-identical — ink dots on paper by day, fading out before the reading starts); cards share
+  one `--shadow`; `.sky` re-declares the night tokens so a panel stays night in the light theme; page-to-page is a
+  0.16 s cross-fade (`@view-transition`). The home page's hero (`hero_scene()`) is such a plate: stars drift west behind
+  a waxing crescent, go out at the dark limb and return at the bright one, with rings timed from the geometry at the
+  three bright stars' contacts — only whole elements' transform and opacity animate, so it stays on the compositor;
+  don't move the animation onto nodes inside the Moon's SVG (its mask and blur would repaint every frame). Each kind's
+  icon sits in a `.lens` (an eyepiece, always night, ringed in the kind's colour) and acts out its event in the
+  "Coming up" tiles only. All motion stops under `prefers-reduced-motion`. Display type is a system sans at weight 500–600 (`--display`: Avenir Next, Segoe UI Variable
+  Display, system-ui — still no font file; the link-preview images use Avenir Next too). `head()` puts the page's kind
+  on `<html>` (`t-occ`, `t-ms`, `t-ast`, `t-jup`, `t-sat`, from its `og` key), so every card carries a faint wash of
+  `--tc`. The moons' diagram and the Moon's-edge diagram (`.config-svg`, `.limb-svg`) are night plates with stars in
+  both themes — they take the `.sky` tokens. The home page alone has a fixed backdrop of faint stars and two colour
+  washes (`body::after`). The mark
   (`MARK_SVG`, favicon `FAVICON`) is a crescent with a star just off its dark limb. The ONE exception to "no outside
   requests" is `site/asteroid.html`, which loads Leaflet from cdnjs (SRI-pinned) and OpenStreetMap tiles for its slippy
   map; every other page fetches nothing but the site's own files.

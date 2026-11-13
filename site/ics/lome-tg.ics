@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Africa/Lome
 BEGIN:VEVENT
-UID:star-b31d75615095-lome-tg@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T032120Z
-DTEND:20261103T032320Z
-SUMMARY:The Moon hides ν Leo · mag 5.3
-DESCRIPTION:ν Leo (magnitude 5.3) reappears at 03:21:20 at the dark limb G
- MT\, seen from Lomé\, TG.\nThe Moon is 34° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-565ca908c93c-lome-tg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T010526Z

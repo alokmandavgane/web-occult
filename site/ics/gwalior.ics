@@ -10,56 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-921-jovita-807744-gwalior@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T130018Z
-DTEND:20261101T131018Z
-SUMMARY:(921) Jovita hides a mag 13.3 star (just outside the path) · 37% c
- hance
-DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Gwalior.\n
- The edge is 11 km to the N. A miss is likely\, but an edge timing is very 
- valuable.\nChance of an occultation here: 37%\, allowing for the path's 1
- σ of 32 km.\nClosest approach 18:35:18 IST\, give or take 1 s. The star i
- s 46° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 s 
- on the centre line\, and the path is 55 km wide\, give or take 32 km.\nThe
-  map\, the finder chart and the path as KML: https://occult.alokm.com/aste
- roid?e=2026-11-01-921-jovita-807744
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(921) Jovita hides a mag 13.3 star (just outside the path) · 3
- 7% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-834f0938899a-gwalior@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202451Z
-DTEND:20261102T202651Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:54:51 at the dark limb I
- ST\, seen from Gwalior.\nThe Moon is 15° up in the E · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-907ffa0b38d5-gwalior@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215034Z
-DTEND:20261104T215234Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:20:34 at the dark limb I
- ST\, seen from Gwalior.\nThe Moon is 8° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-16194-roderick-432064-gwalior@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T140117Z

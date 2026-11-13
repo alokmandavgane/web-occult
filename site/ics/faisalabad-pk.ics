@@ -10,43 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Karachi
 BEGIN:VEVENT
-UID:star-efda576b2831-faisalabad-pk@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T201733Z
-DTEND:20261102T201933Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:17:33 at the dark limb P
- KT\, seen from Faisalabad\, PK.\nThe Moon is 10° up in the E · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-04-4004-list-ev-238720-faisalabad-pk@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261104T211220Z
-DTEND:20261104T212220Z
-SUMMARY:(4004) List'ev hides a mag 10.9 star (just outside the path) · 17%
-  chance
-DESCRIPTION:(4004) List'ev hides a magnitude 10.9 star\, seen from Faisalab
- ad\, PK.\nThe edge is 13 km to the SW. A miss is likely\, but an edge timi
- ng is very valuable.\nChance of an occultation here: 17%\, allowing for th
- e path's 1σ of 14 km.\nClosest approach 02:17:20 PKT\, give or take 1 s. 
- The star is 82° up in the N · dark sky.\nIt fades 5.6 magnitudes for up 
- to 2.5 s on the centre line\, and the path is 25 km wide\, give or take 14
-  km.\nThe map\, the finder chart and the path as KML: https://occult.alokm
- .com/asteroid?e=2026-11-04-4004-list-ev-238720
-URL:https://occult.alokm.com/asteroid?e=2026-11-04-4004-list-ev-238720
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(4004) List'ev hides a mag 10.9 star (just outside the path) ·
-  17% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-4fa287f463fe-faisalabad-pk@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T201913Z

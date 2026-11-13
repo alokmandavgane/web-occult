@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-789535a973b4-jiangyin-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T210149Z
-DTEND:20261102T210349Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 05:01:49 at the dark limb C
- ST\, seen from Jiangyin\, CN.\nThe Moon is 58° up in the ESE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-2fa7ece8c327-jiangyin-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261124T093854Z

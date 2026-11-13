@@ -10,54 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-921-jovita-807744-kanpur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T130024Z
-DTEND:20261101T131024Z
-SUMMARY:(921) Jovita hides a mag 13.3 star · 57% chance
-DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Kanpur.\nY
- ou're inside the path\, 16 km from the centre line. The star vanishes for 
- up to 1.6 s.\nChance of an occultation here: 57%\, allowing for the path's
-  1σ of 32 km.\nClosest approach 18:35:24 IST\, give or take 1 s. The star
-  is 45° up in the SW · dark sky.\nIt fades 2.2 magnitudes for up to 1.8 
- s on the centre line\, and the path is 55 km wide\, give or take 32 km.\nT
- he map\, the finder chart and the path as KML: https://occult.alokm.com/as
- teroid?e=2026-11-01-921-jovita-807744
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(921) Jovita hides a mag 13.3 star · 57% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-84d713bda452-kanpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202558Z
-DTEND:20261102T202758Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:55:58 at the dark limb I
- ST\, seen from Kanpur.\nThe Moon is 17° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9fa776ed1b02-kanpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215152Z
-DTEND:20261104T215352Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:21:52 at the dark limb I
- ST\, seen from Kanpur.\nThe Moon is 10° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-16194-roderick-432064-kanpur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T140109Z

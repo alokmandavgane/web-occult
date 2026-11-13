@@ -10,56 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-75f82f9bda7f-bhagalpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203110Z
-DTEND:20261102T203310Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:01:10 at the dark limb I
- ST\, seen from Bhagalpur.\nThe Moon is 24° up in the E · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c76a17861039-bhagalpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215337Z
-DTEND:20261104T215537Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:23:37 at the dark limb I
- ST\, seen from Bhagalpur.\nThe Moon is 17° up in the E · dark sky. Binoc
- ulars show it.\nEvery occultation this month\, for anywhere: https://occul
- t.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-05-1984-fedynskij-598656-bhagalpur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261105T224532Z
-DTEND:20261105T225532Z
-SUMMARY:(1984) Fedynskij hides a mag 12.7 star (just outside the path) · 4
- 5% chance
-DESCRIPTION:(1984) Fedynskij hides a magnitude 12.7 star\, seen from Bhagal
- pur.\nThe edge is 2 km to the S. A miss is likely\, but an edge timing is 
- very valuable.\nChance of an occultation here: 45%\, allowing for the path
- 's 1σ of 17 km.\nClosest approach 04:20:32 IST\, give or take 2 s. The st
- ar is 61° up in the W · dark sky.\nIt fades 3.7 magnitudes for up to 5.1
-  s on the centre line\, and the path is 36 km wide\, give or take 17 km.\n
- The map\, the finder chart and the path as KML: https://occult.alokm.com/a
- steroid?e=2026-11-05-1984-fedynskij-598656
-URL:https://occult.alokm.com/asteroid?e=2026-11-05-1984-fedynskij-598656
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1984) Fedynskij hides a mag 12.7 star (just outside the path) 
- · 45% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-06-2330-ontake-223872-bhagalpur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261106T214855Z

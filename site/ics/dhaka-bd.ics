@@ -10,54 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Dhaka
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-dhaka-bd@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145426Z
-DTEND:20261102T150426Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star · 99% chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Dhaka\, 
- BD.\nYou're inside the path\, 35 km from the centre line. The star vanishe
- s for up to 12.5 s.\nChance of an occultation here: 99%\, allowing for the
-  path's 1σ of 21 km.\nClosest approach 20:59:26 +06\, give or take 2 s. T
- he star is 33° up in the SW · dark sky.\nIt fades 0.7 magnitudes for up 
- to 13.1 s on the centre line\, and the path is 149 km wide\, give or take 
- 21 km.\nThe map\, the finder chart and the path as KML: https://occult.alo
- km.com/asteroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star · 99% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-695c73f3dbb5-dhaka-bd@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203436Z
-DTEND:20261102T203636Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:34:36 at the dark limb +
- 06\, seen from Dhaka\, BD.\nThe Moon is 28° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c76a17861039-dhaka-bd@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215308Z
-DTEND:20261104T215508Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:53:08 at the dark limb +
- 06\, seen from Dhaka\, BD.\nThe Moon is 20° up in the E · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a6f081bd4d31-dhaka-bd@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145835Z

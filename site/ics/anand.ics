@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-f49f70121e65-anand@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202346Z
-DTEND:20261102T202546Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:46 at the dark limb I
- ST\, seen from Anand.\nThe Moon is 9° up in the E · dark sky. Binoculars
-  show it.\nEvery occultation this month\, for anywhere: https://occult.alo
- km.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-05-1984-fedynskij-598656-anand@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261105T224830Z
-DTEND:20261105T225830Z
-SUMMARY:(1984) Fedynskij hides a mag 12.7 star · 72% chance
-DESCRIPTION:(1984) Fedynskij hides a magnitude 12.7 star\, seen from Anand.
- \nYou're inside the path\, 0 km from the centre line. The star vanishes fo
- r up to 4.8 s.\nChance of an occultation here: 72%\, allowing for the path
- 's 1σ of 17 km.\nClosest approach 04:23:30 IST\, give or take 2 s. The st
- ar is 74° up in the WSW · dark sky.\nIt fades 3.7 magnitudes for up to 5
- .1 s on the centre line\, and the path is 36 km wide\, give or take 17 km.
- \nThe map\, the finder chart and the path as KML: https://occult.alokm.com
- /asteroid?e=2026-11-05-1984-fedynskij-598656
-URL:https://occult.alokm.com/asteroid?e=2026-11-05-1984-fedynskij-598656
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1984) Fedynskij hides a mag 12.7 star · 72% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-12-780-armenia-852928-anand@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261112T132730Z

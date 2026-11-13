@@ -10,25 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-auckland-nz@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261103T001015Z
-DTEND:20261103T003420Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 13:13:22 and reappears at 13:31:18 NZDT\,
-  seen from Auckland\, NZ.\nThe Moon is 4° up in the WNW · daylight\, Sun
-  +68°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
- ew at the Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-36
- .8485&lon=174.7635
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-36.8485&lon=174.7635
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-f4b2c6cdfecc-auckland-nz@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261111T052720Z

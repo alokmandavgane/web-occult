@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-0b69c4cc2925-changde-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T205746Z
-DTEND:20261102T205946Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 04:57:46 at the dark limb C
- ST\, seen from Changde\, CN.\nThe Moon is 52° up in the ESE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-37b2cd6220ea-changde-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261127T171840Z

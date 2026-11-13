@@ -10,56 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Dhaka
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-khulna-bd@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145422Z
-DTEND:20261102T150422Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star (just outside the path) · 41%
-  chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Khulna\,
-  BD.\nThe edge is 6 km to the NNW. A miss is likely\, but an edge timing i
- s very valuable.\nChance of an occultation here: 41%\, allowing for the pa
- th's 1σ of 21 km.\nClosest approach 20:59:22 +06\, give or take 2 s. The 
- star is 34° up in the SW · dark sky.\nIt fades 0.7 magnitudes for up to 
- 13.1 s on the centre line\, and the path is 149 km wide\, give or take 21 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star (just outside the path) ·
-  41% chance
-TRIGGER:-PT90M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5b7b8af320a6-khulna-bd@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T203355Z
-DTEND:20261102T203555Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 02:33:55 at the dark limb +
- 06\, seen from Khulna\, BD.\nThe Moon is 27° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-1f8be2d992e3-khulna-bd@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T214904Z
-DTEND:20261104T215104Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:49:04 at the dark limb +
- 06\, seen from Khulna\, BD.\nThe Moon is 18° up in the E · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-6608e30408fc-khulna-bd@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T145756Z

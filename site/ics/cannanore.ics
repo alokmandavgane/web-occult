@@ -10,59 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-ead279259295-cannanore@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202111Z
-DTEND:20261102T202311Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:11 at the dark limb I
- ST\, seen from Cannanore.\nThe Moon is 9° up in the ENE · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-cannanore@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T205514Z
-DTEND:20261102T213540Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:27:19 and reappears at 03:03:24 IST\, 
- seen from Cannanore.\nThe Moon is 17° up in the E · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/jupiter-2026-11-02?city=Cannanore
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Cannanore
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-03-1317-silvretta-674624-cannanore@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261103T174729Z
-DTEND:20261103T175729Z
-SUMMARY:(1317) Silvretta hides a mag 12.4 star · 40% chance
-DESCRIPTION:(1317) Silvretta hides a magnitude 12.4 star\, seen from Cannan
- ore.\nYou're inside the path\, 5 km from the centre line. The star vanishe
- s for up to 1.5 s.\nChance of an occultation here: 40%\, allowing for the 
- path's 1σ of 16 km.\nClosest approach 23:22:29 IST\, give or take 1 s. Th
- e star is 75° up in the NW · dark sky.\nIt fades 1.6 magnitudes for up t
- o 1.8 s on the centre line\, and the path is 18 km wide\, give or take 16 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-11-03-1317-silvretta-674624
-URL:https://occult.alokm.com/asteroid?e=2026-11-03-1317-silvretta-674624
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(1317) Silvretta hides a mag 12.4 star · 40% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-068f53b8255f-cannanore@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T144126Z

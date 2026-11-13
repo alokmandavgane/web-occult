@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
-UID:star-f9643a5a4e14-zhengzhou-cn@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T204637Z
-DTEND:20261102T204837Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 04:46:37 at the dark limb C
- ST\, seen from Zhengzhou\, CN.\nThe Moon is 49° up in the ESE · dark sky
- . Binoculars show it.\nEvery occultation this month\, for anywhere: https:
- //occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-c07ac9b256f3-zhengzhou-cn@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T102154Z

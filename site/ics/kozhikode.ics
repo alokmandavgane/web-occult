@@ -10,37 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-406237ecd910-kozhikode@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202039Z
-DTEND:20261102T202239Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:50:39 at the dark limb I
- ST\, seen from Kozhikode.\nThe Moon is 9° up in the ENE · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-kozhikode@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T205405Z
-DTEND:20261102T213805Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:25:58 and reappears at 03:06:02 IST\, 
- seen from Kozhikode.\nThe Moon is 17° up in the E · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/jupiter-2026-11-02?city=Kozhikode
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Kozhikode
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-09-379-huenna-097792-kozhikode@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261109T223054Z

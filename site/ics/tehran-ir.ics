@@ -10,19 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:star-e7031ff373b1-tehran-ir@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T001725Z
-DTEND:20261103T001925Z
-SUMMARY:The Moon hides 23 Leo · mag 6.5
-DESCRIPTION:23 Leo (magnitude 6.5) reappears at 03:47:25 at the dark limb +
- 0330\, seen from Tehran\, IR.\nThe Moon is 39° up in the ESE · dark sky.
-  Binoculars show it.\nEvery occultation this month\, for anywhere: https:/
- /occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-ad1cdc6afc7a-tehran-ir@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261128T194845Z

@@ -252,20 +252,38 @@ BASE_CSS = """
             --sea: #eaeef0; --land: #e3ddcf; --land-line: #c8bfad;
             --c-visible: #2f7a3e; --c-miss: #b83a2e; --c-down: #a39e92; --c-limit: #c26a0a; --c-night: #6a4bb0;
             --region: rgba(47,85,151,0.18); --region-line: rgba(47,85,151,0.55); --night: rgba(106,75,176,0.18);
-            --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Charter, Georgia, serif; }
+            --display: "Avenir Next", "Segoe UI Variable Display", "Segoe UI", system-ui, Roboto, "Helvetica Neue", sans-serif;
+            --t-occ: #a4600c; --t-ms: #1b6f86; --t-ast: #a8324e; --t-jup: #6a44a8; --t-sat: #2f7a55;
+            --shadow: 0 1px 2px rgba(70,55,25,0.05), 0 12px 28px -20px rgba(70,55,25,0.4);
+            --sky-top: rgba(47,85,151,0.06); --stars: @STARS_DAY@; }
     @media (prefers-color-scheme: dark) { :root {
             --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50;
             --text: #ece8dd; --muted: #9aa0ae; --accent: #a9c1f0;
             --sea: #090c13; --land: #1c2230; --land-line: #343d52;
             --c-visible: #6fd394; --c-miss: #f08a7e; --c-down: #6b7180; --c-limit: #f2b54a; --c-night: #c3b4f5;
-            --region: rgba(169,193,240,0.18); --region-line: rgba(169,193,240,0.55); --night: rgba(195,180,245,0.2); } }
+            --region: rgba(169,193,240,0.18); --region-line: rgba(169,193,240,0.55); --night: rgba(195,180,245,0.2);
+            --shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 16px 34px -22px #000;
+            --sky-top: rgba(74,104,196,0.17); --stars: @STARS_NIGHT@;
+            --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-ast: #f08aa3; --t-jup: #c3b1f5; --t-sat: #6fd394; } }
+    /* .sky: a plate of the night, whatever the page's theme. The home page's hero and the icons' eyepieces wear it. */
+    .sky, .config-svg, .limb-svg { color-scheme: dark; --bg: #0c0f17; --card: #131826; --card-2: #1a2030; --border: #222a3b; --line: #313a50; --sea: #090c13;
+           --text: #ece8dd; --muted: #a3a9b8; --accent: #a9c1f0; --c-limit: #f2b54a; --c-miss: #f08a7e; --stars: @STARS_NIGHT@; color: var(--text);
+           --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-ast: #f08aa3; --t-jup: #c3b1f5; --t-sat: #6fd394; }
+    /* a page wears its kind's colour (head() puts the class on <html>): --tc on the page, --tn at night, inside an eyepiece */
+    .t-occ { --tc: var(--t-occ); --tn: #f2b54a; } .t-ms { --tc: var(--t-ms); --tn: #6cc7e0; } .t-ast { --tc: var(--t-ast); --tn: #f08aa3; }
+    .t-jup { --tc: var(--t-jup); --tn: #c3b1f5; } .t-sat { --tc: var(--t-sat); --tn: #6fd394; }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { -webkit-text-size-adjust: 100%; }
-    body { background: radial-gradient(ellipse 900px 420px at 88% -180px, color-mix(in srgb, var(--accent) 10%, transparent), transparent 72%) no-repeat, var(--bg);
-           color: var(--text); line-height: 1.55; padding-bottom: 4rem;
+    body { background: var(--bg); position: relative; color: var(--text); line-height: 1.55; padding-bottom: 4rem;
            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
            font-feature-settings: "tnum"; }
-    a { color: var(--accent); text-decoration: none; }
+    /* the top of every page is sky: stars (ink dots on paper by day), the Moon's glow from the corner, fading out before the reading starts */
+    body::before { content: ""; position: absolute; z-index: -1; inset: 0 0 auto; height: 640px; pointer-events: none;
+                   background: var(--stars) 50% 0 / 640px 640px,
+                               radial-gradient(ellipse 900px 420px at 88% -180px, color-mix(in srgb, var(--accent) 15%, transparent), transparent 72%) no-repeat,
+                               linear-gradient(var(--sky-top), transparent 75%);
+                   -webkit-mask-image: linear-gradient(#000 30%, transparent); mask-image: linear-gradient(#000 30%, transparent); }
+    a { color: var(--accent); text-decoration: none; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
     a:hover { text-decoration: underline; }
     header.site { padding: 1.1rem 1rem; }
     .site-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; max-width: 860px; margin: 0 auto; }
@@ -274,10 +292,12 @@ BASE_CSS = """
     .brand svg { width: 1.1em; height: 1.1em; }
     .tagline { color: var(--muted); font-size: 0.85rem; }
     .wrap { max-width: 860px; margin: 0 auto; padding: 0 1rem; }
-    h1 { font-family: var(--serif); font-size: clamp(1.7rem, 4.2vw, 2.35rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.005em; margin: 1.6rem 0 0.35rem; }
+    h1 { font-family: var(--display); font-size: clamp(1.75rem, 4.6vw, 2.6rem); font-weight: 500; line-height: 1.08; letter-spacing: -0.026em; margin: 1.6rem 0 0.4rem; text-wrap: balance; }
     .sub { color: var(--muted); }
-    h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; }
+    h2 { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 2rem 0 0.7rem; overflow: hidden; }
+    h2::after { content: ""; display: inline-block; width: 100%; height: 1px; margin: 0 -100% 0 0.9rem; vertical-align: middle; background: linear-gradient(90deg, var(--line), transparent 90%); }
     p { margin: 0.55rem 0; }
+    b, strong { font-weight: 600; }   /* one step down from bold: a headline, not a shout */
     .lead { font-size: 1.1rem; margin-top: 1rem; }
     .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.6rem; margin: 1.2rem 0; }
     .fact { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 0.9rem; }
@@ -286,7 +306,7 @@ BASE_CSS = """
     .facts-main .fact-value { font-size: 1.45rem; white-space: nowrap; }
     .meta { color: var(--muted); font-size: 0.88rem; }
     .fact-label { font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
-    .fact-value { font-size: 1.3rem; font-weight: 700; margin-top: 0.15rem; letter-spacing: -0.01em; }
+    .fact-value { font-family: var(--display); font-size: 1.3rem; font-weight: 600; margin-top: 0.15rem; letter-spacing: -0.015em; }
     .fact-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
     .map-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem; }
     .occ-svg { width: 100%; height: auto; display: block; border-radius: 8px; }
@@ -327,8 +347,10 @@ BASE_CSS = """
     tr.nearest td { background: rgba(217,119,6,0.12); }
     details { border-top: 1px solid var(--border); }
     summary { cursor: pointer; color: var(--accent); font-size: 0.9rem; padding: 0.6rem 0.75rem; }
-    .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
-    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.85rem; cursor: pointer;
+           transition: border-color 0.15s, color 0.15s, box-shadow 0.15s, transform 0.1s; }
+    .btn:hover { border-color: var(--accent); color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent); }
+    .btn:active { transform: translateY(1px); }
     .method { font-size: 0.85rem; color: var(--muted); }
     .limb-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.8rem; max-width: 480px; margin: 0.6rem auto; }
     .limb-controls { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.9rem; }
@@ -362,7 +384,7 @@ BASE_CSS = """
     .gz-ev { stroke: var(--accent); stroke-width: 1; stroke-dasharray: 2 2; }
     .gz-lbl { font: 500 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--muted); }
     .gz-cap { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--text); }
-    .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+    .subnav { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 72%, transparent); backdrop-filter: blur(14px) saturate(1.4); -webkit-backdrop-filter: blur(14px) saturate(1.4); border-bottom: 1px solid var(--border); }
     .subnav-row { max-width: 860px; margin: 0 auto; padding: 0.45rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
     .subnav-links { display: flex; gap: 0.2rem; overflow-x: auto; scrollbar-width: none; }
     .subnav-links::-webkit-scrollbar { display: none; }
@@ -370,7 +392,8 @@ BASE_CSS = """
     .subnav-links a:hover { text-decoration: none; color: var(--text); }
     .subnav-links a.active { color: var(--text); background: var(--card-2); }
     .chip { display: inline-flex; align-items: center; gap: 0.4rem; max-width: 55vw; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.7rem 0.3rem 0.5rem; font: inherit; font-size: 0.85rem; color: var(--text); cursor: pointer; white-space: nowrap; overflow: hidden; }
-    .chip:hover { border-color: var(--accent); }
+    .chip { transition: border-color 0.15s, box-shadow 0.15s; }
+    .chip:hover { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent); }
     .chip-pin { font-size: 0.9em; }
     .chip-sub { color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; }
     .chip-sub:empty { display: none; }
@@ -381,7 +404,8 @@ BASE_CSS = """
     .sheet-hint { color: var(--muted); font-size: 0.82rem; margin: 0; }
     .sheet label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; }
     .sheet select { flex: 1; }
-    .btn-primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    .btn-primary, .btn-primary:hover { background: linear-gradient(color-mix(in srgb, var(--accent) 84%, #fff), var(--accent)); color: var(--bg); border-color: var(--accent); }
+    .btn-primary { box-shadow: 0 8px 18px -10px var(--accent); }
     @media (max-width: 600px) { .sheet { margin: auto 0 0; width: 100%; max-width: none; border-radius: 16px 16px 0 0; } }
     .hint { color: var(--muted); font-size: 0.85rem; }
     tr.yours td { background: color-mix(in srgb, var(--c-limit) 14%, transparent); }
@@ -397,21 +421,42 @@ BASE_CSS = """
     .pin-ring { fill: none; stroke: var(--c-limit); stroke-width: 2; } .pin-dot { fill: var(--c-limit); }
     .event-list { list-style: none; display: grid; gap: 0.7rem; margin: 0.6rem 0; }
     .event-card { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1rem 1.1rem; color: var(--text); }
-    .event-card:hover { border-color: var(--accent); text-decoration: none; }
+    .event-card { transition: border-color 0.15s, transform 0.15s; }
+    .event-card:hover { border-color: var(--accent); text-decoration: none; transform: translateY(-1px); }
     .event-card .when { color: var(--muted); font-size: 0.85rem; }
     .event-card .what { font-size: 1.2rem; font-weight: 700; letter-spacing: -0.01em; margin: 0.15rem 0; }
     .event-card .note { color: var(--muted); font-size: 0.92rem; }
     .event-list-months { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
     .event-list-months .event-card .what { font-size: 1rem; }
     footer { max-width: 860px; margin: 3rem auto 0; padding: 1.2rem 1rem 0; font-size: 0.82rem; color: var(--muted); border-top: 1px solid var(--border); }
-    /* character: serif display lines, the mark's star in the limit colour, quiet focus and selection */
-    .brand, .night-head h3, .feed-city, .sheet-title, .event-card .what { font-family: var(--serif); letter-spacing: 0; }
+    /* character: display lines in a modern sans each system already has (no font file), the mark's star in the limit colour, quiet focus and selection */
+    .brand, .night-head h3, .feed-city, .sheet-title, .event-card .what { font-family: var(--display); font-weight: 600; letter-spacing: -0.012em; }
     .brand { font-size: 1.2rem; }
     .brand .mark-star { fill: var(--c-limit); }
     h2 { letter-spacing: 0.12em; }
     ::selection { background: color-mix(in srgb, var(--accent) 26%, transparent); }
     :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
-    footer { border-top-style: dotted; }
+    footer { border-top-style: dotted; position: relative; }
+    footer::before { content: ""; position: absolute; top: -4px; left: 1rem; width: 7px; height: 7px; transform: rotate(45deg); background: var(--c-limit); box-shadow: 0 0 0 4px var(--bg); }
+    /* surfaces lift off the page: one shadow for every card, whichever builder made it */
+    .fact, .map-card, .table-wrap, .limb-card, .graze-card, .event-card, .night, .config-card, .ast, .feed-card, .sheet { box-shadow: var(--shadow); }
+    /* and carries a faint wash of the page's kind colour from its top-left corner, as the home page's tiles do */
+    html :is(.fact, .map-card, .limb-card, .graze-card, .event-card, section.night, .config-card, .ast, .feed-card) { border-radius: 16px;
+      background: radial-gradient(120% 90% at 0 0, color-mix(in srgb, var(--tc, var(--accent)) 8%, transparent), transparent 58%), var(--card); }
+    html .facts-main .fact { border-color: color-mix(in srgb, var(--tc, var(--accent)) 70%, var(--border));
+      background: radial-gradient(120% 120% at 0 0, color-mix(in srgb, var(--tc, var(--accent)) 16%, transparent), transparent 70%), var(--card); }
+    /* the drawings of the sky are plates of night in both themes: the moons' diagram and the Moon's disc sit among stars */
+    html .limb-svg .lbl { fill: #dfe4f0; paint-order: stroke; stroke: #0b0e17; stroke-width: 3px; stroke-linejoin: round; }
+    html .config-svg, html .limb-svg { border-radius: 12px; background: var(--stars) 0 0 / 640px 640px, radial-gradient(90% 150% at 50% 50%, #161f3a, #0b0e17 78%); }
+    /* moving between pages is a short cross-fade, and the mark's star twinkles; neither for readers who asked for less motion */
+    @view-transition { navigation: auto; }
+    ::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.16s; }
+    @keyframes twinkle { 50% { opacity: 0.35; transform: scale(0.8); } }
+    .brand .mark-star { transform-box: fill-box; transform-origin: center; animation: twinkle 4.5s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      @view-transition { navigation: none; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
     /* phones: what a finger presses is at least 44 px tall, and the navigation bar fits a 375 px screen */
     @media (pointer: coarse) {
       .btn, .chip, .chipbox { min-height: 44px; }
@@ -437,6 +482,22 @@ BASE_CSS = """
     #main-map .city-label { font-size: calc(11px / var(--z)); stroke-width: calc(3px / var(--z)); }
     .map-reset { position: absolute; top: 1rem; right: 1rem; font-size: 0.8rem; box-shadow: 0 1px 4px rgba(0,0,0,0.25); }
 """
+
+
+def stars_uri(ink, dim=1.0):
+    """A 640 px tile of stars as an SVG data URI: three sizes of dot, each one path of zero-length strokes with round
+    caps (11 bytes a star). The seed is fixed, so the stylesheet is the same on every build."""
+    rnd = __import__("random").Random(1610)
+    paths = ""
+    for width, opacity, n in ((1.1, 0.55, 54), (1.7, 0.75, 20), (2.5, 0.9, 7)):
+        d = "".join(f"M{rnd.randrange(6, 634)} {rnd.randrange(6, 634)}h.01" for _ in range(n))
+        paths += f"<path d='{d}' stroke-width='{width}' opacity='{round(opacity * dim, 2)}'/>"
+    svg = (f"<svg xmlns='http://www.w3.org/2000/svg' width='640' height='640' fill='none' stroke='{ink}' "
+           f"stroke-linecap='round'>{paths}</svg>")
+    return 'url("data:image/svg+xml,' + svg.replace("#", "%23").replace("<", "%3C").replace(">", "%3E") + '")'
+
+
+BASE_CSS = BASE_CSS.replace("@STARS_DAY@", stars_uri("#1c1a16", 0.3)).replace("@STARS_NIGHT@", stars_uri("#dfe6f7"))
 
 
 OG = {   # link-preview image per kind of page: key -> (file in site/og/, alt text). Drawn by scripts/build_og.py.
@@ -657,8 +718,9 @@ def css_url():
 
 def head(title, desc, path, extra="", og="home"):
     url = f"{SITE}{path}"
+    kind = {"occ": "t-occ", "ms": "t-ms", "ast": "t-ast", "jupiter": "t-jup", "saturn": "t-sat"}.get(og)
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="en"{f' class="{kind}"' if kind else ''}>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1423,81 +1485,193 @@ def build(seed, slug):
 
 
 INDEX_CSS = """
-    :root { --t-occ: #a4600c; --t-ms: #1b6f86; --t-ast: #a8324e; --t-jup: #6a44a8; --t-sat: #2f7a55; }
-    @media (prefers-color-scheme: dark) { :root { --t-occ: #f2b54a; --t-ms: #6cc7e0; --t-ast: #f08aa3; --t-jup: #c3b1f5; --t-sat: #6fd394; } }
-    .t-occ { --tc: var(--t-occ); } .t-ms { --tc: var(--t-ms); } .t-ast { --tc: var(--t-ast); } .t-jup { --tc: var(--t-jup); } .t-sat { --tc: var(--t-sat); }
-    .home-h1 { margin-bottom: 0.3rem; }
-    .typenav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0 0.2rem; }
-    .typenav a { display: inline-flex; align-items: center; gap: 0.4rem; border: 1px solid var(--line); border-radius: 999px;
-                 padding: 0.25rem 0.75rem 0.25rem 0.4rem; font-size: 0.85rem; color: var(--text); background: var(--card); }
-    .typenav a:hover { border-color: var(--tc); text-decoration: none; }
+    .hero h1 { letter-spacing: -0.028em !important; line-height: 1.06; }
+    .tile-title, .kind-head h2 { letter-spacing: -0.015em !important; }
+    /* The plate: night whatever the theme. Stars drift west behind a waxing Moon, go out at its dark limb and come back at
+       the bright one. Only transforms and opacity of whole elements move, so the browser's compositor does all of it. */
+    .hero { position: relative; isolation: isolate; overflow: hidden; margin-top: 0.3rem; border: 1px solid #262f45; border-radius: 22px;
+            padding: 2.4rem 2rem 2rem; min-height: 330px; display: flex; flex-direction: column; justify-content: center;
+            background: var(--stars) 0 0 / 640px 640px, radial-gradient(85% 120% at 80% 48%, #17203a, #0e1322 50%, #080a11);
+            box-shadow: 0 30px 60px -36px rgba(8,12,28,0.9); }
+    .hero-scene { position: absolute; z-index: -1; inset: 0 0 0 auto; aspect-ratio: 600 / 340; }
+    .hero-drift { position: absolute; inset: 0; overflow: hidden;
+                  -webkit-mask-image: linear-gradient(90deg, transparent 6%, #000 40%); mask-image: linear-gradient(90deg, transparent 6%, #000 40%); }
+    .hero-drift svg { position: absolute; left: -50%; top: 0; width: 150%; height: 100%; animation: drift 30s linear infinite; }
+    @keyframes drift { to { transform: translateX(33.3333%); } }
+    .hero-moon { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+    .ping { position: absolute; width: 16px; height: 16px; margin: -8px 0 0 -8px; border-radius: 50%; border: 1.5px solid #f6c768; opacity: 0; animation: ping 30s linear infinite; }
+    .ping-r { border-color: #fff6dd; }
+    @keyframes ping { 0% { opacity: 0.95; transform: scale(0.3); } 4%, 100% { opacity: 0; transform: scale(2.4); } }
+    .hero-text { max-width: min(31rem, 56%); }
+    .hero h1 { margin: 0 0 0.6rem; color: #f6f1e4; font-weight: 500; letter-spacing: -0.015em; }
+    .hero .sub { font-size: 1.02rem; }
+    .typenav { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1.1rem 0 0; }
+    .typenav a { display: inline-flex; align-items: center; gap: 0.4rem; border: 1px solid rgba(255,255,255,0.16); border-radius: 999px;
+                 padding: 0.25rem 0.75rem 0.25rem 0.4rem; font-size: 0.85rem; color: var(--text); background: rgba(255,255,255,0.06);
+                 transition: border-color 0.15s, background 0.15s; }
+    .typenav a:hover { border-color: var(--tc); background: color-mix(in srgb, var(--tc) 14%, transparent); text-decoration: none; }
     .typenav svg { width: 22px; height: 22px; color: var(--tc); flex: none; }
-    .upnext { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 0.6rem; margin: 0.5rem 0 0.5rem; }
-    .tile { display: grid; grid-template-columns: 38px 1fr; gap: 0.1rem 0.7rem; align-items: start; background: var(--card);
-            border: 1px solid var(--border); border-top: 3px solid var(--tc); border-radius: 12px; padding: 0.75rem 0.85rem; color: var(--text); }
-    .tile:hover { text-decoration: none; border-color: var(--tc); }
-    .tile svg { width: 38px; height: 38px; color: var(--tc); grid-row: span 3; }
-    .tile-kicker { font-size: 0.68rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--tc); font-weight: 700; }
-    .tile-title { font-family: var(--serif); font-weight: 700; font-size: 1.08rem; line-height: 1.25; }
+    @media (max-width: 640px) {
+      .hero { display: block; padding: 0 1.2rem 1.4rem; min-height: 0; border-radius: 18px; }
+      .hero-scene { position: relative; inset: auto; width: calc(100% + 2.4rem); margin: 0 -1.2rem -1.6rem; }
+      .hero-text { max-width: none; }
+    }
+    /* an icon lives in an eyepiece: a round field of night with a ring in the kind's colour */
+    .lens { flex: none; display: grid; place-items: center; width: 54px; aspect-ratio: 1; border-radius: 50%; overflow: hidden; color: var(--tn);
+            background: radial-gradient(circle at 36% 30%, #1d2742, #0b0e17 72%);
+            box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--tn) 60%, transparent), 0 0 0 4px color-mix(in srgb, var(--tn) 13%, transparent); }
+    .lens svg { width: 74%; height: 74%; overflow: visible; }
+    .upnext { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.65rem; margin: 0.5rem 0; }
+    @media (max-width: 700px) { .upnext { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .tile { display: flex; flex-direction: column; gap: 0.1rem; border: 1px solid var(--border); border-radius: 16px; padding: 0.9rem 0.95rem 1rem; color: var(--text);
+            background: radial-gradient(130% 90% at 0 0, color-mix(in srgb, var(--tc) 11%, transparent), transparent 62%), var(--card);
+            box-shadow: var(--shadow); transition: transform 0.18s, border-color 0.18s, box-shadow 0.18s; }
+    .tile:hover { text-decoration: none; border-color: var(--tc); transform: translateY(-2px); box-shadow: 0 0 0 1px var(--tc), 0 18px 34px -22px var(--tc); }
+    .tile > .lens { margin: 0 0 0.65rem 4px; }
+    .tile-kicker { font-size: 0.68rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--tc); font-weight: 600; }
+    .tile-title { font-family: var(--display); font-weight: 500; font-size: 1.08rem; line-height: 1.25; }
     .tile-detail { color: var(--muted); font-size: 0.8rem; line-height: 1.35; margin-top: 0.1rem; }
-    .kind { margin: 2.4rem 0 0; padding-top: 1.3rem; border-top: 1px solid var(--border); scroll-margin-top: 12px; }
-    .kind-head { display: grid; grid-template-columns: 54px 1fr; gap: 0.2rem 0.9rem; align-items: start; }
-    .kind-head svg { width: 54px; height: 54px; color: var(--tc); grid-row: span 3; }
-    .kind-head h2 { margin: 0; font-family: var(--serif); font-size: 1.55rem; letter-spacing: 0; text-transform: none; color: var(--text); }
+    .tile-main { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 0.2rem 1.1rem; padding: 1.05rem 1.2rem; }
+    .tile-main > .lens { width: 76px; margin: 0 4px; }
+    .tile-body { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+    .tile-main .tile-title { font-size: 1.5rem; line-height: 1.15; }
+    .tile-in { font-family: var(--display); font-weight: 500; font-size: 1.05rem; color: var(--tc); white-space: nowrap;
+               border: 1px solid color-mix(in srgb, var(--tc) 45%, transparent); border-radius: 999px; padding: 0.2rem 0.85rem; }
+    .tile-in:empty { display: none; }
+    @media (max-width: 520px) { .tile-main { grid-template-columns: auto 1fr; padding: 0.95rem; } .tile-main > .lens { width: 60px; margin: 0 4px 0 4px; }
+                                .tile-main .tile-title { font-size: 1.25rem; } .tile-in { grid-column: 2; justify-self: start; font-size: 0.9rem; margin-top: 0.3rem; } }
+    /* the icons act out their event, in the tiles only: a star goes behind the Moon, stars twinkle, an asteroid crosses its
+       star, Jupiter's moons shuttle, a moon crosses Saturn */
+    .tile .i-occ { animation: i-occ 10s linear infinite; }
+    @keyframes i-occ { from { transform: translate(10px, -4.5px); } to { transform: translate(-38px, 17px); } }
+    .tile .i-tw { animation: twinkle 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .tile .i-tw.b { animation-delay: -1.1s; } .tile .i-tw.c { animation-delay: -2.2s; }
+    .tile .i-rock { animation: i-rock 9s linear infinite; }
+    .tile .i-blink { animation: i-blink 9s linear infinite; }
+    @keyframes i-rock { 0% { transform: translate(-9px, 5.3px); opacity: 0; } 12%, 88% { opacity: 1; } 100% { transform: translate(23px, -13.5px); opacity: 0; } }
+    @keyframes i-blink { 0%, 64% { opacity: 1; } 65%, 82% { opacity: 0.1; } 83%, 100% { opacity: 1; } }
+    .tile .i-j { animation: i-shut var(--p) ease-in-out infinite alternate; }
+    @keyframes i-shut { from { transform: translateX(calc(0px - var(--d))); } to { transform: translateX(var(--d)); } }
+    .tile .i-sat { animation: i-sat 7s ease-in-out infinite alternate; }
+    @keyframes i-sat { to { transform: translate(-28px, 20px); } }
+    .kind { margin: 2.6rem 0 0; padding-top: 1.4rem; scroll-margin-top: 12px;
+            background: linear-gradient(90deg, var(--tc, var(--line)), transparent 70%) 0 0 / 100% 1px no-repeat; }
+    .kind-head { display: grid; grid-template-columns: 62px 1fr; gap: 0.2rem 1rem; align-items: start; }
+    .kind-head .lens { width: 62px; grid-row: span 3; margin-top: 0.15rem; }
+    .kind-head h2 { margin: 0; font-family: var(--display); font-size: 1.6rem; font-weight: 500; letter-spacing: -0.005em; text-transform: none; color: var(--text); overflow: visible; }
+    .kind-head h2::after { content: none; }
     .kind-what { margin: 0.15rem 0 0; }
     .kind-facts { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin: 0.35rem 0 0; padding: 0; list-style: none; font-size: 0.82rem; color: var(--muted); }
     .kind-facts b { color: var(--tc); font-weight: 600; }
-    .evlist { list-style: none; margin: 1rem 0 0; border: 1px solid var(--border); border-left: 3px solid var(--tc); border-radius: 12px; background: var(--card); overflow: hidden; padding: 0; }
+    @media (max-width: 480px) { .kind-head { grid-template-columns: 48px 1fr; gap: 0.2rem 0.8rem; } .kind-head .lens { width: 48px; } }
+    .evlist { list-style: none; margin: 1rem 0 0; border: 1px solid var(--border); border-left: 3px solid var(--tc); border-radius: 14px; background: var(--card); overflow: hidden; padding: 0; box-shadow: var(--shadow); }
     .evlist li + li { border-top: 1px solid var(--border); }
-    .evlist .ev a { display: grid; grid-template-columns: 4.2rem 1fr auto; gap: 0.1rem 0.9rem; align-items: center; padding: 0.6rem 0.9rem; color: var(--text); }
-    .evlist .ev a:hover { background: var(--card-2); text-decoration: none; }
+    .evlist .ev a { display: grid; grid-template-columns: 4.4rem 1fr auto; gap: 0.1rem 0.9rem; align-items: center; padding: 0.65rem 0.9rem; color: var(--text); transition: background 0.15s; }
+    .evlist .ev a:hover { background: color-mix(in srgb, var(--tc) 9%, var(--card)); text-decoration: none; }
     .ev-date { display: flex; flex-direction: column; line-height: 1.15; }
-    .ev-dmy { font-weight: 700; font-size: 1rem; font-variant-numeric: tabular-nums; }
+    .ev-dmy { font-family: var(--display); font-weight: 500; font-size: 1.1rem; font-variant-numeric: tabular-nums; }
     .ev-y { font-size: 0.72rem; color: var(--muted); }
-    .ev-what { font-weight: 600; display: block; }
+    .ev-what { font-weight: 500; display: block; }
     .ev-note { color: var(--muted); font-size: 0.82rem; display: block; margin-top: 0.1rem; }
     .tags { display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem; }
     .tag { display: inline-block; font-size: 0.66rem; letter-spacing: 0.05em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 999px; padding: 0 0.45rem; color: var(--muted); }
     .tag-planet { border-color: var(--tc); color: var(--tc); }
     .ev.past a { opacity: 0.45; }
     .ev-more { margin: 0.6rem 0 0; }
-    @media (max-width: 560px) { .evlist .ev a { grid-template-columns: 3.6rem 1fr; } .tags { grid-column: 2; flex-direction: row; align-items: center; } .ev-note { display: none; } }
+    @media (max-width: 560px) { .evlist .ev a { grid-template-columns: 3.8rem 1fr; } .tags { grid-column: 2; flex-direction: row; align-items: center; } .ev-note { display: none; } }
     .this-month { margin: 1rem 0 0; font-size: 0.92rem; }
     .this-month a { font-weight: 600; }
     .yrs { margin: 0.8rem 0 0; display: grid; gap: 0.4rem; }
     .yr { display: grid; grid-template-columns: 2.8rem 1fr; align-items: center; gap: 0.5rem; }
-    .yr-label { font-size: 0.8rem; color: var(--muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .yr-label { font-family: var(--display); font-size: 0.9rem; color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
     .mpills { list-style: none; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; margin: 0; padding: 0; }
     .mpills a, .mpills span { display: block; text-align: center; font-size: 0.78rem; padding: 0.35rem 0; border-radius: 8px; }
-    .mpills a { background: var(--card); border: 1px solid var(--border); color: var(--text); }
-    .mpills a:hover { border-color: var(--tc); text-decoration: none; }
+    .mpills a { background: var(--card); border: 1px solid var(--border); color: var(--text); transition: border-color 0.15s, background 0.15s; }
+    .mpills a:hover { border-color: var(--tc); background: color-mix(in srgb, var(--tc) 10%, var(--card)); text-decoration: none; }
     .mpills span { color: var(--line); opacity: 0.6; }
-    .mo.current a { background: color-mix(in srgb, var(--tc) 20%, var(--card)); border-color: var(--tc); font-weight: 700; }
+    .mo.current a { background: color-mix(in srgb, var(--tc) 20%, var(--card)); border-color: var(--tc); font-weight: 600; box-shadow: 0 0 0 3px color-mix(in srgb, var(--tc) 16%, transparent); }
     .mo.past a { opacity: 0.45; }
     @media (max-width: 560px) { .mpills { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+    .cal-cta { margin: 0.9rem 0 0; }
+    /* behind the whole page, fixed while it scrolls: faint stars and two soft washes of colour, so the reading slides over a still sky */
+    body::after { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.5;
+                  background: radial-gradient(60vw 55vh at 4% 80%, color-mix(in srgb, var(--t-ms) 17%, transparent), transparent 70%),
+                              radial-gradient(55vw 50vh at 98% 48%, color-mix(in srgb, var(--t-jup) 17%, transparent), transparent 70%),
+                              var(--stars) 30% 40% / 640px 640px; }
 """
 
+# Each icon's moving part carries a class (i-occ, i-tw, i-rock, i-blink, i-j, i-sat) that only a "Coming up" tile animates;
+# everywhere else the icon is the still drawing. Discs that hide something are filled with var(--card) first.
 ICONS = {
-    # the Moon with a planet at its edge
-    "occ": '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="17" cy="21" r="13" fill="currentColor" opacity=".22"/>'
-           '<circle cx="17" cy="21" r="13" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="30.5" cy="13" r="4" fill="currentColor"/></svg>',
+    # the Moon with a planet at its edge (the planet goes behind)
+    "occ": '<svg viewBox="0 0 40 40" aria-hidden="true"><circle class="i-occ" cx="30.5" cy="13" r="4" fill="currentColor"/>'
+           '<circle cx="17" cy="21" r="13" fill="var(--card)"/><circle cx="17" cy="21" r="13" fill="currentColor" opacity=".22"/>'
+           '<circle cx="17" cy="21" r="13" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
     # a crescent and stars
     "ms": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M21 6a14 14 0 1 0 12.2 20.8A11.5 11.5 0 1 1 21 6z" fill="currentColor"/>'
-          '<circle cx="31" cy="9" r="1.7" fill="currentColor"/><circle cx="36" cy="17" r="1.2" fill="currentColor"/><circle cx="27" cy="15.5" r="1" fill="currentColor"/></svg>',
+          '<circle class="i-tw" cx="31" cy="9" r="1.7" fill="currentColor"/><circle class="i-tw b" cx="36" cy="17" r="1.2" fill="currentColor"/>'
+          '<circle class="i-tw c" cx="27" cy="15.5" r="1" fill="currentColor"/></svg>',
     # Jupiter and its four moons
     "jup": '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="8.5" fill="currentColor"/>'
            '<path d="M12.2 17.2h15.6M11.6 21.4h16.8" stroke="var(--card)" stroke-width="1.4"/>'
-           '<circle cx="3.5" cy="20" r="1.7" fill="currentColor"/><circle cx="8.5" cy="20" r="1.4" fill="currentColor"/>'
-           '<circle cx="31.5" cy="20" r="1.5" fill="currentColor"/><circle cx="37" cy="20" r="1.7" fill="currentColor"/></svg>',
+           '<circle class="i-j" style="--d:1.2px;--p:7s" cx="3.5" cy="20" r="1.7" fill="currentColor"/>'
+           '<circle class="i-j" style="--d:1.6px;--p:2.3s" cx="8.5" cy="20" r="1.4" fill="currentColor"/>'
+           '<circle class="i-j" style="--d:-1.8px;--p:3.4s" cx="31.5" cy="20" r="1.5" fill="currentColor"/>'
+           '<circle class="i-j" style="--d:-1.2px;--p:5.2s" cx="37" cy="20" r="1.7" fill="currentColor"/></svg>',
     # Saturn, rings nearly edge-on, a moon
     "sat": '<svg viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="20" rx="17" ry="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/>'
            '<circle cx="20" cy="20" r="7.5" fill="currentColor"/><path d="M3 20a17 4.2 0 0 0 34 0" fill="none" stroke="currentColor" stroke-width="1.6"/>'
-           '<circle cx="34" cy="10" r="1.8" fill="currentColor"/></svg>',
+           '<circle class="i-sat" cx="34" cy="10" r="2.1" fill="currentColor" stroke="var(--card)" stroke-width=".9"/></svg>',
     # a lumpy asteroid in front of a star, and the narrow band of its shadow
     "ast": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M3 30.5l34-9M5 37l34-9" stroke="currentColor" stroke-width="1.4" opacity=".55"/>'
-           '<path d="M10.5 12.2c2.4-4.6 8.2-6.3 12.6-4.4 3.9 1.7 5.6 5.9 4.3 9.8-1.2 3.8-5.1 6.4-9.3 6.1-3.2-.2-5.4-1.3-7-3.5-1.5-2.2-1.9-5.4-.6-8z" fill="currentColor"/>'
-           '<circle cx="33.5" cy="6.5" r="2.4" fill="currentColor"/><path d="M33.5 1.5v10M28.5 6.5h10" stroke="currentColor" stroke-width="1"/></svg>',
+           '<g class="i-blink"><circle cx="33.5" cy="6.5" r="2.4" fill="currentColor"/><path d="M33.5 1.5v10M28.5 6.5h10" stroke="currentColor" stroke-width="1"/></g>'
+           '<path class="i-rock" d="M10.5 12.2c2.4-4.6 8.2-6.3 12.6-4.4 3.9 1.7 5.6 5.9 4.3 9.8-1.2 3.8-5.1 6.4-9.3 6.1-3.2-.2-5.4-1.3-7-3.5-1.5-2.2-1.9-5.4-.6-8z" fill="currentColor"/></svg>',
 }
+
+
+def lens(k):
+    """A kind's icon in its eyepiece: always a round field of night, ringed in the kind's colour."""
+    return f'<span class="lens sky">{ICONS[k]}</span>'
+
+
+def hero_scene():
+    """The home page's plate, drawn in a 600 x 340 box: a waxing crescent with earthshine (north up, east left, tipped as
+    in an evening sky) and a field of stars drifting west behind it. A star reaching the dark limb goes out at once and
+    comes back at the bright limb, which is what every page of the site predicts. The field repeats every P units and
+    moves SPEED units a second, so the rings that mark the three bright stars' contacts are timed from the geometry."""
+    import math
+    import random
+    R, CX, CY, P, SPEED = 105, 455, 170, 300, 10
+    rnd = random.Random(42)
+    stars = "".join(f'<circle cx="{rnd.randrange(P)}" cy="{rnd.randrange(8, 332)}" r="{rnd.choice((0.7, 0.7, 0.9, 1.1, 1.4))}" '
+                    f'opacity="{rnd.choice((0.5, 0.65, 0.8, 1))}"/>' for _ in range(30))
+    bright = [(40, 118), (150, 212), (245, 160)]
+    stars += "".join(f'<circle cx="{x}" cy="{y}" r="6.5" fill="#f2b54a" opacity=".16"/><circle cx="{x}" cy="{y}" r="2.3" fill="#f6c768"/>'
+                     for x, y in bright)
+    pings = ""
+    for x, y in bright:
+        half = math.sqrt(R * R - (y - CY) ** 2)
+        for limb, cls in ((CX - half, "d"), (CX + half, "r")):
+            pings += (f'<i class="ping ping-{cls}" style="left:{limb / 6:.2f}%;top:{y / 3.4:.2f}%;'
+                      f'animation-delay:{((limb - x) % P) / SPEED:.2f}s"></i>')
+    return f"""<div class="hero-scene" aria-hidden="true">
+    <div class="hero-drift"><svg viewBox="-{P} 0 {3 * P} 340" fill="#e9eefb"><g id="hs">{stars}</g><use href="#hs" x="-{P}"/><use href="#hs" x="{P}"/></svg></div>
+    <svg class="hero-moon" viewBox="0 0 600 340"><defs>
+      <radialGradient id="hm-glow" cx="500" cy="{CY}" r="200" gradientUnits="userSpaceOnUse"><stop offset=".4" stop-color="#cdd8f6" stop-opacity=".2"/><stop offset="1" stop-color="#cdd8f6" stop-opacity="0"/></radialGradient>
+      <radialGradient id="hm-dark" cx="430" cy="140" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#262f48"/><stop offset="1" stop-color="#171d2f"/></radialGradient>
+      <linearGradient id="hm-lit" x1="{CX + 50}" x2="{CX + R}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a9a28c"/><stop offset=".5" stop-color="#ede6d1"/><stop offset="1" stop-color="#fffaf0"/></linearGradient>
+      <filter id="hm-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.5"/></filter>
+      <mask id="hm-cres"><rect x="{CX}" y="{CY - R}" width="{R}" height="{2 * R}" fill="#fff"/><ellipse cx="{CX}" cy="{CY}" rx="56" ry="{R + 1}" fill="#000" filter="url(#hm-soft)"/></mask>
+      <clipPath id="hm-disc"><circle cx="{CX}" cy="{CY}" r="{R}"/></clipPath></defs>
+      <g transform="rotate(24 {CX} {CY})"><circle cx="500" cy="{CY}" r="200" fill="url(#hm-glow)"/>
+      <circle cx="{CX}" cy="{CY}" r="{R}" fill="url(#hm-dark)" stroke="#3b4666" stroke-width=".8"/>
+      <g clip-path="url(#hm-disc)"><g fill="#0c1120" opacity=".3" filter="url(#hm-soft)"><ellipse cx="415" cy="128" rx="34" ry="26"/><ellipse cx="388" cy="182" rx="22" ry="34"/>
+      <ellipse cx="452" cy="150" rx="26" ry="22"/><ellipse cx="440" cy="222" rx="30" ry="18"/><ellipse cx="482" cy="196" rx="20" ry="24"/></g></g>
+      <g mask="url(#hm-cres)"><circle cx="{CX}" cy="{CY}" r="{R}" fill="url(#hm-lit)"/>
+      <g fill="#8b846e" opacity=".35"><ellipse cx="528" cy="128" rx="14" ry="20"/><ellipse cx="536" cy="188" rx="12" ry="24"/><circle cx="520" cy="232" r="9"/><circle cx="546" cy="152" r="4"/><circle cx="512" cy="96" r="6"/></g></g></g>
+    </svg>{pings}
+  </div>"""
+
 
 KINDS = [
     ("occ", "occultations", "Lunar occultations", "Occultations",
@@ -1533,7 +1707,11 @@ INDEX_JS = r"""
       more.textContent = 'Show all ' + items.length + ' events' + (past.length ? ' (' + past.length + ' past)' : '');
       more.addEventListener('click', function () { list.querySelectorAll('li.ev').forEach(function (li) { li.hidden = false; }); more.hidden = true; });
     }
-    var t = document.getElementById('tile-occ');
+    var t = document.getElementById('tile-occ'), left = document.getElementById('occ-in');
+    if (left) {   // twin of in_text in build_index
+      var h = up[0] ? (Date.parse(up[0].dataset.start) - now) / 36e5 : NaN;
+      left.textContent = h !== h ? '' : h < 0 ? 'now' : h < 1 ? 'within the hour' : h < 48 ? 'in ' + Math.floor(h + 0.5) + ' hours' : 'in ' + Math.floor(h / 24 + 0.5) + ' days';
+    }
     if (t && up[0]) {
       t.setAttribute('href', up[0].querySelector('a').getAttribute('href'));
       t.querySelector('.tile-title').textContent = up[0].querySelector('.ev-what').textContent;
@@ -1603,7 +1781,8 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
         detail = f"{w.strftime('%a %-d %b %Y')} · {b['audience']}"
         tags = (f'<span class="tags"><span class="tag tag-{b["kind"]}">{b["kind"]}</span>'
                 f'<span class="tag">{esc(b["audience"])}</span></span>')
-        return (f'<li class="ev{" past" if past else ""}" data-end="{b["end_utc"]}" data-detail="{esc(detail)}">'
+        return (f'<li class="ev{" past" if past else ""}" data-start="{w.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}" '
+                f'data-end="{b["end_utc"]}" data-detail="{esc(detail)}">'
                 f'<a href="/{b["slug"]}"><span class="ev-date"><span class="ev-dmy">{w.strftime("%-d %b")}</span>'
                 f'<span class="ev-y">{w.strftime("%a %Y")}</span></span>'
                 f'<span class="ev-body"><span class="ev-what">The Moon occults {esc(b["target"])}</span>'
@@ -1616,16 +1795,22 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
 
     # ---------------- tiles
     tiles = []
+    def in_text(hours):   # twin of inText in INDEX_JS, which redoes it by the reader's clock
+        return ("now" if hours < 0 else "within the hour" if hours < 1 else f"in {int(hours + 0.5)} hours" if hours < 48
+                else f"in {int(hours / 24 + 0.5)} days")
+
     if nxt:
-        tiles.append(f'<a class="tile t-occ" id="tile-occ" href="/{nxt["slug"]}">{ICONS["occ"]}'
+        left = in_text((nxt["when"] - now).total_seconds() / 3600) if nxt in upcoming else ""
+        tiles.append(f'<a class="tile tile-main t-occ" id="tile-occ" href="/{nxt["slug"]}">{lens("occ")}<span class="tile-body">'
                      f'<span class="tile-kicker">Next lunar occultation</span>'
                      f'<span class="tile-title">The Moon occults {esc(nxt["target"])}</span>'
-                     f'<span class="tile-detail">{esc(nxt["when"].strftime("%a %-d %b %Y"))} · {esc(nxt["audience"])}</span></a>')
+                     f'<span class="tile-detail">{esc(nxt["when"].strftime("%a %-d %b %Y"))} · {esc(nxt["audience"])}</span></span>'
+                     f'<span class="tile-in" id="occ-in">{left}</span></a>')
     for k, kicker in (("ms", "Moon & stars · this month"), ("ast", "Asteroids · this month"), ("jup", "Jupiter's moons · this month"),
                       ("sat", "Saturn's moons · this month")):
         cur = current(months[k])
         if cur:
-            tiles.append(f'<a class="tile t-{k}" id="tile-{k}" href="/{cur[1]}" data-ym="{cur[0]}">{ICONS[k]}'
+            tiles.append(f'<a class="tile t-{k}" id="tile-{k}" href="/{cur[1]}" data-ym="{cur[0]}">{lens(k)}'
                          f'<span class="tile-kicker">{kicker}</span><span class="tile-title">{esc(cur[2])}</span>'
                          f'<span class="tile-detail">{esc(cur[3])}</span></a>')
 
@@ -1633,7 +1818,7 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
     def section(k, body):
         _, anchor, name, _, what, facts = kinds[k]
         facts_html = "".join(f"<li><b>{esc(a)}</b> {esc(b)}</li>" for a, b in facts)
-        return (f'<section class="kind t-{k}" id="kind-{k}"><a id="{anchor}"></a><header class="kind-head">{ICONS[k]}'
+        return (f'<section class="kind t-{k}" id="kind-{k}"><a id="{anchor}"></a><header class="kind-head">{lens(k)}'
                 f'<h2>{esc(name)}</h2><p class="kind-what">{esc(what)}</p><ul class="kind-facts">{facts_html}</ul></header>{body}</section>')
 
     sections = []
@@ -1651,12 +1836,17 @@ def build_index(seed, built, jup=(), ms=(), ast=()):
             "Where and when to see them, computed from JPL ephemerides.")
     page = head(f"{SITE_NAME} — {TAGLINE}", desc, "/", extra=f"<style>{INDEX_CSS}</style>") + f"""
 <main class="wrap">
-  <h1 class="home-h1">Occultations you can see, with times for your city</h1>
-  <p class="sub">Five kinds of sky events, computed from JPL ephemerides for where you are.</p>
-  <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
+  <section class="hero sky">
+  {hero_scene()}
+  <div class="hero-text">
+    <h1 class="home-h1">Occultations you can see, with times for your city</h1>
+    <p class="sub">Five kinds of sky events, computed from JPL ephemerides for where you are.</p>
+    <nav class="typenav" aria-label="Kinds of event">{nav}</nav>
+  </div>
+  </section>
   <h2>Coming up</h2>
   <div class="upnext">{"".join(tiles)}</div>
-  <p style="margin:0.7rem 0 0"><a href="/calendar">Get the occultations your city can see in your calendar →</a></p>
+  <p class="cal-cta"><a href="/calendar">Get the occultations your city can see in your calendar →</a></p>
   {"".join(sections)}
   <section class="kind" id="method"><h2>How these are made</h2>
   <p class="method">Everything here is computed, not copied. Sources: JPL (planets, Moon, Sun, the moons, asteroids), Gaia DR3

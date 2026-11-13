@@ -10,37 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-406237ecd910-tiruchirappalli@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202034Z
-DTEND:20261102T202234Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:50:34 at the dark limb I
- ST\, seen from Tiruchirappalli.\nThe Moon is 12° up in the ENE · dark sk
- y. Binoculars show it.\nEvery occultation this month\, for anywhere: https
- ://occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-tiruchirappalli@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T205431Z
-DTEND:20261102T214256Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:26:21 and reappears at 03:10:56 IST\, 
- seen from Tiruchirappalli.\nThe Moon is 20° up in the E · dark sky.\nTim
- es against the real lunar limb.\nMap\, timings and the view at the Moon's 
- edge: https://occult.alokm.com/jupiter-2026-11-02?city=Tiruchirappalli
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Tiruchirappalli
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-07-954-li-718912-tiruchirappalli@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261107T135356Z

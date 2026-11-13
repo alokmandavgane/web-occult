@@ -10,38 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Singapore
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-singapore-sg@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T212612Z
-DTEND:20261102T224552Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 05:27:55 and reappears at 06:44:01 +08\, 
- seen from Singapore\, SG.\nThe Moon is 50° up in the ENE · dark sky.\nTi
- mes for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the M
- oon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=1.2897&lon=103
- .8501
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=1.2897&lon=103.8501
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-b21e23ae4514-singapore-sg@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T203439Z
-DTEND:20261103T203639Z
-SUMMARY:The Moon hides 49 Leo · mag 5.8
-DESCRIPTION:49 Leo (magnitude 5.8) reappears at 04:34:39 at the dark limb +
- 08\, seen from Singapore\, SG.\nThe Moon is 26° up in the E · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-a509f27786d0-singapore-sg@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261116T152543Z

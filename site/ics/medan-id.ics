@@ -10,24 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Jakarta
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-medan-id@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T211435Z
-DTEND:20261102T223106Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 04:16:14 and reappears at 05:29:18 WIB\, 
- seen from Medan\, ID.\nThe Moon is 43° up in the ENE · dark sky.\nTimes 
- for the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon'
- s edge: https://occult.alokm.com/jupiter-2026-11-02?lat=3.5833&lon=98.6667
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=3.5833&lon=98.6667
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-13-3024-hainan-451840-medan-id@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261113T212635Z

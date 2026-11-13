@@ -10,25 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Makassar
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-makassar-id@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T221521Z
-DTEND:20261102T232244Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 06:17:37 and reappears at 07:20:31 WITA\,
-  seen from Makassar\, ID.\nThe Moon is 68° up in the NNE · daylight\, Su
- n +9°.\nTimes for the Moon's mean limb\, ±2 s.\nMap\, timings and the vi
- ew at the Moon's edge: https://occult.alokm.com/jupiter-2026-11-02?lat=-5.
- 1486&lon=119.4319
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-5.1486&lon=119.4319
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:star-af61beba6caa-makassar-id@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261106T201629Z

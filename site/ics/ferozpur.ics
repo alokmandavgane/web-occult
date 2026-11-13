@@ -10,56 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-142-polana-886464-ferozpur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T123823Z
-DTEND:20261101T124823Z
-SUMMARY:(142) Polana hides a mag 11.0 star (just outside the path) · 35% c
- hance
-DESCRIPTION:(142) Polana hides a magnitude 11.0 star\, seen from Ferozpur.\
- nThe edge is 12 km to the SSE. A miss is likely\, but an edge timing is ve
- ry valuable.\nChance of an occultation here: 35%\, allowing for the path's
-  1σ of 21 km.\nClosest approach 18:13:23 IST\, give or take 1 s. The star
-  is 19° up in the SW · dusk.\nIt fades 4.5 magnitudes for up to 1.3 s on
-  the centre line\, and the path is 55 km wide\, give or take 21 km.\nThe m
- ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
- id?e=2026-11-01-142-polana-886464
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-142-polana-886464
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(142) Polana hides a mag 11.0 star (just outside the path) · 3
- 5% chance
-TRIGGER:-PT105M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-5b8c3443c57c-ferozpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T201903Z
-DTEND:20261102T202103Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:49:03 at the dark limb I
- ST\, seen from Ferozpur.\nThe Moon is 11° up in the E · dark sky. Binocu
- lars show it.\nEvery occultation this month\, for anywhere: https://occult
- .alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-c0e96535dcac-ferozpur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215615Z
-DTEND:20261104T215815Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:26:15 at the dark limb I
- ST\, seen from Ferozpur.\nThe Moon is 6° up in the E · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-12-1911-schubart-238336-ferozpur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261112T130034Z

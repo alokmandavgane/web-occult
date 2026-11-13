@@ -10,37 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Jakarta
 BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-bandung-id@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T214212Z
-DTEND:20261102T231230Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 04:43:49 and reappears at 06:10:49 WIB\, 
- seen from Bandung\, ID.\nThe Moon is 53° up in the NE · dusk.\nTimes for
-  the Moon's mean limb\, ±2 s.\nMap\, timings and the view at the Moon's e
- dge: https://occult.alokm.com/jupiter-2026-11-02?lat=-6.9222&lon=107.6069
-URL:https://occult.alokm.com/jupiter-2026-11-02?lat=-6.9222&lon=107.6069
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-db63c8473636-bandung-id@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261103T210538Z
-DTEND:20261103T210738Z
-SUMMARY:The Moon hides 49 Leo · mag 5.8
-DESCRIPTION:49 Leo (magnitude 5.8) reappears at 04:05:38 at the dark limb W
- IB\, seen from Bandung\, ID.\nThe Moon is 36° up in the ENE · dark sky. 
- Binoculars show it.\nEvery occultation this month\, for anywhere: https://
- occult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-7d5c11e9461c-bandung-id@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261114T140058Z

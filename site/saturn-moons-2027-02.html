@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="t-sat">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://occult.alokm.com/saturn-moons-2027-02">
   <meta property="og:site_name" content="Occult">
-  <meta property="og:image" content="https://occult.alokm.com/og/saturn.png?v=5e97da4561">
+  <meta property="og:image" content="https://occult.alokm.com/og/saturn.png?v=1d4b8b7738">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Saturn&#x27;s moons: eclipses, transits and shadows">
@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Occult">
   <script>if('serviceWorker'in navigator)addEventListener('load',function(){navigator.serviceWorker.register('/sw.js')});</script>
-  <link rel="stylesheet" href="/css/base.css?v=fe3d30767f">
+  <link rel="stylesheet" href="/css/base.css?v=b998a3050a">
   <style>
     .config-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 0.6rem 0.8rem; }
     .config-svg, .cfg-scrub, #config-slider, .config-card.max { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
@@ -66,7 +66,7 @@
     .config-card.max .cfg-lbl { font-size: 14px; }
     .config-card.max .btn { padding: 0.3rem 0.6rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
     .cfg-top { display: flex; align-items: center; gap: 0.4rem 0.8rem; flex-wrap: wrap; }
-    .cfg-title { font-family: var(--serif); font-size: 1.05rem; white-space: nowrap; }
+    .cfg-title { font-family: var(--display); font-size: 1.05rem; white-space: nowrap; }
     .cfg-nightnav { display: inline-flex; align-items: center; gap: 0.25rem; }
     .cfg-nightnav select { font: inherit; font-size: 0.85rem; padding: 0.3rem 0.4rem; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
     .cfg-right { display: inline-flex; gap: 0.3rem; margin-left: auto; }
@@ -114,15 +114,26 @@
     .night-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.3rem 0.8rem; flex-wrap: wrap; }
     .night-head h3 { font-size: 1.05rem; margin: 0; letter-spacing: -0.01em; }
     .night-sub { color: var(--muted); font-size: 0.8rem; }
-    .jevents { list-style: none; margin: 0.45rem 0 0; padding: 0; display: grid; gap: 0.15rem; }
-    .jev { display: grid; grid-template-columns: 26px 1fr; gap: 0.55rem; padding: 0.4rem 0.35rem; border-radius: 9px; cursor: pointer; }
-    .jev:hover { background: var(--card-2); }
-    .jev-ico svg { width: 24px; height: 24px; color: var(--muted); margin-top: 1px; }
+    /* a night reads as a timetable: one event a row, ruled off from the next, what happens on the left and when on the right
+       (stacked on a narrow screen) */
+    .night-head { padding-bottom: 0.55rem; border-bottom: 1px solid var(--border); }
+    .jevents { list-style: none; margin: 0.2rem 0 0; padding: 0; }
+    .jev { display: grid; grid-template-columns: 28px 1fr; gap: 0.7rem; align-items: center; padding: 0.7rem 0.4rem; border-radius: 9px; cursor: pointer; }
+    .jev + .jev { border-top: 1px solid color-mix(in srgb, var(--border) 70%, transparent); border-top-left-radius: 0; border-top-right-radius: 0; }
+    .jev:hover { background: color-mix(in srgb, var(--tc, var(--accent)) 8%, transparent); }
+    .jev-ico svg { display: block; width: 26px; height: 26px; color: var(--muted); }
     .jev.k-mutual .jev-ico svg { color: var(--accent); }
-    .jev-top { font-size: 0.95rem; }
-    .jev-top .dot { display: inline-block; width: 0.6em; height: 0.6em; border-radius: 50%; margin-right: 0.45em; vertical-align: 0.05em; }
-    .jev-times { font-weight: 700; font-variant-numeric: tabular-nums; }
-    .jev-meta { font-size: 0.78rem; color: var(--muted); }
+    .jev-main { display: grid; grid-template-columns: 1fr auto; gap: 0.1rem 1.2rem; align-items: baseline; }
+    .jev-top { font-size: 1rem; line-height: 1.35; }
+    .jev-top b { font-family: var(--display); letter-spacing: -0.008em; }
+    .jev-top .dot { display: inline-block; width: 0.55em; height: 0.55em; border-radius: 50%; margin-right: 0.5em; vertical-align: 0.08em; }
+    .jev-times { grid-column: 2; grid-row: 1 / span 2; align-self: center; text-align: right; font-size: 0.95rem; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .jev-meta { font-size: 0.82rem; color: var(--muted); }
+    @media (max-width: 700px) {
+      .jev { align-items: start; }
+      .jev-main { grid-template-columns: 1fr; }
+      .jev-times { grid-column: 1; grid-row: auto; text-align: left; white-space: normal; margin: 0.1rem 0; font-size: 0.88rem; letter-spacing: -0.01em; }
+    }
 </style>
 </head>
 <body>

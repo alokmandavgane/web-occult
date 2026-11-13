@@ -10,59 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:star-406237ecd910-thanjavur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202040Z
-DTEND:20261102T202240Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:50:40 at the dark limb I
- ST\, seen from Thanjavur.\nThe Moon is 12° up in the ENE · dark sky. Bin
- oculars show it.\nEvery occultation this month\, for anywhere: https://occ
- ult.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:occ-jupiter-2026-11-02-thanjavur@occult.alokm.com
-DTSTAMP:20260914T034752Z
-DTSTART:20261102T205446Z
-DTEND:20261102T214328Z
-SUMMARY:The Moon occults Jupiter
-DESCRIPTION:Jupiter disappears at 02:26:34 and reappears at 03:11:27 IST\, 
- seen from Thanjavur.\nThe Moon is 20° up in the E · dark sky.\nTimes aga
- inst the real lunar limb.\nMap\, timings and the view at the Moon's edge: 
- https://occult.alokm.com/jupiter-2026-11-02?city=Thanjavur
-URL:https://occult.alokm.com/jupiter-2026-11-02?city=Thanjavur
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:The Moon occults Jupiter
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ast-2026-11-05-852-wladilena-922496-thanjavur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261105T212942Z
-DTEND:20261105T213942Z
-SUMMARY:(852) Wladilena hides a mag 11.7 star · 67% chance
-DESCRIPTION:(852) Wladilena hides a magnitude 11.7 star\, seen from Thanjav
- ur.\nYou're inside the path\, 6 km from the centre line. The star vanishes
-  for up to 1.7 s.\nChance of an occultation here: 67%\, allowing for the p
- ath's 1σ of 12 km.\nClosest approach 03:04:42 IST\, give or take 1 s. The
-  star is 54° up in the NNW · dark sky.\nIt fades 2.3 magnitudes for up t
- o 1.9 s on the centre line\, and the path is 27 km wide\, give or take 12 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-11-05-852-wladilena-922496
-URL:https://occult.alokm.com/asteroid?e=2026-11-05-852-wladilena-922496
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(852) Wladilena hides a mag 11.7 star · 67% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-07-954-li-718912-thanjavur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261107T135357Z

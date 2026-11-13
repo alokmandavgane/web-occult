@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-02-354-eleonora-881728-mumbai@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261102T145208Z
-DTEND:20261102T150208Z
-SUMMARY:(354) Eleonora hides a mag 11.8 star · 98% chance
-DESCRIPTION:(354) Eleonora hides a magnitude 11.8 star\, seen from Mumbai.\
- nYou're inside the path\, 42 km from the centre line. The star vanishes fo
- r up to 12.1 s.\nChance of an occultation here: 98%\, allowing for the pat
- h's 1σ of 21 km.\nClosest approach 20:27:08 IST\, give or take 2 s. The s
- tar is 46° up in the SSW · dark sky.\nIt fades 0.7 magnitudes for up to 
- 13.1 s on the centre line\, and the path is 149 km wide\, give or take 21 
- km.\nThe map\, the finder chart and the path as KML: https://occult.alokm.
- com/asteroid?e=2026-11-02-354-eleonora-881728
-URL:https://occult.alokm.com/asteroid?e=2026-11-02-354-eleonora-881728
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(354) Eleonora hides a mag 11.8 star · 98% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f49f70121e65-mumbai@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202358Z
-DTEND:20261102T202558Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:58 at the dark limb I
- ST\, seen from Mumbai.\nThe Moon is 9° up in the ENE · dark sky. Binocul
- ars show it.\nEvery occultation this month\, for anywhere: https://occult.
- alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:star-113782606109-mumbai@occult.alokm.com
 DTSTAMP:20261101T000000Z
 DTSTART:20261115T144830Z

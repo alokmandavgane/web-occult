@@ -10,41 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-921-jovita-807744-jaisalmer@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T125956Z
-DTEND:20261101T130956Z
-SUMMARY:(921) Jovita hides a mag 13.3 star · 59% chance
-DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Jaisalmer.
- \nYou're inside the path\, 11 km from the centre line. The star vanishes f
- or up to 1.7 s.\nChance of an occultation here: 59%\, allowing for the pat
- h's 1σ of 32 km.\nClosest approach 18:34:56 IST\, give or take 1 s. The s
- tar is 50° up in the SW · dusk.\nIt fades 2.2 magnitudes for up to 1.8 s
-  on the centre line\, and the path is 55 km wide\, give or take 32 km.\nTh
- e map\, the finder chart and the path as KML: https://occult.alokm.com/ast
- eroid?e=2026-11-01-921-jovita-807744
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(921) Jovita hides a mag 13.3 star · 59% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-ead279259295-jaisalmer@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202108Z
-DTEND:20261102T202308Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:51:08 at the dark limb I
- ST\, seen from Jaisalmer.\nThe Moon is 8° up in the ENE · dark sky. Bino
- culars show it.\nEvery occultation this month\, for anywhere: https://occu
- lt.alokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-06-1014-semphyra-949824-jaisalmer@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261106T172859Z

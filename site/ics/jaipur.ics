@@ -10,54 +10,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Asia/Kolkata
 BEGIN:VEVENT
-UID:ast-2026-11-01-921-jovita-807744-jaipur@occult.alokm.com
-DTSTAMP:20260916T023050Z
-DTSTART:20261101T130011Z
-DTEND:20261101T131011Z
-SUMMARY:(921) Jovita hides a mag 13.3 star · 51% chance
-DESCRIPTION:(921) Jovita hides a magnitude 13.3 star\, seen from Jaipur.\nY
- ou're inside the path\, 27 km from the centre line. The star vanishes for 
- up to 1.1 s.\nChance of an occultation here: 51%\, allowing for the path's
-  1σ of 32 km.\nClosest approach 18:35:11 IST\, give or take 1 s. The star
-  is 47° up in the SW · dusk.\nIt fades 2.2 magnitudes for up to 1.8 s on
-  the centre line\, and the path is 55 km wide\, give or take 32 km.\nThe m
- ap\, the finder chart and the path as KML: https://occult.alokm.com/astero
- id?e=2026-11-01-921-jovita-807744
-URL:https://occult.alokm.com/asteroid?e=2026-11-01-921-jovita-807744
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:(921) Jovita hides a mag 13.3 star · 51% chance
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:star-f49f70121e65-jaipur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261102T202315Z
-DTEND:20261102T202515Z
-SUMMARY:The Moon hides ψ Leo · mag 5.4
-DESCRIPTION:ψ Leo (magnitude 5.4) reappears at 01:53:15 at the dark limb I
- ST\, seen from Jaipur.\nThe Moon is 12° up in the E · dark sky. Binocula
- rs show it.\nEvery occultation this month\, for anywhere: https://occult.a
- lokm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:star-9fa776ed1b02-jaipur@occult.alokm.com
-DTSTAMP:20261101T000000Z
-DTSTART:20261104T215110Z
-DTEND:20261104T215310Z
-SUMMARY:The Moon hides 79 Leo · mag 5.4
-DESCRIPTION:79 Leo (magnitude 5.4) reappears at 03:21:10 at the dark limb I
- ST\, seen from Jaipur.\nThe Moon is 6° up in the E · dark sky. Binocular
- s show it.\nEvery occultation this month\, for anywhere: https://occult.al
- okm.com/moon-stars-2026-11
-URL:https://occult.alokm.com/moon-stars-2026-11
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ast-2026-11-15-1323-tugela-968448-jaipur@occult.alokm.com
 DTSTAMP:20260916T023050Z
 DTSTART:20261115T123431Z
